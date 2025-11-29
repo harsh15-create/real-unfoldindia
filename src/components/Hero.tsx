@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-taj-mahal.jpg";
 import indiaMap from "@/assets/india-map-bg.png";
 
@@ -26,12 +27,16 @@ export const Hero = () => {
             Explore the land of diverse cultures, ancient heritage, and breathtaking landscapes
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-              Explore Destinations
-            </Button>
-            <Button size="lg" variant="outline" className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground">
-              Plan Your Trip
-            </Button>
+            <Link to="/destinations">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Explore Destinations
+              </Button>
+            </Link>
+            <Link to="/guides">
+              <Button size="lg" variant="outline" className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground">
+                Plan Your Trip
+              </Button>
+            </Link>
           </div>
         </div>
 
