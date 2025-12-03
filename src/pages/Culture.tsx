@@ -1,5 +1,5 @@
 import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
+import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Music, Palette, Church, Drama, BookOpen, Heart } from "lucide-react";
 
@@ -56,7 +56,7 @@ const Culture = () => {
               {culturalAspects.map((aspect, index) => {
                 const Icon = aspect.icon;
                 return (
-                  <Card 
+                  <Card
                     key={aspect.title}
                     className="group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border-border/50 bg-card animate-in fade-in slide-in-from-bottom-4"
                     style={{ animationDelay: `${index * 100}ms` }}

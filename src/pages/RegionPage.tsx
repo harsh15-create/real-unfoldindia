@@ -1,5 +1,5 @@
 import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
+import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { useParams } from "react-router-dom";
 
@@ -95,7 +95,7 @@ const RegionPage = () => {
                   <h2 className="text-2xl font-semibold text-primary mb-4">Top Highlights</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {data.highlights.map((highlight, index) => (
-                      <div 
+                      <div
                         key={index}
                         className="flex items-start space-x-3 animate-in fade-in slide-in-from-left-4"
                         style={{ animationDelay: `${index * 100}ms` }}

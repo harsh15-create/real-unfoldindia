@@ -1,21 +1,14 @@
-import { Header } from "@/components/Header";
-import { Hero } from "@/components/Hero";
-import { RegionCards } from "@/components/RegionCards";
-import { FeaturedDestinations } from "@/components/FeaturedDestinations";
-import { TravelInfo } from "@/components/TravelInfo";
-import { Footer } from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import About from "@/components/About";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1">
-        <Hero />
-        <RegionCards />
-        <FeaturedDestinations />
-        <TravelInfo />
-      </main>
-      <Footer />
+    <div className="min-h-screen bg-background font-sans text-foreground selection:bg-terracotta selection:text-white">
+      <Hero />
+      <Features />
+      <About />
     </div>
   );
 };

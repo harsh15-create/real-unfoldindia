@@ -1,5 +1,5 @@
 import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
+import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Utensils, Coffee, Soup, Pizza, IceCream, Wine } from "lucide-react";
 
@@ -56,7 +56,7 @@ const Cuisine = () => {
               {cuisineTypes.map((cuisine, index) => {
                 const Icon = cuisine.icon;
                 return (
-                  <Card 
+                  <Card
                     key={cuisine.title}
                     className="group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border-border/50 bg-card animate-in fade-in slide-in-from-bottom-4"
                     style={{ animationDelay: `${index * 100}ms` }}

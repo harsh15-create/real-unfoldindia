@@ -1,5 +1,5 @@
 import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
+import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import keralaImage from "@/assets/kerala-backwaters.jpg";
@@ -64,14 +64,14 @@ const Destinations = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
               {allDestinations.map((destination, index) => (
-                <Card 
+                <Card
                   key={destination.name}
                   className="group overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-2xl border-border/50 animate-in fade-in slide-in-from-bottom-4"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   <div className="relative h-64 overflow-hidden">
-                    <img 
-                      src={destination.image} 
+                    <img
+                      src={destination.image}
                       alt={destination.name}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
