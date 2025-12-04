@@ -141,6 +141,29 @@ const Explore = () => {
                     </div>
                 </div>
 
+                {/* Guides Section */}
+                <div className="mb-20">
+                    <h2 className="text-3xl font-bold mb-8">Travel <span className="text-primary">Guides</span></h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {guides.map((guide, index) => (
+                            <Link to={guide.link} key={index}>
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: 0.5 + index * 0.1 }}
+                                    className="glass-card p-6 rounded-2xl cursor-pointer hover:bg-white/5 transition-colors h-full"
+                                >
+                                    <div className="bg-primary/20 p-3 rounded-xl w-12 h-12 flex items-center justify-center mb-4 text-primary">
+                                        <guide.icon className="h-6 w-6" />
+                                    </div>
+                                    <h3 className="text-xl font-bold text-white mb-2">{guide.name}</h3>
+                                    <p className="text-muted-foreground text-sm">{guide.desc}</p>
+                                </motion.div>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+
                 {/* Experiences Section */}
                 <div className="mb-20">
                     <h2 className="text-3xl font-bold mb-8">Unforgettable <span className="text-primary">Experiences</span></h2>
@@ -169,7 +192,7 @@ const Explore = () => {
                 </div>
 
                 {/* Culture Section */}
-                <div className="mb-20">
+                <div className="mb-12">
                     <h2 className="text-3xl font-bold mb-8">Indian <span className="text-primary">Culture</span></h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {culture.map((item, index) => (
@@ -191,29 +214,6 @@ const Explore = () => {
                                     <p className="text-white/80 text-sm">{item.desc}</p>
                                 </div>
                             </motion.div>
-                        ))}
-                    </div>
-                </div>
-
-                {/* Guides Section */}
-                <div className="mb-12">
-                    <h2 className="text-3xl font-bold mb-8">Travel <span className="text-primary">Guides</span></h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        {guides.map((guide, index) => (
-                            <Link to={guide.link} key={index}>
-                                <motion.div
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.5 + index * 0.1 }}
-                                    className="glass-card p-6 rounded-2xl cursor-pointer hover:bg-white/5 transition-colors h-full"
-                                >
-                                    <div className="bg-primary/20 p-3 rounded-xl w-12 h-12 flex items-center justify-center mb-4 text-primary">
-                                        <guide.icon className="h-6 w-6" />
-                                    </div>
-                                    <h3 className="text-xl font-bold text-white mb-2">{guide.name}</h3>
-                                    <p className="text-muted-foreground text-sm">{guide.desc}</p>
-                                </motion.div>
-                            </Link>
                         ))}
                     </div>
                 </div>
