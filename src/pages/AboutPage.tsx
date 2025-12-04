@@ -124,13 +124,13 @@ const TeamMemberCard = ({ name, role, description, education, delay }: { name: s
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay }}
         viewport={{ once: true }}
-        className="group relative overflow-hidden rounded-2xl border border-border/50 bg-background p-6 hover:shadow-lg transition-all duration-300"
+        className="group relative flex flex-col h-full overflow-hidden rounded-2xl border border-border/50 bg-background p-6 hover:shadow-lg transition-all duration-300"
     >
         <div className="mb-4">
             <h3 className="text-xl font-bold">{name}</h3>
             <p className="text-sm font-medium text-terracotta mt-1">{role}</p>
         </div>
-        <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
+        <p className="text-muted-foreground text-sm mb-4 leading-relaxed flex-grow">
             {description}
         </p>
         <div className="text-xs text-muted-foreground border-t border-border/50 pt-4 mb-6">
