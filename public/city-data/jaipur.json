@@ -145,11 +145,6 @@
         "Blackout",
         "Chokhi Dhani"
     ],
-    "itineraries": {
-        "day1": "Amer Fort → Jal Mahal → City Palace → Jantar Mantar → Hawa Mahal → Local Markets",
-        "day2": "Amer Fort → Jaigarh → Nahargarh (sunset) → Chokhi Dhani",
-        "day3": "Patrika Gate → Panna Meena ka Kund → Food trails → Bapu Bazaar shopping"
-    },
     "transport": {
         "metro": "Limited network",
         "cabs": [

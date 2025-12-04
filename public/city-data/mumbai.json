@@ -148,11 +148,6 @@
         "Versova",
         "Marine Drive"
     ],
-    "itineraries": {
-        "day1": "Gateway of India → Colaba → Marine Drive → Chowpatty → Bandra",
-        "day2": "Elephanta Caves → CSMT → Colaba → Juhu Beach → Bandra Fort → Bandra streets → Worli Sea Link",
-        "day3": "Haji Ali → Siddhivinayak → Kala Ghoda → Prithvi Theatre → Carter Road"
-    },
     "transport": {
         "metro": "₹10–₹50 (Smooth, AC)",
         "cabs": [

@@ -15,6 +15,7 @@ import Guide from "./pages/Guide";
 import FAB from "./components/FAB";
 
 import CityPage from "./pages/CityPage";
+import EntryGuide from "./pages/EntryGuide";
 import AboutPage from "./pages/AboutPage";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/trip" element={<TripDashboard />} />
           <Route path="/guide" element={<Guide />} />
           <Route path="/guide/city/:cityId" element={<CityPage />} />
+          <Route path="/guide/entry/:sectionId" element={<EntryGuide />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

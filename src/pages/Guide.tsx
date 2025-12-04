@@ -17,12 +17,12 @@ const Guide = () => {
     }, [hash]);
 
     const visaArticles = [
-        { title: "Complete Guide to Indian e-Visa", desc: "Step-by-step process for applying for an e-Tourist visa." },
-        { title: "Visa on Arrival: Eligible Countries", desc: "Check if your country qualifies for Visa on Arrival facilities." },
-        { title: "Registration for Long-Term Stay", desc: "FRRO registration guidelines for stays exceeding 180 days." },
-        { title: "Restricted Area Permits (RAP)", desc: "How to visit protected areas like Sikkim and Andaman." },
-        { title: "Customs Regulations", desc: "What you can and cannot bring into India." },
-        { title: "Money Exchange Process", desc: "Best places to exchange currency and understanding exchange rates." },
+        { title: "Complete Guide to Indian e-Visa", desc: "Step-by-step process for applying for an e-Tourist visa.", link: "/guide/entry/eVisa" },
+        { title: "Visa on Arrival: Eligible Countries", desc: "Check if your country qualifies for Visa on Arrival facilities.", link: "/guide/entry/visaOnArrival" },
+        { title: "Registration for Long-Term Stay", desc: "FRRO registration guidelines for stays exceeding 180 days.", link: "/guide/entry/frro" },
+        { title: "Restricted Area Permits (RAP)", desc: "How to visit protected areas like Sikkim and Andaman.", link: "/guide/entry/rap" },
+        { title: "Customs Regulations", desc: "What you can and cannot bring into India.", link: "/guide/entry/customs" },
+        { title: "Money Exchange Process", desc: "Best places to exchange currency and understanding exchange rates.", link: "/guide/entry/moneyExchange" },
     ];
 
     const safetyArticles = [
@@ -69,19 +69,20 @@ const Guide = () => {
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {visaArticles.map((article, index) => (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                className="glass-card p-5 rounded-2xl hover:bg-white/5 transition-colors group cursor-pointer flex flex-col h-full min-h-[200px]"
-                            >
-                                <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">{article.title}</h3>
-                                <p className="text-muted-foreground mb-3 flex-grow">{article.desc}</p>
-                                <div className="flex items-center text-sm text-primary font-medium mt-auto">
-                                    Know More <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                                </div>
-                            </motion.div>
+                            <Link to={article.link} key={index}>
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    className="glass-card p-5 rounded-2xl hover:bg-white/5 transition-colors group cursor-pointer flex flex-col h-full min-h-[200px]"
+                                >
+                                    <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">{article.title}</h3>
+                                    <p className="text-muted-foreground mb-3 flex-grow">{article.desc}</p>
+                                    <div className="flex items-center text-sm text-primary font-medium mt-auto">
+                                        Know More <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                                    </div>
+                                </motion.div>
+                            </Link>
                         ))}
                     </div>
                 </section>

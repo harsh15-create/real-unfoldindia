@@ -144,11 +144,6 @@
         "Evening Boat Ride",
         "Kedar Ghat Cafés"
     ],
-    "itineraries": {
-        "day1": "Sunrise boat ride → Kashi Vishwanath → Vishwanath Gali → Sarnath → Evening Ganga Aarti",
-        "day2": "Morning boat ride → Temples → Ghats walk → Food trail",
-        "day3": "Sarnath → Ramnagar Fort → Assi Ghat evening"
-    },
     "transport": {
         "metro": "Not available",
         "cabs": [

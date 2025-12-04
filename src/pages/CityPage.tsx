@@ -4,7 +4,7 @@ import { ArrowLeft, MapPin, Calendar, Utensils, Train, Shield, Wallet, Moon, Sho
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/Header";
 import { Badge } from "@/components/ui/badge";
-import Footer from "@/components/Footer";
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState, useEffect } from "react";
 
@@ -27,11 +27,7 @@ interface CityData {
     food: { area: string; spots: string }[];
     markets: string[];
     nightlife: string[];
-    itineraries: {
-        day1: string;
-        day2: string;
-        day3: string;
-    };
+
     transport: {
         metro: string;
         cabs: { type: string; cost: string }[];
@@ -50,6 +46,9 @@ const CityPage = () => {
     useEffect(() => {
         const fetchCityData = async () => {
             if (!cityId) return;
+
+            // Scroll to top when city changes
+            window.scrollTo(0, 0);
 
             setLoading(true);
             setError(null);
@@ -76,10 +75,9 @@ const CityPage = () => {
         return (
             <div className="min-h-screen flex flex-col">
                 <Header />
-                <main className="flex-1 flex flex-col items-center justify-center pt-24">
+                <main className="flex-1 flex flex-col items-center justify-center pt-16">
                     <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"></div>
                 </main>
-                <Footer />
             </div>
         );
     }
@@ -88,14 +86,13 @@ const CityPage = () => {
         return (
             <div className="min-h-screen flex flex-col">
                 <Header />
-                <main className="flex-1 flex flex-col items-center justify-center pt-24">
+                <main className="flex-1 flex flex-col items-center justify-center pt-16">
                     <h1 className="text-2xl font-bold mb-4">City Not Found</h1>
                     <p className="text-muted-foreground mb-6">{error || "The city you are looking for does not exist."}</p>
                     <Button asChild>
                         <Link to="/guide">Back to Guides</Link>
                     </Button>
                 </main>
-                <Footer />
             </div>
         );
     }
@@ -103,7 +100,7 @@ const CityPage = () => {
     return (
         <div className="min-h-screen flex flex-col bg-background font-sans">
             <Header />
-            <main className="flex-1 pt-24">
+            <main className="flex-1 pt-16">
                 {/* Hero Section */}
                 <div className="relative h-[70vh] w-full overflow-hidden">
                     <img
@@ -197,7 +194,7 @@ const CityPage = () => {
                             </div>
                             <h2 className="text-4xl font-bold">Top Attractions</h2>
                         </div>
-                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                             {city.attractions.map((spot, index) => (
                                 <motion.div
                                     key={index}
@@ -207,30 +204,30 @@ const CityPage = () => {
                                     viewport={{ once: true }}
                                     className="group rounded-2xl overflow-hidden border border-border/50 bg-card hover:shadow-xl transition-all duration-300 flex flex-col"
                                 >
-                                    <div className="relative h-56 overflow-hidden">
+                                    <div className="relative h-40 overflow-hidden">
                                         <img
                                             src={spot.image}
                                             alt={spot.name}
                                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                         />
-                                        <div className="absolute top-3 right-3">
-                                            <Badge variant="secondary" className="backdrop-blur-md bg-black/50 text-white border-none">
+                                        <div className="absolute top-2 right-2">
+                                            <Badge variant="secondary" className="backdrop-blur-md bg-black/50 text-white border-none text-[10px] px-2 py-0.5">
                                                 {spot.duration}
                                             </Badge>
                                         </div>
                                     </div>
-                                    <div className="p-6 flex-grow flex flex-col">
-                                        <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{spot.name}</h3>
-                                        <div className="space-y-2 text-sm text-muted-foreground mb-4 flex-grow">
+                                    <div className="p-4 flex-grow flex flex-col">
+                                        <h3 className="text-base font-bold mb-2 group-hover:text-primary transition-colors line-clamp-1">{spot.name}</h3>
+                                        <div className="space-y-1.5 text-xs text-muted-foreground mb-3 flex-grow">
                                             <div className="flex items-center gap-2">
-                                                <Clock className="h-4 w-4" /> {spot.timings}
+                                                <Clock className="h-3 w-3" /> <span className="line-clamp-1">{spot.timings}</span>
                                             </div>
                                             <div className="flex items-center gap-2">
-                                                <Wallet className="h-4 w-4" /> {spot.entry}
+                                                <Wallet className="h-3 w-3" /> <span className="line-clamp-1">{spot.entry}</span>
                                             </div>
                                             {spot.desc && (
-                                                <div className="flex items-start gap-2 mt-2">
-                                                    <Info className="h-4 w-4 mt-0.5" /> {spot.desc}
+                                                <div className="flex items-start gap-2 mt-1.5">
+                                                    <Info className="h-3 w-3 mt-0.5 flex-shrink-0" /> <span className="line-clamp-2">{spot.desc}</span>
                                                 </div>
                                             )}
                                         </div>
@@ -241,85 +238,56 @@ const CityPage = () => {
                     </section>
 
                     {/* Talk to Kira CTA */}
-                    <section className="mb-24 relative overflow-hidden rounded-3xl bg-gradient-to-r from-primary/20 via-purple-500/20 to-blue-500/20 border border-white/10 p-8 md:p-12 text-center">
+                    <section className="mb-8 relative overflow-hidden rounded-xl bg-gradient-to-r from-primary/20 via-purple-500/20 to-blue-500/20 border border-white/10 p-4 md:p-6 text-center">
                         <div className="absolute inset-0 bg-grid-white/5 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))]" />
                         <div className="relative z-10 flex flex-col items-center max-w-2xl mx-auto">
-                            <div className="bg-background/50 backdrop-blur-md p-4 rounded-full mb-6 shadow-lg border border-white/20">
-                                <Bot className="h-10 w-10 text-primary" />
+                            <div className="bg-background/50 backdrop-blur-md p-2 rounded-full mb-3 shadow-lg border border-white/20">
+                                <Bot className="h-5 w-5 text-primary" />
                             </div>
-                            <h2 className="text-3xl md:text-4xl font-bold mb-4">Confused? Talk to Kira</h2>
-                            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                                Overwhelmed by choices? Let our AI travel companion help you plan the perfect trip tailored to your preferences, budget, and pace.
+                            <h2 className="text-xl md:text-2xl font-bold mb-2">Confused? Talk to Kira</h2>
+                            <p className="text-sm text-muted-foreground mb-4 leading-relaxed max-w-lg">
+                                Overwhelmed by choices? Let our AI travel companion help you plan the perfect trip tailored to your preferences.
                             </p>
-                            <Button size="lg" className="rounded-full px-8 text-lg h-12 bg-primary hover:bg-primary/90 shadow-xl shadow-primary/20" asChild>
+                            <Button size="sm" className="rounded-full px-5 h-9 bg-primary hover:bg-primary/90 shadow-md shadow-primary/20 text-sm" asChild>
                                 <Link to="/trip">
-                                    Chat with Kira <ArrowLeft className="ml-2 h-5 w-5 rotate-180" />
+                                    Chat with Kira <ArrowLeft className="ml-2 h-3.5 w-3.5 rotate-180" />
                                 </Link>
                             </Button>
                         </div>
                     </section>
 
-                    {/* Itineraries */}
-                    <section className="mb-24">
-                        <div className="flex items-center gap-4 mb-12">
-                            <div className="bg-blue-500/10 p-3 rounded-xl text-blue-500">
-                                <Calendar className="h-8 w-8" />
-                            </div>
-                            <h2 className="text-4xl font-bold">Itineraries</h2>
-                        </div>
 
-                        <Tabs defaultValue="day1" className="w-full">
-                            <TabsList className="grid w-full grid-cols-3 mb-8">
-                                <TabsTrigger value="day1">1 Day</TabsTrigger>
-                                <TabsTrigger value="day2">2 Days</TabsTrigger>
-                                <TabsTrigger value="day3">3 Days</TabsTrigger>
-                            </TabsList>
-                            <TabsContent value="day1" className="bg-muted/30 p-8 rounded-2xl border border-border/50">
-                                <h3 className="text-xl font-bold mb-4">The Essentials</h3>
-                                <p className="text-lg leading-relaxed">{city.itineraries.day1}</p>
-                            </TabsContent>
-                            <TabsContent value="day2" className="bg-muted/30 p-8 rounded-2xl border border-border/50">
-                                <h3 className="text-xl font-bold mb-4">Culture & Heritage Deep Dive</h3>
-                                <p className="text-lg leading-relaxed">{city.itineraries.day2}</p>
-                            </TabsContent>
-                            <TabsContent value="day3" className="bg-muted/30 p-8 rounded-2xl border border-border/50">
-                                <h3 className="text-xl font-bold mb-4">Complete Experience</h3>
-                                <p className="text-lg leading-relaxed">{city.itineraries.day3}</p>
-                            </TabsContent>
-                        </Tabs>
-                    </section>
 
                     {/* Food, Markets & Nightlife Grid */}
                     <div className="grid md:grid-cols-2 gap-8 mb-24">
                         {/* Food */}
-                        <div className="bg-card rounded-2xl border border-border/50 p-8">
-                            <div className="flex items-center gap-3 mb-6">
-                                <div className="bg-yellow-500/10 p-2 rounded-lg text-yellow-600">
-                                    <Utensils className="h-6 w-6" />
+                        <div className="bg-card rounded-2xl border border-border/50 p-5">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="bg-yellow-500/10 p-1.5 rounded-lg text-yellow-600">
+                                    <Utensils className="h-5 w-5" />
                                 </div>
-                                <h3 className="text-2xl font-bold">Food & Local Eats</h3>
+                                <h3 className="text-lg font-bold">Food & Local Eats</h3>
                             </div>
-                            <div className="space-y-4">
+                            <div className="flex flex-wrap gap-2">
                                 {city.food.map((item, i) => (
-                                    <div key={i} className="border-b border-border/50 last:border-0 pb-3 last:pb-0">
-                                        <p className="font-semibold">{item.area}</p>
-                                        <p className="text-sm text-muted-foreground">{item.spots}</p>
-                                    </div>
+                                    <Badge key={i} variant="outline" className="text-sm py-1 px-3 border-yellow-500/20 text-yellow-400 bg-yellow-500/10 hover:bg-yellow-500/20 transition-colors">
+                                        <span className="font-semibold mr-1.5 text-yellow-200">{item.area}:</span> {item.spots}
+                                    </Badge>
                                 ))}
                             </div>
                         </div>
 
                         {/* Markets */}
-                        <div className="bg-card rounded-2xl border border-border/50 p-8">
-                            <div className="flex items-center gap-3 mb-6">
-                                <div className="bg-pink-500/10 p-2 rounded-lg text-pink-600">
-                                    <ShoppingBag className="h-6 w-6" />
+                        <div className="bg-card rounded-2xl border border-border/50 p-5">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="bg-pink-500/10 p-1.5 rounded-lg text-pink-600">
+                                    <ShoppingBag className="h-5 w-5" />
                                 </div>
-                                <h3 className="text-2xl font-bold">Shopping Markets</h3>
+                                <h3 className="text-lg font-bold">Shopping Markets</h3>
                             </div>
                             <div className="flex flex-wrap gap-2">
                                 {city.markets.map((market, i) => (
-                                    <Badge key={i} variant="outline" className="text-base py-1 px-3">
+                                    <Badge key={i} variant="outline" className="text-sm py-1 px-3 border-pink-500/20 text-pink-400 bg-pink-500/10 hover:bg-pink-500/20 transition-colors">
                                         {market}
                                     </Badge>
                                 ))}
@@ -327,16 +295,16 @@ const CityPage = () => {
                         </div>
 
                         {/* Nightlife */}
-                        <div className="bg-card rounded-2xl border border-border/50 p-8">
-                            <div className="flex items-center gap-3 mb-6">
-                                <div className="bg-purple-500/10 p-2 rounded-lg text-purple-600">
-                                    <Moon className="h-6 w-6" />
+                        <div className="bg-card rounded-2xl border border-border/50 p-5">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="bg-purple-500/10 p-1.5 rounded-lg text-purple-600">
+                                    <Moon className="h-5 w-5" />
                                 </div>
-                                <h3 className="text-2xl font-bold">Nightlife</h3>
+                                <h3 className="text-lg font-bold">Nightlife</h3>
                             </div>
                             <div className="flex flex-wrap gap-2">
                                 {city.nightlife.map((spot, i) => (
-                                    <Badge key={i} variant="secondary" className="text-base py-1 px-3">
+                                    <Badge key={i} variant="outline" className="text-sm py-1 px-3 border-purple-500/20 text-purple-400 bg-purple-500/10 hover:bg-purple-500/20 transition-colors">
                                         {spot}
                                     </Badge>
                                 ))}
@@ -344,16 +312,16 @@ const CityPage = () => {
                         </div>
 
                         {/* Hidden Gems */}
-                        <div className="bg-card rounded-2xl border border-border/50 p-8">
-                            <div className="flex items-center gap-3 mb-6">
-                                <div className="bg-indigo-500/10 p-2 rounded-lg text-indigo-600">
-                                    <MapPin className="h-6 w-6" />
+                        <div className="bg-card rounded-2xl border border-border/50 p-5">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="bg-indigo-500/10 p-1.5 rounded-lg text-indigo-600">
+                                    <MapPin className="h-5 w-5" />
                                 </div>
-                                <h3 className="text-2xl font-bold">Hidden Gems</h3>
+                                <h3 className="text-lg font-bold">Hidden Gems</h3>
                             </div>
                             <div className="flex flex-wrap gap-2">
                                 {city.hiddenGems.map((gem, i) => (
-                                    <Badge key={i} variant="outline" className="text-base py-1 px-3 border-indigo-200 text-indigo-700 bg-indigo-50/50">
+                                    <Badge key={i} variant="outline" className="text-sm py-1 px-3 border-indigo-500/20 text-indigo-400 bg-indigo-500/10 hover:bg-indigo-500/20 transition-colors">
                                         {gem}
                                     </Badge>
                                 ))}
@@ -405,7 +373,6 @@ const CityPage = () => {
 
                 </div>
             </main>
-            <Footer />
         </div>
     );
 };

@@ -146,11 +146,6 @@
         "New Town Clubs",
         "Rooftop Lounges"
     ],
-    "itineraries": {
-        "day1": "Victoria Memorial → St. Paul’s Cathedral → Park Street → Howrah Bridge → Prinsep Ghat sunset",
-        "day2": "Indian Museum → Esplanade → College Street → Coffee House",
-        "day3": "Dakshineswar Temple → Belur Math → River cruise → Eco Park"
-    },
     "transport": {
         "metro": "Fastest option",
         "cabs": [

@@ -127,11 +127,6 @@
         "Sadar Bazaar Food Street",
         "Light & Sound Show at Fort"
     ],
-    "itineraries": {
-        "day1": "Taj Mahal (sunrise) → Breakfast → Agra Fort → Mehtab Bagh → Sadar Bazaar",
-        "day2": "Fatehpur Sikri → Local markets → Food walk",
-        "day3": "Sikandra → Chini Ka Rauza → Marble artisans → Street food trail"
-    },
     "transport": {
         "metro": "Under construction",
         "cabs": [

@@ -137,11 +137,6 @@
         "Bonfires",
         "Leh Market Cafés"
     ],
-    "itineraries": {
-        "day1": "Leh Palace → Shanti Stupa → Sangam (Acclimatization)",
-        "day2": "Nubra Valley via Khardung La → Hunder Sand Dunes",
-        "day3": "Pangong Lake → Return to Leh"
-    },
     "transport": {
         "metro": "Not available",
         "cabs": [

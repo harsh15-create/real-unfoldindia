@@ -1,0 +1,196 @@
+{
+    "visaInfo": {
+        "eVisa": {
+            "title": "Complete Guide to Indian e-Visa",
+            "subtitle": "Fast, Online Visa for Tourism, Business, Conferences, Medical Treatment & More",
+            "description": "India’s e-Visa system allows foreign travelers from over 160 countries to apply for a visa entirely online without visiting an embassy. Once approved, you receive an Electronic Travel Authorization (ETA) by email, which is verified at the airport upon arrival. This system simplifies travel while maintaining security and convenience.",
+            "requirements": [
+                "Passport valid for at least 6 months from the date of arrival in India.",
+                "At least 2 blank pages in the passport for stamping.",
+                "A recent passport-style photograph with a plain background.",
+                "A scanned copy of the passport’s bio page.",
+                "Return or onward travel ticket is recommended.",
+                "Temporary address in India (hotel booking or host address)."
+            ],
+            "steps": [
+                "Visit the official website: https://indianvisaonline.gov.in/evisa/",
+                "Fill in your details, upload a passport photo and scanned passport page.",
+                "Pay the visa fee via a secure payment gateway.",
+                "Receive your Electronic Travel Authorization (ETA) via email within 24–72 hours.",
+                "Print the ETA and carry it with your passport.",
+                "Upon arrival, present the ETA for biometric verification and visa stamping."
+            ],
+            "entryPoints": [
+                "Delhi International Airport",
+                "Mumbai International Airport",
+                "Bengaluru International Airport",
+                "Chennai International Airport",
+                "Hyderabad International Airport",
+                "Kolkata International Airport",
+                "Goa (MOPA/Dabolim) Airport",
+                "Cochin International Airport",
+                "Authorized seaports: Mumbai, Cochin, Chennai, Mormugao, Mangalore"
+            ],
+            "importantNotes": [
+                "Apply at least 7 days before travel for safe processing.",
+                "Ensure the passport used for application is the same used during travel.",
+                "e-Visa is not available for diplomatic or official passport holders.",
+                "Travelers of Pakistani origin (parents/grandparents) are not eligible for e-Visa.",
+                "Use only the official government website to avoid scams."
+            ]
+        },
+        "visaOnArrival": {
+            "title": "Visa on Arrival in India",
+            "subtitle": "Understand Eligibility, Process & Requirements",
+            "eligibleCountries": [
+                "A limited number of countries are eligible for true Visa on Arrival.",
+                "Most travelers must apply for an e-Visa before traveling.",
+                "Eligibility rules may change and should be checked before travel."
+            ],
+            "process": [
+                "Apply online for ETA before traveling — India does not provide walk-in visas for most nationalities.",
+                "Arrive at an airport with a designated e-Visa counter.",
+                "Present your passport and printed ETA.",
+                "Provide fingerprints and photographs during verification.",
+                "Visa will be stamped on your passport on the spot."
+            ],
+            "conditions": [
+                "Passport must be valid for at least 6 months from arrival.",
+                "Travelers must show proof of departure (return ticket).",
+                "Must not have violated Indian visa rules previously.",
+                "Sufficient funds for stay may be required."
+            ],
+            "warnings": [
+                "Do NOT travel to India expecting to receive a visa without ETA.",
+                "Immigration officers may deny entry if documents are incomplete.",
+                "Avoid unofficial websites or agents that charge extra for visa processing."
+            ]
+        },
+        "frro": {
+            "title": "FRRO / e-FRRO Registration for Long-Term Stay",
+            "subtitle": "Mandatory Registration for Stays Over 180 Days or Specific Visa Categories",
+            "whoNeedsIt": [
+                "Foreigners staying in India for more than 180 days.",
+                "Students enrolled in long-term courses.",
+                "Foreign employees working in India.",
+                "Medical visa holders undergoing extended treatment.",
+                "Research visa holders."
+            ],
+            "registrationSteps": [
+                "Visit the official portal: https://indianfrro.gov.in",
+                "Create an account and fill out the registration form.",
+                "Upload required documents such as passport, visa, and address proof.",
+                "Submit the application and pay the required fees.",
+                "Await approval or additional instructions via email.",
+                "Attend an in-person interview only if requested by FRRO."
+            ],
+            "documentsRequired": [
+                "Passport and visa (original + scanned copies).",
+                "Recent passport-sized photograph.",
+                "Proof of residence (hotel letter, rental agreement, host letter).",
+                "Supporting documents: admission letter, employment contract, medical record, etc.",
+                "Proof of financial stability, if applicable."
+            ],
+            "importantRules": [
+                "Registration must be completed within 14 days of arrival.",
+                "Overstaying your visa is a legal offense and may incur penalties.",
+                "Changes in residential address must be updated immediately on e-FRRO.",
+                "Carry your Registration Certificate/Residential Permit during domestic travel.",
+                "Extensions must be applied for before visa expiry."
+            ]
+        },
+        "rap": {
+            "title": "Restricted Area Permit (RAP)",
+            "subtitle": "Permit Required for Visiting India’s Protected and Border Regions",
+            "whatIsRAP": "A Restricted Area Permit (RAP) is a mandatory document required by foreign nationals to visit protected or sensitive regions in India due to security, ecological, or cultural reasons.",
+            "regions": [
+                "Andaman & Nicobar Islands — certain islands require RAP.",
+                "Parts of Sikkim including North Sikkim, Tsomgo Lake, Lachen, Lachung.",
+                "Arunachal Pradesh — large portions require PAP/RAP.",
+                "Border areas in Himachal Pradesh and Uttarakhand."
+            ],
+            "applicationProcess": [
+                "Apply through the e-FRRO portal or an Indian Embassy.",
+                "Submit passport, visa copy, photos, and travel itinerary.",
+                "Some regions require travel with a registered tour operator.",
+                "Wait for security clearance (processing time varies)."
+            ],
+            "rules": [
+                "Permits are usually valid for 30 days and may be extendable.",
+                "Solo travel may not be permitted in certain areas.",
+                "Travel must be restricted to approved routes only.",
+                "Photography may be restricted in military or tribal zones."
+            ],
+            "notes": [
+                "Most major tourist destinations do NOT require a RAP.",
+                "North Sentinel Island is completely off-limits to all visitors.",
+                "Always carry printed copies of your permit during travel."
+            ]
+        },
+        "customs": {
+            "title": "Customs Regulations for Entering India",
+            "subtitle": "What You Can Bring, What You Must Declare & What Is Prohibited",
+            "allowedItems": [
+                "Personal clothing, accessories, and electronics.",
+                "One laptop, camera, and personal electronic devices.",
+                "2 liters of alcohol per adult.",
+                "100 cigarettes or 25 cigars or 125g tobacco.",
+                "Medicines for personal use with prescriptions."
+            ],
+            "declarationItems": [
+                "Foreign currency over USD 5,000 in cash or USD 10,000 total.",
+                "High-value electronics not for personal use.",
+                "Gold jewelry above the permitted limit.",
+                "Drone equipment (requires DGCA permission)."
+            ],
+            "prohibitedItems": [
+                "Narcotics and illegal drugs.",
+                "Firearms, ammunition, and explosives.",
+                "Satellite phones without government clearance.",
+                "Wildlife products or ivory.",
+                "Counterfeit currency or banned literature."
+            ],
+            "foodRules": [
+                "Packaged snacks are generally allowed.",
+                "Fresh fruits, vegetables, seeds, and meat may be confiscated.",
+                "Declare all food items if unsure to avoid penalties."
+            ],
+            "tips": [
+                "Use the Red Channel if carrying items that require declaration.",
+                "Retain currency exchange receipts for reconversion when departing.",
+                "Do not transport undeclared gold — penalties are severe."
+            ]
+        },
+        "moneyExchange": {
+            "title": "Money Exchange & Currency Rules in India",
+            "subtitle": "Where to Exchange Money, How Much You Can Carry & Digital Payment Options",
+            "whereToExchange": [
+                "Authorized banks across major Indian cities.",
+                "Licensed forex counters at airports.",
+                "Government-approved money exchangers.",
+                "ATMs supporting Visa/MasterCard for cash withdrawal."
+            ],
+            "currencyLimits": [
+                "Foreign tourists may bring unlimited foreign currency but must declare amounts over USD 5,000 (cash) or USD 10,000 (total).",
+                "Foreign tourists can carry up to ₹25,000 in Indian Rupees.",
+                "Indian residents returning from abroad have separate limits for INR import."
+            ],
+            "rules": [
+                "Always use authorized money changers for safe transactions.",
+                "Keep exchange receipts for converting INR back to your home currency.",
+                "ATMs may charge foreign transaction fees — check with your bank."
+            ],
+            "digitalPaymentInfo": [
+                "UPI is widely used in India but generally requires an Indian phone number and KYC.",
+                "Some countries now support UPI International (availability varies).",
+                "Credit/debit cards are accepted in most urban areas."
+            ],
+            "bestPractices": [
+                "Compare exchange rates before exchanging large amounts.",
+                "Avoid street or unauthorized exchangers.",
+                "Use ATMs inside banks for added security.",
+                "Store cash in multiple places while traveling."
+            ]
+        }
+    }
+}

@@ -143,11 +143,6 @@
         "Rooftop Restaurants",
         "Fateh Sagar Lake Cafés"
     ],
-    "itineraries": {
-        "day1": "City Palace → Jagdish Temple → Lake Pichola boat ride → Ambrai Ghat",
-        "day2": "Sajjangarh Palace → Fateh Sagar Lake → Saheliyon Ki Bari → Shopping",
-        "day3": "Badi Lake → Bahubali Hills → Shilpgram → Vintage Car Museum"
-    },
     "transport": {
         "metro": "Not available",
         "cabs": [

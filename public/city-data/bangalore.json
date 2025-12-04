@@ -145,11 +145,6 @@
         "MG Road",
         "Church Street"
     ],
-    "itineraries": {
-        "day1": "Lalbagh → Bangalore Palace → MG Road → UB City → Church Street",
-        "day2": "Lalbagh → Vidhana Soudha → Commercial Street → Indiranagar",
-        "day3": "Bannerghatta Safari → ISKCON Temple → Brigade Road"
-    },
     "transport": {
         "metro": "Efficient network (Namma Metro)",
         "cabs": [

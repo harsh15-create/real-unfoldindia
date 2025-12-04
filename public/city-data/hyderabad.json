@@ -144,11 +144,6 @@
         "Hitec City",
         "Gachibowli"
     ],
-    "itineraries": {
-        "day1": "Charminar → Chowmahalla Palace → Laad Bazaar → Hussain Sagar Lake",
-        "day2": "Golconda Fort → Qutb Shahi Tombs → Ramoji Film City (if time permits)",
-        "day3": "Shilparamam → Banjara Hills cafés → Shopping"
-    },
     "transport": {
         "metro": "Expanding fast",
         "cabs": [

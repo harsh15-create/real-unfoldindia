@@ -126,11 +126,6 @@
         "Aerocity",
         "Connaught Place"
     ],
-    "itineraries": {
-        "day1": "India Gate → Qutub Minar → Mehrauli → Humayun’s Tomb → CP",
-        "day2": "Red Fort → Chandni Chowk → Jama Masjid → Lotus Temple → Qutub Minar → Mehrauli → Bangla Sahib → Hauz Khas",
-        "day3": "Add Akshardham, Lodhi Art District, Sunder Nursery, markets"
-    },
     "transport": {
         "metro": "₹20–₹60",
         "cabs": [

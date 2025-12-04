@@ -145,11 +145,6 @@
         "ECR Clubs",
         "Velachery Pubs"
     ],
-    "itineraries": {
-        "day1": "Kapaleeshwarar Temple → Santhome Cathedral → Marina Beach → Lighthouse → Food trail",
-        "day2": "Marina Beach → Government Museum → Mylapore → Besant Nagar",
-        "day3": "DakshinaChitra → ECR drive → Beach cafés"
-    },
     "transport": {
         "metro": "Modern & Fast",
         "cabs": [

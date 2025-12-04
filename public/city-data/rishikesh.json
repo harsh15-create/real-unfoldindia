@@ -125,11 +125,6 @@
         "Café Hopping",
         "Night Walks"
     ],
-    "itineraries": {
-        "day1": "Laxman Jhula → Beatles Ashram → Ganga Aarti at Triveni Ghat",
-        "day2": "River Rafting → Tapovan Cafés → Neer Garh Waterfall",
-        "day3": "Camping → Neelkanth Mahadev Temple → Yoga Session"
-    },
     "transport": {
         "metro": "Not available",
         "cabs": [
