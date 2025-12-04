@@ -56,6 +56,28 @@ const EntryGuide = () => {
         return result.charAt(0).toUpperCase() + result.slice(1);
     };
 
+    const renderTextWithLinks = (text: string) => {
+        const urlRegex = /(https?:\/\/[^\s]+)/g;
+        const parts = text.split(urlRegex);
+
+        return parts.map((part, index) => {
+            if (part.match(urlRegex)) {
+                return (
+                    <a
+                        key={index}
+                        href={part}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline font-medium break-all"
+                    >
+                        {part}
+                    </a>
+                );
+            }
+            return part;
+        });
+    };
+
     const renderContent = (key: string, value: any) => {
         if (key === 'title' || key === 'subtitle' || key === 'description' || key === 'whatIsRAP') return null;
 
@@ -82,7 +104,7 @@ const EntryGuide = () => {
                         {value.map((item, index) => (
                             <li key={index} className="flex items-start gap-4 text-muted-foreground leading-relaxed text-lg group">
                                 <span className="mt-2.5 h-2 w-2 rounded-full bg-gradient-to-r from-primary to-purple-500 flex-shrink-0 group-hover:scale-125 transition-transform duration-300" />
-                                <span className="group-hover:text-foreground transition-colors duration-300">{item}</span>
+                                <span className="group-hover:text-foreground transition-colors duration-300">{renderTextWithLinks(item)}</span>
                             </li>
                         ))}
                     </ul>
@@ -94,7 +116,7 @@ const EntryGuide = () => {
             return (
                 <motion.div variants={itemVariants} key={key} className="h-full">
                     <h3 className="text-2xl font-bold mb-4 text-primary">{formatKey(key)}</h3>
-                    <p className="text-muted-foreground leading-relaxed text-lg">{value}</p>
+                    <p className="text-muted-foreground leading-relaxed text-lg">{renderTextWithLinks(value)}</p>
                 </motion.div>
             );
         }

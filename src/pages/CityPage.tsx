@@ -217,8 +217,15 @@ const CityPage = () => {
                                         </div>
                                     </div>
                                     <div className="p-4 flex-grow flex flex-col">
-                                        <h3 className="text-base font-bold mb-2 group-hover:text-primary transition-colors line-clamp-1">{spot.name}</h3>
-                                        <div className="space-y-1.5 text-xs text-muted-foreground mb-3 flex-grow">
+                                        <div className="flex items-start justify-between gap-2 mb-2">
+                                            <h3 className="text-base font-bold group-hover:text-primary transition-colors line-clamp-1">{spot.name}</h3>
+                                            <Button size="icon" variant="secondary" className="h-6 w-6 shrink-0 rounded-full bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20" asChild>
+                                                <Link to="/map">
+                                                    <MapPin className="h-3 w-3" />
+                                                </Link>
+                                            </Button>
+                                        </div>
+                                        <div className="space-y-1.5 text-xs text-muted-foreground flex-grow">
                                             <div className="flex items-center gap-2">
                                                 <Clock className="h-3 w-3" /> <span className="line-clamp-1">{spot.timings}</span>
                                             </div>
@@ -248,11 +255,18 @@ const CityPage = () => {
                             <p className="text-sm text-muted-foreground mb-4 leading-relaxed max-w-lg">
                                 Overwhelmed by choices? Let our AI travel companion help you plan the perfect trip tailored to your preferences.
                             </p>
-                            <Button size="sm" className="rounded-full px-5 h-9 bg-primary hover:bg-primary/90 shadow-md shadow-primary/20 text-sm" asChild>
-                                <Link to="/trip">
-                                    Chat with Kira <ArrowLeft className="ml-2 h-3.5 w-3.5 rotate-180" />
-                                </Link>
-                            </Button>
+                            <div className="flex flex-wrap justify-center gap-4">
+                                <Button size="sm" className="rounded-full px-6 h-10 bg-primary hover:bg-primary/90 shadow-md shadow-primary/20 text-sm" asChild>
+                                    <Link to="/trip">
+                                        Chat with Kira <Bot className="ml-2 h-4 w-4" />
+                                    </Link>
+                                </Button>
+                                <Button size="sm" variant="outline" className="rounded-full px-6 h-10 border-primary/50 text-primary hover:bg-primary/10 hover:text-primary shadow-sm backdrop-blur-sm" asChild>
+                                    <Link to={`/trip?action=itinerary&city=${city.name}`}>
+                                        Get Itinerary <Calendar className="ml-2 h-4 w-4" />
+                                    </Link>
+                                </Button>
+                            </div>
                         </div>
                     </section>
 
