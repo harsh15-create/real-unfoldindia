@@ -1,0 +1,65 @@
+{
+    "safetyInfo": {
+        "soloFemaleTravel": {
+            "title": "Solo Female Travel in India",
+            "content": "Solo female travel in India has become increasingly common, with more women choosing to explore the country independently. India offers an extraordinary mix of culture, history, food, and landscapes, but it also requires awareness due to its fast-paced and diverse environments. In major cities like Mumbai, Bangalore, and Delhi, women travel independently every day, using public transportation and ride-hailing services without difficulty. Smaller towns and rural regions may feel more traditional, so adapting to local cultural norms—such as dressing modestly or avoiding isolated areas at night—can make the experience more comfortable. Most interactions with locals are positive, but it is important to maintain personal boundaries and avoid sharing private details with strangers. Selecting reputable accommodations, using verified transport, and staying aware of surroundings contribute to a safer and more confident journey. With practical preparation and common-sense decisions, solo female travelers can enjoy India in a meaningful and empowering way.",
+            "highlights": [
+                "Use ride-hailing apps like Uber, Ola, and BluSmart for safer mobility.",
+                "Choose centrally located hotels or hostels with strong female traveler reviews.",
+                "Carry a portable charger, emergency contacts, and printed accommodation information.",
+                "Trust your instincts and exit any situation that feels uncomfortable."
+            ]
+        },
+        "touristScams": {
+            "title": "Avoiding Common Tourist Scams",
+            "content": "India is warm and welcoming to travelers, but like any major tourist destination, high-traffic areas may attract individuals attempting to take advantage of uninformed visitors. Taxi overcharging, fake tourist offices, and misleading claims such as an attraction being “closed today” are among the most common tactics used to deceive tourists. Scammers often rely on confusion or urgency, pressuring travelers into quick decisions. Being aware of official procedures, verifying information online, and using reputable services greatly reduces exposure to these risks. Instead of engaging with unsolicited guides or overly persuasive strangers, travelers should rely on hotel staff, official tourism counters, or verified digital platforms. Market shopping is a delightful experience, but prices can vary widely, so comparing costs and bargaining politely helps avoid overspending. Awareness, calm decision-making, and skepticism toward unsolicited offers are the most effective tools to avoid scams.",
+            "highlights": [
+                "Fake tourist offices often try to sell unnecessary permits or overpriced tours.",
+                "Drivers claiming that the meter is broken typically aim to overcharge.",
+                "Scammers may say attractions are closed to redirect you to shops or guides.",
+                "Overfriendly strangers may insist on helping but later demand payment."
+            ]
+        },
+        "emergencyContacts": {
+            "title": "Emergency Numbers and Contacts",
+            "content": "India operates a modern, centralized emergency response system designed to assist both residents and travelers quickly and effectively. The unified emergency number 112 is the most important number to remember, as it connects to police, fire, and medical services nationwide. Traditional helplines such as 100 for police, 102 for basic ambulance services, and 108 for rapid emergency medical care remain operational and widely used. Women’s safety concerns can be addressed through the 1091 helpline, while children’s emergencies—including lost or endangered minors—are supported through 1098. For travelers specifically, the India Tourism Helpline (1363) provides multilingual assistance with safety issues, travel disruptions, and guidance during emergencies. Keeping emergency numbers accessible, maintaining both digital and physical copies of essential documents, and sharing itineraries with someone trustworthy greatly improve preparedness in unexpected situations.",
+            "importantNumbers": [
+                "112 – Unified emergency number for police, fire, and ambulance.",
+                "100 – Police helpline for immediate law enforcement assistance.",
+                "102 – Ambulance service for basic medical emergencies.",
+                "108 – Rapid response ambulance for accidents and critical care.",
+                "1091 – Women’s helpline for safety concerns.",
+                "1098 – Child helpline for emergencies involving minors.",
+                "1363 – India Tourism Helpline, available in multiple languages."
+            ],
+            "tips": [
+                "Keep copies of passport, visa, and insurance documents in both digital and printed form.",
+                "Save emergency numbers in your phone and write them down as a backup.",
+                "Share accommodation details and daily plans with a trusted contact.",
+                "Download offline maps to navigate even when mobile data is unavailable."
+            ]
+        },
+        "foodWaterSafety": {
+            "title": "Food and Water Safety",
+            "content": "Indian cuisine is beloved all over the world for its bold flavors, regional diversity, and cultural significance. Travelers often find the food to be one of the most memorable parts of their trip, but adapting to new ingredients, spices, and water standards requires care. Busy restaurants with high turnover are generally more reliable, as fresh food is cooked continuously. Street food can be enjoyed safely when chosen from vendors who maintain cleanliness and attract local crowds, indicating trust and popularity. Tap water in India is not suitable for foreign travelers, and bottled water is the safest option; always check that the seal is intact before drinking. Ice from unknown sources should be avoided unless you are in an establishment that uses purified water. If digestive issues arise, staying hydrated with oral rehydration salts and resting is often sufficient. Pharmacies in India are accessible and can provide quick remedies. With thoughtful choices and awareness, travelers can enjoy India's culinary richness without discomfort.",
+            "practices": [
+                "Drink only sealed bottled water and avoid tap water entirely.",
+                "Choose busy restaurants or stalls with high food turnover.",
+                "Avoid raw salads or street-side cut fruits unless hygiene is clear.",
+                "Start with milder dishes if you are not used to spicy food.",
+                "Avoid ice unless you are certain it is made from purified water."
+            ]
+        },
+        "transportSafety": {
+            "title": "Transportation Safety",
+            "content": "India’s transportation system is vast and diverse, offering everything from modern metro networks to traditional auto-rickshaws and long-distance trains. Ride-hailing apps such as Uber, Ola, and BluSmart offer safe and trackable transportation in most major cities. Before entering any hired vehicle, verifying the license plate and driver details displayed in the app helps prevent mix-ups and enhances safety. Auto-rickshaws are a unique and enjoyable part of local travel, but fares should be agreed upon beforehand if the meter is not used. Metro systems in cities like Delhi, Mumbai, and Bangalore are clean, reliable, and commonly used by locals, with women-only coaches available for added comfort. Buses provide affordable mobility but can become crowded, especially during peak hours. For long journeys, trains are a popular option, and booking air-conditioned coaches provides greater comfort and security. Overnight trains and buses require extra caution, such as securing bags and keeping valuables close. Pedestrian safety also demands attention, as traffic can be unpredictable. Planning routes ahead of time and choosing safe transportation options significantly improves the travel experience.",
+            "recommendations": [
+                "Verify vehicle and driver details before entering any taxi or ride-share.",
+                "Use metro systems for efficient and safe travel in big cities.",
+                "Negotiate auto-rickshaw fares or request meter use before starting the trip.",
+                "Keep valuables secure and within sight during bus or train travel.",
+                "Use hotel-arranged or app-based transport for late-night movement."
+            ]
+        }
+    }
+}

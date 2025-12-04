@@ -26,11 +26,11 @@ const Guide = () => {
     ];
 
     const safetyArticles = [
-        { title: "Solo Female Travel in India", desc: "Essential tips for a safe and empowering journey." },
-        { title: "Avoiding Common Tourist Scams", desc: "How to spot and avoid touts and overcharging." },
-        { title: "Emergency Numbers & Contacts", desc: "Police, Ambulance, and Tourist Helpline numbers." },
-        { title: "Food & Water Safety", desc: "Eating street food safely and staying hydrated." },
-        { title: "Transportation Safety", desc: "Using authorized taxis and navigating public transport." },
+        { title: "Solo Female Travel in India", desc: "Essential tips for a safe and empowering journey.", link: "/guide/safety/soloFemaleTravel" },
+        { title: "Avoiding Common Tourist Scams", desc: "How to spot and avoid touts and overcharging.", link: "/guide/safety/touristScams" },
+        { title: "Emergency Numbers & Contacts", desc: "Police, Ambulance, and Tourist Helpline numbers.", link: "/guide/safety/emergencyContacts" },
+        { title: "Food & Water Safety", desc: "Eating street food safely and staying hydrated.", link: "/guide/safety/foodWaterSafety" },
+        { title: "Transportation Safety", desc: "Using authorized taxis and navigating public transport.", link: "/guide/safety/transportSafety" },
     ];
 
     const cities = [
@@ -97,19 +97,20 @@ const Guide = () => {
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {safetyArticles.map((article, index) => (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                className="glass-card p-5 rounded-2xl hover:bg-white/5 transition-colors group cursor-pointer border-l-4 border-l-green-500 flex flex-col h-full min-h-[200px]"
-                            >
-                                <h3 className="text-xl font-bold mb-2 group-hover:text-green-500 transition-colors">{article.title}</h3>
-                                <p className="text-muted-foreground mb-3 flex-grow">{article.desc}</p>
-                                <div className="flex items-center text-sm text-green-500 font-medium mt-auto">
-                                    Know More <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                                </div>
-                            </motion.div>
+                            <Link to={article.link} key={index}>
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    className="glass-card p-5 rounded-2xl hover:bg-white/5 transition-colors group cursor-pointer border-l-4 border-l-green-500 flex flex-col h-full min-h-[200px]"
+                                >
+                                    <h3 className="text-xl font-bold mb-2 group-hover:text-green-500 transition-colors">{article.title}</h3>
+                                    <p className="text-muted-foreground mb-3 flex-grow">{article.desc}</p>
+                                    <div className="flex items-center text-sm text-green-500 font-medium mt-auto">
+                                        Know More <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                                    </div>
+                                </motion.div>
+                            </Link>
                         ))}
                     </div>
                 </section>
