@@ -1,0 +1,195 @@
+{
+    "name": "Udaipur",
+    "title": "The City of Lakes",
+    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=1000&auto=format&fit=crop",
+    "about": "Udaipur, one of India’s most romantic destinations, is famous for its lakes, palaces, sunsets, and rich Rajasthani heritage. Known as the “City of Lakes,” Udaipur attracts travelers with its serene atmosphere, royal architecture, vibrant markets, and scenic viewpoints.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Best season, pleasant weather."
+        },
+        {
+            "season": "April to June",
+            "desc": "Hot, best to avoid outdoor activities during the day."
+        },
+        {
+            "season": "July to September",
+            "desc": "Monsoon greenery adds to the charm."
+        },
+        {
+            "season": "Festivals",
+            "desc": "Mewar Festival, Shilpgram Festival."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "City Palace",
+            "image": "https://images.unsplash.com/photo-1557690756-62764a7400d6?q=80&w=800&auto=format&fit=crop",
+            "timings": "9:30 AM – 5:30 PM",
+            "entry": "₹300 (Indians)",
+            "duration": "2 hrs",
+            "desc": "A massive palace complex with museums, courtyards, and lake views."
+        },
+        {
+            "name": "Lake Pichola",
+            "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free (Boat ride charges apply)",
+            "duration": "1–2 hrs",
+            "desc": "Famous for sunset boat rides and island palaces."
+        },
+        {
+            "name": "Jag Mandir",
+            "image": "https://images.unsplash.com/photo-1582506843444-2e32298b6f7a?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 6 PM",
+            "entry": "Free (Boat transfer chargeable)",
+            "duration": "1 hr",
+            "desc": "Island palace on Lake Pichola."
+        },
+        {
+            "name": "Gangaur Ghat",
+            "image": "https://images.unsplash.com/photo-1598887142487-3c854d53d2c8?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "Photography spot, morning & evening vibe."
+        },
+        {
+            "name": "Jagdish Temple",
+            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "timings": "4:15 AM – 1 PM, 5:15 PM – 8 PM",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Historic Hindu temple with intricate carvings."
+        },
+        {
+            "name": "Fateh Sagar Lake",
+            "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "1–2 hrs",
+            "desc": "Boating, cafés, sunset views."
+        },
+        {
+            "name": "Sajjangarh (Monsoon Palace)",
+            "image": "https://images.unsplash.com/photo-1583590025986-d9f98f50332a?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 6 PM",
+            "entry": "₹110",
+            "duration": "1–2 hrs",
+            "desc": "Hilltop viewpoint, best for sunset."
+        },
+        {
+            "name": "Saheliyon Ki Bari",
+            "image": "https://images.unsplash.com/photo-1596005554384-d293674c91d7?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 7 PM",
+            "entry": "₹10",
+            "duration": "1 hr",
+            "desc": "Beautiful royal garden with fountains."
+        },
+        {
+            "name": "Shilpgram",
+            "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+            "timings": "11 AM – 7 PM",
+            "entry": "₹30",
+            "duration": "2 hrs",
+            "desc": "Cultural village showcasing crafts & performances."
+        },
+        {
+            "name": "Vintage Car Museum",
+            "image": "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 9 PM",
+            "entry": "₹400",
+            "duration": "45 mins",
+            "desc": "Unique automobile collection of the Maharanas."
+        }
+    ],
+    "hiddenGems": [
+        "Badi Lake",
+        "Bahubali Hills",
+        "Ambrai Ghat",
+        "Tiger Lake",
+        "Crystal Gallery"
+    ],
+    "food": [
+        {
+            "area": "Ambrai Restaurant",
+            "spots": "Lake view dining"
+        },
+        {
+            "area": "Upre",
+            "spots": "Rooftop views"
+        },
+        {
+            "area": "Jagat Niwas",
+            "spots": "Rooftop dining"
+        },
+        {
+            "area": "Khamma Ghani",
+            "spots": "Fine dining"
+        },
+        {
+            "area": "Grasswood Cafe",
+            "spots": "Café food"
+        }
+    ],
+    "markets": [
+        "Hathi Pol",
+        "Bada Bazaar",
+        "Shilpgram Bazaar",
+        "Chetak Circle"
+    ],
+    "nightlife": [
+        "Ambrai Ghat",
+        "Rooftop Restaurants",
+        "Fateh Sagar Lake Cafés"
+    ],
+    "itineraries": {
+        "day1": "City Palace → Jagdish Temple → Lake Pichola boat ride → Ambrai Ghat",
+        "day2": "Sajjangarh Palace → Fateh Sagar Lake → Saheliyon Ki Bari → Shopping",
+        "day3": "Badi Lake → Bahubali Hills → Shilpgram → Vintage Car Museum"
+    },
+    "transport": {
+        "metro": "Not available",
+        "cabs": [
+            {
+                "type": "Auto-rickshaw",
+                "cost": "Negotiable"
+            },
+            {
+                "type": "Ola/Uber",
+                "cost": "₹60–₹200"
+            },
+            {
+                "type": "Bike Rental",
+                "cost": "₹300–₹500/day"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800–₹1300/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4000–₹8000/day"
+        }
+    ],
+    "stay": [
+        "Lake Pichola",
+        "Lal Ghat",
+        "Fateh Sagar Lake",
+        "Udaipur City Centre"
+    ],
+    "safety": [
+        "Narrow old city roads—walk carefully",
+        "Sunset viewpoints get crowded",
+        "Beware of overpriced tour operators",
+        "Drink plenty of water (dry climate)",
+        "Stick to known areas at night"
+    ]
+}

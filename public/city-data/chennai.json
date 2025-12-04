@@ -1,0 +1,197 @@
+{
+    "name": "Chennai",
+    "title": "The Gateway to South India",
+    "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=1000&auto=format&fit=crop",
+    "about": "Chennai, the capital of Tamil Nadu, is a beautiful blend of beaches, temples, culture, classical music, film industry, and modern city life. Known for its coastal charm, rich traditions, delicious South Indian food, and warm local hospitality, Chennai is one of India’s most diverse and culturally rooted metros.",
+    "bestTime": [
+        {
+            "season": "November to February",
+            "desc": "Best weather, pleasant and cool."
+        },
+        {
+            "season": "March to June",
+            "desc": "Hot and humid, best to avoid."
+        },
+        {
+            "season": "July to October",
+            "desc": "Monsoon rains bring relief."
+        },
+        {
+            "season": "Festivals",
+            "desc": "Pongal, Chennai Music Season (Dec–Jan)."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Marina Beach",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "1–1.5 hrs",
+            "desc": "World’s second-longest urban beach, best for sunrise and sunset."
+        },
+        {
+            "name": "Kapaleeshwarar Temple",
+            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "timings": "6 AM – 12:30 PM, 4 PM – 8 PM",
+            "entry": "Free",
+            "duration": "45 mins",
+            "desc": "Ancient Dravidian temple dedicated to Lord Shiva in Mylapore."
+        },
+        {
+            "name": "Santhome Cathedral",
+            "image": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop",
+            "timings": "6 AM – 9 PM",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Historic seaside church built by the Portuguese."
+        },
+        {
+            "name": "Fort St. George",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 5 PM (Fri Closed)",
+            "entry": "₹15 (Museum)",
+            "duration": "1 hr",
+            "desc": "First English fortress in India, housing a museum."
+        },
+        {
+            "name": "Government Museum (Egmore)",
+            "image": "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+            "timings": "9:30 AM – 5 PM (Fri Closed)",
+            "entry": "₹15",
+            "duration": "1–2 hrs",
+            "desc": "Known for its bronze gallery and archaeological exhibits."
+        },
+        {
+            "name": "Valluvar Kottam",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "8:30 AM – 5:30 PM",
+            "entry": "₹3",
+            "duration": "30 mins",
+            "desc": "Memorial dedicated to the classical Tamil poet Thiruvalluvar."
+        },
+        {
+            "name": "Guindy National Park",
+            "image": "https://images.unsplash.com/photo-1588096344321-2168f1c0d6b7?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 5:30 PM (Tue Closed)",
+            "entry": "₹20",
+            "duration": "1–1.5 hrs",
+            "desc": "A protected forest area within the city limits."
+        },
+        {
+            "name": "Besant Nagar (Elliot’s Beach)",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "Calm beach with cafés, ideal for evening walks."
+        },
+        {
+            "name": "Chennai Lighthouse",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 1 PM, 3 PM – 6 PM (Mon Closed)",
+            "entry": "₹10",
+            "duration": "30 mins",
+            "desc": "Offers panoramic views of Marina Beach and the city."
+        },
+        {
+            "name": "DakshinaChitra",
+            "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 6 PM (Tue Closed)",
+            "entry": "₹100",
+            "duration": "2 hrs",
+            "desc": "Living history museum showcasing South Indian heritage."
+        }
+    ],
+    "hiddenGems": [
+        "Broken Bridge",
+        "Theosophical Society",
+        "Cholamandal Artists Village",
+        "Thalankuppam Pier",
+        "Mylapore Tank Area",
+        "Vintage Film Theatres"
+    ],
+    "food": [
+        {
+            "area": "Saravana Bhavan",
+            "spots": "South Indian Veg"
+        },
+        {
+            "area": "Murugan Idli Shop",
+            "spots": "Idli & Jigarthanda"
+        },
+        {
+            "area": "Ratna Café",
+            "spots": "Sambar Idli"
+        },
+        {
+            "area": "Buhari",
+            "spots": "Chicken 65"
+        },
+        {
+            "area": "Sundari Akka Kadai",
+            "spots": "Seafood"
+        }
+    ],
+    "markets": [
+        "T. Nagar",
+        "Pondy Bazaar",
+        "Sowcarpet",
+        "Phoenix Marketcity"
+    ],
+    "nightlife": [
+        "Nungambakkam",
+        "T. Nagar Rooftops",
+        "ECR Clubs",
+        "Velachery Pubs"
+    ],
+    "itineraries": {
+        "day1": "Kapaleeshwarar Temple → Santhome Cathedral → Marina Beach → Lighthouse → Food trail",
+        "day2": "Marina Beach → Government Museum → Mylapore → Besant Nagar",
+        "day3": "DakshinaChitra → ECR drive → Beach cafés"
+    },
+    "transport": {
+        "metro": "Modern & Fast",
+        "cabs": [
+            {
+                "type": "Auto-rickshaw",
+                "cost": "Meter/Negotiable"
+            },
+            {
+                "type": "Ola/Uber",
+                "cost": "₹80–₹220"
+            },
+            {
+                "type": "Bus",
+                "cost": "Very Affordable"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹700–₹1300/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4000–₹8000/day"
+        }
+    ],
+    "stay": [
+        "Mylapore",
+        "T. Nagar",
+        "Nungambakkam",
+        "ECR",
+        "Guindy"
+    ],
+    "safety": [
+        "Chennai is safe but avoid isolated beaches at night",
+        "Hydrate well—humidity is high",
+        "Respect temple dress codes",
+        "Traffic-heavy areas—use pedestrian crossings"
+    ]
+}

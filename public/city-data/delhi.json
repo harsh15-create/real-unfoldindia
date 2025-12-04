@@ -1,0 +1,179 @@
+{
+    "name": "Delhi",
+    "title": "The Heart of India: Where History Meets Modernity",
+    "image": "https://images.unsplash.com/photo-1587474260584-136574528615?q=80&w=1000&auto=format&fit=crop",
+    "about": "Delhi is a blend of old-world charm and modern dynamism. Travelers come here for its rich Mughal heritage, bustling lanes, world-famous food, efficient metro network, and unmatched cultural diversity. Whether you’re a history lover, foodie, backpacker, or family traveler, Delhi never disappoints.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Pleasant weather, perfect for sightseeing."
+        },
+        {
+            "season": "April to June",
+            "desc": "Very hot, best to avoid outdoor activities during the day."
+        },
+        {
+            "season": "July to August",
+            "desc": "Rainy season, brings relief from heat but can be humid."
+        },
+        {
+            "season": "Festive Seasons",
+            "desc": "Diwali, Holi, Republic Day offer unique cultural experiences."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "India Gate",
+            "image": "https://images.unsplash.com/photo-1592639296346-560b37188774?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "30–45 mins",
+            "bestTime": "Evening"
+        },
+        {
+            "name": "Qutub Minar",
+            "image": "https://images.unsplash.com/photo-1545231499-905c36571456?q=80&w=800&auto=format&fit=crop",
+            "timings": "7 AM – 5 PM",
+            "entry": "₹35 (Indian), ₹550 (foreigner)",
+            "duration": "1–1.5 hrs"
+        },
+        {
+            "name": "Red Fort",
+            "image": "https://images.unsplash.com/photo-1598556776374-2273653243f2?q=80&w=800&auto=format&fit=crop",
+            "timings": "9:30 AM – 4:30 PM (Closed Mon)",
+            "entry": "₹35",
+            "duration": "~2 hrs"
+        },
+        {
+            "name": "Humayun’s Tomb",
+            "image": "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?q=80&w=800&auto=format&fit=crop",
+            "timings": "6 AM – 6 PM",
+            "entry": "₹40",
+            "duration": "1–1.5 hrs"
+        },
+        {
+            "name": "Lotus Temple",
+            "image": "https://images.unsplash.com/photo-1594102552386-793e5a27ad10?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 5 PM (Closed Mon)",
+            "entry": "Free",
+            "duration": "45–60 mins"
+        },
+        {
+            "name": "Akshardham Temple",
+            "image": "https://images.unsplash.com/photo-1675664426868-208d35c24479?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 8 PM (Closed Mon)",
+            "entry": "Free (shows extra)",
+            "duration": "3–4 hrs"
+        },
+        {
+            "name": "Chandni Chowk",
+            "image": "https://images.unsplash.com/photo-1622194993926-19f495574936?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 9 PM",
+            "entry": "Free",
+            "duration": "2–3 hrs",
+            "desc": "Highlights: Street food, shopping, heritage"
+        },
+        {
+            "name": "Hauz Khas Village",
+            "image": "https://images.unsplash.com/photo-1572508589584-94d778209069?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 11 PM",
+            "entry": "Free",
+            "duration": "2–3 hrs",
+            "desc": "Highlights: Cafés, nightlife, fort ruins, lake"
+        },
+        {
+            "name": "Gurudwara Bangla Sahib",
+            "image": "https://images.unsplash.com/photo-1580974511812-4b71978d501b?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "45 mins"
+        }
+    ],
+    "hiddenGems": [
+        "Sanjay Van",
+        "Majnu ka Tilla",
+        "Agrasen ki Baoli",
+        "Lodhi Art District",
+        "Sunder Nursery",
+        "Mehrauli Archaeological Park"
+    ],
+    "food": [
+        {
+            "area": "Chandni Chowk",
+            "spots": "Paranthe Wali Gali, Karim’s"
+        },
+        {
+            "area": "Connaught Place",
+            "spots": "Jain Chawal Wale, Cafés"
+        },
+        {
+            "area": "Lajpat Nagar",
+            "spots": "Afghan food"
+        },
+        {
+            "area": "Hudson Lane",
+            "spots": "Student cafés"
+        }
+    ],
+    "markets": [
+        "Sarojini Nagar",
+        "Janpath",
+        "Khan Market",
+        "Dilli Haat"
+    ],
+    "nightlife": [
+        "Hauz Khas Village",
+        "Aerocity",
+        "Connaught Place"
+    ],
+    "itineraries": {
+        "day1": "India Gate → Qutub Minar → Mehrauli → Humayun’s Tomb → CP",
+        "day2": "Red Fort → Chandni Chowk → Jama Masjid → Lotus Temple → Qutub Minar → Mehrauli → Bangla Sahib → Hauz Khas",
+        "day3": "Add Akshardham, Lodhi Art District, Sunder Nursery, markets"
+    },
+    "transport": {
+        "metro": "₹20–₹60",
+        "cabs": [
+            {
+                "type": "Short (2–4 km)",
+                "cost": "₹80–₹150"
+            },
+            {
+                "type": "Medium (8–12 km)",
+                "cost": "₹150–₹250"
+            },
+            {
+                "type": "Airport to city",
+                "cost": "₹350–₹700"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800–₹1200/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹2000–₹3500/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹5000–₹8000/day"
+        }
+    ],
+    "stay": [
+        "Connaught Place",
+        "Karol Bagh",
+        "Aerocity",
+        "South Delhi"
+    ],
+    "safety": [
+        "Use metro for long routes",
+        "Avoid isolated areas late night",
+        "Bargain in markets",
+        "Keep small cash",
+        "Weekends crowded",
+        "Dress comfortably for heat"
+    ]
+}
