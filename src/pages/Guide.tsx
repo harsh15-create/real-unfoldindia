@@ -121,7 +121,7 @@ const Guide = () => {
                         </div>
                         <h2 className="text-3xl font-bold">Cities</h2>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                         {cities.map((city, index) => (
                             <motion.div
                                 key={index}
@@ -131,21 +131,21 @@ const Guide = () => {
                                 transition={{ delay: index * 0.05 }}
                                 className="bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all group cursor-pointer border border-white/10"
                             >
-                                <div className="relative h-48 overflow-hidden">
+                                <div className="relative h-40 overflow-hidden">
                                     <img
                                         src={city.image}
                                         alt={city.name}
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                     />
-                                    <div className="absolute top-3 right-3 bg-black/30 backdrop-blur-md p-2 rounded-full text-white hover:bg-red-500/80 transition-colors">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                                    <div className="absolute top-2 right-2 bg-black/30 backdrop-blur-md p-1.5 rounded-full text-white hover:bg-red-500/80 transition-colors">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                                         </svg>
                                     </div>
                                 </div>
-                                <div className="p-5">
-                                    <p className="text-xs font-semibold text-primary uppercase tracking-wider mb-2">{city.name}</p>
-                                    <h3 className="text-lg font-bold text-foreground leading-tight group-hover:text-primary transition-colors">
+                                <div className="p-4">
+                                    <p className="text-[10px] font-semibold text-primary uppercase tracking-wider mb-1">{city.name}</p>
+                                    <h3 className="text-sm font-bold text-foreground leading-tight group-hover:text-primary transition-colors line-clamp-2">
                                         {city.title}
                                     </h3>
                                 </div>
