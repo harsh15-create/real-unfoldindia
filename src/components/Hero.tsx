@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Bot, Shield, Languages } from "lucide-react";
+import { ArrowRight, Bot, Shield, Languages, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -87,6 +87,27 @@ const Hero = () => {
               Our Testimonials
             </a>
           </Button>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 1.0 }}
+          className="mt-8 w-full flex flex-col items-center"
+        >
+          <div className="relative w-full sm:w-[450px] group">
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <Button size="lg" className="glass hover:bg-white/10 text-white rounded-full px-6 py-7 text-lg shadow-2xl w-full font-medium tracking-wide font-sans border-white/20 justify-start relative overflow-hidden" asChild>
+              <Link to="/chat" className="flex items-center w-full">
+                <Search className="mr-4 h-5 w-5 text-white/70" />
+                <span className="text-white/90">Ask Kira: Plan my trip to India...</span>
+                <div className="ml-auto bg-white/20 p-1.5 rounded-full">
+                  <ArrowRight className="h-4 w-4 text-white" />
+                </div>
+              </Link>
+            </Button>
+          </div>
+          <p className="text-xs text-muted-foreground mt-3 font-medium tracking-wide">AI-Powered Travel Assistant</p>
         </motion.div>
       </div>
     </section>

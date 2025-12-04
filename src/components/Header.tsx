@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, User, Settings as SettingsIcon, LogOut } from "lucide-react";
+import { Menu, User, Settings as SettingsIcon, LogOut, Bot } from "lucide-react";
 import { useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
@@ -47,6 +47,11 @@ export const Header = () => {
         </nav>
 
         <div className="flex items-center space-x-4">
+          <Button variant="ghost" className="hidden md:flex text-white hover:text-primary hover:bg-white/5 gap-2" asChild>
+            <Link to="/chat">
+              <Bot className="h-4 w-4" /> Chat with Kira
+            </Link>
+          </Button>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Avatar className="h-9 w-9 cursor-pointer border border-white/10 hover:border-primary transition-colors">

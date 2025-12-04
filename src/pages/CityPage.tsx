@@ -257,12 +257,12 @@ const CityPage = () => {
                             </p>
                             <div className="flex flex-wrap justify-center gap-4">
                                 <Button size="sm" className="rounded-full px-6 h-10 bg-primary hover:bg-primary/90 shadow-md shadow-primary/20 text-sm" asChild>
-                                    <Link to="/trip">
+                                    <Link to="/chat">
                                         Chat with Kira <Bot className="ml-2 h-4 w-4" />
                                     </Link>
                                 </Button>
                                 <Button size="sm" variant="outline" className="rounded-full px-6 h-10 border-primary/50 text-primary hover:bg-primary/10 hover:text-primary shadow-sm backdrop-blur-sm" asChild>
-                                    <Link to={`/trip?action=itinerary&city=${city.name}`}>
+                                    <Link to={`/chat?action=itinerary&city=${city.name}`}>
                                         Get Itinerary <Calendar className="ml-2 h-4 w-4" />
                                     </Link>
                                 </Button>

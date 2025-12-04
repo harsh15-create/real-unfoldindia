@@ -9,8 +9,10 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* New Palette: Midnight Navy, Saffron Orange, Deep Teal */
-    --background: 240 28% 14%; /* #1A1A2E Midnight Navy */
-    --foreground: 210 20% 98%; /* #F8F9FA Soft White */
+    --background: 240 28% 14%;
+    /* #1A1A2E Midnight Navy */
+    --foreground: 210 20% 98%;
+    /* #F8F9FA Soft White */
 
     --card: 240 28% 18%;
     --card-foreground: 210 20% 98%;
@@ -18,10 +20,12 @@ All colors MUST be HSL.
     --popover: 240 28% 14%;
     --popover-foreground: 210 20% 98%;
 
-    --primary: 28 100% 60%; /* #FF9933 Saffron Orange */
+    --primary: 28 100% 60%;
+    /* #FF9933 Saffron Orange */
     --primary-foreground: 210 20% 98%;
 
-    --secondary: 172 57% 39%; /* #2A9D8F Deep Teal */
+    --secondary: 172 57% 39%;
+    /* #2A9D8F Deep Teal */
     --secondary-foreground: 210 20% 98%;
 
     --muted: 240 20% 25%;
@@ -43,7 +47,8 @@ All colors MUST be HSL.
     --saffron: 28 100% 60%;
     --deep-teal: 172 57% 39%;
     --midnight: 240 28% 14%;
-    --warm-sand: 35 40% 84%; /* #E8D8C3 */
+    --warm-sand: 35 40% 84%;
+    /* #E8D8C3 */
   }
 }
 
@@ -55,8 +60,13 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground font-sans;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: 'Outfit', sans-serif;
   }
 }
@@ -65,12 +75,46 @@ All colors MUST be HSL.
   .glass {
     @apply bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl;
   }
-  
+
   .glass-card {
     @apply bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition-all duration-300;
   }
-  
+
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+
+  /* Custom Global Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 100vh;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
   }
 }

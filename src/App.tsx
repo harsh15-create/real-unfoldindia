@@ -11,6 +11,7 @@ import Explore from "./pages/Explore";
 import MapPage from "./pages/MapPage";
 import RoutePlanner from "./pages/RoutePlanner";
 import TripDashboard from "./pages/TripDashboard";
+import ChatbotPage from "./pages/ChatbotPage";
 import Guide from "./pages/Guide";
 import AIAssistant from "./components/AIAssistant";
 
@@ -20,7 +21,22 @@ import SafetyGuide from "./pages/SafetyGuide";
 import AboutPage from "./pages/AboutPage";
 import Settings from "./pages/Settings";
 
+import { useLocation } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+
 const queryClient = new QueryClient();
+
+const Layout = ({ children }: { children: React.ReactNode }) => {
+  const location = useLocation();
+  const hideFooter = location.pathname === "/chat";
+
+  return (
+    <>
+      {children}
+      {!hideFooter && <Footer />}
+    </>
+  );
+};
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -28,24 +44,26 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/explore" element={<Explore />} />
-          <Route path="/map" element={<MapPage />} />
-          <Route path="/route" element={<RoutePlanner />} />
-          <Route path="/trip" element={<TripDashboard />} />
-          <Route path="/guide" element={<Guide />} />
-          <Route path="/guide/city/:cityId" element={<CityPage />} />
-          <Route path="/guide/entry/:sectionId" element={<EntryGuide />} />
-          <Route path="/guide/safety/:sectionId" element={<SafetyGuide />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/settings" element={<Settings />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
-        <AIAssistant />
+        <ScrollToTop />
+        <Layout>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/explore" element={<Explore />} />
+            <Route path="/map" element={<MapPage />} />
+            <Route path="/route" element={<RoutePlanner />} />
+            <Route path="/trip" element={<TripDashboard />} />
+            <Route path="/chat" element={<ChatbotPage />} />
+            <Route path="/guide" element={<Guide />} />
+            <Route path="/guide/city/:cityId" element={<CityPage />} />
+            <Route path="/guide/entry/:sectionId" element={<EntryGuide />} />
+            <Route path="/guide/safety/:sectionId" element={<SafetyGuide />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/settings" element={<Settings />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <AIAssistant />
+        </Layout>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
