@@ -1,0 +1,198 @@
+{
+    "name": "Bengaluru",
+    "title": "The Garden City & Tech Capital",
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1000&auto=format&fit=crop",
+    "about": "Bengaluru (Bangalore), the Silicon Valley of India, is a lively blend of technology, culture, nightlife, nature, and food. Known for its pleasant weather, lakes, gardens, cafés, pubs, and youthful vibe, Bengaluru is one of India’s most modern yet culturally rooted cities.",
+    "bestTime": [
+        {
+            "season": "October to February",
+            "desc": "Best weather, cool and pleasant."
+        },
+        {
+            "season": "March to May",
+            "desc": "Warm but manageable compared to other cities."
+        },
+        {
+            "season": "June to September",
+            "desc": "Monsoon showers bring greenery."
+        },
+        {
+            "season": "Events",
+            "desc": "Bangalore Literature Festival, Karaga Festival."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Lalbagh Botanical Garden",
+            "image": "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=800&auto=format&fit=crop",
+            "timings": "6 AM – 7 PM",
+            "entry": "₹30",
+            "duration": "1–2 hrs",
+            "desc": "Famous for the Glass House, rare plants, and walking trails."
+        },
+        {
+            "name": "Cubbon Park",
+            "image": "https://images.unsplash.com/photo-1595842823678-01925627255d?q=80&w=800&auto=format&fit=crop",
+            "timings": "6 AM – 6 PM (Closed Mon)",
+            "entry": "Free",
+            "duration": "1–2 hrs",
+            "desc": "Green heart of the city, ideal for morning walks and cycling."
+        },
+        {
+            "name": "Bangalore Palace",
+            "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 5 PM",
+            "entry": "₹240 (Indian)",
+            "duration": "1–1.5 hrs",
+            "desc": "Tudor-style palace with royal interiors."
+        },
+        {
+            "name": "Vidhana Soudha",
+            "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=800&auto=format&fit=crop",
+            "timings": "View from outside",
+            "entry": "Restricted",
+            "duration": "30 mins",
+            "desc": "Iconic government building, best for evening photography."
+        },
+        {
+            "name": "UB City",
+            "image": "https://images.unsplash.com/photo-1582913130063-48538569b4e3?q=80&w=800&auto=format&fit=crop",
+            "timings": "10:30 AM – 11 PM",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "Luxury mall with fine dining and nightlife."
+        },
+        {
+            "name": "ISKCON Temple",
+            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "timings": "4:30 AM – 8 PM",
+            "entry": "Free",
+            "duration": "45 mins",
+            "desc": "Magnificent temple dedicated to Lord Krishna."
+        },
+        {
+            "name": "Bannerghatta Biological Park",
+            "image": "https://images.unsplash.com/photo-1588096344321-2168f1c0d6b7?q=80&w=800&auto=format&fit=crop",
+            "timings": "9:30 AM – 5 PM (Tue Closed)",
+            "entry": "₹100–₹300",
+            "duration": "Half-day",
+            "desc": "Wildlife safari, zoo, and butterfly park."
+        },
+        {
+            "name": "HAL Aerospace Museum",
+            "image": "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 5 PM",
+            "entry": "₹50",
+            "duration": "1–1.5 hrs",
+            "desc": "India’s first aerospace museum with aircraft exhibits."
+        },
+        {
+            "name": "Nandi Hills",
+            "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1000&auto=format&fit=crop",
+            "timings": "6 AM – 6 PM",
+            "entry": "₹20",
+            "duration": "Half-day trip",
+            "desc": "Hill fortress 60 km from city, best for sunrise."
+        },
+        {
+            "name": "MG Road & Brigade Road",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 11 PM",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "Hub for shopping, cafés, and pubs."
+        }
+    ],
+    "hiddenGems": [
+        "Church Street",
+        "Sankey Tank",
+        "Turahalli Forest",
+        "Commercial Street",
+        "Art Galleries (Indiranagar)",
+        "Brahmin’s Coffee Bar"
+    ],
+    "food": [
+        {
+            "area": "Vidyarthi Bhavan",
+            "spots": "Masala Dosa"
+        },
+        {
+            "area": "MTR (Mavalli Tiffin Rooms)",
+            "spots": "Rava Idli & Coffee"
+        },
+        {
+            "area": "CTR (Shivajinagar)",
+            "spots": "Benne Dosa"
+        },
+        {
+            "area": "Truffles",
+            "spots": "Burgers"
+        },
+        {
+            "area": "Toit",
+            "spots": "Craft Beer & Food"
+        }
+    ],
+    "markets": [
+        "Commercial Street",
+        "Brigade Road",
+        "Chickpet",
+        "Malleshwaram"
+    ],
+    "nightlife": [
+        "Indiranagar Breweries",
+        "Koramangala Pubs",
+        "MG Road",
+        "Church Street"
+    ],
+    "itineraries": {
+        "day1": "Lalbagh → Bangalore Palace → MG Road → UB City → Church Street",
+        "day2": "Lalbagh → Vidhana Soudha → Commercial Street → Indiranagar",
+        "day3": "Bannerghatta Safari → ISKCON Temple → Brigade Road"
+    },
+    "transport": {
+        "metro": "Efficient network (Namma Metro)",
+        "cabs": [
+            {
+                "type": "Auto-rickshaw",
+                "cost": "Meter/Negotiable"
+            },
+            {
+                "type": "Ola/Uber",
+                "cost": "₹80–₹250"
+            },
+            {
+                "type": "Airport Taxi",
+                "cost": "₹700–₹1200"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800–₹1400/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4000–₹9000/day"
+        }
+    ],
+    "stay": [
+        "MG Road",
+        "Indiranagar",
+        "Koramangala",
+        "Whitefield",
+        "Jayanagar"
+    ],
+    "safety": [
+        "Bengaluru is safe but traffic-heavy—plan travel time",
+        "Avoid remote areas late at night",
+        "Weather changes quickly—carry a light jacket",
+        "Watch for surge pricing on taxis",
+        "Weekends get crowded at pubs—book early"
+    ]
+}

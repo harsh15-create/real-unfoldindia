@@ -1,0 +1,199 @@
+{
+    "name": "Jaipur",
+    "title": "The Pink City of Royal Heritage",
+    "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=1000&auto=format&fit=crop",
+    "about": "Jaipur is India’s first planned city, designed with ancient Vastu Shastra principles. It is filled with grand forts, ornate palaces, cultural festivals, camel rides, handicraft bazaars, and delicious local cuisine. Travelers visit Jaipur for its unique mix of heritage, color, tradition, and warm desert spirit.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Pleasant, ideal for sightseeing."
+        },
+        {
+            "season": "April to June",
+            "desc": "Very hot, best to avoid outdoor activities."
+        },
+        {
+            "season": "July to September",
+            "desc": "Monsoon, moderate travel conditions."
+        },
+        {
+            "season": "Festive Seasons",
+            "desc": "Jaipur Literature Festival, Kite Festival, Teej."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Amer Fort",
+            "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800&auto=format&fit=crop",
+            "timings": "8 AM – 5:30 PM",
+            "entry": "₹100 (Indian)",
+            "duration": "2–3 hrs",
+            "desc": "A massive hilltop fort offering elephant rides, light shows, and stunning views."
+        },
+        {
+            "name": "City Palace",
+            "image": "https://images.unsplash.com/photo-1557690756-62764a7400d6?q=80&w=800&auto=format&fit=crop",
+            "timings": "9:30 AM – 5 PM",
+            "entry": "₹200–₹300",
+            "duration": "1–2 hrs",
+            "desc": "A mix of Mughal and Rajput architecture with museums and royal residences."
+        },
+        {
+            "name": "Hawa Mahal",
+            "image": "https://images.unsplash.com/photo-1524230507669-5ff97982bb5e?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 5 PM",
+            "entry": "₹50",
+            "duration": "30–45 mins",
+            "desc": "Iconic façade with 953 windows built for royal women to observe street festivals."
+        },
+        {
+            "name": "Jantar Mantar",
+            "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 5 PM",
+            "entry": "₹50",
+            "duration": "1 hr",
+            "desc": "UNESCO astronomical observatory with precise stone instruments."
+        },
+        {
+            "name": "Nahargarh Fort",
+            "image": "https://images.unsplash.com/photo-1583590025986-d9f98f50332a?q=80&w=800&auto=format&fit=crop",
+            "timings": "Best time: Sunset",
+            "entry": "₹50",
+            "duration": "1–2 hrs",
+            "desc": "Offers panoramic views of Jaipur city."
+        },
+        {
+            "name": "Jaigarh Fort",
+            "image": "https://images.unsplash.com/photo-1622308644420-a94bb897239c?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM - 4:30 PM",
+            "entry": "₹70",
+            "duration": "1–2 hrs",
+            "desc": "Known for: World’s largest cannon."
+        },
+        {
+            "name": "Jal Mahal",
+            "image": "https://images.unsplash.com/photo-1582506843444-2e32298b6f7a?q=80&w=800&auto=format&fit=crop",
+            "timings": "View from roadside",
+            "entry": "Free",
+            "duration": "20–30 mins",
+            "desc": "A beautiful palace floating in Man Sagar Lake."
+        },
+        {
+            "name": "Albert Hall Museum",
+            "image": "https://images.unsplash.com/photo-1598887142487-3c854d53d2c8?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 5 PM",
+            "entry": "₹40",
+            "duration": "1–1.5 hrs",
+            "desc": "Oldest museum in Rajasthan, showcasing artifacts."
+        },
+        {
+            "name": "Birla Mandir",
+            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open till night",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Stunning white marble temple."
+        },
+        {
+            "name": "Chokhi Dhani",
+            "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+            "timings": "5 PM – 11 PM",
+            "entry": "₹700–₹1200",
+            "duration": "2–3 hrs",
+            "desc": "Rajasthani cultural village experience with food, dance, and performances."
+        }
+    ],
+    "hiddenGems": [
+        "Panna Meena ka Kund",
+        "Jawahar Circle Garden",
+        "Patrika Gate",
+        "Royal Gaitor Tombs",
+        "Masala Chowk",
+        "Sargasuli Tower"
+    ],
+    "food": [
+        {
+            "area": "Rawat Mishthan Bhandar",
+            "spots": "Kachoris"
+        },
+        {
+            "area": "LMB (Laxmi Mishtan Bhandar)",
+            "spots": "Sweets & thalis"
+        },
+        {
+            "area": "Chokhi Dhani",
+            "spots": "Cultural dinner"
+        },
+        {
+            "area": "Tapri Central",
+            "spots": "Café with views"
+        },
+        {
+            "area": "Masala Chowk",
+            "spots": "Street food hub"
+        }
+    ],
+    "markets": [
+        "Johari Bazaar",
+        "Bapu Bazaar",
+        "Tripolia Bazaar",
+        "MI Road"
+    ],
+    "nightlife": [
+        "Tapri Central",
+        "Bar Palladio",
+        "Blackout",
+        "Chokhi Dhani"
+    ],
+    "itineraries": {
+        "day1": "Amer Fort → Jal Mahal → City Palace → Jantar Mantar → Hawa Mahal → Local Markets",
+        "day2": "Amer Fort → Jaigarh → Nahargarh (sunset) → Chokhi Dhani",
+        "day3": "Patrika Gate → Panna Meena ka Kund → Food trails → Bapu Bazaar shopping"
+    },
+    "transport": {
+        "metro": "Limited network",
+        "cabs": [
+            {
+                "type": "Short (2–4 km)",
+                "cost": "₹70–₹120"
+            },
+            {
+                "type": "Medium (6–10 km)",
+                "cost": "₹120–₹200"
+            },
+            {
+                "type": "Airport to city",
+                "cost": "₹300–₹600"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹700–₹1200/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4000–₹8000/day"
+        }
+    ],
+    "stay": [
+        "MI Road",
+        "Bani Park",
+        "C-Scheme",
+        "Amer Road",
+        "Raja Park"
+    ],
+    "safety": [
+        "Stay hydrated (dry desert climate)",
+        "Bargain in markets",
+        "Wear comfortable shoes (lots of walking)",
+        "Respect local traditions & dress modestly in temples",
+        "Traffic can be chaotic—use crosswalks",
+        "Evenings near popular tourist areas are safe but remain alert"
+    ]
+}

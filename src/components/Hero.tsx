@@ -83,9 +83,9 @@ const Hero = () => {
             </Link>
           </Button>
           <Button size="lg" variant="outline" className="glass border-white/10 text-white hover:bg-white/10 rounded-full px-8" asChild>
-            <Link to="/about">
-              Our Story
-            </Link>
+            <a href="#testimonials">
+              Our Testimonials
+            </a>
           </Button>
         </motion.div>
       </div>

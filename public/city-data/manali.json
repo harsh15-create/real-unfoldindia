@@ -1,0 +1,172 @@
+{
+    "name": "Manali",
+    "title": "The Himalayan Adventure Hub",
+    "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1000&auto=format&fit=crop",
+    "about": "Manali is a stunning hill station located in Himachal Pradesh. Known for mountains, rivers, snowfall, adventure sports, and beautiful valleys, Manali is perfect for families, honeymooners, and backpackers.",
+    "bestTime": [
+        {
+            "season": "October to February",
+            "desc": "Snow season, winter sports."
+        },
+        {
+            "season": "March to June",
+            "desc": "Peak travel season, pleasant weather."
+        },
+        {
+            "season": "July to September",
+            "desc": "Monsoon season (landslide risk)."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Solang Valley",
+            "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free (Activities chargeable)",
+            "duration": "Half-day",
+            "desc": "Hub for paragliding, ATV rides, and snow activities."
+        },
+        {
+            "name": "Rohtang Pass",
+            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "timings": "Day trip (Permit required)",
+            "entry": "Permit fee applies",
+            "duration": "Full day",
+            "desc": "Famous for snow, glaciers, and breathtaking mountain views."
+        },
+        {
+            "name": "Old Manali",
+            "image": "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "Known for its cafés, nightlife, and peaceful stays."
+        },
+        {
+            "name": "Hadimba Temple",
+            "image": "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+            "timings": "8 AM – 6 PM",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Ancient wooden temple surrounded by a cedar forest."
+        },
+        {
+            "name": "Mall Road",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 10 PM",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "The main street for shopping, food, and local market."
+        },
+        {
+            "name": "Atal Tunnel",
+            "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "2–3 hrs",
+            "desc": "Engineering marvel connecting Manali to Lahaul valley."
+        },
+        {
+            "name": "Jogini Waterfall",
+            "image": "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+            "timings": "Daytime",
+            "entry": "Free",
+            "duration": "2–3 hrs",
+            "desc": "Scenic waterfall accessible via a short trek."
+        },
+        {
+            "name": "Vashisht Hot Springs",
+            "image": "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+            "timings": "7 AM – 9 PM",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Natural hot water pools with medicinal properties."
+        }
+    ],
+    "hiddenGems": [
+        "Sethan Igloo Village (Winter)",
+        "Hampta Pass View Spots",
+        "Jana Waterfall",
+        "Manali Gompa"
+    ],
+    "food": [
+        {
+            "area": "Café 1947",
+            "spots": "Italian & Music"
+        },
+        {
+            "area": "Drifter’s Café",
+            "spots": "Breakfast & Views"
+        },
+        {
+            "area": "Johnson’s Café",
+            "spots": "Trout Fish"
+        },
+        {
+            "area": "Old Manali",
+            "spots": "Cafés & Bakeries"
+        },
+        {
+            "area": "Local Stalls",
+            "spots": "Siddu & Momos"
+        }
+    ],
+    "markets": [
+        "Mall Road",
+        "Old Manali Market",
+        "Tibetan Market"
+    ],
+    "nightlife": [
+        "Old Manali Cafés",
+        "Mall Road Strolls",
+        "Live Music Venues"
+    ],
+    "itineraries": {
+        "day1": "Solang Valley → Mall Road shopping & dinner",
+        "day2": "Rohtang Pass (if open) → Old Manali cafés",
+        "day3": "Atal Tunnel → Sissu → Jogini Waterfall trek"
+    },
+    "transport": {
+        "metro": "Not available",
+        "cabs": [
+            {
+                "type": "Taxi",
+                "cost": "Main Transport"
+            },
+            {
+                "type": "Bike Rental",
+                "cost": "₹800–₹1200/day"
+            },
+            {
+                "type": "Walking",
+                "cost": "Best in Old Manali"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800–₹1500/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1800–₹3500/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4000–₹8000/day"
+        }
+    ],
+    "stay": [
+        "Old Manali",
+        "Mall Road",
+        "Vashisht",
+        "Aleo"
+    ],
+    "safety": [
+        "Winter roads can be slippery",
+        "Altitude sickness near Rohtang",
+        "Avoid trekking alone",
+        "Book licensed snow activity operators"
+    ]
+}

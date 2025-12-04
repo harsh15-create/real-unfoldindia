@@ -1,0 +1,199 @@
+{
+    "name": "Kolkata",
+    "title": "The City of Joy",
+    "image": "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=1000&auto=format&fit=crop",
+    "about": "Kolkata, the cultural capital of India, is known for its colonial architecture, art, literature, festivals, football passion, trams, street food, and warm Bengali hospitality. It is a city of creativity and intellect, offering a blend of heritage charm, modern cafes, vibrant street life, and deep-rooted traditions.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Best weather, pleasant and cool."
+        },
+        {
+            "season": "April to June",
+            "desc": "Hot and humid."
+        },
+        {
+            "season": "July to September",
+            "desc": "Monsoon season."
+        },
+        {
+            "season": "Festivals",
+            "desc": "Durga Puja, Kali Puja, Christmas at Park Street."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Victoria Memorial",
+            "image": "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 5 PM",
+            "entry": "₹30",
+            "duration": "1–2 hrs",
+            "desc": "Iconic marble monument surrounded by lush gardens."
+        },
+        {
+            "name": "Howrah Bridge",
+            "image": "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Symbol of Kolkata, connecting Howrah and Kolkata city."
+        },
+        {
+            "name": "Dakshineswar Kali Temple",
+            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "timings": "5 AM – 10:30 PM",
+            "entry": "Free",
+            "duration": "1–1.5 hrs",
+            "desc": "Sacred riverside temple dedicated to goddess Kali."
+        },
+        {
+            "name": "Belur Math",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open daily",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Peaceful spiritual center founded by Swami Vivekananda."
+        },
+        {
+            "name": "Park Street",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "Famous for restaurants, nightlife, and Christmas celebrations."
+        },
+        {
+            "name": "Indian Museum",
+            "image": "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 5 PM",
+            "entry": "₹50",
+            "duration": "1–2 hrs",
+            "desc": "Oldest and largest museum in India."
+        },
+        {
+            "name": "St. Paul’s Cathedral",
+            "image": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 6 PM",
+            "entry": "Free",
+            "duration": "20–30 mins",
+            "desc": "Neo-gothic architecture."
+        },
+        {
+            "name": "College Street",
+            "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 8 PM",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Asia’s largest book market. Don’t miss Coffee House."
+        },
+        {
+            "name": "Eco Park (New Town)",
+            "image": "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=800&auto=format&fit=crop",
+            "timings": "12 PM – 7:30 PM",
+            "entry": "₹30",
+            "duration": "2–3 hrs",
+            "desc": "Activities, gardens, boating."
+        },
+        {
+            "name": "Science City",
+            "image": "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 8 PM",
+            "entry": "₹60",
+            "duration": "1–2 hrs",
+            "desc": "Popular with families."
+        }
+    ],
+    "hiddenGems": [
+        "Kumartuli",
+        "Prinsep Ghat",
+        "Tiretta Bazaar",
+        "Bow Barracks",
+        "Rabindra Sarobar Lake",
+        "Gariahat",
+        "Sovabazar Rajbari"
+    ],
+    "food": [
+        {
+            "area": "Arsalan",
+            "spots": "Biryani"
+        },
+        {
+            "area": "6 Ballygunge Place",
+            "spots": "Bengali Thali"
+        },
+        {
+            "area": "Peter Cat",
+            "spots": "Chelo Kebab"
+        },
+        {
+            "area": "Mocambo",
+            "spots": "Continental"
+        },
+        {
+            "area": "Flurys",
+            "spots": "Bakery & Tea"
+        }
+    ],
+    "markets": [
+        "New Market",
+        "Gariahat",
+        "Hatibagan",
+        "Quest Mall"
+    ],
+    "nightlife": [
+        "Park Street",
+        "Sector 5 (Salt Lake)",
+        "New Town Clubs",
+        "Rooftop Lounges"
+    ],
+    "itineraries": {
+        "day1": "Victoria Memorial → St. Paul’s Cathedral → Park Street → Howrah Bridge → Prinsep Ghat sunset",
+        "day2": "Indian Museum → Esplanade → College Street → Coffee House",
+        "day3": "Dakshineswar Temple → Belur Math → River cruise → Eco Park"
+    },
+    "transport": {
+        "metro": "Fastest option",
+        "cabs": [
+            {
+                "type": "Yellow Taxi",
+                "cost": "Meter/Negotiated"
+            },
+            {
+                "type": "Ola/Uber",
+                "cost": "₹80–₹200"
+            },
+            {
+                "type": "Tram",
+                "cost": "Heritage Ride"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹700–₹1200/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4000–₹8000/day"
+        }
+    ],
+    "stay": [
+        "Park Street",
+        "Esplanade",
+        "New Town",
+        "Salt Lake",
+        "Howrah"
+    ],
+    "safety": [
+        "Kolkata is safe but avoid empty lanes late night",
+        "Beware of pickpockets in crowded markets",
+        "Hydrate during humid weather",
+        "Negotiate taxi fares if meter is not used",
+        "During festivals, expect large crowds"
+    ]
+}
