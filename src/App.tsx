@@ -11,6 +11,7 @@ import Explore from "./pages/Explore";
 import MapPage from "./pages/MapPage";
 import RoutePlanner from "./pages/RoutePlanner";
 import TripDashboard from "./pages/TripDashboard";
+import Guide from "./pages/Guide";
 import FAB from "./components/FAB";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/map" element={<MapPage />} />
           <Route path="/route" element={<RoutePlanner />} />
           <Route path="/trip" element={<TripDashboard />} />
+          <Route path="/guide" element={<Guide />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

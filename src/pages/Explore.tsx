@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { Search, Sparkles, Compass, Palette, BookOpen } from "lucide-react";
+import { Search, Sparkles, Compass, Palette, BookOpen, Shield, MapPin } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Explore = () => {
     const [isSearchFocused, setIsSearchFocused] = useState(false);
@@ -36,10 +37,9 @@ const Explore = () => {
     ];
 
     const guides = [
-        { name: "Visa & Entry", icon: BookOpen, desc: "Everything you need to know about Indian visas." },
-        { name: "Safety Tips", icon: Compass, desc: "Essential safety advice for solo and group travelers." },
-        { name: "Cultural Etiquette", icon: Palette, desc: "Dos and don'ts to respect local customs." },
-        { name: "Best Time to Visit", icon: Sparkles, desc: "Weather guides for every region." },
+        { name: "Visa & Entry", icon: BookOpen, desc: "Everything you need to know about Indian visas.", link: "/guide#visa" },
+        { name: "Safety Tips", icon: Shield, desc: "Essential safety advice for solo and group travelers.", link: "/guide#safety" },
+        { name: "Cities", icon: MapPin, desc: "Guides for the top 30 most traveled cities.", link: "/guide#cities" },
     ];
 
     return (
@@ -198,21 +198,22 @@ const Explore = () => {
                 {/* Guides Section */}
                 <div className="mb-12">
                     <h2 className="text-3xl font-bold mb-8">Travel <span className="text-primary">Guides</span></h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {guides.map((guide, index) => (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.5 + index * 0.1 }}
-                                className="glass-card p-6 rounded-2xl cursor-pointer hover:bg-white/5 transition-colors"
-                            >
-                                <div className="bg-primary/20 p-3 rounded-xl w-12 h-12 flex items-center justify-center mb-4 text-primary">
-                                    <guide.icon className="h-6 w-6" />
-                                </div>
-                                <h3 className="text-xl font-bold text-white mb-2">{guide.name}</h3>
-                                <p className="text-muted-foreground text-sm">{guide.desc}</p>
-                            </motion.div>
+                            <Link to={guide.link} key={index}>
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: 0.5 + index * 0.1 }}
+                                    className="glass-card p-6 rounded-2xl cursor-pointer hover:bg-white/5 transition-colors h-full"
+                                >
+                                    <div className="bg-primary/20 p-3 rounded-xl w-12 h-12 flex items-center justify-center mb-4 text-primary">
+                                        <guide.icon className="h-6 w-6" />
+                                    </div>
+                                    <h3 className="text-xl font-bold text-white mb-2">{guide.name}</h3>
+                                    <p className="text-muted-foreground text-sm">{guide.desc}</p>
+                                </motion.div>
+                            </Link>
                         ))}
                     </div>
                 </div>
