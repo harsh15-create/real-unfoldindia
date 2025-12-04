@@ -1,10 +1,13 @@
 import { useState } from "react";
-import { ArrowRight, Car, Train, Bus, Plane, MapPin, Navigation, Loader2, ArrowUpDown } from "lucide-react";
+import { ArrowRight, Car, Train, Bus, Plane, MapPin, Navigation, Loader2, ArrowUpDown, Clock, IndianRupee, Filter, Armchair, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { motion, AnimatePresence } from "framer-motion";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Calendar as CalendarComponent } from "@/components/ui/calendar";
+import { format } from "date-fns";
 import { cn } from "@/lib/utils";
 
 interface RouteData {
@@ -24,6 +27,111 @@ interface RouteData {
     };
 }
 
+interface CabOption {
+    provider: "Uber" | "Ola" | "Rapido";
+    price: string;
+    eta: string;
+    type: string;
+    icon: string;
+}
+
+interface BusService {
+    id: string;
+    operator: string;
+    type: string;
+    departure: string;
+    arrival: string;
+    duration: string;
+    price: string;
+    rating: string;
+}
+
+interface TrainService {
+    id: string;
+    name: string;
+    number: string;
+    departure: string;
+    arrival: string;
+    duration: string;
+    classes: {
+        name: string;
+        price: string;
+        available: string;
+    }[];
+}
+
+interface FlightService {
+    id: string;
+    airline: string;
+    number: string;
+    departure: string;
+    arrival: string;
+    duration: string;
+    price: string;
+    stops: string;
+}
+
+const mockCabs: CabOption[] = [
+    { provider: "Uber", price: "₹450-520", eta: "4 min", type: "Uber Go", icon: "Car" },
+    { provider: "Ola", price: "₹430-500", eta: "2 min", type: "Mini", icon: "Car" },
+    { provider: "Rapido", price: "₹180-220", eta: "1 min", type: "Bike", icon: "Bike" },
+];
+
+const mockBuses: BusService[] = [
+    { id: "1", operator: "Zingbus", type: "Volvo A/C Semi Sleeper (2+2)", departure: "22:00", arrival: "06:00", duration: "8h 00m", price: "₹899", rating: "4.5" },
+    { id: "2", operator: "IntrCity SmartBus", type: "A/C Sleeper (2+1)", departure: "23:30", arrival: "07:15", duration: "7h 45m", price: "₹1,250", rating: "4.7" },
+    { id: "3", operator: "RSRTC Express", type: "Non A/C Seater", departure: "21:00", arrival: "05:30", duration: "8h 30m", price: "₹450", rating: "3.8" },
+];
+
+const mockTrains: TrainService[] = [
+    {
+        id: "1", name: "Vande Bharat Exp", number: "20977", departure: "06:00", arrival: "11:30", duration: "5h 30m",
+        classes: [
+            { name: "CC", price: "₹1,450", available: "AVL 45" },
+            { name: "EC", price: "₹2,800", available: "AVL 12" }
+        ]
+    },
+    {
+        id: "2", name: "Shatabdi Express", number: "12002", departure: "06:10", arrival: "12:15", duration: "6h 05m",
+        classes: [
+            { name: "CC", price: "₹1,200", available: "WL 10" },
+            { name: "EC", price: "₹2,300", available: "AVL 5" }
+        ]
+    },
+    {
+        id: "3", name: "Ashram Express", number: "12916", departure: "15:20", arrival: "21:00", duration: "5h 40m",
+        classes: [
+            { name: "SL", price: "₹340", available: "AVL 120" },
+            { name: "3A", price: "₹890", available: "RAC 5" },
+            { name: "2A", price: "₹1,250", available: "AVL 2" },
+            { name: "1A", price: "₹2,100", available: "WL 2" }
+        ]
+    }
+];
+
+const mockFlights: FlightService[] = [
+    { id: "1", airline: "IndiGo", number: "6E-2045", departure: "08:00", arrival: "09:15", duration: "1h 15m", price: "₹3,450", stops: "Non-stop" },
+    { id: "2", airline: "Air India", number: "AI-445", departure: "10:30", arrival: "11:50", duration: "1h 20m", price: "₹4,100", stops: "Non-stop" },
+    { id: "3", airline: "Vistara", number: "UK-998", departure: "14:00", arrival: "15:15", duration: "1h 15m", price: "₹4,800", stops: "Non-stop" },
+];
+
+const FILTER_OPTIONS = {
+    transit: [
+        { id: "quota", label: "Quota", options: ["General", "Tatkal", "Ladies"] },
+        { id: "class", label: "Class", options: ["1A", "2A", "3A", "SL", "CC"] },
+        { id: "time", label: "Departure", options: ["Morning", "Afternoon", "Evening"] },
+    ],
+    bus: [
+        { id: "type", label: "Bus Type", options: ["AC", "Non-AC", "Sleeper", "Seater"] },
+        { id: "time", label: "Departure", options: ["Before 6AM", "6AM-12PM", "12PM-6PM", "After 6PM"] },
+        { id: "operator", label: "Operator", options: ["Zingbus", "IntrCity", "RSRTC"] },
+    ],
+    flight: [
+        { id: "stops", label: "Stops", options: ["Non-stop", "1 Stop"] },
+        { id: "airline", label: "Airline", options: ["IndiGo", "Air India", "Vistara"] },
+        { id: "time", label: "Departure", options: ["Morning", "Afternoon", "Evening"] },
+    ]
+};
 
 
 const RoutePlanner = () => {
@@ -31,6 +139,19 @@ const RoutePlanner = () => {
     const [loading, setLoading] = useState(false);
     const [origin, setOrigin] = useState("");
     const [destination, setDestination] = useState("");
+    const [selectedMode, setSelectedMode] = useState("drive");
+    const [date, setDate] = useState<Date | undefined>(new Date());
+    const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({});
+
+    const toggleFilter = (category: string, value: string) => {
+        setActiveFilters(prev => {
+            const current = prev[category] || [];
+            const updated = current.includes(value)
+                ? current.filter(item => item !== value)
+                : [...current, value];
+            return { ...prev, [category]: updated };
+        });
+    };
 
     const [mainRoute, setMainRoute] = useState<RouteData>({
         id: "recommended",
@@ -103,7 +224,7 @@ const RoutePlanner = () => {
     };
 
     // Apple-style easing: smooth, refined, non-bouncy
-    const appleEase = [0.25, 0.1, 0.25, 1];
+    const appleEase: [number, number, number, number] = [0.25, 0.1, 0.25, 1];
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -200,11 +321,75 @@ const RoutePlanner = () => {
                                             />
                                         </div>
                                     </div>
+
+                                </div>
+
+                                <div className="space-y-1.5 group/input">
+                                    <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Date</Label>
+                                    <Popover>
+                                        <PopoverTrigger asChild>
+                                            <motion.button
+                                                whileHover={{ scale: 1.02, backgroundColor: "rgba(255, 255, 255, 0.05)" }}
+                                                whileTap={{ scale: 0.98 }}
+                                                className={cn(
+                                                    "w-full h-12 flex items-center justify-start text-left font-normal bg-white/[0.02] border border-white/[0.08] text-white rounded-2xl transition-all duration-300 pl-4 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20",
+                                                    !date && "text-white/40"
+                                                )}
+                                            >
+                                                <div className="p-1.5 rounded-full bg-white/5 mr-3 group-hover:bg-white/10 transition-colors">
+                                                    <Calendar className="h-4 w-4 text-white/60" />
+                                                </div>
+                                                {date ? (
+                                                    <span className="text-sm font-medium tracking-wide">{format(date, "PPP")}</span>
+                                                ) : (
+                                                    <span className="text-sm text-white/20">Pick a date</span>
+                                                )}
+                                            </motion.button>
+                                        </PopoverTrigger>
+                                        <PopoverContent
+                                            className="w-auto p-0 bg-[#0f172a]/90 backdrop-blur-xl border-white/10 text-white shadow-2xl rounded-2xl overflow-hidden"
+                                            align="start"
+                                            sideOffset={8}
+                                        >
+                                            <div className="p-4 border-b border-white/10 bg-white/5">
+                                                <h4 className="font-semibold text-sm tracking-tight text-center">Select Travel Date</h4>
+                                            </div>
+                                            <CalendarComponent
+                                                mode="single"
+                                                selected={date}
+                                                onSelect={setDate}
+                                                initialFocus
+                                                className="p-4 pointer-events-auto"
+                                                classNames={{
+                                                    months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
+                                                    month: "space-y-4",
+                                                    caption: "flex justify-center pt-1 relative items-center",
+                                                    caption_label: "text-sm font-medium text-white",
+                                                    nav: "space-x-1 flex items-center",
+                                                    nav_button: "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100 hover:bg-white/10 rounded-full transition-all flex items-center justify-center border border-white/10",
+                                                    nav_button_previous: "absolute left-1",
+                                                    nav_button_next: "absolute right-1",
+                                                    table: "w-full border-collapse space-y-1",
+                                                    head_row: "flex",
+                                                    head_cell: "text-white/30 rounded-md w-9 font-normal text-[0.8rem] uppercase tracking-wider",
+                                                    row: "flex w-full mt-2",
+                                                    cell: "h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
+                                                    day: "h-9 w-9 p-0 font-normal aria-selected:opacity-100 hover:bg-white/10 rounded-full transition-all text-white/80 hover:text-white",
+                                                    day_selected: "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground shadow-lg shadow-primary/25 scale-105 font-semibold",
+                                                    day_today: "bg-white/5 text-white border border-white/20",
+                                                    day_outside: "text-white/20 opacity-50",
+                                                    day_disabled: "text-white/20 opacity-50",
+                                                    day_range_middle: "aria-selected:bg-accent aria-selected:text-accent-foreground",
+                                                    day_hidden: "invisible",
+                                                }}
+                                            />
+                                        </PopoverContent>
+                                    </Popover>
                                 </div>
 
                                 <div className="space-y-2">
                                     <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Travel Mode</Label>
-                                    <RadioGroup defaultValue="drive" className="grid grid-cols-4 gap-2">
+                                    <RadioGroup value={selectedMode} onValueChange={setSelectedMode} className="grid grid-cols-4 gap-2">
                                         {[
                                             { id: "drive", icon: Car },
                                             { id: "transit", icon: Train },
@@ -291,124 +476,454 @@ const RoutePlanner = () => {
                                         className="w-full h-full p-8 relative z-20 flex flex-col"
                                     >
                                         <AnimatePresence mode="wait">
-                                            <motion.div
-                                                key={mainRoute.id}
-                                                initial={{ opacity: 0, scale: 0.95, y: 20 }}
-                                                animate={{ opacity: 1, scale: 1, y: 0 }}
-                                                exit={{ opacity: 0, scale: 0.95, y: -20 }}
-                                                transition={{ duration: 0.5, ease: appleEase }}
-                                                className="flex-1 flex flex-col min-h-0"
-                                            >
-                                                <div className="flex justify-between items-end mb-6 shrink-0">
-                                                    <div>
-                                                        <motion.h2
-                                                            layoutId={`title-${mainRoute.id}`}
-                                                            className="text-2xl font-semibold text-white mb-1 tracking-tight"
-                                                        >
-                                                            {mainRoute.name}
-                                                        </motion.h2>
-                                                        <div className="flex items-center gap-2">
-                                                            <span className="flex h-1.5 w-1.5 relative">
-                                                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                                                                <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-primary"></span>
-                                                            </span>
-                                                            <p className={cn("font-medium text-xs tracking-wide uppercase", mainRoute.tagColor)}>{mainRoute.tag}</p>
+                                            {selectedMode === "drive" && (
+                                                <motion.div
+                                                    key="drive"
+                                                    initial={{ opacity: 0, scale: 0.95, y: 20 }}
+                                                    animate={{ opacity: 1, scale: 1, y: 0 }}
+                                                    exit={{ opacity: 0, scale: 0.95, y: -20 }}
+                                                    transition={{ duration: 0.5, ease: appleEase }}
+                                                    className="flex-1 flex flex-col min-h-0"
+                                                >
+                                                    <div className="flex justify-between items-end mb-6 shrink-0">
+                                                        <div>
+                                                            <motion.h2 layoutId={`name-${mainRoute.id}`} className="text-2xl font-semibold text-white mb-1 tracking-tight">
+                                                                {mainRoute.name}
+                                                            </motion.h2>
+                                                            <div className="flex items-center gap-2">
+                                                                <span className="flex h-1.5 w-1.5 relative">
+                                                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                                                                    <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-primary"></span>
+                                                                </span>
+                                                                <motion.p layoutId={`tag-${mainRoute.id}`} className={cn("font-medium text-xs tracking-wide uppercase", mainRoute.tagColor)}>{mainRoute.tag}</motion.p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="text-right">
+                                                            <motion.p layoutId={`time-${mainRoute.id}`} className="text-4xl font-semibold text-white tracking-tighter">
+                                                                {mainRoute.time}
+                                                            </motion.p>
+                                                            <p className="text-white/40 font-light mt-0.5 text-base">{mainRoute.distance}</p>
                                                         </div>
                                                     </div>
-                                                    <div className="text-right">
-                                                        <motion.p
-                                                            layoutId={`time-${mainRoute.id}`}
-                                                            className="text-4xl font-semibold text-white tracking-tighter"
-                                                        >
-                                                            {mainRoute.time}
-                                                        </motion.p>
-                                                        <p className="text-white/40 font-light mt-0.5 text-base">{mainRoute.distance}</p>
-                                                    </div>
-                                                </div>
 
-                                                {/* Abstract Route Visualization - "Opening" Animation */}
-                                                <motion.div
-                                                    initial={{ height: 0, opacity: 0 }}
-                                                    animate={{ height: "auto", opacity: 1 }}
-                                                    transition={{ duration: 0.6, delay: 0.1, ease: appleEase }}
-                                                    className="flex-1 bg-white/[0.02] rounded-[1.5rem] border border-white/[0.05] relative overflow-hidden mb-6 shadow-inner min-h-0"
-                                                >
-                                                    <div className="absolute inset-0 flex items-center justify-center opacity-20">
-                                                        <p className="text-[10px] text-white/40 uppercase tracking-[0.2em] font-medium">Interactive Map Preview</p>
-                                                    </div>
-                                                    <svg className="absolute inset-0 w-full h-full pointer-events-none">
-                                                        <path
-                                                            d="M100,350 C250,350 250,150 450,150 S650,250 850,250"
-                                                            fill="none"
-                                                            stroke="url(#gradient)"
-                                                            strokeWidth="3"
-                                                            strokeLinecap="round"
-                                                            className="drop-shadow-[0_0_15px_rgba(255,145,77,0.4)]"
-                                                        />
-                                                        <defs>
-                                                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                                                <stop offset="0%" stopColor="#FF914D" stopOpacity="0" />
-                                                                <stop offset="15%" stopColor="#FF914D" />
-                                                                <stop offset="85%" stopColor="#FF914D" />
-                                                                <stop offset="100%" stopColor="#FF914D" stopOpacity="0" />
-                                                            </linearGradient>
-                                                        </defs>
-                                                    </svg>
-                                                </motion.div>
-
-                                                <motion.div
-                                                    initial={{ opacity: 0, y: 20 }}
-                                                    animate={{ opacity: 1, y: 0 }}
-                                                    transition={{ duration: 0.5, delay: 0.2, ease: appleEase }}
-                                                    className="grid grid-cols-3 gap-4 shrink-0"
-                                                >
-                                                    {[
-                                                        { label: "Safety Score", value: mainRoute.safety, color: mainRoute.stats.safetyColor },
-                                                        { label: "Traffic", value: mainRoute.traffic, color: mainRoute.stats.trafficColor },
-                                                        { label: "Road Quality", value: mainRoute.roadQuality, color: mainRoute.stats.roadColor },
-                                                    ].map((stat, i) => (
-                                                        <div key={i} className="bg-white/[0.03] rounded-2xl p-4 border border-white/[0.05] backdrop-blur-sm hover:bg-white/[0.05] transition-colors duration-500">
-                                                            <p className="text-[9px] text-white/40 uppercase tracking-[0.15em] font-semibold mb-1">{stat.label}</p>
-                                                            <p className={cn("text-xl font-medium tracking-tight", stat.color)}>{stat.value}</p>
+                                                    <motion.div
+                                                        initial={{ height: 0, opacity: 0 }}
+                                                        animate={{ height: "auto", opacity: 1 }}
+                                                        transition={{ duration: 0.6, delay: 0.1, ease: appleEase }}
+                                                        className="flex-1 bg-white/[0.02] rounded-[1.5rem] border border-white/[0.05] relative overflow-hidden mb-6 shadow-inner min-h-[200px]"
+                                                    >
+                                                        <div className="absolute inset-0 flex items-center justify-center opacity-20">
+                                                            <p className="text-[10px] text-white/40 uppercase tracking-[0.2em] font-medium">Interactive Map Preview</p>
                                                         </div>
-                                                    ))}
-                                                </motion.div>
-                                            </motion.div>
-                                        </AnimatePresence>
+                                                        <svg className="absolute inset-0 w-full h-full pointer-events-none">
+                                                            <path
+                                                                d="M100,350 C250,350 250,150 450,150 S650,250 850,250"
+                                                                fill="none"
+                                                                stroke="url(#gradient)"
+                                                                strokeWidth="3"
+                                                                strokeLinecap="round"
+                                                                className="drop-shadow-[0_0_15px_rgba(255,145,77,0.4)]"
+                                                            />
+                                                            <defs>
+                                                                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                                                    <stop offset="0%" stopColor="#FF914D" stopOpacity="0" />
+                                                                    <stop offset="15%" stopColor="#FF914D" />
+                                                                    <stop offset="85%" stopColor="#FF914D" />
+                                                                    <stop offset="100%" stopColor="#FF914D" stopOpacity="0" />
+                                                                </linearGradient>
+                                                            </defs>
+                                                        </svg>
+                                                    </motion.div>
 
-                                        <div className="mt-6 pt-4 border-t border-white/5 shrink-0">
-                                            <h3 className="text-base font-semibold text-white mb-3 tracking-tight">Other Routes</h3>
-                                            <div className="grid grid-cols-2 gap-3">
-                                                <AnimatePresence mode="popLayout">
-                                                    {otherRoutes.map((route) => (
+                                                    <div className="mt-auto">
+                                                        <h3 className="text-base font-semibold text-white mb-3 tracking-tight">Ride Options</h3>
+                                                        <div className="grid grid-cols-3 gap-3">
+                                                            {mockCabs.map((cab, i) => (
+                                                                <div key={i} className="bg-white/[0.03] rounded-xl p-3 border border-white/[0.05] hover:bg-white/[0.05] transition-colors cursor-pointer group">
+                                                                    <div className="flex justify-between items-start mb-2">
+                                                                        <span className="text-xs font-medium text-white/60 group-hover:text-white transition-colors">{cab.provider}</span>
+                                                                        <span className="text-xs font-bold text-primary">{cab.price}</span>
+                                                                    </div>
+                                                                    <div className="flex items-center gap-2 mb-1">
+                                                                        <Car className="h-3 w-3 text-white/40" />
+                                                                        <span className="text-xs text-white">{cab.type}</span>
+                                                                    </div>
+                                                                    <p className="text-[10px] text-emerald-400">{cab.eta} away</p>
+                                                                </div>
+                                                            ))}
+                                                        </div>
+                                                    </div>
+                                                </motion.div>
+                                            )}
+
+                                            {selectedMode === "bus" && (
+                                                <motion.div
+                                                    key="bus"
+                                                    initial={{ opacity: 0, x: 20 }}
+                                                    animate={{ opacity: 1, x: 0 }}
+                                                    exit={{ opacity: 0, x: -20 }}
+                                                    transition={{ duration: 0.5, ease: appleEase }}
+                                                    className="flex-1 flex flex-col gap-4 overflow-y-auto pr-2"
+                                                >
+                                                    <div className="flex justify-between items-center mb-2">
+                                                        <h2 className="text-2xl font-semibold text-white tracking-tight">Available Buses</h2>
+                                                        <Popover>
+                                                            <PopoverTrigger asChild>
+                                                                <Button variant="outline" size="sm" className="h-8 border-white/10 bg-white/5 text-white hover:bg-white/10 text-xs gap-2">
+                                                                    <Filter className="w-3 h-3" /> Filters
+                                                                    {Object.values(activeFilters).flat().length > 0 && (
+                                                                        <span className="bg-primary text-white text-[10px] px-1.5 py-0.5 rounded-full">
+                                                                            {Object.values(activeFilters).flat().length}
+                                                                        </span>
+                                                                    )}
+                                                                </Button>
+                                                            </PopoverTrigger>
+                                                            <PopoverContent className="w-80 bg-[#0f172a] border-white/10 p-0 text-white">
+                                                                <div className="p-4 border-b border-white/10">
+                                                                    <h4 className="font-semibold">Filters</h4>
+                                                                </div>
+                                                                <div className="p-4 space-y-6 max-h-[60vh] overflow-y-auto">
+                                                                    {FILTER_OPTIONS.bus.map((category) => (
+                                                                        <div key={category.id} className="space-y-3">
+                                                                            <h5 className="text-xs font-medium text-white/40 uppercase tracking-wider">{category.label}</h5>
+                                                                            <div className="flex flex-wrap gap-2">
+                                                                                {category.options.map((opt) => (
+                                                                                    <button
+                                                                                        key={opt}
+                                                                                        onClick={() => toggleFilter(category.id, opt)}
+                                                                                        className={cn(
+                                                                                            "px-3 py-1.5 rounded-lg text-xs font-medium border transition-all",
+                                                                                            activeFilters[category.id]?.includes(opt)
+                                                                                                ? "bg-primary text-white border-primary"
+                                                                                                : "bg-white/5 text-white/80 border-white/10 hover:bg-white/10"
+                                                                                        )}
+                                                                                    >
+                                                                                        {opt}
+                                                                                    </button>
+                                                                                ))}
+                                                                            </div>
+                                                                        </div>
+                                                                    ))}
+                                                                </div>
+                                                                <div className="p-4 border-t border-white/10 bg-white/5 flex justify-between items-center">
+                                                                    <button
+                                                                        onClick={() => setActiveFilters({})}
+                                                                        className="text-xs text-white/60 hover:text-white transition-colors"
+                                                                    >
+                                                                        Clear all
+                                                                    </button>
+                                                                    <Button size="sm" className="h-8 bg-primary hover:bg-primary/90 text-white text-xs">
+                                                                        Apply
+                                                                    </Button>
+                                                                </div>
+                                                            </PopoverContent>
+                                                        </Popover>
+                                                    </div>
+                                                    {mockBuses.filter(bus => {
+                                                        if (activeFilters.type?.length && !activeFilters.type.some(t => bus.type.includes(t))) return false;
+                                                        if (activeFilters.operator?.length && !activeFilters.operator.includes(bus.operator)) return false;
+                                                        return true;
+                                                    }).map((bus) => (
                                                         <motion.div
                                                             layout
-                                                            initial={{ opacity: 0, scale: 0.9 }}
+                                                            initial={{ opacity: 0, scale: 0.95 }}
                                                             animate={{ opacity: 1, scale: 1 }}
-                                                            exit={{ opacity: 0, scale: 0.9 }}
-                                                            transition={{ duration: 0.4, ease: appleEase }}
-                                                            key={route.id}
-                                                            onClick={() => handleRouteSelect(route)}
-                                                            className="bg-white/[0.02] rounded-xl p-4 border border-white/[0.05] hover:bg-white/[0.04] transition-colors duration-300 cursor-pointer group/route relative overflow-hidden"
+                                                            key={bus.id}
+                                                            className="bg-white/[0.03] rounded-2xl p-5 border border-white/[0.05] hover:bg-white/[0.05] transition-all group"
                                                         >
-                                                            <div className="flex justify-between items-start mb-2 relative z-10">
+                                                            <div className="flex justify-between items-start mb-4">
                                                                 <div>
-                                                                    <motion.h4 layoutId={`title-${route.id}`} className="text-white font-medium text-xs">{route.name}</motion.h4>
-                                                                    <p className="text-white/40 text-[10px] mt-0.5">{route.distance}</p>
+                                                                    <h3 className="text-lg font-medium text-white group-hover:text-primary transition-colors">{bus.operator}</h3>
+                                                                    <p className="text-sm text-white/40">{bus.type}</p>
                                                                 </div>
-                                                                <span className={cn("text-[9px] uppercase tracking-wider font-semibold bg-white/5 px-1.5 py-0.5 rounded-full", route.tagColor)}>
-                                                                    {route.tag}
-                                                                </span>
+                                                                <div className="text-right">
+                                                                    <p className="text-xl font-bold text-white">{bus.price}</p>
+                                                                    <div className="flex items-center justify-end gap-1 text-emerald-400">
+                                                                        <span className="text-xs font-medium">{bus.rating}</span>
+                                                                        <span className="text-[10px]">★</span>
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <div className="flex items-end justify-between relative z-10">
-                                                                <motion.p layoutId={`time-${route.id}`} className="text-lg font-semibold text-white/90">{route.time}</motion.p>
-                                                                <ArrowRight className="h-3.5 w-3.5 text-white/20 group-hover/route:text-white/60 group-hover/route:translate-x-1 transition-all duration-300" />
+                                                            <div className="flex items-center justify-between text-sm text-white/60 bg-white/[0.02] p-3 rounded-xl">
+                                                                <div className="text-center">
+                                                                    <p className="text-white font-medium">{bus.departure}</p>
+                                                                    <p className="text-[10px] uppercase tracking-wider opacity-60">Departs</p>
+                                                                </div>
+                                                                <div className="flex flex-col items-center px-4">
+                                                                    <p className="text-[10px] text-white/30 mb-1">{bus.duration}</p>
+                                                                    <div className="w-16 h-[1px] bg-white/10 relative">
+                                                                        <div className="absolute -top-1 right-0 w-2 h-2 border-t border-r border-white/20 rotate-45" />
+                                                                    </div>
+                                                                </div>
+                                                                <div className="text-center">
+                                                                    <p className="text-white font-medium">{bus.arrival}</p>
+                                                                    <p className="text-[10px] uppercase tracking-wider opacity-60">Arrives</p>
+                                                                </div>
                                                             </div>
                                                         </motion.div>
                                                     ))}
-                                                </AnimatePresence>
+                                                </motion.div>
+                                            )}
+
+                                            {selectedMode === "transit" && (
+                                                <motion.div
+                                                    key="train"
+                                                    initial={{ opacity: 0, x: 20 }}
+                                                    animate={{ opacity: 1, x: 0 }}
+                                                    exit={{ opacity: 0, x: -20 }}
+                                                    transition={{ duration: 0.5, ease: appleEase }}
+                                                    className="flex-1 flex flex-col gap-4 overflow-y-auto pr-2"
+                                                >
+                                                    <div className="flex flex-col gap-4">
+                                                        <div className="flex justify-between items-center">
+                                                            <h2 className="text-2xl font-semibold text-white tracking-tight">Trains</h2>
+                                                            <Popover>
+                                                                <PopoverTrigger asChild>
+                                                                    <Button variant="outline" size="sm" className="h-8 border-white/10 bg-white/5 text-white hover:bg-white/10 text-xs gap-2">
+                                                                        <Filter className="w-3 h-3" /> Filters
+                                                                        {Object.values(activeFilters).flat().length > 0 && (
+                                                                            <span className="bg-primary text-white text-[10px] px-1.5 py-0.5 rounded-full">
+                                                                                {Object.values(activeFilters).flat().length}
+                                                                            </span>
+                                                                        )}
+                                                                    </Button>
+                                                                </PopoverTrigger>
+                                                                <PopoverContent className="w-80 bg-[#0f172a] border-white/10 p-0 text-white">
+                                                                    <div className="p-4 border-b border-white/10">
+                                                                        <h4 className="font-semibold">Filters</h4>
+                                                                    </div>
+                                                                    <div className="p-4 space-y-6 max-h-[60vh] overflow-y-auto">
+                                                                        {FILTER_OPTIONS.transit.map((category) => (
+                                                                            <div key={category.id} className="space-y-3">
+                                                                                <h5 className="text-xs font-medium text-white/40 uppercase tracking-wider">{category.label}</h5>
+                                                                                <div className="flex flex-wrap gap-2">
+                                                                                    {category.options.map((opt) => (
+                                                                                        <button
+                                                                                            key={opt}
+                                                                                            onClick={() => toggleFilter(category.id, opt)}
+                                                                                            className={cn(
+                                                                                                "px-3 py-1.5 rounded-lg text-xs font-medium border transition-all",
+                                                                                                activeFilters[category.id]?.includes(opt)
+                                                                                                    ? "bg-primary text-white border-primary"
+                                                                                                    : "bg-white/5 text-white/80 border-white/10 hover:bg-white/10"
+                                                                                            )}
+                                                                                        >
+                                                                                            {opt}
+                                                                                        </button>
+                                                                                    ))}
+                                                                                </div>
+                                                                            </div>
+                                                                        ))}
+                                                                    </div>
+                                                                    <div className="p-4 border-t border-white/10 bg-white/5 flex justify-between items-center">
+                                                                        <button
+                                                                            onClick={() => setActiveFilters({})}
+                                                                            className="text-xs text-white/60 hover:text-white transition-colors"
+                                                                        >
+                                                                            Clear all
+                                                                        </button>
+                                                                        <Button size="sm" className="h-8 bg-primary hover:bg-primary/90 text-white text-xs">
+                                                                            Apply
+                                                                        </Button>
+                                                                    </div>
+                                                                </PopoverContent>
+                                                            </Popover>
+                                                        </div>
+                                                    </div>
+                                                    {mockTrains.filter(train => {
+                                                        if (activeFilters.class?.length && !activeFilters.class.some(c => train.classes.some(cls => cls.name === c))) return false;
+                                                        return true;
+                                                    }).map((train) => (
+                                                        <motion.div
+                                                            layout
+                                                            initial={{ opacity: 0, scale: 0.95 }}
+                                                            animate={{ opacity: 1, scale: 1 }}
+                                                            key={train.id}
+                                                            className="bg-white/[0.03] rounded-2xl p-5 border border-white/[0.05] hover:bg-white/[0.05] transition-all"
+                                                        >
+                                                            <div className="flex justify-between items-start mb-4">
+                                                                <div>
+                                                                    <div className="flex items-center gap-2 mb-1">
+                                                                        <h3 className="text-lg font-medium text-white">{train.name}</h3>
+                                                                        <span className="text-xs bg-white/10 px-1.5 py-0.5 rounded text-white/60">{train.number}</span>
+                                                                    </div>
+                                                                    <div className="flex items-center gap-2 text-sm text-white/40">
+                                                                        <span>{train.departure}</span>
+                                                                        <span className="text-white/20">•</span>
+                                                                        <span>{train.duration}</span>
+                                                                        <span className="text-white/20">•</span>
+                                                                        <span>{train.arrival}</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className="grid grid-cols-4 gap-2">
+                                                                {train.classes.map((cls, idx) => (
+                                                                    <div key={idx} className={cn(
+                                                                        "bg-white/[0.02] p-2 rounded-lg border border-white/[0.05] hover:border-primary/30 hover:bg-primary/5 transition-colors cursor-pointer text-center group/cls",
+                                                                        activeFilters.class?.includes(cls.name) && "border-primary/50 bg-primary/10"
+                                                                    )}>
+                                                                        <div className="flex justify-between items-center mb-1">
+                                                                            <span className="text-xs font-bold text-white group-hover/cls:text-primary">{cls.name}</span>
+                                                                            <span className={cn("text-[10px]", cls.available.includes("AVL") ? "text-emerald-400" : "text-amber-400")}>
+                                                                                {cls.available}
+                                                                            </span>
+                                                                        </div>
+                                                                        <p className="text-sm font-medium text-white/80">{cls.price}</p>
+                                                                    </div>
+                                                                ))}
+                                                            </div>
+                                                        </motion.div>
+                                                    ))}
+                                                </motion.div>
+                                            )}
+
+                                            {selectedMode === "flight" && (
+                                                <motion.div
+                                                    key="flight"
+                                                    initial={{ opacity: 0, x: 20 }}
+                                                    animate={{ opacity: 1, x: 0 }}
+                                                    exit={{ opacity: 0, x: -20 }}
+                                                    transition={{ duration: 0.5, ease: appleEase }}
+                                                    className="flex-1 flex flex-col gap-4 overflow-y-auto pr-2"
+                                                >
+                                                    <div className="flex justify-between items-center mb-2">
+                                                        <h2 className="text-2xl font-semibold text-white tracking-tight">Flights</h2>
+                                                        <Popover>
+                                                            <PopoverTrigger asChild>
+                                                                <Button variant="outline" size="sm" className="h-8 border-white/10 bg-white/5 text-white hover:bg-white/10 text-xs gap-2">
+                                                                    <Filter className="w-3 h-3" /> Filters
+                                                                    {Object.values(activeFilters).flat().length > 0 && (
+                                                                        <span className="bg-primary text-white text-[10px] px-1.5 py-0.5 rounded-full">
+                                                                            {Object.values(activeFilters).flat().length}
+                                                                        </span>
+                                                                    )}
+                                                                </Button>
+                                                            </PopoverTrigger>
+                                                            <PopoverContent className="w-80 bg-[#0f172a] border-white/10 p-0 text-white">
+                                                                <div className="p-4 border-b border-white/10">
+                                                                    <h4 className="font-semibold">Filters</h4>
+                                                                </div>
+                                                                <div className="p-4 space-y-6 max-h-[60vh] overflow-y-auto">
+                                                                    {FILTER_OPTIONS.flight.map((category) => (
+                                                                        <div key={category.id} className="space-y-3">
+                                                                            <h5 className="text-xs font-medium text-white/40 uppercase tracking-wider">{category.label}</h5>
+                                                                            <div className="flex flex-wrap gap-2">
+                                                                                {category.options.map((opt) => (
+                                                                                    <button
+                                                                                        key={opt}
+                                                                                        onClick={() => toggleFilter(category.id, opt)}
+                                                                                        className={cn(
+                                                                                            "px-3 py-1.5 rounded-lg text-xs font-medium border transition-all",
+                                                                                            activeFilters[category.id]?.includes(opt)
+                                                                                                ? "bg-primary text-white border-primary"
+                                                                                                : "bg-white/5 text-white/80 border-white/10 hover:bg-white/10"
+                                                                                        )}
+                                                                                    >
+                                                                                        {opt}
+                                                                                    </button>
+                                                                                ))}
+                                                                            </div>
+                                                                        </div>
+                                                                    ))}
+                                                                </div>
+                                                                <div className="p-4 border-t border-white/10 bg-white/5 flex justify-between items-center">
+                                                                    <button
+                                                                        onClick={() => setActiveFilters({})}
+                                                                        className="text-xs text-white/60 hover:text-white transition-colors"
+                                                                    >
+                                                                        Clear all
+                                                                    </button>
+                                                                    <Button size="sm" className="h-8 bg-primary hover:bg-primary/90 text-white text-xs">
+                                                                        Apply
+                                                                    </Button>
+                                                                </div>
+                                                            </PopoverContent>
+                                                        </Popover>
+                                                    </div>
+                                                    {mockFlights.filter(flight => {
+                                                        if (activeFilters.airline?.length && !activeFilters.airline.includes(flight.airline)) return false;
+                                                        if (activeFilters.stops?.length && !activeFilters.stops.includes(flight.stops)) return false;
+                                                        return true;
+                                                    }).map((flight) => (
+                                                        <motion.div
+                                                            layout
+                                                            initial={{ opacity: 0, scale: 0.95 }}
+                                                            animate={{ opacity: 1, scale: 1 }}
+                                                            key={flight.id}
+                                                            className="bg-white/[0.03] rounded-2xl p-5 border border-white/[0.05] hover:bg-white/[0.05] transition-all group"
+                                                        >
+                                                            <div className="flex justify-between items-start mb-4">
+                                                                <div className="flex items-center gap-3">
+                                                                    <div className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center">
+                                                                        <Plane className="h-5 w-5 text-white/60" />
+                                                                    </div>
+                                                                    <div>
+                                                                        <h3 className="text-lg font-medium text-white">{flight.airline}</h3>
+                                                                        <p className="text-xs text-white/40">{flight.number}</p>
+                                                                    </div>
+                                                                </div>
+                                                                <p className="text-xl font-bold text-white group-hover:text-primary transition-colors">{flight.price}</p>
+                                                            </div>
+                                                            <div className="flex items-center justify-between bg-white/[0.02] p-4 rounded-xl border border-white/[0.02]">
+                                                                <div className="text-center">
+                                                                    <p className="text-xl font-medium text-white">{flight.departure}</p>
+                                                                    <p className="text-xs text-white/40">DEL</p>
+                                                                </div>
+                                                                <div className="flex flex-col items-center px-6 flex-1">
+                                                                    <p className="text-[10px] text-white/40 mb-1">{flight.duration}</p>
+                                                                    <div className="w-full h-[1px] bg-white/10 relative flex items-center justify-center">
+                                                                        <Plane className="h-3 w-3 text-white/20 rotate-90 absolute" />
+                                                                    </div>
+                                                                    <p className="text-[10px] text-emerald-400 mt-1">{flight.stops}</p>
+                                                                </div>
+                                                                <div className="text-center">
+                                                                    <p className="text-xl font-medium text-white">{flight.arrival}</p>
+                                                                    <p className="text-xs text-white/40">BOM</p>
+                                                                </div>
+                                                            </div>
+                                                        </motion.div>
+                                                    ))}
+                                                </motion.div>
+                                            )}
+                                        </AnimatePresence>
+
+                                        {selectedMode === "drive" && (
+                                            <div className="mt-6 pt-4 border-t border-white/5 shrink-0">
+                                                <h3 className="text-base font-semibold text-white mb-3 tracking-tight">Other Routes</h3>
+                                                <div className="grid grid-cols-2 gap-3">
+                                                    <AnimatePresence mode="popLayout">
+                                                        {otherRoutes.map((route) => (
+                                                            <motion.div
+                                                                layout
+                                                                initial={{ opacity: 0, scale: 0.9 }}
+                                                                animate={{ opacity: 1, scale: 1 }}
+                                                                exit={{ opacity: 0, scale: 0.9 }}
+                                                                transition={{ duration: 0.4, ease: appleEase }}
+                                                                key={route.id}
+                                                                onClick={() => handleRouteSelect(route)}
+                                                                className="bg-white/[0.02] rounded-xl p-4 border border-white/[0.05] hover:bg-white/[0.04] transition-colors duration-300 cursor-pointer group/route relative overflow-hidden"
+                                                            >
+                                                                <div className="flex justify-between items-start mb-2 relative z-10">
+                                                                    <motion.h4 layoutId={`name-${route.id}`} className="font-medium text-white text-sm">{route.name}</motion.h4>
+                                                                    <motion.span layoutId={`tag-${route.id}`} className={cn("text-[10px] font-medium px-1.5 py-0.5 rounded-md bg-white/5 uppercase tracking-wider", route.tagColor)}>
+                                                                        {route.tag}
+                                                                    </motion.span>
+                                                                </div>
+                                                                <div className="flex items-end justify-between relative z-10">
+                                                                    <div>
+                                                                        <motion.p layoutId={`time-${route.id}`} className="text-xl font-semibold text-white tracking-tight">{route.time}</motion.p>
+                                                                        <p className="text-xs text-white/40 font-light">{route.distance}</p>
+                                                                    </div>
+                                                                    <div className="p-1.5 rounded-full bg-white/5 group-hover/route:bg-white/10 transition-colors">
+                                                                        <ArrowRight className="h-3 w-3 text-white/60" />
+                                                                    </div>
+                                                                </div>
+                                                            </motion.div>
+                                                        ))}
+                                                    </AnimatePresence>
+                                                </div>
                                             </div>
-                                        </div>
+                                        )}
                                     </motion.div>
                                 )}
                             </AnimatePresence>
