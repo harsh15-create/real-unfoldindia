@@ -12,12 +12,13 @@ import MapPage from "./pages/MapPage";
 import RoutePlanner from "./pages/RoutePlanner";
 import TripDashboard from "./pages/TripDashboard";
 import Guide from "./pages/Guide";
-import FAB from "./components/FAB";
+import AIAssistant from "./components/AIAssistant";
 
 import CityPage from "./pages/CityPage";
 import EntryGuide from "./pages/EntryGuide";
 import SafetyGuide from "./pages/SafetyGuide";
 import AboutPage from "./pages/AboutPage";
+import Settings from "./pages/Settings";
 
 const queryClient = new QueryClient();
 
@@ -39,10 +40,12 @@ const App = () => (
           <Route path="/guide/entry/:sectionId" element={<EntryGuide />} />
           <Route path="/guide/safety/:sectionId" element={<SafetyGuide />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/settings" element={<Settings />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
-        <FAB />
+        <AIAssistant />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
