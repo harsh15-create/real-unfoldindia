@@ -760,9 +760,1141 @@ const cityData = {
             "Do not drink & drive (strict checks)",
             "Follow water sports safety instructions"
         ]
+    },
+    kerala: {
+        name: "Kerala",
+        title: "God’s Own Country",
+        image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1000&auto=format&fit=crop",
+        about: "Kerala is India’s most serene and naturally beautiful destination, known for its backwaters, beaches, hill stations, houseboats, wildlife, Ayurvedic retreats, and rich cultural heritage. With palm-fringed lagoons, lush hills, spice plantations, and peaceful coastal towns, Kerala offers a relaxing and immersive travel experience.",
+        bestTime: [
+            { season: "October to March", desc: "Best weather, ideal for all activities." },
+            { season: "April to June", desc: "Warm but good for hill stations like Munnar." },
+            { season: "June to September", desc: "Monsoon, beautiful landscapes and ideal for Ayurveda." },
+            { season: "Festivals", desc: "Onam, Thrissur Pooram, Kochi-Muziris Biennale." }
+        ],
+        attractions: [
+            {
+                name: "Fort Kochi",
+                image: "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "1–2 hrs",
+                desc: "Known for colonial streets, cafés, art, and Chinese fishing nets."
+            },
+            {
+                name: "Munnar Tea Gardens",
+                image: "https://images.unsplash.com/photo-1596005554384-d293674c91d7?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 5 PM",
+                entry: "Free (Museum charges apply)",
+                duration: "Half-day",
+                desc: "Famous for lush green valleys and tea plantations."
+            },
+            {
+                name: "Alleppey Houseboats",
+                image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=800&auto=format&fit=crop",
+                timings: "Check-in 12 PM",
+                entry: "Varies",
+                duration: "Overnight",
+                desc: "Backwaters, lagoons, palm views—all from a floating home."
+            },
+            {
+                name: "Periyar Wildlife Sanctuary",
+                image: "https://images.unsplash.com/photo-1588096344321-2168f1c0d6b7?q=80&w=800&auto=format&fit=crop",
+                timings: "6 AM – 5 PM",
+                entry: "₹300",
+                duration: "2–3 hrs",
+                desc: "Boating, jungle walks, bamboo rafting in Thekkady."
+            },
+            {
+                name: "Varkala Cliff",
+                image: "https://images.unsplash.com/photo-1587922546307-776227941871?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "Flexible",
+                desc: "Cliffside beaches, cafés, sunsets."
+            },
+            {
+                name: "Mattancherry Palace",
+                image: "https://images.unsplash.com/photo-1620065960017-7c9367d02598?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 5 PM (Fri Closed)",
+                entry: "₹5",
+                duration: "45 mins",
+                desc: "Portuguese palace featuring Kerala murals."
+            },
+            {
+                name: "Eravikulam National Park",
+                image: "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?q=80&w=800&auto=format&fit=crop",
+                timings: "7 AM – 4 PM",
+                entry: "₹200",
+                duration: "2–3 hrs",
+                desc: "Home to the endangered Nilgiri Tahr."
+            },
+            {
+                name: "Athirappilly Waterfalls",
+                image: "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?q=80&w=800&auto=format&fit=crop",
+                timings: "8 AM – 6 PM",
+                entry: "₹50",
+                duration: "2 hrs",
+                desc: "Known as Kerala’s Niagara, majestic waterfalls."
+            },
+            {
+                name: "Edakkal Caves",
+                image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 4 PM",
+                entry: "₹40",
+                duration: "2 hrs",
+                desc: "Ancient rock carvings in Wayanad."
+            },
+            {
+                name: "Kovalam Lighthouse Beach",
+                image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1000&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "1–2 hrs",
+                desc: "Swimming, cafés, scenic walks."
+            }
+        ],
+        hiddenGems: ["Marari Beach", "Poovar Island", "Chembra Peak", "Kuttanad Backwaters", "Chathurangapara Viewpoint"],
+        food: [
+            { area: "Fort Kochi", spots: "Seafood & Cafés" },
+            { area: "Alleppey", spots: "Backwater Toddy Shops" },
+            { area: "Munnar", spots: "Tea & Snacks" },
+            { area: "Kozhikode", spots: "Malabar Biryani & Halwa" },
+            { area: "Trivandrum", spots: "Traditional Sadya" }
+        ],
+        markets: ["Jew Town (Kochi)", "Mattancherry Spice Market", "Munnar Tea Shops", "Broadway (Ernakulam)"],
+        nightlife: ["Varkala Cliff Cafés", "Fort Kochi Cultural Shows", "Kathakali Performances"],
+        itineraries: {
+            day1: "Fort Kochi → Chinese Fishing Nets → Mattancherry → Jew Town → Marine Drive",
+            day2: "Munnar tea gardens → Top Station → Eravikulam National Park",
+            day3: "Alleppey houseboat cruise → Backwaters → Beach relax"
+        },
+        transport: {
+            metro: "Kochi Metro available",
+            cabs: [
+                { type: "Auto-rickshaw", cost: "Meter/Negotiable" },
+                { type: "Taxi (Intercity)", cost: "₹800–₹1200 (Airport)" },
+                { type: "Bike Rent", cost: "₹300–₹600/day" }
+            ]
+        },
+        budget: [
+            { type: "Low", cost: "₹1000–₹1500/day" },
+            { type: "Mid", cost: "₹1800–₹3500/day" },
+            { type: "High", cost: "₹4500–₹8000/day" }
+        ],
+        stay: ["Fort Kochi (Culture)", "Alleppey (Houseboats)", "Munnar (Hills)", "Varkala (Cliffs)"],
+        safety: [
+            "Hill roads can be slippery during monsoon",
+            "Houseboat bookings should be verified",
+            "Beach areas safe but avoid late-night isolation",
+            "Use insect repellent in backwater zones",
+            "Hydrate during humid months"
+        ]
+    },
+    udaipur: {
+        name: "Udaipur",
+        title: "The City of Lakes",
+        image: "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=1000&auto=format&fit=crop",
+        about: "Udaipur, one of India’s most romantic destinations, is famous for its lakes, palaces, sunsets, and rich Rajasthani heritage. Known as the “City of Lakes,” Udaipur attracts travelers with its serene atmosphere, royal architecture, vibrant markets, and scenic viewpoints.",
+        bestTime: [
+            { season: "October to March", desc: "Best season, pleasant weather." },
+            { season: "April to June", desc: "Hot, best to avoid outdoor activities during the day." },
+            { season: "July to September", desc: "Monsoon greenery adds to the charm." },
+            { season: "Festivals", desc: "Mewar Festival, Shilpgram Festival." }
+        ],
+        attractions: [
+            {
+                name: "City Palace",
+                image: "https://images.unsplash.com/photo-1557690756-62764a7400d6?q=80&w=800&auto=format&fit=crop",
+                timings: "9:30 AM – 5:30 PM",
+                entry: "₹300 (Indians)",
+                duration: "2 hrs",
+                desc: "A massive palace complex with museums, courtyards, and lake views."
+            },
+            {
+                name: "Lake Pichola",
+                image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free (Boat ride charges apply)",
+                duration: "1–2 hrs",
+                desc: "Famous for sunset boat rides and island palaces."
+            },
+            {
+                name: "Jag Mandir",
+                image: "https://images.unsplash.com/photo-1582506843444-2e32298b6f7a?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 6 PM",
+                entry: "Free (Boat transfer chargeable)",
+                duration: "1 hr",
+                desc: "Island palace on Lake Pichola."
+            },
+            {
+                name: "Gangaur Ghat",
+                image: "https://images.unsplash.com/photo-1598887142487-3c854d53d2c8?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "Flexible",
+                desc: "Photography spot, morning & evening vibe."
+            },
+            {
+                name: "Jagdish Temple",
+                image: "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+                timings: "4:15 AM – 1 PM, 5:15 PM – 8 PM",
+                entry: "Free",
+                duration: "30 mins",
+                desc: "Historic Hindu temple with intricate carvings."
+            },
+            {
+                name: "Fateh Sagar Lake",
+                image: "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "1–2 hrs",
+                desc: "Boating, cafés, sunset views."
+            },
+            {
+                name: "Sajjangarh (Monsoon Palace)",
+                image: "https://images.unsplash.com/photo-1583590025986-d9f98f50332a?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 6 PM",
+                entry: "₹110",
+                duration: "1–2 hrs",
+                desc: "Hilltop viewpoint, best for sunset."
+            },
+            {
+                name: "Saheliyon Ki Bari",
+                image: "https://images.unsplash.com/photo-1596005554384-d293674c91d7?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 7 PM",
+                entry: "₹10",
+                duration: "1 hr",
+                desc: "Beautiful royal garden with fountains."
+            },
+            {
+                name: "Shilpgram",
+                image: "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+                timings: "11 AM – 7 PM",
+                entry: "₹30",
+                duration: "2 hrs",
+                desc: "Cultural village showcasing crafts & performances."
+            },
+            {
+                name: "Vintage Car Museum",
+                image: "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 9 PM",
+                entry: "₹400",
+                duration: "45 mins",
+                desc: "Unique automobile collection of the Maharanas."
+            }
+        ],
+        hiddenGems: ["Badi Lake", "Bahubali Hills", "Ambrai Ghat", "Tiger Lake", "Crystal Gallery"],
+        food: [
+            { area: "Ambrai Restaurant", spots: "Lake view dining" },
+            { area: "Upre", spots: "Rooftop views" },
+            { area: "Jagat Niwas", spots: "Rooftop dining" },
+            { area: "Khamma Ghani", spots: "Fine dining" },
+            { area: "Grasswood Cafe", spots: "Café food" }
+        ],
+        markets: ["Hathi Pol", "Bada Bazaar", "Shilpgram Bazaar", "Chetak Circle"],
+        nightlife: ["Ambrai Ghat", "Rooftop Restaurants", "Fateh Sagar Lake Cafés"],
+        itineraries: {
+            day1: "City Palace → Jagdish Temple → Lake Pichola boat ride → Ambrai Ghat",
+            day2: "Sajjangarh Palace → Fateh Sagar Lake → Saheliyon Ki Bari → Shopping",
+            day3: "Badi Lake → Bahubali Hills → Shilpgram → Vintage Car Museum"
+        },
+        transport: {
+            metro: "Not available",
+            cabs: [
+                { type: "Auto-rickshaw", cost: "Negotiable" },
+                { type: "Ola/Uber", cost: "₹60–₹200" },
+                { type: "Bike Rental", cost: "₹300–₹500/day" }
+            ]
+        },
+        budget: [
+            { type: "Low", cost: "₹800–₹1300/day" },
+            { type: "Mid", cost: "₹1500–₹3000/day" },
+            { type: "High", cost: "₹4000–₹8000/day" }
+        ],
+        stay: ["Lake Pichola", "Lal Ghat", "Fateh Sagar Lake", "Udaipur City Centre"],
+        safety: [
+            "Narrow old city roads—walk carefully",
+            "Sunset viewpoints get crowded",
+            "Beware of overpriced tour operators",
+            "Drink plenty of water (dry climate)",
+            "Stick to known areas at night"
+        ]
+    },
+    bangalore: {
+        name: "Bengaluru",
+        title: "The Garden City & Tech Capital",
+        image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1000&auto=format&fit=crop",
+        about: "Bengaluru (Bangalore), the Silicon Valley of India, is a lively blend of technology, culture, nightlife, nature, and food. Known for its pleasant weather, lakes, gardens, cafés, pubs, and youthful vibe, Bengaluru is one of India’s most modern yet culturally rooted cities.",
+        bestTime: [
+            { season: "October to February", desc: "Best weather, cool and pleasant." },
+            { season: "March to May", desc: "Warm but manageable compared to other cities." },
+            { season: "June to September", desc: "Monsoon showers bring greenery." },
+            { season: "Events", desc: "Bangalore Literature Festival, Karaga Festival." }
+        ],
+        attractions: [
+            {
+                name: "Lalbagh Botanical Garden",
+                image: "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=800&auto=format&fit=crop",
+                timings: "6 AM – 7 PM",
+                entry: "₹30",
+                duration: "1–2 hrs",
+                desc: "Famous for the Glass House, rare plants, and walking trails."
+            },
+            {
+                name: "Cubbon Park",
+                image: "https://images.unsplash.com/photo-1595842823678-01925627255d?q=80&w=800&auto=format&fit=crop",
+                timings: "6 AM – 6 PM (Closed Mon)",
+                entry: "Free",
+                duration: "1–2 hrs",
+                desc: "Green heart of the city, ideal for morning walks and cycling."
+            },
+            {
+                name: "Bangalore Palace",
+                image: "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 5 PM",
+                entry: "₹240 (Indian)",
+                duration: "1–1.5 hrs",
+                desc: "Tudor-style palace with royal interiors."
+            },
+            {
+                name: "Vidhana Soudha",
+                image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=800&auto=format&fit=crop",
+                timings: "View from outside",
+                entry: "Restricted",
+                duration: "30 mins",
+                desc: "Iconic government building, best for evening photography."
+            },
+            {
+                name: "UB City",
+                image: "https://images.unsplash.com/photo-1582913130063-48538569b4e3?q=80&w=800&auto=format&fit=crop",
+                timings: "10:30 AM – 11 PM",
+                entry: "Free",
+                duration: "Flexible",
+                desc: "Luxury mall with fine dining and nightlife."
+            },
+            {
+                name: "ISKCON Temple",
+                image: "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+                timings: "4:30 AM – 8 PM",
+                entry: "Free",
+                duration: "45 mins",
+                desc: "Magnificent temple dedicated to Lord Krishna."
+            },
+            {
+                name: "Bannerghatta Biological Park",
+                image: "https://images.unsplash.com/photo-1588096344321-2168f1c0d6b7?q=80&w=800&auto=format&fit=crop",
+                timings: "9:30 AM – 5 PM (Tue Closed)",
+                entry: "₹100–₹300",
+                duration: "Half-day",
+                desc: "Wildlife safari, zoo, and butterfly park."
+            },
+            {
+                name: "HAL Aerospace Museum",
+                image: "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 5 PM",
+                entry: "₹50",
+                duration: "1–1.5 hrs",
+                desc: "India’s first aerospace museum with aircraft exhibits."
+            },
+            {
+                name: "Nandi Hills",
+                image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1000&auto=format&fit=crop",
+                timings: "6 AM – 6 PM",
+                entry: "₹20",
+                duration: "Half-day trip",
+                desc: "Hill fortress 60 km from city, best for sunrise."
+            },
+            {
+                name: "MG Road & Brigade Road",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 11 PM",
+                entry: "Free",
+                duration: "Flexible",
+                desc: "Hub for shopping, cafés, and pubs."
+            }
+        ],
+        hiddenGems: ["Church Street", "Sankey Tank", "Turahalli Forest", "Commercial Street", "Art Galleries (Indiranagar)", "Brahmin’s Coffee Bar"],
+        food: [
+            { area: "Vidyarthi Bhavan", spots: "Masala Dosa" },
+            { area: "MTR (Mavalli Tiffin Rooms)", spots: "Rava Idli & Coffee" },
+            { area: "CTR (Shivajinagar)", spots: "Benne Dosa" },
+            { area: "Truffles", spots: "Burgers" },
+            { area: "Toit", spots: "Craft Beer & Food" }
+        ],
+        markets: ["Commercial Street", "Brigade Road", "Chickpet", "Malleshwaram"],
+        nightlife: ["Indiranagar Breweries", "Koramangala Pubs", "MG Road", "Church Street"],
+        itineraries: {
+            day1: "Lalbagh → Bangalore Palace → MG Road → UB City → Church Street",
+            day2: "Lalbagh → Vidhana Soudha → Commercial Street → Indiranagar",
+            day3: "Bannerghatta Safari → ISKCON Temple → Brigade Road"
+        },
+        transport: {
+            metro: "Efficient network (Namma Metro)",
+            cabs: [
+                { type: "Auto-rickshaw", cost: "Meter/Negotiable" },
+                { type: "Ola/Uber", cost: "₹80–₹250" },
+                { type: "Airport Taxi", cost: "₹700–₹1200" }
+            ]
+        },
+        budget: [
+            { type: "Low", cost: "₹800–₹1400/day" },
+            { type: "Mid", cost: "₹1500–₹3000/day" },
+            { type: "High", cost: "₹4000–₹9000/day" }
+        ],
+        stay: ["MG Road", "Indiranagar", "Koramangala", "Whitefield", "Jayanagar"],
+        safety: [
+            "Bengaluru is safe but traffic-heavy—plan travel time",
+            "Avoid remote areas late at night",
+            "Weather changes quickly—carry a light jacket",
+            "Watch for surge pricing on taxis",
+            "Weekends get crowded at pubs—book early"
+        ]
+    },
+    chennai: {
+        name: "Chennai",
+        title: "The Gateway to South India",
+        image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=1000&auto=format&fit=crop",
+        about: "Chennai, the capital of Tamil Nadu, is a beautiful blend of beaches, temples, culture, classical music, film industry, and modern city life. Known for its coastal charm, rich traditions, delicious South Indian food, and warm local hospitality, Chennai is one of India’s most diverse and culturally rooted metros.",
+        bestTime: [
+            { season: "November to February", desc: "Best weather, pleasant and cool." },
+            { season: "March to June", desc: "Hot and humid, best to avoid." },
+            { season: "July to October", desc: "Monsoon rains bring relief." },
+            { season: "Festivals", desc: "Pongal, Chennai Music Season (Dec–Jan)." }
+        ],
+        attractions: [
+            {
+                name: "Marina Beach",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "1–1.5 hrs",
+                desc: "World’s second-longest urban beach, best for sunrise and sunset."
+            },
+            {
+                name: "Kapaleeshwarar Temple",
+                image: "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+                timings: "6 AM – 12:30 PM, 4 PM – 8 PM",
+                entry: "Free",
+                duration: "45 mins",
+                desc: "Ancient Dravidian temple dedicated to Lord Shiva in Mylapore."
+            },
+            {
+                name: "Santhome Cathedral",
+                image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop",
+                timings: "6 AM – 9 PM",
+                entry: "Free",
+                duration: "30 mins",
+                desc: "Historic seaside church built by the Portuguese."
+            },
+            {
+                name: "Fort St. George",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 5 PM (Fri Closed)",
+                entry: "₹15 (Museum)",
+                duration: "1 hr",
+                desc: "First English fortress in India, housing a museum."
+            },
+            {
+                name: "Government Museum (Egmore)",
+                image: "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+                timings: "9:30 AM – 5 PM (Fri Closed)",
+                entry: "₹15",
+                duration: "1–2 hrs",
+                desc: "Known for its bronze gallery and archaeological exhibits."
+            },
+            {
+                name: "Valluvar Kottam",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "8:30 AM – 5:30 PM",
+                entry: "₹3",
+                duration: "30 mins",
+                desc: "Memorial dedicated to the classical Tamil poet Thiruvalluvar."
+            },
+            {
+                name: "Guindy National Park",
+                image: "https://images.unsplash.com/photo-1588096344321-2168f1c0d6b7?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 5:30 PM (Tue Closed)",
+                entry: "₹20",
+                duration: "1–1.5 hrs",
+                desc: "A protected forest area within the city limits."
+            },
+            {
+                name: "Besant Nagar (Elliot’s Beach)",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "Flexible",
+                desc: "Calm beach with cafés, ideal for evening walks."
+            },
+            {
+                name: "Chennai Lighthouse",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 1 PM, 3 PM – 6 PM (Mon Closed)",
+                entry: "₹10",
+                duration: "30 mins",
+                desc: "Offers panoramic views of Marina Beach and the city."
+            },
+            {
+                name: "DakshinaChitra",
+                image: "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 6 PM (Tue Closed)",
+                entry: "₹100",
+                duration: "2 hrs",
+                desc: "Living history museum showcasing South Indian heritage."
+            }
+        ],
+        hiddenGems: ["Broken Bridge", "Theosophical Society", "Cholamandal Artists Village", "Thalankuppam Pier", "Mylapore Tank Area", "Vintage Film Theatres"],
+        food: [
+            { area: "Saravana Bhavan", spots: "South Indian Veg" },
+            { area: "Murugan Idli Shop", spots: "Idli & Jigarthanda" },
+            { area: "Ratna Café", spots: "Sambar Idli" },
+            { area: "Buhari", spots: "Chicken 65" },
+            { area: "Sundari Akka Kadai", spots: "Seafood" }
+        ],
+        markets: ["T. Nagar", "Pondy Bazaar", "Sowcarpet", "Phoenix Marketcity"],
+        nightlife: ["Nungambakkam", "T. Nagar Rooftops", "ECR Clubs", "Velachery Pubs"],
+        itineraries: {
+            day1: "Kapaleeshwarar Temple → Santhome Cathedral → Marina Beach → Lighthouse → Food trail",
+            day2: "Marina Beach → Government Museum → Mylapore → Besant Nagar",
+            day3: "DakshinaChitra → ECR drive → Beach cafés"
+        },
+        transport: {
+            metro: "Modern & Fast",
+            cabs: [
+                { type: "Auto-rickshaw", cost: "Meter/Negotiable" },
+                { type: "Ola/Uber", cost: "₹80–₹220" },
+                { type: "Bus", cost: "Very Affordable" }
+            ]
+        },
+        budget: [
+            { type: "Low", cost: "₹700–₹1300/day" },
+            { type: "Mid", cost: "₹1500–₹3000/day" },
+            { type: "High", cost: "₹4000–₹8000/day" }
+        ],
+        stay: ["Mylapore", "T. Nagar", "Nungambakkam", "ECR", "Guindy"],
+        safety: [
+            "Chennai is safe but avoid isolated beaches at night",
+            "Hydrate well—humidity is high",
+            "Respect temple dress codes",
+            "Traffic-heavy areas—use pedestrian crossings",
+        ]
+    },
+    kolkata: {
+        name: "Kolkata",
+        title: "The City of Joy",
+        image: "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=1000&auto=format&fit=crop",
+        about: "Kolkata, the cultural capital of India, is known for its colonial architecture, art, literature, festivals, football passion, trams, street food, and warm Bengali hospitality. It is a city of creativity and intellect, offering a blend of heritage charm, modern cafes, vibrant street life, and deep-rooted traditions.",
+        bestTime: [
+            { season: "October to March", desc: "Best weather, pleasant and cool." },
+            { season: "April to June", desc: "Hot and humid." },
+            { season: "July to September", desc: "Monsoon season." },
+            { season: "Festivals", desc: "Durga Puja, Kali Puja, Christmas at Park Street." }
+        ],
+        attractions: [
+            {
+                name: "Victoria Memorial",
+                image: "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 5 PM",
+                entry: "₹30",
+                duration: "1–2 hrs",
+                desc: "Iconic marble monument surrounded by lush gardens."
+            },
+            {
+                name: "Howrah Bridge",
+                image: "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "30 mins",
+                desc: "Symbol of Kolkata, connecting Howrah and Kolkata city."
+            },
+            {
+                name: "Dakshineswar Kali Temple",
+                image: "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+                timings: "5 AM – 10:30 PM",
+                entry: "Free",
+                duration: "1–1.5 hrs",
+                desc: "Sacred riverside temple dedicated to goddess Kali."
+            },
+            {
+                name: "Belur Math",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "Open daily",
+                entry: "Free",
+                duration: "1 hr",
+                desc: "Peaceful spiritual center founded by Swami Vivekananda."
+            },
+            {
+                name: "Park Street",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "Flexible",
+                desc: "Famous for restaurants, nightlife, and Christmas celebrations."
+            },
+            {
+                name: "Indian Museum",
+                image: "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 5 PM",
+                entry: "₹50",
+                duration: "1–2 hrs",
+                desc: "Oldest and largest museum in India."
+            },
+            {
+                name: "St. Paul’s Cathedral",
+                image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 6 PM",
+                entry: "Free",
+                duration: "20–30 mins",
+                desc: "Neo-gothic architecture."
+            },
+            {
+                name: "College Street",
+                image: "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 8 PM",
+                entry: "Free",
+                duration: "1 hr",
+                desc: "Asia’s largest book market. Don’t miss Coffee House."
+            },
+            {
+                name: "Eco Park (New Town)",
+                image: "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=800&auto=format&fit=crop",
+                timings: "12 PM – 7:30 PM",
+                entry: "₹30",
+                duration: "2–3 hrs",
+                desc: "Activities, gardens, boating."
+            },
+            {
+                name: "Science City",
+                image: "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 8 PM",
+                entry: "₹60",
+                duration: "1–2 hrs",
+                desc: "Popular with families."
+            }
+        ],
+        hiddenGems: ["Kumartuli", "Prinsep Ghat", "Tiretta Bazaar", "Bow Barracks", "Rabindra Sarobar Lake", "Gariahat", "Sovabazar Rajbari"],
+        food: [
+            { area: "Arsalan", spots: "Biryani" },
+            { area: "6 Ballygunge Place", spots: "Bengali Thali" },
+            { area: "Peter Cat", spots: "Chelo Kebab" },
+            { area: "Mocambo", spots: "Continental" },
+            { area: "Flurys", spots: "Bakery & Tea" }
+        ],
+        markets: ["New Market", "Gariahat", "Hatibagan", "Quest Mall"],
+        nightlife: ["Park Street", "Sector 5 (Salt Lake)", "New Town Clubs", "Rooftop Lounges"],
+        itineraries: {
+            day1: "Victoria Memorial → St. Paul’s Cathedral → Park Street → Howrah Bridge → Prinsep Ghat sunset",
+            day2: "Indian Museum → Esplanade → College Street → Coffee House",
+            day3: "Dakshineswar Temple → Belur Math → River cruise → Eco Park"
+        },
+        transport: {
+            metro: "Fastest option",
+            cabs: [
+                { type: "Yellow Taxi", cost: "Meter/Negotiated" },
+                { type: "Ola/Uber", cost: "₹80–₹200" },
+                { type: "Tram", cost: "Heritage Ride" }
+            ]
+        },
+        budget: [
+            { type: "Low", cost: "₹700–₹1200/day" },
+            { type: "Mid", cost: "₹1500–₹3000/day" },
+            { type: "High", cost: "₹4000–₹8000/day" }
+        ],
+        stay: ["Park Street", "Esplanade", "New Town", "Salt Lake", "Howrah"],
+        safety: [
+            "Kolkata is safe but avoid empty lanes late night",
+            "Beware of pickpockets in crowded markets",
+            "Hydrate during humid weather",
+            "Negotiate taxi fares if meter is not used",
+            "During festivals, expect large crowds"
+        ]
+    },
+    hyderabad: {
+        name: "Hyderabad",
+        title: "The City of Pearls & Nawabi Heritage",
+        image: "https://images.unsplash.com/photo-1574108236743-40e53e6e3c5c?q=80&w=1000&auto=format&fit=crop",
+        about: "Hyderabad is a royal blend of Nizami culture, tech innovation, historic monuments, and world-famous biryani. Known for Charminar, grand palaces, lakes, bazaars, and modern IT hubs, Hyderabad offers a mix of tradition and modernity.",
+        bestTime: [
+            { season: "October to February", desc: "Ideal weather, pleasant for sightseeing." },
+            { season: "March to June", desc: "Hot summer, best to avoid." },
+            { season: "July to September", desc: "Monsoon season." },
+            { season: "Festivals", desc: "Ramzan, Bonalu, Diwali." }
+        ],
+        attractions: [
+            {
+                name: "Charminar",
+                image: "https://images.unsplash.com/photo-1574108236743-40e53e6e3c5c?q=80&w=800&auto=format&fit=crop",
+                timings: "9:30 AM – 5:30 PM",
+                entry: "₹25",
+                duration: "30–45 mins",
+                desc: "Historic Nizami monument and symbol of Hyderabad."
+            },
+            {
+                name: "Golconda Fort",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 5:30 PM",
+                entry: "₹25",
+                duration: "2–3 hrs",
+                desc: "Historic fortress known for its acoustics and light & sound show."
+            },
+            {
+                name: "Hussain Sagar Lake",
+                image: "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
+                timings: "8 AM – 10 PM",
+                entry: "Free (Boating charges apply)",
+                duration: "1 hr",
+                desc: "Heart-shaped lake with a large Buddha statue."
+            },
+            {
+                name: "Ramoji Film City",
+                image: "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+                timings: "9 AM – 5:30 PM",
+                entry: "₹1150+",
+                duration: "Full day",
+                desc: "World’s largest integrated film city complex."
+            },
+            {
+                name: "Chowmahalla Palace",
+                image: "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 5 PM (Fri Closed)",
+                entry: "₹80",
+                duration: "1 hr",
+                desc: "Magnificent palace of the Nizams."
+            },
+            {
+                name: "Salar Jung Museum",
+                image: "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 5 PM (Fri Closed)",
+                entry: "₹20",
+                duration: "1–2 hrs",
+                desc: "One of the largest museums with a unique collection of art and antiques."
+            },
+            {
+                name: "Laad Bazaar",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "11 AM – 11 PM",
+                entry: "Free",
+                duration: "Flexible",
+                desc: "Famous for bangles, pearls, and traditional handicrafts."
+            },
+            {
+                name: "Birla Mandir",
+                image: "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+                timings: "7 AM – 12 PM, 3 PM – 9 PM",
+                entry: "Free",
+                duration: "45 mins",
+                desc: "White marble temple offering panoramic views of the city."
+            },
+            {
+                name: "Necklace Road",
+                image: "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "Flexible",
+                desc: "Scenic stretch along Hussain Sagar Lake with cafés and parks."
+            },
+            {
+                name: "Shilparamam",
+                image: "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+                timings: "10:30 AM – 8 PM",
+                entry: "₹40",
+                duration: "2 hrs",
+                desc: "Arts, crafts, and cultural village."
+            }
+        ],
+        hiddenGems: ["Taramati Baradari", "Paigah Tombs", "Khajaguda Hills", "Secret Lake (Durgam Cheruvu)", "Opera House Cafés"],
+        food: [
+            { area: "Paradise", spots: "Hyderabadi Biryani" },
+            { area: "Bawarchi", spots: "Biryani" },
+            { area: "Shah Ghouse", spots: "Haleem & Biryani" },
+            { area: "Nimrah Café", spots: "Irani Chai & Osmania Biscuits" },
+            { area: "Chutneys", spots: "South Indian" }
+        ],
+        markets: ["Laad Bazaar", "Charminar Market", "Begum Bazaar", "GVK One Mall"],
+        nightlife: ["Banjara Hills", "Jubilee Hills", "Hitec City", "Gachibowli"],
+        itineraries: {
+            day1: "Charminar → Chowmahalla Palace → Laad Bazaar → Hussain Sagar Lake",
+            day2: "Golconda Fort → Qutb Shahi Tombs → Ramoji Film City (if time permits)",
+            day3: "Shilparamam → Banjara Hills cafés → Shopping"
+        },
+        transport: {
+            metro: "Expanding fast",
+            cabs: [
+                { type: "Auto-rickshaw", cost: "Negotiable" },
+                { type: "Ola/Uber", cost: "₹80–₹150" },
+                { type: "Airport Taxi", cost: "₹500–₹900" }
+            ]
+        },
+        budget: [
+            { type: "Low", cost: "₹800–₹1400/day" },
+            { type: "Mid", cost: "₹1500–₹3000/day" },
+            { type: "High", cost: "₹3500–₹8000/day" }
+        ],
+        stay: ["Banjara Hills", "Hitec City", "Gachibowli", "Abids"],
+        safety: [
+            "Old city gets crowded—secure belongings",
+            "Traffic is heavy—plan buffer time",
+            "Women: stick to known areas at night",
+            "Hydrate well during summer months"
+        ]
+    },
+    rishikesh: {
+        name: "Rishikesh",
+        title: "Yoga Capital of the World",
+        image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=1000&auto=format&fit=crop",
+        about: "Rishikesh is a spiritual and adventure destination located beside the Ganges River and the foothills of the Himalayas. Known for yoga, temples, river rafting, serene ashrams, and stunning sunsets, it attracts backpackers, wellness travelers, and adventure lovers.",
+        bestTime: [
+            { season: "October to March", desc: "Best for travel, pleasant weather." },
+            { season: "April to June", desc: "Warm, good for rafting." },
+            { season: "July to September", desc: "Monsoon (rafting closed)." },
+            { season: "Events", desc: "International Yoga Festival (March)." }
+        ],
+        attractions: [
+            {
+                name: "Laxman Jhula",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "30 mins",
+                desc: "Iconic suspension bridge across the Ganges."
+            },
+            {
+                name: "Ram Jhula",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "30 mins",
+                desc: "Another suspension bridge connecting ashram areas."
+            },
+            {
+                name: "Triveni Ghat",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7 (Aarti at sunset)",
+                entry: "Free",
+                duration: "1 hr",
+                desc: "Sacred ghat famous for the evening Ganga Aarti."
+            },
+            {
+                name: "Beatles Ashram",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 4 PM",
+                entry: "₹150 (Indian)",
+                duration: "1–2 hrs",
+                desc: "Abandoned ashram with street art and meditation zones."
+            },
+            {
+                name: "Neelkanth Mahadev Temple",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "5 AM – 8 PM",
+                entry: "Free",
+                duration: "2–3 hrs",
+                desc: "Sacred Shiva temple located in a forest valley."
+            },
+            {
+                name: "Parmarth Niketan",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "Open daily",
+                entry: "Free",
+                duration: "1 hr",
+                desc: "Largest ashram in Rishikesh, known for yoga and spiritual programs."
+            },
+            {
+                name: "Shiva Statue at Parmarth",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "30 mins",
+                desc: "Iconic statue on the banks of the Ganges."
+            },
+            {
+                name: "Neer Garh Waterfall",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "8 AM – 6 PM",
+                entry: "₹30",
+                duration: "2 hrs",
+                desc: "Scenic waterfall accessible via a short trek."
+            }
+        ],
+        hiddenGems: ["Goa Beach (Riverbank)", "Secret Waterfalls (Tapovan)", "Kathputli Artists", "Cliff-jumping Spots"],
+        food: [
+            { area: "Beatles Café", spots: "Vegan & Continental" },
+            { area: "Ganga View Café", spots: "River View Dining" },
+            { area: "Pure Soul Café", spots: "Organic Food" },
+            { area: "Little Buddha Café", spots: "Pizza & Momos" },
+            { area: "Local Stalls", spots: "Aloo Puri & Kachori" }
+        ],
+        markets: ["Laxman Jhula Market", "Ram Jhula Market", "Main Market"],
+        nightlife: ["Ganga Aarti", "Café Hopping", "Night Walks"],
+        itineraries: {
+            day1: "Laxman Jhula → Beatles Ashram → Ganga Aarti at Triveni Ghat",
+            day2: "River Rafting → Tapovan Cafés → Neer Garh Waterfall",
+            day3: "Camping → Neelkanth Mahadev Temple → Yoga Session"
+        },
+        transport: {
+            metro: "Not available",
+            cabs: [
+                { type: "Auto-rickshaw", cost: "Common" },
+                { type: "Rental Scooter", cost: "₹300–₹500/day" },
+                { type: "Taxi", cost: "For Temple Trips" }
+            ]
+        },
+        budget: [
+            { type: "Low", cost: "₹600–₹1000/day" },
+            { type: "Mid", cost: "₹1200–₹2500/day" },
+            { type: "High", cost: "₹3000–₹6000/day" }
+        ],
+        stay: ["Tapovan", "Laxman Jhula", "Ram Jhula", "Near Ganga Ghats"],
+        safety: [
+            "Do not swim in strong river currents",
+            "Rafting during authorized seasons only",
+            "Avoid isolated areas at night",
+            "Respect ashram rules"
+        ]
+    },
+    manali: {
+        name: "Manali",
+        title: "The Himalayan Adventure Hub",
+        image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1000&auto=format&fit=crop",
+        about: "Manali is a stunning hill station located in Himachal Pradesh. Known for mountains, rivers, snowfall, adventure sports, and beautiful valleys, Manali is perfect for families, honeymooners, and backpackers.",
+        bestTime: [
+            { season: "October to February", desc: "Snow season, winter sports." },
+            { season: "March to June", desc: "Peak travel season, pleasant weather." },
+            { season: "July to September", desc: "Monsoon season (landslide risk)." }
+        ],
+        attractions: [
+            {
+                name: "Solang Valley",
+                image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free (Activities chargeable)",
+                duration: "Half-day",
+                desc: "Hub for paragliding, ATV rides, and snow activities."
+            },
+            {
+                name: "Rohtang Pass",
+                image: "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+                timings: "Day trip (Permit required)",
+                entry: "Permit fee applies",
+                duration: "Full day",
+                desc: "Famous for snow, glaciers, and breathtaking mountain views."
+            },
+            {
+                name: "Old Manali",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "Flexible",
+                desc: "Known for its cafés, nightlife, and peaceful stays."
+            },
+            {
+                name: "Hadimba Temple",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "8 AM – 6 PM",
+                entry: "Free",
+                duration: "1 hr",
+                desc: "Ancient wooden temple surrounded by a cedar forest."
+            },
+            {
+                name: "Mall Road",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "10 AM – 10 PM",
+                entry: "Free",
+                duration: "Flexible",
+                desc: "The main street for shopping, food, and local market."
+            },
+            {
+                name: "Atal Tunnel",
+                image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "2–3 hrs",
+                desc: "Engineering marvel connecting Manali to Lahaul valley."
+            },
+            {
+                name: "Jogini Waterfall",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "Daytime",
+                entry: "Free",
+                duration: "2–3 hrs",
+                desc: "Scenic waterfall accessible via a short trek."
+            },
+            {
+                name: "Vashisht Hot Springs",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "7 AM – 9 PM",
+                entry: "Free",
+                duration: "1 hr",
+                desc: "Natural hot water pools with medicinal properties."
+            }
+        ],
+        hiddenGems: ["Sethan Igloo Village (Winter)", "Hampta Pass View Spots", "Jana Waterfall", "Manali Gompa"],
+        food: [
+            { area: "Café 1947", spots: "Italian & Music" },
+            { area: "Drifter’s Café", spots: "Breakfast & Views" },
+            { area: "Johnson’s Café", spots: "Trout Fish" },
+            { area: "Old Manali", spots: "Cafés & Bakeries" },
+            { area: "Local Stalls", spots: "Siddu & Momos" }
+        ],
+        markets: ["Mall Road", "Old Manali Market", "Tibetan Market"],
+        nightlife: ["Old Manali Cafés", "Mall Road Strolls", "Live Music Venues"],
+        itineraries: {
+            day1: "Solang Valley → Mall Road shopping & dinner",
+            day2: "Rohtang Pass (if open) → Old Manali cafés",
+            day3: "Atal Tunnel → Sissu → Jogini Waterfall trek"
+        },
+        transport: {
+            metro: "Not available",
+            cabs: [
+                { type: "Taxi", cost: "Main Transport" },
+                { type: "Bike Rental", cost: "₹800–₹1200/day" },
+                { type: "Walking", cost: "Best in Old Manali" }
+            ]
+        },
+        budget: [
+            { type: "Low", cost: "₹800–₹1500/day" },
+            { type: "Mid", cost: "₹1800–₹3500/day" },
+            { type: "High", cost: "₹4000–₹8000/day" }
+        ],
+        stay: ["Old Manali", "Mall Road", "Vashisht", "Aleo"],
+        safety: [
+            "Winter roads can be slippery",
+            "Altitude sickness near Rohtang",
+            "Avoid trekking alone",
+            "Book licensed snow activity operators"
+        ]
+    },
+    "leh-ladakh": {
+        name: "Leh-Ladakh",
+        title: "India’s Ultimate Mountain Destination",
+        image: "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?q=80&w=1000&auto=format&fit=crop",
+        about: "Leh–Ladakh is India’s most dramatic high-altitude region, famous for its barren mountains, blue lakes, monasteries, road trips, and adventure. Known as the “Land of High Passes,” it offers unmatched landscapes and thrilling travel routes.",
+        bestTime: [
+            { season: "May to September", desc: "Best season, all routes open." },
+            { season: "October to April", desc: "Harsh winter, many routes closed." },
+            { season: "Festivals", desc: "Hemis Festival, Losar." }
+        ],
+        attractions: [
+            {
+                name: "Pangong Lake",
+                image: "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Permit required",
+                duration: "Full day or overnight",
+                desc: "Iconic blue lake famous for its changing colors."
+            },
+            {
+                name: "Nubra Valley",
+                image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Permit required",
+                duration: "2 days",
+                desc: "Known for sand dunes, double-humped camels, and cold desert."
+            },
+            {
+                name: "Khardung La Pass",
+                image: "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+                timings: "Daytime",
+                entry: "Permit required",
+                duration: "1 hr",
+                desc: "One of the world’s highest motorable passes."
+            },
+            {
+                name: "Shanti Stupa",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "5 AM – 9 PM",
+                entry: "Free",
+                duration: "1 hr",
+                desc: "White-domed stupa offering panoramic views of Leh."
+            },
+            {
+                name: "Leh Palace",
+                image: "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+                timings: "7 AM – 4 PM",
+                entry: "₹15",
+                duration: "1 hr",
+                desc: "Historic 9-storey palace overlooking the town."
+            },
+            {
+                name: "Magnetic Hill",
+                image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Free",
+                duration: "30 mins",
+                desc: "Gravity-defying hill where vehicles appear to roll uphill."
+            },
+            {
+                name: "Sangam",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "Daytime",
+                entry: "Free",
+                duration: "30 mins",
+                desc: "Confluence of the Indus and Zanskar rivers."
+            },
+            {
+                name: "Hemis Monastery",
+                image: "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+                timings: "8 AM – 1 PM, 2 PM – 6 PM",
+                entry: "₹50",
+                duration: "1–2 hrs",
+                desc: "The largest and richest monastery in Ladakh."
+            },
+            {
+                name: "Tso Moriri Lake",
+                image: "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?q=80&w=800&auto=format&fit=crop",
+                timings: "Open 24x7",
+                entry: "Permit required",
+                duration: "Full day",
+                desc: "Remote high-altitude lake known for its serenity."
+            },
+            {
+                name: "Diskit Monastery",
+                image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+                timings: "7 AM – 1 PM, 2 PM – 7 PM",
+                entry: "₹30",
+                duration: "1 hr",
+                desc: "Oldest monastery in Nubra Valley with a massive Buddha statue."
+            }
+        ],
+        hiddenGems: ["Turtuk Village (Baltic Culture)", "Hanle (Dark Sky Reserve)", "Zanskar Valley", "Chuchot Village Biking Trails"],
+        food: [
+            { area: "Leh Market", spots: "Thukpa & Momos" },
+            { area: "Changspa", spots: "Cafés & Bakeries" },
+            { area: "Alchi Kitchen", spots: "Traditional Ladakhi Food" },
+            { area: "Tibetan Kitchen", spots: "Shabhaley & Tingmo" },
+            { area: "Local Homes", spots: "Butter Tea & Skyu" }
+        ],
+        markets: ["Leh Main Market", "Moti Market", "Tibetan Market"],
+        nightlife: ["Stargazing", "Bonfires", "Leh Market Cafés"],
+        itineraries: {
+            day1: "Leh Palace → Shanti Stupa → Sangam (Acclimatization)",
+            day2: "Nubra Valley via Khardung La → Hunder Sand Dunes",
+            day3: "Pangong Lake → Return to Leh"
+        },
+        transport: {
+            metro: "Not available",
+            cabs: [
+                { type: "Taxi", cost: "Expensive but reliable" },
+                { type: "Bike Rental", cost: "₹1200–₹2000/day" },
+                { type: "Shared Taxi", cost: "Budget Option" }
+            ]
+        },
+        budget: [
+            { type: "Low", cost: "₹1200–₹2000/day" },
+            { type: "Mid", cost: "₹2500–₹4500/day" },
+            { type: "High", cost: "₹5000–₹10,000/day" }
+        ],
+        stay: ["Leh Market", "Changspa", "Nubra (Hunder & Diskit)", "Pangong (Camps)"],
+        safety: [
+            "Acclimatize for 24 hours before sightseeing",
+            "Stay hydrated",
+            "Avoid heavy meals first day",
+            "Carry AMS medication",
+            "Winter roads can be dangerous",
+            "Oxygen levels are low—don’t overexert"
+        ]
     }
-}
-    ;
+};
 
 const CityPage = () => {
     const { cityId } = useParams<{ cityId: string }>();
