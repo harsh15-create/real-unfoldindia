@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, Linkedin, Twitter, Instagram, Mail, Phone } from "lucide-react";
+import { ArrowLeft, Linkedin, Github, Instagram, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -94,6 +94,12 @@ const AboutPage = () => {
                             description="Originator of the idea. Leads UX, frontend engineering, and product vision."
                             education="B.Tech CSE, 2nd Year — Galgotias University"
                             delay={0.1}
+                            socials={{
+                                linkedin: "https://www.linkedin.com/in/harsh-kushwaha-00b701363",
+                                instagram: "https://instagram.com/_harshh15_",
+                                github: "https://github.com/harsh15-create",
+                                mail: "mailto:harshkushwahaabc25@gmail.com"
+                            }}
                         />
                         {/* Gireesh */}
                         <TeamMemberCard
@@ -102,6 +108,12 @@ const AboutPage = () => {
                             description="Joined early to bring structure. Manages backend architecture, deployment, and operations."
                             education="B.Tech CSE, 2nd Year — Galgotias University"
                             delay={0.2}
+                            socials={{
+                                linkedin: "#",
+                                instagram: "#",
+                                github: "#",
+                                mail: "#"
+                            }}
                         />
                         {/* Vedant */}
                         <TeamMemberCard
@@ -110,6 +122,12 @@ const AboutPage = () => {
                             description="Bridges tech + user needs. Responsible for APIs, data sourcing, and strategic growth."
                             education="B.Tech CSE, 1st Year — Galgotias University"
                             delay={0.3}
+                            socials={{
+                                linkedin: "https://www.linkedin.com/in/vedant-srivastava-b299b9364",
+                                instagram: "https://instagram.com/_.vedaant_",
+                                github: "https://github.com/breek0307",
+                                mail: "mailto:vedaaant0307@gmail.com"
+                            }}
                         />
                     </div>
                 </section>
@@ -118,7 +136,14 @@ const AboutPage = () => {
     );
 };
 
-const TeamMemberCard = ({ name, role, description, education, delay }: { name: string, role: string, description: string, education: string, delay: number }) => (
+const TeamMemberCard = ({ name, role, description, education, delay, socials }: {
+    name: string,
+    role: string,
+    description: string,
+    education: string,
+    delay: number,
+    socials: { linkedin: string, instagram: string, github: string, mail: string }
+}) => (
     <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -138,10 +163,10 @@ const TeamMemberCard = ({ name, role, description, education, delay }: { name: s
         </div>
 
         <div className="flex gap-3">
-            <SocialLink icon={<Linkedin className="w-4 h-4" />} href="#" />
-            <SocialLink icon={<Instagram className="w-4 h-4" />} href="#" />
-            <SocialLink icon={<Twitter className="w-4 h-4" />} href="#" />
-            <SocialLink icon={<Mail className="w-4 h-4" />} href="#" />
+            <SocialLink icon={<Linkedin className="w-4 h-4" />} href={socials.linkedin} />
+            <SocialLink icon={<Instagram className="w-4 h-4" />} href={socials.instagram} />
+            <SocialLink icon={<Github className="w-4 h-4" />} href={socials.github} />
+            <SocialLink icon={<Mail className="w-4 h-4" />} href={socials.mail} />
         </div>
     </motion.div>
 );
@@ -149,6 +174,8 @@ const TeamMemberCard = ({ name, role, description, education, delay }: { name: s
 const SocialLink = ({ icon, href }: { icon: React.ReactNode, href: string }) => (
     <a
         href={href}
+        target="_blank"
+        rel="noopener noreferrer"
         className="p-2 rounded-full bg-muted/50 text-muted-foreground hover:bg-primary/10 hover:text-primary transition-colors"
     >
         {icon}
