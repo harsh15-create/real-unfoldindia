@@ -109,10 +109,10 @@ const AboutPage = () => {
                             education="B.Tech CSE, 2nd Year — Galgotias University"
                             delay={0.2}
                             socials={{
-                                linkedin: "#",
-                                instagram: "#",
-                                github: "#",
-                                mail: "#"
+                                linkedin: "https://www.linkedin.com/in/gireesh-‎-a58918283",
+                                instagram: "https://instagram.com/notme_gireesh",
+                                github: "https://github.com/Gireesh-mlgs",
+                                mail: "mailto:singhishu1@icloud.com"
                             }}
                         />
                         {/* Vedant */}
