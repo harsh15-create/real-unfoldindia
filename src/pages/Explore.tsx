@@ -43,6 +43,9 @@ const Explore = () => {
         { name: "Wildlife Safaris", image: "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?q=80&w=1000&auto=format&fit=crop", desc: "Tigers of Ranthambore" },
         { name: "Himalayan Treks", image: "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1000&auto=format&fit=crop", desc: "Adventure in the peaks" },
         { name: "Royal Luxury", image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1000&auto=format&fit=crop", desc: "Palaces of Rajasthan" },
+        { name: "Food Walks", image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1000&auto=format&fit=crop", desc: "Street food of Delhi" },
+        { name: "Heritage Stays", image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1000&auto=format&fit=crop", desc: "Live like royalty" },
+        { name: "Art Workshops", image: "https://images.unsplash.com/photo-1459908676235-d5f02a50184b?q=80&w=1000&auto=format&fit=crop", desc: "Pottery & Painting" },
     ];
 
     const culture = [

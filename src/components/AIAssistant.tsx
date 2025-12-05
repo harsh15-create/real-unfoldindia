@@ -63,7 +63,7 @@ const AIAssistant = () => {
     };
 
     return (
-        <div className="fixed bottom-6 left-6 z-50 flex flex-col items-start pointer-events-none">
+        <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end pointer-events-none">
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
