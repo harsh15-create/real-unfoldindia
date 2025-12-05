@@ -3,6 +3,7 @@ import { useLocation, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FileText, Shield, MapPin, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { CurrencyConverter } from "@/components/CurrencyConverter";
 
 const Guide = () => {
     const { hash } = useLocation();
@@ -115,6 +116,8 @@ const Guide = () => {
                     </div>
                 </section>
 
+
+
                 {/* Cities Section */}
                 <section id="cities" className="mb-12 scroll-mt-28">
                     <div className="flex items-center gap-4 mb-8">
@@ -154,6 +157,41 @@ const Guide = () => {
                                 </motion.div>
                             </Link>
                         ))}
+                    </div>
+                </section>
+
+                {/* Currency Section - Moved below Cities */}
+                <section id="currency" className="mb-24 scroll-mt-28">
+                    <div className="grid md:grid-cols-2 gap-12 items-center">
+                        <div className="space-y-6">
+                            <div className="flex items-center gap-4">
+                                <div className="bg-amber-500/20 p-3 rounded-xl text-amber-500">
+                                    <span className="text-2xl">₹</span>
+                                </div>
+                                <h2 className="text-3xl font-bold">Currency & Costs</h2>
+                            </div>
+                            <p className="text-lg text-muted-foreground leading-relaxed">
+                                The official currency of India is the <strong>Indian Rupee (₹)</strong>.
+                                While digital payments like UPI are widely accepted, it's always good to carry some cash for small vendors and rural areas.
+                            </p>
+                            <div className="grid gap-4">
+                                <div className="flex items-center gap-3 text-sm text-foreground/80 bg-white/5 p-3 rounded-lg border border-white/10">
+                                    <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
+                                    <span>UPI Accepted almost everywhere</span>
+                                </div>
+                                <div className="flex items-center gap-3 text-sm text-foreground/80 bg-white/5 p-3 rounded-lg border border-white/10">
+                                    <div className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+                                    <span>ATMs available in all major cities</span>
+                                </div>
+                                <div className="flex items-center gap-3 text-sm text-foreground/80 bg-white/5 p-3 rounded-lg border border-white/10">
+                                    <div className="w-1.5 h-1.5 rounded-full bg-amber-500" />
+                                    <span>Currency exchange at airports & banks</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex justify-center">
+                            <CurrencyConverter />
+                        </div>
                     </div>
                 </section>
 

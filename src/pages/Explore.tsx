@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Search, Sparkles, Compass, Palette, BookOpen, Shield, MapPin } from "lucide-react";
+import { Search, Sparkles, Compass, Palette, BookOpen, Shield, MapPin, Coins } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
@@ -55,6 +55,7 @@ const Explore = () => {
         { name: "Visa & Entry", icon: BookOpen, desc: "Everything you need to know about Indian visas.", link: "/guide#visa" },
         { name: "Safety Tips", icon: Shield, desc: "Essential safety advice for solo and group travelers.", link: "/guide#safety" },
         { name: "Cities", icon: MapPin, desc: "Guides for the top 30 most traveled cities.", link: "/guide#cities" },
+        { name: "Currency & Costs", icon: Coins, desc: "Check live rates and travel cost tips.", link: "/guide#currency" },
     ];
 
     return (
@@ -179,7 +180,7 @@ const Explore = () => {
                     {/* Guides Section */}
                     <div className="mb-20">
                         <h2 className="text-3xl font-bold mb-8">Travel <span className="text-primary">Guides</span></h2>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                             {guides.map((guide, index) => (
                                 <Link to={guide.link} key={index}>
                                     <motion.div
