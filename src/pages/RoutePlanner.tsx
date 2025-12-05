@@ -285,7 +285,7 @@ const RoutePlanner = () => {
     const placeholders = getPlaceholders();
 
     return (
-        <div className="h-screen bg-gradient-to-b from-[#050505] to-[#0f172a] text-foreground selection:bg-primary/30 selection:text-white relative overflow-hidden font-sans antialiased flex flex-col">
+        <div className="min-h-screen bg-gradient-to-b from-[#050505] to-[#0f172a] text-foreground selection:bg-primary/30 selection:text-white relative font-sans antialiased flex flex-col">
             {/* Subtle Noise Texture */}
             <div className="fixed inset-0 opacity-[0.03] pointer-events-none z-0 mix-blend-overlay" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 200\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'noiseFilter\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.65\' numOctaves=\'3\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23noiseFilter)\'/%3E%3C/svg%3E")' }} />
 
@@ -293,15 +293,15 @@ const RoutePlanner = () => {
             <div className="fixed top-[-20%] left-[20%] w-[1000px] h-[1000px] rounded-full bg-blue-900/10 blur-[150px] pointer-events-none" />
             <div className="fixed bottom-[-10%] right-[-10%] w-[800px] h-[800px] rounded-full bg-primary/5 blur-[150px] pointer-events-none" />
 
-            <div className="container mx-auto max-w-7xl px-6 md:px-12 pt-20 pb-6 relative z-10 flex-1 flex flex-col h-full">
+            <div className="container mx-auto max-w-7xl px-6 md:px-12 pt-20 pb-12 relative z-10 flex-1 flex flex-col">
                 <motion.div
                     variants={containerVariants}
                     initial="hidden"
                     animate="visible"
-                    className="grid lg:grid-cols-12 gap-8 h-full"
+                    className="grid lg:grid-cols-12 gap-8"
                 >
                     {/* Left Input Panel */}
-                    <motion.div variants={itemVariants} className="lg:col-span-4 flex flex-col justify-center h-full">
+                    <motion.div variants={itemVariants} className="lg:col-span-4 flex flex-col justify-start">
                         <div className="mb-6 pl-2">
                             <h1 className="text-4xl font-semibold tracking-tight text-white mb-2">
                                 Plan your <span className="text-primary/90">journey</span>.
@@ -488,7 +488,7 @@ const RoutePlanner = () => {
                                                     </span>
                                                 </motion.button>
                                             </PopoverTrigger>
-                                            <PopoverContent className="w-80 bg-[#0f172a]/95 backdrop-blur-xl border-white/10 p-5 text-white shadow-2xl rounded-2xl">
+                                            <PopoverContent className="w-72 sm:w-80 bg-[#0f172a]/95 backdrop-blur-xl border-white/10 p-5 text-white shadow-2xl rounded-2xl">
                                                 <div className="space-y-4">
                                                     <div className="space-y-2">
                                                         <label className="text-xs font-semibold text-white/60">Travellers</label>
@@ -560,7 +560,7 @@ const RoutePlanner = () => {
                     </motion.div>
 
                     {/* Right Preview Panel */}
-                    <motion.div variants={itemVariants} className="lg:col-span-8 relative h-full flex flex-col">
+                    <motion.div variants={itemVariants} className="lg:col-span-8 relative flex flex-col">
                         <div className="flex-1 backdrop-blur-3xl bg-white/[0.02] rounded-[2.5rem] border border-white/[0.05] relative overflow-hidden shadow-2xl flex items-center justify-center group/map">
                             {/* Subtle Inner Glow */}
                             <div className="absolute inset-0 rounded-[2.5rem] shadow-[inset_0_0_80px_rgba(0,0,0,0.6)] pointer-events-none z-10" />
@@ -600,7 +600,7 @@ const RoutePlanner = () => {
                                         initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
                                         animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                                         transition={{ duration: 0.8, ease: appleEase }}
-                                        className="w-full h-full p-8 relative z-20 flex flex-col overflow-y-auto"
+                                        className="w-full p-8 relative z-20 flex flex-col"
                                     >
                                         <AnimatePresence mode="wait">
                                             {selectedMode === "drive" && (
@@ -705,7 +705,7 @@ const RoutePlanner = () => {
                                                                     )}
                                                                 </Button>
                                                             </PopoverTrigger>
-                                                            <PopoverContent className="w-80 bg-[#0f172a] border-white/10 p-0 text-white">
+                                                            <PopoverContent className="w-72 sm:w-80 bg-[#0f172a] border-white/10 p-0 text-white">
                                                                 <div className="p-4 border-b border-white/10">
                                                                     <h4 className="font-semibold">Filters</h4>
                                                                 </div>
@@ -815,7 +815,7 @@ const RoutePlanner = () => {
                                                                         )}
                                                                     </Button>
                                                                 </PopoverTrigger>
-                                                                <PopoverContent className="w-80 bg-[#0f172a] border-white/10 p-0 text-white">
+                                                                <PopoverContent className="w-72 sm:w-80 bg-[#0f172a] border-white/10 p-0 text-white">
                                                                     <div className="p-4 border-b border-white/10">
                                                                         <h4 className="font-semibold">Filters</h4>
                                                                     </div>
@@ -926,7 +926,7 @@ const RoutePlanner = () => {
                                                                     )}
                                                                 </Button>
                                                             </PopoverTrigger>
-                                                            <PopoverContent className="w-80 bg-[#0f172a] border-white/10 p-0 text-white">
+                                                            <PopoverContent className="w-72 sm:w-80 bg-[#0f172a] border-white/10 p-0 text-white">
                                                                 <div className="p-4 border-b border-white/10">
                                                                     <h4 className="font-semibold">Filters</h4>
                                                                 </div>

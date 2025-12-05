@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
+import { CarouselSection } from "@/components/CarouselSection";
 
 const Explore = () => {
     const navigate = useNavigate();
@@ -153,14 +154,15 @@ const Explore = () => {
                     {/* Regions Section */}
                     <div className="mb-20">
                         <h2 className="text-3xl font-bold mb-8">Explore <span className="text-primary">Regions</span></h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            {regions.map((region, index) => (
+                        <CarouselSection
+                            items={regions}
+                            renderItem={(region, index) => (
                                 <motion.div
-                                    key={index}
                                     initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
                                     transition={{ delay: 0.2 + index * 0.1 }}
-                                    className="group relative overflow-hidden rounded-2xl aspect-[3/4] cursor-pointer"
+                                    className="group relative overflow-hidden rounded-2xl aspect-[3/4] cursor-pointer h-full"
                                 >
                                     <img
                                         src={region.image}
@@ -173,19 +175,21 @@ const Explore = () => {
                                         <p className="text-white/80 text-sm">{region.desc}</p>
                                     </div>
                                 </motion.div>
-                            ))}
-                        </div>
+                            )}
+                        />
                     </div>
 
                     {/* Guides Section */}
                     <div className="mb-20">
                         <h2 className="text-3xl font-bold mb-8">Travel <span className="text-primary">Guides</span></h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            {guides.map((guide, index) => (
-                                <Link to={guide.link} key={index}>
+                        <CarouselSection
+                            items={guides}
+                            renderItem={(guide, index) => (
+                                <Link to={guide.link} className="block h-full">
                                     <motion.div
                                         initial={{ opacity: 0, y: 20 }}
-                                        animate={{ opacity: 1, y: 0 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        viewport={{ once: true }}
                                         transition={{ delay: 0.5 + index * 0.1 }}
                                         className="glass-card p-6 rounded-2xl cursor-pointer hover:bg-white/5 transition-colors h-full"
                                     >
@@ -196,21 +200,22 @@ const Explore = () => {
                                         <p className="text-muted-foreground text-sm">{guide.desc}</p>
                                     </motion.div>
                                 </Link>
-                            ))}
-                        </div>
+                            )}
+                        />
                     </div>
 
                     {/* Experiences Section */}
                     <div className="mb-20">
                         <h2 className="text-3xl font-bold mb-8">Unforgettable <span className="text-primary">Experiences</span></h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            {experiences.map((exp, index) => (
+                        <CarouselSection
+                            items={experiences}
+                            renderItem={(exp, index) => (
                                 <motion.div
-                                    key={index}
                                     initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
                                     transition={{ delay: 0.3 + index * 0.1 }}
-                                    className="group relative overflow-hidden rounded-2xl aspect-[4/3] cursor-pointer"
+                                    className="group relative overflow-hidden rounded-2xl aspect-[4/3] cursor-pointer h-full"
                                 >
                                     <img
                                         src={exp.image}
@@ -223,21 +228,22 @@ const Explore = () => {
                                         <p className="text-white/80 text-sm">{exp.desc}</p>
                                     </div>
                                 </motion.div>
-                            ))}
-                        </div>
+                            )}
+                        />
                     </div>
 
                     {/* Culture Section */}
                     <div className="mb-12">
                         <h2 className="text-3xl font-bold mb-8">Indian <span className="text-primary">Culture</span></h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            {culture.map((item, index) => (
+                        <CarouselSection
+                            items={culture}
+                            renderItem={(item, index) => (
                                 <motion.div
-                                    key={index}
                                     initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
                                     transition={{ delay: 0.4 + index * 0.1 }}
-                                    className="group relative overflow-hidden rounded-2xl aspect-square cursor-pointer"
+                                    className="group relative overflow-hidden rounded-2xl aspect-square cursor-pointer h-full"
                                 >
                                     <img
                                         src={item.image}
@@ -250,8 +256,8 @@ const Explore = () => {
                                         <p className="text-white/80 text-sm">{item.desc}</p>
                                     </div>
                                 </motion.div>
-                            ))}
-                        </div>
+                            )}
+                        />
                     </div>
                 </motion.div>
 

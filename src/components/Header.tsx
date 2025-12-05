@@ -174,6 +174,14 @@ export const Header = () => {
                 {item.name}
               </Link>
             ))}
+            <Link
+              to="/chat"
+              className="text-sm font-medium text-gray-300 hover:text-primary transition-colors flex items-center gap-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <Bot className="h-4 w-4" />
+              Chat with Kira
+            </Link>
             <div className="pt-2 border-t border-white/10">
               <p className="text-xs font-semibold text-muted-foreground mb-2 uppercase tracking-wider">Popular Cities</p>
               <div className="grid grid-cols-2 gap-2">

@@ -4,6 +4,7 @@ import { ArrowLeft, MapPin, Calendar, Utensils, Train, Shield, Wallet, Moon, Sho
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/Header";
 import { Badge } from "@/components/ui/badge";
+import { CarouselSection } from "@/components/CarouselSection";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState, useEffect } from "react";
@@ -206,52 +207,58 @@ const CityPage = () => {
                             </div>
                             <h2 className="text-4xl font-bold">Top Attractions</h2>
                         </div>
-                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-                            {city.attractions.map((spot, index) => (
-                                <motion.div
-                                    key={index}
-                                    initial={{ opacity: 0, y: 20 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: index * 0.1 }}
-                                    viewport={{ once: true }}
-                                    className="group rounded-2xl overflow-hidden border border-border/50 bg-card hover:shadow-xl transition-all duration-300 flex flex-col"
-                                >
-                                    <div className="relative h-40 overflow-hidden">
-                                        <img
-                                            src={spot.image}
-                                            alt={spot.name}
-                                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                                        />
-                                        <div className="absolute top-2 right-2">
-                                            <Badge variant="secondary" className="backdrop-blur-md bg-black/50 text-white border-none text-[10px] px-2 py-0.5">
-                                                {spot.duration}
-                                            </Badge>
-                                        </div>
-                                    </div>
-                                    <div className="p-4 flex-grow flex flex-col">
-                                        <div className="flex items-start justify-between gap-2 mb-2">
-                                            <h3 className="text-base font-bold group-hover:text-primary transition-colors line-clamp-1">{spot.name}</h3>
-                                            <Button size="icon" variant="secondary" className="h-6 w-6 shrink-0 rounded-full bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20" asChild>
-                                                <Link to="/map">
-                                                    <MapPin className="h-3 w-3" />
-                                                </Link>
-                                            </Button>
-                                        </div>
-                                        <div className="space-y-1.5 text-xs text-muted-foreground flex-grow">
-                                            <div className="flex items-center gap-2">
-                                                <Clock className="h-3 w-3" /> <span className="line-clamp-1">{spot.timings}</span>
-                                            </div>
-                                            <div className="flex items-center gap-2">
-                                                <Wallet className="h-3 w-3" /> <span className="line-clamp-1">{spot.entry}</span>
-                                            </div>
-                                            {spot.desc && (
-                                                <div className="flex items-start gap-2 mt-1.5">
-                                                    <Info className="h-3 w-3 mt-0.5 flex-shrink-0" /> <span className="line-clamp-2">{spot.desc}</span>
+                        <div className="space-y-8">
+                            {Array.from({ length: Math.ceil(city.attractions.length / 4) }).map((_, chunkIndex) => (
+                                <CarouselSection
+                                    key={chunkIndex}
+                                    items={city.attractions.slice(chunkIndex * 4, (chunkIndex + 1) * 4)}
+                                    gridClassName="grid-cols-2 md:grid-cols-4 gap-4"
+                                    renderItem={(spot, index) => (
+                                        <motion.div
+                                            initial={{ opacity: 0, y: 20 }}
+                                            whileInView={{ opacity: 1, y: 0 }}
+                                            transition={{ delay: index * 0.1 }}
+                                            viewport={{ once: true }}
+                                            className="group rounded-2xl overflow-hidden border border-border/50 bg-card hover:shadow-xl transition-all duration-300 flex flex-col h-full"
+                                        >
+                                            <div className="relative h-40 overflow-hidden">
+                                                <img
+                                                    src={spot.image}
+                                                    alt={spot.name}
+                                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                                />
+                                                <div className="absolute top-2 right-2">
+                                                    <Badge variant="secondary" className="backdrop-blur-md bg-black/50 text-white border-none text-[10px] px-2 py-0.5">
+                                                        {spot.duration}
+                                                    </Badge>
                                                 </div>
-                                            )}
-                                        </div>
-                                    </div>
-                                </motion.div>
+                                            </div>
+                                            <div className="p-4 flex-grow flex flex-col">
+                                                <div className="flex items-start justify-between gap-2 mb-2">
+                                                    <h3 className="text-base font-bold group-hover:text-primary transition-colors line-clamp-1">{spot.name}</h3>
+                                                    <Button size="icon" variant="secondary" className="h-6 w-6 shrink-0 rounded-full bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20" asChild>
+                                                        <Link to="/map">
+                                                            <MapPin className="h-3 w-3" />
+                                                        </Link>
+                                                    </Button>
+                                                </div>
+                                                <div className="space-y-1.5 text-xs text-muted-foreground flex-grow">
+                                                    <div className="flex items-center gap-2">
+                                                        <Clock className="h-3 w-3" /> <span className="line-clamp-1">{spot.timings}</span>
+                                                    </div>
+                                                    <div className="flex items-center gap-2">
+                                                        <Wallet className="h-3 w-3" /> <span className="line-clamp-1">{spot.entry}</span>
+                                                    </div>
+                                                    {spot.desc && (
+                                                        <div className="flex items-start gap-2 mt-1.5">
+                                                            <Info className="h-3 w-3 mt-0.5 flex-shrink-0" /> <span className="line-clamp-2">{spot.desc}</span>
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            </div>
+                                        </motion.div>
+                                    )}
+                                />
                             ))}
                         </div>
                     </section>

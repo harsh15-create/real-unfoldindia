@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { FileText, Shield, MapPin, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CurrencyConverter } from "@/components/CurrencyConverter";
+import { CarouselSection } from "@/components/CarouselSection";
 
 const Guide = () => {
     const { hash } = useLocation();
@@ -68,9 +69,11 @@ const Guide = () => {
                         </div>
                         <h2 className="text-3xl font-bold">Visa & Entry</h2>
                     </div>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {visaArticles.map((article, index) => (
-                            <Link to={article.link} key={index}>
+                    <CarouselSection
+                        items={visaArticles}
+                        gridClassName="md:grid-cols-2 lg:grid-cols-3"
+                        renderItem={(article, index) => (
+                            <Link to={article.link} className="block h-full">
                                 <motion.div
                                     initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
@@ -84,8 +87,8 @@ const Guide = () => {
                                     </div>
                                 </motion.div>
                             </Link>
-                        ))}
-                    </div>
+                        )}
+                    />
                 </section>
 
                 {/* Safety Tips Section */}
@@ -96,9 +99,11 @@ const Guide = () => {
                         </div>
                         <h2 className="text-3xl font-bold">Safety Tips</h2>
                     </div>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {safetyArticles.map((article, index) => (
-                            <Link to={article.link} key={index}>
+                    <CarouselSection
+                        items={safetyArticles}
+                        gridClassName="md:grid-cols-2 lg:grid-cols-3"
+                        renderItem={(article, index) => (
+                            <Link to={article.link} className="block h-full">
                                 <motion.div
                                     initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
@@ -112,8 +117,8 @@ const Guide = () => {
                                     </div>
                                 </motion.div>
                             </Link>
-                        ))}
-                    </div>
+                        )}
+                    />
                 </section>
 
 
@@ -126,37 +131,115 @@ const Guide = () => {
                         </div>
                         <h2 className="text-3xl font-bold">Cities</h2>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-                        {cities.map((city, index) => (
-                            <Link to={`/guide/city/${city.name.toLowerCase()}`} key={index}>
-                                <motion.div
-                                    initial={{ opacity: 0, scale: 0.9 }}
-                                    whileInView={{ opacity: 1, scale: 1 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: index * 0.05 }}
-                                    className="bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all group cursor-pointer border border-white/10 h-full"
-                                >
-                                    <div className="relative h-40 overflow-hidden">
-                                        <img
-                                            src={city.image}
-                                            alt={city.name}
-                                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                                        />
-                                        <div className="absolute top-2 right-2 bg-black/30 backdrop-blur-md p-1.5 rounded-full text-white hover:bg-red-500/80 transition-colors">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
-                                                <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                                            </svg>
+
+                    <div className="space-y-8">
+                        {/* Row 1 (0-5) */}
+                        <CarouselSection
+                            items={cities.slice(0, 5)}
+                            gridClassName="grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"
+                            renderItem={(city, index) => (
+                                <Link to={`/guide/city/${city.name.toLowerCase()}`} className="block h-full">
+                                    <motion.div
+                                        initial={{ opacity: 0, scale: 0.9 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        viewport={{ once: true }}
+                                        transition={{ delay: index * 0.05 }}
+                                        className="bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all group cursor-pointer border border-white/10 h-full"
+                                    >
+                                        <div className="relative h-40 overflow-hidden">
+                                            <img
+                                                src={city.image}
+                                                alt={city.name}
+                                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                            />
+                                            <div className="absolute top-2 right-2 bg-black/30 backdrop-blur-md p-1.5 rounded-full text-white hover:bg-red-500/80 transition-colors">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                                                </svg>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="p-4">
-                                        <p className="text-[10px] font-semibold text-primary uppercase tracking-wider mb-1">{city.name}</p>
-                                        <h3 className="text-sm font-bold text-foreground leading-tight group-hover:text-primary transition-colors line-clamp-2">
-                                            {city.title}
-                                        </h3>
-                                    </div>
-                                </motion.div>
-                            </Link>
-                        ))}
+                                        <div className="p-4">
+                                            <p className="text-[10px] font-semibold text-primary uppercase tracking-wider mb-1">{city.name}</p>
+                                            <h3 className="text-sm font-bold text-foreground leading-tight group-hover:text-primary transition-colors line-clamp-2">
+                                                {city.title}
+                                            </h3>
+                                        </div>
+                                    </motion.div>
+                                </Link>
+                            )}
+                        />
+
+                        {/* Row 2 (5-10) */}
+                        <CarouselSection
+                            items={cities.slice(5, 10)}
+                            gridClassName="grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"
+                            renderItem={(city, index) => (
+                                <Link to={`/guide/city/${city.name.toLowerCase()}`} className="block h-full">
+                                    <motion.div
+                                        initial={{ opacity: 0, scale: 0.9 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        viewport={{ once: true }}
+                                        transition={{ delay: index * 0.05 }}
+                                        className="bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all group cursor-pointer border border-white/10 h-full"
+                                    >
+                                        <div className="relative h-40 overflow-hidden">
+                                            <img
+                                                src={city.image}
+                                                alt={city.name}
+                                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                            />
+                                            <div className="absolute top-2 right-2 bg-black/30 backdrop-blur-md p-1.5 rounded-full text-white hover:bg-red-500/80 transition-colors">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div className="p-4">
+                                            <p className="text-[10px] font-semibold text-primary uppercase tracking-wider mb-1">{city.name}</p>
+                                            <h3 className="text-sm font-bold text-foreground leading-tight group-hover:text-primary transition-colors line-clamp-2">
+                                                {city.title}
+                                            </h3>
+                                        </div>
+                                    </motion.div>
+                                </Link>
+                            )}
+                        />
+
+                        {/* Row 3 (10-15) */}
+                        <CarouselSection
+                            items={cities.slice(10, 15)}
+                            gridClassName="grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"
+                            renderItem={(city, index) => (
+                                <Link to={`/guide/city/${city.name.toLowerCase()}`} className="block h-full">
+                                    <motion.div
+                                        initial={{ opacity: 0, scale: 0.9 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        viewport={{ once: true }}
+                                        transition={{ delay: index * 0.05 }}
+                                        className="bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all group cursor-pointer border border-white/10 h-full"
+                                    >
+                                        <div className="relative h-40 overflow-hidden">
+                                            <img
+                                                src={city.image}
+                                                alt={city.name}
+                                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                            />
+                                            <div className="absolute top-2 right-2 bg-black/30 backdrop-blur-md p-1.5 rounded-full text-white hover:bg-red-500/80 transition-colors">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div className="p-4">
+                                            <p className="text-[10px] font-semibold text-primary uppercase tracking-wider mb-1">{city.name}</p>
+                                            <h3 className="text-sm font-bold text-foreground leading-tight group-hover:text-primary transition-colors line-clamp-2">
+                                                {city.title}
+                                            </h3>
+                                        </div>
+                                    </motion.div>
+                                </Link>
+                            )}
+                        />
                     </div>
                 </section>
 
