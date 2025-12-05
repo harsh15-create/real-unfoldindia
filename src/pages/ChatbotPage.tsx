@@ -192,6 +192,7 @@ const ChatbotPage = () => {
                             onKeyDown={(e) => e.key === 'Enter' && handleSendMessage()}
                             placeholder="Ask Kira anything about your trip..."
                             className="bg-transparent border-none focus-visible:ring-0 pl-6 h-12 text-base"
+                            autoFocus
                         />
                         <Button
                             onClick={() => handleSendMessage()}
@@ -241,8 +242,9 @@ const ChatbotPage = () => {
                                         </label>
                                         <Input
                                             value={itineraryForm.city}
-                                            readOnly
-                                            className="bg-muted/50 border-border/50 font-semibold"
+                                            onChange={(e) => setItineraryForm({ ...itineraryForm, city: e.target.value })}
+                                            placeholder="Enter destination"
+                                            className="bg-background border-input font-semibold"
                                         />
                                     </div>
 

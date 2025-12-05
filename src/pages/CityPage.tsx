@@ -126,6 +126,18 @@ const CityPage = () => {
                         >
                             {city.title}
                         </motion.p>
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.5, duration: 0.8 }}
+                            className="mt-8"
+                        >
+                            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white rounded-full px-8 h-12 text-lg shadow-lg hover:shadow-xl transition-all" asChild>
+                                <Link to={`/chat?action=itinerary&city=${city.name}`}>
+                                    Get Itinerary <Calendar className="ml-3 h-5 w-5" />
+                                </Link>
+                            </Button>
+                        </motion.div>
                     </div>
                 </div>
 
