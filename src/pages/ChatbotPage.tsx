@@ -98,7 +98,7 @@ const ChatbotPage = () => {
         // Add a system message about the generated itinerary
         const userRequest: Message = {
             id: Date.now().toString(),
-            text: `Generate a ${itineraryForm.days}-day itinerary for ${itineraryForm.city} with a ${itineraryForm.budget} budget.`,
+            text: `Generate a ${itineraryForm.days}-day itinerary for a trip to ${itineraryForm.city} from ${itineraryForm.origin}, starting on ${itineraryForm.startDate} ${itineraryForm.startMonth} ${itineraryForm.startYear} with a ${itineraryForm.budget} budget.`,
             sender: 'user',
             timestamp: new Date()
         };
