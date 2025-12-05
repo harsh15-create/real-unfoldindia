@@ -32,8 +32,12 @@ const ChatbotPage = () => {
     const [showItineraryPopup, setShowItineraryPopup] = useState(false);
     const [itineraryForm, setItineraryForm] = useState({
         city: "",
+        origin: "",
         days: "3",
         budget: "Medium",
+        startDate: "1",
+        startMonth: "January",
+        startYear: "2025",
         interests: ""
     });
 
@@ -236,16 +240,64 @@ const ChatbotPage = () => {
                                 </div>
 
                                 <div className="space-y-4">
+                                    <div className="grid grid-cols-2 gap-4">
+                                        <div className="space-y-2">
+                                            <label className="text-sm font-medium flex items-center gap-2">
+                                                <MapPin className="h-4 w-4 text-primary" /> Destination
+                                            </label>
+                                            <Input
+                                                value={itineraryForm.city}
+                                                onChange={(e) => setItineraryForm({ ...itineraryForm, city: e.target.value })}
+                                                placeholder="Where to?"
+                                                className="bg-background border-input font-semibold"
+                                            />
+                                        </div>
+                                        <div className="space-y-2">
+                                            <label className="text-sm font-medium flex items-center gap-2">
+                                                <MapPin className="h-4 w-4 text-primary" /> Origin
+                                            </label>
+                                            <Input
+                                                value={itineraryForm.origin}
+                                                onChange={(e) => setItineraryForm({ ...itineraryForm, origin: e.target.value })}
+                                                placeholder="From where?"
+                                                className="bg-background border-input font-semibold"
+                                            />
+                                        </div>
+                                    </div>
+
                                     <div className="space-y-2">
                                         <label className="text-sm font-medium flex items-center gap-2">
-                                            <MapPin className="h-4 w-4 text-primary" /> Destination
+                                            <Calendar className="h-4 w-4 text-primary" /> Start Date
                                         </label>
-                                        <Input
-                                            value={itineraryForm.city}
-                                            onChange={(e) => setItineraryForm({ ...itineraryForm, city: e.target.value })}
-                                            placeholder="Enter destination"
-                                            className="bg-background border-input font-semibold"
-                                        />
+                                        <div className="grid grid-cols-3 gap-2">
+                                            <select
+                                                className="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                                                value={itineraryForm.startDate}
+                                                onChange={(e) => setItineraryForm({ ...itineraryForm, startDate: e.target.value })}
+                                            >
+                                                {Array.from({ length: 31 }, (_, i) => i + 1).map(d => (
+                                                    <option key={d} value={d}>{d}</option>
+                                                ))}
+                                            </select>
+                                            <select
+                                                className="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                                                value={itineraryForm.startMonth}
+                                                onChange={(e) => setItineraryForm({ ...itineraryForm, startMonth: e.target.value })}
+                                            >
+                                                {["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"].map(m => (
+                                                    <option key={m} value={m}>{m}</option>
+                                                ))}
+                                            </select>
+                                            <select
+                                                className="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                                                value={itineraryForm.startYear}
+                                                onChange={(e) => setItineraryForm({ ...itineraryForm, startYear: e.target.value })}
+                                            >
+                                                {[2025, 2026, 2027].map(y => (
+                                                    <option key={y} value={y}>{y}</option>
+                                                ))}
+                                            </select>
+                                        </div>
                                     </div>
 
                                     <div className="grid grid-cols-2 gap-4">
