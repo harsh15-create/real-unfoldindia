@@ -63,11 +63,11 @@ const AIAssistant = () => {
     };
 
     return (
-        <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end pointer-events-none">
+        <div className="fixed bottom-6 left-6 z-50 flex flex-col items-start pointer-events-none">
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.9, y: 20, transformOrigin: "bottom right" }}
+                        initial={{ opacity: 0, scale: 0.9, y: 20, transformOrigin: "bottom left" }}
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.9, y: 20 }}
                         transition={{ type: "spring", stiffness: 300, damping: 25 }}
