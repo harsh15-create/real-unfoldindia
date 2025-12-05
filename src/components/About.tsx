@@ -45,8 +45,8 @@ const About = () => {
                         <p className="mt-4 text-lg text-muted-foreground">
                             Whether you're seeking spiritual solace in Varanasi, adventure in Ladakh, or relaxation in Kerala, we curate experiences that resonate with your soul.
                         </p>
-                        <div className="mt-8">
-                            <Button size="lg" className="bg-deep-green hover:bg-deep-green/90 text-white" asChild>
+                        <div className="mt-8 p-1.5 rounded-2xl bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 inline-block backdrop-blur-sm">
+                            <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 rounded-xl px-8" asChild>
                                 <Link to="/about">Read More About Us</Link>
                             </Button>
                         </div>
