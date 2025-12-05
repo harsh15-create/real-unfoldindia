@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { motion, AnimatePresence } from "framer-motion";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Calendar as CalendarComponent } from "@/components/ui/calendar";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
@@ -146,6 +147,25 @@ const RoutePlanner = () => {
     const [travellers, setTravellers] = useState(1);
     const [travelClass, setTravelClass] = useState("Economy");
     const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({});
+
+    const days = Array.from({ length: 31 }, (_, i) => (i + 1).toString());
+    const months = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
+    const years = [new Date().getFullYear().toString(), (new Date().getFullYear() + 1).toString()];
+
+    const updateDate = (type: 'date' | 'returnDate', part: 'day' | 'month' | 'year', value: string) => {
+        const targetDate = type === 'date' ? (date || new Date()) : (returnDate || new Date());
+        const newDate = new Date(targetDate);
+
+        if (part === 'day') newDate.setDate(parseInt(value));
+        if (part === 'month') newDate.setMonth(months.indexOf(value));
+        if (part === 'year') newDate.setFullYear(parseInt(value));
+
+        if (type === 'date') setDate(newDate);
+        else setReturnDate(newDate);
+    };
 
     const toggleFilter = (category: string, value: string) => {
         setActiveFilters(prev => {
@@ -388,131 +408,63 @@ const RoutePlanner = () => {
                                 <div className={cn("grid gap-2", selectedMode === "flight" && tripType === "round" ? "grid-cols-2" : "grid-cols-1")}>
                                     <div className="space-y-1.5 group/input">
                                         <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Departure</Label>
-                                        <Popover>
-                                            <PopoverTrigger asChild>
-                                                <motion.button
-                                                    whileHover={{ scale: 1.02, backgroundColor: "rgba(255, 255, 255, 0.05)" }}
-                                                    whileTap={{ scale: 0.98 }}
-                                                    type="button"
-                                                    className={cn(
-                                                        "w-full h-12 flex items-center justify-start text-left font-normal bg-white/[0.02] border border-white/[0.08] text-white rounded-2xl transition-all duration-300 pl-4 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20",
-                                                        !date && "text-white/40"
-                                                    )}
-                                                >
-                                                    <div className="p-1.5 rounded-full bg-white/5 mr-3 group-hover:bg-white/10 transition-colors">
-                                                        <Calendar className="h-4 w-4 text-white/60" />
-                                                    </div>
-                                                    {date ? (
-                                                        <span className="text-sm font-medium tracking-wide">{format(date, "PPP")}</span>
-                                                    ) : (
-                                                        <span className="text-sm text-white/20">Pick a date</span>
-                                                    )}
-                                                </motion.button>
-                                            </PopoverTrigger>
-                                            <PopoverContent
-                                                className="w-auto p-0 bg-[#0f172a]/90 backdrop-blur-xl border-white/10 text-white shadow-2xl rounded-2xl overflow-hidden"
-                                                align="start"
-                                                sideOffset={8}
-                                            >
-                                                <div className="p-4 border-b border-white/10 bg-white/5">
-                                                    <h4 className="font-semibold text-sm tracking-tight text-center">Select Travel Date</h4>
-                                                </div>
-                                                <CalendarComponent
-                                                    mode="single"
-                                                    selected={date}
-                                                    onSelect={setDate}
-                                                    initialFocus
-                                                    className="p-4 pointer-events-auto"
-                                                    classNames={{
-                                                        months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
-                                                        month: "space-y-4",
-                                                        caption: "flex justify-center pt-1 relative items-center",
-                                                        caption_label: "text-sm font-medium text-white",
-                                                        nav: "space-x-1 flex items-center",
-                                                        nav_button: "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100 hover:bg-white/10 rounded-full transition-all flex items-center justify-center border border-white/10",
-                                                        nav_button_previous: "absolute left-1",
-                                                        nav_button_next: "absolute right-1",
-                                                        table: "w-full border-collapse space-y-1",
-                                                        head_row: "flex",
-                                                        head_cell: "text-white/30 rounded-md w-9 font-normal text-[0.8rem] uppercase tracking-wider",
-                                                        row: "flex w-full mt-2",
-                                                        cell: "h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
-                                                        day: "h-9 w-9 p-0 font-normal aria-selected:opacity-100 hover:bg-white/10 rounded-full transition-all text-white/80 hover:text-white",
-                                                        day_selected: "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground shadow-lg shadow-primary/25 scale-105 font-semibold",
-                                                        day_today: "bg-white/5 text-white border border-white/20",
-                                                        day_outside: "text-white/20 opacity-50",
-                                                        day_disabled: "text-white/20 opacity-50",
-                                                        day_range_middle: "aria-selected:bg-accent aria-selected:text-accent-foreground",
-                                                        day_hidden: "invisible",
-                                                    }}
-                                                />
-                                            </PopoverContent>
-                                        </Popover>
+                                        <div className="flex gap-2">
+                                            <Select value={date?.getDate().toString()} onValueChange={(v) => updateDate('date', 'day', v)}>
+                                                <SelectTrigger className="w-[70px] bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
+                                                    <SelectValue placeholder="DD" />
+                                                </SelectTrigger>
+                                                <SelectContent className="bg-[#0f172a] border-white/10 text-white max-h-[300px]">
+                                                    {days.map(d => <SelectItem key={d} value={d} className="focus:bg-white/10 focus:text-white cursor-pointer">{d}</SelectItem>)}
+                                                </SelectContent>
+                                            </Select>
+                                            <Select value={date ? months[date.getMonth()] : undefined} onValueChange={(v) => updateDate('date', 'month', v)}>
+                                                <SelectTrigger className="flex-1 bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
+                                                    <SelectValue placeholder="Month" />
+                                                </SelectTrigger>
+                                                <SelectContent className="bg-[#0f172a] border-white/10 text-white">
+                                                    {months.map(m => <SelectItem key={m} value={m} className="focus:bg-white/10 focus:text-white cursor-pointer">{m}</SelectItem>)}
+                                                </SelectContent>
+                                            </Select>
+                                            <Select value={date?.getFullYear().toString()} onValueChange={(v) => updateDate('date', 'year', v)}>
+                                                <SelectTrigger className="w-[84px] bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
+                                                    <SelectValue placeholder="Year" />
+                                                </SelectTrigger>
+                                                <SelectContent className="bg-[#0f172a] border-white/10 text-white">
+                                                    {years.map(y => <SelectItem key={y} value={y} className="focus:bg-white/10 focus:text-white cursor-pointer">{y}</SelectItem>)}
+                                                </SelectContent>
+                                            </Select>
+                                        </div>
                                     </div>
 
                                     {selectedMode === "flight" && tripType === "round" && (
                                         <div className="space-y-1.5 group/input">
                                             <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Return</Label>
-                                            <Popover>
-                                                <PopoverTrigger asChild>
-                                                    <motion.button
-                                                        whileHover={{ scale: 1.02, backgroundColor: "rgba(255, 255, 255, 0.05)" }}
-                                                        whileTap={{ scale: 0.98 }}
-                                                        type="button"
-                                                        className={cn(
-                                                            "w-full h-12 flex items-center justify-start text-left font-normal bg-white/[0.02] border border-white/[0.08] text-white rounded-2xl transition-all duration-300 pl-4 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20",
-                                                            !returnDate && "text-white/40"
-                                                        )}
-                                                    >
-                                                        <div className="p-1.5 rounded-full bg-white/5 mr-3 group-hover:bg-white/10 transition-colors">
-                                                            <Calendar className="h-4 w-4 text-white/60" />
-                                                        </div>
-                                                        {returnDate ? (
-                                                            <span className="text-sm font-medium tracking-wide">{format(returnDate, "PPP")}</span>
-                                                        ) : (
-                                                            <span className="text-sm text-white/20">Return Date</span>
-                                                        )}
-                                                    </motion.button>
-                                                </PopoverTrigger>
-                                                <PopoverContent
-                                                    className="w-auto p-0 bg-[#0f172a]/90 backdrop-blur-xl border-white/10 text-white shadow-2xl rounded-2xl overflow-hidden"
-                                                    align="start"
-                                                    sideOffset={8}
-                                                >
-                                                    <div className="p-4 border-b border-white/10 bg-white/5">
-                                                        <h4 className="font-semibold text-sm tracking-tight text-center">Select Return Date</h4>
-                                                    </div>
-                                                    <CalendarComponent
-                                                        mode="single"
-                                                        selected={returnDate}
-                                                        onSelect={setReturnDate}
-                                                        initialFocus
-                                                        className="p-4 pointer-events-auto"
-                                                        classNames={{
-                                                            months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
-                                                            month: "space-y-4",
-                                                            caption: "flex justify-center pt-1 relative items-center",
-                                                            caption_label: "text-sm font-medium text-white",
-                                                            nav: "space-x-1 flex items-center",
-                                                            nav_button: "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100 hover:bg-white/10 rounded-full transition-all flex items-center justify-center border border-white/10",
-                                                            nav_button_previous: "absolute left-1",
-                                                            nav_button_next: "absolute right-1",
-                                                            table: "w-full border-collapse space-y-1",
-                                                            head_row: "flex",
-                                                            head_cell: "text-white/30 rounded-md w-9 font-normal text-[0.8rem] uppercase tracking-wider",
-                                                            row: "flex w-full mt-2",
-                                                            cell: "h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
-                                                            day: "h-9 w-9 p-0 font-normal aria-selected:opacity-100 hover:bg-white/10 rounded-full transition-all text-white/80 hover:text-white",
-                                                            day_selected: "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground shadow-lg shadow-primary/25 scale-105 font-semibold",
-                                                            day_today: "bg-white/5 text-white border border-white/20",
-                                                            day_outside: "text-white/20 opacity-50",
-                                                            day_disabled: "text-white/20 opacity-50",
-                                                            day_range_middle: "aria-selected:bg-accent aria-selected:text-accent-foreground",
-                                                            day_hidden: "invisible",
-                                                        }}
-                                                    />
-                                                </PopoverContent>
-                                            </Popover>
+                                            <div className="flex gap-2">
+                                                <Select value={returnDate?.getDate().toString()} onValueChange={(v) => updateDate('returnDate', 'day', v)}>
+                                                    <SelectTrigger className="w-[70px] bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
+                                                        <SelectValue placeholder="DD" />
+                                                    </SelectTrigger>
+                                                    <SelectContent className="bg-[#0f172a] border-white/10 text-white max-h-[300px]">
+                                                        {days.map(d => <SelectItem key={d} value={d} className="focus:bg-white/10 focus:text-white cursor-pointer">{d}</SelectItem>)}
+                                                    </SelectContent>
+                                                </Select>
+                                                <Select value={returnDate ? months[returnDate.getMonth()] : undefined} onValueChange={(v) => updateDate('returnDate', 'month', v)}>
+                                                    <SelectTrigger className="flex-1 bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
+                                                        <SelectValue placeholder="Month" />
+                                                    </SelectTrigger>
+                                                    <SelectContent className="bg-[#0f172a] border-white/10 text-white">
+                                                        {months.map(m => <SelectItem key={m} value={m} className="focus:bg-white/10 focus:text-white cursor-pointer">{m}</SelectItem>)}
+                                                    </SelectContent>
+                                                </Select>
+                                                <Select value={returnDate?.getFullYear().toString()} onValueChange={(v) => updateDate('returnDate', 'year', v)}>
+                                                    <SelectTrigger className="w-[84px] bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
+                                                        <SelectValue placeholder="Year" />
+                                                    </SelectTrigger>
+                                                    <SelectContent className="bg-[#0f172a] border-white/10 text-white">
+                                                        {years.map(y => <SelectItem key={y} value={y} className="focus:bg-white/10 focus:text-white cursor-pointer">{y}</SelectItem>)}
+                                                    </SelectContent>
+                                                </Select>
+                                            </div>
                                         </div>
                                     )}
                                 </div>

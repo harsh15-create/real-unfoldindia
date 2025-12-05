@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#0B0B15] border-t border-white/10 pt-16 pb-8">
       <div className="container px-4 md:px-6">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           <div>
             <h3 className="text-2xl font-bold mb-4 text-white">Unfold <span className="text-primary">India</span></h3>
             <p className="text-gray-400 mb-6">
@@ -27,10 +27,19 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-lg mb-4 text-white">Features</h4>
             <ul className="space-y-2">
-              <li><Link to="/ai-assistant" className="text-gray-400 hover:text-primary transition-colors">AI Assistant</Link></li>
-              <li><Link to="/translator" className="text-gray-400 hover:text-primary transition-colors">Smart Translator</Link></li>
-              <li><Link to="/safety" className="text-gray-400 hover:text-primary transition-colors">Safety Alerts</Link></li>
-              <li><Link to="/routes" className="text-gray-400 hover:text-primary transition-colors">Safe Routes</Link></li>
+              <li><Link to="/chat" className="text-gray-400 hover:text-primary transition-colors">AI Assistant</Link></li>
+              <li><Link to="/trip" className="text-gray-400 hover:text-primary transition-colors">Generate Itinerary</Link></li>
+              <li><Link to="/route" className="text-gray-400 hover:text-primary transition-colors">Transport Bookings</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-lg mb-4 text-white">Essentials</h4>
+            <ul className="space-y-2">
+              <li><Link to="/guide#visa" className="text-gray-400 hover:text-primary transition-colors">Visa Guide</Link></li>
+              <li><Link to="/guide#currency" className="text-gray-400 hover:text-primary transition-colors">Currency Converter</Link></li>
+              <li><Link to="/guide#safety" className="text-gray-400 hover:text-primary transition-colors">Safety Tips</Link></li>
+              <li><Link to="/settings?tab=billing" className="text-gray-400 hover:text-primary transition-colors">Credit Plans</Link></li>
             </ul>
           </div>
 
@@ -49,15 +58,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-primary" />
-                <span className="text-gray-400">Tech Hub, Bangalore, India 560001</span>
+                <span className="text-gray-400">Greater Noida, India 201312</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-primary" />
-                <span className="text-gray-400">+91 98765 43210</span>
+                <span className="text-gray-400">+91 9670676930</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-primary" />
-                <span className="text-gray-400">hello@unfoldindia.ai</span>
+                <span className="text-gray-400">contact@xerces.com</span>
               </li>
             </ul>
           </div>
