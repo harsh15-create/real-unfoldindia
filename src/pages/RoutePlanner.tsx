@@ -139,8 +139,12 @@ const RoutePlanner = () => {
     const [loading, setLoading] = useState(false);
     const [origin, setOrigin] = useState("");
     const [destination, setDestination] = useState("");
-    const [selectedMode, setSelectedMode] = useState("drive");
+    const [selectedMode, setSelectedMode] = useState("flight");
     const [date, setDate] = useState<Date | undefined>(new Date());
+    const [returnDate, setReturnDate] = useState<Date | undefined>();
+    const [tripType, setTripType] = useState("oneway");
+    const [travellers, setTravellers] = useState(1);
+    const [travelClass, setTravelClass] = useState("Economy");
     const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({});
 
     const toggleFilter = (category: string, value: string) => {
@@ -249,6 +253,17 @@ const RoutePlanner = () => {
         },
     };
 
+    const getPlaceholders = () => {
+        switch (selectedMode) {
+            case "flight": return { from: "From Airport", to: "To Airport" };
+            case "transit": return { from: "From Station", to: "To Station" };
+            case "bus": return { from: "From City", to: "To City" };
+            default: return { from: "Pickup Location", to: "Drop Location" };
+        }
+    };
+
+    const placeholders = getPlaceholders();
+
     return (
         <div className="h-screen bg-gradient-to-b from-[#050505] to-[#0f172a] text-foreground selection:bg-primary/30 selection:text-white relative overflow-hidden font-sans antialiased flex flex-col">
             {/* Subtle Noise Texture */}
@@ -279,15 +294,61 @@ const RoutePlanner = () => {
                         {/* Apple Glass Card */}
                         <div className="backdrop-blur-2xl bg-white/[0.03] border border-white/[0.06] p-6 rounded-[2rem] shadow-[0_20px_40px_-10px_rgba(0,0,0,0.5)] relative overflow-hidden transition-all duration-500 hover:bg-white/[0.04]">
                             <form onSubmit={handlePlan} className="space-y-6 relative z-10">
+
+                                {/* Top Tabs: Travel Mode */}
+                                <div className="grid grid-cols-4 bg-white/[0.03] p-1 rounded-2xl border border-white/[0.05]">
+                                    {[
+                                        { id: "flight", icon: Plane, label: "Flights" },
+                                        { id: "transit", icon: Train, label: "Trains" },
+                                        { id: "bus", icon: Bus, label: "Buses" },
+                                        { id: "drive", icon: Car, label: "Cabs" },
+                                    ].map((mode) => (
+                                        <button
+                                            key={mode.id}
+                                            type="button"
+                                            onClick={() => setSelectedMode(mode.id)}
+                                            className={cn(
+                                                "flex flex-col items-center justify-center py-2.5 rounded-xl transition-all duration-300 gap-1.5",
+                                                selectedMode === mode.id
+                                                    ? "bg-white/10 text-white shadow-lg shadow-black/20"
+                                                    : "text-white/40 hover:text-white/70 hover:bg-white/5"
+                                            )}
+                                        >
+                                            <mode.icon className="w-4 h-4" />
+                                            <span className="text-[10px] font-medium tracking-wide">{mode.label}</span>
+                                        </button>
+                                    ))}
+                                </div>
+
+                                {selectedMode === "flight" && (
+                                    <div className="flex gap-4 px-1">
+                                        <button
+                                            type="button"
+                                            onClick={() => setTripType("oneway")}
+                                            className={cn("text-xs font-medium transition-colors", tripType === "oneway" ? "text-primary" : "text-white/40 hover:text-white/70")}
+                                        >
+                                            One Way
+                                        </button>
+                                        <button
+                                            type="button"
+                                            onClick={() => setTripType("round")}
+                                            className={cn("text-xs font-medium transition-colors", tripType === "round" ? "text-primary" : "text-white/40 hover:text-white/70")}
+                                        >
+                                            Round Trip
+                                        </button>
+                                    </div>
+                                )}
+
+
                                 <div className="flex flex-col gap-1 relative">
                                     <div className="space-y-1.5 group/input">
-                                        <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Origin</Label>
+                                        <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">From</Label>
                                         <div className="relative transition-all duration-500 focus-within:scale-[1.01] focus-within:z-10">
                                             <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-white/30 group-focus-within/input:text-primary/80 transition-colors duration-500" />
                                             <Input
                                                 value={origin}
                                                 onChange={(e) => setOrigin(e.target.value)}
-                                                placeholder="Start location"
+                                                placeholder={placeholders.from}
                                                 className="pl-11 h-12 bg-white/[0.02] border-white/[0.08] focus:border-primary/30 focus:bg-white/[0.05] focus:ring-0 rounded-t-2xl rounded-b-md text-[14px] text-white placeholder:text-white/20 shadow-none transition-all duration-500 ease-out"
                                             />
                                         </div>
@@ -310,13 +371,13 @@ const RoutePlanner = () => {
                                     </div>
 
                                     <div className="space-y-1.5 group/input">
-                                        <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Destination</Label>
+                                        <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">To</Label>
                                         <div className="relative transition-all duration-500 focus-within:scale-[1.01] focus-within:z-10">
                                             <Navigation className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-white/30 group-focus-within/input:text-primary/80 transition-colors duration-500" />
                                             <Input
                                                 value={destination}
                                                 onChange={(e) => setDestination(e.target.value)}
-                                                placeholder="End location"
+                                                placeholder={placeholders.to}
                                                 className="pl-11 h-12 bg-white/[0.02] border-white/[0.08] focus:border-primary/30 focus:bg-white/[0.05] focus:ring-0 rounded-b-2xl rounded-t-md text-[14px] text-white placeholder:text-white/20 shadow-none transition-all duration-500 ease-out"
                                             />
                                         </div>
@@ -324,90 +385,204 @@ const RoutePlanner = () => {
 
                                 </div>
 
-                                <div className="space-y-1.5 group/input">
-                                    <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Date</Label>
-                                    <Popover>
-                                        <PopoverTrigger asChild>
-                                            <motion.button
-                                                whileHover={{ scale: 1.02, backgroundColor: "rgba(255, 255, 255, 0.05)" }}
-                                                whileTap={{ scale: 0.98 }}
-                                                className={cn(
-                                                    "w-full h-12 flex items-center justify-start text-left font-normal bg-white/[0.02] border border-white/[0.08] text-white rounded-2xl transition-all duration-300 pl-4 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20",
-                                                    !date && "text-white/40"
-                                                )}
+                                <div className={cn("grid gap-2", selectedMode === "flight" && tripType === "round" ? "grid-cols-2" : "grid-cols-1")}>
+                                    <div className="space-y-1.5 group/input">
+                                        <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Departure</Label>
+                                        <Popover>
+                                            <PopoverTrigger asChild>
+                                                <motion.button
+                                                    whileHover={{ scale: 1.02, backgroundColor: "rgba(255, 255, 255, 0.05)" }}
+                                                    whileTap={{ scale: 0.98 }}
+                                                    type="button"
+                                                    className={cn(
+                                                        "w-full h-12 flex items-center justify-start text-left font-normal bg-white/[0.02] border border-white/[0.08] text-white rounded-2xl transition-all duration-300 pl-4 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20",
+                                                        !date && "text-white/40"
+                                                    )}
+                                                >
+                                                    <div className="p-1.5 rounded-full bg-white/5 mr-3 group-hover:bg-white/10 transition-colors">
+                                                        <Calendar className="h-4 w-4 text-white/60" />
+                                                    </div>
+                                                    {date ? (
+                                                        <span className="text-sm font-medium tracking-wide">{format(date, "PPP")}</span>
+                                                    ) : (
+                                                        <span className="text-sm text-white/20">Pick a date</span>
+                                                    )}
+                                                </motion.button>
+                                            </PopoverTrigger>
+                                            <PopoverContent
+                                                className="w-auto p-0 bg-[#0f172a]/90 backdrop-blur-xl border-white/10 text-white shadow-2xl rounded-2xl overflow-hidden"
+                                                align="start"
+                                                sideOffset={8}
                                             >
-                                                <div className="p-1.5 rounded-full bg-white/5 mr-3 group-hover:bg-white/10 transition-colors">
-                                                    <Calendar className="h-4 w-4 text-white/60" />
+                                                <div className="p-4 border-b border-white/10 bg-white/5">
+                                                    <h4 className="font-semibold text-sm tracking-tight text-center">Select Travel Date</h4>
                                                 </div>
-                                                {date ? (
-                                                    <span className="text-sm font-medium tracking-wide">{format(date, "PPP")}</span>
-                                                ) : (
-                                                    <span className="text-sm text-white/20">Pick a date</span>
-                                                )}
-                                            </motion.button>
-                                        </PopoverTrigger>
-                                        <PopoverContent
-                                            className="w-auto p-0 bg-[#0f172a]/90 backdrop-blur-xl border-white/10 text-white shadow-2xl rounded-2xl overflow-hidden"
-                                            align="start"
-                                            sideOffset={8}
-                                        >
-                                            <div className="p-4 border-b border-white/10 bg-white/5">
-                                                <h4 className="font-semibold text-sm tracking-tight text-center">Select Travel Date</h4>
-                                            </div>
-                                            <CalendarComponent
-                                                mode="single"
-                                                selected={date}
-                                                onSelect={setDate}
-                                                initialFocus
-                                                className="p-4 pointer-events-auto"
-                                                classNames={{
-                                                    months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
-                                                    month: "space-y-4",
-                                                    caption: "flex justify-center pt-1 relative items-center",
-                                                    caption_label: "text-sm font-medium text-white",
-                                                    nav: "space-x-1 flex items-center",
-                                                    nav_button: "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100 hover:bg-white/10 rounded-full transition-all flex items-center justify-center border border-white/10",
-                                                    nav_button_previous: "absolute left-1",
-                                                    nav_button_next: "absolute right-1",
-                                                    table: "w-full border-collapse space-y-1",
-                                                    head_row: "flex",
-                                                    head_cell: "text-white/30 rounded-md w-9 font-normal text-[0.8rem] uppercase tracking-wider",
-                                                    row: "flex w-full mt-2",
-                                                    cell: "h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
-                                                    day: "h-9 w-9 p-0 font-normal aria-selected:opacity-100 hover:bg-white/10 rounded-full transition-all text-white/80 hover:text-white",
-                                                    day_selected: "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground shadow-lg shadow-primary/25 scale-105 font-semibold",
-                                                    day_today: "bg-white/5 text-white border border-white/20",
-                                                    day_outside: "text-white/20 opacity-50",
-                                                    day_disabled: "text-white/20 opacity-50",
-                                                    day_range_middle: "aria-selected:bg-accent aria-selected:text-accent-foreground",
-                                                    day_hidden: "invisible",
-                                                }}
-                                            />
-                                        </PopoverContent>
-                                    </Popover>
+                                                <CalendarComponent
+                                                    mode="single"
+                                                    selected={date}
+                                                    onSelect={setDate}
+                                                    initialFocus
+                                                    className="p-4 pointer-events-auto"
+                                                    classNames={{
+                                                        months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
+                                                        month: "space-y-4",
+                                                        caption: "flex justify-center pt-1 relative items-center",
+                                                        caption_label: "text-sm font-medium text-white",
+                                                        nav: "space-x-1 flex items-center",
+                                                        nav_button: "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100 hover:bg-white/10 rounded-full transition-all flex items-center justify-center border border-white/10",
+                                                        nav_button_previous: "absolute left-1",
+                                                        nav_button_next: "absolute right-1",
+                                                        table: "w-full border-collapse space-y-1",
+                                                        head_row: "flex",
+                                                        head_cell: "text-white/30 rounded-md w-9 font-normal text-[0.8rem] uppercase tracking-wider",
+                                                        row: "flex w-full mt-2",
+                                                        cell: "h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
+                                                        day: "h-9 w-9 p-0 font-normal aria-selected:opacity-100 hover:bg-white/10 rounded-full transition-all text-white/80 hover:text-white",
+                                                        day_selected: "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground shadow-lg shadow-primary/25 scale-105 font-semibold",
+                                                        day_today: "bg-white/5 text-white border border-white/20",
+                                                        day_outside: "text-white/20 opacity-50",
+                                                        day_disabled: "text-white/20 opacity-50",
+                                                        day_range_middle: "aria-selected:bg-accent aria-selected:text-accent-foreground",
+                                                        day_hidden: "invisible",
+                                                    }}
+                                                />
+                                            </PopoverContent>
+                                        </Popover>
+                                    </div>
+
+                                    {selectedMode === "flight" && tripType === "round" && (
+                                        <div className="space-y-1.5 group/input">
+                                            <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Return</Label>
+                                            <Popover>
+                                                <PopoverTrigger asChild>
+                                                    <motion.button
+                                                        whileHover={{ scale: 1.02, backgroundColor: "rgba(255, 255, 255, 0.05)" }}
+                                                        whileTap={{ scale: 0.98 }}
+                                                        type="button"
+                                                        className={cn(
+                                                            "w-full h-12 flex items-center justify-start text-left font-normal bg-white/[0.02] border border-white/[0.08] text-white rounded-2xl transition-all duration-300 pl-4 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20",
+                                                            !returnDate && "text-white/40"
+                                                        )}
+                                                    >
+                                                        <div className="p-1.5 rounded-full bg-white/5 mr-3 group-hover:bg-white/10 transition-colors">
+                                                            <Calendar className="h-4 w-4 text-white/60" />
+                                                        </div>
+                                                        {returnDate ? (
+                                                            <span className="text-sm font-medium tracking-wide">{format(returnDate, "PPP")}</span>
+                                                        ) : (
+                                                            <span className="text-sm text-white/20">Return Date</span>
+                                                        )}
+                                                    </motion.button>
+                                                </PopoverTrigger>
+                                                <PopoverContent
+                                                    className="w-auto p-0 bg-[#0f172a]/90 backdrop-blur-xl border-white/10 text-white shadow-2xl rounded-2xl overflow-hidden"
+                                                    align="start"
+                                                    sideOffset={8}
+                                                >
+                                                    <div className="p-4 border-b border-white/10 bg-white/5">
+                                                        <h4 className="font-semibold text-sm tracking-tight text-center">Select Return Date</h4>
+                                                    </div>
+                                                    <CalendarComponent
+                                                        mode="single"
+                                                        selected={returnDate}
+                                                        onSelect={setReturnDate}
+                                                        initialFocus
+                                                        className="p-4 pointer-events-auto"
+                                                        classNames={{
+                                                            months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
+                                                            month: "space-y-4",
+                                                            caption: "flex justify-center pt-1 relative items-center",
+                                                            caption_label: "text-sm font-medium text-white",
+                                                            nav: "space-x-1 flex items-center",
+                                                            nav_button: "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100 hover:bg-white/10 rounded-full transition-all flex items-center justify-center border border-white/10",
+                                                            nav_button_previous: "absolute left-1",
+                                                            nav_button_next: "absolute right-1",
+                                                            table: "w-full border-collapse space-y-1",
+                                                            head_row: "flex",
+                                                            head_cell: "text-white/30 rounded-md w-9 font-normal text-[0.8rem] uppercase tracking-wider",
+                                                            row: "flex w-full mt-2",
+                                                            cell: "h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
+                                                            day: "h-9 w-9 p-0 font-normal aria-selected:opacity-100 hover:bg-white/10 rounded-full transition-all text-white/80 hover:text-white",
+                                                            day_selected: "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground shadow-lg shadow-primary/25 scale-105 font-semibold",
+                                                            day_today: "bg-white/5 text-white border border-white/20",
+                                                            day_outside: "text-white/20 opacity-50",
+                                                            day_disabled: "text-white/20 opacity-50",
+                                                            day_range_middle: "aria-selected:bg-accent aria-selected:text-accent-foreground",
+                                                            day_hidden: "invisible",
+                                                        }}
+                                                    />
+                                                </PopoverContent>
+                                            </Popover>
+                                        </div>
+                                    )}
                                 </div>
 
-                                <div className="space-y-2">
-                                    <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Travel Mode</Label>
-                                    <RadioGroup value={selectedMode} onValueChange={setSelectedMode} className="grid grid-cols-4 gap-2">
-                                        {[
-                                            { id: "drive", icon: Car },
-                                            { id: "transit", icon: Train },
-                                            { id: "bus", icon: Bus },
-                                            { id: "flight", icon: Plane },
-                                        ].map((mode) => (
-                                            <div key={mode.id}>
-                                                <RadioGroupItem value={mode.id} id={mode.id} className="peer sr-only" />
-                                                <Label
-                                                    htmlFor={mode.id}
-                                                    className="flex flex-col items-center justify-center h-12 rounded-2xl border border-white/[0.05] bg-white/[0.02] hover:bg-white/[0.06] peer-data-[state=checked]:border-primary/40 peer-data-[state=checked]:bg-primary/[0.15] peer-data-[state=checked]:text-primary cursor-pointer transition-all duration-500 ease-out group/mode"
+                                {selectedMode === "flight" && (
+                                    <div className="space-y-1.5 group/input">
+                                        <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Travellers & Class</Label>
+                                        <Popover>
+                                            <PopoverTrigger asChild>
+                                                <motion.button
+                                                    whileHover={{ scale: 1.02, backgroundColor: "rgba(255, 255, 255, 0.05)" }}
+                                                    whileTap={{ scale: 0.98 }}
+                                                    type="button"
+                                                    className="w-full h-12 flex items-center justify-start text-left font-normal bg-white/[0.02] border border-white/[0.08] text-white rounded-2xl transition-all duration-300 pl-4 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20"
                                                 >
-                                                    <mode.icon className="h-4 w-4 text-white/40 group-hover/mode:text-white/60 peer-data-[state=checked]:text-primary transition-colors duration-500" />
-                                                </Label>
-                                            </div>
-                                        ))}
-                                    </RadioGroup>
-                                </div>
+                                                    <div className="p-1.5 rounded-full bg-white/5 mr-3 group-hover:bg-white/10 transition-colors">
+                                                        <Armchair className="h-4 w-4 text-white/60" />
+                                                    </div>
+                                                    <span className="text-sm font-medium tracking-wide">
+                                                        {travellers} Traveller{travellers > 1 ? 's' : ''}, {travelClass}
+                                                    </span>
+                                                </motion.button>
+                                            </PopoverTrigger>
+                                            <PopoverContent className="w-80 bg-[#0f172a]/95 backdrop-blur-xl border-white/10 p-5 text-white shadow-2xl rounded-2xl">
+                                                <div className="space-y-4">
+                                                    <div className="space-y-2">
+                                                        <label className="text-xs font-semibold text-white/60">Travellers</label>
+                                                        <div className="flex items-center justify-between bg-white/5 rounded-lg p-1 border border-white/10">
+                                                            <button
+                                                                type="button" // Prevent form submit
+                                                                onClick={() => setTravellers(Math.max(1, travellers - 1))}
+                                                                className="h-8 w-8 flex items-center justify-center rounded-md hover:bg-white/10 transition-colors"
+                                                            >
+                                                                -
+                                                            </button>
+                                                            <span className="font-medium">{travellers}</span>
+                                                            <button
+                                                                type="button" // Prevent form submit
+                                                                onClick={() => setTravellers(Math.min(9, travellers + 1))}
+                                                                className="h-8 w-8 flex items-center justify-center rounded-md hover:bg-white/10 transition-colors"
+                                                            >
+                                                                +
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div className="space-y-2">
+                                                        <label className="text-xs font-semibold text-white/60">Class</label>
+                                                        <div className="grid grid-cols-2 gap-2">
+                                                            {["Economy", "Premium", "Business", "First"].map((cls) => (
+                                                                <button
+                                                                    key={cls}
+                                                                    type="button" // Prevent form submit
+                                                                    onClick={() => setTravelClass(cls)}
+                                                                    className={cn(
+                                                                        "px-3 py-2 rounded-lg text-xs font-medium border transition-all",
+                                                                        travelClass === cls
+                                                                            ? "bg-primary text-white border-primary"
+                                                                            : "bg-white/5 text-white/60 border-white/10 hover:bg-white/10"
+                                                                    )}
+                                                                >
+                                                                    {cls}
+                                                                </button>
+                                                            ))}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </PopoverContent>
+                                        </Popover>
+                                    </div>
+                                )}
 
                                 <Button
                                     type="submit"
@@ -473,7 +648,7 @@ const RoutePlanner = () => {
                                         initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
                                         animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                                         transition={{ duration: 0.8, ease: appleEase }}
-                                        className="w-full h-full p-8 relative z-20 flex flex-col"
+                                        className="w-full h-full p-8 relative z-20 flex flex-col overflow-y-auto"
                                     >
                                         <AnimatePresence mode="wait">
                                             {selectedMode === "drive" && (
@@ -563,7 +738,7 @@ const RoutePlanner = () => {
                                                     animate={{ opacity: 1, x: 0 }}
                                                     exit={{ opacity: 0, x: -20 }}
                                                     transition={{ duration: 0.5, ease: appleEase }}
-                                                    className="flex-1 flex flex-col gap-4 overflow-y-auto pr-2"
+                                                    className="flex-1 flex flex-col gap-4 pr-2"
                                                 >
                                                     <div className="flex justify-between items-center mb-2">
                                                         <h2 className="text-2xl font-semibold text-white tracking-tight">Available Buses</h2>
@@ -672,7 +847,7 @@ const RoutePlanner = () => {
                                                     animate={{ opacity: 1, x: 0 }}
                                                     exit={{ opacity: 0, x: -20 }}
                                                     transition={{ duration: 0.5, ease: appleEase }}
-                                                    className="flex-1 flex flex-col gap-4 overflow-y-auto pr-2"
+                                                    className="flex-1 flex flex-col gap-4 pr-2"
                                                 >
                                                     <div className="flex flex-col gap-4">
                                                         <div className="flex justify-between items-center">
@@ -784,7 +959,7 @@ const RoutePlanner = () => {
                                                     animate={{ opacity: 1, x: 0 }}
                                                     exit={{ opacity: 0, x: -20 }}
                                                     transition={{ duration: 0.5, ease: appleEase }}
-                                                    className="flex-1 flex flex-col gap-4 overflow-y-auto pr-2"
+                                                    className="flex-1 flex flex-col gap-4 pr-2"
                                                 >
                                                     <div className="flex justify-between items-center mb-2">
                                                         <h2 className="text-2xl font-semibold text-white tracking-tight">Flights</h2>
