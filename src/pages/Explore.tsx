@@ -39,13 +39,13 @@ const Explore = () => {
     ];
 
     const experiences = [
-        { name: "Spiritual Journeys", image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?q=80&w=1000&auto=format&fit=crop", desc: "Varanasi, Rishikesh & more" },
-        { name: "Wildlife Safaris", image: "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?q=80&w=1000&auto=format&fit=crop", desc: "Tigers of Ranthambore" },
+        { name: "Spiritual Journeys", image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?q=80&w=1000&auto=format&fit=crop", desc: "Varanasi, Rishikesh & more", link: "/spiritual-journeys" },
+        { name: "Wildlife Safaris", image: "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?q=80&w=1000&auto=format&fit=crop", desc: "Tigers of Ranthambore", link: "/wildlife-safaris" },
         { name: "Himalayan Treks", image: "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1000&auto=format&fit=crop", desc: "Adventure in the peaks" },
         { name: "Royal Luxury", image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1000&auto=format&fit=crop", desc: "Palaces of Rajasthan" },
-        { name: "Food Walks", image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1000&auto=format&fit=crop", desc: "Street food of Delhi" },
-        { name: "Heritage Stays", image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1000&auto=format&fit=crop", desc: "Live like royalty" },
-        { name: "Art Workshops", image: "https://images.unsplash.com/photo-1459908676235-d5f02a50184b?q=80&w=1000&auto=format&fit=crop", desc: "Pottery & Painting" },
+        { name: "Adventures", image: "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?q=80&w=1000&auto=format&fit=crop", desc: "Rafting, Paragliding & more" },
+        { name: "Coastal Escapes", image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1000&auto=format&fit=crop", desc: "Beaches of Goa & Gokarna" },
+        { name: "Desert Expeditions", image: "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?q=80&w=1000&auto=format&fit=crop", desc: "Camel safaris in Jaisalmer" },
     ];
 
     const culture = [
@@ -212,26 +212,36 @@ const Explore = () => {
                         <h2 className="text-3xl font-bold mb-8">Unforgettable <span className="text-primary">Experiences</span></h2>
                         <CarouselSection
                             items={experiences}
-                            renderItem={(exp, index) => (
-                                <motion.div
-                                    initial={{ opacity: 0, y: 20 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: 0.3 + index * 0.1 }}
-                                    className="group relative overflow-hidden rounded-2xl aspect-[4/3] cursor-pointer h-full"
-                                >
-                                    <img
-                                        src={exp.image}
-                                        alt={exp.name}
-                                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                                    />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                                    <div className="absolute bottom-0 left-0 p-6">
-                                        <h3 className="text-xl font-bold text-white mb-1">{exp.name}</h3>
-                                        <p className="text-white/80 text-sm">{exp.desc}</p>
-                                    </div>
-                                </motion.div>
-                            )}
+                            renderItem={(exp, index) => {
+                                const CardContent = (
+                                    <motion.div
+                                        initial={{ opacity: 0, y: 20 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{ delay: 0.3 + index * 0.1 }}
+                                        className="group relative overflow-hidden rounded-2xl aspect-[4/3] cursor-pointer h-full"
+                                    >
+                                        <img
+                                            src={exp.image}
+                                            alt={exp.name}
+                                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                                        <div className="absolute bottom-0 left-0 p-6">
+                                            <h3 className="text-xl font-bold text-white mb-1">{exp.name}</h3>
+                                            <p className="text-white/80 text-sm">{exp.desc}</p>
+                                        </div>
+                                    </motion.div>
+                                );
+
+                                return exp.link ? (
+                                    <Link to={exp.link} className="block h-full">
+                                        {CardContent}
+                                    </Link>
+                                ) : (
+                                    CardContent
+                                );
+                            }}
                         />
                     </div>
 

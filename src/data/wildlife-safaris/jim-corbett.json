@@ -1,0 +1,137 @@
+{
+    "id": "jim-corbett",
+    "slug": "jim-corbett",
+    "title": "Jim Corbett National Park",
+    "hero_image": "https://images.unsplash.com/photo-1509117608144-88aa38072046?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1548074697-3f92de23a230?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1628186177114-1e0310cebf3c?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517454266398-356396caa019?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "India's first national park, a majestic tiger territory nestled in the foothills of the Himalayas along the Ramganga River.",
+    "long_description": "Jim Corbett National Park, established in 1936 as Hailey National Park, has the glory of being India's oldest and most prestigious National Park. Spanning over 520 square kilometers in the Nainital district of Uttarakhand, it is a haven for wildlife enthusiasts and nature lovers. The park is famous for its distinct zones like Dhikala, Bijrani, and Jhirna, each offering unique topography ranging from hills, river belts, marshy depressions, grasslands, and a large lake. It was the launchpad for Project Tiger in 1973. The magical landscape of Corbett is well known and fabled for its tiger richness. Even then, the presence of the big cat is not the only attraction; the park is home to rare species like Otters and the endemic fish-eating crocodile, the Gharial.",
+    "wildlife_significance": "A critical tiger habitat under Project Tiger, Corbett is crucial for the conservation of the Bengal Tiger. It also protects the unique Terai-Arc landscape biodiversity.",
+    "species_to_see": [
+        "Royal Bengal Tiger",
+        "Asian Elephant",
+        "Leopard",
+        "Sloth Bear",
+        "Gharial",
+        "Otter",
+        "Great Hornbill"
+    ],
+    "habitat_types": [
+        "Sal Forests",
+        "Riverine Belts",
+        "Grasslands (Chaurs)",
+        "Hilly Terrain"
+    ],
+    "safari_types": [
+        "Jeep Safari",
+        "Canter Safari",
+        "Elephant Safari (Subject to availability)"
+    ],
+    "major_experiences": [
+        "Morning/Evening Jeep Safaris",
+        "Stay inside the forest rest houses (Dhikala)",
+        "Bird Watching",
+        "Nature Walk (in buffer zones)"
+    ],
+    "guides_and_tips": "Booking in advance (30-45 days) is mandatory for safaris, especially for Dhikala zone. Always carry a government ID.",
+    "how_to_reach": "By Road: well connected to Delhi (260 km). By Train: Ramnagar is the nearest railway station (15 km). By Air: Pantnagar Airport (80 km) is the closest.",
+    "accommodation_recommendations": [
+        "Dhikala Forest Rest House (Inside Park)",
+        "Taj Corbett Resort & Spa",
+        "Namah Resort",
+        "Jim's Jungle Retreat"
+    ],
+    "permits_and_fees": "Permits must be booked online via the official government portal. Entry fees vary for Indians and Foreigners.",
+    "conservation_notes": "Maintains a strict 'No Plastic' zone. The park closes during monsoons to allow forest regeneration.",
+    "highlights": [
+        "Stay night at Dhikala Forest Lodge",
+        "Highest density of Tigers",
+        "Scenic Ramganga Reservoir",
+        "Home to over 600 bird species",
+        "Rich Sal forest vegetation",
+        "Historical Jim Corbett Museum"
+    ],
+    "sample_itinerary": "Day 1: Arrive at Ramnagar, check-in. Afternoon Jeep Safari in Bijrani zone. Evening nature walk. Day 2: Early morning Canter Safari to Dhikala. Breakfast at lodge. Visit Garjia Temple. Departure.",
+    "safety_tips": "Do not get down from the vehicle. Wear dull-colored clothes (greens/browns). Maintain silence.",
+    "tags": [
+        "Tiger Reserve",
+        "Himalayas",
+        "Riverine",
+        "Birds",
+        "History"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 200,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Per person entry fee only. Vehicle and guide charges extra.",
+            "source_url": "https://www.corbettonline.uk.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Adult (Foreigner)",
+            "price": 900,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Per person entry fee only.",
+            "source_url": "https://www.corbettonline.uk.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Jeep Safari (Indian Group of 6)",
+            "price_from": 4500,
+            "price_to": 6000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://www.corbettonline.uk.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "type": "Canter Safari (Per Seat)",
+            "price_from": 1500,
+            "price_to": 2000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://www.corbettonline.uk.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily (Zones have specific closure dates)",
+        "open_time": "06:00",
+        "close_time": "17:30",
+        "time_notes": "Morning Safari: 6:00 AM - 9:30 AM. Evening Safari: 2:30 PM - 5:30 PM. Timings change slightly with seasons.",
+        "source_url": "https://www.corbettonline.uk.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "November to June",
+        "peak_months": "December to April",
+        "off_season": "July to October (Monsoon - Dhikala Closed)",
+        "season_notes": "Jhirna and Dhela zones remain open throughout the year subject to weather.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://www.corbettonline.uk.gov.in/",
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Prices and timings change frequently. Verify before booking.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

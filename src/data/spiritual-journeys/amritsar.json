@@ -1,0 +1,66 @@
+{
+    "id": "amritsar",
+    "slug": "amritsar",
+    "title": "Amritsar: The Golden Temple",
+    "hero_image": "amritsar-hero-placeholder.jpg",
+    "gallery_images": [
+        "amritsar-golden-temple-night.jpg",
+        "amritsar-langar.jpg",
+        "amritsar-wagah-border.jpg",
+        "amritsar-jalianwala-bagh.jpg"
+    ],
+    "short_description": "Experience the serenity, service (Seva), and divine music of the holiest Sikh shrine.",
+    "long_description": "Amritsar (The Pool of Nectar) is the heart of the Sikh religion and home to the Harmandir Sahib, popularly known as the Golden Temple. It is a city that embodies the core Sikh values of Sewa (selfless service), Simran (meditation), and equality. \n\nThe Golden Temple is breathtaking—a gilded structure floating in the center of the Amrit Sarovar (holy tank). Unlike many places of worship that are built on high ground, the Golden Temple is built at a lower level, symbolizing humility. Its four doors are open to all four cardinal directions, signifying that people of all castes, creeds, and backgrounds are welcome. \n\nThe most moving experience here is the Langar, the world's largest free community kitchen, where volunteers feed over 100,000 people daily, regardless of who they are. Sitting in rows on the floor and sharing a meal is a powerful lesson in equality. The continuous singing of Gurbani (hymns) from the sanctum creates a vibration of pure peace that permeates the complex. Outside the temple, the city is a food lover's paradise and a historical hub, bearing the scars of the Jallianwala Bagh massacre and the patriotic fervor of the Wagah Border.",
+    "spiritual_significance": "The holiest shrine of Sikhism. It houses the Guru Granth Sahib, the eternal Guru of the Sikhs. A dip in the Amrit Sarovar is believed to heal spiritual and physical ailments.",
+    "major_temples_and_sites": [
+        {
+            "name": "The Golden Temple (Harmandir Sahib)",
+            "description": "The central shrine, plated with gold, surrounded by the holy pool. It is a place of sublime beauty and peace."
+        },
+        {
+            "name": "Akal Takht",
+            "description": "The highest temporal seat of the Sikhs, located directly opposite the Golden Temple."
+        },
+        {
+            "name": "Jallianwala Bagh",
+            "description": "A memorial garden preserving the memory of the 1919 massacre by British troops. The bullet marks are still visible on the walls."
+        },
+        {
+            "name": "Durgiana Temple",
+            "description": "A Hindu temple with architecture similar to the Golden Temple, dedicated to Goddess Durga."
+        },
+        {
+            "name": "Partition Museum",
+            "description": "The world's first museum dedicated to the Partition of 1947, housing poignant stories and artifacts."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Perform 'Sewa' (service) at the Langar—chopping vegetables, serving food, or washing dishes.",
+        "Listen to the live Kirtan (hymns) inside the temple complex.",
+        "Take a holy dip in the Amrit Sarovar.",
+        "Witness the Palki Sahib ceremony at night (putting the Holy Book to rest).",
+        "Visit the Wagah Border (30km away) for the high-energy 'Beating Retreat' ceremony.",
+        "Eat Kulchas and Lassi at famous local dhabas."
+    ],
+    "highlights": [
+        "The gleaming reflection of the Golden Temple at night.",
+        "The community spirit of the Langar.",
+        "The patriotic adrenaline at Wagah Border.",
+        "Rich Punjabi cuisine (Amritsari Kulcha, Makki ki Roti).",
+        "The immaculate cleanliness and order of the temple complex."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Baisakhi (April) and Guru Nanak Jayanti (Nov) are grand.",
+    "how_to_reach": "By Air: Sri Guru Ram Dass Jee International Airport (ATQ). By Train: Amritsar Junction. By Road: NH-1 from Delhi.",
+    "stay_recommendations": "Luxury: Taj Swarna, Hyatt Regency. Spiritual: Sarais (inns) managed by the Temple Committee (simple, clean). Budget: Hotels near Golden Temple.",
+    "safety_tips": "Head must be covered at all times inside the temple complex (scarves provided). No tobacco/alcohol allowed near the shrine. Dress modestly.",
+    "sample_itinerary": "Day 1: Arrive. Visit Golden Temple. Do Sewa at Langar. Visit Jallianwala Bagh. Evening Palki Sahib ceremony.\nDay 2: Morning visit to Partition Museum. Afternoon drive to Wagah Border for the ceremony. Dinner at Kesar Da Dhaba.",
+    "tags": [
+        "Sikhism",
+        "Service",
+        "Food",
+        "History",
+        "Peace"
+    ],
+    "is_bookable": true
+}

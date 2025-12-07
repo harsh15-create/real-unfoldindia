@@ -20,6 +20,10 @@ import EntryGuide from "./pages/EntryGuide";
 import SafetyGuide from "./pages/SafetyGuide";
 import AboutPage from "./pages/AboutPage";
 import Settings from "./pages/Settings";
+import SpiritualJourneys from "./pages/SpiritualJourneys";
+import SpiritualCity from "./pages/SpiritualCity";
+import WildlifeSafaris from "./pages/WildlifeSafaris";
+import WildlifePark from "./pages/WildlifePark";
 
 import { useLocation } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
@@ -58,6 +62,10 @@ const App = () => (
             <Route path="/guide/city/:cityId" element={<CityPage />} />
             <Route path="/guide/entry/:sectionId" element={<EntryGuide />} />
             <Route path="/guide/safety/:sectionId" element={<SafetyGuide />} />
+            <Route path="/spiritual-journeys" element={<SpiritualJourneys />} />
+            <Route path="/spiritual-journeys/:slug" element={<SpiritualCity />} />
+            <Route path="/wildlife-safaris" element={<WildlifeSafaris />} />
+            <Route path="/wildlife-safaris/:slug" element={<WildlifePark />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="*" element={<NotFound />} />

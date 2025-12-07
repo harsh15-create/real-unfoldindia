@@ -1,0 +1,266 @@
+{
+    "id": "spiritual-journeys",
+    "slug": "spiritual-journeys",
+    "title": "Spiritual Journeys",
+    "hero_image": "spiritual-hero-placeholder.jpg",
+    "intro_title": "Discover the Soul of India: A Voyage to the Sacred",
+    "intro_description": "India is more than a country; it is a living, breathing spiritual landscape where the divine taps you on the shoulder at every turn. For millennia, seekers, sages, and travelers have traversed this land to find peace, purpose, and connection. From the eternal fires of Varanasi burning by the Ganges to the meditative silence of the himalayan peaks, India offers a diverse tapestry of faith that transcends boundaries. \n\nWhether you seek the blessings of the Char Dham, the tranquility of Buddhist circuits, or the vibrant devotion of temple towns in the South, these journeys are not just about visiting places—they are about inner transformation. Experience the mesmerizing Ganga Aarti, walk the path of the Buddha, witness the architectural marvels of ancient dynasties, and immerse yourself in rituals that have survived empires. A spiritual journey in India is an invitation to pause, reflect, and rediscover the essence of life itself.",
+    "cities": [
+        {
+            "id": "varanasi",
+            "slug": "varanasi",
+            "title": "Varanasi",
+            "card_subtitle": "The City of Light & Eternal Life",
+            "thumbnail_image": "varanasi-thumb.jpg",
+            "short_description": "Witness the circle of life and death on the ghats of the world's oldest living city."
+        },
+        {
+            "id": "ayodhya",
+            "slug": "ayodhya",
+            "title": "Ayodhya",
+            "card_subtitle": "Birthplace of Lord Rama",
+            "thumbnail_image": "ayodhya-thumb.jpg",
+            "short_description": "A legendary city of devotion, grand temples, and the timeless epic of the Ramayana."
+        },
+        {
+            "id": "kedarnath",
+            "slug": "kedarnath",
+            "title": "Kedarnath",
+            "card_subtitle": "Shiva's Abode in the Himalayas",
+            "thumbnail_image": "kedarnath-thumb.jpg",
+            "short_description": "A sacred trekking pilgrimage to one of the 12 Jyotirlingas amidst majestic snow peaks."
+        },
+        {
+            "id": "rishikesh",
+            "slug": "rishikesh",
+            "title": "Rishikesh",
+            "card_subtitle": "Yoga Capital of the World",
+            "thumbnail_image": "rishikesh-thumb.jpg",
+            "short_description": "Where the Ganges leaves the mountains—a hub for yoga, meditation, and spiritual awakening."
+        },
+        {
+            "id": "haridwar",
+            "slug": "haridwar",
+            "title": "Haridwar",
+            "card_subtitle": "Gateway to the Gods",
+            "thumbnail_image": "haridwar-thumb.jpg",
+            "short_description": "Participate in the Ganga Aarti and take a holy dip in one of India's seven holiest cities."
+        },
+        {
+            "id": "bodh-gaya",
+            "slug": "bodh-gaya",
+            "title": "Bodh Gaya",
+            "card_subtitle": "The Place of Enlightenment",
+            "thumbnail_image": "bodhgaya-thumb.jpg",
+            "short_description": "Sit under the Bodhi Tree where Prince Siddhartha attained enlightenment and became the Buddha."
+        },
+        {
+            "id": "amritsar",
+            "slug": "amritsar",
+            "title": "Amritsar",
+            "card_subtitle": "Home of the Golden Temple",
+            "thumbnail_image": "amritsar-thumb.jpg",
+            "short_description": "Experience the serenity, service (Seva), and divine music of the holiest Sikh shrine."
+        },
+        {
+            "id": "tirupati",
+            "slug": "tirupati",
+            "title": "Tirupati",
+            "card_subtitle": "The Hill of Lord Venkateswara",
+            "thumbnail_image": "tirupati-thumb.jpg",
+            "short_description": "Visit one of the world's richest and most visited temples atop the sacred Tirumala hills."
+        },
+        {
+            "id": "kanchipuram",
+            "slug": "kanchipuram",
+            "title": "Kanchipuram",
+            "card_subtitle": "City of Thousand Temples",
+            "thumbnail_image": "kanchipuram-thumb.jpg",
+            "short_description": "Explore the majestic Dravidian architecture and sacred shakti peethas of this historic town."
+        },
+        {
+            "id": "pushkar",
+            "slug": "pushkar",
+            "title": "Pushkar",
+            "card_subtitle": "The Lotus Flower of Brahma",
+            "thumbnail_image": "pushkar-thumb.jpg",
+            "short_description": "The only dedicated Brahma temple in the world, set around a holy lake in Rajasthan."
+        },
+        {
+            "id": "dwarka",
+            "slug": "dwarka",
+            "title": "Dwarka",
+            "card_subtitle": "Kingdom of Lord Krishna",
+            "thumbnail_image": "dwarka-thumb.jpg",
+            "short_description": "An ancient Char Dham city on the Gujarat coast, submerged in myth and devotion."
+        },
+        {
+            "id": "somnath",
+            "slug": "somnath",
+            "title": "Somnath",
+            "card_subtitle": "The First Jyotirlinga",
+            "thumbnail_image": "somnath-thumb.jpg",
+            "short_description": "A magnificent seaside temple that has withstood the test of time and invasions."
+        },
+        {
+            "id": "nashik",
+            "slug": "nashik",
+            "title": "Nashik",
+            "card_subtitle": "Wine & Worship Capital",
+            "thumbnail_image": "nashik-thumb.jpg",
+            "short_description": "Home to the Kumbh Mela and the Trimbakeshwar Jyotirlinga on the banks of Godavari."
+        },
+        {
+            "id": "ujjain",
+            "slug": "ujjain",
+            "title": "Ujjain",
+            "card_subtitle": "City of Mahakal",
+            "thumbnail_image": "ujjain-thumb.jpg",
+            "short_description": "Bow before Mahakaleshwar, the Lord of Time, in this ancient city of astronomers and sages."
+        },
+        {
+            "id": "rameswaram",
+            "slug": "rameswaram",
+            "title": "Rameswaram",
+            "card_subtitle": "Bridge to the Divine",
+            "thumbnail_image": "rameswaram-thumb.jpg",
+            "short_description": "A sacred island where Lord Rama worshipped Shiva before crossing to Lanka."
+        },
+        {
+            "id": "madurai",
+            "slug": "madurai",
+            "title": "Madurai",
+            "card_subtitle": "Soul of Tamil Nadu",
+            "thumbnail_image": "madurai-thumb.jpg",
+            "short_description": "Marvel at the towering gopurams of the Meenakshi Amman Temple, a masterpiece of art."
+        },
+        {
+            "id": "puri",
+            "slug": "puri",
+            "title": "Puri",
+            "card_subtitle": "Abode of Lord Jagannath",
+            "thumbnail_image": "puri-thumb.jpg",
+            "short_description": "Join the Rath Yatra and witness the devotion to the Lord of the Universe by the sea."
+        },
+        {
+            "id": "shirdi",
+            "slug": "shirdi",
+            "title": "Shirdi",
+            "card_subtitle": "Land of Sai Baba",
+            "thumbnail_image": "shirdi-thumb.jpg",
+            "short_description": "Find peace at the Samadhi Mandir of the saint who taught 'Sabka Malik Ek' (One God governs all)."
+        },
+        {
+            "id": "gangotri",
+            "slug": "gangotri",
+            "title": "Gangotri",
+            "card_subtitle": "Origin of the Ganges",
+            "thumbnail_image": "gangotri-thumb.jpg",
+            "short_description": "A pristine himalayan pilgrimage to the source of India's holiest river, Ma Ganga."
+        },
+        {
+            "id": "yamunotri",
+            "slug": "yamunotri",
+            "title": "Yamunotri",
+            "card_subtitle": "Source of the Yamuna",
+            "thumbnail_image": "yamunotri-thumb.jpg",
+            "short_description": "A scenic trek to thermal springs and the temple of Goddess Yamuna."
+        },
+        {
+            "id": "badrinath",
+            "slug": "badrinath",
+            "title": "Badrinath",
+            "card_subtitle": "Vishnu's Himalayan Abode",
+            "thumbnail_image": "badrinath-thumb.jpg",
+            "short_description": "One of the most visited Char Dham sites, nestled between Nar and Narayana mountain ranges."
+        },
+        {
+            "id": "pandharpur",
+            "slug": "pandharpur",
+            "title": "Pandharpur",
+            "card_subtitle": "The Southern Kashi",
+            "thumbnail_image": "pandharpur-thumb.jpg",
+            "short_description": "Join the Wari pilgrimage to worship Lord Vithoba on the banks of Chandrabhaga."
+        },
+        {
+            "id": "sarnath",
+            "slug": "sarnath",
+            "title": "Sarnath",
+            "card_subtitle": "Where the Wheel of Dhamma turned",
+            "thumbnail_image": "sarnath-thumb.jpg",
+            "short_description": "The site where Lord Buddha delivered his first sermon after enlightenment."
+        },
+        {
+            "id": "vaishno-devi",
+            "slug": "vaishno-devi",
+            "title": "Vaishno Devi",
+            "card_subtitle": "The Mountain Goddess",
+            "thumbnail_image": "vaishnodevi-thumb.jpg",
+            "short_description": "A revered trek in Jammu's Trikuta hills to seek the blessings of Mata Vaishno Devi."
+        },
+        {
+            "id": "hemkund-sahib",
+            "slug": "hemkund-sahib",
+            "title": "Hemkund Sahib",
+            "card_subtitle": "Glacial Lake of Devotion",
+            "thumbnail_image": "hemkund-thumb.jpg",
+            "short_description": "The world's highest Gurudwara, set beside a stunning glacial lake surrounded by seven peaks."
+        },
+        {
+            "id": "chamoli",
+            "slug": "chamoli",
+            "title": "Chamoli",
+            "card_subtitle": "Land of Gods",
+            "thumbnail_image": "chamoli-thumb.jpg",
+            "short_description": "The gateway to Badrinath and home to ancient temples like Gopeshwar."
+        },
+        {
+            "id": "gaya",
+            "slug": "gaya",
+            "title": "Gaya",
+            "card_subtitle": "City of Ancestral Salvation",
+            "thumbnail_image": "gaya-thumb.jpg",
+            "short_description": "Perform Pind Daan rituals for ancestors at the sacred Vishnupad Temple on the Phalgu river."
+        },
+        {
+            "id": "mathura",
+            "slug": "mathura",
+            "title": "Mathura",
+            "card_subtitle": "Krishna Janmabhoomi",
+            "thumbnail_image": "mathura-thumb.jpg",
+            "short_description": "The sacred birthplace of Lord Krishna, alive with temples, ghats, and devotion."
+        },
+        {
+            "id": "vrindavan",
+            "slug": "vrindavan",
+            "title": "Vrindavan",
+            "card_subtitle": "Playground of the Divine",
+            "thumbnail_image": "vrindavan-thumb.jpg",
+            "short_description": "The town where Krishna spent his childhood, famous for Banke Bihari and ISKCON temples."
+        },
+        {
+            "id": "chamunda-devi",
+            "slug": "chamunda-devi",
+            "title": "Chamunda Devi",
+            "card_subtitle": "Shakti of the Hills",
+            "thumbnail_image": "chamunda-thumb.jpg",
+            "short_description": "A powerful Shakti Peeth in Himachal Pradesh dedicated to Goddess Chamunda."
+        },
+        {
+            "id": "palitana",
+            "slug": "palitana",
+            "title": "Palitana",
+            "card_subtitle": "City of Jain Temples",
+            "thumbnail_image": "palitana-thumb.jpg",
+            "short_description": "Climb Shatrunjaya hill to witness a breathtaking cluster of over 800 marble Jain temples."
+        },
+        {
+            "id": "talakaveri",
+            "slug": "talakaveri",
+            "title": "Talakaveri",
+            "card_subtitle": "Birthplace of Kaveri",
+            "thumbnail_image": "talakaveri-thumb.jpg",
+            "short_description": "The scenic origin of the river Kaveri in the Brahmagiri hills of Coorg."
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "id": "ayodhya",
+    "slug": "ayodhya",
+    "title": "Ayodhya: The Kingdom of Ram",
+    "hero_image": "ayodhya-hero-placeholder.jpg",
+    "gallery_images": [
+        "ayodhya-ram-mandir.jpg",
+        "ayodhya-sarayu-river.jpg",
+        "ayodhya-hanuman-garhi.jpg",
+        "ayodhya-diwali.jpg"
+    ],
+    "short_description": "A legendary city of devotion, grand temples, and the timeless epic of the Ramayana.",
+    "long_description": "Ayodhya, situated on the banks of the Sarayu River in Uttar Pradesh, is one of the most religiously significant cities in India. As the birthplace of Lord Rama, the seventh avatar of Vishnu, it is the setting for the epic Ramayana. For ages, Ayodhya has been a symbol of faith, patience, and devotion. With the construction of the grand Ram Mandir, the city has witnessed a spiritual renaissance, drawing millions of pilgrims from across the globe to witness the return of their King.\n\nThe city retains an old-world charm, with temples around every corner, sadhus chanting 'Siyavar Ramchandra Ki Jai', and the Sarayu river flowing calmly, carrying the prayers of devotees. Ayodhya is not just about one temple; it is a complex of sacred sites associated with the life of Rama, Sita, and Hanuman. From the fortress-like Hanuman Garhi to the serene Kanak Bhawan, every stone here tells a story of duty (Dharma) and devotion (Bhakti). \n\nAyodhya is also culturally rich, celebrating festivals like Deepotsav (Diwali) with unparalleled grandeur, lighting millions of lamps to recreate the welcome of Lord Rama returning from exile. It is a place to reconnect with the roots of Indian civilization and reflect on the ideals of the 'Ram Rajya'—an ideal state of justice and virtue.",
+    "spiritual_significance": "Ayodhya is the first of the seven Moksha-dayini puris (cities that grant liberation). It is the Janmabhoomi (birthplace) of Lord Rama. The Sarayu river is considered as holy as the Ganges; a dip here is believed to wash away sins. It is a central pilgrimage for Vaishnavites.",
+    "major_temples_and_sites": [
+        {
+            "name": "Ram Janmabhoomi Mandir",
+            "description": "The grand, newly constructed temple at the birthplace of Lord Rama. An architectural marvel in the Nagara style."
+        },
+        {
+            "name": "Hanuman Garhi",
+            "description": "A 10th-century temple dedicated to Lord Hanuman. It is customary to visit here before visiting the Ram Mandir. It requires climbing 76 steps."
+        },
+        {
+            "name": "Kanak Bhawan",
+            "description": "A beautiful palace-temple believed to be gifted to Sita by Kaikeyi. It houses idols of Rama and Sita wearing gold crowns."
+        },
+        {
+            "name": "Nageshwarnath Temple",
+            "description": "Dedicated to Lord Shiva, believed to have been established by Kush, Lord Rama’s son. It is vital during Shivratri."
+        },
+        {
+            "name": "Saryu Ghat",
+            "description": "The sacred banks of the river Sarayu. The evening Aarti here is tranquil and spiritually uplifting."
+        },
+        {
+            "name": "Treta Ke Thakur",
+            "description": "A temple marking the spot where Lord Rama performed the Ashwamedha Yajna."
+        },
+        {
+            "name": "Guptar Ghat",
+            "description": "The sacred site where Lord Rama is believed to have taken Jal Samadhi (left the earth) and returned to Vaikuntha."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Darshan of Ram Lalla at the Ram Janmabhoomi Mandir.",
+        "Participate in the Saryu River Aarti in the evening.",
+        "Take a holy dip in the Sarayu River.",
+        "Climb the steps to Hanuman Garhi for blessings.",
+        "Walk the Ram Ki Paidi, a series of ghats illuminated beautifully at night.",
+        "Attend the massive Deepotsav celebrations if visiting during Diwali.",
+        "Parikrama (circumambulation) of the holy city."
+    ],
+    "highlights": [
+        "The magnificence of the Ram Mandir.",
+        "Sunset views over the Sarayu River.",
+        "The devotional atmosphere of Kanak Bhawan.",
+        "Deepotsav: The world record lighting of diyas.",
+        "The fort-like architecture of Hanuman Garhi."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Diwali (Oct/Nov) and Ram Navami (April) are peak festival times.",
+    "how_to_reach": "By Air: Maharishi Valmiki International Airport, Ayodhya Dham. By Train: Ayodhya Dham Junction (AY) and Ayodhya Cantt (AYC).",
+    "stay_recommendations": "Luxury: various new tent cities and hotels are coming up. Budget: Dharamshalas and guest houses run by temple trusts are plenty.",
+    "safety_tips": "Security is tight around the Ram Mandir complex; avoid carrying bags/electronics inside. Be respectful of local customs. Monkeys can be mischievous.",
+    "sample_itinerary": "Day 1: Arrive. Holy dip in Sarayu. Visit Hanuman Garhi and then Ram Janmabhoomi for Darshan. Evening Saryu Aarti.\nDay 2: Morning visit to Kanak Bhawan and Nageshwarnath. Explore Guptar Ghat. Shopping for religious souvenirs near Ram Ki Paidi.",
+    "tags": [
+        "Ramayana",
+        "Temples",
+        "History",
+        "Festivals",
+        "River"
+    ],
+    "is_bookable": true
+}
