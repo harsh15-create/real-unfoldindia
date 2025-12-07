@@ -1,7 +1,7 @@
 {
     "name": "Rishikesh",
     "title": "Yoga Capital of the World",
-    "image": "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=1000&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1589825935526-04faeb9f5bd3?q=80&w=2070&auto=format&fit=crop",
     "about": "Rishikesh is a spiritual and adventure destination located beside the Ganges River and the foothills of the Himalayas. Known for yoga, temples, river rafting, serene ashrams, and stunning sunsets, it attracts backpackers, wellness travelers, and adventure lovers.",
     "bestTime": [
         {
@@ -24,7 +24,7 @@
     "attractions": [
         {
             "name": "Laxman Jhula",
-            "image": "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+            "image": "https://images.unsplash.com/photo-1589825935526-04faeb9f5bd3?q=80&w=800&auto=format&fit=crop",
             "timings": "Open 24x7",
             "entry": "Free",
             "duration": "30 mins",

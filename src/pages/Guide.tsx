@@ -36,7 +36,7 @@ const Guide = () => {
     ];
 
     const cities = [
-        { name: "Delhi", image: "https://images.unsplash.com/photo-1587474260584-136574528615?q=80&w=1000&auto=format&fit=crop", title: "The Capital's Heritage & Modern Vibe" },
+        { name: "Delhi", image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?q=80&w=1000&auto=format&fit=crop", title: "The Capital's Heritage & Modern Vibe" },
         { name: "Mumbai", image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=1000&auto=format&fit=crop", title: "City of Dreams: Gateway to India" },
         { name: "Jaipur", image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=1000&auto=format&fit=crop", title: "The Pink City's Royal Palaces" },
         { name: "Agra", image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1000&auto=format&fit=crop", title: "Home of the Taj Mahal" },
@@ -46,11 +46,11 @@ const Guide = () => {
         { name: "Udaipur", image: "https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?q=80&w=1000&auto=format&fit=crop", title: "City of Lakes & Romance" },
         { name: "Bangalore", image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1000&auto=format&fit=crop", title: "The Garden City & Tech Hub" },
         { name: "Chennai", image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1000&auto=format&fit=crop", title: "Gateway to South India" },
-        { name: "Kolkata", image: "https://images.unsplash.com/photo-1558431382-27e30314225d?q=80&w=1000&auto=format&fit=crop", title: "City of Joy: Culture & Arts" },
+        { name: "Kolkata", image: "https://images.unsplash.com/photo-1561026604295-8822a00bd778?q=80&w=1000&auto=format&fit=crop", title: "City of Joy: Culture & Arts" },
         { name: "Hyderabad", image: "https://images.unsplash.com/photo-1572445271230-a78b5944a659?q=80&w=1000&auto=format&fit=crop", title: "City of Pearls & Biryani" },
         { name: "Rishikesh", image: "https://images.unsplash.com/photo-1589825935526-04faeb9f5bd3?q=80&w=1000&auto=format&fit=crop", title: "Yoga Capital of the World" },
         { name: "Manali", image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1000&auto=format&fit=crop", title: "Himalayan Resort Town" },
-        { name: "Leh-Ladakh", image: "https://images.unsplash.com/photo-1581793434119-98f0af2f8d50?q=80&w=1000&auto=format&fit=crop", title: "Land of High Passes" },
+        { name: "Leh-Ladakh", image: "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?q=80&w=1000&auto=format&fit=crop", title: "Land of High Passes" },
     ];
 
     return (
