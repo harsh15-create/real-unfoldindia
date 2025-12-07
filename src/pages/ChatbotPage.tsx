@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { useSearchParams, Link } from "react-router-dom";
+import { useSearchParams, Link, useLocation } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -16,6 +16,7 @@ interface Message {
 
 const ChatbotPage = () => {
     const [searchParams] = useSearchParams();
+    const location = useLocation();
     const [messages, setMessages] = useState<Message[]>([
         {
             id: '1',
@@ -46,7 +47,19 @@ const ChatbotPage = () => {
             setItineraryForm(prev => ({ ...prev, city }));
             setShowItineraryPopup(true);
         }
-    }, [searchParams]);
+
+        // Check for incoming message from navigation state
+        if (location.state?.message) {
+            const messageText = location.state.message;
+            // Clear history state to prevent re-sending on refresh (optional but good practice, though complex in React Router v6 without functional updates, so we'll just guard with a ref if needed, or simple implementation for now)
+            // Actually, simply setting it as input or directly sending it is better.
+            // Let's directly send it.
+            handleSendMessage(undefined, messageText);
+            // Clear state so it doesn't persist if we navigate back? 
+            // React Router location state persists. We might want to clear it.
+            window.history.replaceState({}, document.title);
+        }
+    }, [searchParams, location.state]);
 
     const scrollContainerRef = useRef<HTMLDivElement>(null);
 
@@ -60,19 +73,20 @@ const ChatbotPage = () => {
         }
     };
 
-    const handleSendMessage = async (e?: React.FormEvent) => {
+    const handleSendMessage = async (e?: React.FormEvent, overrideText?: string) => {
         e?.preventDefault();
-        if (!inputValue.trim()) return;
+        const text = overrideText || inputValue;
+        if (!text.trim()) return;
 
         const newUserMessage: Message = {
             id: Date.now().toString(),
-            text: inputValue,
+            text: text,
             sender: 'user',
             timestamp: new Date()
         };
 
         setMessages(prev => [...prev, newUserMessage]);
-        setInputValue("");
+        if (!overrideText) setInputValue("");
         setIsTyping(true);
 
         // Simulate AI response
