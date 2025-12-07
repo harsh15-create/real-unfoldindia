@@ -1,0 +1,54 @@
+{
+    "id": "alwar",
+    "slug": "alwar",
+    "title": "Alwar",
+    "hero_image": "https://images.unsplash.com/photo-1603531633333-ce8360699411?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Weekend royal retreats set amidst the Aravalli hills and Sariska Tiger Reserve.",
+    "long_description": "Alwar, one of the oldest kingdoms in Rajasthan, is a land of olive-green hills and marble cenotaphs. It serves as the gateway to Rajasthan and is known for the Sariska Tiger Reserve and the haunted Bhangarh Fort. \n\nThe royalty here is best experienced at Tijara Fort-Palace, a 19th-century marvel that was left unfinished and recently restored to glory. It sits atop a hill with commanding views of the mustard fields below. Staying in Alwar is about enjoying the quiet countryside, exploring ancient ruins, and experiencing the unique 'ruin-turned-resort' aesthetic that defines its heritage hospitality.",
+    "properties": [
+        {
+            "id": "tijara-fort-palace",
+            "slug": "tijara-fort-palace",
+            "title": "Tijara Fort-Palace",
+            "card_subtitle": "The Hanging Gardens",
+            "thumbnail_image": "https://images.unsplash.com/photo-1603531633333-ce8360699411?q=80&w=800&auto=format&fit=crop",
+            "short_description": "A 19th-century fort-palace with terraced gardens, offering a magical stay above the plains.",
+            "source_reference": [
+                {
+                    "url": "https://www.neemranahotels.com/tijara-fort-palace-alwar-rajasthan/",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        }
+    ],
+    "how_to_reach": "3 hours drive from Delhi. Nearest station is Alwar (60km).",
+    "best_months": [
+        "September",
+        "October",
+        "November",
+        "December",
+        "January",
+        "February",
+        "March"
+    ],
+    "tags": [
+        "Fort",
+        "Hilltop",
+        "Gardens",
+        "Weekend Getaway"
+    ],
+    "seo_title": "Tijara Fort Palace Alwar | Heritage Hotel near Delhi",
+    "seo_description": "Stay at Tijara Fort-Palace in Alwar. A unique 19th-century heritage hotel with hanging gardens and panoramic views.",
+    "source_reference": [
+        {
+            "url": "https://www.tourism.rajasthan.gov.in/alwar.html",
+            "type": "tourism_board",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

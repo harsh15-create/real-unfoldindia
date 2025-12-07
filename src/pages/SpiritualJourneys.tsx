@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Search, MapPin, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import RoyalHero from "@/components/royal-luxury/RoyalHero";
 import experienceData from "@/data/spiritual-journeys/experience-spiritual-journeys.json";
 
 const SpiritualJourneys = () => {
@@ -14,44 +15,21 @@ const SpiritualJourneys = () => {
     );
 
     return (
-        <div className="min-h-screen bg-[#1A1A2E] text-white selection:bg-primary/30">
-            {/* Hero Section */}
-            <div className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 z-0">
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#1A1A2E] via-[#1A1A2E]/60 to-transparent z-10" />
-                    <img
-                        src="https://images.unsplash.com/photo-1591283281358-18e3845c43d2?q=80&w=2070&auto=format&fit=crop"
-                        alt="Spiritual India"
-                        className="w-full h-full object-cover animate-fade-in"
-                    />
-                </div>
+        <div className="min-h-screen bg-background text-foreground selection:bg-primary/30">
+            <RoyalHero
+                image="https://images.unsplash.com/photo-1591283281358-18e3845c43d2?q=80&w=2070&auto=format&fit=crop"
+                title={experienceData.intro_block.intro_title}
+                subtitle="Discover the sacred geography where divinity meets humanity"
+            />
 
-                <div className="relative z-20 text-center px-4 max-w-4xl mx-auto">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 animate-fade-in-up">
-                        <Sparkles className="w-4 h-4 text-primary" />
-                        <span className="text-sm font-medium text-white/90">Soul of India</span>
-                    </div>
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight animate-fade-in-up delay-100 font-display">
-                        {experienceData.intro_block.intro_title}
-                    </h1>
-                    <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-200">
-                        Discover the sacred geography where divinity meets humanity.
-                    </p>
-                </div>
-            </div>
-
-            <div className="container mx-auto px-4 py-12 -mt-20 relative z-30">
+            <div className="container mx-auto px-4 py-12 relative z-30">
                 {/* Intro Block */}
-                <div className="glass rounded-3xl p-8 md:p-12 mb-16 max-w-5xl mx-auto">
-                    <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-center">
-                        <div className="text-center md:text-left">
-                            <h2 className="text-3xl font-bold mb-4 text-gradient">The Spiritual Tapestry</h2>
-                            <div className="h-1 w-20 bg-primary rounded-full mx-auto md:mx-0" />
-                        </div>
-                        <p className="text-white/70 leading-relaxed text-lg whitespace-pre-line">
-                            {experienceData.intro_block.intro_paragraph}
-                        </p>
-                    </div>
+                <div className="text-center mb-16 max-w-4xl mx-auto">
+                    <Sparkles className="w-12 h-12 mx-auto text-primary mb-6" />
+                    <h2 className="text-4xl md:text-5xl font-serif mb-8 text-foreground">The Spiritual Tapestry</h2>
+                    <p className="text-lg md:text-xl leading-relaxed text-muted-foreground whitespace-pre-line font-light">
+                        {experienceData.intro_block.intro_paragraph}
+                    </p>
                 </div>
 
                 {/* Search & Filter */}

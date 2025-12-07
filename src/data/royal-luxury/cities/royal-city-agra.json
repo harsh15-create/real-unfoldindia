@@ -1,0 +1,53 @@
+{
+    "id": "agra",
+    "slug": "agra",
+    "title": "Agra",
+    "hero_image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Luxury stays with views of the Taj Mahal, echoing the grandeur of the Mughal era.",
+    "long_description": "Agra needs no introduction. Home to the Taj Mahal, the Agra Fort, and Fatehpur Sikri, it is the crown jewel of Mughal heritage in India. But beyond the monuments, there is a way to experience the city as the emperors did—in absolute luxury.\n\nThe royal experience in Agra is defined by the Oberoi Amarvilas. It is not just a hotel; it is a monument to love in its own right, where every single room offers an uninterrupted view of the Taj Mahal. Staying here allows you to see the monument change colors from dawn to dusk without the crowds, sipping tea on your private balcony while gazing at the world's most beautiful building.",
+    "properties": [
+        {
+            "id": "oberoi-amarvilas",
+            "slug": "oberoi-amarvilas",
+            "title": "The Oberoi Amarvilas",
+            "card_subtitle": "Mughal Splendor",
+            "thumbnail_image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=800&auto=format&fit=crop",
+            "short_description": "The only hotel in Agra where every room offers an uninterrupted view of the Taj Mahal.",
+            "source_reference": [
+                {
+                    "url": "https://www.oberoihotels.com/hotels-in-agra-amarvilas-resort/",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        }
+    ],
+    "how_to_reach": "Agra is well connected by the Yamuna Expressway from Delhi (3 hours). It also has an airport and major rail connectivity.",
+    "best_months": [
+        "October",
+        "November",
+        "December",
+        "January",
+        "February",
+        "March"
+    ],
+    "tags": [
+        "Taj Mahal",
+        "Mughal",
+        "Luxury",
+        "Romance"
+    ],
+    "seo_title": "Luxury Hotels in Agra | The Oberoi Amarvilas",
+    "seo_description": "Stay at the finest hotel in Agra. The Oberoi Amarvilas offers Taj Mahal views from every room.",
+    "source_reference": [
+        {
+            "url": "https://www.uptourism.gov.in/en/destination/agra",
+            "type": "tourism_board",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

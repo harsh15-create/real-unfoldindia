@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Search, Leaf, PawPrint, Mountain, Flower2, Feather, Anchor } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import RoyalHero from "@/components/royal-luxury/RoyalHero";
 import experienceData from "@/data/wildlife-safaris/experience-wildlife-safaris.json";
 
 const WildlifeSafaris = () => {
@@ -33,7 +34,7 @@ const WildlifeSafaris = () => {
                     <div className={`p-3 rounded-2xl ${colorClass} bg-opacity-20 backdrop-blur-md border border-white/10`}>
                         <Icon className={`w-8 h-8 ${colorClass.replace('bg-', 'text-')}`} />
                     </div>
-                    <h2 className="text-3xl font-bold text-white">{title}</h2>
+                    <h2 className="text-3xl font-bold text-foreground">{title}</h2>
                     <div className="h-[1px] flex-1 bg-gradient-to-r from-white/20 to-transparent ml-4" />
                 </div>
 
@@ -89,46 +90,21 @@ const WildlifeSafaris = () => {
     };
 
     return (
-        <div className="min-h-screen bg-[#051F12] text-white selection:bg-emerald-500/30">
-            {/* Hero Section */}
-            <div className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 z-0">
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#051F12] via-[#051F12]/60 to-transparent z-10" />
-                    <img
-                        src={experienceData.hero_image}
-                        alt="Wildlife Safari"
-                        className="w-full h-full object-cover animate-fade-in"
-                    />
-                </div>
+        <div className="min-h-screen bg-background text-foreground selection:bg-emerald-500/30">
+            <RoyalHero
+                image={experienceData.hero_image}
+                title={experienceData.intro_block.intro_title}
+                subtitle={experienceData.layout.sections[0].description}
+            />
 
-                <div className="relative z-20 text-center px-4 max-w-4xl mx-auto">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 animate-fade-in-up">
-                        <Leaf className="w-4 h-4 text-emerald-400" />
-                        <span className="text-sm font-medium text-white/90">The Call of the Wild</span>
-                    </div>
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight animate-fade-in-up delay-100 font-display">
-                        {experienceData.intro_block.intro_title}
-                    </h1>
-                    <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-200">
-                        {experienceData.layout.sections[0].description}
-                    </p>
-                </div>
-            </div>
-
-            <div className="container mx-auto px-4 py-12 -mt-20 relative z-30">
+            <div className="container mx-auto px-4 py-12 relative z-30">
                 {/* Intro Block */}
-                <div className="glass rounded-3xl p-8 md:p-12 mb-16 max-w-5xl mx-auto bg-[#0A2A1B]/60 backdrop-blur-lg border border-white/10">
-                    <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-center">
-                        <div className="text-center md:text-left">
-                            <h2 className="text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-emerald-200 to-emerald-500">
-                                India's Wilderness
-                            </h2>
-                            <div className="h-1 w-20 bg-emerald-500 rounded-full mx-auto md:mx-0" />
-                        </div>
-                        <p className="text-white/70 leading-relaxed text-lg whitespace-pre-line">
-                            {experienceData.intro_block.intro_description}
-                        </p>
-                    </div>
+                <div className="text-center mb-16 max-w-4xl mx-auto">
+                    <Leaf className="w-12 h-12 mx-auto text-primary mb-6" />
+                    <h2 className="text-4xl md:text-5xl font-serif mb-8 text-foreground">India's Wilderness</h2>
+                    <p className="text-lg md:text-xl leading-relaxed text-muted-foreground whitespace-pre-line font-light">
+                        {experienceData.intro_block.intro_description}
+                    </p>
                 </div>
 
                 {/* Search & Filter */}
