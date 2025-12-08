@@ -35,7 +35,18 @@ const HimalayanTreks = () => {
                 image="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=2070&auto=format&fit=crop"
                 title={"Himalayan Treks"}
                 subtitle={treksData.metadata?.subtitle || "Journey through the roof of the world"}
-            />
+            >
+                <Button
+                    size="lg"
+                    className="bg-primary hover:bg-primary/90 text-white font-bold rounded-full px-8 shadow-lg transition-all duration-300"
+                    asChild
+                >
+                    <Link to="/chat" state={{ message: "I want to know about Himalayan Treks." }}>
+                        <Bot className="w-5 h-5 mr-2" />
+                        Know about Himalayan Treks
+                    </Link>
+                </Button>
+            </RoyalHero>
 
             <div className="container mx-auto px-4 py-12 relative z-30">
                 {/* Intro Block */}
@@ -45,17 +56,6 @@ const HimalayanTreks = () => {
                     <p className="text-lg md:text-xl leading-relaxed text-muted-foreground whitespace-pre-line font-light mb-8">
                         {"Discover the majestic peaks, hidden valleys, and spiritual serenity of the Himalayas. Our curated treks offer a blend of adventure, culture, and breathtaking landscapes."}
                     </p>
-
-                    <Button
-                        size="lg"
-                        className="bg-primary hover:bg-primary/90 text-white font-bold rounded-full px-8 shadow-lg transition-all duration-300"
-                        asChild
-                    >
-                        <Link to="/chat">
-                            <Bot className="w-5 h-5 mr-2" />
-                            Ask Kira to Plan
-                        </Link>
-                    </Button>
                 </div>
 
                 {/* Search & Filter */}

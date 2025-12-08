@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ArrowLeft, Search, MapPin, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -8,6 +8,7 @@ import { getSpiritualMaster, SpiritualMaster } from "@/lib/spiritualApi";
 import { useTranslation } from "react-i18next";
 
 const SpiritualJourneys = () => {
+    const navigate = useNavigate();
     const { i18n } = useTranslation();
     const [searchQuery, setSearchQuery] = useState("");
     const [spiritualData, setSpiritualData] = useState<SpiritualMaster | null>(null);
@@ -35,7 +36,16 @@ const SpiritualJourneys = () => {
                 image="https://images.unsplash.com/photo-1591283281358-18e3845c43d2?q=80&w=2070&auto=format&fit=crop"
                 title={spiritualData.intro_title || "Spiritual Journeys"}
                 subtitle={spiritualData.subtitle || "Discover the sacred geography where divinity meets humanity"}
-            />
+            >
+                <Button
+                    size="lg"
+                    className="bg-primary hover:bg-primary/90 text-white font-bold rounded-full px-8 shadow-lg transition-all duration-300"
+                    onClick={() => navigate('/chat', { state: { message: "I want to know more about Spiritual Journeys in India." } })}
+                >
+                    <Sparkles className="w-5 h-5 mr-2" />
+                    Know about Spiritual Journey
+                </Button>
+            </RoyalHero>
 
             <div className="container mx-auto px-4 py-12 relative z-30">
                 {/* Intro Block */}

@@ -7,13 +7,15 @@ interface RoyalHeroProps {
     title: string;
     subtitle?: string;
     height?: string;
+    children?: React.ReactNode;
 }
 
 const RoyalHero: React.FC<RoyalHeroProps> = ({
     image,
     title,
     subtitle,
-    height = "h-[70vh]"
+    height = "h-[70vh]",
+    children
 }) => {
     return (
         <div className={`relative w-full ${height} overflow-hidden`}>
@@ -45,6 +47,16 @@ const RoyalHero: React.FC<RoyalHeroProps> = ({
                     >
                         {subtitle}
                     </motion.p>
+                )}
+                {children && (
+                    <motion.div
+                        initial={{ y: 30, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, delay: 0.6 }}
+                        className="mt-8"
+                    >
+                        {children}
+                    </motion.div>
                 )}
             </div>
         </div>

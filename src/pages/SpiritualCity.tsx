@@ -64,9 +64,7 @@ const SpiritualCity = () => {
                 <h1 className="text-xl font-bold mx-auto absolute left-1/2 -translate-x-1/2 opacity-0 md:opacity-100 transition-opacity">
                     {data.title.split(":")[0]}
                 </h1>
-                <Button size="sm" className="bg-primary hover:bg-primary/90 text-white border-0">
-                    Plan Trip
-                </Button>
+                <div /> {/* Spacer for layout balance since button is removed */}
             </nav>
 
             {/* Hero Section */}
@@ -85,12 +83,23 @@ const SpiritualCity = () => {
                             </Badge>
                         ))}
                     </div>
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-fade-in-up delay-100">
+                    <h1 className="text-5xl md:text-7xl font-bold mb-10 leading-tight animate-fade-in-up delay-100">
                         {data.title}
                     </h1>
-                    <p className="text-lg md:text-2xl text-white/90 max-w-3xl leading-relaxed animate-fade-in-up delay-200 border-l-4 border-primary pl-6">
-                        {data.short_description}
-                    </p>
+
+                    <div className="flex flex-col md:flex-row items-end gap-8 animate-fade-in-up delay-200">
+                        <p className="text-lg md:text-2xl text-white/90 max-w-3xl leading-relaxed border-l-4 border-primary pl-6">
+                            {data.short_description}
+                        </p>
+                        <Button
+                            size="lg"
+                            className="bg-primary hover:bg-primary/90 text-white font-bold rounded-full px-8 shadow-lg transition-all duration-300 md:mb-2 shrink-0"
+                            onClick={() => navigate('/chat', { state: { message: `Generate a detailed itinerary for visiting ${data.title.split(":")[0]} focusing on spiritual sites.` } })}
+                        >
+                            <Sparkles className="w-5 h-5 mr-2" />
+                            Generate Itinerary
+                        </Button>
+                    </div>
                 </div>
             </div>
 
@@ -129,11 +138,26 @@ const SpiritualCity = () => {
                                 <MapPin className="w-6 h-6 text-primary" />
                                 Sacred Sites
                             </h2>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 {data.major_temples_and_sites.map((site, index) => (
-                                    <div key={index} className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/[0.07] transition-colors">
+                                    <div key={index} className="relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/[0.07] transition-colors pb-12 group">
                                         <h3 className="text-xl font-semibold mb-2 text-white">{site.name}</h3>
-                                        <p className="text-white/60 text-sm leading-relaxed">{site.description}</p>
+                                        <p className="text-white/60 text-sm leading-relaxed mb-4">{site.description}</p>
+
+                                        {/* Location Symbol Button */}
+                                        <Button
+                                            size="icon"
+                                            variant="ghost"
+                                            className="absolute bottom-4 right-4 bg-primary/20 text-primary hover:bg-primary hover:text-white rounded-full w-10 h-10 transition-all opacity-80 hover:opacity-100"
+                                            onClick={() => {
+                                                // TODO: Replace this placeholder link with your own map logic
+                                                // User Note: Link your own maps here
+                                                const placeholderLink = "#";
+                                                window.open(placeholderLink, '_blank');
+                                            }}
+                                        >
+                                            <MapPin className="w-5 h-5" />
+                                        </Button>
                                     </div>
                                 ))}
                             </div>
@@ -214,10 +238,6 @@ const SpiritualCity = () => {
                                     {data.how_to_reach}
                                 </p>
                             </div>
-
-                            <Button className="w-full bg-primary hover:bg-primary/90 text-white font-bold h-12 rounded-xl text-lg mt-4">
-                                Create Itinerary
-                            </Button>
                         </div>
 
                         {/* Did You Know */}

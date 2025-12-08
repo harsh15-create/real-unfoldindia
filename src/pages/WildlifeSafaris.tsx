@@ -55,7 +55,18 @@ const WildlifeSafaris = () => {
                 image="https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=2068&auto=format&fit=crop"
                 title={experienceData.intro_title || "India's Wilderness"}
                 subtitle={experienceData.subtitle || "Roar of the Royal Bengal"}
-            />
+            >
+                <Button
+                    size="lg"
+                    className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-full px-8 shadow-lg transition-all duration-300"
+                    asChild
+                >
+                    <Link to="/chat" state={{ message: "I want to know more about Wildlife Safaris in India." }}>
+                        <PawPrint className="w-5 h-5 mr-2" />
+                        Know about Wildlife Safaris
+                    </Link>
+                </Button>
+            </RoyalHero>
 
             <div className="container mx-auto px-4 py-12 relative z-30">
                 {/* Intro Block */}

@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { motion } from 'framer-motion';
 
 interface FestivalHeroProps {
@@ -7,9 +6,10 @@ interface FestivalHeroProps {
     title: string;
     subtitle?: string;
     height?: string;
+    children?: ReactNode;
 }
 
-export function FestivalHero({ image, title, subtitle, height = "h-[70vh]" }: FestivalHeroProps) {
+export function FestivalHero({ image, title, subtitle, height = "h-[70vh]", children }: FestivalHeroProps) {
     return (
         <div className={`relative w-full ${height} overflow-hidden`}>
             <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black z-10" />
@@ -40,6 +40,16 @@ export function FestivalHero({ image, title, subtitle, height = "h-[70vh]" }: Fe
                     >
                         {subtitle}
                     </motion.p>
+                )}
+                {children && (
+                    <motion.div
+                        initial={{ y: 30, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, delay: 0.6 }}
+                        className="mt-8"
+                    >
+                        {children}
+                    </motion.div>
                 )}
             </div>
         </div>

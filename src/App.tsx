@@ -49,12 +49,13 @@ const queryClient = new QueryClient();
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
-  const hideFooter = location.pathname === "/chat";
+  const isChatPage = location.pathname === "/chat";
 
   return (
     <>
       {children}
-      {!hideFooter && <Footer />}
+      {!isChatPage && <Footer />}
+      {!isChatPage && <AIAssistant />}
     </>
   );
 };
@@ -104,7 +105,6 @@ const App = () => (
             <Route path="/settings" element={<Settings />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-          <AIAssistant />
         </Layout>
       </BrowserRouter>
     </TooltipProvider>

@@ -1,8 +1,7 @@
-
 import React, { useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { Loader2, ArrowLeft, Share2 } from 'lucide-react';
+import { Loader2, ArrowLeft, Share2, Bot, MessageCircle } from 'lucide-react';
 import { getFestival } from '@/lib/culture-api';
 import { FestivalHero } from '@/components/culture/FestivalHero';
 import { PlaceMiniCard } from '@/components/culture/PlaceMiniCard';
@@ -10,10 +9,10 @@ import { KeyRituals, PracticalInfoBlock, DatesCard, FAQSection } from '@/compone
 import { CultureEvents } from '@/analytics/events';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { motion } from 'framer-motion';
 
 export default function FestivalDetail() {
     const { slug } = useParams<{ slug: string }>();
+    const navigate = useNavigate();
 
     const { data: festival, isLoading } = useQuery({
         queryKey: ['festival', slug],
@@ -51,7 +50,16 @@ export default function FestivalDetail() {
                 title={festival.title}
                 subtitle={festival.short_description}
                 height="h-[60vh] md:h-[70vh]"
-            />
+            >
+                <Button
+                    size="lg"
+                    className="bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-full px-8 shadow-lg transition-all duration-300 group"
+                    onClick={() => navigate('/chat', { state: { message: `I want to know about ${festival.title}, best places to experience it, and how to enjoy it.` } })}
+                >
+                    <Bot className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
+                    Plan My Itinerary with Kira
+                </Button>
+            </FestivalHero>
 
             {/* Navigation Bar */}
             <div className="sticky top-0 z-40 bg-[#0B0B15]/80 backdrop-blur-md border-b border-white/10">
@@ -105,7 +113,7 @@ export default function FestivalDetail() {
                             </div>
                         </div>
 
-                        {/* Manual Implementation of Gallery Carousel if needed, but for now simple grid */}
+                        {/* Gallery */}
                         {festival.gallery_images && festival.gallery_images.length > 0 && (
                             <div className="mb-12">
                                 <h3 className="text-2xl font-serif text-white mb-6">Gallery</h3>
@@ -124,6 +132,23 @@ export default function FestivalDetail() {
 
                     {/* Sidebar */}
                     <div className="lg:col-span-4 space-y-8">
+                        {/* Ask Kira Card */}
+                        <div className="rounded-3xl p-6 bg-gradient-to-br from-purple-900/40 to-[#0B0B15] border border-purple-500/30 text-center relative overflow-hidden group">
+                            <div className="absolute inset-0 bg-purple-500/10 blur-xl opacity-0 group-hover:opacity-100 transition-opacity" />
+                            <div className="relative z-10">
+                                <Bot className="w-10 h-10 mx-auto text-purple-400 mb-4" />
+                                <h3 className="text-xl font-bold text-white mb-2">Have questions about {festival.title}?</h3>
+                                <p className="text-sm text-gray-400 mb-6">Kira can help you plan the perfect trip, explain rituals, or find the best dates.</p>
+                                <Button
+                                    className="w-full bg-white hover:bg-gray-100 text-purple-900 font-bold"
+                                    onClick={() => navigate('/chat', { state: { message: `I have questions about ${festival.title}.` } })}
+                                >
+                                    <MessageCircle className="w-4 h-4 mr-2" />
+                                    Ask Kira
+                                </Button>
+                            </div>
+                        </div>
+
                         <DatesCard calendar={festival.calendar} />
                         <PracticalInfoBlock info={festival.practical_info} />
                     </div>

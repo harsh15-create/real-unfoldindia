@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { ArrowLeft, MapPin, Calendar, Info, Shield, Sun, Moon, TreeDeciduous, Binoculars, PawPrint, Camera, Tent, AlertTriangle } from "lucide-react";
+import { ArrowLeft, MapPin, Calendar, Info, Shield, Sun, Moon, TreeDeciduous, Binoculars, PawPrint, Camera, Tent, AlertTriangle, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -66,9 +66,7 @@ const WildlifePark = () => {
                 <h1 className="text-xl font-bold mx-auto absolute left-1/2 -translate-x-1/2 opacity-0 md:opacity-100 transition-opacity text-emerald-100">
                     {data.title}
                 </h1>
-                <Button size="sm" className="bg-emerald-600 hover:bg-emerald-700 text-white border-0">
-                    Plan Safari
-                </Button>
+                <div />
             </nav>
 
             {/* Hero Section */}
@@ -90,12 +88,23 @@ const WildlifePark = () => {
                             </Badge>
                         ))}
                     </div>
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-fade-in-up delay-100 font-display">
+                    <h1 className="text-5xl md:text-7xl font-bold mb-10 leading-tight animate-fade-in-up delay-100 font-display">
                         {data.title}
                     </h1>
-                    <p className="text-lg md:text-2xl text-white/90 max-w-3xl leading-relaxed animate-fade-in-up delay-200 border-l-4 border-emerald-500 pl-6">
-                        {data.short_description}
-                    </p>
+
+                    <div className="flex flex-col md:flex-row items-end gap-8 animate-fade-in-up delay-200">
+                        <p className="text-lg md:text-2xl text-white/90 max-w-3xl leading-relaxed border-l-4 border-emerald-500 pl-6">
+                            {data.short_description}
+                        </p>
+                        <Button
+                            size="lg"
+                            className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-full px-8 shadow-lg transition-all duration-300 md:mb-2 shrink-0"
+                            onClick={() => navigate('/chat', { state: { message: `Generate a detailed wildlife safari itinerary for ${data.title}.` } })}
+                        >
+                            <Sparkles className="w-5 h-5 mr-2" />
+                            Generate Itinerary
+                        </Button>
+                    </div>
                 </div>
             </div>
 

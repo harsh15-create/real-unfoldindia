@@ -63,9 +63,7 @@ const TrekDetail = () => {
                 <h1 className="text-xl font-bold mx-auto absolute left-1/2 -translate-x-1/2 opacity-0 md:opacity-100 transition-opacity">
                     {data.title}
                 </h1>
-                <Button size="sm" className="bg-primary hover:bg-primary/90 text-white border-0">
-                    Book Now
-                </Button>
+                <div />
             </nav>
 
             {/* Hero Section */}
@@ -221,14 +219,12 @@ const TrekDetail = () => {
                                 </div>
                             </div>
 
-
-
                             <Button
                                 className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold h-12 rounded-xl mt-4 shadow-lg hover:shadow-orange-500/20"
                                 onClick={() => navigate("/chat", { state: { message: `Generate a dedicated full day-by-day itinerary for ${data.title} trek.` } })}
                             >
                                 <Bot className="w-4 h-4 mr-2" />
-                                Ask Kira for Full Itinerary
+                                Virtual Sherpa
                             </Button>
                         </div>
                     </div>
