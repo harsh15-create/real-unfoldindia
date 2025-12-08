@@ -1,17 +1,15 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowLeft } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
+import { Music, Mic2, Users, Move } from 'lucide-react';
 
 interface DanceHeroProps {
     title: string;
     desktopImg: string; // URL
-    mobileImg?: string; // URL
+    mobileImg?: string; // URL - keeping prop for compatibility but might not use if Art doesn't
     altText: string;
     subtitle?: string;
-    onBackClick?: () => void;
+    // Removed onBackClick as alignment with Art/Cuisine implies Page-level or no back button in Hero
 }
 
 export const DanceHero: React.FC<DanceHeroProps> = ({
@@ -27,38 +25,42 @@ export const DanceHero: React.FC<DanceHeroProps> = ({
                 <img
                     src={desktopImg}
                     alt={altText}
-                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                    className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
-            </div>
-
-            {/* Back Button */}
-            <div className="absolute top-24 left-4 md:left-8 z-20">
-                <Link to="/culture/dance-forms">
-                    <Button variant="outline" className="text-white border-white/20 bg-black/20 hover:bg-black/40 backdrop-blur gap-2 rounded-full">
-                        <ArrowLeft className="h-4 w-4" /> Back to Dance Forms
-                    </Button>
-                </Link>
+                <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-[#0B0B15]" />
             </div>
 
             {/* Content */}
-            <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12 z-10 flex flex-col justify-end h-full">
-                <div className="container mx-auto">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6 }}
-                    >
-                        {subtitle && (
-                            <span className="inline-block py-1 px-3 mb-4 rounded-full bg-primary/80 backdrop-blur-sm text-white text-sm font-medium tracking-wide">
-                                {subtitle}
-                            </span>
-                        )}
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight drop-shadow-lg">
-                            {title}
-                        </h1>
-                    </motion.div>
-                </div>
+            <div className="relative h-full container mx-auto px-4 flex flex-col justify-center items-center text-center z-10">
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.8 }}
+                    className="mb-6 flex gap-4 text-primary/80"
+                >
+                    <Music className="h-8 w-8 text-orange-400" />
+                    <Move className="h-8 w-8 text-orange-400" />
+                    <Users className="h-8 w-8 text-orange-400" />
+                    <Mic2 className="h-8 w-8 text-orange-400" />
+                </motion.div>
+
+                <motion.h1
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.2 }}
+                    className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight"
+                >
+                    {title}
+                </motion.h1>
+
+                <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.4 }}
+                    className="text-lg md:text-xl text-gray-200 max-w-2xl leading-relaxed"
+                >
+                    {subtitle}
+                </motion.p>
             </div>
         </div>
     );
