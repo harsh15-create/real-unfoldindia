@@ -32,7 +32,7 @@
         },
         {
             "name": "Howrah Bridge",
-            "image": "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Howrah%20Bridge",
             "timings": "Open 24x7",
             "entry": "Free",
             "duration": "30 mins",
@@ -40,7 +40,7 @@
         },
         {
             "name": "Dakshineswar Kali Temple",
-            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Dakshineswar%20Kali%20Temple",
             "timings": "5 AM – 10:30 PM",
             "entry": "Free",
             "duration": "1–1.5 hrs",
@@ -48,7 +48,7 @@
         },
         {
             "name": "Belur Math",
-            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Belur%20Math",
             "timings": "Open daily",
             "entry": "Free",
             "duration": "1 hr",
@@ -56,7 +56,7 @@
         },
         {
             "name": "Park Street",
-            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Park%20Street,Kolkata",
             "timings": "Open 24x7",
             "entry": "Free",
             "duration": "Flexible",
@@ -64,7 +64,7 @@
         },
         {
             "name": "Indian Museum",
-            "image": "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Indian%20Museum,Kolkata",
             "timings": "10 AM – 5 PM",
             "entry": "₹50",
             "duration": "1–2 hrs",
@@ -72,7 +72,7 @@
         },
         {
             "name": "St. Paul’s Cathedral",
-            "image": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?St%20Pauls%20Cathedral,Kolkata,Church",
             "timings": "9 AM – 6 PM",
             "entry": "Free",
             "duration": "20–30 mins",
@@ -80,7 +80,7 @@
         },
         {
             "name": "College Street",
-            "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?College%20Street,Kolkata,Books",
             "timings": "10 AM – 8 PM",
             "entry": "Free",
             "duration": "1 hr",
@@ -88,7 +88,7 @@
         },
         {
             "name": "Eco Park (New Town)",
-            "image": "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Eco%20Park,Kolkata",
             "timings": "12 PM – 7:30 PM",
             "entry": "₹30",
             "duration": "2–3 hrs",

@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { CurrencyConverter } from "@/components/CurrencyConverter";
 import { CarouselSection } from "@/components/CarouselSection";
 
+import { ValidImage } from "@/components/ui/valid-image";
+
 const Guide = () => {
     const { hash } = useLocation();
 
@@ -40,12 +42,12 @@ const Guide = () => {
         { name: "Mumbai", image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=1000&auto=format&fit=crop", title: "City of Dreams: Gateway to India" },
         { name: "Jaipur", image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=1000&auto=format&fit=crop", title: "The Pink City's Royal Palaces" },
         { name: "Agra", image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1000&auto=format&fit=crop", title: "Home of the Taj Mahal" },
-        { name: "Varanasi", image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?q=80&w=1000&auto=format&fit=crop", title: "Spiritual Capital of India" },
+        { name: "Varanasi", image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1000&auto=format&fit=crop", title: "Spiritual Capital of India" },
         { name: "Goa", image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1000&auto=format&fit=crop", title: "Sun, Sand, and Portuguese Heritage" },
         { name: "Kerala", image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1000&auto=format&fit=crop", title: "God's Own Country: Backwaters" },
         { name: "Udaipur", image: "https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?q=80&w=1000&auto=format&fit=crop", title: "City of Lakes & Romance" },
         { name: "Bangalore", image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1000&auto=format&fit=crop", title: "The Garden City & Tech Hub" },
-        { name: "Chennai", image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1000&auto=format&fit=crop", title: "Gateway to South India" },
+        { name: "Chennai", image: "https://source.unsplash.com/featured/?Chennai%20City", title: "Gateway to South India" },
         { name: "Kolkata", image: "https://images.unsplash.com/photo-1561026604295-8822a00bd778?q=80&w=1000&auto=format&fit=crop", title: "City of Joy: Culture & Arts" },
         { name: "Hyderabad", image: "https://images.unsplash.com/photo-1572445271230-a78b5944a659?q=80&w=1000&auto=format&fit=crop", title: "City of Pearls & Biryani" },
         { name: "Rishikesh", image: "https://images.unsplash.com/photo-1589825935526-04faeb9f5bd3?q=80&w=1000&auto=format&fit=crop", title: "Yoga Capital of the World" },
@@ -147,7 +149,7 @@ const Guide = () => {
                                         className="bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all group cursor-pointer border border-white/10 h-full"
                                     >
                                         <div className="relative h-40 overflow-hidden">
-                                            <img
+                                            <ValidImage
                                                 src={city.image}
                                                 alt={city.name}
                                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -183,7 +185,7 @@ const Guide = () => {
                                         className="bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all group cursor-pointer border border-white/10 h-full"
                                     >
                                         <div className="relative h-40 overflow-hidden">
-                                            <img
+                                            <ValidImage
                                                 src={city.image}
                                                 alt={city.name}
                                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -219,7 +221,7 @@ const Guide = () => {
                                         className="bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all group cursor-pointer border border-white/10 h-full"
                                     >
                                         <div className="relative h-40 overflow-hidden">
-                                            <img
+                                            <ValidImage
                                                 src={city.image}
                                                 alt={city.name}
                                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

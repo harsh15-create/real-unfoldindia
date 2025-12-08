@@ -8,6 +8,7 @@ import { CarouselSection } from "@/components/CarouselSection";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState, useEffect } from "react";
+import { ValidImage } from "@/components/ui/valid-image";
 
 interface CityData {
     name: string;
@@ -104,10 +105,11 @@ const CityPage = () => {
             <main className="flex-1 pt-16">
                 {/* Hero Section */}
                 <div className="relative h-[70vh] w-full overflow-hidden">
-                    <img
+                    <ValidImage
                         src={city.image}
                         alt={city.name}
                         className="w-full h-full object-cover"
+                        showIcon={false}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-background via-black/40 to-black/30" />
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
@@ -222,7 +224,7 @@ const CityPage = () => {
                                             className="group rounded-2xl overflow-hidden border border-border/50 bg-card hover:shadow-xl transition-all duration-300 flex flex-col h-full"
                                         >
                                             <div className="relative h-40 overflow-hidden">
-                                                <img
+                                                <ValidImage
                                                     src={spot.image}
                                                     alt={spot.name}
                                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

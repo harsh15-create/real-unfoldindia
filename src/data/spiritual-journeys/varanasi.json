@@ -2,7 +2,7 @@
     "id": "varanasi",
     "slug": "varanasi",
     "title": "Varanasi: The City of Eternal Light",
-    "hero_image": "varanasi-hero-placeholder.jpg",
+    "hero_image": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1200&auto=format&fit=crop",
     "gallery_images": [
         "varanasi-ganga-aarti.jpg",
         "varanasi-ghats-sunrise.jpg",

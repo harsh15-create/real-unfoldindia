@@ -24,7 +24,7 @@
     "attractions": [
         {
             "name": "Fort Kochi",
-            "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Fort%20Kochi,Fishing%20Nets",
             "timings": "Open 24x7",
             "entry": "Free",
             "duration": "1–2 hrs",
@@ -32,7 +32,7 @@
         },
         {
             "name": "Munnar Tea Gardens",
-            "image": "https://images.unsplash.com/photo-1596005554384-d293674c91d7?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Munnar,Tea%20Gardens",
             "timings": "9 AM – 5 PM",
             "entry": "Free (Museum charges apply)",
             "duration": "Half-day",

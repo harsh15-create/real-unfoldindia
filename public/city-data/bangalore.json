@@ -24,7 +24,7 @@
     "attractions": [
         {
             "name": "Lalbagh Botanical Garden",
-            "image": "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Lalbagh%20Botanical%20Garden",
             "timings": "6 AM – 7 PM",
             "entry": "₹30",
             "duration": "1–2 hrs",
@@ -40,7 +40,7 @@
         },
         {
             "name": "Bangalore Palace",
-            "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Bangalore%20Palace,Architecture",
             "timings": "10 AM – 5 PM",
             "entry": "₹240 (Indian)",
             "duration": "1–1.5 hrs",
@@ -48,7 +48,7 @@
         },
         {
             "name": "Vidhana Soudha",
-            "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Vidhana%20Soudha,Bangalore",
             "timings": "View from outside",
             "entry": "Restricted",
             "duration": "30 mins",
@@ -56,7 +56,7 @@
         },
         {
             "name": "UB City",
-            "image": "https://images.unsplash.com/photo-1582913130063-48538569b4e3?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?UB%20City,Bangalore,Mall",
             "timings": "10:30 AM – 11 PM",
             "entry": "Free",
             "duration": "Flexible",
@@ -64,7 +64,7 @@
         },
         {
             "name": "ISKCON Temple",
-            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?ISKCON%20Bangalore",
             "timings": "4:30 AM – 8 PM",
             "entry": "Free",
             "duration": "45 mins",
@@ -72,7 +72,7 @@
         },
         {
             "name": "Bannerghatta Biological Park",
-            "image": "https://images.unsplash.com/photo-1588096344321-2168f1c0d6b7?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Bannerghatta,Tiger,Safari",
             "timings": "9:30 AM – 5 PM (Tue Closed)",
             "entry": "₹100–₹300",
             "duration": "Half-day",
@@ -80,7 +80,7 @@
         },
         {
             "name": "HAL Aerospace Museum",
-            "image": "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?HAL%20Aerospace%20Museum,Aircraft",
             "timings": "9 AM – 5 PM",
             "entry": "₹50",
             "duration": "1–1.5 hrs",
@@ -88,7 +88,7 @@
         },
         {
             "name": "Nandi Hills",
-            "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1000&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?Nandi%20Hills,Sunrise,Bangalore",
             "timings": "6 AM – 6 PM",
             "entry": "₹20",
             "duration": "Half-day trip",
@@ -96,7 +96,7 @@
         },
         {
             "name": "MG Road & Brigade Road",
-            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "image": "https://source.unsplash.com/featured/?MG%20Road,Bangalore,Street",
             "timings": "10 AM – 11 PM",
             "entry": "Free",
             "duration": "Flexible",

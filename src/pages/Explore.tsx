@@ -43,9 +43,7 @@ const Explore = () => {
         { name: "Wildlife Safaris", image: "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?q=80&w=1000&auto=format&fit=crop", desc: "Tigers of Ranthambore", link: "/wildlife-safaris" },
         { name: "Himalayan Treks", image: "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1000&auto=format&fit=crop", desc: "Adventure in the peaks", link: "/himalayan-treks" },
         { name: "Royal Luxury", image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1000&auto=format&fit=crop", desc: "Palaces of Rajasthan", link: "/experiences/royal-luxury" },
-        { name: "Adventures", image: "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?q=80&w=1000&auto=format&fit=crop", desc: "Rafting, Paragliding & more" },
-        { name: "Coastal Escapes", image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1000&auto=format&fit=crop", desc: "Beaches of Goa & Gokarna" },
-        { name: "Desert Expeditions", image: "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?q=80&w=1000&auto=format&fit=crop", desc: "Camel safaris in Jaisalmer" },
+        { name: "Adventures", image: "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?q=80&w=1000&auto=format&fit=crop", desc: "Rafting, Paragliding & more", link: "/experiences/adventures" },
     ];
 
     const culture = [
