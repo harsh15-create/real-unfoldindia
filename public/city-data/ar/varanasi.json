@@ -1,0 +1,191 @@
+{
+    "name": "Varanasi",
+    "title": "The Spiritual Heart of India",
+    "image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?q=80&w=1000&auto=format&fit=crop",
+    "about": "Varanasi (Kashi or Banaras) is the oldest living city in the world and one of India’s most sacred destinations. Located on the banks of the holy Ganges River, Varanasi is a city of temples, ghats, rituals, spirituality, and deep cultural heritage. A visit here is an experience of India’s oldest traditions, morning prayers, boat rides, classical music, and vibrant street life.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Best weather, pleasant for sightseeing."
+        },
+        {
+            "season": "April to June",
+            "desc": "Extremely hot, best to avoid."
+        },
+        {
+            "season": "July to September",
+            "desc": "Monsoon, offers unique riverside beauty."
+        },
+        {
+            "season": "Festivals",
+            "desc": "Dev Deepawali, Diwali, Maha Shivratri."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Dashashwamedh Ghat",
+            "image": "https://images.unsplash.com/photo-1590766940554-634a7ed41450?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "1–1.5 hrs",
+            "desc": "Famous for the spectacular evening Ganga Aarti. Best time: Sunset."
+        },
+        {
+            "name": "Kashi Vishwanath Temple",
+            "image": "https://images.unsplash.com/photo-1627894483216-2138af692e32?q=80&w=800&auto=format&fit=crop",
+            "timings": "4 AM – 11 PM",
+            "entry": "Free",
+            "duration": "30–45 mins",
+            "desc": "One of India’s holiest Shiva temples."
+        },
+        {
+            "name": "Assi Ghat",
+            "image": "https://images.unsplash.com/photo-1561359313-0639aad49ca6?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Known for yoga sessions, morning Aarti, and peaceful atmosphere."
+        },
+        {
+            "name": "Manikarnika Ghat",
+            "image": "https://images.unsplash.com/photo-1591389703635-e15a07b842d7?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "20–30 mins",
+            "desc": "Sacred cremation ghat with deep cultural significance."
+        },
+        {
+            "name": "Sarnath",
+            "image": "https://images.unsplash.com/photo-1588096344321-2168f1c0d6b7?q=80&w=800&auto=format&fit=crop",
+            "timings": "Sunrise to Sunset",
+            "entry": "₹20",
+            "duration": "Half-day trip",
+            "desc": "A major Buddhist pilgrimage site where Buddha gave his first sermon (10 km away)."
+        },
+        {
+            "name": "BHU Campus",
+            "image": "https://images.unsplash.com/photo-1565019054-067169455339?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open all day",
+            "entry": "Free",
+            "duration": "1–2 hrs",
+            "desc": "Banaras Hindu University, a green campus with Bharat Kala Bhavan Museum."
+        },
+        {
+            "name": "Ramnagar Fort",
+            "image": "https://images.unsplash.com/photo-1596005554384-d293674c91d7?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 5 PM",
+            "entry": "₹50",
+            "duration": "1 hr",
+            "desc": "Historic fort and museum located across the Ganges."
+        },
+        {
+            "name": "Kaal Bhairav Temple",
+            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "timings": "5 AM - 1:30 PM, 4:30 PM - 9:30 PM",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Dedicated to the guardian deity of Varanasi."
+        },
+        {
+            "name": "Tulsi Ghat",
+            "image": "https://images.unsplash.com/photo-1592635190555-788c14152771?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Known for cultural performances and calmer ambience."
+        },
+        {
+            "name": "Vishwanath Gali",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM - 9 PM",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Narrow lanes filled with shops, food, silk, and souvenirs."
+        }
+    ],
+    "hiddenGems": [
+        "Nepali Temple",
+        "Man Singh Observatory",
+        "Malviya Bridge viewpoint",
+        "Kedar Ghat Cafés",
+        "Assi Ghat Music"
+    ],
+    "food": [
+        {
+            "area": "Kashi Chaat Bhandar",
+            "spots": "Tamatar Chaat"
+        },
+        {
+            "area": "Blue Lassi Shop",
+            "spots": "Lassi"
+        },
+        {
+            "area": "Deena Chaat Bhandar",
+            "spots": "Chaat varieties"
+        },
+        {
+            "area": "Vishwanath Gali",
+            "spots": "Street food stalls"
+        },
+        {
+            "area": "Open Hand Café",
+            "spots": "Café food"
+        }
+    ],
+    "markets": [
+        "Vishwanath Gali",
+        "Thatheri Bazaar",
+        "Godowlia Market",
+        "Chowk"
+    ],
+    "nightlife": [
+        "Ganga Aarti",
+        "Assi Ghat Music",
+        "Evening Boat Ride",
+        "Kedar Ghat Cafés"
+    ],
+    "transport": {
+        "metro": "Not available",
+        "cabs": [
+            {
+                "type": "Short (2–4 km)",
+                "cost": "₹50–₹100"
+            },
+            {
+                "type": "Medium (6–10 km)",
+                "cost": "₹120–₹200"
+            },
+            {
+                "type": "Boat Ride",
+                "cost": "₹300–₹600"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹600–₹1000/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1200–₹2500/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹3000–₹6000/day"
+        }
+    ],
+    "stay": [
+        "Assi Ghat",
+        "Dashashwamedh Ghat",
+        "Godowlia",
+        "Lanka/BHU"
+    ],
+    "safety": [
+        "Lanes can get crowded—keep belongings secure",
+        "Avoid walking alone late night near isolated ghats",
+        "Respect temple customs",
+        "Beware of overcharging boatmen—compare prices",
+        "Wear comfortable shoes for long walks"
+    ]
+}

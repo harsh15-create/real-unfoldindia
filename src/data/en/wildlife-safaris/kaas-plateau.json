@@ -1,0 +1,109 @@
+{
+    "id": "kaas-plateau",
+    "slug": "kaas-plateau",
+    "title": "Kaas Plateau",
+    "hero_image": "https://images.unsplash.com/photo-1596328731174-8461a34658cc?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1626620573983-140660461329?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1618251275988-cb94bc807534?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A biodiversity hotspot in Maharashtra known as the 'Valley of Flowers of the South'.",
+    "long_description": "Kaas Plateau, also known as Kaas Pathar, is a lateritic plateau located 25 km west from Satara city in Maharashtra, India. It falls under the Sahyadri Sub Cluster of the Western Ghats, and declared a UNESCO World Natural Heritage Site in 2012. The plateau is known for various types of seasonal wild flowers which bloom and numerous species of endemic butterflies annually in the months of August and September. The plateau has more than 850 different species of flowering plants, of which 624 are entered in the Red Data Book. These flowers carpet the ground in shades of pink, blue, purple, and white.",
+    "wildlife_significance": "UNESCO World Natural Heritage Site. High density of endemic ephemeral plants.",
+    "species_to_see": [
+        "Kaas Flower (Impatiens)",
+        "Topli Karvi",
+        "Utricularia (Insectivorous plants)",
+        "Mickey Mouse Flower",
+        "Sonki"
+    ],
+    "habitat_types": [
+        "Lateritic Plateau",
+        "High Altitude Grassland"
+    ],
+    "safari_types": [
+        "Walking"
+    ],
+    "major_experiences": [
+        "Walking on the designated paths viewing flower carpets",
+        "Kumudini Lake (with water lilies)",
+        "Photography of macro flora",
+        "Bamnoli boating nearby"
+    ],
+    "guides_and_tips": "Strictly no plucking. Walking only on paths. Booking online is mandatory as visitor numbers are capped to 3000 per day.",
+    "how_to_reach": "By Road: 25 km from Satara. Satara is on NH4 (Pune-Bangalore highway).",
+    "accommodation_recommendations": [
+        "Hotels in Satara",
+        "MTDC Resort at Kaas (limited)",
+        "Nivant Hill Resort"
+    ],
+    "permits_and_fees": "Online booking at kaas.ind.in.",
+    "conservation_notes": "Fragile ecosystem. Trampling destroys the tuberous plants forever.",
+    "highlights": [
+        "Carpets of Flowers",
+        "UNESCO Site",
+        "Kumudini Lake",
+        "Endemic Species",
+        "Scenic Drive"
+    ],
+    "sample_itinerary": "Day Trip: Drive from Pune/Satara. Reach parking. Shuttle bus to plateau. Walk for 3 hours. Visit Kumudini Lake. Lunch in Satara. Return.",
+    "safety_tips": "It rains frequently; carry umbrellas. Windy conditions common.",
+    "tags": [
+        "Flowers",
+        "Maharashtra",
+        "UNESCO",
+        "Hiking"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian/Foreigner)",
+            "price": 100,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Online booking fee.",
+            "source_url": "https://www.kaas.ind.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Bus Shuttle (Round trip)",
+            "price_from": 20,
+            "price_to": 30,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://www.kaas.ind.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily (Seasonal)",
+        "open_time": "07:00",
+        "close_time": "18:00",
+        "time_notes": "Slots allotted during booking.",
+        "source_url": "https://www.kaas.ind.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "August to October",
+        "peak_months": "September (Peak Bloom)",
+        "off_season": "November to July (No flowers)",
+        "season_notes": "Flowers last only for 2-3 weeks in peak monsoon end.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://www.kaas.ind.in/",
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Weekends are extremely crowded.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

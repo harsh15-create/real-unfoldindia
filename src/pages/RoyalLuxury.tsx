@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { getMasterData, MasterData } from '@/lib/royalLuxuryApi';
 import RoyalHero from '@/components/royal-luxury/RoyalHero';
 import { motion } from 'framer-motion';
@@ -7,11 +8,12 @@ import { Link } from 'react-router-dom';
 import { Crown } from 'lucide-react';
 
 const RoyalLuxury = () => {
+    const { i18n } = useTranslation();
     const [data, setData] = useState<MasterData | null>(null);
 
     useEffect(() => {
-        getMasterData().then(setData);
-    }, []);
+        getMasterData(i18n.language).then(setData);
+    }, [i18n.language]);
 
     if (!data) return <div className="h-screen flex items-center justify-center bg-background text-primary">Loading Royal Experience...</div>;
 

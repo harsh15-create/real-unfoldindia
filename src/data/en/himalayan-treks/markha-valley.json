@@ -1,0 +1,54 @@
+{
+    "id": "markha-valley",
+    "slug": "markha-valley",
+    "title": "Markha Valley",
+    "subtitle": "Ladakh’s green valley route",
+    "region": "Ladakh",
+    "hubs": [
+        "Leh"
+    ],
+    "about": "Markha Valley is a lush corridor in Ladakh that connects high desert plateaus with villages, gompas and rugged side ridges. The trail offers surprising green camps, river crossings and a chance to meet remote Himalayan communities.",
+    "difficulty": "Moderate",
+    "duration": "6 days / 5 nights",
+    "elevation_max_m": 5000,
+    "bestSeason": [
+        "Jun–Sep"
+    ],
+    "highlights": [
+        "Village culture",
+        "Desert-meadow contrast",
+        "River crossings"
+    ],
+    "tags": [
+        "desert",
+        "villages",
+        "culture",
+        "moderate"
+    ],
+    "seo_title": "Markha Valley Trek — Ladakh Village Trails",
+    "seo_description": "A scenic Ladakh trek through green valleys, remote villages and dramatic high desert landscapes.",
+    "cover_image": "https://images.example.com/markha-valley-1.jpg",
+    "images": [
+        "https://images.example.com/markha-valley-1.jpg"
+    ],
+    "trek_places": [
+        {
+            "id": "markha-village",
+            "name": "Markha Village",
+            "short": "Traditional village and first campsite",
+            "about": "Markha gives an intimate look at Ladakhi mountain agriculture and hospitality. Trekkers often stay in local homestays and learn about traditional life.",
+            "what_to_do": [
+                "Explore village life and gompas",
+                "Taste local Ladakhi cuisine",
+                "Walk the nearby fields and photogenic lanes"
+            ],
+            "coordinates": {
+                "lat": 34.2560,
+                "lon": 77.4280
+            },
+            "images": [
+                "https://images.example.com/markha-village-1.jpg"
+            ]
+        }
+    ]
+}

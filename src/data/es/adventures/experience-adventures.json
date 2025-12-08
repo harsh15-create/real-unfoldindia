@@ -1,0 +1,277 @@
+{
+    "id": "adventures",
+    "slug": "adventures",
+    "title": "Adventures",
+    "hero_image": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?q=80&w=2070&auto=format&fit=crop",
+    "theme_color": "#0a5c83",
+    "seo_title": "Adventure Sports & Activities in India | The Ultimate Guide",
+    "seo_description": "Discover 25+ adrenaline-pumping adventure activities in India. From paragliding in Bir Billing to scuba diving in Andaman and skiing in Gulmarg. Plan your thrill.",
+    "keywords": [
+        "adventure sports india",
+        "paragliding india",
+        "scuba diving andaman",
+        "river rafting rishikesh",
+        "skiing gulmarg",
+        "bungee jumping rishikesh",
+        "trekking vs adventure",
+        "extreme sports india"
+    ],
+    "intro_title": "Unleash Your Wild Side: India’s Ultimate Adventure Playground",
+    "intro_description": "India is not just a land of spirituality and heritage; it is a rugged playground for thrill-seekers. From the snow-capped peaks of the Himalayas offering world-class skiing to the coral-rich waters of the Andamans perfect for scuba diving, the diversity of landscapes allows for every conceivable adventure sport.\n\nWhether you are a beginner looking to take your first tandem paragliding flight or an expert kayaker seeking Grade IV rapids, India has it all. The adventure tourism industry here has matured significantly, with certified operators, international safety standards, and state-of-the-art equipment becoming the norm. However, choosing the right activity requires understanding the physical demands, seasonal constraints, and safety protocols.\n\nThis comprehensive guide covers 25 distinct adventure activities across Air, Water, Land, and Snow. specific details on pricing, best seasons, and top locations will help you plan your next adrenaline-fueled expedition with confidence.",
+    "sections": [
+        {
+            "type": "hero",
+            "image": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?q=80&w=2070&auto=format&fit=crop",
+            "title": "Adventures",
+            "subtitle": "Defy Gravity. Ride the Waves. Conquer the Terrain."
+        },
+        {
+            "type": "intro",
+            "title": "Unleash Your Wild Side",
+            "content": "India is a rugged playground for thrill-seekers. From the snow-capped peaks of the Himalayas to the coral-rich waters of the Andamans, discover 25 distinct adventure activities across Air, Water, Land, and Snow."
+        },
+        {
+            "type": "category_grid",
+            "title": "Choose Your Thrill",
+            "data_source": "activities_list"
+        },
+        {
+            "type": "safety_advisory",
+            "title": "Adventure Safety First",
+            "content": "Adventure sports carry inherent risks. Always verify operator certifications (ATOAI recognized), check equipment condition personally, and never withhold medical conditions. Insurance covering adventure sports is highly recommended."
+        },
+        {
+            "type": "booking_cta",
+            "title": "Ready to Jump?",
+            "button_text": "Find Operators",
+            "link": "/plan/adventure"
+        }
+    ],
+    "activities_list": [
+        {
+            "id": "paragliding",
+            "slug": "paragliding",
+            "title": "Paragliding",
+            "category": "Air",
+            "card_subtitle": "Soar like a bird",
+            "thumbnail_image": "https://source.unsplash.com/featured/?paragliding",
+            "short_description": "Experience the freedom of flight over Himalayan valleys and coastal cliffs."
+        },
+        {
+            "id": "hot-air-ballooning",
+            "slug": "hot-air-ballooning",
+            "title": "Hot Air Ballooning",
+            "category": "Air",
+            "card_subtitle": "Float above the world",
+            "thumbnail_image": "https://source.unsplash.com/featured/?hot%20air%20balloon",
+            "short_description": "Peaceful aerial views of deserts, forts, and national parks at sunrise."
+        },
+        {
+            "id": "ziplining",
+            "slug": "ziplining",
+            "title": "Ziplining",
+            "category": "Air",
+            "card_subtitle": "Speed through the canopy",
+            "thumbnail_image": "https://source.unsplash.com/featured/?zipline",
+            "short_description": "High-speed aerial glides across forts, forests, and river valleys."
+        },
+        {
+            "id": "skydiving",
+            "slug": "skydiving",
+            "title": "Skydiving",
+            "category": "Air",
+            "card_subtitle": "The ultimate freefall",
+            "thumbnail_image": "https://source.unsplash.com/featured/?skydiving",
+            "short_description": "Jump from 10,000 feet for the most intense adrenaline rush of your life."
+        },
+        {
+            "id": "river-rafting",
+            "slug": "river-rafting",
+            "title": "River Rafting",
+            "category": "Water",
+            "card_subtitle": "Tame the rapids",
+            "thumbnail_image": "https://source.unsplash.com/featured/?rafting",
+            "short_description": "Navigate turbulent river rapids ranging from Grade I to Grade IV."
+        },
+        {
+            "id": "kayaking",
+            "slug": "kayaking",
+            "title": "Kayaking",
+            "category": "Water",
+            "card_subtitle": "Paddle through nature",
+            "thumbnail_image": "https://source.unsplash.com/featured/?kayaking",
+            "short_description": "Explore silent backwaters or challenge white-water currents in a kayak."
+        },
+        {
+            "id": "scuba-diving",
+            "slug": "scuba-diving",
+            "title": "Scuba Diving",
+            "category": "Water",
+            "card_subtitle": "Explore the deep blue",
+            "thumbnail_image": "https://source.unsplash.com/featured/?scuba%20diving",
+            "short_description": "Discover vibrant coral reefs and marine life in India's clearest waters."
+        },
+        {
+            "id": "snorkeling",
+            "slug": "snorkeling",
+            "title": "Snorkeling",
+            "category": "Water",
+            "card_subtitle": "Surface underwater views",
+            "thumbnail_image": "https://source.unsplash.com/featured/?snorkeling",
+            "short_description": "Witness underwater wonders without the need for deep diving certification."
+        },
+        {
+            "id": "surfing",
+            "slug": "surfing",
+            "title": "Surfing",
+            "category": "Water",
+            "card_subtitle": "Ride the ocean waves",
+            "thumbnail_image": "https://source.unsplash.com/featured/?surfing",
+            "short_description": "Catch waves at India's emerging surf spots along the east and west coasts."
+        },
+        {
+            "id": "parasailing",
+            "slug": "parasailing",
+            "title": "Parasailing",
+            "category": "Air",
+            "card_subtitle": "Fly behind a boat",
+            "thumbnail_image": "https://source.unsplash.com/featured/?parasailing",
+            "short_description": "Enjoy a bird's eye view of the sea while being towed by a speedboat."
+        },
+        {
+            "id": "jet-skiing",
+            "slug": "jet-skiing",
+            "title": "Jet Skiing",
+            "category": "Water",
+            "card_subtitle": "Speed on water",
+            "thumbnail_image": "https://source.unsplash.com/featured/?jet%20ski",
+            "short_description": "High-octane water racing on powerful personal watercrafts."
+        },
+        {
+            "id": "bungee-jumping",
+            "slug": "bungee-jumping",
+            "title": "Bungee Jumping",
+            "category": "Air",
+            "card_subtitle": "Leap of faith",
+            "thumbnail_image": "https://source.unsplash.com/featured/?bungee%20jumping",
+            "short_description": "Plunge from a tall structure with an elastic cord for a pure gravity thrill."
+        },
+        {
+            "id": "atv-quad-biking",
+            "slug": "atv-quad-biking",
+            "title": "ATV / Off-Roading",
+            "category": "Land",
+            "card_subtitle": "Conquer rough terrain",
+            "thumbnail_image": "https://source.unsplash.com/featured/?atv,quad%20bike",
+            "short_description": "Drive powerful quad bikes through sand dunes, mud tracks, and forests."
+        },
+        {
+            "id": "rock-climbing",
+            "slug": "rock-climbing",
+            "title": "Rock Climbing",
+            "category": "Land",
+            "card_subtitle": "Scale new heights",
+            "thumbnail_image": "https://source.unsplash.com/featured/?rock%20climbing",
+            "short_description": "Test your strength and grip on natural rock formations and boulders."
+        },
+        {
+            "id": "rappelling",
+            "slug": "rappelling",
+            "title": "Rappelling",
+            "category": "Land",
+            "card_subtitle": "Controlled descent",
+            "thumbnail_image": "https://source.unsplash.com/featured/?rappelling",
+            "short_description": "Descend vertical rock faces or waterfalls using ropes and technical gear."
+        },
+        {
+            "id": "caving-spelunking",
+            "slug": "caving-spelunking",
+            "title": "Caving",
+            "category": "Land",
+            "card_subtitle": "Explore the underground",
+            "thumbnail_image": "https://source.unsplash.com/featured/?caving",
+            "short_description": "Navigate dark limestone caves and discover ancient subterranean formations."
+        },
+        {
+            "id": "mountain-biking",
+            "slug": "mountain-biking",
+            "title": "Mountain Biking",
+            "category": "Land",
+            "card_subtitle": "Ride the trails",
+            "thumbnail_image": "https://source.unsplash.com/featured/?mountain%20biking",
+            "short_description": "Cycle through rugged mountain paths, single tracks, and scenic off-road trails."
+        },
+        {
+            "id": "sandboarding",
+            "slug": "sandboarding",
+            "title": "Sandboarding",
+            "category": "Land",
+            "card_subtitle": "Surf the dunes",
+            "thumbnail_image": "https://source.unsplash.com/featured/?sandboarding",
+            "short_description": "Slide down golden desert dunes on a specially designed board."
+        },
+        {
+            "id": "zorbing",
+            "slug": "zorbing",
+            "title": "Zorbing",
+            "category": "Land",
+            "card_subtitle": "Roll downhill",
+            "thumbnail_image": "https://source.unsplash.com/featured/?zorbing",
+            "short_description": "Roll down a hill inside a giant transparent plastic orb."
+        },
+        {
+            "id": "flying-fox",
+            "slug": "flying-fox",
+            "title": "Flying Fox",
+            "category": "Air",
+            "card_subtitle": "Zip on a cable",
+            "thumbnail_image": "https://source.unsplash.com/featured/?zipline,flying%20fox",
+            "short_description": "A gravity-fed aerial ride on a cable, often found in adventure parks."
+        },
+        {
+            "id": "skiing",
+            "slug": "skiing",
+            "title": "Skiing",
+            "category": "Snow",
+            "card_subtitle": "Glide on snow",
+            "thumbnail_image": "https://source.unsplash.com/featured/?skiing",
+            "short_description": "Carve your way down snowy Himalayan slopes in world-class ski resorts."
+        },
+        {
+            "id": "snowboarding",
+            "slug": "snowboarding",
+            "title": "Snowboarding",
+            "category": "Snow",
+            "card_subtitle": "Shred the powder",
+            "thumbnail_image": "https://source.unsplash.com/featured/?snowboarding",
+            "short_description": "Ride a single board down snow-covered mountains for a freestyle thrill."
+        },
+        {
+            "id": "snowmobiling",
+            "slug": "snowmobiling",
+            "title": "Snowmobiling",
+            "category": "Snow",
+            "card_subtitle": "Motor over ice",
+            "thumbnail_image": "https://source.unsplash.com/featured/?snowmobile",
+            "short_description": "Zoom across snow-covered landscapes on a powerful motorized sled."
+        },
+        {
+            "id": "snow-tubing",
+            "slug": "snow-tubing",
+            "title": "Snow Tubing",
+            "category": "Snow",
+            "card_subtitle": "Slide for fun",
+            "thumbnail_image": "https://source.unsplash.com/featured/?snow%20tubing",
+            "short_description": "A fun, family-friendly activity sliding down snow slopes in inflatable tubes."
+        },
+        {
+            "id": "camping",
+            "slug": "camping",
+            "title": "Camping",
+            "category": "Overnight",
+            "card_subtitle": "Sleep under stars",
+            "thumbnail_image": "https://source.unsplash.com/featured/?camping",
+            "short_description": "Experience nature up close by staying in tents in deserts, forests, or hills."
+        }
+    ]
+}

@@ -1,0 +1,205 @@
+{
+    "id": "jai-mahal-palace",
+    "slug": "jai-mahal-palace",
+    "title": "Jai Mahal Palace",
+    "hero_image": "https://images.unsplash.com/photo-1566633806327-68e152aaf26d?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1603264439095-2c752495af44?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A 275-year-old masterpiece of Indo-Saracenic architecture set amidst 18 acres of Mughal gardens.",
+    "long_description": "Jai Mahal Palace, dating back to 1745, is 18 acres of majestic Mughal gardens and dazzling Indo-Saracenic architecture. Originally the residence of the Prime Minister of the princely state of Jaipur, it has been painstakingly restored by Taj Hotels. The palace appears to be floating within the vast landscaped grounds, making it a peaceful oasis in the bustling city.\n\nThe hotel offers a range of royal experiences, from dining under the stars at Giardino to enjoying a regal spa treatment. The meticulously maintained gardens are a highlight, perfect for a leisurely stroll or a game of croquet.",
+    "amenities": [
+        "Jiva Spa",
+        "Outdoor Pool",
+        "Croquet",
+        "Life-size Chess",
+        "Fitness Centre"
+    ],
+    "room_types": [
+        {
+            "name": "Luxury Room",
+            "starting_price": 35000,
+            "currency": "INR",
+            "description": "Rooms blending heritage decor with modern comfort, overlooking the gardens."
+        },
+        {
+            "name": "Deluxe Suite",
+            "starting_price": 60000,
+            "currency": "INR",
+            "description": "Spacious suites with separate living areas and traditional Rajasthani artwork."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "Durbar Hall",
+            "capacity": 150,
+            "notes": "Heritage hall for events",
+            "wedding_ready": true
+        },
+        {
+            "name": "Lotus Pond",
+            "capacity": 50,
+            "notes": "Open-air venue for intimate gatherings",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Open 24/7.",
+        "source_url": "https://www.tajhotels.com/en-in/taj/jai-mahal-palace-jaipur/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "March"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": null,
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 35000,
+    "price_currency": "INR",
+    "packages": [
+        {
+            "name": "Royal Getaway",
+            "price_from": 75000,
+            "inclusions": [
+                "2 Nights Stay",
+                "Airport Transfer",
+                "Breakfast",
+                "Spa Credit"
+            ],
+            "booking_method": "Direct",
+            "source_url": "https://www.tajhotels.com/en-in/taj/jai-mahal-palace-jaipur/offers/"
+        }
+    ],
+    "booking_methods": [
+        "Online",
+        "Phone"
+    ],
+    "booking_url": "https://www.tajhotels.com/en-in/taj/jai-mahal-palace-jaipur/",
+    "wedding_packages": [
+        {
+            "name": "Garden Wedding",
+            "capacity": 500,
+            "starting_price": 12000000,
+            "inclusions": [
+                "Lawn Venue",
+                "Catering",
+                "Rooms"
+            ],
+            "contact_url": "https://www.tajhotels.com/en-in/taj/jai-mahal-palace-jaipur/meetings-and-events/"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Sales",
+            "name": null,
+            "email": "jaimahal.jaipur@tajhotels.com",
+            "phone": "+91 141 660 1111"
+        }
+    ],
+    "signature_experiences": [
+        "Dining at The Oasis",
+        "Elephant Polo (seasonal)",
+        "Vintage Car Tour"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Garden Retreat",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Relaxation",
+                    "activities": [
+                        "Check-in",
+                        "Pool Time",
+                        "Dinner at Cinnamon"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Cinnamon",
+            "cuisine": "Indian",
+            "reservation_required": true
+        },
+        {
+            "name": "Giardino",
+            "cuisine": "Italian",
+            "reservation_required": true
+        },
+        {
+            "name": "Marble Arch",
+            "cuisine": "All-day Dining",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": true,
+        "accessible_rooms": true
+    },
+    "heritage_history": "Built in 1745. Former residence of the Prime Minister of Jaipur state.",
+    "conservation_notes": "Maintains 18 acres of heritage gardens.",
+    "cultural_responsibility": "Showcases local puppetry and folk dance.",
+    "how_to_reach": "30 mins from Jaipur Airport.",
+    "nearest_airport": "Jaipur International Airport (14 km)",
+    "nearest_rail_station": "Jaipur Junction (1 km)",
+    "suggested_stay": "2 Nights",
+    "contact": {
+        "phone": "+91 141 660 1111",
+        "email": "jaimahal.jaipur@tajhotels.com",
+        "address": "Jacob Road, Civil Lines, Jaipur 302006"
+    },
+    "tags": [
+        "Luxury",
+        "Heritage",
+        "Gardens",
+        "Family",
+        "Architecture"
+    ],
+    "highlights": [
+        "18 Acres of Gardens",
+        "Indo-Saracenic Architecture",
+        "Giardino Italian Dining",
+        "Cinnamon Restaurant",
+        "Life-size Chess",
+        "Central Location"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Prices subject to change.",
+        "data_provider": "Taj Hotels",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Jai Mahal Palace Jaipur | 5 Star Heritage Hotel",
+    "seo_description": "Stay at Jai Mahal Palace Jaipur, a 275-year-old masterpiece with 18 acres of Mughal gardens. Experience Taj hospitality.",
+    "source_reference": [
+        {
+            "url": "https://www.tajhotels.com/en-in/taj/jai-mahal-palace-jaipur/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

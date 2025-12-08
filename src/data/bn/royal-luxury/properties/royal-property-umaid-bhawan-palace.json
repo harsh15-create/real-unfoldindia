@@ -1,0 +1,238 @@
+{
+    "id": "umaid-bhawan-palace",
+    "slug": "umaid-bhawan-palace",
+    "title": "Umaid Bhawan Palace",
+    "hero_image": "https://images.unsplash.com/photo-1577083288073-591cf977197c?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A magnificent piece of Rajasthan's heritage and a symbol of new Jodhpur, home of the erstwhile Jodhpur royal family.",
+    "long_description": "Umaid Bhawan Palace is the last of the great palaces of India and one of the largest private residences in the world. Built between 1928 and 1943 during the reign of Maharaja Umaid Singh, it was designed by majestic Edwardian architect Henry Lanchester. The palace is a blend of eastern and western architectural influences, featuring a central cupola that rivals the Taj Mahal.\n\nThe palace is divided into three parts: the residence of the royal family, a museum focusing on the 20th-century history of the Jodhpur Royal Family, and the Taj Hotel. Guests at the hotel are treated to a life of unparalleled luxury, with Art Deco style rooms, strolling peacocks in the gardens, and the unique experience of living with royalty.",
+    "amenities": [
+        "Jiva Grande Spa",
+        "Indoor & Outdoor Pools",
+        "Vintage Car Museum",
+        "Squash Courts",
+        "Billiards Room",
+        "Butler Service"
+    ],
+    "room_types": [
+        {
+            "name": "Palace Room",
+            "starting_price": 60000,
+            "currency": "INR",
+            "description": "Art Decor rooms with views of the palace gardens."
+        },
+        {
+            "name": "Historical Suite",
+            "starting_price": 95000,
+            "currency": "INR",
+            "description": "Suites with original furniture and portraits of the royal family."
+        },
+        {
+            "name": "Royal Suite",
+            "starting_price": 180000,
+            "currency": "INR",
+            "description": "Opulent suites with large terraces overlooking the lawns."
+        },
+        {
+            "name": "Maharani Suite",
+            "starting_price": 850000,
+            "currency": "INR",
+            "description": "Designed for the Queen, featuring a private dining room and spa."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "Baradari Lawns",
+            "capacity": 700,
+            "notes": "Iconic wedding venue",
+            "wedding_ready": true
+        },
+        {
+            "name": "Lancer's Bar",
+            "capacity": 80,
+            "notes": "Military themed bar",
+            "wedding_ready": false
+        }
+    ],
+    "entry_fees": [
+        {
+            "category": "Museum Entry",
+            "price": 100,
+            "currency": "INR",
+            "price_type": "estimated",
+            "notes": "For non-guests visiting the museum only",
+            "last_checked": "2025-12-08"
+        }
+    ],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Hotel open 24/7. Museum 10am - 5pm.",
+        "source_url": "https://www.tajhotels.com/en-in/taj/umaid-bhawan-palace-jodhpur/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "March"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": null,
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 60000,
+    "price_currency": "INR",
+    "packages": [
+        {
+            "name": "Royal Honeymoon",
+            "price_from": 180000,
+            "inclusions": [
+                "2 Nights Stay",
+                "Spa Treatment",
+                "Private Dinner"
+            ],
+            "booking_method": "Direct",
+            "source_url": "https://www.tajhotels.com/en-in/taj/umaid-bhawan-palace-jodhpur/offers/"
+        }
+    ],
+    "booking_methods": [
+        "Online",
+        "Phone"
+    ],
+    "booking_url": "https://www.tajhotels.com/en-in/taj/umaid-bhawan-palace-jodhpur/",
+    "wedding_packages": [
+        {
+            "name": "Fairy Tale Wedding",
+            "capacity": 800,
+            "starting_price": 25000000,
+            "inclusions": [
+                "Full Buyout",
+                "Royal Procession",
+                "Gala Dinner"
+            ],
+            "contact_url": "https://www.tajhotels.com/en-in/taj/umaid-bhawan-palace-jodhpur/meetings-and-events/"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Sales",
+            "name": null,
+            "email": "umaidbhawan.jodhpur@tajhotels.com",
+            "phone": "+91 291 251 0101"
+        }
+    ],
+    "signature_experiences": [
+        "Champagne Museum Walk",
+        "Heritage Walk with Palace Butler",
+        "Private Dining at Baradari",
+        "Vintage Car Drive"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Royal Living",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Welcome to the Palace",
+                    "activities": [
+                        "Ceremonial Welcome",
+                        "Museum Tour",
+                        "Sunset at Pillars",
+                        "Dinner at Risala"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "title": "Jodhpur Heritage",
+                    "activities": [
+                        "Yoga on Lawns",
+                        "Mehrangarh Fort Visit",
+                        "Spa Treatment",
+                        "Private Dinner"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Risala",
+            "cuisine": "Indian & Continental",
+            "reservation_required": true
+        },
+        {
+            "name": "Pillars",
+            "cuisine": "Al Fresco Dining",
+            "reservation_required": true
+        },
+        {
+            "name": "Trophy Bar",
+            "cuisine": "Bar & Lounge",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": true,
+        "accessible_rooms": true
+    },
+    "heritage_history": "Built between 1928 and 1943 by Maharaja Umaid Singh. It employed 3000 artisans during a time of famine.",
+    "conservation_notes": "Maintains 26 acres of gardens. Uses solar power.",
+    "cultural_responsibility": "Houses a museum preserving the royal family's history.",
+    "how_to_reach": "15 mins from Jodhpur Airport.",
+    "nearest_airport": "Jodhpur Airport (5 km)",
+    "nearest_rail_station": "Jodhpur Junction (3 km)",
+    "suggested_stay": "2-3 Nights",
+    "contact": {
+        "phone": "+91 291 251 0101",
+        "email": "umaidbhawan.jodhpur@tajhotels.com",
+        "address": "Circuit House Road, Jodhpur 342006"
+    },
+    "tags": [
+        "World's Best",
+        "Palace",
+        "Art Deco",
+        "Museum",
+        "Luxury"
+    ],
+    "highlights": [
+        "Voted Best Hotel",
+        "Royal Family Residence",
+        "Art Deco Design",
+        "Champagne Museum Walk",
+        "Zodiac Pool",
+        "Trophy Bar"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates fluctuate.",
+        "data_provider": "Taj Hotels",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Umaid Bhawan Palace Jodhpur | World's Best Hotel",
+    "seo_description": "Book Umaid Bhawan Palace, Jodhpur. One of the world's largest private residences and a verified luxury heritage hotel.",
+    "source_reference": [
+        {
+            "url": "https://www.tajhotels.com/en-in/taj/umaid-bhawan-palace-jodhpur/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

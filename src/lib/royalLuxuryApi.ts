@@ -1,7 +1,5 @@
 
-import masterData from '@/data/royal-luxury/experience-royal-luxury.json';
-
-// Types (You might want to move these to a types file later)
+// Types
 export interface MasterData {
     id: string;
     slug: string;
@@ -73,15 +71,49 @@ export interface PropertyData {
     source_reference: any[];
 }
 
+const masterDataModules = import.meta.glob('../data/*/royal-luxury/experience-royal-luxury.json');
+const cityModules = import.meta.glob('../data/*/royal-luxury/cities/*.json');
+const propertyModules = import.meta.glob('../data/*/royal-luxury/properties/*.json');
 
-export const getMasterData = async (): Promise<MasterData> => {
-    // In a real API this would be a fetch. Here we just return the imported JSON.
-    return masterData;
+export const getMasterData = async (lang: string = 'en'): Promise<MasterData | null> => {
+    let path = `../data/${lang}/royal-luxury/experience-royal-luxury.json`;
+    let loader = masterDataModules[path];
+
+    if (!loader && lang !== 'en') {
+        path = `../data/en/royal-luxury/experience-royal-luxury.json`;
+        loader = masterDataModules[path];
+    }
+
+    if (!loader) {
+        console.error(`Royal Luxury Master Data not found for lang: ${lang}`);
+        return null;
+    }
+
+    try {
+        const mod: any = await loader();
+        return mod.default;
+    } catch (e) {
+        console.error(`Error loading Royal Luxury Master Data`, e);
+        return null;
+    }
 };
 
-export const getCityData = async (slug: string): Promise<CityData | null> => {
+export const getCityData = async (slug: string, lang: string = 'en'): Promise<CityData | null> => {
+    let path = `../data/${lang}/royal-luxury/cities/royal-city-${slug}.json`;
+    let loader = cityModules[path];
+
+    if (!loader && lang !== 'en') {
+        path = `../data/en/royal-luxury/cities/royal-city-${slug}.json`;
+        loader = cityModules[path];
+    }
+
+    if (!loader) {
+        console.error(`City data not found: ${slug} (${lang})`);
+        return null;
+    }
+
     try {
-        const data = await import(`@/data/royal-luxury/cities/royal-city-${slug}.json`);
+        const data: any = await loader();
         return data.default;
     } catch (error) {
         console.error(`Failed to load city data for ${slug}`, error);
@@ -89,9 +121,22 @@ export const getCityData = async (slug: string): Promise<CityData | null> => {
     }
 };
 
-export const getPropertyData = async (slug: string): Promise<PropertyData | null> => {
+export const getPropertyData = async (slug: string, lang: string = 'en'): Promise<PropertyData | null> => {
+    let path = `../data/${lang}/royal-luxury/properties/royal-property-${slug}.json`;
+    let loader = propertyModules[path];
+
+    if (!loader && lang !== 'en') {
+        path = `../data/en/royal-luxury/properties/royal-property-${slug}.json`;
+        loader = propertyModules[path];
+    }
+
+    if (!loader) {
+        console.error(`Property data not found: ${slug} (${lang})`);
+        return null;
+    }
+
     try {
-        const data = await import(`@/data/royal-luxury/properties/royal-property-${slug}.json`);
+        const data: any = await loader();
         return data.default;
     } catch (error) {
         console.error(`Failed to load property data for ${slug}`, error);

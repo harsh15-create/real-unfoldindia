@@ -5,65 +5,38 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "sonner";
-
-
-interface TrekPlace {
-    id: string;
-    name: string;
-    short: string;
-    about: string;
-    what_to_do: string[];
-    coordinates: { lat: number; lon: number } | null;
-    images: string[];
-}
-
-interface TrekData {
-    id: string;
-    slug: string;
-    title: string;
-    subtitle: string;
-    region: string;
-    hubs: string[];
-    about: string;
-    difficulty: string;
-    duration: string;
-    elevation_max_m: number;
-    bestSeason: string[];
-    highlights: string[];
-    tags: string[];
-    seo_title: string;
-    seo_description: string;
-    cover_image: string;
-    images: string[];
-    trek_places: TrekPlace[];
-}
+import { getTrekDetail, TrekDetail as TrekDetailType } from "@/lib/treksApi"; // Typo fix: removed 'as' alias for now, or use it
+import { useTranslation } from "react-i18next";
 
 const TrekDetail = () => {
     const { slug } = useParams();
     const navigate = useNavigate();
-    const [data, setData] = useState<TrekData | null>(null);
+    const { i18n } = useTranslation();
+    const [data, setData] = useState<TrekDetailType | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchData = async () => {
+            if (!slug) return;
             try {
                 setLoading(true);
-                // Dynamically import the JSON file based on the slug
-                const module = await import(`@/data/himalayan-treks/${slug}.json`);
-                setData(module.default || module); // Handle both default export and pure JSON
+                const trekData = await getTrekDetail(slug, i18n.language);
+                if (trekData) {
+                    setData(trekData);
+                } else {
+                    toast.error("Trek not found");
+                    navigate("/himalayan-treks");
+                }
             } catch (error) {
                 console.error("Failed to load trek data:", error);
-                toast.error("Trek not found");
-                navigate("/himalayan-treks");
+                toast.error("Error loading trek data");
             } finally {
                 setLoading(false);
             }
         };
 
-        if (slug) {
-            fetchData();
-        }
-    }, [slug, navigate]);
+        fetchData();
+    }, [slug, navigate, i18n.language]);
 
     if (loading) {
         return (

@@ -1,0 +1,74 @@
+{
+    "id": "everest-base-camp",
+    "slug": "everest-base-camp",
+    "title": "Everest Base Camp (Nepal)",
+    "subtitle": "Footsteps to the world’s roof",
+    "region": "Nepal",
+    "hubs": [
+        "Lukla",
+        "Kathmandu"
+    ],
+    "about": "Everest Base Camp is the world’s most famous high-altitude trek, threading Sherpa villages, suspension bridges and high viewpoints on the way to the Khumbu icefall. It’s a cultural and physical journey that culminates at the tipping point of Everest climbing.",
+    "difficulty": "Hard",
+    "duration": "14 days / 13 nights",
+    "elevation_max_m": 5364,
+    "bestSeason": [
+        "Mar–May",
+        "Sep–Nov"
+    ],
+    "highlights": [
+        "Sherpa culture",
+        "High-altitude views",
+        "Iconic lodges"
+    ],
+    "tags": [
+        "international",
+        "high-altitude",
+        "cultural",
+        "challenging"
+    ],
+    "seo_title": "Everest Base Camp Trek — Khumbu Expedition",
+    "seo_description": "Iconic trek through Sherpa country ending at Everest Base Camp. High altitude, deep culture and legendary views.",
+    "cover_image": "https://images.example.com/everest-base-camp-1.jpg",
+    "images": [
+        "https://images.example.com/everest-base-camp-1.jpg"
+    ],
+    "trek_places": [
+        {
+            "id": "lukla",
+            "name": "Lukla",
+            "short": "Tiny airstrip and gateway to Khumbu",
+            "about": "Lukla’s short airstrip is the practical gateway to EBC. The town is a jumble of guesthouses, tea shops and trekking logistics—expect brisk energy and last-minute gear runs.",
+            "what_to_do": [
+                "Confirm permits and flights to Kathmandu",
+                "Meet Sherpa crew and check kit",
+                "Begin acclimatisation walks on the lower trails"
+            ],
+            "coordinates": {
+                "lat": 27.6869,
+                "lon": 86.7297
+            },
+            "images": [
+                "https://images.example.com/lukla-1.jpg"
+            ]
+        },
+        {
+            "id": "namche",
+            "name": "Namche Bazaar",
+            "short": "High Sherpa market and acclimatisation hub",
+            "about": "Namche is the main acclimatisation stop with bakeries, gear shops and a lively market. Trekkers linger here for two nights to adjust and relish the unique mountain culture.",
+            "what_to_do": [
+                "Acclimatise and hike to nearby viewpoints",
+                "Stock up on supplies and enjoy bakeries",
+                "Visit Sherpa museums and cultural exhibits"
+            ],
+            "coordinates": {
+                "lat": 27.8060,
+                "lon": 86.7120
+            },
+            "images": [
+                "https://images.example.com/namche-1.jpg"
+            ]
+        }
+    ]
+}

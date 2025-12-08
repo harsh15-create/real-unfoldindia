@@ -1,0 +1,65 @@
+{
+    "id": "ujjain",
+    "slug": "ujjain",
+    "title": "Ujjain: The City of Mahakal",
+    "hero_image": "ujjain-hero-placeholder.jpg",
+    "gallery_images": [
+        "ujjain-mahakaleshwar.jpg",
+        "ujjain-bhasma-aarti.jpg",
+        "ujjain-shipra-aarti.jpg",
+        "ujjain-kal-bhairav.jpg"
+    ],
+    "short_description": "Bow before Mahakaleshwar, the Lord of Time, in this ancient city of astronomers and sages.",
+    "long_description": "Ujjain, located on the banks of the Shipra River in Madhya Pradesh, is one of the oldest living cities in the world. It was the capital of the legendary King Vikramaditya and a prime meridian for ancient Hindu astronomers. But above all, it is the city of Mahakaleshwar—the Lord of Time and Death.\n\nThe Mahakaleshwar Jyotirlinga is the only one among the 12 that is 'Dakshinamukhi' (facing South, the direction of death), symbolizing Shiva's mastery over mortality. The most intense ritual here is the Bhasma Aarti, held at 4 AM, where the deity is bathed in fresh ash (bhasma), symbolizing the transient nature of life (originally, ash from funeral pyres was used). \n\nUjjain is also a Shakti Peeth (Harsiddhi Mata) and the place where Krishna and Balarama studied at the Sandipani Ashram. The Simhastha Kumbh Mela is held here every 12 years. The atmosphere is thick with the scent of camphor and the sound of damrus (drums). To visit Ujjain is to confront the power of time and the grace of the destroyer.",
+    "spiritual_significance": "Aside from being a Jyotirlinga and Shakti Peeth, Ujjain is a Mokshapuri. The Bhasma Aarti is unique to this shrine. The Kal Bhairav temple here is famous for the ritual offering of liquor to the deity.",
+    "major_temples_and_sites": [
+        {
+            "name": "Mahakaleshwar Temple",
+            "description": "The main attraction. The sprawling Mahakal Lok corridor recently built adds grandeur with statues and murals."
+        },
+        {
+            "name": "Kal Bhairav Temple",
+            "description": "Dedicated to the fierce form of Shiva. It is famous because the idol mysteriously 'drinks' the liquor offered by devotees."
+        },
+        {
+            "name": "Harsiddhi Mata Temple",
+            "description": "A Shakti Peeth where the elbow of Sati fell. Features two towering dipstambhs (lamp pillars) lit during Navratri."
+        },
+        {
+            "name": "Ram Ghat",
+            "description": "The main ghat on the Shipra river where the Kumbh Mela dip takes place and evening Aarti is held."
+        },
+        {
+            "name": "Sandipani Ashram",
+            "description": "The ancient school where Lord Krishna, Balarama, and Sudama received their education."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Witness the Bhasma Aarti (requires prior online booking).",
+        "Walk through the Mahakal Lok Corridor.",
+        "Offer liquor at Kal Bhairav temple (a unique cultural experience).",
+        "Take a holy dip in the Shipra River.",
+        "Visit the Vedh Shala (Observatory) built by Raja Jai Singh II."
+    ],
+    "highlights": [
+        "The spine-chilling Bhasma Aarti.",
+        "The 900-meter long Mahakal Lok corridor.",
+        "The mystery of the drinking Kal Bhairav.",
+        "The illuminated Harsiddhi temple lamps.",
+        "Tracing the footsteps of Krishna at Sandipani Ashram."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Mahashivratri is the main festival.",
+    "how_to_reach": "By Air: Indore Airport (55km). By Train: Ujjain Junction. By Road: 1 hour from Indore.",
+    "stay_recommendations": "Luxury: Rudraksh Club & Resort. Spiritual: Bhakta Niwas (Temple Trust). Budget: Hotels near the station.",
+    "safety_tips": "Bhasma Aarti booking is competitive; do it online weeks in advance. Beware of unauthorized agents promising entry.",
+    "sample_itinerary": "Day 1: Arrive. Visit Mahakal Lok and evenings Aarti at Harsiddhi Temple. Dinner.\nDay 2: Early morning Bhasma Aarti (4 AM). Visit Kal Bhairav and Sandipani Ashram. Evening Shipra Aarti at Ram Ghat.",
+    "tags": [
+        "Shiva",
+        "Time",
+        "Astronomy",
+        "River",
+        "Mystery"
+    ],
+    "is_bookable": true
+}

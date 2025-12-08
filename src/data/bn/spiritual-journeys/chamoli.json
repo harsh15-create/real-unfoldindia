@@ -1,0 +1,65 @@
+{
+    "id": "chamoli",
+    "slug": "chamoli",
+    "title": "Chamoli: Land of Gods",
+    "hero_image": "chamoli-hero-placeholder.jpg",
+    "gallery_images": [
+        "chamoli-gopeshwar.jpg",
+        "chamoli-tungnath.jpg",
+        "chamoli-nanda-devi.jpg",
+        "chamoli-alakananda.jpg"
+    ],
+    "short_description": "The gateway to Badrinath and home to ancient temples like Gopeshwar.",
+    "long_description": "Chamoli is not just a town but a district in Uttarakhand widely known as the 'Abode of Gods'. It is the heart of the Garhwal Himalayas, housing Badrinath, Hemkund Sahib, and the Valley of Flowers. However, Chamoli town (Gopeshwar) itself is a significant spiritual center.\n\nThe centerpiece is the Gopinath Temple in Gopeshwar, built between the 9th and 11th centuries. It is arguably the only temple where Lord Shiva is worshipped as 'Nirgun' (formless) in a swayambhu lingam, and unique because no milk or water is poured on it—only Bel Patra (leaves). The temple's trishul (trident) is made of eight different metals and dates back to the 12th century; legend says mere mortals cannot move it.\n\nChamoli is also the base for the Panch Kedar trek to Tungnath (the world's highest Shiva temple) and Rudranath. The Alaknanda river slices through the district, creating deep, dramatic gorges.",
+    "spiritual_significance": "Home to the Gopinath Temple (Shiva). It is the headquarters for major pilgrimages. The region is associated with the Chipko Movement (environmental spirituality).",
+    "major_temples_and_sites": [
+        {
+            "name": "Gopinath Temple",
+            "description": "An ancient temple in Gopeshwar dedicated to Shiva. Famous for its 5m tall trident."
+        },
+        {
+            "name": "Tungnath",
+            "description": "World's highest Shiva temple (3,680m), reachable by a scenic 4km trek from Chopta (nearby)."
+        },
+        {
+            "name": "Anusuya Devi Temple",
+            "description": "Dedicated to Goddess Anusuya, synonymous with removing infertility and sorrow."
+        },
+        {
+            "name": "Rudranath",
+            "description": "One of the Panch Kedars, where the face of Shiva is worshipped. Requires a tough trek."
+        },
+        {
+            "name": "Karnaprayag",
+            "description": "Confluence of Alaknanda and Pindar rivers. Associated with Karna from Mahabharata."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Darshan at Gopinath Temple.",
+        "Touch the ancient Trishul (with reverence).",
+        "Trek to Tungnath and Chandrashila peak for 360-degree Himalayan views.",
+        "Visit the confluence at Karnaprayag.",
+        "Meditate in the forests of Chopta (Mini Switzerland)."
+    ],
+    "highlights": [
+        "The architectural beauty of Gopinath Temple.",
+        "The panoramic views from Chopta/Tungnath.",
+        "The pristine Alaknanda river.",
+        "The quiet, non-touristy vibe of Gopeshwar.",
+        "The connection to the Mahabharata."
+    ],
+    "local_guides_available": true,
+    "best_months": "April to June and September to November.",
+    "how_to_reach": "By Air: Dehradun Airport (220km). By Road: on the main Rishikesh-Badrinath highway.",
+    "stay_recommendations": "Luxury: Resorts in Chopta. Spiritual: Temple Guest Houses. Budget: Hotels in Gopeshwar/Chamoli.",
+    "safety_tips": "Roads are winding; carry motion sickness meds. Tungnath trek is steep but short.",
+    "sample_itinerary": "Day 1: Drive to Gopeshwar. Visit Gopinath Temple. Stay.\nDay 2: Drive to Chopta (40km). Trek to Tungnath and Chandrashila. Return to Chopta or Gopeshwar.",
+    "tags": [
+        "Shiva",
+        "Trek",
+        "Mountains",
+        "Nature",
+        "Hidden Gem"
+    ],
+    "is_bookable": true
+}

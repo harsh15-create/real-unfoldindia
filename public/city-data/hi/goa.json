@@ -1,0 +1,192 @@
+{
+    "name": "Goa",
+    "title": "India’s Beach Paradise",
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1000&auto=format&fit=crop",
+    "about": "Goa, India’s most popular beach destination, is known for its golden sands, vibrant nightlife, water sports, seafood, cafés, and relaxed tropical vibe. It is a perfect getaway for families, friends, backpackers, and honeymooners. Goa’s charm lies in its stunning beaches, Portuguese heritage, churches, natural beauty, and laid-back lifestyle.",
+    "bestTime": [
+        {
+            "season": "November to February",
+            "desc": "Peak tourist season, best weather."
+        },
+        {
+            "season": "March to May",
+            "desc": "Hot, good for budget stays."
+        },
+        {
+            "season": "June to September",
+            "desc": "Monsoon, beautiful landscapes but fewer water sports."
+        },
+        {
+            "season": "Festivals",
+            "desc": "Christmas, New Year, Sunburn Festival."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Baga Beach",
+            "image": "https://images.unsplash.com/photo-1596627647228-568374026330?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "1–2 hrs or full day",
+            "desc": "Famous for nightlife, shacks, water sports."
+        },
+        {
+            "name": "Calangute Beach",
+            "image": "https://source.unsplash.com/featured/?Calangute%20Beach,Crowd",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "1–2 hrs",
+            "desc": "Ideal for families & water activities."
+        },
+        {
+            "name": "Aguada Fort",
+            "image": "https://images.unsplash.com/photo-1590491525752-9951c6a3c694?q=80&w=800&auto=format&fit=crop",
+            "timings": "9:30 AM – 6 PM",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "A scenic fort overlooking the Arabian Sea."
+        },
+        {
+            "name": "Palolem Beach",
+            "image": "https://images.unsplash.com/photo-1587922546307-776227941871?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "1–2 hrs",
+            "desc": "Calm, clean, perfect for couples (South Goa)."
+        },
+        {
+            "name": "Basilica of Bom Jesus",
+            "image": "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 6:30 PM",
+            "entry": "Free",
+            "duration": "30–45 mins",
+            "desc": "UNESCO Heritage church known for Portuguese architecture."
+        },
+        {
+            "name": "Dona Paula Viewpoint",
+            "image": "https://images.unsplash.com/photo-1620065960017-7c9367d02598?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Popular scenic spot."
+        },
+        {
+            "name": "Anjuna Beach",
+            "image": "https://images.unsplash.com/photo-1548247661-3d710cffec3d?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "Known for flea markets & sunset cafés."
+        },
+        {
+            "name": "Vagator Beach",
+            "image": "https://images.unsplash.com/photo-1566324813477-1c0260709049?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "Great for sunsets, photography, cafés."
+        },
+        {
+            "name": "Chapora Fort",
+            "image": "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?q=80&w=800&auto=format&fit=crop",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Famous for Dil Chahta Hai viewpoint."
+        },
+        {
+            "name": "Spice Plantation",
+            "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 4 PM",
+            "entry": "₹400–₹800",
+            "duration": "1–2 hrs",
+            "desc": "Guided tour of spice farms with lunch."
+        }
+    ],
+    "hiddenGems": [
+        "Butterfly Beach",
+        "Kakolem Beach",
+        "Tambdi Surla Temple",
+        "Netravali Wildlife Sanctuary",
+        "Divar Island",
+        "Reis Magos Fort"
+    ],
+    "food": [
+        {
+            "area": "Fisherman’s Wharf",
+            "spots": "Goan Seafood"
+        },
+        {
+            "area": "Martin’s Corner",
+            "spots": "Traditional Goan"
+        },
+        {
+            "area": "Infantaria",
+            "spots": "Breakfast & Bakery"
+        },
+        {
+            "area": "Thalassa",
+            "spots": "Greek food with sunset view"
+        },
+        {
+            "area": "Gunpowder",
+            "spots": "Goan + South Indian"
+        }
+    ],
+    "markets": [
+        "Anjuna Flea Market",
+        "Arpora Night Market",
+        "Mapusa Market",
+        "Panjim Market"
+    ],
+    "nightlife": [
+        "Tito’s Lane (Baga)",
+        "Curlies (Anjuna)",
+        "Hilltop (Vagator)",
+        "Casinos (Panaji)"
+    ],
+    "transport": {
+        "metro": "Not available",
+        "cabs": [
+            {
+                "type": "Scooter Rent",
+                "cost": "₹300–₹600/day"
+            },
+            {
+                "type": "Car Rent",
+                "cost": "₹1200–₹2500/day"
+            },
+            {
+                "type": "Taxi",
+                "cost": "Expensive, fixed rates"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800–₹1500/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹2000–₹4000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹5000–₹10000/day"
+        }
+    ],
+    "stay": [
+        "Baga (Nightlife)",
+        "Calangute (Family)",
+        "Palolem (Peaceful)",
+        "Panjim (Central)"
+    ],
+    "safety": [
+        "Wear sunscreen—Goa sun is strong",
+        "Avoid swimming during rough waves",
+        "Keep belongings secure on crowded beaches",
+        "Do not drink & drive (strict checks)",
+        "Follow water sports safety instructions"
+    ]
+}

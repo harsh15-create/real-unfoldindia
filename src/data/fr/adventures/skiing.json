@@ -1,0 +1,189 @@
+{
+    "id": "skiing",
+    "slug": "skiing",
+    "title": "Skiing",
+    "hero_image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1482867996988-29ec3a0f1aac?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563632287-c3db69234b6e?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "Carve your way down snowy Himalayan slopes in world-class ski resorts.",
+    "long_description": "Skiing in India is an underrated gem. While Europe and North America are famous, the Indian Himalayas offer some of the highest ski slopes in the world with deep, fresh powder. Gulmarg in Kashmir is the crown jewel, serviced by the famous Gondola ride that takes you up to 3,980 meters (Phase 2), offering massive off-piste terrain for experts.\n\nFor beginners, Auli (Uttarakhand) and Solang Valley (Manali) provide gentler, groomed slopes with ski schools. The season is short but intense, turning these mountain meadows into white wonderlands. Whether it's learning the 'pizza' (snowplough) technique or shredding backcountry powder, skiing here is an adventure combined with Himalayan hospitality.",
+    "locations": [
+        {
+            "location": "Gulmarg",
+            "state": "Kashmir",
+            "best_months": "January–March",
+            "price_from": 3000,
+            "summary": "India's premier ski resort with the world's highest gondola and deep powder.",
+            "difficulty": "Intermediate–Expert"
+        },
+        {
+            "location": "Auli",
+            "state": "Uttarakhand",
+            "best_months": "January–March",
+            "price_from": 2000,
+            "summary": "Best groomed slopes for beginners and hosting national championships.",
+            "difficulty": "Beginner–Intermediate"
+        },
+        {
+            "location": "Solang Valley",
+            "state": "Himachal Pradesh",
+            "best_months": "January–February",
+            "price_from": 1000,
+            "summary": "Accessible skiing for day-tourists near Manali.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Sethan",
+            "state": "Himachal Pradesh",
+            "best_months": "January–March",
+            "price_from": 2500,
+            "summary": "Backcountry snowboarding and skiing hub away from crowds.",
+            "difficulty": "Intermediate"
+        },
+        {
+            "location": "Pahalgam",
+            "state": "Kashmir",
+            "best_months": "January–March",
+            "price_from": 1500,
+            "summary": "Scenic, quieter slopes at Aru Valley.",
+            "difficulty": "Beginner"
+        }
+    ],
+    "entry_fees": [
+        {
+            "category": "Gulmarg Gondola (Phase 1)",
+            "price": 740,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Prices subject to annual revision.",
+            "source_url": "https://jammukashmircablecar.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "category": "Gulmarg Gondola (Phase 2)",
+            "price": 950,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Required for expert slopes.",
+            "source_url": "https://jammukashmircablecar.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Ski Equipment Rental (Day)",
+            "price_from": 800,
+            "price_to": 1500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://gulmargriders.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Instructor (Day)",
+            "price_from": 2000,
+            "price_to": 3000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://gulmargriders.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Beginner Course (7 Days)",
+            "price_from": 15000,
+            "price_to": 25000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://iismgulmarg.in",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "09:00",
+            "close_time": "16:00",
+            "time_notes": "Lifts close by 4 PM. Skiing stops before sunset.",
+            "source_url": "https://jammukashmircablecar.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "operating_season": {
+        "best_months": "January to March",
+        "peak_months": "January–February",
+        "off_season": "April–December (No snow)",
+        "season_notes": "Snowfall dependent. Check weather before booking.",
+        "last_checked": "2024-04-12"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "medium",
+        "disclaimer": "Gondola tickets must be booked online weeks in advance.",
+        "data_provider": "JK Cable Car Corp",
+        "last_updated": "2024-04-12"
+    },
+    "difficulty_level": "Intermediate",
+    "safety_guidelines": [
+        "Wear a helmet (hidden rocks exist).",
+        "Do not go off-piste (outside marked areas) without a local guide (avalanche risk).",
+        "Use sunscreen and sunglasses (snow blindness is real).",
+        "Stay hydrated (high altitude).",
+        "Check daily avalanche bulletin in Gulmarg."
+    ],
+    "equipment_checklist": [
+        "Waterproof Ski Jacket & Trousers",
+        "Thermals (base layer)",
+        "Ski Gloves (crucial)",
+        "Goggles/Sunglasses",
+        "Sunscreen"
+    ],
+    "major_experiences": [
+        "Riding the Gondola to 14,000 feet",
+        "Learning to slide without falling (day 1)",
+        "Carving S-turns down a freshly groomed slope",
+        "Drinking Kahwa (Kashmiri tea) in a snow-covered hut",
+        "The silence of snowfall"
+    ],
+    "sample_itinerary": {
+        "one_day": "Gulmarg: 9 AM Rent gear. 9:30 AM Head to Baby Slope. 10 AM-1 PM Lesson with instructor. 1 PM Lunch. 2 PM Practice session. 4 PM Return gear."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "Government Ski Institutes (IISM)",
+            "Private shops in Gulmarg/Auli",
+            "Hotel packages"
+        ],
+        "booking_url": "https://jammukashmircablecar.com",
+        "suggested_stay": "Gulmarg: Khyber Himalayan Resort (Luxury) or Hotel Highlands Park.",
+        "how_to_reach": "Fly to Srinagar (for Gulmarg) or Jolly Grant (so for Auli)."
+    },
+    "seo": {
+        "seo_title": "Skiing in India: Gulmarg & Auli | Cost, Season & Packages 2024",
+        "seo_description": "Plan your ski trip to Gulmarg or Auli. Skiing course prices, best time to visit (Jan-Mar), and rental costs. The ultimate Indian winter guide.",
+        "tags": [
+            "Skiing Gulmarg",
+            "Auli Ski Resort",
+            "Snowboarding India",
+            "Winter Adventure",
+            "Gulmarg Gondola Ticket"
+        ]
+    },
+    "highlights": [
+        "Gulmarg offers some of the cheapest heli-skiing and lift tickets in the world.",
+        "Auli has a 4km long cable car and views of Nanda Devi.",
+        "Instructors are locals with generations of snow experience.",
+        "Opportunity to spot snow leopards (rare) in Hemis.",
+        "Pure powder snow comparable to the Alps or Rockies."
+    ]
+}

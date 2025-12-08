@@ -1,0 +1,65 @@
+{
+    "id": "kanchipuram",
+    "slug": "kanchipuram",
+    "title": "Kanchipuram: City of Thousand Temples",
+    "hero_image": "kanchipuram-hero-placeholder.jpg",
+    "gallery_images": [
+        "kanchipuram-ekambareswarar.jpg",
+        "kanchipuram-kailasanathar.jpg",
+        "kanchipuram-saris.jpg",
+        "kanchipuram-varadaraja.jpg"
+    ],
+    "short_description": "Explore the majestic Dravidian architecture and sacred shakti peethas of this historic town.",
+    "long_description": "Kanchipuram is a stunning synthesis of silk and stone. One of the Seven Sacred Cities (Sapta Puri), it was once the capital of the Pallava dynasty. Known as the 'City of Thousand Temples', it is a living museum of South Indian architecture. The city is essentially divided into Shiva Kanchi and Vishnu Kanchi, housing grand temples dedicated to both deities.\n\nWalking through Kanchipuram is like walking through pages of history. The Kailasanathar Temple, built in the 7th century, is a masterpiece of early Dravidian style with intricate sandstone carvings. The Ekambareswarar Temple represents the 'Earth' element (Prithvi Lingam) among the five elemental Shiva temples (Pancha Bhoota Stalam) and features a mango tree believed to be 3,500 years old. \n\nBeyond spirituality, the city is world-renowned for its handwoven Kanchipuram Silk Sarees, woven from pure mulberry silk and gold zari. The rhythmic clacking of handlooms can be heard in the bylanes, weaving stories of mythology into fabric.",
+    "spiritual_significance": "A Mokshapuri (city of salvation). It houses the Prithvi (Earth) Lingam. It is a vital pilgrimage for both Shaivites (worshippers of Shiva) and Vaishnavites (worshippers of Vishnu), as well as Shaktism (Kamakshi Amman Temple).",
+    "major_temples_and_sites": [
+        {
+            "name": "Kamakshi Amman Temple",
+            "description": "A major Shakti Peeth dedicated to Goddess Kamakshi. The golden tower is stunning, and it is the center of the city's spiritual life."
+        },
+        {
+            "name": "Ekambareswarar Temple",
+            "description": "The largest temple in the city, representing Earth. Its massive gopuram stands 59 meters tall."
+        },
+        {
+            "name": "Varadaraja Perumal Temple",
+            "description": "The most significant Vishnu temple in Kanchi, known for its 100-pillared hall and the gold and silver lizard carvings."
+        },
+        {
+            "name": "Kailasanathar Temple",
+            "description": "The oldest temple in the city, built by the Pallavas. It is known more for its architectural brilliance and sandstone carvings."
+        },
+        {
+            "name": "Vaikunta Perumal Temple",
+            "description": "Famous for its unique architecture and lion pillars, depicting the history of the Pallava dynasty."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Darshan at the three main shrines: Kamakshi, Ekambareswarar, and Varadaraja.",
+        "Touch the sacred mango tree at Ekambareswarar Temple.",
+        "Touch the Golden Lizard at Varadaraja temple for good luck.",
+        "Visit a silk weaving unit to see the making of traditional sarees.",
+        "Attend the chariot festival if visiting in relevant month."
+    ],
+    "highlights": [
+        "The massive Gopurams dominating the skyline.",
+        "The 3,500-year-old mango tree.",
+        "Intricate stone carvings at Kailasanathar.",
+        "Shopping for authentic Kanchipuram silk.",
+        "The famous 'Kanchipuram Idli' (a cylindrical spiced idli)."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Summers are extremely hot.",
+    "how_to_reach": "By Air: Chennai Airport (75km). By Train: Kanchipuram Station. By Road: A short 2-hour drive from Chennai.",
+    "stay_recommendations": "Luxury: Regency Kanchipuram by GRT Hotels. Spiritual:  Sringeri Mutt guest house. Budget: Several clean hotels near the bus stand.",
+    "safety_tips": "Silk shopping requires guidance; buy from cooperative societies or government-approved shops to ensure authenticity.",
+    "sample_itinerary": "Day 1: Arrive from Chennai. Visit Kailasanathar and Kamakshi Amman temples. Lunch (South Indian Thali). Visit Ekambareswarar. Visit a silk loom.\nDay 2: Early morning at Varadaraja Perumal Temple. Visit Vaikunta Perumal. Depart for Mahabalipuram or Chennai.",
+    "tags": [
+        "Templates",
+        "Architecture",
+        "Silk",
+        "History",
+        "Goddess"
+    ],
+    "is_bookable": true
+}

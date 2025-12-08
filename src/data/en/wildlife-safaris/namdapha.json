@@ -1,0 +1,124 @@
+{
+    "id": "namdapha",
+    "slug": "namdapha",
+    "title": "Namdapha National Park",
+    "hero_image": "https://images.unsplash.com/photo-1579492160350-c8f6e2b?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1504194091000-09880f08d0e7?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1626082498514-64b18f08535a?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1550974495-2630250d1808?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "India's third-largest national park, a biodiversity hotspot in Arunachal Pradesh hosting four big cat species.",
+    "long_description": "Namdapha National Park is the largest protected area in the Eastern Himalaya biodiversity hotspot and is located in Changlang district of Arunachal Pradesh. It is India's third largest national park. The park is a botanical and zoological treasure trove, with an altitude varying from 200 m to 4500 m. It is notoriously famous for being the only park in the world to harbour four feline species of big cats: Tiger, Leopard, Snow Leopard and Clouded Leopard. Its remote location and dense canopy keep much of it unexplored and pristine.",
+    "wildlife_significance": "Only park with Tiger, Leopard, Snow Leopard, and Clouded Leopard. Extremely high endemism.",
+    "species_to_see": [
+        "Clouded Leopard",
+        "Snow Leopard",
+        "Tiger",
+        "Common Leopard",
+        "Hoolock Gibbon",
+        "Red Panda",
+        "Malayan Sun Bear"
+    ],
+    "habitat_types": [
+        "Tropical Rainforest",
+        "Temperate Forest",
+        "Alpine Meadows",
+        "Bamboo Forests"
+    ],
+    "safari_types": [
+        "Trekking",
+        "Elephant Safari (limited)"
+    ],
+    "major_experiences": [
+        "Trek to Deban and beyond",
+        "Camping inside the rainforest",
+        "Bird watching for hornbills",
+        "Visit Lisu tribal villages"
+    ],
+    "guides_and_tips": "Requires an Inner Line Permit (ILP) for Arunachal Pradesh + Park Permit. Prepare for no connectivity and basic stays.",
+    "how_to_reach": "By Air: Dibrugarh (160 km). By Rail: Tinsukia (140 km). Then by road to Miao (entry point).",
+    "accommodation_recommendations": [
+        "Deban Forest Rest House",
+        "Namdapha Jungle Camp (Miao)",
+        "Eco-Tourist Forest Guest House"
+    ],
+    "permits_and_fees": "Obtain ILP online. Park permit at Miao Field Director office.",
+    "conservation_notes": "Challenges include poaching and critical habitat preservation for the Hoolock Gibbon.",
+    "highlights": [
+        "Four Big Cats",
+        "Miao Museum",
+        "Noa-Dihing River",
+        "Dense Rainforest Canopy",
+        "Rare Orchids"
+    ],
+    "sample_itinerary": "Day 1: Arrive Dibrugarh, drive to Miao. Obtain permits. Day 2: Drive to Deban. Cross river. Trek to Hornbill Camp. Day 3: Birding trek to Bulbulia. Day 4: Return trek to Deban. Day 5: Departure.",
+    "safety_tips": "Leeches are abundant. Rain is unpredictable. Hire a local guide for safety.",
+    "tags": [
+        "Rainforest",
+        "Clouded Leopard",
+        "Arunachal",
+        "Remote",
+        "Biodiversity Hotspot"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 50,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Per person entry.",
+            "source_url": "https://namdaphatigerreserve.org/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Camera (Still)",
+            "price": 100,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Per camera.",
+            "source_url": "https://namdaphatigerreserve.org/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Guide Fee (Per Day)",
+            "price_from": 1000,
+            "price_to": 1500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://namdaphatigerreserve.org/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "06:00",
+        "close_time": "16:00",
+        "time_notes": "Entry restricts before sunset.",
+        "source_url": "https://namdaphatigerreserve.org/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "October to March",
+        "peak_months": "December to February",
+        "off_season": "May to September (Heavy Rain)",
+        "season_notes": "Accessible only in dry months due to river crossings.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://namdaphatigerreserve.org/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Remote location; prices for porters/transport vary.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "id": "badrinath",
+    "slug": "badrinath",
+    "title": "Badrinath: Abode of Narayan",
+    "hero_image": "badrinath-hero-placeholder.jpg",
+    "gallery_images": [
+        "badrinath-temple-colorful.jpg",
+        "badrinath-mana-village.jpg",
+        "badrinath-tapt-kund.jpg",
+        "badrinath-neelkanth-peak.jpg"
+    ],
+    "short_description": "One of the most visited Char Dham sites, nestled between Nar and Narayana mountain ranges.",
+    "long_description": "Badrinath is the most significant of the Char Dhams, located between the Nar and Narayana mountain ranges with the Neelkanth peak towering behind it. It is dedicated to Lord Vishnu, who is believed to have meditated here in the form of a berry (Badri) tree while Goddess Laxmi sheltered him from the elements.\n\nThe colorful facade of the temple, with its Singh Dwar (Lion Gate), is iconic. Unlike the other Himalayan shrines which involve treks, Badrinath is accessible by road, making it very popular. The idol of Lord Badri Narayan is made of black Saligram stone and is believed to be self-manifested. \n\nJust 3km away lies Mana Village, the 'Last Indian Village' before the Tibet border. Here, mythology comes alive—you can see the Vyas Gufa where Veda Vyasa dictated the Mahabharata to Ganesha, and the Bhim Pul, a rock bridge believed to be placed by Bhima over the Saraswati river.",
+    "spiritual_significance": "A major Char Dham (both Chota and Bada). It is one of the 108 Divya Desams. Adi Shankaracharya established the temple. It is the place where Nara and Narayana (divine sages) perform penance.",
+    "major_temples_and_sites": [
+        {
+            "name": "Badrinath Temple",
+            "description": "The colorful main shrine on the banks of Alaknanda. It houses the Shaligram idol of Vishnu."
+        },
+        {
+            "name": "Tapt Kund",
+            "description": "Natural thermal springs below the temple. Pilgrims bathe here before entering the freezing temple."
+        },
+        {
+            "name": "Mana Village",
+            "description": "The last village of India. Full of mythological sites like Vyas Gufa and Ganesh Gufa."
+        },
+        {
+            "name": "Bhim Pul",
+            "description": "A massive rock bridge over the roaring Saraswati river."
+        },
+        {
+            "name": "Vasudhara Falls",
+            "description": "A stunning waterfall 5km trek from Mana. It is believed the water turns away from sinners."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Bath in Tapt Kund.",
+        "Darshan of Badri Vishal.",
+        "Perform Pind Daan at Brahma Kapal (ghat on Alaknanda).",
+        "Visit Mana Village and drink tea at the 'Last Tea Shop of India'.",
+        "See the confluence of Alaknanda and Saraswati at Keshav Prayag."
+    ],
+    "highlights": [
+        "The temple's vibrant colors against the snowy backdrop.",
+        "The cultural experience of Mana Village.",
+        "The hot springs experience.",
+        "The sight of the Saraswati river disappearing underground.",
+        "The majestic Neelkanth Peak views."
+    ],
+    "local_guides_available": true,
+    "best_months": "May to June and September to October. Temple closes in winter (Nov-Apr).",
+    "how_to_reach": "By Air: Dehradun Airport. By Road: Accessible by car/bus from Haridwar/Rishikesh (long 10-12 hour drive).",
+    "stay_recommendations": "Luxury: Sarovar Portico Badrinath. Spiritual: Parmarth Lok. Budget: Numerous Ashrams and guest houses.",
+    "safety_tips": "Roads are prone to landslides; travel during daylight. It gets very cold at night even in summer; carry heavy woolens.",
+    "sample_itinerary": "Day 1: Drive from Joshimath to Badrinath. Check in. Bath in Tapt Kund. Evening Darshan.\nDay 2: Perform morning rituals (if any). Visit Mana Village (Vyas Gufa, Bhim Pul). Depart for Joshimath/Rudraprayag.",
+    "tags": [
+        "Vishnu",
+        "Himalayas",
+        "Char Dham",
+        "Mythology",
+        "River"
+    ],
+    "is_bookable": true
+}

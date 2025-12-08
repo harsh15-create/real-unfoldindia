@@ -1,0 +1,171 @@
+{
+    "id": "scuba-diving",
+    "slug": "scuba-diving",
+    "title": "Scuba Diving",
+    "hero_image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "Discover vibrant coral reefs and marine life in India's clearest waters.",
+    "long_description": "Scuba diving opens up the remaining 70% of the planet—the underwater world. In India, the Andaman & Nicobar Islands and Lakshadweep offer world-class diving comparable to the Maldives or Thailand. Crystal clear blue waters, vibrant coral gardens, and teeming marine life including turtles, manta rays, and reef sharks await.\n\nFor beginners, the 'Discover Scuba Dive' (DSD) is the most popular option. It requires no swimming skills; a dedicated instructor holds you and manages your equipment while you breathe underwater and marvel at the sights. For those looking to get certified, PADI/SSI Open Water courses are widely available.\n\nMainland India also has diving spots—Goa (Grand Island) and Netrani Island (Karnataka) are popular, though visibility is generally lower than the islands. Pondicherry has created unique artificial reefs, making it a great spot for training.",
+    "locations": [
+        {
+            "location": "Havelock Island",
+            "state": "Andaman & Nicobar",
+            "best_months": "October–May",
+            "price_from": 4500,
+            "summary": "India's premier dive destination with sites like 'The Wall' and 'Dixon's Pinnacle'.",
+            "difficulty": "Beginner–Advanced"
+        },
+        {
+            "location": "Lakshadweep",
+            "state": "Lakshadweep",
+            "best_months": "October–May",
+            "price_from": 5000,
+            "summary": "Pristine, untouched coral atolls with incredible visibility.",
+            "difficulty": "Beginner–Advanced"
+        },
+        {
+            "location": "Netrani Island",
+            "state": "Karnataka",
+            "best_months": "October–May",
+            "price_from": 4000,
+            "summary": "Heart-shaped island known as the 'Heart of India's Diving', famous for fish life.",
+            "difficulty": "Beginner–Intermediate"
+        },
+        {
+            "location": "Pondicherry",
+            "state": "Tamil Nadu",
+            "best_months": "January–June",
+            "price_from": 3500,
+            "summary": "Home to 'Temple Reef', an artificial reef teeming with life.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Grand Island",
+            "state": "Goa",
+            "best_months": "October–April",
+            "price_from": 3000,
+            "summary": "Accessible diving trips for tourists in Goa, includes boat ride and lunch.",
+            "difficulty": "Beginner"
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [
+        {
+            "type": "Discover Scuba Dive (Non-Swimmers)",
+            "price_from": 3500,
+            "price_to": 6000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://www.diveindia.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "PADI Open Water Course (4 Days)",
+            "price_from": 24000,
+            "price_to": 30000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://www.barefootscuba.in",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Fun Dive (Certified Divers)",
+            "price_from": 2500,
+            "price_to": 4000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://templeadventures.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "07:00",
+            "close_time": "14:00",
+            "time_notes": "Boats usually leave early morning (7:30 AM) to catch calm seas.",
+            "source_url": "https://www.diveindia.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "operating_season": {
+        "best_months": "October to May",
+        "peak_months": "December–January",
+        "off_season": "Monsoon (June–Sept) - visibility helps & seas are rough.",
+        "season_notes": "Pondicherry offers some diving in monsoon depending on weather.",
+        "last_checked": "2024-04-12"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "high",
+        "disclaimer": "Andaman/Lakshadweep prices are higher due to location logistics.",
+        "data_provider": "PADI Dive Centers",
+        "last_updated": "2024-04-12"
+    },
+    "difficulty_level": "Beginner",
+    "safety_guidelines": [
+        "Do not fly for 18-24 hours after your last dive (very important).",
+        "Fill out medical questionnaire honestly (asthma/heart issues usually disqualify).",
+        "Listen to equalizing instructions to prevent ear pain.",
+        "Never hold your breath underwater.",
+        "Touch nothing—corals are fragile living animals."
+    ],
+    "equipment_checklist": [
+        "Swimwear (to wear under wetsuit)",
+        "Towel",
+        "Reef-safe sunscreen (regular sunscreen kills coral)",
+        "USB drive (to collect your photos/videos)",
+        "Seasickness pills (if prone to boat sickness)"
+    ],
+    "major_experiences": [
+        "Breathing underwater for the first time",
+        "Feeling weightless (neutral buoyancy)",
+        "Swimming alongside turtles and schools of fish",
+        "Seeing 'Nemo' (Clownfish) in anemones",
+        "Boat ride to the dive site"
+    ],
+    "sample_itinerary": {
+        "one_day": "7:30 AM: Reporting at Dive Shop. 8:00 AM: Boat departure. 8:30 AM: Briefing & shallow water training. 9:30 AM: 25-40 min dive. 11:00 AM: Snack break. 12:30 PM: Return to shore."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "Online at PADI certified dive center websites",
+            "Walk-ins on Havelock/Neil Island",
+            "Resort travel desks"
+        ],
+        "booking_url": "https://www.diveindia.com",
+        "suggested_stay": "Barefoot at Havelock, Seashell at Neil Island.",
+        "how_to_reach": "Fly to Port Blair, then ferry to islands. Fly to Goa/Mangalore for mainland diving."
+    },
+    "seo": {
+        "seo_title": "Scuba Diving in India: Andaman, Goa, Pondicherry | 2024 Cost & Guide",
+        "seo_description": "Explore the underwater world of India. Best scuba diving in Havelock, Netrani, and Goa. PADI courses and intro dives from ₹3,000.",
+        "tags": [
+            "Scuba Diving Andaman",
+            "PADI Certification India",
+            "Goa Scuba Diving",
+            "Netrani Island Diving",
+            "Underwater Adventure"
+        ]
+    },
+    "highlights": [
+        "Andaman offers the best visibility (20m+) and coral life in India.",
+        "No swimming skills required for 'Discover Scuba' introductory dives.",
+        "Opportunity to see turtles, octopuses, rays, and sharks.",
+        "Professional PADI/SSI instructors ensure 100% safety.",
+        "Underwater photography usually included or available as add-on.",
+        "Life-changing experience of entering an alien world."
+    ]
+}

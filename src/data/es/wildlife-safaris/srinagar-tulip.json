@@ -1,0 +1,106 @@
+{
+    "id": "srinagar-tulip",
+    "slug": "srinagar-tulip",
+    "title": "Indira Gandhi Memorial Tulip Garden",
+    "hero_image": "https://images.unsplash.com/photo-1548074697-3f92de23a230?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1579492160350-c8f6e2b?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1504194091000-09880f08d0e7?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1550974495-2630250d1808?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Asia's largest tulip garden, nestled in the foothills of the Zabarwan Range overlooking Dal Lake.",
+    "long_description": "Indira Gandhi Memorial Tulip Garden, previously Model Floriculture Center, is a tulip garden in Srinagar, Jammu and Kashmir, India. It is the largest tulip garden in Asia spread over an area of about 30 ha (74 acres). It is situated on the foothills of Zabarwan Range with an overview of Dal Lake. The garden was opened in 2007 with the aim of boosting floriculture and tourism in the Kashmir Valley. It is shaped like seven terraces and hosts about 1.5 million tulip bulbs of 68 varieties.",
+    "wildlife_significance": "Floriculture marvel with over 1.5 million tulips.",
+    "species_to_see": [
+        "Tulips (Standard, Double, Parrot, Fringed)",
+        "Hyacinths",
+        "Daffodils",
+        "Ranunculus"
+    ],
+    "habitat_types": [
+        "Terraced Garden"
+    ],
+    "safari_types": [
+        "Walking"
+    ],
+    "major_experiences": [
+        "Tulip Festival (Annual)",
+        "Photography against Zabarwan mountains",
+        "View of Dal Lake",
+        "Cultural programs"
+    ],
+    "guides_and_tips": "Open only for about 20-30 days a year (late March to mid-April). Timing your visit is crucial.",
+    "how_to_reach": "By Air: Srinagar (18 km). By Road: Accessible by taxi/auto from city center.",
+    "accommodation_recommendations": [
+        "Lalit Grand Palace",
+        "Vivanta Dal View",
+        "Houseboats on Dal Lake"
+    ],
+    "permits_and_fees": "Tickets available online or at gate.",
+    "conservation_notes": "Do not pluck flowers. Fines are heavy.",
+    "highlights": [
+        "1.5 Million Tulips",
+        "Zabarwan Range Backdrop",
+        "Tulip Festival",
+        "Spring in Kashmir"
+    ],
+    "sample_itinerary": "Day 1: Arrive Srinagar. Shikara ride. Day 2: Morning Tulip Garden. Afternoon Mughal Gardens (Nishat/Shalimar). Day 3: Day trip to Gulmarg.",
+    "safety_tips": "Crowded during festival. Security checks are thorough.",
+    "tags": [
+        "Tulip",
+        "Kashmir",
+        "Spring",
+        "Festival"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult",
+            "price": 50,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Entry fee.",
+            "source_url": "https://jktourism.jk.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "General Entry",
+            "price_from": 50,
+            "price_to": 60,
+            "currency": "INR",
+            "price_type": "exact",
+            "booking_method": "onsite",
+            "source_url": "https://jktourism.jk.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily (During Season)",
+        "open_time": "08:00",
+        "close_time": "19:00",
+        "time_notes": "Only open in Spring.",
+        "source_url": "https://jktourism.jk.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "Late March to Mid April",
+        "peak_months": "April (1st-2nd week)",
+        "off_season": "Closed rest of the year",
+        "season_notes": "Dates depend on weather warm-up.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": false,
+        "permits_info_url": "https://jktourism.jk.gov.in/",
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Opening dates announced 1-2 weeks prior.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

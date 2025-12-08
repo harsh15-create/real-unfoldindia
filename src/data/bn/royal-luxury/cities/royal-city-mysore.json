@@ -1,0 +1,53 @@
+{
+    "id": "mysore",
+    "slug": "mysore",
+    "title": "Mysore",
+    "hero_image": "https://images.unsplash.com/photo-1600607689980-4573b5c73d9e?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Witness the splendor of the Wodeyar dynasty in this heritage-rich southern city.",
+    "long_description": "Mysore (city of palaces) breathes history. The Wodeyars were patrons of art and culture, and their legacy is visible in the magnificent Mysore Palace, the Jaganmohan Palace, and the sprawling Brindavan Gardens. \n\nWhile the main Mysore Palace is a museum, the royal experience extends to the summer palaces and hunting lodges converted into hotels. Staying at the Royal Orchid Brindavan Garden, overlooking the famous K.R.S. Dam, takes you back to the days when the Maharajas would retreat here for leisure. The grand colonial architecture and the meticulously manicured gardens offer a tranquil counterpoint to the city's bustle.",
+    "properties": [
+        {
+            "id": "royal-orchid-brindavan",
+            "slug": "royal-orchid-brindavan",
+            "title": "Royal Orchid Brindavan Garden",
+            "card_subtitle": "Garden Palace",
+            "thumbnail_image": "https://images.unsplash.com/photo-1600607689980-4573b5c73d9e?q=80&w=800&auto=format&fit=crop",
+            "short_description": "A heritage hotel located within the famous Brindavan Gardens, offering spectacular views.",
+            "source_reference": [
+                {
+                    "url": "https://www.royalorchidhotels.com/royal-orchid-brindavan-garden-palace-spa-mysore/overview",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        }
+    ],
+    "how_to_reach": "Mysore is 3 hours from Bangalore (BLR) Airport. Well connected by train (Vande Bharat).",
+    "best_months": [
+        "September",
+        "October",
+        "November",
+        "December",
+        "January",
+        "February"
+    ],
+    "tags": [
+        "Gardens",
+        "Wodeyar",
+        "South India",
+        "Palace"
+    ],
+    "seo_title": "Mysore Heritage Hotels | Royal Orchid Brindavan",
+    "seo_description": "Stay at Royal Orchid Brindavan Garden Palace. The only hotel inside the famous Brindavan Gardens, Mysore.",
+    "source_reference": [
+        {
+            "url": "https://karnatakatourism.org/tour-item/mysore/",
+            "type": "tourism_board",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

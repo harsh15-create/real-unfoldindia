@@ -19,6 +19,7 @@ import CityPage from "./pages/CityPage";
 import EntryGuide from "./pages/EntryGuide";
 import SafetyGuide from "./pages/SafetyGuide";
 import AboutPage from "./pages/AboutPage";
+import IndianCulture from "./pages/IndianCulture";
 import Settings from "./pages/Settings";
 import SpiritualJourneys from "./pages/SpiritualJourneys";
 import SpiritualCity from "./pages/SpiritualCity";
@@ -81,6 +82,7 @@ const App = () => (
             <Route path="/experiences/adventures" element={<AdventuresPage />} />
             <Route path="/experiences/adventures/:slug" element={<AdventureDetail />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/indian-culture" element={<IndianCulture />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

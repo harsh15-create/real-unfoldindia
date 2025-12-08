@@ -1,0 +1,66 @@
+{
+    "id": "sarnath",
+    "slug": "sarnath",
+    "title": "Sarnath: The First Sermon",
+    "hero_image": "sarnath-hero-placeholder.jpg",
+    "gallery_images": [
+        "sarnath-dhamek-stupa.jpg",
+        "sarnath-mulagandha-kuti.jpg",
+        "sarnath-ashoka-pillar.jpg",
+        "sarnath-deer-park.jpg"
+    ],
+    "short_description": "The site where Lord Buddha delivered his first sermon after enlightenment.",
+    "long_description": "Just 10km from the chaos of Varanasi lies Sarnath, an oasis of calm and the birthplace of Buddhism as a Sangha (community). After attaining enlightenment in Bodh Gaya, the Buddha came here to the Deer Park (Isipatana) to deliver his first sermon, 'The Turning of the Wheel of Dharma', to his five former companions.\n\nSarnath is dominated by the massive Dhamek Stupa, a solid cylinder of brick and stone standing 43.6 meters high, marking the spot of the sermon. The ruins of ancient monasteries, the Ashoka Pillar (whose lion capital is India's national emblem), and the Mulagandha Kuti Vihara create an archaeological park that feels suspended in time. It is a place to sit on the green lawns, watch the deer, and contemplate the teachings of compassion and mindfulness.",
+    "spiritual_significance": "One of the four main Buddhist pilgrimage sites. It marks the 'Dharmachakra Pravartana' (Turning of the Wheel of Law). The foundation of the Buddhist Sangha happened here.",
+    "major_temples_and_sites": [
+        {
+            "name": "Dhamek Stupa",
+            "description": "The massive 5th-century stupa marking the spot of the first sermon. It has intricate floral carvings."
+        },
+        {
+            "name": "Mulagandha Kuti Vihara",
+            "description": "A modern temple built by the Mahabodhi Society, featuring beautiful frescoes by a Japanese artist depicting Buddha's life."
+        },
+        {
+            "name": "Ashoka Pillar",
+            "description": "The remains of the pillar erected by Emperor Ashoka. The famous Lion Capital is now in the museum.",
+            "link": null
+        },
+        {
+            "name": "Sarnath Archaeological Museum",
+            "description": "Houses the original Lion Capital of Ashoka and exquisite Buddha statues from the Gupta period."
+        },
+        {
+            "name": "Chaukhandi Stupa",
+            "description": "Marks the spot where Buddha first met his five disciples upon arriving in Sarnath."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Circumambulate the Dhamek Stupa.",
+        "Meditate in the ruins of the monasteries.",
+        "Visit the Deer Park.",
+        "Attend the evening chanting at Mulagandha Kuti Vihara.",
+        "See the National Emblem at the Museum."
+    ],
+    "highlights": [
+        "The sheer size of Dhamek Stupa.",
+        "The beautiful Japanese frescoes.",
+        "The peaceful, landscaped gardens.",
+        "The historical significance of the Ashoka Pillar.",
+        "Proximity to Varanasi (easy day trip)."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Buddha Purnima is significant.",
+    "how_to_reach": "By Air/Train: Same as Varanasi (10km away). By Road: 30 min auto/taxi ride from Varanasi.",
+    "stay_recommendations": "Luxury: Hotels in Varanasi. Spiritual: Mahabodhi Society Guest House in Sarnath. Budget: UP Tourism Motel.",
+    "safety_tips": "It is a paid monument area; keep tickets safe. It closes by sunset. Very safe and quiet compared to Varanasi.",
+    "sample_itinerary": "Day 1: (From Varanasi) Morning drive to Sarnath. Visit Museum. Visit Dhamek Stupa and Ruins. Visit Mulagandha Kuti Vihara. Lunch. Return to Varanasi.",
+    "tags": [
+        "Buddhism",
+        "History",
+        "Peace",
+        "Architecture",
+        "Museum"
+    ],
+    "is_bookable": true
+}

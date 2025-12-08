@@ -1,0 +1,122 @@
+{
+    "id": "eravikulam",
+    "slug": "eravikulam",
+    "title": "Eravikulam National Park",
+    "hero_image": "https://images.unsplash.com/photo-1621835974443-6c708173426a?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1596328731174-8461a34658cc?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1610960844781-30d8c07e0c4a?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A high-altitude national park in Munnar, Kerala, home to the endangered Nilgiri Tahr and Anamudi peak.",
+    "long_description": "Eravikulam National Park is a 97 km2 national park located along the Western Ghats in the Idukki district of Kerala in India. Situated a short drive from Munnar, it is the first national park in Kerala. The park represents the largest and most pristine stretch of Shola-Grassland ecosystem in the Western Ghats. It is administered by the Kerala Department of Forests and Wildlife, Munnar Wildlife Division. The main attraction is the Nilgiri Tahr, an endangered mountain goat. Anamudi, the highest peak in South India (2,695 m), is located within this park.",
+    "wildlife_significance": "Holds the largest viable population of the endangered Nilgiri Tahr.",
+    "species_to_see": [
+        "Nilgiri Tahr",
+        "Nilgiri Langur",
+        "Stripe-necked Mongoose",
+        "Sambar Deer",
+        "Golden Jackal"
+    ],
+    "habitat_types": [
+        "Shola Forests",
+        "Rolling Grasslands",
+        "High Altitude Montane Ecosystem"
+    ],
+    "safari_types": [
+        "Bus Safari (Park Bus only)",
+        "Walking (Last stretch)"
+    ],
+    "major_experiences": [
+        "Spotting Nilgiri Tahr at Rajamalai",
+        "View of Anamudi Peak",
+        "Kurinjimala Sanctuary views",
+        "Neelakurinji blooms (every 12 years)"
+    ],
+    "guides_and_tips": "Private vehicles are parked at the entrance. Forest department buses take visitors up the hill. Book online to avoid long queues.",
+    "how_to_reach": "By Air: Kochi (135 km). By Rail: Aluva (120 km). By Road: 15 km from Munnar town.",
+    "accommodation_recommendations": [
+        "Tea Harvester",
+        "Elixir Hills",
+        "Blanket Hotel & Spa",
+        "Chandys Windy Woods"
+    ],
+    "permits_and_fees": "Online booking is highly recommended especially during peak season.",
+    "conservation_notes": "Breeding season closer (calving) usually in Feb-March.",
+    "highlights": [
+        "Nilgiri Tahr",
+        "Anamudi Peak",
+        "Shola Grasslands",
+        "Scenic Bus Ride",
+        "Munnar Tea Gardens nearby"
+    ],
+    "sample_itinerary": "Day 1: Arrive Munnar. Day 2: Morning visit to Eravikulam. Bus ride to Rajamalai. Walk to viewpoint. Afternoon visit Tea Museum. Day 3: Mattupetty Dam. Departure.",
+    "safety_tips": "Mists can roll in quickly; carry a jacket.",
+    "tags": [
+        "Nilgiri Tahr",
+        "Munnar",
+        "Kerala",
+        "Mountains",
+        "Hiking"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 200,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Includes bus ride.",
+            "source_url": "https://eravikulam.org/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Adult (Foreigner)",
+            "price": 500,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Includes bus ride.",
+            "source_url": "https://eravikulam.org/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Reservation Fee",
+            "price_from": 50,
+            "price_to": 50,
+            "currency": "INR",
+            "price_type": "exact",
+            "booking_method": "official",
+            "source_url": "https://eravikulam.org/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "07:30",
+        "close_time": "16:00",
+        "time_notes": "Park closes for calving season (usually Feb-March).",
+        "source_url": "https://eravikulam.org/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "September to January, April to June",
+        "peak_months": "December",
+        "off_season": "February-March (Calving Closure)",
+        "season_notes": "Check website for exact calving closure dates.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://eravikulam.org/",
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Bus queues can be long if not booked online.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

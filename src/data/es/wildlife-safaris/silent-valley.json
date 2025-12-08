@@ -1,0 +1,112 @@
+{
+    "id": "silent-valley",
+    "slug": "silent-valley",
+    "title": "Silent Valley National Park",
+    "hero_image": "https://images.unsplash.com/photo-1549480017-d76466a4b7e8?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1517454266398-356396caa019?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1548074697-3f92de23a230?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A core area of the Nilgiri Biosphere Reserve, containing some of the last remaining rainforests of Kerala.",
+    "long_description": "Silent Valley National Park is a national park in Kerala, India. It is located in the Nilgiri Hills, has a core area of 89.52 km2, which is surrounded by a buffer zone of 148 km2. This national park has some rare species of flora and fauna. This area was explored in 1847 by the botanist Robert Wight. The park is one of the last undisturbed tracts of South Western Ghats mountain rain forests and tropical moist evergreen forest in India. Contiguous with the proposed Karimpuzha National Park to the north and Mukurthi National Park to the north-east, it is the core of the Nilgiri International Biosphere Reserve.",
+    "wildlife_significance": "Home to the largest population of Lion-tailed Macaques. Biodiversity Hotspot.",
+    "species_to_see": [
+        "Lion-tailed Macaque",
+        "Nilgiri Langur",
+        "Malabar Giant Squirrel",
+        "Great Hornbill",
+        "Tiger",
+        "Leopard"
+    ],
+    "habitat_types": [
+        "Tropical Evergreen Forest",
+        "Shola Grassland",
+        "Semi-Evergreen Forest"
+    ],
+    "safari_types": [
+        "Jeep Ride (to Sairandhri)",
+        "Walking Trail"
+    ],
+    "major_experiences": [
+        "Jeep ride through the forest",
+        "View from Sairandhri Watchtower",
+        "Trek to Kunthi River",
+        "Spotting Lion-tailed Macaques"
+    ],
+    "guides_and_tips": "Private vehicles allowed only up to Mukkali. From there, use Forest Department Jeeps. Advance booking recommended.",
+    "how_to_reach": "By Air: Coimbatore (90 km). By Rail: Palakkad (60 km). By Road: Mannarkkad (32 km).",
+    "accommodation_recommendations": [
+        "Forest Inspection Bungalow (Mukkali)",
+        "Vision Nature Resorts",
+        "Design Ashram"
+    ],
+    "permits_and_fees": "Entry permit at Mukkali office. Jeep fee separate.",
+    "conservation_notes": "Famous 'Save Silent Valley' movement saved this forest from a dam project.",
+    "highlights": [
+        "Lion-tailed Macaque",
+        "Kunthi River",
+        "Sairandhri Watchtower",
+        "Untouched Rainforest",
+        "Suspension Bridge"
+    ],
+    "sample_itinerary": "Day 1: Arrive Mukkali. Check-in. Visit interpretation centre. Day 2: Morning Jeep to Sairandhri (23 km). Trek to river. Watchtower view. Return. Departure.",
+    "safety_tips": "Leeches are very common. Carry salt/tobacco.",
+    "tags": [
+        "Rainforest",
+        "Biodiversity",
+        "Kerala",
+        "Trekking"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 50,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Entry fee.",
+            "source_url": "https://silentvalley.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Jeep Trip (5 pax)",
+            "price_from": 2500,
+            "price_to": 3000,
+            "currency": "INR",
+            "price_type": "exact",
+            "booking_method": "official",
+            "source_url": "https://silentvalley.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "08:00",
+        "close_time": "13:00",
+        "time_notes": "Entry allowed only between 8 AM and 1 PM. Exit by 5 PM.",
+        "source_url": "https://silentvalley.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "December to April",
+        "peak_months": "January to February",
+        "off_season": "June to September (Monsoon - heavy leeches/rain)",
+        "season_notes": "Summer is best for sightings.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://silentvalley.gov.in/",
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Jeep availability is limited.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

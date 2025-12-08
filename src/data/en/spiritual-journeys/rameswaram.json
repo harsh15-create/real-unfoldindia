@@ -1,0 +1,65 @@
+{
+    "id": "rameswaram",
+    "slug": "rameswaram",
+    "title": "Rameswaram: Bridge to the Divine",
+    "hero_image": "rameswaram-hero-placeholder.jpg",
+    "gallery_images": [
+        "rameswaram-temple-corridor.jpg",
+        "rameswaram-dhanushkodi.jpg",
+        "rameswaram-agnitheertham.jpg",
+        "rameswaram-pamban-bridge.jpg"
+    ],
+    "short_description": "A sacred island where Lord Rama worshipped Shiva before crossing to Lanka.",
+    "long_description": "Rameswaram is a shankha (conch) shaped island connected to the mainland by the engineering marvel, Pamban Bridge. It is one of the Char Dham sites and revered as the 'Varanasi of the South'. The legend goes that Lord Rama built a bridge (Ram Setu) from here to Lanka to rescue Sita. Before the battle, he worshipped Lord Shiva here to seek blessings, and after the battle, he worshipped again to absolve the sin of killing Ravana (a Brahmin).\n\nThe Ramanathaswamy Temple is the focal point, famous for its 1000-pillar hall and the longest temple corridor in the world, with majestic sculpted pillars. A unique ritual here involves bathing in the 22 holy wells (Theerthams) inside the temple complex, believed to have medicinal and purifying properties. \n\nA short drive away lies Dhanushkodi, a 'Ghost Town' destroyed by a cyclone in 1964. It is where the Indian Ocean meets the Bay of Bengal, offering surreal views of the strip of land vanishing into the sea—the starting point of Ram Setu.",
+    "spiritual_significance": "A Jyotirlinga (established by Rama) and a Char Dham. It represents the unity of Shaivism and Vaishnavism (Hari-Hara) as Rama (Vishnu avatar) worshipped Shiva.",
+    "major_temples_and_sites": [
+        {
+            "name": "Ramanathaswamy Temple",
+            "description": "The main shrine with the world's longest corridor (1200 meters). It houses two lingams—one made of sand by Sita (Ramalingam) and one brought by Hanuman (Vishwalingam)."
+        },
+        {
+            "name": "Agni Theertham",
+            "description": "The sea beach in front of the temple. Developing the ritual bath starts here."
+        },
+        {
+            "name": "Dhanushkodi",
+            "description": "The ruined town at the tip of the island. It feels like the edge of the world."
+        },
+        {
+            "name": "Pamban Bridge",
+            "description": "India's first sea bridge. The view of the train passing over the blue ocean is iconic."
+        },
+        {
+            "name": "Kothandaramaswamy Temple",
+            "description": "A temple that survived the 1964 cyclone, believed to be where Vibhishana surrendered to Rama."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Take a holy dip in Agni Theertham (Sea).",
+        "Bath in the 22 holy wells inside the temple (temple staff pour water on you).",
+        "Visit Dhanushkodi via jeep/van to see Ram Setu point.",
+        "Walk on the Pamban Bridge (if allowed) or view it from the road bridge.",
+        "Visit the House of Dr. A.P.J. Abdul Kalam (former President)."
+    ],
+    "highlights": [
+        "The magnificent temple corridors.",
+        "The ritual 22-well bath.",
+        "The haunting beauty of Dhanushkodi.",
+        "The turquoise blue ocean waters.",
+        "The train journey over the sea."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Late December/January is pleasant.",
+    "how_to_reach": "By Air: Madurai Airport (170km). By Train: Rameswaram Station. By Road: scenic drive from Madurai.",
+    "stay_recommendations": "Luxury: Hyatt Place Rameswaram, Daiwik Hotels. Spiritual: Sringeri Mutt. Budget: TTDC Hotel Tamil Nadu.",
+    "safety_tips": "The floor in the temple is always wet due to the bathing rituals; walk carefully. Changing rooms are available after the wells bath.",
+    "sample_itinerary": "Day 1: Arrive. Visit Dr. Kalam's Memorial. Sunset at Dhanushkodi (Ghost Town).\nDay 2: Early morning Mani Darshan (Sphatika Lingam). Bath in Agni Theertham + 22 Wells. Main Darshan. Visit Pamban Bridge view point.",
+    "tags": [
+        "Char Dham",
+        "Ramayana",
+        "Sea",
+        "Corridor",
+        "Bridge"
+    ],
+    "is_bookable": true
+}

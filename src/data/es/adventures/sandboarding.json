@@ -1,0 +1,129 @@
+{
+    "id": "sandboarding",
+    "slug": "sandboarding",
+    "title": "Sandboarding",
+    "hero_image": "https://images.unsplash.com/photo-1547990494-04d30c000dfb?q=80&w=2068&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1547990494-04d30c000dfb?q=80&w=2068&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1545562083-c583d9917765?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582201990176-787034c4f981?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "Slide down golden desert dunes on a specially designed board.",
+    "long_description": "Sandboarding is snowboarding's dusty cousin. It involves shredding down sand dunes on a waxed board. The sport is gaining popularity in the deserts of Rajasthan, where the dunes of Sam (Jaisalmer) provide the perfect slopes. It’s harder than it looks—sand has high friction, so maintaining speed requires steep gradients and good balance.\n\nIt’s a fantastic fun activity, often hilarious as falls are soft and sandy. Unlike snow, sand is available year-round (though summers are scorching), and you don't need heavy cold-weather gear—just a t-shirt and grit.",
+    "locations": [
+        {
+            "location": "Jaisalmer (Sam Dunes)",
+            "state": "Rajasthan",
+            "best_months": "October–March",
+            "price_from": 500,
+            "summary": "The primary hub for dune activities in India.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Nubra Valley",
+            "state": "Ladakh",
+            "best_months": "June–September",
+            "price_from": 500,
+            "summary": "Sliding down cold, silver dunes surrounded by mountains.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Osian",
+            "state": "Rajasthan",
+            "best_months": "October–March",
+            "price_from": 500,
+            "summary": "Ancient temple town with clean dunes nearby.",
+            "difficulty": "Beginner"
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [
+        {
+            "type": "Board Rental (1 Hour)",
+            "price_from": 300,
+            "price_to": 600,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://tourism.rajasthan.gov.in",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "08:00",
+            "close_time": "18:00",
+            "time_notes": "Early morning or late evening is best to avoid hot sand.",
+            "source_url": "https://tourism.rajasthan.gov.in",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "operating_season": {
+        "best_months": "October to March",
+        "peak_months": "December",
+        "off_season": "Summer (April-June) - Sand gets dangerously hot.",
+        "season_notes": "Nubra Valley is a summer destination.",
+        "last_checked": "2024-04-12"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "low",
+        "disclaimer": "Activities are often informal rentals by camps/locals.",
+        "data_provider": "Local Rentals",
+        "last_updated": "2024-04-12"
+    },
+    "difficulty_level": "Beginner",
+    "safety_guidelines": [
+        "Wear sunglasses to prevent sand in eyes.",
+        "Keep mouth closed when falling!",
+        "Wax the board bottom frequently for speed.",
+        "Walk up the designated path, not the slide path."
+    ],
+    "equipment_checklist": [
+        "Sunglasses (mandatory)",
+        "Scarf (to cover face)",
+        "Socks (sand can be abrasive)",
+        "Water"
+    ],
+    "major_experiences": [
+        "Sliding down a 30ft dune",
+        "Climbing back up (the hard part!)",
+        "Soft landings in the sand",
+        "Racing friends side-by-side"
+    ],
+    "sample_itinerary": {
+        "one_day": "5:00 PM Arrive at Dunes. Rent board. Climb dune. Slide. Repeat until sunset. Enjoy tea."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "Direct rental from Desert Camps",
+            "On-spot local vendors"
+        ],
+        "booking_url": "https://tourism.rajasthan.gov.in",
+        "suggested_stay": "Sam Sand Dune Camps.",
+        "how_to_reach": "Taxi from Jaisalmer city."
+    },
+    "seo": {
+        "seo_title": "Sandboarding in India: Jaisalmer, Nubra Valley | Cost & Guide",
+        "seo_description": "Experience dune surfing in Jaisalmer. Rent sandboards for ₹500. Fun family activity in Rajasthan thrill.",
+        "tags": [
+            "Sandboarding Jaisalmer",
+            "Desert Adventure India",
+            "Dune Surfing",
+            "Nubra Valley Activities"
+        ]
+    },
+    "highlights": [
+        "Budget-friendly adventure.",
+        "Unique photo opportunities.",
+        "No skill required - you can sit on the board too!",
+        "Safe for kids.",
+        "Combines well with Camel Safari."
+    ]
+}

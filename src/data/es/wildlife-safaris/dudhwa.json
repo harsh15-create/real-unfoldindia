@@ -1,0 +1,114 @@
+{
+    "id": "dudhwa",
+    "slug": "dudhwa",
+    "title": "Dudhwa National Park",
+    "hero_image": "https://images.unsplash.com/photo-1615730302538-6b8j2k?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1548074697-3f92de23a230?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1628186177114-1e0310cebf3c?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A dense forest near the Indo-Nepal border, representing the unique Terai ecosystem and home to swamp deer.",
+    "long_description": "Dudhwa National Park is located in the Terai belt of marshy grasslands of northern Uttar Pradesh, India. It represents one of the few remaining examples of the highly diverse and productive Terai ecosystem, supporting a large number of endangered species, obligate species of tall wet grasslands and species of restricted distribution. Together with the Kishanpur Wildlife Sanctuary and the Katarniaghat Wildlife Sanctuary, it forms the Dudhwa Tiger Reserve. The park is famous for the efforts of 'Billy' Arjan Singh, who introduced zoo-born tigers and leopards into the wild here. It is home to rhinos, tigers, swamp deer, and elephants.",
+    "wildlife_significance": "Key reserve for the Barasingha (Swamp Deer) and successfully reintroduced Rhinos.",
+    "species_to_see": [
+        "Swamp Deer (Barasingha)",
+        "One-Horned Rhinoceros",
+        "Royal Bengal Tiger",
+        "Asian Elephant",
+        "Hog Deer",
+        "Fishing Cat"
+    ],
+    "habitat_types": [
+        "Terai-Bhabar Grasslands",
+        "Sal Forests",
+        "Swamps",
+        "Riverine Forests"
+    ],
+    "safari_types": [
+        "Jeep Safari",
+        "Elephant Safari"
+    ],
+    "major_experiences": [
+        "Rhino sighting in Sonaripur Range",
+        "Bird watching at Banke Tal",
+        "Visit to Katarniaghat (for Gharials)",
+        "Tiger tracking in Kishanpur"
+    ],
+    "guides_and_tips": "It's a less commercialized park. Jeep hire is managed by the forest department or private operators outside.",
+    "how_to_reach": "By Air: Lucknow (238 km). By Rail: Dudhwa (4 km), Palia Kalan (10 km).",
+    "accommodation_recommendations": [
+        "Dudhwa Forest Rest House",
+        "Tree of Life Jaagir Lodge",
+        "Tiger Den Resort",
+        "Dudhwa Jungle Lore"
+    ],
+    "permits_and_fees": "Entry permits available at the gate or online via UP Ecotourism.",
+    "conservation_notes": "Rhino reintroduction program here is one of the most successful in India.",
+    "highlights": [
+        "Rhino Rehabilitation Area",
+        "Dr. Billy Arjan Singh's legacy",
+        "Katarniaghat Boat Ride",
+        "Rare Fishing Cat",
+        "Frog Temple at Oel (nearby)"
+    ],
+    "sample_itinerary": "Day 1: Arrive Palia. Check-in. Evening Safari in Dudhwa. Day 2: Morning Elephant Safari (if available) for Rhino. Afternoon drive to Kishanpur Sanctuary (Tiger spot). Day 3: Day trip to Katarniaghat. Departure.",
+    "safety_tips": "Tall grass hides animals well; stay alert. Carry insect repellent.",
+    "tags": [
+        "Terai",
+        "Rhino",
+        "Uttar Pradesh",
+        "Swamp Deer"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 100,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Park entry fee.",
+            "source_url": "https://upecotourism.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Jeep Safari (Vehicle)",
+            "price_from": 2500,
+            "price_to": 3500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://upecotourism.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily (Seasonal)",
+        "open_time": "07:00",
+        "close_time": "17:30",
+        "time_notes": "Morning: 7-10 AM, Afternoon: 3-6 PM.",
+        "source_url": "https://upecotourism.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "February to April",
+        "peak_months": "March to April",
+        "off_season": "Mid-June to Mid-November (Closed)",
+        "season_notes": "Park closes during the rainy season.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://upecotourism.in/",
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Vehicle entry and Guide fees are separate.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

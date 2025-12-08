@@ -1,0 +1,185 @@
+{
+    "id": "royal-luxury",
+    "slug": "royal-luxury",
+    "title": "Royal Luxury",
+    "hero_image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=2070&auto=format&fit=crop",
+    "theme_color": "#d4af37",
+    "intro_title": "Live Like Kings & Queens",
+    "intro_description": "India’s royal heritage is not arguably just about monuments; it is a living legacy that you can experience. The concept of 'Royal Luxury' in India transforms the grandeur of the past into the hospitality of the present. Across the subcontinent, ancient palaces, formidable forts, and elegant havelis have been lovingly restored into world-class heritage hotels. Here, you don't just stay in a room; you dwell in history.\n\nFrom the lake palaces of Udaipur that seem to float on water to the desert fortresses of Jaisalmer that glow like gold, each property tells a story of valor, romance, and opulence. Experience the lifestyle of the Maharajas, Nizams, and Nawabs—where every meal is a feast, every courtyard a masterpiece, and every service a gesture of regal tradition. Whether you seek the desert silence of Rajasthan, the colonial charm of Shimla, or the coastal royalty of Kerala, our curated collection of Royal Luxury experiences invites you to step into a world of timeless elegance.",
+    "cities": [
+        {
+            "id": "udaipur",
+            "slug": "udaipur",
+            "title": "Udaipur",
+            "card_subtitle": "The City of Lakes",
+            "thumbnail_image": "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Experience lakeside royalty in the Venice of the East, home to the iconic Lake Palace."
+        },
+        {
+            "id": "jaipur",
+            "slug": "jaipur",
+            "title": "Jaipur",
+            "card_subtitle": "The Pink City",
+            "thumbnail_image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Immerse yourself in the grandeur of Rajputana architecture and vibrant bazaars."
+        },
+        {
+            "id": "jodhpur",
+            "slug": "jodhpur",
+            "title": "Jodhpur",
+            "card_subtitle": "The Blue City",
+            "thumbnail_image": "https://images.unsplash.com/photo-1534759863358-2e69d67d750a?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Stay in one of the world's largest private residences under the gaze of Mehrangarh."
+        },
+        {
+            "id": "jaisalmer",
+            "slug": "jaisalmer",
+            "title": "Jaisalmer",
+            "card_subtitle": "The Golden City",
+            "thumbnail_image": "https://images.unsplash.com/photo-1593348639591-6899981a8c08?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Live in a living fort city and experience desert royalty amidst golden sands."
+        },
+        {
+            "id": "neemrana",
+            "slug": "neemrana",
+            "title": "Neemrana",
+            "card_subtitle": "15th Century Fort Charm",
+            "thumbnail_image": "https://images.unsplash.com/photo-1629215082193-4a6f9593847a?q=80&w=800&auto=format&fit=crop",
+            "short_description": "A quick royal getaway from Delhi, featuring India's premier heritage fort hotel."
+        },
+        {
+            "id": "mandawa",
+            "slug": "mandawa",
+            "title": "Mandawa & Shekhawati",
+            "card_subtitle": "The Open Art Gallery",
+            "thumbnail_image": "https://images.unsplash.com/photo-1623060731215-6c1dbd4e5f22?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Explore frescoed havelis and castle stays in the heart of the Shekhawati region."
+        },
+        {
+            "id": "ranthambore",
+            "slug": "ranthambore",
+            "title": "Ranthambore",
+            "card_subtitle": "Jungle Royalty",
+            "thumbnail_image": "https://images.unsplash.com/photo-1527560412891-cb3a5214534f?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Luxury wildlife camps and lodges where royalty meets the wilderness."
+        },
+        {
+            "id": "mysore",
+            "slug": "mysore",
+            "title": "Mysore",
+            "card_subtitle": "City of Palaces",
+            "thumbnail_image": "https://images.unsplash.com/photo-1600607689980-4573b5c73d9e?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Witness the splendor of the Wodeyar dynasty in this heritage-rich southern city."
+        },
+        {
+            "id": "hyderabad",
+            "slug": "hyderabad",
+            "title": "Hyderabad",
+            "card_subtitle": "City of Nizams",
+            "thumbnail_image": "https://images.unsplash.com/photo-1572445271230-a78b5944a659?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Experience the opulence of the Falaknuma Palace and Nizami hospitality."
+        },
+        {
+            "id": "kerala-royal",
+            "slug": "kerala-royal",
+            "title": "Royal Kerala",
+            "card_subtitle": "Kochi & Trivandrum",
+            "thumbnail_image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Colonial and traditional heritage stays amidst backwaters and coastal history."
+        },
+        {
+            "id": "kolkata",
+            "slug": "kolkata",
+            "title": "Kolkata",
+            "card_subtitle": "Colonial Heritage",
+            "thumbnail_image": "https://images.unsplash.com/photo-1561026604295-8822a00bd778?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Stay in restored Raj-era mansions and experience the aristocratic Zamindar lifestyle."
+        },
+        {
+            "id": "agra",
+            "slug": "agra",
+            "title": "Agra",
+            "card_subtitle": "Mughal Splendor",
+            "thumbnail_image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Luxury stays with views of the Taj Mahal, echoing the grandeur of the Mughal era."
+        },
+        {
+            "id": "bikaner",
+            "slug": "bikaner",
+            "title": "Bikaner",
+            "card_subtitle": "Desert Citadel",
+            "thumbnail_image": "https://images.unsplash.com/photo-1599827050965-4f3299719323?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Stay in red sandstone palaces and explore the heart of the Thar Desert."
+        },
+        {
+            "id": "orchha",
+            "slug": "orchha",
+            "title": "Orchha",
+            "card_subtitle": "Medieval Grandeur",
+            "thumbnail_image": "https://images.unsplash.com/photo-1678794830114-1fc003cb8993?q=80&w=800&auto=format&fit=crop",
+            "short_description": "A hidden gem of riverside palaces and cenotaphs frozen in time."
+        },
+        {
+            "id": "gwalior",
+            "slug": "gwalior",
+            "title": "Gwalior",
+            "card_subtitle": "Fort City",
+            "thumbnail_image": "https://images.unsplash.com/photo-1625296836696-03f3fb1296c5?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Experience the legacy of the Scindias in one of India's most imposing fort cities."
+        },
+        {
+            "id": "alwar",
+            "slug": "alwar",
+            "title": "Alwar",
+            "card_subtitle": "Tiger Gate of Rajasthan",
+            "thumbnail_image": "https://images.unsplash.com/photo-1603531633333-ce8360699411?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Weekend royal retreats set amidst the Aravalli hills and Sariska Tiger Reserve."
+        },
+        {
+            "id": "vadodara",
+            "slug": "vadodara",
+            "title": "Vadodara & Gujarat Royalty",
+            "card_subtitle": "Gaekwad Heritage",
+            "thumbnail_image": "https://images.unsplash.com/photo-1601633512224-2c092659b848?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Home to the Laxmi Vilas Palace and heritage properties of the Gujarat royal belts."
+        },
+        {
+            "id": "shimla",
+            "slug": "shimla",
+            "title": "Shimla",
+            "thumbnail": "https://images.unsplash.com/photo-1562649846-ab413c9dd225?q=80&w=800&auto=format&fit=crop",
+            "short_desc": "Summer capital of the Raj.",
+            "properties_count": 1
+        }
+    ],
+    "layout": {
+        "sections": [
+            {
+                "type": "hero",
+                "data_source": "hero_image"
+            },
+            {
+                "type": "intro",
+                "data_source": "intro_block"
+            },
+            {
+                "type": "city_grid",
+                "title": "Our Royal Destinations",
+                "description": "Choose your palace",
+                "data_source": "cities"
+            }
+        ]
+    },
+    "seo": {
+        "seo_title": "Royal Luxury Hotels in India | Palace Stays & Heritage Resorts",
+        "seo_description": "Discover verified Royal Luxury experiences in India. Stay in authentic palaces, forts, and heritage hotels in Udaipur, Jaipur, Jodhpur, and more.",
+        "keywords": [
+            "Royal Luxury India",
+            "Palace Hotels",
+            "Heritage Hotels",
+            "Luxury Travel India",
+            "Udaipur Hotels",
+            "Jaipur Palace Stay"
+        ]
+    }
+}

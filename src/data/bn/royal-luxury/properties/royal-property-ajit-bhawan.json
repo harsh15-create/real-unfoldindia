@@ -1,0 +1,203 @@
+{
+    "id": "ajit-bhawan",
+    "slug": "ajit-bhawan",
+    "title": "Ajit Bhawan",
+    "hero_image": "https://images.unsplash.com/photo-1629815049386-8f3b207ec1b0?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1603264439095-2c752495af44?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Built for the younger brother of the Maharaja, this palace offers a unique blend of royal heritage and sylvan charm.",
+    "long_description": "Ajit Bhawan, built in 1927 exclusively for Major General Maharaj Dhiraj Sir Ajit Singh ji, the younger brother of Maharaja Umaid Singh ji of Jodhpur, is recognized as India's first heritage hotel. It stands as an oasis of hospitality and Rajput charm.\n\nThe palace is a red sandstone marvel, elegant yet imposing. Unlike the colossal Umaid Bhawan, Ajit Bhawan has a more intimate, sylvan feel, with rooms arranged as small cottages within lush gardens. It showcases a collection of royal artifacts, hunting trophies, and vintage cars, preserving the legacy of the Rathore dynasty.",
+    "amenities": [
+        "Outdoor Pool",
+        "Vintage Cars",
+        "Spa",
+        "Gym",
+        "Desert Safari",
+        "Village Safari"
+    ],
+    "room_types": [
+        {
+            "name": "Luxury Tent",
+            "starting_price": 15000,
+            "currency": "INR",
+            "description": "Luxurious air-conditioned tents offering a glamping experience."
+        },
+        {
+            "name": "Garden Room",
+            "starting_price": 18000,
+            "currency": "INR",
+            "description": "Cottage-style rooms opening onto the gardens."
+        },
+        {
+            "name": "Ajit Suite",
+            "starting_price": 28000,
+            "currency": "INR",
+            "description": "Spacious suites with traditional decor and private sit-outs."
+        },
+        {
+            "name": "Presidential Suite",
+            "starting_price": 55000,
+            "currency": "INR",
+            "description": "A grand suite reflecting the lifestyle of the Maharaj."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "Front Lawns",
+            "capacity": 500,
+            "notes": "Classic garden wedding setting",
+            "wedding_ready": true
+        },
+        {
+            "name": "Zanaana Courtyard",
+            "capacity": 150,
+            "notes": "Traditional courtyard for dinners",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Open 24/7.",
+        "source_url": "https://www.ajitbhawan.com/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "March"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": null,
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 15000,
+    "price_currency": "INR",
+    "packages": [],
+    "booking_methods": [
+        "Online",
+        "Phone"
+    ],
+    "booking_url": "https://www.ajitbhawan.com/",
+    "wedding_packages": [
+        {
+            "name": "Royal Garden Wedding",
+            "capacity": 400,
+            "starting_price": 3000000,
+            "inclusions": [
+                "Rooms",
+                "Venue",
+                "Decor"
+            ],
+            "contact_url": "https://www.ajitbhawan.com/"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Reservations",
+            "name": null,
+            "email": "reservations@ajitbhawan.com",
+            "phone": "+91 291 251 3333"
+        }
+    ],
+    "signature_experiences": [
+        "Vintage Car Ride",
+        "Village Safari",
+        "Dinner in the Zanaana"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Heritage Stay",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Welcome",
+                    "activities": [
+                        "Check-in",
+                        "Vintage Car Tour",
+                        "Dinner at Jodhpur Cafe"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Jodhpur Cafe",
+            "cuisine": "Multi-cuisine",
+            "reservation_required": false
+        },
+        {
+            "name": "Garden Restaurant",
+            "cuisine": "Open-air Barbecue",
+            "reservation_required": true
+        },
+        {
+            "name": "J Bar",
+            "cuisine": "Drinks & Tapas",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": false,
+        "accessible_rooms": true
+    },
+    "heritage_history": "Completed in 1927, pioneered the concept of heritage hotels in India.",
+    "conservation_notes": "Preserves a large collection of antiques and classic cars.",
+    "cultural_responsibility": "Promotes local handicrafts and traditional cuisine.",
+    "how_to_reach": "10-15 mins from Airport (4km).",
+    "nearest_airport": "Jodhpur Airport (4 km)",
+    "nearest_rail_station": "Jodhpur Junction (3 km)",
+    "suggested_stay": "2 Nights",
+    "contact": {
+        "phone": "+91 291 251 3333",
+        "email": "reservations@ajitbhawan.com",
+        "address": "Circuit House Road, Jodhpur 342006"
+    },
+    "tags": [
+        "First Heritage Hotel",
+        "Vintage Cars",
+        "Cottages",
+        "History"
+    ],
+    "highlights": [
+        "First Heritage Hotel in India",
+        "Vintage Car Collection",
+        "Luxury Tents",
+        "Red Sandstone",
+        "Royal Family Home"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates exclude taxes.",
+        "data_provider": "The Ajit Group",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Ajit Bhawan Jodhpur | India's First Heritage Hotel",
+    "seo_description": "Stay at Ajit Bhawan, India's first heritage hotel. Experience the legacy of the Jodhpur royal family in this 1927 palace.",
+    "source_reference": [
+        {
+            "url": "https://www.ajitbhawan.com/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

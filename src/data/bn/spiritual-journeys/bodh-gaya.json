@@ -1,0 +1,70 @@
+{
+    "id": "bodh-gaya",
+    "slug": "bodh-gaya",
+    "title": "Bodh Gaya: The Awakening",
+    "hero_image": "bodhgaya-hero-placeholder.jpg",
+    "gallery_images": [
+        "bodhgaya-mahabodhi-temple.jpg",
+        "bodhgaya-bodhi-tree.jpg",
+        "bodhgaya-monks.jpg",
+        "bodhgaya-giant-buddha.jpg"
+    ],
+    "short_description": "Sit under the Bodhi Tree where Prince Siddhartha attained enlightenment and became the Buddha.",
+    "long_description": "Bodh Gaya in Bihar is the holiest Buddhist site in the world. It is the place where, around 2,500 years ago, Prince Siddhartha Gautama sat under a Pipal tree (the Bodhi Tree) and vowed not to rise until he had found the Truth. After days of meditation, he attained Enlightenment (Nirvana) and became the Buddha ('The Awakened One').\n\nToday, Bodh Gaya is a global center of peace. The UNESCO World Heritage Mahabodhi Temple Complex anchors the town. It is a unique place where you can see monks in deep maroon or saffron robes from Tibet, Sri Lanka, Thailand, Japan, and Vietnam circumambulating the temple, chanting mantras in unison. Each country with a Buddhist tradition has built its own temple here, creating a beautiful architectural mosaic—you can walk from a Thai Wat to a Japanese Pagoda in minutes.\n\nThe energy here is one of profound serenity. Despite the crowds, the area around the Bodhi Tree maintains a silence that invites introspection. It is a place to meditate, to reflect on the Four Noble Truths, and to feel the lineage of wisdom that transformed the world.",
+    "spiritual_significance": "The single most important pilgrimage site for Buddhists (one of the four main sites). It marks the location of the Buddha's Enlightenment. The Vajrasana (Diamond Throne) under the Bodhi tree is considered the navel of the earth.",
+    "major_temples_and_sites": [
+        {
+            "name": "Mahabodhi Temple",
+            "description": "A UNESCO World Heritage site. A grand 50m high pyramidal tower built originally by Emperor Ashoka. It houses a golden statue of the Buddha."
+        },
+        {
+            "name": "The Bodhi Tree",
+            "description": "The sacred fig tree (Ficus religiosa) located directly behind the temple. It is a direct descendant of the original tree under which Buddha sat."
+        },
+        {
+            "name": "Great Buddha Statue",
+            "description": "A magnificent 80ft tall stone statue of Buddha in a meditation pose, seated on a lotus."
+        },
+        {
+            "name": "Thai Monastery",
+            "description": "Known for its stunning Thai architecture and a bronze Buddha statue."
+        },
+        {
+            "name": "Royal Bhutan Monastery",
+            "description": "Features beautiful clay carvings and depicts the life of Buddha in 3D panels."
+        },
+        {
+            "name": "Dungeshwari Cave Temples",
+            "description": "Located 12km away, this is where Buddha engaged in severe asceticism before realizing the Middle Path."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Meditate under the Bodhi Tree.",
+        "Circumambulate the Mahabodhi Temple with monks.",
+        "Visit the various international monasteries to see diverse Buddhist architectures.",
+        "Attend a meditation course at the Root Institute or Dhamma Bodhi.",
+        "Offer butter lamps in the evening.",
+        "Visit Sujata Stupa, dedicated to the milkmaid who offered rice milk to the starving Siddhartha."
+    ],
+    "highlights": [
+        "The global atmosphere with pilgrims from all over the world.",
+        "The palpable silence near the Bodhi Tree.",
+        "The towering Mahabodhi Temple architecture.",
+        "The 80-foot Great Buddha Statue.",
+        "Learning about the different schools of Buddhism (Theravada, Mahayana, Vajrayana)."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Buddha Purnima (May) is hot but spiritually significant.",
+    "how_to_reach": "By Air: Gaya Airport (GAY) is 12km away. By Train: Gaya Junction. By Road: 110km from Patna.",
+    "stay_recommendations": "Luxury: The Bodhi Palace Resort. Spiritual: Root Institute, various Monastery guest houses (clean and disciplined). Budget: Hotel Sujata.",
+    "safety_tips": "Generally safe, but beggars can be persistent. Respect the silence of the meditation zones. Dress modestly (shoulders and knees covered).",
+    "sample_itinerary": "Day 1: Arrive. Visit Mahabodhi Temple and Bodhi Tree. Meditate. Evening walk to the Great Buddha Statue.\nDay 2: Explore the international monasteries (Thai, Japanese, Bhutanese). Trip to Dungeshwari Caves. Evening meditation at temple.",
+    "tags": [
+        "Buddhism",
+        "History",
+        "Meditation",
+        "Peace",
+        "UNESCO"
+    ],
+    "is_bookable": true
+}

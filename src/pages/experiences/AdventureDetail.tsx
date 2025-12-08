@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useParams, Link } from 'react-router-dom';
 import { getAdventureActivity, AdventureActivity } from '@/lib/adventures-api';
 import { Button } from '@/components/ui/button';
@@ -10,6 +11,7 @@ import { ArrowLeft, Clock, Calendar, CheckCircle2, AlertOctagon, Share2, Ticket,
 import { AdventureEvents } from '@/analytics/events';
 
 export default function AdventureDetail() {
+    const { i18n } = useTranslation();
     const { slug } = useParams<{ slug: string }>();
     const [activity, setActivity] = useState<AdventureActivity | null>(null);
     const [loading, setLoading] = useState(true);
@@ -17,13 +19,13 @@ export default function AdventureDetail() {
     useEffect(() => {
         if (slug) {
             setLoading(true);
-            getAdventureActivity(slug).then(data => {
+            getAdventureActivity(slug, i18n.language).then(data => {
                 setActivity(data);
                 setLoading(false);
                 if (data) AdventureEvents.ACTIVITY_VIEW_DETAIL('adventures', slug);
             }).catch(() => setLoading(false));
         }
-    }, [slug]);
+    }, [slug, i18n.language]);
 
     if (loading) return <div className="min-h-screen bg-background flex items-center justify-center text-white">Loading...</div>;
     if (!activity) return <div className="min-h-screen bg-background flex items-center justify-center text-white">Activity not found</div>;

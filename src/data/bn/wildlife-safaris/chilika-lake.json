@@ -1,0 +1,123 @@
+{
+    "id": "chilika-lake",
+    "slug": "chilika-lake",
+    "title": "Chilika Lake Bird Sanctuary",
+    "hero_image": "https://images.unsplash.com/photo-1616853683072-9d33261767d2?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1610452352220-410c59828d5d?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1596541530756-3c46e3e56c3e?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599320641219-48234857502c?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Asia's largest brackish water lagoon, a wintering ground for millions of migratory birds and home to Irrawaddy dolphins.",
+    "long_description": "Chilika Lake, spread over the Puri, Khurda and Ganjam districts of Odisha state on the east coast of India, is the largest brackish water lagoon in Asia and the second largest coastal lagoon in the world. It is the largest wintering ground for migratory birds on the Indian sub-continent. The lake is home to a number of threatened species of plants and animals. The lagoon hosts over 160 species of birds in the peak migratory season. Birds from as far as the Caspian Sea, Lake Baikal, Aral Sea and other remote parts of Russia, Kirghiz steppes of Mongolia, Central and Southeast Asia, Ladakh and Himalayas come here. The lake is also home to the endangered Irrawaddy dolphins.",
+    "wildlife_significance": "Ramsar Site. Hosts over 1 million migratory birds. Endangered Irrawaddy Dolphins.",
+    "species_to_see": [
+        "Irrawaddy Dolphin",
+        "Greater Flamingo",
+        "Northern Pintail",
+        "Gadwall",
+        "Shoveller",
+        "Spot-billed Pelican",
+        "Blackbuck (nearby)"
+    ],
+    "habitat_types": [
+        "Brackish Water Lagoon",
+        "Mudflats",
+        "Islands (Nalabana)",
+        "Reed Beds"
+    ],
+    "safari_types": [
+        "Boat Safari"
+    ],
+    "major_experiences": [
+        "Dolphin watching at Satapada",
+        "Bird watching at Nalabana Island",
+        "Visit Kalijai Temple",
+        "Sea Mouth (where lake meets Bay of Bengal)"
+    ],
+    "guides_and_tips": "Early morning boat rides are best for birding. Dolphin sightings are best in calm waters.",
+    "how_to_reach": "By Air: Bhubaneswar (120 km). By Rail: Balugaon or Puri. By Road: NH16 connects to Barkul and Rambha.",
+    "accommodation_recommendations": [
+        "OTDC Panthanivas (Barkul/Rambha)",
+        "Swosti Chilika Resort",
+        "Eco-Cottage Satapada"
+    ],
+    "permits_and_fees": "Boat hire charges are fixed by the association. Entry to Nalabana is restricted (view from boat).",
+    "conservation_notes": "Motorboats are regulated to protect dolphins. Plastic ban in effect.",
+    "highlights": [
+        "Irrawaddy Dolphins",
+        "Nalabana Bird Sanctuary",
+        "Kalijai Temple",
+        "Sea Mouth Island",
+        "Mangalajodi wetlands"
+    ],
+    "sample_itinerary": "Day 1: Arrive Barkul. Boat trip to Kalijai and Nalabana. Day 2: Drive to Satapada. Dolphin watching boat ride. Visit Sea Mouth. Departure.",
+    "safety_tips": "Life jackets are mandatory on boats. Sun can be harsh; wear hats.",
+    "tags": [
+        "Lagoon",
+        "Dolphins",
+        "Odisha",
+        "Migratory Birds"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 0,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "No specific entry fee for the lake, only boat charges.",
+            "source_url": "https://odishatourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Boat Hire (Private - 3 hrs)",
+            "price_from": 2500,
+            "price_to": 3500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://odishatourism.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "type": "Shared Boat (Per Seat)",
+            "price_from": 300,
+            "price_to": 500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://odishatourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "06:00",
+        "close_time": "17:00",
+        "time_notes": "Boats don't operate after sunset.",
+        "source_url": "https://odishatourism.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "October to March",
+        "peak_months": "December to January (Peak Migration)",
+        "off_season": "April to June (Hot, no migratory birds)",
+        "season_notes": "Dolphins can be seen year-round.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": false,
+        "permits_info_url": "https://odishatourism.gov.in/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Boat rates fixed by local associations.",
+        "data_provider": "tourism_board",
+        "last_updated": "2024-05-20"
+    }
+}

@@ -6,55 +6,38 @@ import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "sonner";
-
-interface Temple {
-    name: string;
-    description: string;
-}
-
-interface CityData {
-    id: string;
-    title: string;
-    hero_image: string;
-    short_description: string;
-    long_description: string;
-    spiritual_significance: string;
-    major_temples_and_sites: Temple[];
-    rituals_and_experiences: string[];
-    highlights: string[];
-    best_months: string;
-    how_to_reach: string;
-    stay_recommendations: string;
-    safety_tips: string;
-    tags: string[];
-}
+import { getSpiritualDetail, SpiritualCityDetail } from "@/lib/spiritualApi";
+import { useTranslation } from "react-i18next";
 
 const SpiritualCity = () => {
+    const { i18n } = useTranslation();
     const { slug } = useParams();
     const navigate = useNavigate();
-    const [data, setData] = useState<CityData | null>(null);
+    const [data, setData] = useState<SpiritualCityDetail | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchData = async () => {
+            if (!slug) return;
             try {
                 setLoading(true);
-                // Dynamically import the JSON file based on the slug
-                const module = await import(`../data/spiritual-journeys/${slug}.json`);
-                setData(module.default);
+                const cityData = await getSpiritualDetail(slug, i18n.language);
+                if (cityData) {
+                    setData(cityData);
+                } else {
+                    toast.error("City not found");
+                    navigate("/spiritual-journeys");
+                }
             } catch (error) {
                 console.error("Failed to load city data:", error);
-                toast.error("City not found");
-                navigate("/spiritual-journeys");
+                toast.error("Error loading data");
             } finally {
                 setLoading(false);
             }
         };
 
-        if (slug) {
-            fetchData();
-        }
-    }, [slug, navigate]);
+        fetchData();
+    }, [slug, navigate, i18n.language]);
 
     if (loading) {
         return (

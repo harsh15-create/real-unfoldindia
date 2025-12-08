@@ -1,0 +1,142 @@
+{
+    "id": "ranganathittu",
+    "slug": "ranganathittu",
+    "title": "Ranganathittu Bird Sanctuary",
+    "hero_image": "https://images.unsplash.com/photo-1610452352220-410c59828d5d?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1596541530756-3c46e3e56c3e?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1552084117-5663b8714272?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1616853683072-9d33261767d2?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A picturesque bird sanctuary on the banks of the Kaveri river, Karnataka, featuring crocodile-filled waters and nesting islets.",
+    "long_description": "Ranganathittu Bird Sanctuary (also known as Pakshi Kashi of Karnataka), is located in the Mandya District of the state of Karnataka in India. It is the largest bird sanctuary in the state, only 40 acres in area, and comprises six islets on the banks of the Kaveri River. Ranganathittu is the result of a small dam across the river which created islets where birds began to nest. Noted ornithologist Salim Ali observed that the islets formed an important nesting ground for a large variety of birds, and persuaded the Wodeyar kings of Mysore to declare the area a protected area in 1940. It is a breeding ground for Painted Storks, Pelicans, and Spoonbills.",
+    "wildlife_significance": "Crucial nesting site for Painted Storks and Spot-billed Pelicans. High density of Marsh Crocodiles.",
+    "species_to_see": [
+        "Painted Stork",
+        "Spot-billed Pelican",
+        "Asian Openbill Stork",
+        "Marsh Crocodile (Mugger)",
+        "River Tern",
+        "Great Stone Plover",
+        "Flying Fox (Fruit Bat)"
+    ],
+    "habitat_types": [
+        "Riverine Ecosystem",
+        "Islets with Trees",
+        "Bamboo Groves"
+    ],
+    "safari_types": [
+        "Boat Ride",
+        "Walking"
+    ],
+    "major_experiences": [
+        "Boat safari to get close to nesting birds and crocodiles",
+        "Walking the riverside path",
+        "Dr. Salim Ali Interpretation Centre",
+        "Photography of extensive bat colonies"
+    ],
+    "guides_and_tips": "Go early to beat the heat and crowds. The boat ride is short but intensity of sightings is high.",
+    "how_to_reach": "By Air: Mysore Airport (25 km). By Rail: Srirangapatna (3 km). By Road: 19 km from Mysore.",
+    "accommodation_recommendations": [
+        "Mayura Riverview Srirangapatna (KSTDC)",
+        "Hotels in Mysore"
+    ],
+    "permits_and_fees": "Tickets at gate. Boat tickets purchased inside.",
+    "conservation_notes": "Flooding of Kaveri sometimes inundates nests; water release from KRS dam is monitored.",
+    "highlights": [
+        "Crocodile sightings guaranteed",
+        "Nesting Painted Storks",
+        "Proximity to Srirangapatna",
+        "Scenic Kaveri River",
+        "Bats hanging on trees"
+    ],
+    "sample_itinerary": "Half-day: Drive from Mysore. Morning boat ride (30 mins). Walk around the park. Visit Srirangapatna Fort nearby. Lunch at Mayura Riverview.",
+    "safety_tips": "Do not put hands in water (Crocodiles). Wear life jackets.",
+    "tags": [
+        "Crocodile",
+        "Birding",
+        "Mysore",
+        "Karnataka",
+        "River"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 75,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Entry fee.",
+            "source_url": "https://karnatakatourism.org/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Adult (Foreigner)",
+            "price": 500,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Entry fee.",
+            "source_url": "https://karnatakatourism.org/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Boat Ride (Indian)",
+            "price_from": 100,
+            "price_to": 100,
+            "currency": "INR",
+            "price_type": "exact",
+            "booking_method": "onsite",
+            "source_url": "https://karnatakatourism.org/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "type": "Boat Ride (Foreigner)",
+            "price_from": 500,
+            "price_to": 500,
+            "currency": "INR",
+            "price_type": "exact",
+            "booking_method": "onsite",
+            "source_url": "https://karnatakatourism.org/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "type": "Private Boat",
+            "price_from": 2000,
+            "price_to": 3000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://karnatakatourism.org/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "09:00",
+        "close_time": "18:00",
+        "time_notes": "Boating stops if water level is dangerous.",
+        "source_url": "https://karnatakatourism.org/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "December to May",
+        "peak_months": "March to May (Nesting season)",
+        "off_season": "July to September (Monsoon - boating often cancelled)",
+        "season_notes": "Best time is actually summer when water is low and birds nest.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": false,
+        "permits_info_url": "https://karnatakatourism.org/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Boat availability depends on water levels.",
+        "data_provider": "tourism_board",
+        "last_updated": "2024-05-20"
+    }
+}

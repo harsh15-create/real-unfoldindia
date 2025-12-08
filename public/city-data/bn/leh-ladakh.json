@@ -1,0 +1,185 @@
+{
+    "name": "Leh-Ladakh",
+    "title": "India’s Ultimate Mountain Destination",
+    "image": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?q=80&w=2070&auto=format&fit=crop",
+    "about": "Leh–Ladakh is India’s most dramatic high-altitude region, famous for its barren mountains, blue lakes, monasteries, road trips, and adventure. Known as the “Land of High Passes,” it offers unmatched landscapes and thrilling travel routes.",
+    "bestTime": [
+        {
+            "season": "May to September",
+            "desc": "Best season, all routes open."
+        },
+        {
+            "season": "October to April",
+            "desc": "Harsh winter, many routes closed."
+        },
+        {
+            "season": "Festivals",
+            "desc": "Hemis Festival, Losar."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Pangong Lake",
+            "image": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Permit required",
+            "duration": "Full day or overnight",
+            "desc": "Iconic blue lake famous for its changing colors."
+        },
+        {
+            "name": "Nubra Valley",
+            "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Permit required",
+            "duration": "2 days",
+            "desc": "Known for sand dunes, double-humped camels, and cold desert."
+        },
+        {
+            "name": "Khardung La Pass",
+            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "timings": "Daytime",
+            "entry": "Permit required",
+            "duration": "1 hr",
+            "desc": "One of the world’s highest motorable passes."
+        },
+        {
+            "name": "Shanti Stupa",
+            "image": "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+            "timings": "5 AM – 9 PM",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "White-domed stupa offering panoramic views of Leh."
+        },
+        {
+            "name": "Leh Palace",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "7 AM – 4 PM",
+            "entry": "₹15",
+            "duration": "1 hr",
+            "desc": "Historic 9-storey palace overlooking the town."
+        },
+        {
+            "name": "Magnetic Hill",
+            "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Gravity-defying hill where vehicles appear to roll uphill."
+        },
+        {
+            "name": "Sangam",
+            "image": "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+            "timings": "Daytime",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Confluence of the Indus and Zanskar rivers."
+        },
+        {
+            "name": "Hemis Monastery",
+            "image": "https://images.unsplash.com/photo-1596021688661-338155931f84?q=80&w=800&auto=format&fit=crop",
+            "timings": "8 AM – 1 PM, 2 PM – 6 PM",
+            "entry": "₹50",
+            "duration": "1–2 hrs",
+            "desc": "The largest and richest monastery in Ladakh."
+        },
+        {
+            "name": "Tso Moriri Lake",
+            "image": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Permit required",
+            "duration": "Full day",
+            "desc": "Remote high-altitude lake known for its serenity."
+        },
+        {
+            "name": "Diskit Monastery",
+            "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+            "timings": "7 AM – 1 PM, 2 PM – 7 PM",
+            "entry": "₹30",
+            "duration": "1 hr",
+            "desc": "Oldest monastery in Nubra Valley with a massive Buddha statue."
+        }
+    ],
+    "hiddenGems": [
+        "Turtuk Village (Baltic Culture)",
+        "Hanle (Dark Sky Reserve)",
+        "Zanskar Valley",
+        "Chuchot Village Biking Trails"
+    ],
+    "food": [
+        {
+            "area": "Leh Market",
+            "spots": "Thukpa & Momos"
+        },
+        {
+            "area": "Changspa",
+            "spots": "Cafés & Bakeries"
+        },
+        {
+            "area": "Alchi Kitchen",
+            "spots": "Traditional Ladakhi Food"
+        },
+        {
+            "area": "Tibetan Kitchen",
+            "spots": "Shabhaley & Tingmo"
+        },
+        {
+            "area": "Local Homes",
+            "spots": "Butter Tea & Skyu"
+        }
+    ],
+    "markets": [
+        "Leh Main Market",
+        "Moti Market",
+        "Tibetan Market"
+    ],
+    "nightlife": [
+        "Stargazing",
+        "Bonfires",
+        "Leh Market Cafés"
+    ],
+    "transport": {
+        "metro": "Not available",
+        "cabs": [
+            {
+                "type": "Taxi",
+                "cost": "Expensive but reliable"
+            },
+            {
+                "type": "Bike Rental",
+                "cost": "₹1200–₹2000/day"
+            },
+            {
+                "type": "Shared Taxi",
+                "cost": "Budget Option"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹1200–₹2000/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹2500–₹4500/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹5000–₹10,000/day"
+        }
+    ],
+    "stay": [
+        "Leh Market",
+        "Changspa",
+        "Nubra (Hunder & Diskit)",
+        "Pangong (Camps)"
+    ],
+    "safety": [
+        "Acclimatize for 24 hours before sightseeing",
+        "Stay hydrated",
+        "Avoid heavy meals first day",
+        "Carry AMS medication",
+        "Winter roads can be dangerous",
+        "Oxygen levels are low—don’t overexert"
+    ]
+}

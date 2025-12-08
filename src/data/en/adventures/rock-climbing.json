@@ -1,0 +1,171 @@
+{
+    "id": "rock-climbing",
+    "slug": "rock-climbing",
+    "title": "Rock Climbing",
+    "hero_image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=2006&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=2006&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1601224748193-d34f112a4263?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1564769662533-4f00a87b4056?q=80&w=2144&auto=format&fit=crop"
+    ],
+    "short_description": "Test your strength and grip on natural rock formations and boulders.",
+    "long_description": "Rock climbing is a physically demanding sport that involves scaling natural rock faces or artificial walls. In India, it has evolved into a serious pursuit with world-class locations. Hampi, a UNESCO World Heritage site, is internationally famous as the 'Bouldering Capital of India', where climbers solve 'problems' on giant granite boulders scattered across the surreal landscape.\n\nBadami in Karnataka offers red sandstone cliffs perfect for traditional and sport climbing. Manali and Sethan provide high-altitude climbing experiences on granite faces. Whether you are bouldering (climbing short rocks without ropes, using crash pads) or sport climbing (using ropes and bolts for high cliffs), India offers terrain for all grades.\n\nBeginners can try 'Top Roping' where a rope is secured from above, making it 100% safe to fall. Courses taught by certified instructors help you learn knots, belaying, and movement techniques.",
+    "locations": [
+        {
+            "location": "Hampi",
+            "state": "Karnataka",
+            "best_months": "October–March",
+            "price_from": 1000,
+            "summary": "World-famous bouldering paradise. The entire landscape is a playground.",
+            "difficulty": "Beginner–Expert"
+        },
+        {
+            "location": "Badami",
+            "state": "Karnataka",
+            "best_months": "October–March",
+            "price_from": 1500,
+            "summary": "Red sandstone cliffs with hundreds of bolted sport routes.",
+            "difficulty": "Intermediate–Expert"
+        },
+        {
+            "location": "Manali (Aleo/Sethan)",
+            "state": "Himachal Pradesh",
+            "best_months": "April–June, Sep-Nov",
+            "price_from": 1000,
+            "summary": "Mountain rock climbing on granite faces.",
+            "difficulty": "Beginner–Intermediate"
+        },
+        {
+            "location": "Shey Rock (Leh)",
+            "state": "Ladakh",
+            "best_months": "June–September",
+            "price_from": 1200,
+            "summary": "Unique climbing experience in the high-altitude desert.",
+            "difficulty": "Beginner–Intermediate"
+        },
+        {
+            "location": "Mumbra/Belapur",
+            "state": "Maharashtra",
+            "best_months": "Winter",
+            "price_from": 1000,
+            "summary": "Popular training grounds near Mumbai.",
+            "difficulty": "Intermediate"
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [
+        {
+            "type": "Guided Bouldering Session (Hampi)",
+            "price_from": 1000,
+            "price_to": 2000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://www.tomohetrip.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Introduction to Rock Climbing (Manali)",
+            "price_from": 1500,
+            "price_to": 2500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://www.himalayan-extreme.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Gear Rental (Crash Pad/Shoes)",
+            "price_from": 300,
+            "price_to": 600,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://goldenboulders.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "07:00",
+            "close_time": "18:00",
+            "time_notes": "Early morning or late afternoon is best to avoid hot rocks.",
+            "source_url": "https://goldenboulders.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "operating_season": {
+        "best_months": "October to March (South); Summer (North)",
+        "peak_months": "December–January",
+        "off_season": "Monsoon (Rocks become slippery and dangerous).",
+        "season_notes": "Hampi can get very hot in afternoons.",
+        "last_checked": "2024-04-12"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "medium",
+        "disclaimer": "Many climbers bring their own gear; guide fees vary.",
+        "data_provider": "Climbing Communities",
+        "last_updated": "2024-04-12"
+    },
+    "difficulty_level": "Intermediate",
+    "safety_guidelines": [
+        "Never climb alone (always have a spotter for bouldering).",
+        "Check rope integrity and knots (double figure-8) before climbing.",
+        "Wear a helmet outdoors (rockfall risk).",
+        "Communicate clearly ('On Belay?', 'Climbing!').",
+        "Do not climb on wet sandstone (it breaks easily)."
+    ],
+    "equipment_checklist": [
+        "Climbing Shoes (tight fit)",
+        "Chalk bag (for grip)",
+        "Helmet",
+        "Harness (for roped climbing)",
+        "Crash Pad (for bouldering - rentable)"
+    ],
+    "major_experiences": [
+        "Solving a bouldering 'problem' (route) after multiple tries",
+        "Reaching the top anchor view",
+        "Trusting your feet on tiny rock edges",
+        "Community vibes at Hampi's Goan Corner or climbing cafes",
+        "Skin shredding on granite!"
+    ],
+    "sample_itinerary": {
+        "one_day": "7:00 AM: Cross river to Hampi Island (Virupapur Gaddi). Rent pad & shoes. 8:00 AM: Bouldering session at 'Rishimukh' plateau. 11:00 AM: Brunch at a cafe. 4:00 PM: Sunset bouldering session."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "Climbing shops at Hampi Island / Badami",
+            "Adventure tour operators in Manali",
+            "Walk-in to climbing hostels"
+        ],
+        "booking_url": "https://goldenboulders.com",
+        "suggested_stay": "Hampi: Goan Corner. Badami: Heritage Resort.",
+        "how_to_reach": "Hampi is accessible via Hospet train station. Badami is 3 hours from Hampi."
+    },
+    "seo": {
+        "seo_title": "Rock Climbing in India: Hampi Bouldering, Badami, Manali | Guide",
+        "seo_description": "India is a rock climbing paradise. Guide to bouldering in Hampi and sport climbing in Badami. Gear rentals, guide costs, and best seasons.",
+        "tags": [
+            "Hampi Bouldering",
+            "Rock Climbing India",
+            "Badami Climbing",
+            "Manali Rock Climbing",
+            "Adventure Sports"
+        ]
+    },
+    "highlights": [
+        "Hampi is one of the world's top bouldering destinations.",
+        "Climbing combines mental puzzle-solving with physical exertion.",
+        "Very cheap to get started (shoe rental ~₹100-200).",
+        "Thriving international climber community in Hampi winters.",
+        "Views from top of the rocks are often inaccessible to walkers.",
+        "Full body workout in nature."
+    ]
+}

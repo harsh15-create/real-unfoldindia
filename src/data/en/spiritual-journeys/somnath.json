@@ -1,0 +1,66 @@
+{
+    "id": "somnath",
+    "slug": "somnath",
+    "title": "Somnath: The First Jyotirlinga",
+    "hero_image": "somnath-hero-placeholder.jpg",
+    "gallery_images": [
+        "somnath-temple-sea.jpg",
+        "somnath-night-light.jpg",
+        "somnath-shivling.jpg",
+        "somnath-coast.jpg"
+    ],
+    "short_description": "A magnificent seaside temple that has withstood the test of time and invasions.",
+    "long_description": "Somnath ('Lord of the Moon') in Gujarat is not just a temple; it is a symbol of India's resilience and faith. Standing right on the edge of the Arabian Sea, it houses the first of the 12 Jyotirlingas of Shiva. Legend says the Moon God (Soma) built the temple in gold to worship Shiva and regain his lost luster.\n\nHistorically, the temple was destroyed and looted 17 times by invaders, yet each time it was rebuilt, culminating in the current grand structure built in the Chalukya style post-independence. The temple's location is breathtaking—the waves of the Arabian Sea constantly wash the base of the temple walls. \n\nA unique feature is the 'Baan Stambh' (Arrow Pillar) on the sea-facing wall, which claims that from that point to the South Pole (Antarctica), there is no landmass. The evening Light, Sound, and 3D Laser show narrates the powerful history of the temple against the backdrop of the crashing waves.",
+    "spiritual_significance": "The primary Jyotirlinga. It symbolizes the eternal nature of Sanatan Dharma—destruction followed by creation. Worshipping here is believed to cure diseases, especially those related to the moon (leprosy/skin).",
+    "major_temples_and_sites": [
+        {
+            "name": "Somnath Temple",
+            "description": "The main shrine with an imposing Shikhara and a vast courtyard facing the sea."
+        },
+        {
+            "name": "Bhalka Tirth",
+            "description": "The sacred spot where Lord Krishna was struck by an arrow by a hunter (Jara), creating the reason for his departure from earth."
+        },
+        {
+            "name": "Triveni Sangam",
+            "description": "The confluence of three rivers: Hiran, Kapila, and Saraswati, meeting the sea. A spot for holy baths."
+        },
+        {
+            "name": "Ahilyabai Temple",
+            "description": "The old Somnath temple built by Queen Ahilyabai Holkar underground to protect the lingam from invaders. It is still active."
+        },
+        {
+            "name": "Prabhas Patan Museum",
+            "description": "Houses artifacts and remnants of the destroyed ancient temples of Somnath."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Darshan of the Somnath Jyotirlinga.",
+        "Attend the 7 PM Aarti.",
+        "Watch the 'Jay Somnath' Light and Sound show at 8 PM.",
+        "Visit Bhalka Tirth to pay respects to Lord Krishna.",
+        "Camel ride on Somnath beach.",
+        "Meditate facing the vast ocean."
+    ],
+    "highlights": [
+        "The location of the temple right on the shore.",
+        "The arrow pillar mentioning the path to South Pole.",
+        "The grandeur of the architecture.",
+        "The poignant Light and Sound show.",
+        "The serene Bhalka Tirth."
+    ],
+    "local_guides_available": true,
+    "best_months": "September to March. Mahashivratri (Feb/March) is grand.",
+    "how_to_reach": "By Air: Diu Airport (80km) or Rajkot (200km). By Train: Somnath Station. By Road: Good highways from Dwarka (230km) and Diu.",
+    "stay_recommendations": "Luxury: Lords Inn Somnath. Spiritual: Sagar Darshan Guest House (Trust managed, sea facing). Budget: Hotel Sun Plaza.",
+    "safety_tips": "Photography is strictly prohibited inside the main temple. Mobile phones must be deposited in the cloakroom. The sea is rough; swimming is usually restricted.",
+    "sample_itinerary": "Day 1: Arrive. Check in. Visit Triveni Sangam. Visit Old and New Somnath Temple. Evening Aarti and Light Show.\nDay 2: Morning visit to Bhalka Tirth. Visit Museum. Depart for Diu or Gir National Park.",
+    "tags": [
+        "Shiva",
+        "Jyotirlinga",
+        "Sea",
+        "History",
+        "Gujarat"
+    ],
+    "is_bookable": true
+}

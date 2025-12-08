@@ -5,72 +5,38 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "sonner";
-
-interface EntryFee {
-    category: string;
-    price: number;
-    currency: string;
-    notes: string;
-}
-
-interface ParkData {
-    id: string;
-    title: string;
-    hero_image: string;
-    short_description: string;
-    long_description: string;
-    wildlife_significance: string;
-    species_to_see: string[];
-    habitat_types: string[];
-    safari_types: string[];
-    major_experiences: string[];
-    highlights: string[];
-    guides_and_tips: string;
-    how_to_reach: string;
-    accommodation_recommendations: string[];
-    permits_and_fees: string;
-    conservation_notes: string;
-    safety_tips: string;
-    tags: string[];
-    entry_fees: EntryFee[];
-    operating_season: {
-        best_months: string;
-        peak_months: string;
-        off_season: string;
-        season_notes: string;
-    };
-    opening_hours: {
-        open_time: string;
-        close_time: string;
-        days: string;
-    };
-}
+import { getWildlifeDetail, WildlifeParkDetail } from "@/lib/wildlifeApi";
+import { useTranslation } from "react-i18next";
 
 const WildlifePark = () => {
+    const { i18n } = useTranslation();
     const { slug } = useParams();
     const navigate = useNavigate();
-    const [data, setData] = useState<ParkData | null>(null);
+    const [data, setData] = useState<WildlifeParkDetail | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchData = async () => {
+            if (!slug) return;
             try {
                 setLoading(true);
-                const module = await import(`../data/wildlife-safaris/${slug}.json`);
-                setData(module.default);
+                const parkData = await getWildlifeDetail(slug, i18n.language);
+                if (parkData) {
+                    setData(parkData);
+                } else {
+                    toast.error("Destination not found");
+                    navigate("/wildlife-safaris");
+                }
             } catch (error) {
                 console.error("Failed to load park data:", error);
-                toast.error("Destination not found");
-                navigate("/wildlife-safaris");
+                toast.error("Error loading data");
             } finally {
                 setLoading(false);
             }
         };
 
-        if (slug) {
-            fetchData();
-        }
-    }, [slug, navigate]);
+        fetchData();
+    }, [slug, navigate, i18n.language]);
 
     if (loading) {
         return (

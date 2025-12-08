@@ -1,0 +1,194 @@
+{
+    "id": "royal-orchid-brindavan",
+    "slug": "royal-orchid-brindavan",
+    "title": "Royal Orchid Brindavan Garden",
+    "hero_image": "https://images.unsplash.com/photo-1600607689980-4573b5c73d9e?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A heritage hotel located within the famous Brindavan Gardens, offering spectacular views.",
+    "long_description": "The Royal Orchid Brindavan Garden Palace & Spa is a heritage hotel that was once the summer palace of the Maharajas of Mysore. Built in 1935, it sits majestically overlooking the world-famous Brindavan Gardens and the Krishna Raja Sagar Dam.\n\nThe hotel is an architectural beauty with high ceilings, spacious arches, and colonial-style furniture. The biggest draw is the location—guests have exclusive access to the gardens and can watch the musical fountain show from the privacy of the hotel. It is a place of peace, broken only by the sound of fountains and birdsong.",
+    "amenities": [
+        "Swimming Pool",
+        "Spa",
+        "Game Room",
+        "Direct Garden Access",
+        "View of Musical Fountain",
+        "Bar"
+    ],
+    "room_types": [
+        {
+            "name": "Queen Room",
+            "starting_price": 8000,
+            "currency": "INR",
+            "description": "Comfortable rooms with garden views."
+        },
+        {
+            "name": "King Room",
+            "starting_price": 10000,
+            "currency": "INR",
+            "description": "Spacious rooms with modern amenities."
+        },
+        {
+            "name": "Heritage Suite",
+            "starting_price": 16000,
+            "currency": "INR",
+            "description": "Large suites with balconies overlooking the Dam."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "C.K. Hall",
+            "capacity": 200,
+            "notes": "Indoor banquet",
+            "wedding_ready": true
+        },
+        {
+            "name": "Garden Lawns",
+            "capacity": 1000,
+            "notes": "Spacious outdoor venue",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Open 24/7.",
+        "source_url": "https://www.royalorchidhotels.com/royal-orchid-brindavan-garden-palace-spa-mysore/overview",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "August",
+            "February"
+        ],
+        "peak_months": [
+            "October",
+            "December"
+        ],
+        "off_season": [
+            "March",
+            "May"
+        ],
+        "season_notes": "Beautiful during Dasara.",
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 8000,
+    "price_currency": "INR",
+    "packages": [
+        {
+            "name": "Romantic Getaway",
+            "price_from": 18000,
+            "inclusions": [
+                "2 Nights",
+                "Dinner",
+                "Spa Credit"
+            ],
+            "booking_method": "Direct",
+            "source_url": "https://www.royalorchidhotels.com/"
+        }
+    ],
+    "booking_methods": [
+        "Online",
+        "Phone"
+    ],
+    "booking_url": "https://www.royalorchidhotels.com/royal-orchid-brindavan-garden-palace-spa-mysore/overview",
+    "wedding_packages": [],
+    "event_contacts": [
+        {
+            "role": "Sales",
+            "name": null,
+            "email": "gm.brindavan@royalorchidhotels.com",
+            "phone": "+91 82362 97257"
+        }
+    ],
+    "signature_experiences": [
+        "Private View of Musical Fountain",
+        "Walk on the Dam",
+        "Spa Therapy",
+        "Billiards"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Garden Retreat",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Nature & Royalty",
+                    "activities": [
+                        "Check-in",
+                        "Evening Walk in Gardens",
+                        "Musical Fountain Show"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "C.K.'s",
+            "cuisine": "Multi-cuisine",
+            "reservation_required": false
+        },
+        {
+            "name": "Elephant Bar",
+            "cuisine": "Drinks & Finger Food",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": true,
+        "accessible_rooms": true
+    },
+    "heritage_history": "Built in 1935 for the Maharaja of Mysore.",
+    "conservation_notes": "Preserves the colonial architecture amidst the gardens.",
+    "cultural_responsibility": "Part of the KRS Dam heritage area.",
+    "how_to_reach": "20 km from Mysore City Center.",
+    "nearest_airport": "Mysore Airport (30 km)",
+    "nearest_rail_station": "Mysore Junction (18 km)",
+    "suggested_stay": "1-2 Nights",
+    "contact": {
+        "phone": "+91 82362 97257",
+        "email": "gm.brindavan@royalorchidhotels.com",
+        "address": "Brindavan Gardens, Krishna Raja Sagar, Mandya 571607"
+    },
+    "tags": [
+        "Heritage",
+        "Gardens",
+        "Dam View",
+        "Colonial",
+        "Mysore"
+    ],
+    "highlights": [
+        "Located inside Brindavan Gardens",
+        "Colonial Architecture",
+        "Peaceful Location",
+        "History of Wodeyars",
+        "Elephant Bar"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates vary.",
+        "data_provider": "Royal Orchid Hotels",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Royal Orchid Brindavan Garden Mysore | Palace Hotel",
+    "seo_description": "Book Royal Orchid Brindavan Garden. A heritage hotel overlooking the KRS Dam and Brindavan Gardens.",
+    "source_reference": [
+        {
+            "url": "https://www.royalorchidhotels.com/royal-orchid-brindavan-garden-palace-spa-mysore/overview",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

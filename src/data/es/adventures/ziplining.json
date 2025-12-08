@@ -1,0 +1,158 @@
+{
+    "id": "ziplining",
+    "slug": "ziplining",
+    "title": "Ziplining",
+    "hero_image": "https://images.unsplash.com/photo-1543789069-79f9479b4a49?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1543789069-79f9479b4a49?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1597816828456-ce74620f4133?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1627918361660-3129486c8f69?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "High-speed aerial glides across forts, forests, and river valleys.",
+    "long_description": "Ziplining, also known as Flying Fox, uses gravity to propel you down a steel cable mounted on an incline. In India, this activity has transformed from a simple playground ride to a spectacular way to tour heritage sites and natural wonders. Imagine zipping from one turret of a 15th-century fort to another, or soaring 400 meters above the roaring Ganges river.\n\nThe most famous operator, Flying Fox (now often operating under various heritage partners), popularized 'heritage zips' in Rajasthan. These tours usually consist of multiple zip lines (5 to 6) that take you on a 2-hour aerial journey around a location. It requires less physical effort than climbing but delivers a fantastic rush of speed and height.\n\nModern zip facilities use international standard braking systems and harnesses, making it extremely safe. Participants are given a brief training on how to hold the trolley and control their body position before launching off the first platform.",
+    "locations": [
+        {
+            "location": "Neemrana Fort",
+            "state": "Rajasthan",
+            "best_months": "All Year (Best: Oct–Mar)",
+            "price_from": 2000,
+            "summary": "India's first heritage zip tour with 5 lines offering aerial views of the palace-fort.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Rishikesh (Shivpuri)",
+            "state": "Uttarakhand",
+            "best_months": "September–June",
+            "price_from": 1800,
+            "summary": "Zip across the River Ganges on one of the longest ziplines in Asia (approx 750m).",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Kikar Lodge",
+            "state": "Punjab",
+            "best_months": "October–March",
+            "price_from": 1500,
+            "summary": "A 5-line forest zip tour in the Shivalik foothills, arguably the longest zip tour in South Asia.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Munnar",
+            "state": "Kerala",
+            "best_months": "September–May",
+            "price_from": 500,
+            "summary": "Short but scenic zips over tea plantations and forests.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Jodhpur (Mehrangarh)",
+            "state": "Rajasthan",
+            "best_months": "July–March",
+            "price_from": 1800,
+            "summary": "Spectacular flight over the battlements, lakes, and gardens of the Mehrangarh Fort.",
+            "difficulty": "Beginner"
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [
+        {
+            "type": "Full Zip Tour (5-6 Lines)",
+            "price_from": 2000,
+            "price_to": 2800,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://www.neemranahotels.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "River Crossing Zip (Single)",
+            "price_from": 1500,
+            "price_to": 2000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://www.flyingfox.asia",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "09:30",
+            "close_time": "17:00",
+            "time_notes": "Sessions usually start every hour. Last session starts 90 mins before sunset.",
+            "source_url": "https://www.flyingfox.asia",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "operating_season": {
+        "best_months": "October to March",
+        "peak_months": "December–January",
+        "off_season": "Summer afternoons can be very hot; Monsoon may close operations.",
+        "season_notes": "Neemrana and Jodhpur operate year-round but morning slots are best in summer.",
+        "last_checked": "2024-04-12"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "high",
+        "disclaimer": "Students and groups often get discounts.",
+        "data_provider": "Operator Websites",
+        "last_updated": "2024-04-12"
+    },
+    "difficulty_level": "Beginner",
+    "safety_guidelines": [
+        "Weight restrictions apply: Minimum 35kg, Maximum 115kg (varies by operator).",
+        "Minors need signed consent and sometimes accompaniment.",
+        "Long hair must be tied back to avoid entanglement.",
+        "Loose items (phones, keys) must be secured or left in lockers.",
+        "Do not touch the cable or trolley while moving."
+    ],
+    "equipment_checklist": [
+        "Closed-toe shoes (mandatory, no flip-flops)",
+        "Shorts or pants (skirts are not suitable due to harness)",
+        "Sunscreen",
+        "Hair tie (for long hair)"
+    ],
+    "major_experiences": [
+        "The rush of accelerating to 40-60 km/h on a cable",
+        "Bird's eye perspective of forts and forests",
+        "Short hikes between zip platforms",
+        "Overcoming the fear of heights in a controlled environment"
+    ],
+    "sample_itinerary": {
+        "one_day": "Arrive at Neemrana Fort by 10 AM. walk 20 mins uphill to the first platform. Safety briefing + practice zip. Complete the 5-zip circuit (approx 1.5 hours). Lunch at the Fort hotel."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "Online via Flying Fox Asia or Neemrana Hotels",
+            "Walk-in (subject to slot availability)"
+        ],
+        "booking_url": "https://www.flyingfox.asia",
+        "suggested_stay": "Neemrana Fort-Palace for the Neemrana zip; Raas Jodhpur for Mehrangarh.",
+        "how_to_reach": "Neemrana is a 2-hour drive from Delhi on the Jaipur highway."
+    },
+    "seo": {
+        "seo_title": "Ziplining in India: Neemrana, Rishikesh, Kerala & More | 2024 Guide",
+        "seo_description": "Zip across the Ganges or over Neemrana Fort. Complete guide to best zipline tours in India, including prices, safety, and booking info.",
+        "tags": [
+            "Neemrana Zipline",
+            "Flying Fox India",
+            "Rishikesh Zipline",
+            "Adventure Activities Rajasthan",
+            "Zipline cost India"
+        ]
+    },
+    "highlights": [
+        "One of the safest gravity-based adventures suitable for beginners.",
+        "Unique 'Heritage Zips' offer tours of historical forts from the air.",
+        "Rishikesh offers cross-river zips over the Ganges.",
+        "Reaches speeds of up to 60 km/h.",
+        "Takes about 1.5 to 2 hours for a full multi-line tour.",
+        "Excellent photo opportunities from landing platforms."
+    ]
+}

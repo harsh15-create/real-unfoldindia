@@ -1,0 +1,124 @@
+{
+    "id": "bandhavgarh",
+    "slug": "bandhavgarh",
+    "title": "Bandhavgarh National Park",
+    "hero_image": "https://images.unsplash.com/photo-1550604118-8686d6350d51?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1627918494950-705c7546e16a?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1548074697-3f92de23a230?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599320641219-48234857502c?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Known for the highest density of Royal Bengal Tigers in the world and the legendary White Tiger.",
+    "long_description": "Bandhavgarh National Park, situated in the Umaria district of Madhya Pradesh, is a place of mythological and historical significance. The ancient Bandhavgarh Fort is of great importance as it is believed to have been gifted by Lord Rama to his younger brother Lakshmana. The park boasts one of the highest densities of tiger populations in India, making it one of the best places to spot the big cat. The terrain is broken by a series of rocky hills, covered with sal forests and grasslands. It used to be the hunting ground of the Maharajas of Rewa and is famous as the origin of all white tigers in captivity around the world.",
+    "wildlife_significance": "Highest density of tigers in India. Origin of the White Tiger lineage.",
+    "species_to_see": [
+        "Royal Bengal Tiger",
+        "Leopard",
+        "Sloth Bear",
+        "Gaur (Indian Bison)",
+        "Sambar",
+        "Barking Deer",
+        "Nilgai"
+    ],
+    "habitat_types": [
+        "Tropical Moist Deciduous Forest",
+        "Sal Forest",
+        "Mixed Forest",
+        "Bamboo Thickets"
+    ],
+    "safari_types": [
+        "Jeep Safari"
+    ],
+    "major_experiences": [
+        "Tiger tracking in Tala, Magdhi, and Khitauli zones",
+        "Visit Bandhavgarh Fort (requires special permission)",
+        "Shesh Shaiya (11-meter reclining statue of Vishnu)",
+        "Bird watching"
+    ],
+    "guides_and_tips": "Tala zone is the premium zone with the most scenic beauty and sightings. Book well in advance.",
+    "how_to_reach": "By Air: Jabalpur (190 km) is the nearest airport. By Rail: Umaria (35 km) or Katni (100 km).",
+    "accommodation_recommendations": [
+        "Mahua Kothi (Taj Sweats)",
+        "Bandhav Vilas",
+        "Kings Lodge",
+        "Nature Heritage Resort"
+    ],
+    "permits_and_fees": "Permits available on MP Forest Department website.",
+    "conservation_notes": "Active monitoring of tiger corridors connecting to Kanha. Plastic free zone.",
+    "highlights": [
+        "Bandhavgarh Fort",
+        "Shesh Shaiya",
+        "Charger Point",
+        "Three Cave Point",
+        "Baghel Museum"
+    ],
+    "sample_itinerary": "Day 1: Arrival at resort. Evening nature walk. Day 2: Morning Jeep Safari in Tala Zone. Breakfast. Visit Baghel Museum. Afternoon Safari in Magdhi Zone. Day 3: Morning drive to check out Shesh Shaiya. Departure.",
+    "safety_tips": "Winters are extremely cold. Carry layers. Do not feed wildlife.",
+    "tags": [
+        "Tiger Capital",
+        "Fort",
+        "Madhya Pradesh",
+        "White Tiger"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 0,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Included in vehicle permit cost typically.",
+            "source_url": "https://forest.mponline.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Jeep Safari (Full Vehicle)",
+            "price_from": 5000,
+            "price_to": 7500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://forest.mponline.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "type": "Single Seat in Jeep",
+            "price_from": 1200,
+            "price_to": 1800,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://forest.mponline.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily (Seasonal)",
+        "open_time": "06:00",
+        "close_time": "17:30",
+        "time_notes": "Closed on Wednesday evenings.",
+        "source_url": "https://forest.mponline.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "October to June",
+        "peak_months": "March to May (Best Tiger Sighting)",
+        "off_season": "July to September (Closed)",
+        "season_notes": "Core zones closed in monsoon. Buffer zones may be open.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://forest.mponline.gov.in/",
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates vary by zone and weekend/weekday.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}
