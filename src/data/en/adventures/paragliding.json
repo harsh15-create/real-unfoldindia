@@ -1,0 +1,202 @@
+{
+    "id": "paragliding",
+    "slug": "paragliding",
+    "title": "Paragliding",
+    "hero_image": "https://images.unsplash.com/photo-1596489392231-18e38484439c?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1596489392231-18e38484439c?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1445548671936-e1ff8a6a6b20?q=80&w=2071&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1625293292415-38508ae1665e?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1605540450567-0c1590432168?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "Experience the freedom of flight over Himalayan valleys and coastal cliffs.",
+    "long_description": "Paragliding offers the closest experience to flying like a bird. It involves foot-launching from a hill or mountain slope while harnessed to a wide, canopy-like wing. Using rising currents of warm air (thermals) and wind, pilots can stay aloft for hours and cover vast distances.\n\nIn India, paragliding has grown from a niche sport to a major adventure attraction. The country boasts one of the world's best paragliding sites—Bir Billing in Himachal Pradesh—which hosted the Paragliding World Cup. But the sport isn't limited to the Himalayas; you can also glide over the lush Western Ghats in Kamshet, the endless plains of Gujarat, or the scenic tea gardens of Vagamon in Kerala.\n\nFlights are generally categorized into two types: Tandem and Solo. For most tourists, Tandem flights are the way to go. You are strapped securely in front of an experienced, licensed pilot who handles all the controls, leaving you free to enjoy the panoramic views and take photos. For those seeking to master the skies themselves, accredited schools offer 15-day courses to learn solo flying.\n\nThe sensation is surprisingly peaceful. After a few energetic steps during takeoff, the ground falls away, and the wind rushes past as you soar silently. Whether it's the adrenaline of a high-altitude cross-country flight or a gentle sunset glide, paragliding is an unforgettable way to see India from a new perspective.",
+    "locations": [
+        {
+            "location": "Bir Billing",
+            "state": "Himachal Pradesh",
+            "best_months": "October–June",
+            "price_from": 3000,
+            "summary": "The 'Paragliding Capital of India', famous for being the world's second-highest site and offering long cross-country flights.",
+            "difficulty": "Beginner–Advanced"
+        },
+        {
+            "location": "Kamshet",
+            "state": "Maharashtra",
+            "best_months": "October–May",
+            "price_from": 2500,
+            "summary": "A favorite for Mumbaikars, offering stable ridge soaring conditions over Sahyadri hills and sunflowers fields.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Manali (Solang Valley)",
+            "state": "Himachal Pradesh",
+            "best_months": "January–December (except Monsoon)",
+            "price_from": 1500,
+            "summary": "Short but scenic flights over snow-capped peaks and pine forests, popular with tourists.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Nainital (Naukuchiatal)",
+            "state": "Uttarakhand",
+            "best_months": "September–June",
+            "price_from": 1800,
+            "summary": "Gentle flights over shimmering lakes and green hills, ideal for first-timers.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Vagamon",
+            "state": "Kerala",
+            "best_months": "September–January",
+            "price_from": 3500,
+            "summary": "Soar over lush green tea plantations and misty valleys in 'God's Own Country'.",
+            "difficulty": "Beginner–Intermediate"
+        },
+        {
+            "location": "Gangtok",
+            "state": "Sikkim",
+            "best_months": "October–May",
+            "price_from": 4000,
+            "summary": "High-altitude flights offering breathtaking views of the Kanchenjunga range.",
+            "difficulty": "Intermediate"
+        }
+    ],
+    "entry_fees": [
+        {
+            "category": "Bir Billing Takeoff Fee",
+            "price": 50,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Green tax collected by local administration",
+            "source_url": "https://birbilling.com",
+            "last_checked": "2024-03-10"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Short Tandem Flight (10-15 mins)",
+            "price_from": 2500,
+            "price_to": 3500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://traveltriangle.com/blog/paragliding-in-india/",
+            "last_checked": "2024-04-15"
+        },
+        {
+            "type": "Long 'XC' Flight (30-45 mins)",
+            "price_from": 4500,
+            "price_to": 6000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://billingparaglidingassociation.com",
+            "last_checked": "2024-04-15"
+        },
+        {
+            "type": "P1 + P2 Pilot Course (10 Days)",
+            "price_from": 35000,
+            "price_to": 45000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://www.templepilots.com/",
+            "last_checked": "2024-04-15"
+        },
+        {
+            "type": "GoPro Video Recording",
+            "price_from": 500,
+            "price_to": 1000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "null",
+            "last_checked": "2024-04-15"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "09:00",
+            "close_time": "17:30",
+            "time_notes": "Flights are strictly weather dependent. Morning flights are smoother; afternoon flights have stronger thermals.",
+            "source_url": "https://birbilling.com",
+            "last_checked": "2024-04-15"
+        }
+    ],
+    "operating_season": {
+        "best_months": "October to June",
+        "peak_months": "October–November and March–May",
+        "off_season": "July to September (Monsoon)",
+        "season_notes": "Bir Billing hosts the Paragliding World Cup in October/November.",
+        "last_checked": "2024-04-15"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "high",
+        "disclaimer": "Prices vary by season, flight duration, and operator negotiation.",
+        "data_provider": "Aggregated Travel Data",
+        "last_updated": "2024-04-15"
+    },
+    "difficulty_level": "Beginner",
+    "safety_guidelines": [
+        "Verify pilot's license (must be valid and carry ID).",
+        "Check equipment condition: harness should be secure, canopy should not have large tears.",
+        "Do not fly in rain, strong winds, or extremely cloudy conditions.",
+        "Wear ankle-supporting shoes to prevent injury during landing.",
+        "Follow pilot instructions strictly during takeoff run (don't sit down too early!).",
+        "Weight limit usually strictly enforced (Min 20kg, Max 95-105kg depending on wind)."
+    ],
+    "equipment_checklist": [
+        "Sturdy running shoes or trekking boots",
+        "Windcheater jacket (it gets cold up there)",
+        "Sunglasses (to protect eyes from wind)",
+        "GoPro (optional, usually provided for a fee)",
+        "Long pants (to protect legs during landing)"
+    ],
+    "major_experiences": [
+        "Running off a cliff edge to take off",
+        "Thermalling: circling upwards with eagles to gain height",
+        "Acrobatic maneuvers (Wing-overs and Spirals) if requested",
+        "Sunset glides with golden valley views",
+        "Landing in a designated meadow zone"
+    ],
+    "sample_itinerary": {
+        "one_day": "Arrive at landing site by 9 AM. Take a jeep transfer (45 mins) to the takeoff point (Billing). Briefing by pilot. 15-30 minute flight landing at Bir. Lunch at a Tibetan cafe. Visit the monastery in the afternoon.",
+        "training": "Day 1: Ground handling and canopy control. Day 2: Small hops from baby slopes. Day 3: Higher flights with radio guidance. Day 4-5: Solo flights from intermediate hills."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "Online via travel aggregators",
+            "Directly with Pilot Associations (e.g., Billing Paragliding Association)",
+            "On-the-spot booking at landing sites"
+        ],
+        "booking_url": "https://birbilling.com",
+        "suggested_stay": "Bir features numerous backpacker hostels (Zostel, The Hosteller) and boutique homestays.",
+        "how_to_reach": "For Bir: Overnight Volvo bus from Delhi to Bir Road. Nearest airport is Dharamshala (Kangra) - 2 hours away."
+    },
+    "seo": {
+        "seo_title": "Paragliding in India: Top 10 Sites, Cost & Safety Guide 2024",
+        "seo_description": "Plan your paragliding trip to Bir Billing, Manali, or Kamshet. Get tandem flight prices, best seasons, safety tips, and booking details for 2024.",
+        "tags": [
+            "Paragliding Bir Billing",
+            "Adventure Sports India",
+            "Tandem Paragliding",
+            "Kamshet Paragliding",
+            "Manali Adventure"
+        ]
+    },
+    "highlights": [
+        "Fly from the world's second-highest paragliding site at Bir Billing.",
+        "Experience flight durations of up to 45 minutes on good wind days.",
+        "No prior experience required for Tandem flights.",
+        "Record your flight with GoPro cameras mounted on selfie sticks.",
+        "Enjoy spectacular views of the Dhauladhar Himalayan range.",
+        "Pilots are highly experienced, many with international flying hours."
+    ]
+}

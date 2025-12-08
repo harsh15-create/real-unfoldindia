@@ -1,0 +1,190 @@
+{
+    "name": "Hyderabad",
+    "title": "The City of Pearls & Nawabi Heritage",
+    "image": "https://images.unsplash.com/photo-1574108236743-40e53e6e3c5c?q=80&w=1000&auto=format&fit=crop",
+    "about": "Hyderabad is a royal blend of Nizami culture, tech innovation, historic monuments, and world-famous biryani. Known for Charminar, grand palaces, lakes, bazaars, and modern IT hubs, Hyderabad offers a mix of tradition and modernity.",
+    "bestTime": [
+        {
+            "season": "October to February",
+            "desc": "Ideal weather, pleasant for sightseeing."
+        },
+        {
+            "season": "March to June",
+            "desc": "Hot summer, best to avoid."
+        },
+        {
+            "season": "July to September",
+            "desc": "Monsoon season."
+        },
+        {
+            "season": "Festivals",
+            "desc": "Ramzan, Bonalu, Diwali."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Charminar",
+            "image": "https://images.unsplash.com/photo-1574108236743-40e53e6e3c5c?q=80&w=800&auto=format&fit=crop",
+            "timings": "9:30 AM – 5:30 PM",
+            "entry": "₹25",
+            "duration": "30–45 mins",
+            "desc": "Historic Nizami monument and symbol of Hyderabad."
+        },
+        {
+            "name": "Golconda Fort",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 5:30 PM",
+            "entry": "₹25",
+            "duration": "2–3 hrs",
+            "desc": "Historic fortress known for its acoustics and light & sound show."
+        },
+        {
+            "name": "Hussain Sagar Lake",
+            "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
+            "timings": "8 AM – 10 PM",
+            "entry": "Free (Boating charges apply)",
+            "duration": "1 hr",
+            "desc": "Heart-shaped lake with a large Buddha statue."
+        },
+        {
+            "name": "Ramoji Film City",
+            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
+            "timings": "9 AM – 5:30 PM",
+            "entry": "₹1150+",
+            "duration": "Full day",
+            "desc": "World’s largest integrated film city complex."
+        },
+        {
+            "name": "Chowmahalla Palace",
+            "image": "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 5 PM (Fri Closed)",
+            "entry": "₹80",
+            "duration": "1 hr",
+            "desc": "Magnificent palace of the Nizams."
+        },
+        {
+            "name": "Salar Jung Museum",
+            "image": "https://images.unsplash.com/photo-1565017992-026857643b49?q=80&w=800&auto=format&fit=crop",
+            "timings": "10 AM – 5 PM (Fri Closed)",
+            "entry": "₹20",
+            "duration": "1–2 hrs",
+            "desc": "One of the largest museums with a unique collection of art and antiques."
+        },
+        {
+            "name": "Laad Bazaar",
+            "image": "https://images.unsplash.com/photo-1582510003544-5243789972d1?q=80&w=800&auto=format&fit=crop",
+            "timings": "11 AM – 11 PM",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "Famous for bangles, pearls, and traditional handicrafts."
+        },
+        {
+            "name": "Birla Mandir",
+            "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+            "timings": "7 AM – 12 PM, 3 PM – 9 PM",
+            "entry": "Free",
+            "duration": "45 mins",
+            "desc": "White marble temple offering panoramic views of the city."
+        },
+        {
+            "name": "Necklace Road",
+            "image": "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "Flexible",
+            "desc": "Scenic stretch along Hussain Sagar Lake with cafés and parks."
+        },
+        {
+            "name": "Shilparamam",
+            "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
+            "timings": "10:30 AM – 8 PM",
+            "entry": "₹40",
+            "duration": "2 hrs",
+            "desc": "Arts, crafts, and cultural village."
+        }
+    ],
+    "hiddenGems": [
+        "Taramati Baradari",
+        "Paigah Tombs",
+        "Khajaguda Hills",
+        "Secret Lake (Durgam Cheruvu)",
+        "Opera House Cafés"
+    ],
+    "food": [
+        {
+            "area": "Paradise",
+            "spots": "Hyderabadi Biryani"
+        },
+        {
+            "area": "Bawarchi",
+            "spots": "Biryani"
+        },
+        {
+            "area": "Shah Ghouse",
+            "spots": "Haleem & Biryani"
+        },
+        {
+            "area": "Nimrah Café",
+            "spots": "Irani Chai & Osmania Biscuits"
+        },
+        {
+            "area": "Chutneys",
+            "spots": "South Indian"
+        }
+    ],
+    "markets": [
+        "Laad Bazaar",
+        "Charminar Market",
+        "Begum Bazaar",
+        "GVK One Mall"
+    ],
+    "nightlife": [
+        "Banjara Hills",
+        "Jubilee Hills",
+        "Hitec City",
+        "Gachibowli"
+    ],
+    "transport": {
+        "metro": "Expanding fast",
+        "cabs": [
+            {
+                "type": "Auto-rickshaw",
+                "cost": "Negotiable"
+            },
+            {
+                "type": "Ola/Uber",
+                "cost": "₹80–₹150"
+            },
+            {
+                "type": "Airport Taxi",
+                "cost": "₹500–₹900"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800–₹1400/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹3500–₹8000/day"
+        }
+    ],
+    "stay": [
+        "Banjara Hills",
+        "Hitec City",
+        "Gachibowli",
+        "Abids"
+    ],
+    "safety": [
+        "Old city gets crowded—secure belongings",
+        "Traffic is heavy—plan buffer time",
+        "Women: stick to known areas at night",
+        "Hydrate well during summer months"
+    ]
+}

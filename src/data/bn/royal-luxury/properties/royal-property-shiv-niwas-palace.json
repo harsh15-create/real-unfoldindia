@@ -1,0 +1,220 @@
+{
+    "id": "shiv-niwas-palace",
+    "slug": "shiv-niwas-palace",
+    "title": "Shiv Niwas Palace",
+    "hero_image": "https://images.unsplash.com/photo-1596423403246-814ae8e7a080?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1629202580798-2831d10ca4e6?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1623060731215-6c1dbd4e5f22?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Part of the City Palace complex, this crescent-shaped palace was originally reserved for royal guests.",
+    "long_description": "The Shiv Niwas Palace, a Grand Heritage Palace of the HRH Group of Hotels, is an architectural marvel. Crescent-shaped and built in the early 20th century during the reign of Maharana Fateh Singh, it was originally reserved for visiting dignitaries and guests of the House of Mewar. Today, it opens its doors to guests who wish to experience the lifestyle of royalty.\n\nLocated within the City Palace complex, the suites at Shiv Niwas are adorned with original furniture and portraits that have been in the royal family for generations. The palace surrounds a pool and a marble courtyard, offering a secluded yet central retreat. It famously hosted Queen Elizabeth II and featured in the James Bond movie 'Octopussy'.",
+    "amenities": [
+        "Swimming Pool",
+        "Panghat Spa",
+        "City Palace Access",
+        "Vintage Car Collection",
+        "Bar",
+        "Free WiFi"
+    ],
+    "room_types": [
+        {
+            "name": "Palace Room",
+            "starting_price": 18000,
+            "currency": "INR",
+            "description": "Elegant rooms with traditional decor and views of Udaipur."
+        },
+        {
+            "name": "Terrace Suite",
+            "starting_price": 35000,
+            "currency": "INR",
+            "description": "Suites with private terraces offering stunning views of Lake Pichola."
+        },
+        {
+            "name": "Royal Suite",
+            "starting_price": 65000,
+            "currency": "INR",
+            "description": "Large suites with original period furniture and rich history."
+        },
+        {
+            "name": "Imperial Suite",
+            "starting_price": 120000,
+            "currency": "INR",
+            "description": "The finest accommodation, offering unparalleled luxury and space."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "The Lawns",
+            "capacity": 300,
+            "notes": "Poolside lawns for receptions",
+            "wedding_ready": true
+        },
+        {
+            "name": "Durbar Hall (adjacent)",
+            "capacity": 150,
+            "notes": "Grand hall available via complex",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Hotel is open 24/7.",
+        "source_url": "https://www.hrhhotels.com/grand-heritage/shiv-niwas-palace/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "February"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "April",
+            "June"
+        ],
+        "season_notes": null,
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 18000,
+    "price_currency": "INR",
+    "packages": [
+        {
+            "name": "Regal Stay",
+            "price_from": 45000,
+            "inclusions": [
+                "2 Nights Stay",
+                "Airport Transfer",
+                "Breakfast",
+                "Boat Ride"
+            ],
+            "booking_method": "Direct",
+            "source_url": "https://www.hrhhotels.com/grand-heritage/shiv-niwas-palace/offers.php"
+        }
+    ],
+    "booking_methods": [
+        "Online",
+        "Email"
+    ],
+    "booking_url": "https://www.hrhhotels.com/grand-heritage/shiv-niwas-palace/",
+    "wedding_packages": [
+        {
+            "name": "Royal Wedding",
+            "capacity": 200,
+            "starting_price": 3500000,
+            "inclusions": [
+                "Venue Hire",
+                "Catering",
+                "Decor Basics"
+            ],
+            "contact_url": "https://www.hrhhotels.com/weddings/"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Reservations",
+            "name": null,
+            "email": "crs@hrhhotels.com",
+            "phone": "+91 294 2528008"
+        }
+    ],
+    "signature_experiences": [
+        "Sip drinks at the Panera Bar",
+        "Walk through the City Palace Museum",
+        "Sunset Boat Ride from Jetty"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Heritage Discovery",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Palace Immersion",
+                    "activities": [
+                        "Check-in at Shiv Niwas",
+                        "Lunch at Paantya",
+                        "City Palace Museum Tour",
+                        "Drinks at Panera Bar"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Paantya",
+            "cuisine": "Multi-cuisine",
+            "reservation_required": false
+        },
+        {
+            "name": "The Pool Deck",
+            "cuisine": "Light Snacks & Drinks",
+            "reservation_required": false
+        },
+        {
+            "name": "Panera Bar",
+            "cuisine": "Bar & Lounge",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": true,
+        "accessible_rooms": true
+    },
+    "heritage_history": "Built in the early 20th century by Maharana Fateh Singh, it was the royal guesthouse. It is crescent-shaped and retains its original charm and furniture.",
+    "conservation_notes": "Part of the HRH Group's commitment to preserving the living heritage of Mewar.",
+    "cultural_responsibility": "Supports the Maharana of Mewar Charitable Foundation via tourism revenue.",
+    "how_to_reach": "Located inside the City Palace Complex, accessible by car or taxi from the airport (25km).",
+    "nearest_airport": "Maharana Pratap Airport (25 km)",
+    "nearest_rail_station": "Udaipur City Railway Station (3 km)",
+    "suggested_stay": "2 Nights",
+    "contact": {
+        "phone": "+91 294 2528008",
+        "email": "crs@hrhhotels.com",
+        "address": "The City Palace Complex, Udaipur, Rajasthan 313001"
+    },
+    "tags": [
+        "Heritage",
+        "City Palace",
+        "History",
+        "Royal",
+        "Views"
+    ],
+    "highlights": [
+        "Located in City Palace",
+        "Original Royal Decor",
+        "Panera Bar",
+        "Crescent Pool",
+        "Lake Views",
+        "James Bond Location"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Prices subject to change. Taxes extra.",
+        "data_provider": "HRH Group of Hotels",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Shiv Niwas Palace Udaipur | Heritage Hotel in City Palace",
+    "seo_description": "Stay at Shiv Niwas Palace, the royal guesthouse of the House of Mewar. Located within the City Palace complex, Udaipur.",
+    "source_reference": [
+        {
+            "url": "https://www.hrhhotels.com/grand-heritage/shiv-niwas-palace/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "id": "beas-kund",
+    "slug": "beas-kund",
+    "title": "Beas Kund",
+    "subtitle": "Source of the Beas River",
+    "region": "Himachal",
+    "hubs": [
+        "Manali",
+        "Solang"
+    ],
+    "about": "Beas Kund is a rewarding short trek that takes you to the glacial lake source of the Beas River. Starting from Solang Valley, it offers quick access to high-altitude scenery with Hanuman Tibba and the Seven Sisters peaks looming large.",
+    "difficulty": "Moderate",
+    "duration": "3 days / 2 nights",
+    "elevation_max_m": 3700,
+    "bestSeason": [
+        "May–Oct"
+    ],
+    "highlights": [
+        "Glacial lake",
+        "Hanuman Tibba view",
+        "Quick access"
+    ],
+    "tags": [
+        "lake",
+        "short-trek",
+        "weekend",
+        "moderate"
+    ],
+    "seo_title": "Beas Kund Trek — Manali Glacial Lake",
+    "seo_description": "A short but spectacular trek from Manali to the glacial Beas Kund lake, offering massive views of summits like Hanuman Tibba.",
+    "cover_image": "https://images.example.com/beas-kund-1.jpg",
+    "images": [
+        "https://images.example.com/beas-kund-1.jpg"
+    ],
+    "trek_places": [
+        {
+            "id": "dhundi",
+            "name": "Dhundi",
+            "short": " Scenic start of the trail",
+            "about": "Dhundi is the road-head where the trek begins, offering the first clear views of the high peaks. The walk from here follows the river through birch forests.",
+            "what_to_do": [
+                "Start the walk through the forest",
+                "Spot the Seven Sisters peaks",
+                "Enjoy the riverside trail"
+            ],
+            "coordinates": {
+                "lat": 32.3167,
+                "lon": 77.1500
+            },
+            "images": [
+                "https://images.example.com/dhundi-1.jpg"
+            ]
+        },
+        {
+            "id": "beas-kund-lake",
+            "name": "Beas Kund Lake",
+            "short": "Small glacial lake at the base of peaks",
+            "about": "The lake itself is small but the setting is grand, sitting in a bowl formed by high peaks. Legends say Sage Vyas meditated here; it’s a peaceful spot for reflection.",
+            "what_to_do": [
+                "Sit by the clear glacial water",
+                "Identify the surrounding peaks",
+                "Explore the moraine ridges nearby"
+            ],
+            "coordinates": {
+                "lat": 32.3667,
+                "lon": 77.0833
+            },
+            "images": [
+                "https://images.example.com/beas-kund-lake-1.jpg"
+            ]
+        }
+    ]
+}

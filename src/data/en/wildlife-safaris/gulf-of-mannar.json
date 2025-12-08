@@ -1,0 +1,111 @@
+{
+    "id": "gulf-of-mannar",
+    "slug": "gulf-of-mannar",
+    "title": "Gulf of Mannar Marine National Park",
+    "hero_image": "https://images.unsplash.com/photo-1610452352220-410c59828d5d?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1596541530756-3c46e3e56c3e?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1552084117-5663b8714272?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1618251275988-cb94bc807534?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "South Asia's first marine biosphere reserve, containing 21 islands with rich coral reefs and sea grass beds.",
+    "long_description": "The Gulf of Mannar Marine National Park is a protected area of India consisting of 21 small islands (islets) and adjacent coral reefs in the Gulf of Mannar in the Indian Ocean. It lies 1 to 10 km away from the east coast of Tamil Nadu for 160 km between Thoothukudi and Dhanushkodi. It is the core area of the Gulf of Mannar Biosphere Reserve which is the first marine biosphere reserve in South and South East Asia. The park has a high diversity of plants and animals in its marine, intertidal and near shore habitats. Public access inside the park islands is prohibited to protect fragile corals.",
+    "wildlife_significance": "Biosphere Reserve. Critical habitat for Dugongs (Sea Cows) and Dolphins.",
+    "species_to_see": [
+        "Dugong",
+        "Green Turtle",
+        "Dolphin",
+        "Whale Shark (Seasonal)",
+        "Sea Horse"
+    ],
+    "habitat_types": [
+        "Coral Reefs",
+        "Seagrass Beds",
+        "Mangroves"
+    ],
+    "safari_types": [
+        "Glass Bottom Boat (Mandapam/Rameswaram)"
+    ],
+    "major_experiences": [
+        "Glass bottom boat ride from Mandapam",
+        "Visit Marine Interpretation Centre",
+        "Pamban Bridge view",
+        "Dhanushkodi Ghost Town visit"
+    ],
+    "guides_and_tips": "Islands are strictly off-limits. Glass bottom boats operate from Mandapam jetty.",
+    "how_to_reach": "By Air: Madurai (150 km). By Rail: Rameswaram or Mandapam. By Road: NH87.",
+    "accommodation_recommendations": [
+        "Hotels in Rameswaram",
+        "Daiwik Hotel",
+        "Hyatt Place Rameswaram"
+    ],
+    "permits_and_fees": "Ticket included in boat ride fee.",
+    "conservation_notes": "Coral mining is banned. Illegal fishing is a major threat.",
+    "highlights": [
+        "Marine Biosphere",
+        "Glass Bottom Boat",
+        "Rameswaram Temple",
+        "Dhanushkodi",
+        "Pamban Bridge"
+    ],
+    "sample_itinerary": "Day 1: Arrive Rameswaram. Visit Temple. Day 2: Morning drive to Mandapam. Glass bottom boat ride. Visit Dhanushkodi in afternoon. Sunset. Day 3: Departure.",
+    "safety_tips": "Sea can be rough. Follow coast guard instructions.",
+    "tags": [
+        "Marine",
+        "Biosphere",
+        "Tamil Nadu",
+        "Coral",
+        "Dugong"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Boat Entry",
+            "price": 100,
+            "currency": "INR",
+            "price_type": "estimated",
+            "notes": "Nominal fee.",
+            "source_url": "https://www.forests.tn.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Glass Bottom Boat",
+            "price_from": 300,
+            "price_to": 500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://www.forests.tn.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "09:00",
+        "close_time": "16:00",
+        "time_notes": "Depends on sea conditions.",
+        "source_url": "https://www.forests.tn.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "October to March",
+        "peak_months": "December to January",
+        "off_season": "April to September",
+        "season_notes": "Summer is hot but sea is clear.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": false,
+        "permits_info_url": "https://www.forests.tn.gov.in/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Boat operations are weather dependent.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

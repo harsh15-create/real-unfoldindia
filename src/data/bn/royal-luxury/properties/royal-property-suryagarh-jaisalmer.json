@@ -1,0 +1,234 @@
+{
+    "id": "suryagarh-jaisalmer",
+    "slug": "suryagarh-jaisalmer",
+    "title": "Suryagarh Jaisalmer",
+    "hero_image": "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1629815049386-8f3b207ec1b0?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A modern fortress that captures the essence of medieval Rajasthan, offering bespoke desert experiences.",
+    "long_description": "Suryagarh Jaisalmer is not just a hotel; it is a gateway to the Thar Desert. Built as a sun-kissed fortress in the middle of the arid landscape, it preserves the traditions of the past with a modern luxurious twist. The architecture is imposing, with massive ramparts, moats, and intricate stone carvings that rival the city's ancient havelis.\n\nThe hotel is famous for its unique curated experiences, from 'Dinner on the Dunes' under the stars to the 'Silk Route Exploration'. It is a place where every stone tells a story, and the silence of the desert is the ultimate luxury. It has become a premier destination for celebrity weddings and those seeking an escape into the extraordinary.",
+    "amenities": [
+        "Rait Spa",
+        "Indoor Pool",
+        "Fitness Centre",
+        "Archery",
+        "Desert Safari",
+        "Pet Friendly"
+    ],
+    "room_types": [
+        {
+            "name": "Fort Room",
+            "starting_price": 25000,
+            "currency": "INR",
+            "description": "Rooms designed to reflect the desert heritage."
+        },
+        {
+            "name": "Pavilion Room",
+            "starting_price": 30000,
+            "currency": "INR",
+            "description": "Located on lower levels with views of the vast desert."
+        },
+        {
+            "name": "Heritage Room",
+            "starting_price": 35000,
+            "currency": "INR",
+            "description": "Large rooms with a traditional touch and modern amenities."
+        },
+        {
+            "name": "Luxury Suite",
+            "starting_price": 60000,
+            "currency": "INR",
+            "description": "Opulent suites with separate living areas."
+        },
+        {
+            "name": "Thar Haveli",
+            "starting_price": 120000,
+            "currency": "INR",
+            "description": "Standalone haveli suites with private courtyards and pools."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "The Courtyard",
+            "capacity": 500,
+            "notes": "Grand central courtyard",
+            "wedding_ready": true
+        },
+        {
+            "name": "Celebration Gardens",
+            "capacity": 1000,
+            "notes": "Large lawns for weddings",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Open 24/7.",
+        "source_url": "https://www.suryagarh.com/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "March"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": "Best in winter.",
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 25000,
+    "price_currency": "INR",
+    "packages": [
+        {
+            "name": "Desert Escape",
+            "price_from": 65000,
+            "inclusions": [
+                "2 Nights Stay",
+                "Thar Dinner",
+                "Sundowner"
+            ],
+            "booking_method": "Direct",
+            "source_url": "https://www.suryagarh.com/offers/"
+        }
+    ],
+    "booking_methods": [
+        "Online",
+        "Email"
+    ],
+    "booking_url": "https://www.suryagarh.com/",
+    "wedding_packages": [
+        {
+            "name": "Royal Fortress Wedding",
+            "capacity": 800,
+            "starting_price": 20000000,
+            "inclusions": [
+                "Full Buyout",
+                "Decor",
+                "Experience Curation"
+            ],
+            "contact_url": "https://www.suryagarh.com/celebrations/"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Events",
+            "name": null,
+            "email": "reservation@suryagarh.com",
+            "phone": "+91 78271 51151"
+        }
+    ],
+    "signature_experiences": [
+        "Breakfast with Peacocks",
+        "Thar Dinner on Dunes",
+        "Chudail Trail (Midnight Horror Trail)",
+        "Silk Route Exploration"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Thar Immersion",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Welcome to the Fort",
+                    "activities": [
+                        "Traditional Welcome",
+                        "Halwai Breakfast",
+                        "Sundowner at Kuldhara",
+                        "Dinner in Courtyard"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "title": "Desert Secrets",
+                    "activities": [
+                        "Silk Route Drive",
+                        "Lunch at Oasis",
+                        "Midnight Chudail Trail"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Nosh",
+            "cuisine": "All-day Dining",
+            "reservation_required": false
+        },
+        {
+            "name": "The Legend of Marwar",
+            "cuisine": "Fine Dining Rajasthani",
+            "reservation_required": true
+        },
+        {
+            "name": "Draksh",
+            "cuisine": "Bar & Lounge",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": true,
+        "accessible_rooms": true
+    },
+    "heritage_history": "While a modern build, it is constructed using traditional techniques and sandstone, embodying the spirit of a medieval fort.",
+    "conservation_notes": "Promotes local folklore and traditions like the Manganiyar music.",
+    "cultural_responsibility": "Sustainably manages water in the desert environment.",
+    "how_to_reach": "15 km from Jaisalmer city.",
+    "nearest_airport": "Jaisalmer Airport (28 km)",
+    "nearest_rail_station": "Jaisalmer Railway Station (16 km)",
+    "suggested_stay": "3 Nights",
+    "contact": {
+        "phone": "+91 78271 51151",
+        "email": "reservation@suryagarh.com",
+        "address": "Kahala Phata, Sam Road, Jaisalmer 345001"
+    },
+    "tags": [
+        "Fortress",
+        "Desert",
+        "Luxury",
+        "Experiences",
+        "Spa"
+    ],
+    "highlights": [
+        "Thar Haveli Suites",
+        "Chudail Trail",
+        "Dinner on Dunes",
+        "Halwai Breakfast",
+        "Pet Friendly",
+        "Architecture"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates exclusive of taxes.",
+        "data_provider": "Suryagarh",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Suryagarh Jaisalmer | Luxury Fortress Hotel in Thar Desert",
+    "seo_description": "Book your stay at Suryagarh Jaisalmer. A luxury gateway to the Thar Desert offering unique experiences like Dinner on Dunes and the Silk Route.",
+    "source_reference": [
+        {
+            "url": "https://www.suryagarh.com/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

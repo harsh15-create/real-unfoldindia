@@ -1,0 +1,168 @@
+{
+    "id": "camping",
+    "slug": "camping",
+    "title": "Camping",
+    "hero_image": "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "Experience nature up close by staying in tents in deserts, forests, or hills.",
+    "long_description": "Camping in India has moved beyond hardcore trekking. 'Leisure Camping' is now a massive trend, allowing families and friends to experience the outdoors without walking for days with a backpack. From luxury 'Glamping' in Jaisalmer's deserts to lakeside tents in Maharashtra and riverside camps in Rishikesh, the options are endless.\n\nCamping offers a digital detox, bonfires, stargazing, and waking up to bird calls. Bhandardara in Maharashtra is famous for massive firefly congregations in May-June, creating a magical bioluminescent forest around your tent. Jaisalmer offers cultural evenings with folk dance alongside tent stays.",
+    "locations": [
+        {
+            "location": "Jaisalmer (Sam Dunes)",
+            "state": "Rajasthan",
+            "best_months": "October–March",
+            "price_from": 3000,
+            "summary": "Luxury Swiss tents with attached baths and cultural programs.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Bhandardara",
+            "state": "Maharashtra",
+            "best_months": "May–June (Fireflies)",
+            "price_from": 1500,
+            "summary": "Lakeside camping famous for Firefly Festival before monsoon.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Pawna Lake",
+            "state": "Maharashtra",
+            "best_months": "All Year",
+            "price_from": 1200,
+            "summary": "Popular weekend getaway from Pune/Mumbai with music and BBQ.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Rishikesh",
+            "state": "Uttarakhand",
+            "best_months": "September–June",
+            "price_from": 2000,
+            "summary": "Riverside jungle camps (Shivpuri) often combined with rafting.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Coorg",
+            "state": "Karnataka",
+            "best_months": "October–May",
+            "price_from": 2000,
+            "summary": "Camping in coffee estates surrounded by greenery.",
+            "difficulty": "Beginner"
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [
+        {
+            "type": "Standard Tent (All Meals)",
+            "price_from": 1500,
+            "price_to": 2500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "online",
+            "source_url": "https://camperville.in",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Glamping (Luxury Tent)",
+            "price_from": 4000,
+            "price_to": 8000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "online",
+            "source_url": "https://chokhidhani.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "BYOT (Bring Your Own Tent)",
+            "price_from": 500,
+            "price_to": 800,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://pawniacamp.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "12:00",
+            "close_time": "11:00",
+            "time_notes": "Check-in usually 12 PM or 4 PM.",
+            "source_url": "https://camperville.in",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "operating_season": {
+        "best_months": "October to March",
+        "peak_months": "December",
+        "off_season": "Monsoon (except Bhandardara).",
+        "season_notes": "Summer camping is only viable in Hills (Rishikesh/Coorg).",
+        "last_checked": "2024-04-12"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "high",
+        "disclaimer": "Includes dinner and breakfast usually.",
+        "data_provider": "Campsite Aggregators",
+        "last_updated": "2024-04-12"
+    },
+    "difficulty_level": "Beginner",
+    "safety_guidelines": [
+        "Do not leave food inside tents (attracts animals/insects).",
+        "Keep zippers closed at all times.",
+        "Fire safety: keep bonfire away from nylon tents.",
+        "Respect quiet hours (usually after 11 PM)."
+    ],
+    "equipment_checklist": [
+        "Torch/Flashlight",
+        "Warm clothes (nights get cold)",
+        "Mosquito repellent",
+        "Power bank (no plugs in tents)"
+    ],
+    "major_experiences": [
+        "Bonfire music sessions",
+        "Sleeping in a sleeping bag",
+        "Watching fireflies (Bhandardara)",
+        "Sunrise over the lake/river",
+        "Disconnecting from WiFi"
+    ],
+    "sample_itinerary": {
+        "one_day": "Pawna: 4 PM Check-in. Tea & Pakoda. 5 PM Games/Cricket. 7 PM BBQ. 9 PM Dinner & Bonfire. 11 PM Stargazing."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "Online via campsite websites",
+            "Airbnb/Booking.com",
+            "Travel Agents"
+        ],
+        "booking_url": "https://camperville.in",
+        "suggested_stay": "N/A - The activity IS the stay.",
+        "how_to_reach": "Pawna is 2 hrs from Pune. Bhandardara is 4 hrs from Mumbai."
+    },
+    "seo": {
+        "seo_title": "Camping in India: Pawna Lake, Jaisalmer, Rishikesh | Guide 2024",
+        "seo_description": "Best camping spots in India. Firefly camping Bhandardara, desert camps Jaisalmer, and riverside Rishikesh. Prices and booking info.",
+        "tags": [
+            "Camping Near Mumbai",
+            "Pawna Lake Camping",
+            "Jaisalmer Desert Camp",
+            "Firefly Festival",
+            "Glamping India"
+        ]
+    },
+    "highlights": [
+        "Perfect weekend digital detox.",
+        "Firefly phenomenon in Bhandardara is magical.",
+        "Jaisalmer camps offer a mix of culture and comfort.",
+        "Rishikesh camps often used as base for rafting.",
+        "Budget-friendly accommodation option."
+    ]
+}

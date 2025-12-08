@@ -1,0 +1,119 @@
+{
+    "id": "ooty-botanical",
+    "slug": "ooty-botanical",
+    "title": "Government Botanical Gardens, Ooty",
+    "hero_image": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1596328731174-8461a34658cc?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1618251275988-cb94bc807534?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1552084117-5663b8714272?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A historic garden laid out in 1848, famous for its annual flower show and fossilized tree trunk.",
+    "long_description": "The Government Botanical Gardens is a botanical garden in Udhagamandalam (Ooty), Tamil Nadu. The Gardens, divided into several sections, cover an area of around 55 hectares and lie on the lower slopes of Doddabetta peak. The garden has a terraced layout. It ascends the slopes of the hill in the form of ascending terraces. The garden was established in 1848. Its architect was William Graham McIvor. The gardens treasure a fossil tree trunk estimated to be 20 million years old.",
+    "wildlife_significance": "Conservatory of rare temperate and sub-tropical plants. Fossil Tree Trunk.",
+    "species_to_see": [
+        "Exotic Orchids",
+        "Ferns",
+        "Cork Tree",
+        "Monkey Puzzle Tree",
+        "Paper Bark Tree"
+    ],
+    "habitat_types": [
+        "Terraced Garden",
+        "Arboretum",
+        "Glass House"
+    ],
+    "safari_types": [
+        "Walking"
+    ],
+    "major_experiences": [
+        "Annual Flower Show (May)",
+        "Picnic on the lawns",
+        "Visiting the fossil tree",
+        "Glass House visit"
+    ],
+    "guides_and_tips": "Very crowded in summer (May). Early morning walk is peaceful.",
+    "how_to_reach": "By Air: Coimbatore (88 km). By Rail: Ooty Station (`Toy Train`). By Road: Scenic drive from Coimbatore/Mysore.",
+    "accommodation_recommendations": [
+        "Savoy (Taj)",
+        "Sherlock",
+        "Glyngarth Resorts"
+    ],
+    "permits_and_fees": "Tickets at gate.",
+    "conservation_notes": "Plastic ban is strictly enforced in Nilgiris district.",
+    "highlights": [
+        "Flower Show",
+        "Toda Mund (Tribal hut)",
+        "Italian Garden",
+        "Fern House",
+        "Fossil Tree"
+    ],
+    "sample_itinerary": "Day 1: Arrive Ooty. Visit Lake. Day 2: Morning Botanical Garden. Lunch. Visit Rose Garden. Evening Boat House.",
+    "safety_tips": "Monkeys can snatch food.",
+    "tags": [
+        "Garden",
+        "Ooty",
+        "Colonial",
+        "Flowers"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult",
+            "price": 30,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Entry fee.",
+            "source_url": "https://nilgiris.nic.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Camera",
+            "price": 50,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Still camera.",
+            "source_url": "https://nilgiris.nic.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "General Entry",
+            "price_from": 30,
+            "price_to": 30,
+            "currency": "INR",
+            "price_type": "exact",
+            "booking_method": "onsite",
+            "source_url": "https://nilgiris.nic.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "07:00",
+        "close_time": "18:00",
+        "time_notes": "Open year-round.",
+        "source_url": "https://nilgiris.nic.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "April to June",
+        "peak_months": "May (Flower Show)",
+        "off_season": "July to September (Monsoon)",
+        "season_notes": "Winter (Dec-Jan) is cold but clear.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": false,
+        "permits_info_url": "https://nilgiris.nic.in/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Prices hike during flower show.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

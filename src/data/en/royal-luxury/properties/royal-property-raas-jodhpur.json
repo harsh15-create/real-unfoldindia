@@ -1,0 +1,216 @@
+{
+    "id": "raas-jodhpur",
+    "slug": "raas-jodhpur",
+    "title": "RAAS Jodhpur",
+    "hero_image": "https://images.unsplash.com/photo-1595846519845-68e298c2edd8?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1566633806327-68e152aaf26d?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Jodhpur's first boutique hotel, comprising four restored buildings in red sandstone at the foot of Mehrangarh Fort.",
+    "long_description": "RAAS Jodhpur is Jodhpur's first boutique hotel, located at the northeastern base of the magnificent Mehrangarh Fort. The hotel comprises four restored heritage buildings in the city's famous red sandstone, united by modern structures that frame the breathtaking views of the fort. It is a stunning example of how heritage can be fused with contemporary luxury.\n\nThe Haveli itself dates back to the late 18th century. RAAS has brought it back to life with a design that respects its history while adding a layer of modern chic. The central courtyard, with its swimming pool and ancient trees, creates an oasis of calm right in the middle of the bustling walled city.",
+    "amenities": [
+        "Heated Swimming Pool",
+        "ILA Spa",
+        "Stepwell Access",
+        "Rooftop Bar",
+        "Boutique Shop"
+    ],
+    "room_types": [
+        {
+            "name": "Garden Room",
+            "starting_price": 25000,
+            "currency": "INR",
+            "description": "Rooms with private gardens and modern interiors."
+        },
+        {
+            "name": "Luxury Room",
+            "starting_price": 32000,
+            "currency": "INR",
+            "description": "Offering direct views of the Mehrangarh Fort."
+        },
+        {
+            "name": "Duplex Suite",
+            "starting_price": 45000,
+            "currency": "INR",
+            "description": "Split-level suites with a private balcony and stunning fort views."
+        },
+        {
+            "name": "Heritage Suite",
+            "starting_price": 55000,
+            "currency": "INR",
+            "description": "Located in the original 18th-century residence, featuring traditional Rajput architecture."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "Baradari",
+            "capacity": 100,
+            "notes": "Open-air pavilion for dining",
+            "wedding_ready": true
+        },
+        {
+            "name": "Stepwell Square",
+            "capacity": 200,
+            "notes": "Unique venue next to the ancient Stepwell",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Open 24/7.",
+        "source_url": "https://www.raashotels.com/jodhpur/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "March"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": null,
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 25000,
+    "price_currency": "INR",
+    "packages": [
+        {
+            "name": "Fort View Experience",
+            "price_from": 60000,
+            "inclusions": [
+                "2 Nights Stay",
+                "Dinner at Darihana",
+                "Fort Walk"
+            ],
+            "booking_method": "Direct",
+            "source_url": "https://www.raashotels.com/jodhpur/offers/"
+        }
+    ],
+    "booking_methods": [
+        "Online",
+        "Email"
+    ],
+    "booking_url": "https://www.raashotels.com/jodhpur/",
+    "wedding_packages": [
+        {
+            "name": "Boutique Celebration",
+            "capacity": 150,
+            "starting_price": 4000000,
+            "inclusions": [
+                "Full Buyout",
+                "Stepwell Dinner",
+                "Decor"
+            ],
+            "contact_url": "https://www.raashotels.com/jodhpur/events/"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Events",
+            "name": null,
+            "email": "reservations@raashotels.com",
+            "phone": "+91 291 2636455"
+        }
+    ],
+    "signature_experiences": [
+        "Dinner overlooking the Stepwell",
+        "ILA Spa Treatment",
+        "Tuk-Tuk Ride in Old City"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Fort & City",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Old Jodhpur",
+                    "activities": [
+                        "Check-in",
+                        "Toorji Ka Jhalra Stepwell Visit",
+                        "Rooftop Dinner at Baradari"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Baradari",
+            "cuisine": "International & Thai",
+            "reservation_required": true
+        },
+        {
+            "name": "Darikhana",
+            "cuisine": "Indian Fine Dining",
+            "reservation_required": true
+        },
+        {
+            "name": "Stepwell House Cafe",
+            "cuisine": "Cafe & Snacks",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": true,
+        "accessible_rooms": true
+    },
+    "heritage_history": "Comprises four restored buildings from the 18th century, originally family homes of local noblemen.",
+    "conservation_notes": "Spearheaded the restoration of the Toorji Ka Jhalra Stepwell next door.",
+    "cultural_responsibility": "Sponsors the World Sacred Spirit Festival and RIFF.",
+    "how_to_reach": "Inside the walled city. 20 mins from Airport.",
+    "nearest_airport": "Jodhpur Airport (7 km)",
+    "nearest_rail_station": "Jodhpur Junction (2 km)",
+    "suggested_stay": "2 Nights",
+    "contact": {
+        "phone": "+91 291 2636455",
+        "email": "reservations@raashotels.com",
+        "address": "Tunwarji ka Jhalra, Makrana Mohalla, Jodhpur 342001"
+    },
+    "tags": [
+        "Boutique",
+        "Fort View",
+        "Modern Heritage",
+        "Stepwell",
+        "Design"
+    ],
+    "highlights": [
+        "Best Fort Views",
+        "Toorji Ka Jhalra Stepwell",
+        "Baradari Restaurant",
+        "Red Sandstone Design",
+        "ILA Spa",
+        "Old City Location"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Prices vary by room type.",
+        "data_provider": "RAAS Hotels",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "RAAS Jodhpur | Boutique Heritage Hotel near Mehrangarh Fort",
+    "seo_description": "Book a stay at RAAS Jodhpur, the city's finest boutique hotel with stunning views of Mehrangarh Fort and access to the Stepwell.",
+    "source_reference": [
+        {
+            "url": "https://www.raashotels.com/jodhpur/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

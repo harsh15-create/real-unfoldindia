@@ -1,0 +1,112 @@
+{
+    "id": "jaisalmer",
+    "slug": "jaisalmer",
+    "title": "Jaisalmer",
+    "hero_image": "https://images.unsplash.com/photo-1593348639591-6899981a8c08?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1555952494-b740523e1e5b?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Live in a living fort city and experience desert royalty amidst golden sands.",
+    "long_description": "Jaisalmer, the Golden City, rises from the Thar Desert like a mirage in sandstone. Dominated by the 12th-century Jaisalmer Fort, a UNESCO World Heritage Site that is still inhabited, the city feels like a medieval kingdom frozen in time. The intricate havelis with their lace-like stone carvings are a testament to the skill of local artisans (silavats).\n\nStaying in Jaisalmer is about experiencing the desert's mystique. From the fortress-like luxury of Suryagarh that offers a gateway to the Thar, to the historic Mandir Palace within the city, the hospitality here is legendary. Nights are best spent under a canopy of stars on the sand dunes, listening to folk music that echoes through the silence of the desert.",
+    "properties": [
+        {
+            "id": "suryagarh-jaisalmer",
+            "slug": "suryagarh-jaisalmer",
+            "title": "Suryagarh Jaisalmer",
+            "card_subtitle": "Gateway to the Thar",
+            "thumbnail_image": "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=800&auto=format&fit=crop",
+            "short_description": "A modern fortress that captures the essence of medieval Rajasthan, offering bespoke desert experiences.",
+            "source_reference": [
+                {
+                    "url": "https://www.suryagarh.com/",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        },
+        {
+            "id": "fort-rajwada",
+            "slug": "fort-rajwada",
+            "title": "Fort Rajwada",
+            "card_subtitle": "Royal Fortress Stay",
+            "thumbnail_image": "https://images.unsplash.com/photo-1629815049386-8f3b207ec1b0?q=80&w=800&auto=format&fit=crop",
+            "short_description": "A luxury hotel built like a fort, adorned with original balconies and carvings.",
+            "source_reference": [
+                {
+                    "url": "https://www.fortrajwada.com/",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        },
+        {
+            "id": "mandir-palace",
+            "slug": "mandir-palace",
+            "title": "WelcomHeritage Mandir Palace",
+            "card_subtitle": "The Royal Residence",
+            "thumbnail_image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop",
+            "short_description": "The residence of the Maharawal of Jaisalmer, offering an authentic stay in the heart of the city.",
+            "source_reference": [
+                {
+                    "url": "https://www.welcomheritagehotels.in/hotel/mandir-palace-jaisalmer",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        },
+        {
+            "id": "taj-gorbandh-palace",
+            "slug": "taj-gorbandh-palace",
+            "title": "Gorbandh Palace",
+            "card_subtitle": "Desert Oasis",
+            "thumbnail_image": "https://images.unsplash.com/photo-1566633806327-68e152aaf26d?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Named after the camel's decorative harness, this palace offers a lush retreat with views of the Fort.",
+            "source_reference": [
+                {
+                    "url": "https://www.tajhotels.com/en-in/seleqtions/gorbandh-palace-jaisalmer/",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        },
+        {
+            "id": "jaisalmer-marriott",
+            "slug": "jaisalmer-marriott",
+            "title": "Jaisalmer Marriott Resort",
+            "card_subtitle": "Modern Luxury",
+            "thumbnail_image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=800&auto=format&fit=crop",
+            "short_description": "Contemporary luxury built in yellow sandstone, paying homage to the city's heritage.",
+            "source_reference": [
+                {
+                    "url": "https://www.marriott.com/en-us/hotels/jsamd-jaisalmer-marriott-resort-and-spa/overview/",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        }
+    ],
+    "how_to_reach": "Jaisalmer has a civil airport with flights from Delhi/Jaipur. Also connected by rail.",
+    "best_months": [
+        "October",
+        "November",
+        "December",
+        "January",
+        "February"
+    ],
+    "tags": [
+        "Desert",
+        "Sand Dunes",
+        "Fort",
+        "Havelis"
+    ],
+    "seo_title": "Best Palace Hotels in Jaisalmer | Luxury Desert Stays",
+    "seo_description": "Stay in Jaisalmer's golden palaces like Suryagarh and Mandir Palace. Verified royal desert experiences.",
+    "source_reference": [
+        {
+            "url": "https://www.tourism.rajasthan.gov.in/jaisalmer.html",
+            "type": "tourism_board",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

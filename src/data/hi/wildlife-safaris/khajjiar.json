@@ -1,0 +1,113 @@
+{
+    "id": "khajjiar",
+    "slug": "khajjiar",
+    "title": "Khajjiar",
+    "hero_image": "https://images.unsplash.com/photo-1627918494950-705c7546e16a?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1548074697-3f92de23a230?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517454266398-356396caa019?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599320641219-48234857502c?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Known as the 'Mini Switzerland of India', a small plateau with a small stream-fed lake in the middle.",
+    "long_description": "Khajjiar lies on a small plateau with a small stream-fed lake in the middle that has been covered over with weeds. The hill station is surrounded by meadows and forests. It is about 6,500 feet (2,000 m) above sea level in the foothills of the Dhauladhar ranges of the Western Himalayas and peaks can be seen in the distance. It is part of the Kalatop Khajjiar Sanctuary. Its topography strongly resembles that of Switzerland, receiving the title 'Mini Switzerland' from the Swiss Envoy.",
+    "wildlife_significance": "Part of Kalatop Khajjiar Sanctuary. Himalayan landscapes.",
+    "species_to_see": [
+        "Himalayan Black Bear",
+        "Leopard",
+        "Deer",
+        "Serow",
+        "Blue Pine",
+        "Deodar"
+    ],
+    "habitat_types": [
+        "Pine Forest",
+        "Meadow (Pasture)",
+        "Lake"
+    ],
+    "safari_types": [
+        "Walking",
+        "Horse Riding",
+        "Zorbing"
+    ],
+    "major_experiences": [
+        "Horse riding on the meadow",
+        "Walk into the Kalatop forest",
+        "Photography of the landscape",
+        "Khajji Nag Temple visit"
+    ],
+    "guides_and_tips": "It's a tourist hotspot. For peace, walk towards the forest edges away from the central cluster.",
+    "how_to_reach": "By Air: Kangra/Gaggal (110 km). By Rail: Pathankot (95 km). By Road: 1 hour from Dalhousie.",
+    "accommodation_recommendations": [
+        "HPTDC Hotel Devdar",
+        "Royal Residency",
+        "Shining Star Resort"
+    ],
+    "permits_and_fees": "Kalatop Sanctuary entry fee applies if entering forest road.",
+    "conservation_notes": "Plastic litter is a problem on the meadow.",
+    "highlights": [
+        "Mini Switzerland",
+        "Khajji Nag Temple",
+        "Kalatop Sanctuary",
+        "Panch Pandav Tree",
+        "Lake"
+    ],
+    "sample_itinerary": "Day 1: Drive from Dalhousie. Stop at Kalatop. Reach Khajjiar. Lunch on the meadow. Horse ride. Relax. Return to Dalhousie.",
+    "safety_tips": "Road from Dalhousie is narrow. Drive carefully.",
+    "tags": [
+        "Hill Station",
+        "Meadow",
+        "Himachal",
+        "Sanctuary"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Sanctuary Entry",
+            "price": 250,
+            "currency": "INR",
+            "price_type": "estimated",
+            "notes": "Vehicle entry at Kalatop barrier.",
+            "source_url": "https://himachaltourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Horse Riding",
+            "price_from": 300,
+            "price_to": 500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://himachaltourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Open area. Day time best.",
+        "source_url": "https://himachaltourism.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "March to June",
+        "peak_months": "May to June",
+        "off_season": "July to August (Monsoon), January (Heavy Snow)",
+        "season_notes": "Snow in winter makes it magical but harder to reach.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": false,
+        "permits_info_url": "https://himachaltourism.gov.in/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Activity rates are negotiable.",
+        "data_provider": "tourism_board",
+        "last_updated": "2024-05-20"
+    }
+}

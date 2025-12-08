@@ -1,0 +1,147 @@
+{
+    "id": "snowmobiling",
+    "slug": "snowmobiling",
+    "title": "Snowmobiling",
+    "hero_image": "https://images.unsplash.com/photo-1549444136-15982cb97973?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1549444136-15982cb97973?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1612683074697-399039a06fd1?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1518174757657-3a9d0d57e3f8?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "Zoom across snow-covered landscapes on a powerful motorized sled.",
+    "long_description": "Snowmobiling offers the thrill of speed on snow without the physical exertion of skiing. A snowmobile (or ski-doo) is a motorized vehicle with skis at the front and a caterpillar track at the back. \n\nIn India, this is largely a tourist activity available in Gulmarg (Phase 1), Rohtang Pass, and Solang Valley. You typically sit behind an operator who drives, but in some designated safe zones, you can drive yourself. It’s a loud, fast, and exciting way to explore the white desert of the Himalayas.",
+    "locations": [
+        {
+            "location": "Gulmarg (Phase 1)",
+            "state": "Kashmir",
+            "best_months": "January–March",
+            "price_from": 2000,
+            "summary": "Riding on the Kongdoori plateau with massive peaks around.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Solang Valley",
+            "state": "Himachal Pradesh",
+            "best_months": "January–March",
+            "price_from": 1000,
+            "summary": "Short rides on the valley floor.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Rohtang Pass",
+            "state": "Himachal Pradesh",
+            "best_months": "May–June (Snow remains)",
+            "price_from": 1500,
+            "summary": "Summer snowmobile experience (very crowded).",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Nathula Pass",
+            "state": "Sikkim",
+            "best_months": "November–March",
+            "price_from": 1000,
+            "summary": "High altitude rides near the China border.",
+            "difficulty": "Beginner"
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [
+        {
+            "type": "Short Ride (1-2 km)",
+            "price_from": 800,
+            "price_to": 1500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://gulmargriders.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Long Safari (5-8 km)",
+            "price_from": 3000,
+            "price_to": 5000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://gulmargriders.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "09:00",
+            "close_time": "16:00",
+            "time_notes": "Weather dependent.",
+            "source_url": "https://himachaltourism.gov.in",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "operating_season": {
+        "best_months": "January to March",
+        "peak_months": "January",
+        "off_season": "Summer (except Rohtang where old snow exists).",
+        "season_notes": "Operations depend entirely on snow depth.",
+        "last_checked": "2024-04-12"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "medium",
+        "disclaimer": "Highly negotiable on the spot.",
+        "data_provider": "Local Vendors",
+        "last_updated": "2024-04-12"
+    },
+    "difficulty_level": "Beginner",
+    "safety_guidelines": [
+        "Hold tight to the driver or handles.",
+        "Do not put feet down while moving (risk of injury).",
+        "Wear sunglasses (engine kicks up snow).",
+        "Stay seated on slopes."
+    ],
+    "equipment_checklist": [
+        "Sunglasses",
+        "Gloves",
+        "Waterproof boots (provided mostly)",
+        "Warm jacket"
+    ],
+    "major_experiences": [
+        "Speeding uphill effortlessly",
+        "Accessing views without hiking",
+        "The noise and power of the machine",
+        "Taking photos on the machine"
+    ],
+    "sample_itinerary": {
+        "one_day": "Gulmarg Phase 1: Exit Gondola. Negotiate with snowmobile operator. 15-minute ride loop. Hot chocolate at nearby stall."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "On-spot at Gulmarg Phase 1 / Solang",
+            "Travel Agents"
+        ],
+        "booking_url": "https://himachaltourism.gov.in",
+        "suggested_stay": "Any hotel in Manali/Gulmarg.",
+        "how_to_reach": "Cable car to Gulmarg Phase 1 is essential."
+    },
+    "seo": {
+        "seo_title": "Snowmobiling in India: Gulmarg & Manali Price | 2024 Guide",
+        "seo_description": " Ride snow scooters in Gulmarg and Rohtang Pass. Snowmobile prices start ₹1000. Fun family activity in snow.",
+        "tags": [
+            "Snow Scooter Gulmarg",
+            "Manali Snow Activities",
+            "Rohtang Pass Adventure",
+            "Winter Fun India"
+        ]
+    },
+    "highlights": [
+        "No physical fitness required.",
+        "Suitable for families and elderly.",
+        "Only way to move fast on snow without skiing skills.",
+        "Available even in summer at Rohtang Pass (sometimes).",
+        "Great for quick sightseeing."
+    ]
+}

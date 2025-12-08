@@ -1,0 +1,65 @@
+{
+    "id": "gangotri",
+    "slug": "gangotri",
+    "title": "Gangotri: Origin of the Ganges",
+    "hero_image": "gangotri-hero-placeholder.jpg",
+    "gallery_images": [
+        "gangotri-temple.jpg",
+        "gangotri-river.jpg",
+        "gangotri-glacier.jpg",
+        "gangotri-shiva.jpg"
+    ],
+    "short_description": "A pristine himalayan pilgrimage to the source of India's holiest river, Ma Ganga.",
+    "long_description": "Gangotri, situated at 3,100 meters (10,200 ft), is the spiritual source of the Ganges River (physically originating at Gaumukh glacier, 19km away, but worshipped here). It is one of the Char Dham sites in the Himalayas. The temple, built of white marble, sits amidst deodar forests and snowy peaks, creating a setting of breathtaking purity.\n\nAccording to legend, this is where Goddess Ganga descended from heaven after Lord Shiva released her from his locks to wash away the sins of King Bhagirath's ancestors. The river here is called Bhagirathi; it acquires the name Ganga only after meeting Alaknanda at Devprayag. The water at Gangotri is crystal clear, icy cold, and considered the purest form of Ganga Jal. Pilgrims collect canisters of this water to take home for rituals. \n\nThe trek to Gaumukh (the Cow's Mouth glacier) is a spiritual adventure, traversing a landscape that looks prehistoric. The silence of the valley is broken only by the roar of the rushing river.",
+    "spiritual_significance": "One of the Chota Char Dham sites. It marks the descent of the Ganges to earth. The rock 'Bhagirath Shila' near the temple is where King Bhagirath is believed to have mediated.",
+    "major_temples_and_sites": [
+        {
+            "name": "Gangotri Temple",
+            "description": "The 18th-century temple dedicated to Goddess Ganga. It closes in winter (Diwali to Akshaya Tritiya)."
+        },
+        {
+            "name": "Bhagirath Shila",
+            "description": "A sacred stone slab where Bhagirath meditated."
+        },
+        {
+            "name": "Gaumukh Glacier",
+            "description": "The actual physical source of the river, located 19km trek from Gangotri. It resembles a cow's mouth."
+        },
+        {
+            "name": "Surya Kund",
+            "description": "A spectacular waterfall where the river falls into a deep gorge."
+        },
+        {
+            "name": "Pandava Gufa",
+            "description": "A cave 1.5km from Gangotri where the Pandavas are believed to have stayed."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Darshan of Goddess Ganga.",
+        "Collect holy water (Ganga Jal) from the river bank.",
+        "Perform 'Pind Daan' for ancestors.",
+        "Trek to Gaumukh (requires permit).",
+        "Meditate on the banks of the Bhagirathi."
+    ],
+    "highlights": [
+        "The white granite temple against snow peaks.",
+        "The deafening roar of the Bhagirathi at Surya Kund.",
+        "The rugged beauty of the Gaumukh trek.",
+        "The pristine, pollution-free atmosphere.",
+        "The sight of sadhus living in caves."
+    ],
+    "local_guides_available": true,
+    "best_months": "May to June and September to October. Temple closes in winter.",
+    "how_to_reach": "By Air: Dehradun Airport (260km). By Train: Rishikesh (250km). By Road: Accessible via Uttarkashi.",
+    "stay_recommendations": "Luxury: None (Basic lodges only). Spiritual: GMVN Tourist Bungalow, Ashrams. Budget: Hotels near the temple.",
+    "safety_tips": "The water is freezing; do not attempt to swim. Altitude sickness is possible; stay hydrated. Trek to Gaumukh requires a forest permit.",
+    "sample_itinerary": "Day 1: Drive from Uttarkashi to Gangotri. Check in. Darshan. Visit Surya Kund. Evening Aarti.\nDay 2: Trek towards Gaumukh (or part of the way) or visit Pandava Gufa. Return to Uttarkashi.",
+    "tags": [
+        "Himalayas",
+        "River",
+        "Trek",
+        "Char Dham",
+        "Nature"
+    ],
+    "is_bookable": true
+}

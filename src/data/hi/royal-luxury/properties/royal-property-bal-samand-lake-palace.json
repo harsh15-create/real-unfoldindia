@@ -1,0 +1,194 @@
+{
+    "id": "bal-samand-lake-palace",
+    "slug": "bal-samand-lake-palace",
+    "title": "Bal Samand Lake Palace",
+    "hero_image": "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1629815049386-8f3b207ec1b0?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1566633806327-68e152aaf26d?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A red sandstone palace built in 1159 AD, set amidst lime and pomegranate orchards by the lake.",
+    "long_description": "WelcomHeritage Bal Samand Lake Palace is a heritage hotel built on the banks of Bal Samand Lake, an artificial lake created in the 12th century. The palace itself, built in red sandstone with typical Rajput architecture, was the summer resort of the Jodhpur royal family. \n\nSurrounded by lush green gardens, pomegranate orchards, and groves of lime and mango, it offers a tranquil retreat from the desert heat. Guests can stay in the palace garden suites which offer stunning views of the lake and the landscaped gardens. It is a perfect spot for nature lovers and those seeking solitude with royalty.",
+    "amenities": [
+        "Outdoor Pool",
+        "Lake Views",
+        "Orchards",
+        "Horse Riding",
+        "Restaurant",
+        "Garden Walks"
+    ],
+    "room_types": [
+        {
+            "name": "Garden Suite",
+            "starting_price": 12000,
+            "currency": "INR",
+            "description": "Suites located in the palace gardens."
+        },
+        {
+            "name": "Regal Suite",
+            "starting_price": 18000,
+            "currency": "INR",
+            "description": "Spacious suites with traditional decor and lake views."
+        },
+        {
+            "name": "Maharani Suite",
+            "starting_price": 35000,
+            "currency": "INR",
+            "description": "The royal suite with private terrace."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "Garden Lawns",
+            "capacity": 1000,
+            "notes": "Expansive lawns for weddings",
+            "wedding_ready": true
+        },
+        {
+            "name": "Lake View Terrace",
+            "capacity": 200,
+            "notes": "Scenic venue",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Open 24/7.",
+        "source_url": "https://www.jodhanaheritage.com/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "March"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": null,
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 12000,
+    "price_currency": "INR",
+    "packages": [],
+    "booking_methods": [
+        "Online",
+        "Phone"
+    ],
+    "booking_url": "https://www.jodhanaheritage.com/",
+    "wedding_packages": [
+        {
+            "name": "Lakeside Wedding",
+            "capacity": 500,
+            "starting_price": 4000000,
+            "inclusions": [
+                "Lawn Venue",
+                "Rooms",
+                "Catering"
+            ],
+            "contact_url": "https://www.welcomheritagehotels.in/"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Reservations",
+            "name": null,
+            "email": "reservations@jodhanaheritage.com",
+            "phone": "+91 291 257 2321"
+        }
+    ],
+    "signature_experiences": [
+        "Lake View Breakfast",
+        "Orchard Walk",
+        "Horse Carriage Ride"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Nature & Heritage",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Lakeside Calm",
+                    "activities": [
+                        "Check-in",
+                        "Orchard Walk",
+                        "Dinner by Lake"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Garden Restaurant",
+            "cuisine": "Indian & Continental",
+            "reservation_required": false
+        },
+        {
+            "name": "Lake View Lounge",
+            "cuisine": "Drinks & Snacks",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": false,
+        "accessible_rooms": true
+    },
+    "heritage_history": "The lake dates to the 12th century. The palace was built later as a summer resort for the Jodhpur Royalty.",
+    "conservation_notes": "Maintains ancient orchards and water bodies.",
+    "cultural_responsibility": "Support local gardening and farming staffing.",
+    "how_to_reach": "15 mins from city center.",
+    "nearest_airport": "Jodhpur Airport (10 km)",
+    "nearest_rail_station": "Jodhpur Junction (8 km)",
+    "suggested_stay": "2 Nights",
+    "contact": {
+        "phone": "+91 291 257 2321",
+        "email": "reservations@jodhanaheritage.com",
+        "address": "Mandore Road, Jodhpur 342026"
+    },
+    "tags": [
+        "Lake",
+        "Nature",
+        "Orchards",
+        "Summer Palace",
+        "Quiet"
+    ],
+    "highlights": [
+        "12th Century Lake",
+        "Fruit Orchards",
+        "Red Sandstone Palace",
+        "Garden Suites",
+        "Peaceful Location",
+        "Royal Summer Home"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates vary by season.",
+        "data_provider": "WelcomHeritage",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Bal Samand Lake Palace | Heritage Hotel Jodhpur",
+    "seo_description": "Stay at Bal Samand Lake Palace, a historic summer palace in Jodhpur set by a 12th-century lake amidst lush orchards.",
+    "source_reference": [
+        {
+            "url": "https://www.jodhanaheritage.com/bal-samand-lake-palace-jodhpur.html",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "id": "pushkar",
+    "slug": "pushkar",
+    "title": "Pushkar: The Lotus Flower of Brahma",
+    "hero_image": "pushkar-hero-placeholder.jpg",
+    "gallery_images": [
+        "pushkar-lake-sunset.jpg",
+        "pushkar-brahma-temple.jpg",
+        "pushkar-camel-fair.jpg",
+        "pushkar-aarti.jpg"
+    ],
+    "short_description": "The only dedicated Brahma temple in the world, set around a holy lake in Rajasthan.",
+    "long_description": "Pushkar is a prominent pilgrimage town in Rajasthan that wraps around the holy Pushkar Lake. Legend has it that the lake formed when Lord Brahma, the Creator, dropped a lotus flower here. It is one of the few places in the world with a temple dedicated to Brahma, as he was cursed not to be worshipped elsewhere.\n\nPushkar has a unique vibe—it is ancient and holy, yet hippie and relaxed. With 52 ghats surrounding the lake and over 400 milky-blue temples, the town is a visual delight. The sound of bells, chanting, and drums fills the air, especially during the evening Aarti at Varaha Ghat. \n\nIn November, the town transforms during the Pushkar Camel Fair, one of the world's largest livestock fairs, blending religious fervor with a vibrant cultural fiesta of dancers, musicians, camels, and tourists. But even outside the fair, Pushkar's narrow bazaars, rooftop cafes, and desert backdrop make it a mesmerizing spiritual stop.",
+    "spiritual_significance": "One of the five sacred Dhams for Hindus (Panch Sarovar). A dip in the Pushkar Lake on Kartik Purnima is believed to be equal to performing yagnas for hundreds of years. Detailed ancestral worship is common here.",
+    "major_temples_and_sites": [
+        {
+            "name": "Brahma Temple",
+            "description": "The most famous attraction. Identified by its red spire and the symbol of the swan (hamsa). It dates back to the 14th century."
+        },
+        {
+            "name": "Pushkar Lake",
+            "description": "The semi-circular sacred lake surrounded by 52 ghats. Taking a dip here is the primary ritual."
+        },
+        {
+            "name": "Savitri Mata Temple",
+            "description": "Located on a high hill overlooking the lake. Dedicated to Brahma's first wife, Savitri. The trek (or ropeway) offers the best sunrise/sunset views."
+        },
+        {
+            "name": "Varaha Temple",
+            "description": "Dedicated to Varaha, the boar incarnation of Vishnu. An ancient and architecturally significant temple."
+        },
+        {
+            "name": "Old Rangji Temple",
+            "description": "A temple with a unique South Indian (Dravidian) architectural style in the middle of Rajasthan."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Take a holy dip in Pushkar Lake.",
+        "Perform 'Pitru Tarpan' (ancestor worship) with a local priest.",
+        "Visit the Brahma Temple.",
+        "Hike to Savitri Temple at sunrise for a panoramic view.",
+        "Attend the evening Aarti at Varaha Ghat or Brahma Ghat.",
+        "Experience a Camel Safari in the surrounding desert.",
+        "Shop for silverware and bohemian clothes in the main market."
+    ],
+    "highlights": [
+        "The rare Brahma Temple.",
+        "Sunset behind the ghats.",
+        "The vibrant street markets.",
+        "Camel Fair (if visiting in Nov).",
+        "Rooftop dining with lake views."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. The Camel Fair (Oct/Nov/Kartik Purnima) is the busiest and most colorful time.",
+    "how_to_reach": "By Air: Jaipur Airport (140km). By Train: Ajmer Junction (15km). By Road: 30 min drive/bus from Ajmer.",
+    "stay_recommendations": "Luxury: The Westin Pushkar, Ananta Spa & Resort. Spiritual: Bharat Seva Ashram. Budget: Zostel Pushkar, numerous heritage Haveli hotels.",
+    "safety_tips": "Priests ('Pandas') at the ghats can be very aggressive in demanding donations. Agree on a price before any ritual or politely decline. Do not photograph people bathing.",
+    "sample_itinerary": "Day 1: Arrive from Ajmer. Check in. Visit Brahma Temple. Walk around the lake ghats. Evening Aarti. Dinner at a rooftop cafe.\nDay 2: Early morning hike to Savitri Temple. Breakfast. Visit Old Rangji Temple. Shopping in the bazaar. Camel cart ride in the evening.",
+    "tags": [
+        "Brahma",
+        "Lake",
+        "Rajasthan",
+        "Desert",
+        "Fair"
+    ],
+    "is_bookable": true
+}

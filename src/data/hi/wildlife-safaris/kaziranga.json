@@ -1,0 +1,136 @@
+{
+    "id": "kaziranga",
+    "slug": "kaziranga",
+    "title": "Kaziranga National Park",
+    "hero_image": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517454266398-356396caa019?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A UNESCO World Heritage site possessing two-thirds of the world's Great One-horned Rhinoceroses.",
+    "long_description": "Kaziranga National Park, located in the heart of Assam, is one of the last areas in eastern India undisturbed by a human presence. It is inhabited by the world's largest population of one-horned rhinoceroses, as well as many mammals, including tigers, elephants, panthers and bears, and thousands of birds. The park spans over 430 square kilometers of elephant grass, marshland, and dense tropical moist broadleaf forests, crisscrossed by four major rivers, including the Brahmaputra. It is a brilliant example of dedicated conservation efforts, having saved the one-horned rhino from the brink of extinction. The sheer visibility of wildlife here is unmatched, making every safari a rewarding experience.",
+    "wildlife_significance": "Globally famous for the Great Indian One-Horned Rhinoceros. It also boasts the highest density of tigers among protected areas in the world.",
+    "species_to_see": [
+        "One-Horned Rhinoceros",
+        "Wild Water Buffalo",
+        "Eastern Swamp Deer",
+        "Asian Elephant",
+        "Royal Bengal Tiger",
+        "Hoolock Gibbon",
+        "Pelicans"
+    ],
+    "habitat_types": [
+        "Tall Elephant Grass",
+        "Marshland",
+        "Tropical Moist Broadleaf Forests",
+        "Riverine Islands"
+    ],
+    "safari_types": [
+        "Jeep Safari",
+        "Elephant Safari"
+    ],
+    "major_experiences": [
+        "Early morning Elephant Safari for close rhino views",
+        "Jeep Safari in Central (Kohora) Range",
+        "Bird Watching in Eastern (Agaratoli) Range",
+        "Boat ride (subject to availability)"
+    ],
+    "guides_and_tips": "Elephant safaris are in high demand; book days in advance. The Central range offers the best rhino sightings.",
+    "how_to_reach": "By Air: Jorhat Airport (97 km) or Guwahati Airport (217 km). By Rail: Furkating is the nearest station (75 km).",
+    "accommodation_recommendations": [
+        "IORA - The Retreat",
+        "Infinity Resorts Kaziranga",
+        "Diphlu River Lodge",
+        "Wild Grass Lodge"
+    ],
+    "permits_and_fees": "Permits obtained at the range offices. Online booking is available for safaris on the official portal.",
+    "conservation_notes": "Strict anti-poaching measures are in place. Floods annually regenerate the habitat but pose a survival challenge for animals.",
+    "highlights": [
+        "Big Five of Kaziranga (Rhino, Tiger, Elephant, Buffalo, Swamp Deer)",
+        "UNESCO World Heritage Site",
+        "Brahmaputra River ecosystem",
+        "Orchid Park nearby",
+        "Tea Garden visits",
+        "Ethnic village tours"
+    ],
+    "sample_itinerary": "Day 1: Arrive and check-in. Visit Orchid Park. Day 2: 5:30 AM Elephant Safari in Central Range. Breakfast. Afternoon Jeep Safari in Western Range. Day 3: Morning Safari in Eastern Range for birding. Departure.",
+    "safety_tips": "Do not wear bright colors. Stay seated in the jeep. Be cautious of wild elephants on the highway.",
+    "tags": [
+        "Rhino",
+        "UNESCO",
+        "Assam",
+        "Grasslands",
+        "River"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 100,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Entry fee only. Road toll and guard fee extra.",
+            "source_url": "https://kazirangasafari.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Adult (Foreigner)",
+            "price": 650,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Entry fee only. Road toll and guard fee extra.",
+            "source_url": "https://kazirangasafari.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Jeep Safari (Full Jeep)",
+            "price_from": 3500,
+            "price_to": 4500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://kazirangasafari.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "type": "Elephant Safari (Per Person)",
+            "price_from": 900,
+            "price_to": 2000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://kazirangasafari.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily (Seasonal)",
+        "open_time": "07:30",
+        "close_time": "16:00",
+        "time_notes": "Morning Jeep: 7:00 AM - 9:30 AM. Afternoon Jeep: 1:30 PM - 3:30 PM. Elephant Safari starts earlier at 5:30 AM.",
+        "source_url": "https://kazirangasafari.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "November to April",
+        "peak_months": "December to March",
+        "off_season": "May to October (Closed due to floods)",
+        "season_notes": "Park usually closes in May before the monsoons start.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://kazirangasafari.in/",
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Prices subject to change and vary by zone/vehicle type.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "id": "vaishno-devi",
+    "slug": "vaishno-devi",
+    "title": "Vaishno Devi: The Mountain Goddess",
+    "hero_image": "vaishnodevi-hero-placeholder.jpg",
+    "gallery_images": [
+        "vaishnodevi-bhawan.jpg",
+        "vaishnodevi-trek.jpg",
+        "vaishnodevi-ardhkwari.jpg",
+        "vaishnodevi-snow.jpg"
+    ],
+    "short_description": "A revered trek in Jammu's Trikuta hills to seek the blessings of Mata Vaishno Devi.",
+    "long_description": "Vaishno Devi is a manifestation of the collective spiritual strength (Shakti) of Goddesses Mahakali, Mahalakshmi, and Mahasaraswati. Located in the Trikuta Hills of Jammu at an altitude of 5,200 feet, the holy cave shrine attracts millions of devotees annually who shout 'Jai Mata Di' with every step of the 12km trek from Katra.\n\nThe Goddess resides in a Holy Cave in the form of three natural rock formations known as the 'Pindies'. There is no idol; the rocks themselves are worshipped. The journey is physically demanding but spiritually exhilarating, with clean paved paths, viewpoints, and constant chants. Devotees believe that no one visits Vaishno Devi unless she issues a 'Bulawa' (Call). \n\nMidway lies Ardhkuwari, a narrow cave where the Goddess is believed to have meditated for nine months (like a fetus in a womb); crawling through it is considered a rebirth.",
+    "spiritual_significance": "A major Shakti Peeth. The Pindies represent Creation, Preservation, and Destruction. Crawling through Garbh Joon cave at Ardhkuwari is believed to wash away sins of past lives.",
+    "major_temples_and_sites": [
+        {
+            "name": "Holy Cave (Bhawan)",
+            "description": "The sanctum sanctorum housing the three Pindies."
+        },
+        {
+            "name": "Ardhkuwari Cave (Garbh Joon)",
+            "description": "The narrow cave midway on the trek. It represents the womb of the Mother."
+        },
+        {
+            "name": "Bhairon Nath Temple",
+            "description": "Located 2km above the Bhawan. Legend says the pilgrimage is incomplete without visiting Bhairon Nath (whom the Goddess forgave)."
+        },
+        {
+            "name": "Banganga",
+            "description": "The first stop on the trek where the Goddess shot an arrow to create a water spring."
+        },
+        {
+            "name": "Charan Paduka",
+            "description": "A rock slab bearing the footprints of the Goddess."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Trek 12km from Katra to Bhawan.",
+        "Crawl through the Garbh Joon cave at Ardhkuwari.",
+        "Darshan of the Holy Pindies.",
+        "Visit Bhairon Nath temple (steep climb or ropeway).",
+        "Bath in the Banganga."
+    ],
+    "highlights": [
+        "The collective energy of 'Jai Mata Di'.",
+        "The scenic night trek (path is fully illuminated).",
+        "The ropeway to Bhairon Ghati.",
+        "The impeccable cleanliness of the track.",
+        "The feeling of accomplishing a tough journey."
+    ],
+    "local_guides_available": true,
+    "best_months": "March to October. Navratri is peak season. Winter (Dec-Jan) offers snow but is cold.",
+    "how_to_reach": "By Air: Jammu Airport (50km). By Train: Shri Mata Vaishno Devi Katra Station (SVDK). By Road: 1 hr drive from Jammu.",
+    "stay_recommendations": "Luxury: The White Hotel Katra, Vivanta Katra. Spiritual: Niharika Complex (Shrine Board Guest House). Budget: Dormitories at Bhawan.",
+    "safety_tips": "Register for the Yatra slip (RFID card) at Katra bus stand or railway station; entry is not allowed without it. Avoid heavy bags (lockers available).",
+    "sample_itinerary": "Day 1: Arrive Katra. Get Yatra slip. Start trek in evening. Reach Bhawan by night. Night Darshan.\nDay 2: Visit Bhairon Nath. Trek down to Katra. Relax/Massage. Depart.",
+    "tags": [
+        "Goddess",
+        "Trek",
+        "Mountains",
+        "Shakti",
+        "Jammu"
+    ],
+    "is_bookable": true
+}

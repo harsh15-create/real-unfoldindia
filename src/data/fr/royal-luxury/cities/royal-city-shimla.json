@@ -1,0 +1,54 @@
+{
+    "id": "shimla",
+    "slug": "shimla",
+    "title": "Shimla & Himalayas",
+    "hero_image": "https://images.unsplash.com/photo-1562649846-ab413c9dd225?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "The summer capital of the British Raj, offering colonial charm in the Himalayas.",
+    "long_description": "Shimla was the summer capital of British India, and its colonial legacy is evident in its Gothic churches, heritage walks, and the Viceregal Lodge. \n\nThe royal experience here is about reliving the days of the Raj. Wildflower Hall, once the residence of Lord Kitchener, is a castle in the clouds. Dining on colonial fare, walking through cedar forests, and enjoying views of the snow-capped Himalayas make for a quintessential mountain retreat fit for viceroys and kings.",
+    "properties": [
+        {
+            "id": "wildflower-hall",
+            "slug": "wildflower-hall",
+            "title": "Wildflower Hall",
+            "card_subtitle": "Himalayan Castle",
+            "thumbnail_image": "https://images.unsplash.com/photo-1562649846-ab413c9dd225?q=80&w=800&auto=format&fit=crop",
+            "short_description": "A fairy-tale luxury resort set in a restored colonial estate at 8,250 ft.",
+            "source_reference": [
+                {
+                    "url": "https://www.oberoihotels.com/hotels-in-shimla-wfh/",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        }
+    ],
+    "how_to_reach": "3.5 hours from Chandigarh (IXC) Airport. 13 km from Shimla Mall Road.",
+    "best_months": [
+        "March",
+        "April",
+        "May",
+        "June",
+        "October",
+        "November",
+        "December"
+    ],
+    "tags": [
+        "Mountains",
+        "Colonial",
+        "Views",
+        "Wellness"
+    ],
+    "seo_title": "Luxury Hotels Shimla | Wildflower Hall",
+    "seo_description": "Stay at Wildflower Hall Shimla. An Oberoi resort in the Himalayas offering colonial luxury.",
+    "source_reference": [
+        {
+            "url": "https://himachaltourism.gov.in/destination/shimla/",
+            "type": "tourism_board",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

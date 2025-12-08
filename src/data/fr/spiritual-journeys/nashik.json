@@ -1,0 +1,65 @@
+{
+    "id": "nashik",
+    "slug": "nashik",
+    "title": "Nashik: Kumbh City",
+    "hero_image": "nashik-hero-placeholder.jpg",
+    "gallery_images": [
+        "nashik-trimbakeshwar.jpg",
+        "nashik-godavari-ghat.jpg",
+        "nashik-kumbh.jpg",
+        "nashik-pandavleni.jpg"
+    ],
+    "short_description": "Home to the Kumbh Mela and the Trimbakeshwar Jyotirlinga on the banks of Godavari.",
+    "long_description": "Nashik is a city of duality—ancient spirituality meeting modern vineyards. Situated on the banks of the Godavari River (often called the Ganga of the South), it is one of the four locations for the massive Kumbh Mela held every 12 years. It sits at the foothills of the Western Ghats and is associated deeply with the Ramayana; 'Nashik' derived from 'Nasika' (nose) refers to the incident where Lakshmana cut off Surpanakha's nose here.\n\nThe spiritual anchor of the region is Trimbakeshwar, located about 30km away. It houses one of the 12 Jyotirlingas, unique for its three-faced lingam representing Brahma, Vishnu, and Shiva. The Godavari river originates from the Brahmagiri hills near here. \n\nInside Nashik city, the Panchavati area is where Lord Rama believed to have stayed during his exile. The Sita Gufaa (cave) and Kalaram Temple are major pilgrimage spots. The Ramkund ghat is the focal point where pilgrims take holy dips and immerse ashes of the departed.",
+    "spiritual_significance": "A Kumbh Mela site. Trimbakeshwar is a Jyotirlinga. Panchavati is a key Ramayana site. Rituals for ancestors (Narayan Nagbali) performed at Trimbakeshwar are considered very powerful.",
+    "major_temples_and_sites": [
+        {
+            "name": "Trimbakeshwar Jyotirlinga",
+            "description": "An ancient stone temple housing the three-faced Lingam. The architecture is Nagara style with black stone."
+        },
+        {
+            "name": "Kalaram Temple",
+            "description": "Built in 1792 with black stones, dedicated to Lord Rama. The temple played a role in the Dalit entry movement led by Dr. Ambedkar."
+        },
+        {
+            "name": "Sita Gufaa",
+            "description": "A narrow cave in Panchavati where Sita is believed to have stayed. It also has the spot from where Ravana abducted her."
+        },
+        {
+            "name": "Ramkund",
+            "description": "The sacred tank on the Godavari river. Lord Rama is believed to have bathed here."
+        },
+        {
+            "name": "Muktidham",
+            "description": "A marble temple complex housing replicas of all 12 Jyotirlingas."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Perform Rudra Abhishek at Trimbakeshwar.",
+        "Take a holy dip at Ramkund/Kushavarta Tirth.",
+        "Visit the vineyards (Sula) for a contrasting experience (wine tasting).",
+        "Trek to Brahmagiri Hill to see the origin of Godavari.",
+        "Visit Pandavleni Caves (ancient Buddhist rock-cut caves)."
+    ],
+    "highlights": [
+        "The mystic atmosphere of Trimbakeshwar.",
+        "The history of Panchavati.",
+        "The Kumbh Mela energy (if visiting during the fair).",
+        "Trekking in the Western Ghats.",
+        "Modern wine tourism blended with ancient faith."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Monsoon (July-Sept) is lush green but wet.",
+    "how_to_reach": "By Air: Nashik Airport (Ozar). By Train: Nashik Road Station. By Road: 3-4 hours from Mumbai/Pune.",
+    "stay_recommendations": "Luxury: The Gateway Hotel (Taj), Radisson Blu. Spiritual: MTDC Resorts near Trimbakeshwar. Budget: Hotels near Nashik Road.",
+    "safety_tips": "Trimbakeshwar priests can be pushy for specific pujas (Kaal Sarp Dosh); verify rates carefully. Queue times can be long on Mondays.",
+    "sample_itinerary": "Day 1: Arrive. Visit Panchavati (Sita Gufaa, Kalaram Mandir). Sunset at Ramkund. Dinner.\nDay 2: Drive to Trimbakeshwar (30km). Darshan. Trek Brahmagiri if fit. Return via Sula Vineyards for sunset.",
+    "tags": [
+        "Shiva",
+        "Ramayana",
+        "River",
+        "Kumbh",
+        "Nature"
+    ],
+    "is_bookable": true
+}

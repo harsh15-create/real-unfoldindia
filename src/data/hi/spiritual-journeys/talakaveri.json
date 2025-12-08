@@ -1,0 +1,61 @@
+{
+    "id": "talakaveri",
+    "slug": "talakaveri",
+    "title": "Talakaveri: Birthplace of Kaveri",
+    "hero_image": "talakaveri-hero-placeholder.jpg",
+    "gallery_images": [
+        "talakaveri-temple.jpg",
+        "talakaveri-view.jpg",
+        "talakaveri-brahmagiri.jpg",
+        "talakaveri-rain.jpg"
+    ],
+    "short_description": "The scenic origin of the river Kaveri in the Brahmagiri hills of Coorg.",
+    "long_description": "Talakaveri is the source of the River Kaveri, revered as the 'Ganges of the South'. Situated at 1,276m in the Brahmagiri hills of Coorg (Kodagu), Karnataka, it is a place of misty beauty and devotion. \n\nThe river originates as a spring feeding into a small tank (Kundike) built inside a temple complex. From here, it flows underground before emerging later. The site is serene, often shrouded in clouds and rain. Climb the 400 steps from the temple to the Brahmagiri peak for a breathtaking view of the Western Ghats. On Tula Sankramana (mid-October), the spring miraculously bubbles up at a precise auspicious time, drawing thousands of pilgrims to witness the 'Teerthodbhava'.",
+    "spiritual_significance": "Origin of a holy river. Kaveri is considered a goddess (Kaveriamma) by the Kodavas (people of Coorg). Agastya Muni is believed to have brought the river here.",
+    "major_temples_and_sites": [
+        {
+            "name": "Talakaveri Temple",
+            "description": "Dedicate to Goddess Kaveri and Lords Agastyeshwara and Ganapathi."
+        },
+        {
+            "name": "Brahmagiri Peak",
+            "description": "A viewpoint accessible by steps, believed to be where the Seven Sages (Sapta Rishis) meditated."
+        },
+        {
+            "name": "Bhagamandala",
+            "description": "Located 8km downhill, the confluence (Triveni Sangam) of Kaveri, Kannike, and the mythical Sujyothi rivers."
+        },
+        {
+            "name": "Sri Bhagandeshwara Temple",
+            "description": "A beautiful Kerala-style temple at Bhagamandala."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Take a holy dip in the temple tank.",
+        "Climb the steps to Brahmagiri Peak.",
+        "Visit Bhagamandala for a dip at the confluence.",
+        "Enjoy the drive through coffee plantations.",
+        "Witness the fog rolling over the hills."
+    ],
+    "highlights": [
+        "The origin of a major river.",
+        "The lush green landscape of Coorg.",
+        "The panoramic view from the peak.",
+        "The Kerala-style architecture of nearby temples.",
+        "The scenic drive."
+    ],
+    "local_guides_available": true,
+    "best_months": "September to March. Monsoon (July-Aug) is extremely rainy but beautiful.",
+    "how_to_reach": "By Air: Kannur Airport (100km) or Mangalore (140km). By Road: Drive from Madikeri (45km).",
+    "stay_recommendations": "Luxury: Tamara Coorg, Taj Madikeri. Spiritual: Basic rooms near Bhagamandala. Budget: Homestays in Madikeri.",
+    "safety_tips": "The steps to the peak can be slippery in rain. Monkeys are present. It gets foggy quickly; drive carefully.",
+    "sample_itinerary": "Day 1: Drive from Madikeri to Bhagamandala. Visit temple. Drive to Talakaveri. Visit origin. Climb peak. Return to Madikeri.",
+    "tags": [
+        "River",
+        "Nature",
+        "Hills",
+        "South India",
+        "Coorg"
+    ],
+    "is_bookable": true
+}

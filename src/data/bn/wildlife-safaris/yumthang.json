@@ -1,0 +1,112 @@
+{
+    "id": "yumthang",
+    "slug": "yumthang",
+    "title": "Yumthang Valley",
+    "hero_image": "https://images.unsplash.com/photo-1626082498514-64b18f08535a?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1626620573983-140660461329?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1618251275988-cb94bc807534?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Sikkim's 'Valley of Flowers', famous for its rhododendron sanctuary and hot springs.",
+    "long_description": "Yumthang Valley is a nature sanctuary with river, hot springs, yaks and grazing pasture on rolling meadows surrounded by the Himalayan mountains in the North Sikkim district of Sikkim state in India. It is at an elevation of 3,564 metres (11,693 ft) above msl at a distance of 150 kilometres (93 mi) from the state capital Gangtok. It is popularly known as the 'Valley of Flowers' due to the Shingba Rhododendron Sanctuary, which has over twenty-four species of the rhododendron, the state flower. A tributary of the river Teesta flows past the valley and the town of Lachung, the nearest inhabited centre.",
+    "wildlife_significance": "Shingba Rhododendron Sanctuary acts as a gene pool for rhododendrons.",
+    "species_to_see": [
+        "Rhododendrons (24 species)",
+        "Primulas",
+        "Poppies",
+        "Blood Pheasant",
+        "Musk Deer",
+        "Himalayan Tahr"
+    ],
+    "habitat_types": [
+        "Alpine Meadow",
+        "Rhododendron Forest",
+        "Riverside pastures"
+    ],
+    "safari_types": [
+        "Jeep Drive",
+        "Walking"
+    ],
+    "major_experiences": [
+        "Driving through the rhododendron lined road",
+        "Walking in the valley floor",
+        "Hot Springs visit",
+        "Zero Point (Yumesamdong) visit"
+    ],
+    "guides_and_tips": "Lachung is the base. You need a Protected Area Permit (PAP) arranged by travel agents in Gangtok.",
+    "how_to_reach": "By Air: Pakyong (130 km). By Road: Drive from Gangtok to Lachung (6 hours), then 45 mins to Yumthang.",
+    "accommodation_recommendations": [
+        "Yarlam Resort (Lachung)",
+        "Apple Valley Inn",
+        "Modern Residency"
+    ],
+    "permits_and_fees": "Permits mandatory for North Sikkim. Must be applied a day in advance.",
+    "conservation_notes": "Plastic ban is strictly enforced in Sikkim.",
+    "highlights": [
+        "Rhododendron Blooms",
+        "Hot Springs",
+        "Snow Capped Peaks",
+        "Zero Point",
+        "Yak Rides"
+    ],
+    "sample_itinerary": "Day 1: Drive Gangtok to Lachung. Overnight. Day 2: Early morning drive to Yumthang Valley. Visit Hot Spring. Drive further to Zero Point (Snow). Return to Lachung for lunch. Drive back to Gangtok.",
+    "safety_tips": "High altitude; drink water. Roads can be rough.",
+    "tags": [
+        "Sikkim",
+        "Rhododendron",
+        "Himalayas",
+        "Hot Springs"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Permit Cost",
+            "price": 200,
+            "currency": "INR",
+            "price_type": "estimated",
+            "notes": "Part of vehicle/tour package usually.",
+            "source_url": "https://sikkimtourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Taxi Package (Gangtok-Lachung-Yumthang)",
+            "price_from": 3000,
+            "price_to": 5000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "third-party",
+            "source_url": "https://sikkimtourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "06:00",
+        "close_time": "16:00",
+        "time_notes": "Day trips only.",
+        "source_url": "https://sikkimtourism.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "March to May (Flowers)",
+        "peak_months": "April",
+        "off_season": "Monsoon (Landslides) and Peak Winter (Road blockages)",
+        "season_notes": "Winter (Dec-Feb) offers snow but no flowers.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://sikkimtourism.gov.in/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates depend on shared/private vehicle.",
+        "data_provider": "tourism_board",
+        "last_updated": "2024-05-20"
+    }
+}

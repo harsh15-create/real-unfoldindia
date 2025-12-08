@@ -1,0 +1,192 @@
+{
+    "id": "oberoi-vanyavilas",
+    "slug": "oberoi-vanyavilas",
+    "title": "The Oberoi Vanyavilas",
+    "hero_image": "https://images.unsplash.com/photo-1547990422-0d5656910696?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Luxury tented accommodation with private gardens, consistently voted the best hotel in the world.",
+    "long_description": "The Oberoi Vanyavilas Wildlife Resort is a jungle resort modeled after a royal hunting lodge. It features luxury tents with triple canopies, teak floors, and clawfoot bathtubs. Each tent is set within its own private walled garden, ensuring absolute privacy.\n\nThe resort is famous for its service and its observation tower, which offers panoramic views of the jungle. Guests can enjoy private yoga sessions, spa treatments, and champagne sunsets at the mango orchard. It is the perfect base for tiger safaris in Ranthambore.",
+    "amenities": [
+        "Luxury Tents",
+        "Observation Tower",
+        "Heated Pool",
+        "Oberoi Spa",
+        "Private Walled Gardens",
+        "library Bar"
+    ],
+    "room_types": [
+        {
+            "name": "Luxury Tent",
+            "starting_price": 60000,
+            "currency": "INR",
+            "description": "790 sq. ft. tent with private garden and sun deck."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "Conference Room",
+            "capacity": 30,
+            "notes": "Small meetings",
+            "wedding_ready": false
+        },
+        {
+            "name": "Mango Orchard",
+            "capacity": 50,
+            "notes": "Special dinners",
+            "wedding_ready": false
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Closed during monsoon (July-Sept).",
+        "source_url": "https://www.oberoihotels.com/hotels-in-ranthambhore-vanyavilas-resort/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "April"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": "Park closes July-September.",
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": false,
+        "requires_deposit": true
+    },
+    "room_price_from": 60000,
+    "price_currency": "INR",
+    "packages": [
+        {
+            "name": "Jungle Adventure",
+            "price_from": 130000,
+            "inclusions": [
+                "2 Nights",
+                "Meals",
+                "Transfers"
+            ],
+            "booking_method": "Direct",
+            "source_url": "https://www.oberoihotels.com/"
+        }
+    ],
+    "booking_methods": [
+        "Online",
+        "Phone"
+    ],
+    "booking_url": "https://www.oberoihotels.com/hotels-in-ranthambhore-vanyavilas-resort/",
+    "wedding_packages": [],
+    "event_contacts": [
+        {
+            "role": "Reservations",
+            "name": null,
+            "email": "reservations@oberoigroup.com",
+            "phone": "+91 7462 223 999"
+        }
+    ],
+    "signature_experiences": [
+        "Tiger Safari (arranged)",
+        "Champagne at Observation Tower",
+        "Dinner by the Lake",
+        "Spa Therapy"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Call of the Wild",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Arrival",
+                    "activities": [
+                        "Check-in",
+                        "Climb Observation Tower",
+                        "Dinner"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "title": "Tiger Trail",
+                    "activities": [
+                        "Morning Safari",
+                        "Pool Relax",
+                        "Evening Safari"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "The Dining Room",
+            "cuisine": "Rajasthani & Continental",
+            "reservation_required": true
+        },
+        {
+            "name": "Library Bar",
+            "cuisine": "Drinks & Cigars",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": false,
+        "accessible_rooms": true
+    },
+    "heritage_history": "Modern built but inspired by royal caravans.",
+    "conservation_notes": "Heavily involved in tiger conservation efforts.",
+    "cultural_responsibility": "Supports local schools and wildlife funds.",
+    "how_to_reach": "5 km from Sawai Madhopur.",
+    "nearest_airport": "Jaipur (180 km)",
+    "nearest_rail_station": "Sawai Madhopur (5 km)",
+    "suggested_stay": "2-3 Nights",
+    "contact": {
+        "phone": "+91 7462 223 999",
+        "email": "reservations@oberoigroup.com",
+        "address": "Ranthambhore Road, Sawai Madhopur 322001"
+    },
+    "tags": [
+        "Wildlife",
+        "Luxury",
+        "Tents",
+        "Oberoi",
+        "Romantic"
+    ],
+    "highlights": [
+        "Luxury Tents",
+        "Private Gardens",
+        "Observation Tower",
+        "Personalized Service",
+        "Tiger Safaris",
+        "Art Frescoes"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates are highly seasonal.",
+        "data_provider": "Oberoi Hotels",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Oberoi Vanyavilas Ranthambore | Luxury Jungle Resort",
+    "seo_description": "Book Oberoi Vanyavilas Ranthambore. Stay in luxury tents with private gardens near the tiger reserve.",
+    "source_reference": [
+        {
+            "url": "https://www.oberoihotels.com/hotels-in-ranthambhore-vanyavilas-resort/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

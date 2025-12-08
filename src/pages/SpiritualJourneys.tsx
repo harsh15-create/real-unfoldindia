@@ -1,34 +1,49 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Search, MapPin, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import RoyalHero from "@/components/royal-luxury/RoyalHero";
-import experienceData from "@/data/spiritual-journeys/experience-spiritual-journeys.json";
+import { getSpiritualMaster, SpiritualMaster } from "@/lib/spiritualApi";
+import { useTranslation } from "react-i18next";
 
 const SpiritualJourneys = () => {
+    const { i18n } = useTranslation();
     const [searchQuery, setSearchQuery] = useState("");
+    const [spiritualData, setSpiritualData] = useState<SpiritualMaster | null>(null);
+    const [loading, setLoading] = useState(true);
 
-    const filteredCities = experienceData.cities.filter((city) =>
+    useEffect(() => {
+        setLoading(true);
+        getSpiritualMaster(i18n.language).then((data) => {
+            setSpiritualData(data);
+            setLoading(false);
+        }).catch(() => setLoading(false));
+    }, [i18n.language]);
+
+    const filteredCities = spiritualData?.cities.filter((city) =>
         city.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         city.short_description.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    ) || [];
+
+    if (loading) return <div className="min-h-screen bg-background flex items-center justify-center text-primary">Loading Spiritual Journeys...</div>;
+    if (!spiritualData) return <div className="min-h-screen bg-background flex items-center justify-center text-foreground">Failed to load data</div>;
 
     return (
         <div className="min-h-screen bg-background text-foreground selection:bg-primary/30">
             <RoyalHero
                 image="https://images.unsplash.com/photo-1591283281358-18e3845c43d2?q=80&w=2070&auto=format&fit=crop"
-                title={experienceData.intro_block.intro_title}
-                subtitle="Discover the sacred geography where divinity meets humanity"
+                title={spiritualData.intro_title || "Spiritual Journeys"}
+                subtitle={spiritualData.subtitle || "Discover the sacred geography where divinity meets humanity"}
             />
 
             <div className="container mx-auto px-4 py-12 relative z-30">
                 {/* Intro Block */}
                 <div className="text-center mb-16 max-w-4xl mx-auto">
                     <Sparkles className="w-12 h-12 mx-auto text-primary mb-6" />
-                    <h2 className="text-4xl md:text-5xl font-serif mb-8 text-foreground">The Spiritual Tapestry</h2>
+                    <h2 className="text-4xl md:text-5xl font-serif mb-8 text-foreground">{spiritualData.intro_title}</h2>
                     <p className="text-lg md:text-xl leading-relaxed text-muted-foreground whitespace-pre-line font-light">
-                        {experienceData.intro_block.intro_paragraph}
+                        {spiritualData.intro_description}
                     </p>
                 </div>
 

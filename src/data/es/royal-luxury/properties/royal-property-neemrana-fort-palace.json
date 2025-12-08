@@ -1,0 +1,227 @@
+{
+    "id": "neemrana-fort-palace",
+    "slug": "neemrana-fort-palace",
+    "title": "Neemrana Fort-Palace",
+    "hero_image": "https://images.unsplash.com/photo-1629215082193-4a6f9593847a?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1629215082193-4a6f9593847a?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A 15th-century heritage hotel spread over 14 levels on the Aravalli hills.",
+    "long_description": "Neemrana Fort-Palace is India's oldest heritage hotel, built in 1464 AD. It is a stunning architectural feat, cut into the Aravalli hill and spread over 14 tiers. Once the capital of the descendants of Prithviraj Chauhan III, it stood in ruins for decades before being restored in 1991 into a majestic hotel.\n\nThe fort offers a labyrinth of experiences with its hanging gardens, ayurvedic spa, and two swimming pools. It is famous for launching India's first zip-line tour. The rooms are furnished with an eclectic mix of traditional Indian and colonial furniture, and no two rooms are alike. It is a popular destination for those seeking a quick but complete immersion into Rajasthan's royal past.",
+    "amenities": [
+        "Two Swimming Pools",
+        "Ayurvedic Spa",
+        "Zip-line",
+        "Hanging Gardens",
+        "Amphitheatre",
+        "Vintage Car Ride"
+    ],
+    "room_types": [
+        {
+            "name": "Small Room",
+            "starting_price": 6000,
+            "currency": "INR",
+            "description": "Cozy rooms nestled in the fort's nooks."
+        },
+        {
+            "name": "Garden Room",
+            "starting_price": 9000,
+            "currency": "INR",
+            "description": "Rooms opening onto private terraces or gardens."
+        },
+        {
+            "name": "Grand Suite",
+            "starting_price": 16000,
+            "currency": "INR",
+            "description": "Spacious suites with panoramic views of the countryside."
+        },
+        {
+            "name": "Mahal",
+            "starting_price": 28000,
+            "currency": "INR",
+            "description": "Royal apartments fit for kings."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "Holi Kund",
+            "capacity": 200,
+            "notes": "Poolside venue",
+            "wedding_ready": true
+        },
+        {
+            "name": "Amphitheatre",
+            "capacity": 300,
+            "notes": "Open air theatre for performances",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [
+        {
+            "category": "Day Visit",
+            "price": 2000,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Includes lunch. Weekdays only.",
+            "last_checked": "2025-12-08"
+        }
+    ],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Hotel Open 24/7. Entry 9am-5pm for visitors.",
+        "source_url": "https://www.neemranahotels.com/neemrana-fort-palace/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "July",
+            "March"
+        ],
+        "peak_months": [
+            "October",
+            "February"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": "Monsoon is beautiful here.",
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 6000,
+    "price_currency": "INR",
+    "packages": [
+        {
+            "name": "Day Outing",
+            "price_from": 2000,
+            "inclusions": [
+                "Entry",
+                "Lunch Buffet"
+            ],
+            "booking_method": "Online",
+            "source_url": "https://www.neemranahotels.com/day-visit/"
+        }
+    ],
+    "booking_methods": [
+        "Online",
+        "Phone"
+    ],
+    "booking_url": "https://www.neemranahotels.com/neemrana-fort-palace/",
+    "wedding_packages": [
+        {
+            "name": "Royal Fort Wedding",
+            "capacity": 400,
+            "starting_price": 2500000,
+            "inclusions": [
+                "Rooms",
+                "Venues",
+                "Catering"
+            ],
+            "contact_url": "https://www.neemranahotels.com/weddings/"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Sales",
+            "name": null,
+            "email": "weddings@neemranahotels.com",
+            "phone": "+91 124 4666 166"
+        }
+    ],
+    "signature_experiences": [
+        "Flying Fox Zipline",
+        "Vintage Car Ride",
+        "Sunset at the Ramparts",
+        "Gala Dinner at Nazara Mahal"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Weekend Escape",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Fort Living",
+                    "activities": [
+                        "Check-in",
+                        "Lunch at Hawa Mahal",
+                        "Sunset Zipline",
+                        "Dinner under stars"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Hawa Mahal",
+            "cuisine": "Multi-cuisine Buffet",
+            "reservation_required": true
+        },
+        {
+            "name": "Jalgiri Mahal",
+            "cuisine": "Indian Fine Dining",
+            "reservation_required": true
+        },
+        {
+            "name": "Uncha Bagh",
+            "cuisine": "Al Fresco",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": false,
+        "elevator_available": true,
+        "accessible_rooms": false
+    },
+    "heritage_history": "Built in 1464 AD by Prithviraj Chauhan's lineage. Restored from ruins in 1991.",
+    "conservation_notes": "A pioneering project in architectural restoration in India.",
+    "cultural_responsibility": "Support local employment and traditional arts.",
+    "how_to_reach": "100 km from Delhi Airport.",
+    "nearest_airport": "Indira Gandhi International Airport (100 km)",
+    "nearest_rail_station": "Rewari (40 km)",
+    "suggested_stay": "1-2 Nights",
+    "contact": {
+        "phone": "+91 124 4666 166",
+        "email": "fort-palace@neemranahotels.com",
+        "address": "122nd Milestone, Delhi-Jaipur Highway, Neemrana 301705"
+    },
+    "tags": [
+        "Fort",
+        "Oldest Heritage Hotel",
+        "Hills",
+        "Zipline",
+        "Delhi Weekend"
+    ],
+    "highlights": [
+        "14-Tiered Fort",
+        "Hanging Gardens",
+        "Zip-line Adventure",
+        "Antique Furniture",
+        "Sunset Views",
+        "Two Pools"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates vary by room tier.",
+        "data_provider": "Neemrana Hotels",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Neemrana Fort-Palace | 15th Century Heritage Hotel",
+    "seo_description": "Book a stay at Neemrana Fort-Palace. India's oldest heritage hotel with 14 tiers, pools, and zipline near Delhi.",
+    "source_reference": [
+        {
+            "url": "https://www.neemranahotels.com/neemrana-fort-palace/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

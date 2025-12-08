@@ -1,0 +1,161 @@
+{
+    "id": "hot-air-ballooning",
+    "slug": "hot-air-ballooning",
+    "title": "Hot Air Ballooning",
+    "hero_image": "https://images.unsplash.com/photo-1544605929-795a28f80456?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1544605929-795a28f80456?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=1974&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1523526665-27a3c3070497?q=80&w=2076&auto=format&fit=crop"
+    ],
+    "short_description": "Peaceful aerial views of deserts, forts, and national parks at sunrise.",
+    "long_description": "Hot air ballooning is adventure tourism at its most regal. Unlike the adrenaline-pumping rush of skydiving or paragliding, ballooning offers a serene, almost meditative experience. Drifting silently with the wind at varying altitudes, you get a bird's-eye view of India's spectacular landscapes—be it the royal forts of Rajasthan, the rugged boulders of Hampi, or the dense forests of wildlife reserves.\n\nFlights typically take place at sunrise or sunset when the winds are calmest. The experience begins with watching the giant envelope being inflated with burners—a spectacle in itself. Once airborne, the basket floats gently, sometimes skimming treetops and other times rising thousands of feet for a panoramic vista. There is no engine noise, only the occasional roar of the propane burner keeping you aloft.\n\nSafety standards for ballooning in India are stringent, with pilots required to hold valid commercial licenses and equipment subject to regular DGCA (Directorate General of Civil Aviation) checks. It’s a perfect activity for families, couples, and photographers looking for a unique perspective on India's heritage.",
+    "locations": [
+        {
+            "location": "Jaipur",
+            "state": "Rajasthan",
+            "best_months": "September–April",
+            "price_from": 12000,
+            "summary": "Float over the majestic Amber Fort and idyllic villages of rural Rajasthan.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Lonavala",
+            "state": "Maharashtra",
+            "best_months": "October–May",
+            "price_from": 10000,
+            "summary": "Scenic flights over the Sahyadri mountains, waterfalls, and lush greenery.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Hampi",
+            "state": "Karnataka",
+            "best_months": "November–February",
+            "price_from": 14000,
+            "summary": "A surreal experience drifting over the UNESCO World Heritage ruins and boulder landscapes.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Agra",
+            "state": "Uttar Pradesh",
+            "best_months": "October–March",
+            "price_from": 15000,
+            "summary": "Rare sights of the Taj Mahal appearing out of the morning mist (distance regulated).",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Bandhavgarh",
+            "state": "Madhya Pradesh",
+            "best_months": "October–March",
+            "price_from": 18000,
+            "summary": "India's first hot air balloon wildlife safari over the tiger reserve.",
+            "difficulty": "Beginner"
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [
+        {
+            "type": "Standard Shared Flight (60 mins)",
+            "price_from": 11000,
+            "price_to": 15000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://www.skywaltz.com",
+            "last_checked": "2024-04-10"
+        },
+        {
+            "type": "Private Couple Flight",
+            "price_from": 35000,
+            "price_to": 55000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://www.skywaltz.com",
+            "last_checked": "2024-04-10"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "05:30",
+            "close_time": "08:30",
+            "time_notes": "Flights operate mostly at sunrise. Evening flights are rare and weather-dependent.",
+            "source_url": "https://www.skywaltz.com",
+            "last_checked": "2024-04-10"
+        }
+    ],
+    "operating_season": {
+        "best_months": "September to April",
+        "peak_months": "November to February",
+        "off_season": "May to August (Too hot/Monsoon)",
+        "season_notes": "Jaipur flights are regulated by ATC and do not fly near the airport.",
+        "last_checked": "2024-04-10"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "high",
+        "disclaimer": "Rates are per person for shared flights. Prices often higher on weekends.",
+        "data_provider": "SkyWaltz & Vendor Sites",
+        "last_updated": "2024-04-10"
+    },
+    "difficulty_level": "Beginner",
+    "safety_guidelines": [
+        "Flights will be cancelled if wind speed exceeds safety limits.",
+        "Passengers must be able to climb into the basket (approx. 4ft high) or request assistance.",
+        "Pregnant women and children under 5 are generally not permitted.",
+        "Wear comfortable, flat shoes. No heels allowed in the basket.",
+        "Listen to pilot briefing regarding landing position (crouching stance)."
+    ],
+    "equipment_checklist": [
+        "Camera with a wide-angle lens",
+        "Hat or cap (heat from burners can be felt overhead)",
+        "Sunglasses",
+        "Light jacket (mornings can be chilly)",
+        "Closed-toe shoes"
+    ],
+    "major_experiences": [
+        "Watching the massive balloon inflation process",
+        "Silent floating over heritage sites and rural India",
+        "Interacting with villagers who often chase the balloon upon landing",
+        "Champagne toast tradition after the flight (select operators)",
+        "Receiving a 'First Flight' certificate"
+    ],
+    "sample_itinerary": {
+        "one_day": "5:30 AM: Pickup from hotel. 6:00 AM: Arrive at launch site, tea/coffee while balloon inflates. 6:45 AM: Takeoff. 60-minute flight over forts/villages. 7:45 AM: Landing in a field. 8:15 AM: Return transfer to hotel."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "Official website of operators (SkyWaltz, Tiger Balloon Safaris)",
+            "Luxury hotel concierges (Taj, Oberoi usually arrange these)",
+            "Adventure travel portals"
+        ],
+        "booking_url": "https://www.skywaltz.com",
+        "suggested_stay": "In Jaipur: Samode Haveli or Fairmont. In Lonavala: Della Resorts.",
+        "how_to_reach": "Jaipur: Flights and trains connect from all metros. Launch sites are usually 30-40km from city center."
+    },
+    "seo": {
+        "seo_title": "Hot Air Ballooning in Jaipur & India: Price, Season & Booking 2024",
+        "seo_description": "Experience India from the sky. Ultimate guide to hot air balloon rides in Jaipur, Lonavala, Hampi. Prices start ₹11,000. Book your sunrise flight.",
+        "tags": [
+            "Hot Air Balloon Jaipur",
+            "SkyWaltz Balloon Safari",
+            "Lonavala Balloon Ride",
+            "Luxury Adventure India",
+            "Couple Activities Jaipur"
+        ]
+    },
+    "highlights": [
+        "Unique aerial perspective of the Amber Fort and Aravalli ranges.",
+        "Typically lasts 60 minutes with varied altitudes.",
+        "Operated by licensed international pilots.",
+        "Sunrise timing offers the best light for photography.",
+        "Exclusive private charters available for proposals and anniversaries.",
+        "Smoothest form of air adventure suitable for all ages (5+)."
+    ]
+}

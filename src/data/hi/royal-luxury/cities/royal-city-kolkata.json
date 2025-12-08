@@ -1,0 +1,52 @@
+{
+    "id": "kolkata",
+    "slug": "kolkata",
+    "title": "Kolkata & Bengal",
+    "hero_image": "https://images.unsplash.com/photo-1561026604295-8822a00bd778?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Stay in restored Raj-era mansions and experience the aristocratic Zamindar lifestyle.",
+    "long_description": "Kolkata, the former capital of British India, is a city of crumbling grandeur and intellectual soul. Beyond the colonial capital, the countryside is dotted with the palaces ('Rajbaris') of the Zamindars (landlords) who accumulated immense wealth and built European-style mansions.\n\nThe royal offering here is the Rajbari experience. Places like The Rajbari Bawali have turned these decaying mansions into luxury resorts. It is an experience of 'Opium Bengali' luxury—four-poster beds, high ceilings, classical music, and feasts that last for hours. It is a nostalgic journey into the era of the Babus.",
+    "properties": [
+        {
+            "id": "rajbari-bawali",
+            "slug": "rajbari-bawali",
+            "title": "The Rajbari Bawali",
+            "card_subtitle": "Zamindar Heritage",
+            "thumbnail_image": "https://images.unsplash.com/photo-1561026604295-8822a00bd778?q=80&w=800&auto=format&fit=crop",
+            "short_description": "A 300-year-old boutique heritage hotel that revives the opulent lifestyle of Bengal's Zamindars.",
+            "source_reference": [
+                {
+                    "url": "https://therajbari.com/",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        }
+    ],
+    "how_to_reach": "Kolkata is a major gateway. Bawali is 1.5 hours drive from the city.",
+    "best_months": [
+        "October",
+        "November",
+        "December",
+        "January",
+        "February"
+    ],
+    "tags": [
+        "Rajbari",
+        "Colonial",
+        "Food",
+        "Culture"
+    ],
+    "seo_title": "Heritage Hotels Kolkata | The Rajbari Bawali",
+    "seo_description": "Stay at The Rajbari Bawali near Kolkata. Experience the luxury of Bengal's Zamindars in a restored 300-year-old palace.",
+    "source_reference": [
+        {
+            "url": "https://wbtourism.gov.in/",
+            "type": "tourism_board",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

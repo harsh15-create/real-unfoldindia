@@ -1,0 +1,53 @@
+{
+    "id": "mandawa",
+    "slug": "mandawa",
+    "title": "Mandawa & Shekhawati",
+    "hero_image": "https://images.unsplash.com/photo-1623060731215-6c1dbd4e5f22?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1590050752117-238cb0e338c5?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Explore frescoed havelis and castle stays in the heart of the Shekhawati region.",
+    "long_description": "Mandawa is the heart of the Shekhawati region, often called the 'Open Art Gallery of Rajasthan'. It is famous for its profusion of painted havelis, where every inch of the walls is covered in intricate frescoes depicting mythology, history, and even modern inventions like trains and cars.\n\nThe town grew in the 18th century as a trading outpost for wealthy merchants. Today, it offers a surreal experience of living in these painted mansions. Castle Mandawa, the town's fortress, stands tall as a guardian of this heritage, offering a unique stay where medieval turrets meet modern hospitality. Walking through Mandawa is like walking through a storybook illustrated by the finest artists of a bygone era.",
+    "properties": [
+        {
+            "id": "castle-mandawa",
+            "slug": "castle-mandawa",
+            "title": "Castle Mandawa",
+            "card_subtitle": "The Painted Castle",
+            "thumbnail_image": "https://images.unsplash.com/photo-1623060731215-6c1dbd4e5f22?q=80&w=800&auto=format&fit=crop",
+            "short_description": "A 240-year-old fortress converted into a hotel, offering a blend of old-world charm and modern comfort.",
+            "source_reference": [
+                {
+                    "url": "http://castlemandawa.com/",
+                    "type": "official",
+                    "last_checked": "2025-12-08"
+                }
+            ]
+        }
+    ],
+    "how_to_reach": "Well connected by road from Jaipur (170 km) and Delhi (260 km). Nearest station is Jhunjhunu.",
+    "best_months": [
+        "October",
+        "November",
+        "December",
+        "January",
+        "February",
+        "March"
+    ],
+    "tags": [
+        "Frescoes",
+        "Art",
+        "Havelis",
+        "Culture"
+    ],
+    "seo_title": "Mandawa Heritage Hotels | Shekhawati Open Art Gallery",
+    "seo_description": "Explore the open art gallery of Mandawa. Stay at Castle Mandawa and visit frescoed havelis in Shekhawati.",
+    "source_reference": [
+        {
+            "url": "http://castlemandawa.com/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

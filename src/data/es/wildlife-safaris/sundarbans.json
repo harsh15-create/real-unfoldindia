@@ -1,0 +1,132 @@
+{
+    "id": "sundarbans",
+    "slug": "sundarbans",
+    "title": "Sundarbans National Park",
+    "hero_image": "https://images.unsplash.com/photo-1594877712177-3e18a996c148?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1628186177114-1e0310cebf3c?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1627918494950-705c7546e16a?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "The world's largest mangrove forest and a UNESCO World Heritage site, home to the swimming Royal Bengal Tiger.",
+    "long_description": "The Sundarbans National Park is a National Park, Tiger Reserve, and a Biosphere Reserve in West Bengal, India. It is part of the Sundarbans on the Ganges Delta, and adjacent to the Sundarban Reserve Forest in Bangladesh. The delta is densely covered by mangrove forests, and is one of the largest reserves for the Bengal tiger. It is also home to a variety of bird, reptile and invertebrate species, including the salt-water crocodile. The tiger population here has adapted to an aquatic life and can swim long distances in the saline waters. The unique ecosystem of the Sundarbans, with its tidal waterways, mudflats and small islands of salt-tolerant mangrove forests, makes it a globally significant ecological hotspot.",
+    "wildlife_significance": "Home to the unique mangrove tiger population and critical protection against coastal erosion and cyclones.",
+    "species_to_see": [
+        "Royal Bengal Tiger (Swimming)",
+        "Estuarine Crocodile",
+        "Gangetic Dolphin",
+        "Water Monitor Lizard",
+        "Spotted Deer",
+        "Kingfisher"
+    ],
+    "habitat_types": [
+        "Mangrove Forests",
+        "Estuarine Delta",
+        "Mudflats",
+        "Tidal Waterways"
+    ],
+    "safari_types": [
+        "Boat Safari (Launch/Motorboat)"
+    ],
+    "major_experiences": [
+        "Cruising through creeks and canals",
+        "Watchtowers at Sudhanyakhali, Sajnekhali, Dobanki",
+        "Canopy Walk at Dobanki",
+        "Village walks on inhabited islands"
+    ],
+    "guides_and_tips": "Safaris are only conducted by boat. Winter is the best time for comfortable weather and sightings.",
+    "how_to_reach": "By Rail: Canning is the nearest railhead (48 km). By Road: Drive to Godkhali (end point) from Kolkata (~3 hours), then take a ferry.",
+    "accommodation_recommendations": [
+        "Sundarban Tiger Camp",
+        "Tora Eco Resort",
+        "Sundarban Mangrove Retreat",
+        "WBTDCL Sajnekhali Tourist Lodge"
+    ],
+    "permits_and_fees": "Permits are issued at Sajnekhali or Godkhali. Foreigners need special permits from the Forest Department.",
+    "conservation_notes": "A fragile ecosystem threatened by rising sea levels and salinity. Plastic is strictly banned.",
+    "highlights": [
+        "Sudhanyakhali Watch Tower",
+        "Sajnekhali Bird Sanctuary",
+        "Dobanki Canopy Walk",
+        "Netidhopani Tower",
+        "Burirdabri Camp"
+    ],
+    "sample_itinerary": "Day 1: Drive from Kolkata to Godkhali. Ferry to resort. sunset cruise. Day 2: Full day boat safari to Sudhanyakhali and Dobanki. Canopy walk. Day 3: Visit village, watch local folk theatre (Bonbibi Yatra). Return to Kolkata.",
+    "safety_tips": "Do not dip hands/feet in the water (Crocodiles). Stay on the boat or designated paths. Carry mosquito repellent.",
+    "tags": [
+        "Mangrove",
+        "Tiger",
+        "UNESCO",
+        "Boat Safari",
+        "Delta"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 60,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Entry fee per person per day.",
+            "source_url": "https://wbtourism.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Adult (Foreigner)",
+            "price": 200,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Entry fee per person per day.",
+            "source_url": "https://wbtourism.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Boat Entry Fee",
+            "price": 400,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Per boat per day.",
+            "source_url": "https://wbtourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Private Boat Hire (Full Day)",
+            "price_from": 3000,
+            "price_to": 6000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "third-party",
+            "source_url": "https://wbtourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "07:00",
+        "close_time": "17:00",
+        "time_notes": "Entry allowed from sunrise to sunset. No night stay inside boat permitted in core area.",
+        "source_url": "https://wbtourism.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "September to March",
+        "peak_months": "December to January",
+        "off_season": "July to August (Monsoon - Difficult navigation)",
+        "season_notes": "Open year-round, but monsoons can be rough.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": true,
+        "permits_info_url": "https://wbtourism.gov.in/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Boat hire charges depend on size and season.",
+        "data_provider": "tourism_board",
+        "last_updated": "2024-05-20"
+    }
+}

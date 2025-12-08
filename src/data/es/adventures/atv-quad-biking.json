@@ -1,0 +1,170 @@
+{
+    "id": "atv-quad-biking",
+    "slug": "atv-quad-biking",
+    "title": "ATV / Off-Roading",
+    "hero_image": "https://images.unsplash.com/photo-1596489392231-18e38484439c?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1596489392231-18e38484439c?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "Drive powerful quad bikes through sand dunes, mud tracks, and forests.",
+    "long_description": "ATV (All-Terrain Vehicle) Quad Biking is a high-power off-road activity that puts you in the driver's seat of a 4-wheeled beast. Designed to tackle rough landscapes like sand dunes, muddy trails, and rocky hills, these machines are easy to handle (usually automatic gears) but powerful enough to give you a serious thrill.\n\nIndia offers diverse terrains for quad biking. In Jaisalmer and Nubra Valley, you can bash towering sand dunes. In Goa and Manali, tracks often involve forest trails and river crossings. It’s a raw, dusty, and loud experience that appeals to petrolheads and adventure lovers alike.",
+    "locations": [
+        {
+            "location": "Jaisalmer (Sam Dunes)",
+            "state": "Rajasthan",
+            "best_months": "October–March",
+            "price_from": 800,
+            "summary": "Dune bashing on golden sands at sunset.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Nubra Valley",
+            "state": "Ladakh",
+            "best_months": "June–September",
+            "price_from": 1200,
+            "summary": "Riding on the silver sand dunes of Hunder with Himalayan views.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Manali (Solang)",
+            "state": "Himachal Pradesh",
+            "best_months": "March–June",
+            "price_from": 1000,
+            "summary": "River crossing and rocky trail rides.",
+            "difficulty": "Intermediate"
+        },
+        {
+            "location": "Goa (Mandrem/Ponda)",
+            "state": "Goa",
+            "best_months": "October–May",
+            "price_from": 800,
+            "summary": "Jungle trails and spice plantation tracks.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Lonavala (Della)",
+            "state": "Maharashtra",
+            "best_months": "All Year",
+            "price_from": 1500,
+            "summary": "Professional dirt track racing experience.",
+            "difficulty": "Intermediate"
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [
+        {
+            "type": "2km Dune Ride (Jaisalmer)",
+            "price_from": 800,
+            "price_to": 1200,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://tourism.rajasthan.gov.in",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Jungle Trail (Goa - 30 mins)",
+            "price_from": 1500,
+            "price_to": 2000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://goa-tourism.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Professional Track (700cc)",
+            "price_from": 2000,
+            "price_to": 3000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://www.dellaadventure.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "09:00",
+            "close_time": "18:00",
+            "time_notes": "Jaisalmer rides often continue till 7 PM for sunset.",
+            "source_url": "https://tourism.rajasthan.gov.in",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "operating_season": {
+        "best_months": "Detailed by location",
+        "peak_months": "Dec-Jan",
+        "off_season": "Monsoon (muddy tracks can be dangerous or fun depending on location).",
+        "season_notes": "Ladakh operates mainly in summer.",
+        "last_checked": "2024-04-12"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "medium",
+        "disclaimer": "Rates in Jaisalmer/Manali are highly negotiable.",
+        "data_provider": "Local Operators",
+        "last_updated": "2024-04-12"
+    },
+    "difficulty_level": "Beginner",
+    "safety_guidelines": [
+        "Helmet is mandatory.",
+        "Follow the guide's track; do not veer off into unknown terrain (risk of tipping).",
+        "Keep feet inside the footrests at all times.",
+        "Maintain safe distance from the bike in front.",
+        "Do not attempt wheelies or drifts unless expert."
+    ],
+    "equipment_checklist": [
+        "Sunglasses (dust protection is vital)",
+        "Scarf/Bandana (to cover mouth from dust)",
+        "Closed shoes",
+        "Cargos/Jeans (engine gets hot near legs)"
+    ],
+    "major_experiences": [
+        "Drifting on loose sand",
+        "Navigating rocky river beds",
+        "Power sliding through mud",
+        "Remote views accessible only by off-road vehicles",
+        "Sunset photo op on the dunes"
+    ],
+    "sample_itinerary": {
+        "one_day": "Arrive at Sam Sand Dunes by 4:00 PM. Rent ATV. 20-minute dune bashing session. Sunset photography. Camel ride back to camp."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "On-site at Sam Dunes / Solang Valley",
+            "Camp packages",
+            "Adventure Park tickets"
+        ],
+        "booking_url": "https://www.dellaadventure.com",
+        "suggested_stay": "Desert Camps in Jaisalmer.",
+        "how_to_reach": "Sam Dunes is 40km from Jaisalmer city. Solang is 14km from Manali."
+    },
+    "seo": {
+        "seo_title": "ATV Quad Biking in India: Jaisalmer, Goa, Manali | 2024 Prices",
+        "seo_description": "Go off-roading in Jaisalmer dunes or Goa's jungles. Quad biking prices start at ₹800. Find best ATV tracks in India.",
+        "tags": [
+            "Quad Biking Jaisalmer",
+            "ATV Ride Goa",
+            "Off Road Adventure",
+            "Dune Bashing India",
+            "Manali Adventure"
+        ]
+    },
+    "highlights": [
+        "No driving license usually required for closed tracks/dunes.",
+        "Easy to learn - automatic gears (thumb throttle).",
+        "Nubra Valley offers the unique double-humped camel + ATV combo.",
+        "Great group activity for racing friends.",
+        "Jaisalmer offers the best open-desert drifting experience.",
+        "Accessible year-round in places like Goa and Lonavala."
+    ]
+}

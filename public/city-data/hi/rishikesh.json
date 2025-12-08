@@ -1,0 +1,171 @@
+{
+    "name": "Rishikesh",
+    "title": "Yoga Capital of the World",
+    "image": "https://images.unsplash.com/photo-1589825935526-04faeb9f5bd3?q=80&w=2070&auto=format&fit=crop",
+    "about": "Rishikesh is a spiritual and adventure destination located beside the Ganges River and the foothills of the Himalayas. Known for yoga, temples, river rafting, serene ashrams, and stunning sunsets, it attracts backpackers, wellness travelers, and adventure lovers.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Best for travel, pleasant weather."
+        },
+        {
+            "season": "April to June",
+            "desc": "Warm, good for rafting."
+        },
+        {
+            "season": "July to September",
+            "desc": "Monsoon (rafting closed)."
+        },
+        {
+            "season": "Events",
+            "desc": "International Yoga Festival (March)."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Laxman Jhula",
+            "image": "https://images.unsplash.com/photo-1589825935526-04faeb9f5bd3?q=80&w=800&auto=format&fit=crop",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Iconic suspension bridge across the Ganges."
+        },
+        {
+            "name": "Ram Jhula",
+            "image": "https://source.unsplash.com/featured/?Ram%20Jhula,Rishikesh,Bridge",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Another suspension bridge connecting ashram areas."
+        },
+        {
+            "name": "Triveni Ghat",
+            "image": "https://source.unsplash.com/featured/?Triveni%20Ghat,Ganga%20Aarti,Rishikesh",
+            "timings": "Open 24x7 (Aarti at sunset)",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Sacred ghat famous for the evening Ganga Aarti."
+        },
+        {
+            "name": "Beatles Ashram",
+            "image": "https://source.unsplash.com/featured/?Beatles%20Ashram,Rishikesh,Graffiti",
+            "timings": "10 AM – 4 PM",
+            "entry": "₹150 (Indian)",
+            "duration": "1–2 hrs",
+            "desc": "Abandoned ashram with street art and meditation zones."
+        },
+        {
+            "name": "Neelkanth Mahadev Temple",
+            "image": "https://source.unsplash.com/featured/?Neelkanth%20Mahadev,Shiva,Temple",
+            "timings": "5 AM – 8 PM",
+            "entry": "Free",
+            "duration": "2–3 hrs",
+            "desc": "Sacred Shiva temple located in a forest valley."
+        },
+        {
+            "name": "Parmarth Niketan",
+            "image": "https://source.unsplash.com/featured/?Parmarth%20Niketan,Ashram,Rishikesh",
+            "timings": "Open daily",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Largest ashram in Rishikesh, known for yoga and spiritual programs."
+        },
+        {
+            "name": "Shiva Statue at Parmarth",
+            "image": "https://source.unsplash.com/featured/?Shiva%20Statue,Rishikesh,Ganga",
+            "timings": "Open 24x7",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Iconic statue on the banks of the Ganges."
+        },
+        {
+            "name": "Neer Garh Waterfall",
+            "image": "https://source.unsplash.com/featured/?Neer%20Garh%20Waterfall,Rishikesh",
+            "timings": "8 AM – 6 PM",
+            "entry": "₹30",
+            "duration": "2 hrs",
+            "desc": "Scenic waterfall accessible via a short trek."
+        }
+    ],
+    "hiddenGems": [
+        "Goa Beach (Riverbank)",
+        "Secret Waterfalls (Tapovan)",
+        "Kathputli Artists",
+        "Cliff-jumping Spots"
+    ],
+    "food": [
+        {
+            "area": "Beatles Café",
+            "spots": "Vegan & Continental"
+        },
+        {
+            "area": "Ganga View Café",
+            "spots": "River View Dining"
+        },
+        {
+            "area": "Pure Soul Café",
+            "spots": "Organic Food"
+        },
+        {
+            "area": "Little Buddha Café",
+            "spots": "Pizza & Momos"
+        },
+        {
+            "area": "Local Stalls",
+            "spots": "Aloo Puri & Kachori"
+        }
+    ],
+    "markets": [
+        "Laxman Jhula Market",
+        "Ram Jhula Market",
+        "Main Market"
+    ],
+    "nightlife": [
+        "Ganga Aarti",
+        "Café Hopping",
+        "Night Walks"
+    ],
+    "transport": {
+        "metro": "Not available",
+        "cabs": [
+            {
+                "type": "Auto-rickshaw",
+                "cost": "Common"
+            },
+            {
+                "type": "Rental Scooter",
+                "cost": "₹300–₹500/day"
+            },
+            {
+                "type": "Taxi",
+                "cost": "For Temple Trips"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹600–₹1000/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1200–₹2500/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹3000–₹6000/day"
+        }
+    ],
+    "stay": [
+        "Tapovan",
+        "Laxman Jhula",
+        "Ram Jhula",
+        "Near Ganga Ghats"
+    ],
+    "safety": [
+        "Do not swim in strong river currents",
+        "Rafting during authorized seasons only",
+        "Avoid isolated areas at night",
+        "Respect ashram rules"
+    ]
+}

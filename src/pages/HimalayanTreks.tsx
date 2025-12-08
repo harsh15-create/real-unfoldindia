@@ -1,36 +1,49 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Search, MapPin, Mountain, Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import RoyalHero from "@/components/royal-luxury/RoyalHero";
-import treksData from "@/data/himalayan-treks/himalayan-treks.json";
+import { getTreksMaster, TrekMaster } from "@/lib/treksApi";
+import { useTranslation } from "react-i18next";
 
 const HimalayanTreks = () => {
+    const { i18n } = useTranslation();
     const [searchQuery, setSearchQuery] = useState("");
+    const [treksData, setTreksData] = useState<TrekMaster | null>(null);
+    const [loading, setLoading] = useState(true);
 
-    const filteredTreks = treksData.treks.filter((trek) =>
+    useEffect(() => {
+        setLoading(true);
+        getTreksMaster(i18n.language).then((data: TrekMaster) => {
+            setTreksData(data);
+            setLoading(false);
+        }).catch(() => setLoading(false));
+    }, [i18n.language]);
+
+    const filteredTreks = treksData?.treks.filter((trek) =>
         trek.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         trek.about.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    ) || [];
+
+    if (loading) return <div className="min-h-screen bg-background flex items-center justify-center text-primary">Loading Treks...</div>;
+    if (!treksData) return <div className="min-h-screen bg-background flex items-center justify-center text-foreground">Failed to load treks</div>;
 
     return (
         <div className="min-h-screen bg-background text-foreground selection:bg-primary/30">
             <RoyalHero
                 image="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=2070&auto=format&fit=crop"
-                title="Himalayan Treks"
-                subtitle="Journey through the roof of the world"
+                title={"Himalayan Treks"}
+                subtitle={treksData.metadata?.subtitle || "Journey through the roof of the world"}
             />
 
             <div className="container mx-auto px-4 py-12 relative z-30">
                 {/* Intro Block */}
                 <div className="text-center mb-16 max-w-4xl mx-auto">
                     <Mountain className="w-12 h-12 mx-auto text-primary mb-6" />
-                    <h2 className="text-4xl md:text-5xl font-serif mb-8 text-foreground">The Alpine Call</h2>
+                    <h2 className="text-4xl md:text-5xl font-serif mb-8 text-foreground">{"The Alpine Call"}</h2>
                     <p className="text-lg md:text-xl leading-relaxed text-muted-foreground whitespace-pre-line font-light mb-8">
-                        The Himalayas are more than just a mountain range; they are a presence. Rising abruptly from the plains, they offer a sanctuary of silence, snow, and spirit.
-
-                        Whether you are a beginner looking for your first snow trek or an expert seeking the challenge of a high pass, our curated list covers the most unforgettable trails. Walk through rhododendron forests, camp by frozen lakes, and stand atop peaks that touch the sky.
+                        {"Discover the majestic peaks, hidden valleys, and spiritual serenity of the Himalayas. Our curated treks offer a blend of adventure, culture, and breathtaking landscapes."}
                     </p>
 
                     <Button

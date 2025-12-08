@@ -1,0 +1,215 @@
+{
+    "id": "taj-falaknuma-palace",
+    "slug": "taj-falaknuma-palace",
+    "title": "Taj Falaknuma Palace",
+    "hero_image": "https://images.unsplash.com/photo-1572445271230-a78b5944a659?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1631867675167-90a42886c67d?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1555523196-857e62758f8e?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "The former residence of the Nizam of Hyderabad, offering the world's finest palace experience.",
+    "long_description": "Taj Falaknuma Palace is the epitome of royal grandeur. Built in 1894, it took 10 years for the Taj Group to restore it. The arrival experience itself sets the tone: guests arrive in a horse-drawn carriage to the main porch, where rose petals are showered upon them.\n\nThe palace boasts the world's longest dining table (seats 101), a library with a rare collection of the Nizam, and Italian marble everywhere. The rooms are plush, with high ceilings and rich tapestries. The 'Jiva Grande Spa' offers ancient Indian wellness therapies. It is widely considered one of the best hotels in the world.",
+    "amenities": [
+        "Horse Carriage Arrival",
+        "Jiva Grande Spa",
+        "Heritage Walk",
+        "Outdoor Pool",
+        "Library (Replica available)",
+        "Billiards Room"
+    ],
+    "room_types": [
+        {
+            "name": "Palace Room",
+            "starting_price": 40000,
+            "currency": "INR",
+            "description": "Luxurious rooms overlooking the courtyard."
+        },
+        {
+            "name": "Historical Suite",
+            "starting_price": 65000,
+            "currency": "INR",
+            "description": "Suites where the Nizam's guests once stayed."
+        },
+        {
+            "name": "Grand Royal Suite",
+            "starting_price": 100000,
+            "currency": "INR",
+            "description": "Opulent suites with spectacular city views."
+        },
+        {
+            "name": "Nizam Suite",
+            "starting_price": 500000,
+            "currency": "INR",
+            "description": "The private suite of the Nizam, featuring a private pool and personal butler."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "101 Dining Hall",
+            "capacity": 101,
+            "notes": "World's longest dining table",
+            "wedding_ready": false
+        },
+        {
+            "name": "Main Lawns",
+            "capacity": 1000,
+            "notes": "Spectacular outdoor venue",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [
+        {
+            "category": "Heritage Walk & High Tea",
+            "price": 3500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "notes": "Tour for non-resident guests",
+            "last_checked": "2025-12-08"
+        }
+    ],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Open 24/7.",
+        "source_url": "https://www.tajhotels.com/en-in/taj/taj-falaknuma-palace-hyderabad/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "February"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": null,
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 40000,
+    "price_currency": "INR",
+    "packages": [],
+    "booking_methods": [
+        "Online",
+        "Phone"
+    ],
+    "booking_url": "https://www.tajhotels.com/en-in/taj/taj-falaknuma-palace-hyderabad/",
+    "wedding_packages": [
+        {
+            "name": "Royal Nizam Wedding",
+            "capacity": 500,
+            "starting_price": 10000000,
+            "inclusions": [
+                "Full Palace Buyout",
+                "Grand Welcome",
+                "Nizami Feast"
+            ],
+            "contact_url": "https://www.tajhotels.com/en-in/taj/taj-falaknuma-palace-hyderabad/meetings-and-events/"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Sales",
+            "name": null,
+            "email": "falaknuma.hyderabad@tajhotels.com",
+            "phone": "+91 40 6629 8585"
+        }
+    ],
+    "signature_experiences": [
+        "Heritage Walk with Historian",
+        "Dining at 101 Table",
+        "Sufi Qawwali Evening",
+        "Champagne Palace Walk"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Nizami Indulgence",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Royal Arrival",
+                    "activities": [
+                        "Carriage Welcome",
+                        "Palace Tour",
+                        "Qawwali & Dinner"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Adaa",
+            "cuisine": "Hyderabadi Slow Cooking",
+            "reservation_required": true
+        },
+        {
+            "name": "Celeste",
+            "cuisine": "Italian & Mediterranean",
+            "reservation_required": true
+        },
+        {
+            "name": "Gol Bungalow",
+            "cuisine": "Private Dining",
+            "reservation_required": true
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": true,
+        "accessible_rooms": true
+    },
+    "heritage_history": "Built in 1894 by Nawab Vikar-ul-Umra. Residence of Nizam Mehboob Ali Khan.",
+    "conservation_notes": "A meticulous restoration project by Taj spanning 10 years.",
+    "cultural_responsibility": "Preserves the Nizam's library and collections.",
+    "how_to_reach": "18 km from Airport. 5 km from Charminar.",
+    "nearest_airport": "Rajiv Gandhi International Airport (18 km)",
+    "nearest_rail_station": "Hyderabad Deccan (8 km)",
+    "suggested_stay": "2 Nights",
+    "contact": {
+        "phone": "+91 40 6629 8585",
+        "email": "falaknuma.hyderabad@tajhotels.com",
+        "address": "Engine Bowli, Falaknuma, Hyderabad 500053"
+    },
+    "tags": [
+        "Ultra Luxury",
+        "Nizam",
+        "Palace",
+        "History",
+        "Best Hotels in World"
+    ],
+    "highlights": [
+        "Mirror of the Sky",
+        "101 Dining Table",
+        "Nizam's Library",
+        "Stained Glass Windows",
+        "Hookah Lounge",
+        "Japanese Garden"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates are ultra-luxury.",
+        "data_provider": "Taj Hotels",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Taj Falaknuma Palace Hyderabad | Best Palace Hotel India",
+    "seo_description": "Book a stay at Taj Falaknuma Palace. Experience the opulent life of the Nizams in Hyderabad.",
+    "source_reference": [
+        {
+            "url": "https://www.tajhotels.com/en-in/taj/taj-falaknuma-palace-hyderabad/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

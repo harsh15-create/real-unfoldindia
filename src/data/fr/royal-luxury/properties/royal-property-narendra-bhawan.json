@@ -1,0 +1,213 @@
+{
+    "id": "narendra-bhawan",
+    "slug": "narendra-bhawan",
+    "title": "Narendra Bhawan",
+    "hero_image": "https://images.unsplash.com/photo-1566633806327-68e152aaf26d?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A design hotel that tells the story of the last Maharaja of Bikaner through its stunning interiors.",
+    "long_description": "Narendra Bhawan Bikaner tells the story of the last reigning Maharaja of Bikaner, His Highness Narendra Singhji. Born in 1948, he was a modern royal, a traveler, and a man of eclectic tastes. The hotel is designed as a narrative of his life, from his memories of Bikaner to his travels across Europe.\n\nThis is not a traditional palace hotel; it is a 'Design Hotel' set in a palace. The interiors are a riot of colors, textures, and curios. With an infinity pool overlooking the city, a moody clinic-themed spa, and dining experiences that range from colonial to contemporary, Narendra Bhawan offers a fresh, chic take on royalty.",
+    "amenities": [
+        "Infinity Pool",
+        "Clinic - The Spa",
+        "Fitness Centre",
+        "Curated Shop",
+        "Library",
+        "EDC (Experience Design Centre)"
+    ],
+    "room_types": [
+        {
+            "name": "Residence Room",
+            "starting_price": 12000,
+            "currency": "INR",
+            "description": "Comfortable rooms reflecting the Maharaja's early life."
+        },
+        {
+            "name": "Prince's Room",
+            "starting_price": 18000,
+            "currency": "INR",
+            "description": "Luxurious rooms with a western influence."
+        },
+        {
+            "name": "Regimental Room",
+            "starting_price": 22000,
+            "currency": "INR",
+            "description": "Rooms inspired by the military heritage."
+        },
+        {
+            "name": "India Room",
+            "starting_price": 25000,
+            "currency": "INR",
+            "description": "Celebrating the Gandhian era and pastoral India."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "The Gaushala",
+            "capacity": 100,
+            "notes": "Outdoor venue for sundowners",
+            "wedding_ready": true
+        },
+        {
+            "name": "Main Porch",
+            "capacity": 200,
+            "notes": "Grand entrance area for events",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Open 24/7.",
+        "source_url": "https://www.narendrabhawan.com/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "March"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": null,
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 12000,
+    "price_currency": "INR",
+    "packages": [
+        {
+            "name": "The Bikaner Edit",
+            "price_from": 35000,
+            "inclusions": [
+                "2 Nights Stay",
+                "Sundowner at Pastures",
+                "Museum Dinner"
+            ],
+            "booking_method": "Direct",
+            "source_url": "https://www.narendrabhawan.com/offers"
+        }
+    ],
+    "booking_methods": [
+        "Online",
+        "Email"
+    ],
+    "booking_url": "https://www.narendrabhawan.com/",
+    "wedding_packages": [
+        {
+            "name": "Boutique Wedding",
+            "capacity": 300,
+            "starting_price": 3000000,
+            "inclusions": [
+                "Full House",
+                "Curated Menus",
+                "Decor"
+            ],
+            "contact_url": "https://www.narendrabhawan.com/celebrate"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Events",
+            "name": null,
+            "email": "reservations@narendrabhawan.com",
+            "phone": "+91 78271 51151"
+        }
+    ],
+    "signature_experiences": [
+        "Sundowner at Pastures",
+        "Merchant Exploration (Old City Walk)",
+        "Blindfold Dinner",
+        "Museum Dinner"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Eclectic Bikaner",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Welcome to the Residence",
+                    "activities": [
+                        "Check-in",
+                        "High Tea",
+                        "Sundowner at Pastures"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Pearls & Chiffon",
+            "cuisine": "Dining Room",
+            "reservation_required": false
+        },
+        {
+            "name": "Mad Hatter",
+            "cuisine": "Bake House",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": true,
+        "accessible_rooms": true
+    },
+    "heritage_history": "Residence of Maharaja Narendra Singhji (1948-2003). Retells his life story.",
+    "conservation_notes": "Preserves the personal memorabilia and eclectic style of the Maharaja.",
+    "cultural_responsibility": "Promotes Bikaner's urban history.",
+    "how_to_reach": "4 km from Station.",
+    "nearest_airport": "Bikaner Airport (18 km)",
+    "nearest_rail_station": "Bikaner Junction (4 km)",
+    "suggested_stay": "2 Nights",
+    "contact": {
+        "phone": "+91 78271 51151",
+        "email": "reservations@narendrabhawan.com",
+        "address": "Samta Nagar, Bikaner 334001"
+    },
+    "tags": [
+        "Design Hotel",
+        "Boutique",
+        "Modern Royalty",
+        "Eclectic",
+        "Luxury"
+    ],
+    "highlights": [
+        "Rooftop Infinity Pool",
+        "Curated Experiences",
+        "Blindfold Dinner",
+        "Art Deco Vibes",
+        "Pet Friendly",
+        "Storytelling"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates exclusive of tax.",
+        "data_provider": "Suryagarh Collection",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Narendra Bhawan Bikaner | Design Boutique Hotel",
+    "seo_description": "Stay at Narendra Bhawan Bikaner, a design hotel celebrating the life of the last Maharaja. Experience curated luxury and eclectic interiors.",
+    "source_reference": [
+        {
+            "url": "https://www.narendrabhawan.com/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

@@ -40,7 +40,7 @@
         },
         {
             "name": "Hawa Mahal",
-            "image": "https://source.unsplash.com/featured/?Hawa%20Mahal,Architecture",
+            "image": "https://images.unsplash.com/photo-1524230507669-5ff97982bb5e?q=80&w=800&auto=format&fit=crop",
             "timings": "9 AM – 5 PM",
             "entry": "₹50",
             "duration": "30–45 mins",
@@ -48,7 +48,7 @@
         },
         {
             "name": "Jantar Mantar",
-            "image": "https://source.unsplash.com/featured/?Jantar%20Mantar,Jaipur,Astronomy",
+            "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb9d64?q=80&w=800&auto=format&fit=crop",
             "timings": "9 AM – 5 PM",
             "entry": "₹50",
             "duration": "1 hr",
@@ -88,7 +88,7 @@
         },
         {
             "name": "Birla Mandir",
-            "image": "https://source.unsplash.com/featured/?Birla%20Mandir,Jaipur",
+            "image": "https://images.unsplash.com/photo-1605627079368-f93d5418836c?q=80&w=800&auto=format&fit=crop",
             "timings": "Open till night",
             "entry": "Free",
             "duration": "30 mins",
@@ -96,7 +96,7 @@
         },
         {
             "name": "Chokhi Dhani",
-            "image": "https://source.unsplash.com/featured/?Chokhi%20Dhani,Jaipur,Culture",
+            "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=800&auto=format&fit=crop",
             "timings": "5 PM – 11 PM",
             "entry": "₹700–₹1200",
             "duration": "2–3 hrs",

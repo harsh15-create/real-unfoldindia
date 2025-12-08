@@ -1,0 +1,65 @@
+{
+    "id": "vrindavan",
+    "slug": "vrindavan",
+    "title": "Vrindavan: Playground of the Divine",
+    "hero_image": "vrindavan-hero-placeholder.jpg",
+    "gallery_images": [
+        "vrindavan-prem-mandir.jpg",
+        "vrindavan-banke-bihari.jpg",
+        "vrindavan-iskcon.jpg",
+        "vrindavan-nidhivan.jpg"
+    ],
+    "short_description": "The town where Krishna spent his childhood, famous for Banke Bihari and ISKCON temples.",
+    "long_description": "Vrindavan, just 10km from Mathura, is where Krishna grew up, played his flute, and performed his Leelas (divine plays) with Radha and the Gopis. Unlike Mathura which feels like a city, Vrindavan feels like a temple town where every greeting is 'Radhe Radhe'.\n\nThe town is home to over 5,000 temples. The most famous is Banke Bihari, where the idol of Krishna stands in the Tribhanga posture. The curtain in front of the idol is pulled shut every few minutes because it is believed the attraction of his eyes is so powerful that devotees might faint if they stare too long. \n\nVrindavan also has a mysterious side: Nidhivan. It is a dense forest of twisted Tulsi trees where it is believed Krishna still performs the Raas Leela every night. No one is allowed inside after sunset. On the modern side, the Prem Mandir (Temple of Love) and ISKCON temple offer grandeur and global community.",
+    "spiritual_significance": "The heart of Braj. The land of Radha-Krishna's eternal love. Dust of Vrindavan (Braj Raj) is considered sacred. Nidhivan is believed to be a living venue of divine dance.",
+    "major_temples_and_sites": [
+        {
+            "name": "Banke Bihari Temple",
+            "description": "The most popular shrine. The atmosphere here is electric, spontaneous, and informal."
+        },
+        {
+            "name": "Prem Mandir",
+            "description": "A massive white marble complex built by Kripalu Maharaj. It lights up in changing colors at night."
+        },
+        {
+            "name": "ISKCON Temple (Krishna Balaram Mandir)",
+            "description": "The hub for international devotees. Known for its cleanliness, continuous Kirtan, and Samadhi of Prabhupada."
+        },
+        {
+            "name": "Nidhivan",
+            "description": "The mysterious forest. The trees are intertwine in pairs. Monkeys and birds also leave at night."
+        },
+        {
+            "name": "Radha Raman Temple",
+            "description": "Houses a self-manifested idol of Krishna (one of the few original idols that survived Mughal attacks)."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Darshan of Banke Bihari (be ready for crowds).",
+        "Attend the 24-hour Kirtan at ISKCON.",
+        "Walk the Parikrama Marg (circumambulation path).",
+        "Visit Prem Mandir at night for the light show.",
+        "See the place where Krishna killed Kaliya Naga on the Yamuna."
+    ],
+    "highlights": [
+        "The greeting 'Radhe Radhe' everywhere.",
+        "The mystery of Nidhivan.",
+        "The stunning lighting of Prem Mandir.",
+        "The joyous energy of ISKCON.",
+        "The intense devotion at Banke Bihari."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Holi is chaotic but legendary.",
+    "how_to_reach": "Radio taxi/Auto from Mathura (20 mins).",
+    "stay_recommendations": "Luxury: Nidhivan Sarovar Portico. Spiritual: ISKCON Guesthouse, Fogla Ashram. Budget: MVT Guesthouse.",
+    "safety_tips": "Monkeys are EXTREMELY aggressive; do not carry food, wear glasses, or use phones openly. They will snatch them.",
+    "sample_itinerary": "Day 1: Arrive from Mathura. Check in. Lunch at Govinda's (ISKCON). Visit Nidhivan. Evening Darshan at Banke Bihari. Visit Prem Mandir at night.",
+    "tags": [
+        "Krishna",
+        "Radha",
+        "Love",
+        "Temples",
+        "Mystery"
+    ],
+    "is_bookable": true
+}

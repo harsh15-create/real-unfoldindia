@@ -1,0 +1,65 @@
+{
+    "id": "dwarka",
+    "slug": "dwarka",
+    "title": "Dwarka: Kingdom of Krishna",
+    "hero_image": "dwarka-hero-placeholder.jpg",
+    "gallery_images": [
+        "dwarka-temple-flag.jpg",
+        "dwarka-gomti-ghat.jpg",
+        "dwarka-bet-dwarka.jpg",
+        "dwarka-sea.jpg"
+    ],
+    "short_description": "An ancient Char Dham city on the Gujarat coast, submerged in myth and devotion.",
+    "long_description": "Dwarka (The Gateway) in Gujarat lies at the western tip of India, facing the Arabian Sea. It is the legendary kingdom established by Lord Krishna after he left Mathura. It is one of the Char Dham pilgrimage sites (along with Badrinath, Puri, and Rameswaram) and one of the Sapta Puris.\n\nThe heart of the city is the Dwarkadhish Temple (Jagat Mandir), a magnificent structure believed to be built by Krishna's great-grandson, Vajranabha. The temple flag (Dhaja), a massive triangular cloth changed five times a day, is worshipped as much as the deity itself. Mythologically, the original Golden City of Krishna was submerged under the sea after he departed the earth; marine excavations have indeed found ancient underwater structures here.\n\nToday, Dwarka is blustery, wind-swept, and intensely pious. Devotees bathe in the Gomti river before entering the temple via the Swarg Dwar (Gate of Heaven). A short boat ride takes you to Bet Dwarka, an island believed to be the actual residence of Krishna and his family.",
+    "spiritual_significance": "A Char Dham and Sapta Puri site. It represents the royal phase of Lord Krishna's life (Dwarkadhish - King of Dwarka). The city is considered a gateway to Moksha.",
+    "major_temples_and_sites": [
+        {
+            "name": "Dwarkadhish Temple",
+            "description": "The 5-storied main shrine supported by 72 pillars. It houses the black idol of Lord Krishna."
+        },
+        {
+            "name": "Nageshwar Jyotirlinga",
+            "description": "Located about 15km away, it is one of the 12 Jyotirlingas, housing a large Shiva statue."
+        },
+        {
+            "name": "Rukmini Devi Temple",
+            "description": "Dedicated to Krishna's chief queen, Rukmini. It stands separate from the main temple due to a legendary curse by Sage Durvasa."
+        },
+        {
+            "name": "Bet Dwarka",
+            "description": "An island accessible by ferry. It is believed to be the spot where Krishna met his friend Sudama."
+        },
+        {
+            "name": "Gomti Ghat",
+            "description": "Ghats where the Gomti river meets the sea. Taking a bath here is customary."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Witness the Dhaja Arohan (Flag Changing) ceremony atop the temple.",
+        "Bathe in the Gomti River.",
+        "Take the ferry to Bet Dwarka and offer rice (symbolizing Sudama's gift).",
+        "Visit the Gopi Talav (pond associated with Gopis).",
+        "Walk across the Sudama Setu bridge."
+    ],
+    "highlights": [
+        "The 52-yard flag flying atop the temple.",
+        "The boat ride to Bet Dwarka surrounded by seagulls.",
+        "The ancient architecture of Jagat Mandir.",
+        "The coastal sunset near the lighthouse.",
+        "The spiritual story of Krishna and Sudama."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Janmashtami (Aug/Sept) is the main festival.",
+    "how_to_reach": "By Air: Jamnagar Airport (130km) or Rajkot (220km). By Train: Dwarka Railway Station is well connected. By Road: Buses from Jamnagar/Ahmedabad.",
+    "stay_recommendations": "Luxury: Fern Sattva Resort. Spiritual: Kokila Dhiraj Dham. Budget: Hotel Damji, Lords Eco Inn.",
+    "safety_tips": "The ferry to Bet Dwarka can get very crowded; prioritize safety over rushing. Temple security is tight; leave electronics in lockers.",
+    "sample_itinerary": "Day 1: Arrive. Check in. Gomti bath. Evening Darshan at Dwarkadhish. Witness Flag ceremony.\nDay 2: Morning trip to Bet Dwarka (take ferry). On return, visit Nageshwar Jyotirlinga and Rukmini Temple. Sunset at the lighthouse.",
+    "tags": [
+        "Krishna",
+        "Char Dham",
+        "Gujarat",
+        "Sea",
+        "Temple"
+    ],
+    "is_bookable": true
+}

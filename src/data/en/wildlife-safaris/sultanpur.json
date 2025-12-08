@@ -1,0 +1,129 @@
+{
+    "id": "sultanpur",
+    "slug": "sultanpur",
+    "title": "Sultanpur National Park",
+    "hero_image": "https://images.unsplash.com/photo-1596541530756-3c46e3e56c3e?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1610452352220-410c59828d5d?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1552084117-5663b8714272?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1618251275988-cb94bc807534?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A popular bird sanctuary near Delhi/Gurgaon, hosting migratory birds from Siberia and Europe.",
+    "long_description": "Sultanpur National Park is located at Sultanpur village on the Gurugram-Jhajjar highway, 15 km from Gurugram, Haryana. It is a favorite spot for bird watchers, especially during the winter months. Approximately 250 species of birds are found here. Some of them are resident, while others come from distant regions like Siberia, Europe and Central Asia. The park revolves around a freshwater lake which dries up in summer but brims with life in winter. It provides a convenient escape for nature lovers from the National Capital Region.",
+    "wildlife_significance": "Crucial wintering ground for trans-Himalayan migratory birds in Haryana.",
+    "species_to_see": [
+        "Siberian Crane (Rare)",
+        "Greater Flamingo",
+        "Ruff",
+        "Black-winged Stilt",
+        "Common Teal",
+        "Yellow Bittern",
+        "White-throated Kingfisher"
+    ],
+    "habitat_types": [
+        "Freshwater Lake",
+        "Acacia Forests",
+        "Grasslands"
+    ],
+    "safari_types": [
+        "Walking",
+        "Bird Watch Towers"
+    ],
+    "major_experiences": [
+        "Walking trail around the lake (3-4 km)",
+        "Photography from watchtowers",
+        "Education center visit",
+        "Picnic in designated areas"
+    ],
+    "guides_and_tips": "Binoculars are a must. The circular path covers all major viewing points.",
+    "how_to_reach": "By Road: 50 km from Delhi, 15 km from Gurgaon. By Rail: Gurgaon station.",
+    "accommodation_recommendations": [
+        "Rosy Pelican Tourist Complex (Haryana Tourism)",
+        "Resorts in Manesar/Gurgaon (nearby)"
+    ],
+    "permits_and_fees": "Tickets at the gate. Identity proof required.",
+    "conservation_notes": "Water levels are artificially maintained by pumping from canals to support bird life.",
+    "highlights": [
+        "Proximity to Delhi NCR",
+        "Well-laid walking tracks",
+        "Four Watchtowers",
+        "Educational Museum"
+    ],
+    "sample_itinerary": "Day Trip: Arrive morning (7 AM). Walk the perimeter trail. Breakfast at Rosy Pelican. Visit museum. Return to Delhi by afternoon.",
+    "safety_tips": "Do not litter. Silence is golden.",
+    "tags": [
+        "Birding",
+        "Haryana",
+        "Near Delhi",
+        "Wetland"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 10,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Nominal entry fee.",
+            "source_url": "https://haryanatourism.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Adult (Foreigner)",
+            "price": 600,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Standard foreigner fee.",
+            "source_url": "https://haryanatourism.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Camera",
+            "price": 50,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Per camera.",
+            "source_url": "https://haryanatourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Guide Fee",
+            "price_from": 500,
+            "price_to": 500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://haryanatourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Closed on Tuesdays",
+        "open_time": "07:00",
+        "close_time": "16:30",
+        "time_notes": "Timings vary by season (Winter: 7-4:30, Summer: 7-6).",
+        "source_url": "https://haryanatourism.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "October to March",
+        "peak_months": "December to February",
+        "off_season": "May to July (Dry lake, few birds)",
+        "season_notes": "Park shuts down in peak summer for maintenance.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": false,
+        "permits_info_url": "https://haryanatourism.gov.in/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Very affordable government pricing.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

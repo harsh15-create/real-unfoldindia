@@ -1,0 +1,65 @@
+{
+    "id": "hemkund-sahib",
+    "slug": "hemkund-sahib",
+    "title": "Hemkund Sahib: Glacial Lake of Devotion",
+    "hero_image": "hemkund-hero-placeholder.jpg",
+    "gallery_images": [
+        "hemkund-sahib-gurudwara.jpg",
+        "hemkund-lake.jpg",
+        "hemkund-flowers.jpg",
+        "hemkund-trek-path.jpg"
+    ],
+    "short_description": "The world's highest Gurudwara, set beside a stunning glacial lake surrounded by seven peaks.",
+    "long_description": "Hemkund Sahib ('Lake of Snow') is a Sikh pilgrimage site like no other. Located at a dizzying altitude of 4,160 meters (13,650 ft) in the Himalayas, it is the highest Gurudwara in the world. \n\nThe site is mentioned in the Dasam Granth (sacred text) as the place where Guru Gobind Singh (the 10th Guru) meditated in a previous life. The Gurudwara is a star-shaped structure built of white marble and concrete, designed to withstand heavy snow. It sits on the banks of a crystal-clear glacial lake reflecting the seven surrounding mountain peaks (Sapta Sring). \n\nThe trek to Hemkund Sahib is arduous (6km steep climb from Ghangaria) but breathtaking. In July and August, the path is lined with the rare Brahma Kamal flowers. The water of the lake is freezing, yet devotees take a holy dip before entering the shrine. The atmosphere inside, with the Kirtan echoing in the thin air, is ethereally peaceful.",
+    "spiritual_significance": "A major Sikh pilgrimage. It honors the meditation and sacrifice of Guru Gobind Singh. The lake water (Amrit Sarovar) is considered holy.",
+    "major_temples_and_sites": [
+        {
+            "name": "Hemkund Sahib Gurudwara",
+            "description": "The star-shaped shrine. It opens only from June to October due to snow."
+        },
+        {
+            "name": "Hemkund Lake",
+            "description": "The glacial lake fed by snow melt. A dip here is customary."
+        },
+        {
+            "name": "Lakshman Temple",
+            "description": "A small ancient temple nearby dedicated to Lakshman, who is also believed to have meditated here."
+        },
+        {
+            "name": "Valley of Flowers",
+            "description": "A UNESCO World Heritage site located nearby (divert from Ghangaria). A paradise of alpine flora."
+        },
+        {
+            "name": "Ghangaria",
+            "description": "The base camp for the trek, with no electricity grid (generators used), nestled in pine forests."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Trek the steep 6km from Ghangaria.",
+        "Take a dip in the freezing Hemkund Lake.",
+        "Listen to Gurbani inside the warm Gurudwara.",
+        "Have Langar (tea and khichdi) at 13,000 ft.",
+        "Spot the Brahma Kamal flowers."
+    ],
+    "highlights": [
+        "The geometric architecture of the Gurudwara.",
+        "The reflection of peaks in the lake.",
+        "The Valley of Flowers trek (add-on).",
+        "The pristine alpine environment.",
+        "The hospitality of Sikh volunteers (Sewadars)."
+    ],
+    "local_guides_available": true,
+    "best_months": "July to September (when snow melts and flowers bloom).",
+    "how_to_reach": "By Air: Dehradun Airport. By Road: Drive to Govindghat. Then trek 13km to Ghangaria, then 6km to Hemkund.",
+    "stay_recommendations": "Luxury: None. Spiritual: Gurudwara at Ghangaria (free stay). Budget: Lodges/Tents in Ghangaria.",
+    "safety_tips": "Altitude sickness is a real risk; ascend slowly. The weather changes in minutes; carry raincoats. Descent can be hard on knees.",
+    "sample_itinerary": "Day 1: Drive Rishikesh to Joshimath/Govindghat.\nDay 2: Trek govindinghat to Ghangaria (13km). Stay.\nDay 3: Trek to Hemkund Sahib (6km). Darshan. Return to Ghangaria same day (staying at top not allowed).\nDay 4: Trek to Valley of Flowers (optional) or return to Govindghat.",
+    "tags": [
+        "Sikhism",
+        "Himalayas",
+        "Trek",
+        "Flowers",
+        "Lake"
+    ],
+    "is_bookable": true
+}

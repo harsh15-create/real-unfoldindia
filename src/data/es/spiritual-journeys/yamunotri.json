@@ -1,0 +1,66 @@
+{
+    "id": "yamunotri",
+    "slug": "yamunotri",
+    "title": "Yamunotri: Source of the Yamuna",
+    "hero_image": "yamunotri-hero-placeholder.jpg",
+    "gallery_images": [
+        "yamunotri-temple.jpg",
+        "yamunotri-trek.jpg",
+        "yamunotri-hot-springs.jpg",
+        "yamunotri-valley.jpg"
+    ],
+    "short_description": "A scenic trek to thermal springs and the temple of Goddess Yamuna.",
+    "long_description": "Yamunotri is the first stop in the Chota Char Dham pilgrimage. Located at 3,293 meters, it is the source of the River Yamuna, the sister of Yama (God of Death). It is believed that bathing in the Yamuna protects one from a painful death. \n\nThe temple is reached by a 6km trek from Janki Chatti. The most unique feature of Yamunotri is the presence of boiling hot sulphur springs (Surya Kund) right next to the freezing ice-cold river. Pilgrims cook rice and potatoes in these hot springs tied in cloth bags and take them home as 'Prasad'. The contrast of steam rising from the hot springs against the backdrop of the frozen Bandarpoonch glacier is magical.\n\nThe trek is steep but scenic, passing through lush valleys and waterfalls. The atmosphere is less commercial than other Dhams, offering a more intimate connection with nature and divinity.",
+    "spiritual_significance": "Source of the Yamuna. Associated with Yama (Death) and Surya (Sun). Cooking prasad in the hot spring is a unique ritual found here.",
+    "major_temples_and_sites": [
+        {
+            "name": "Yamunotri Temple",
+            "description": "Dedicate to Goddess Yamuna. The idol is made of black marble."
+        },
+        {
+            "name": "Surya Kund",
+            "description": "The boiling hot water spring near the temple where prasad is cooked."
+        },
+        {
+            "name": "Divya Shila",
+            "description": "A sacred rock pillar that is worshipped before entering the temple."
+        },
+        {
+            "name": "Janki Chatti",
+            "description": "The base camp for the trek, known for its hot springs.",
+            "link": null
+        },
+        {
+            "name": "Saptarishi Kund",
+            "description": "The actual glacial source of Yamuna, a tough trek further up (rarely visited due to difficulty)."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Trek 6km from Janki Chatti.",
+        "Cook rice in the Surya Kund hot spring.",
+        "Take a holy dip in the Tapt Kund (warm water) before Darshan.",
+        "Worship the Divya Shila.",
+        "Darshan of Goddess Yamuna."
+    ],
+    "highlights": [
+        "The phenomenon of hot springs in freezing cold.",
+        "Cooking your own prasad.",
+        "The scenic waterfall views during the trek.",
+        "The spiritual significance of removing fear of death.",
+        "Pony or Palki ride up the steep path."
+    ],
+    "local_guides_available": true,
+    "best_months": "May to June and September to October. Avoid monsoon.",
+    "how_to_reach": "By Air: Dehradun Airport. By Train: Dehradun Station. By Road: Drive to Janki Chatti via Barkot.",
+    "stay_recommendations": "Luxury: None. Spiritual: GMVN Guest Houses at Janki Chatti. Budget: Lodges in Barkot or Janki Chatti.",
+    "safety_tips": "The trek is steep; wear good shoes. Do not touch the Surya Kund water directly; it is boiling (88°C).",
+    "sample_itinerary": "Day 1: Drive Dehradun to Janki Chatti. Stay overnight.\nDay 2: Early morning trek to Yamunotri (3-4 hours). Darshan. Cook Prasad. Trek back. Drive to Barkot.",
+    "tags": [
+        "Himalayas",
+        "River",
+        "Trek",
+        "Char Dham",
+        "Hot Springs"
+    ],
+    "is_bookable": true
+}

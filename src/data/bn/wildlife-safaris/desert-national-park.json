@@ -1,0 +1,120 @@
+{
+    "id": "desert-national-park",
+    "slug": "desert-national-park",
+    "title": "Desert National Park",
+    "hero_image": "https://images.unsplash.com/photo-1599320641219-48234857502c?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1627918494950-705c7546e16a?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1548074697-3f92de23a230?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A vast expanse of Thar Desert ecosystem, the last refuge of the critically endangered Great Indian Bustard.",
+    "long_description": "Desert National Park, situated in the Indian state of Rajasthan near the towns of Jaisalmer and Barmer, is a perfect example of the ecosystem of the Thar Desert. Covering an area of 3162 km2, it is one of the largest national parks in India. The park is characterized by sand dunes, craggy rocks, and salt lake bottoms. It is famous for being the habitat of the Great Indian Bustard, a magnificent bird nearing extinction. The park also hosts dinosaur fossils dating back 180 million years at the Akal Wood Fossil Park.",
+    "wildlife_significance": "Crucial habitat for the Great Indian Bustard (state bird of Rajasthan).",
+    "species_to_see": [
+        "Great Indian Bustard",
+        "Desert Fox",
+        "Bengal Fox",
+        "Chinkara",
+        "Blackbuck",
+        "Sandgrouse"
+    ],
+    "habitat_types": [
+        "Sand Dunes",
+        "Scrub Forests",
+        "Rocky Terrain"
+    ],
+    "safari_types": [
+        "Jeep Safari",
+        "Camel Safari"
+    ],
+    "major_experiences": [
+        "Camel Ride in Sam Sand Dunes",
+        "Jeep ride inside park areas (Sudasari)",
+        "Bird watching for Bustards",
+        "Visit Akal Wood Fossil Park"
+    ],
+    "guides_and_tips": "Sudasari enclosure is the best place to spot the Bustard. Requires permit from Jaisalmer office.",
+    "how_to_reach": "By Air: Jaisalmer Airport (40 km). By Rail: Jaisalmer (40 km). By Road: 1 hour drive from Jaisalmer city.",
+    "accommodation_recommendations": [
+        "Desert Camps in Sam/Khuri",
+        "Hotels in Jaisalmer (Suryagarh, etc.)"
+    ],
+    "permits_and_fees": "Permit required for core areas. Available at Forest Office Jaisalmer.",
+    "conservation_notes": "Project Great Indian Bustard is active here. High tension wires are being removed/flagged to save birds.",
+    "highlights": [
+        "Great Indian Bustard",
+        "Sam Sand Dunes",
+        "Dinosaur Fossils",
+        "Desert Fox spotting",
+        "Star Gazing"
+    ],
+    "sample_itinerary": "Day 1: Arrive Jaisalmer. Visit Fort. Evening Sam Sand Dunes camel ride. Camp stay. Day 2: Morning Jeep Safari to Sudasari (Bustard spot). Visit Akal Wood Fossil Park. Return.",
+    "safety_tips": "Extreme heat in summer. Carry plenty of water. Beware of vipers in sand.",
+    "tags": [
+        "Desert",
+        "Rajasthan",
+        "Bustard",
+        "Fossils"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 100,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Entry fee.",
+            "source_url": "https://fmdss.forest.rajasthan.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Jeep Entry",
+            "price": 200,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Vehicle fee.",
+            "source_url": "https://fmdss.forest.rajasthan.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Camel Safari (Local)",
+            "price_from": 500,
+            "price_to": 1000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://fmdss.forest.rajasthan.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "10:00",
+        "close_time": "17:00",
+        "time_notes": "Bustard enclosure has strict timings.",
+        "source_url": "https://fmdss.forest.rajasthan.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "October to March",
+        "peak_months": "December to January (Desert Festival)",
+        "off_season": "April to September (Extreme Heat)",
+        "season_notes": "Summers are unbearable.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://fmdss.forest.rajasthan.gov.in/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Desert camp prices fluctuate wildly in peak season.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

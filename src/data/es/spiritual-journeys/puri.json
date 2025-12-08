@@ -1,0 +1,66 @@
+{
+    "id": "puri",
+    "slug": "puri",
+    "title": "Puri: Abode of Lord Jagannath",
+    "hero_image": "puri-hero-placeholder.jpg",
+    "gallery_images": [
+        "puri-jagannath-temple.jpg",
+        "puri-rath-yatra.jpg",
+        "puri-beach.jpg",
+        "puri-konark-temple.jpg"
+    ],
+    "short_description": "Join the Rath Yatra and witness the devotion to the Lord of the Universe by the sea.",
+    "long_description": "Puri, on the east coast of Odisha, is defined by the colossal Jagannath Temple. Here, Lord Krishna is worshipped as Jagannath ('Lord of the Universe') along with his brother Balabhadra and sister Subhadra. Unlike typical stone idols, the deities here are carved from wood (Neem) and have large, circular eyes, symbolizing the Lord watching over the world. \n\nPuri is one of the Char Dham sites. It is famous for the annual Rath Yatra (Chariot Festival), where the deities are brought out of the temple on massive chariots pulled by millions of devotees. It is a spectacle of faith unmatched in scale. \n\nThe temple kitchen (Ananda Bazar) is reputed to be the largest in the world, cooking 'Mahaprasad' for thousands daily in earthen pots stacked over fire. Legend says the food is cooked by Goddess Lakshmi herself. Puri also has a golden beach, making it a mix of pilgrimage and vacation.",
+    "spiritual_significance": "A Char Dham site. The kitchen ritual is unique (food cooked in 7 stacked pots; top one cooks first). The flag atop the temple flows opposite to the wind—a divine mystery.",
+    "major_temples_and_sites": [
+        {
+            "name": "Jagannath Temple",
+            "description": "The 12th-century architectural marvel. Non-Hindus can view it from the Raghunandan Library roof."
+        },
+        {
+            "name": "Konark Sun Temple",
+            "description": "Located 35km away, this UNESCO World Heritage site is shaped like a giant chariot of the Sun God. A masterpiece of stone carving."
+        },
+        {
+            "name": "Puri Beach",
+            "description": "A golden sandy beach where pilgrims take a holy dip. Also great for sunrise views."
+        },
+        {
+            "name": "Gundicha Temple",
+            "description": "The 'Garden House' of Jagannath, where the deities stay during the Rath Yatra."
+        },
+        {
+            "name": "Chilika Lake",
+            "description": "Asia's largest brackish water lagoon, nearby, famous for dolphins and birds."
+        }
+    ],
+    "rituals_and_experiences": [
+        "Darshan of Lord Jagannath.",
+        "Eat the Mahaprasad from Ananda Bazar (must-do).",
+        "Watch the flag changing ceremony at sunset.",
+        "Visit Konark Sun Temple (day trip).",
+        "Take a dip in the sea (Swargadwar beach).",
+        "See the Sand Art on the beach."
+    ],
+    "highlights": [
+        "The distinct wooden idols.",
+        "The taste of the Mahaprasad.",
+        "The mystery of the flag flowing against the wind.",
+        "The artistic brilliance of Konark.",
+        "The Rath Yatra (if visiting in June/July)."
+    ],
+    "local_guides_available": true,
+    "best_months": "October to March. Rath Yatra (June/July) is crowded but iconic.",
+    "how_to_reach": "By Air: Bhubaneswar Airport (60km). By Train: Puri Terminus. By Road: Scenic drive from Bhubaneswar.",
+    "stay_recommendations": "Luxury: Mayfair Waves. Spiritual: Dudhwala Dharmashala. Budget: Hotels near the beach or temple.",
+    "safety_tips": "Non-Hindus are strictly not allowed inside the main temple. Monkeys inside the complex can be snatchers. Beware of pandas (priests) demanding high fees.",
+    "sample_itinerary": "Day 1: Arrive. Check in. Sea bath. Darshan at Jagannath Temple. Buy Mahaprasad. Evening beach walk.\nDay 2: Excursion to Konark Sun Temple and Chandrabhaga Beach. Return to Puri for shopping (Applique work).",
+    "tags": [
+        "Char Dham",
+        "Krishna",
+        "Chariot",
+        "Food",
+        "Beach"
+    ],
+    "is_bookable": true
+}

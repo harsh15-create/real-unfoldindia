@@ -1,0 +1,201 @@
+{
+    "id": "laxmi-niwas-palace",
+    "slug": "laxmi-niwas-palace",
+    "title": "Laxmi Niwas Palace",
+    "hero_image": "https://images.unsplash.com/photo-1599827050965-4f3299719323?q=80&w=2600&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1628062125796-0ba0fbb664c5?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1593183570366-2679c298054a?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Built in 1904, this red sandstone palace is a masterpiece of craftsmanship and royal history.",
+    "long_description": "Laxmi Niwas Palace was commissioned by His Highness Sir Ganga Singh ji in 1904. Designed by Sir Samuel Swinton Jacob, it is the most perfect example of Indo-Saracenic architecture in India. The palace was built to host dignitaries and royalty, including King George V and Queen Mary.\n\nThe palace is breathtaking with its intricate red sandstone carving, hand-painted friezes, and gold-laden walls. Staying here is not just luxury; it is living in a museum. The rooms are cavernous, the corridors echo with history, and the central courtyard is a marvel of artistic stonework. It remains the residence of the Royal Family of Bikaner.",
+    "amenities": [
+        "Outdoor Pool",
+        "Museum",
+        "Billiards Room",
+        "Puppet Show",
+        "Folk Music",
+        "Large Gardens"
+    ],
+    "room_types": [
+        {
+            "name": "Historical Suite",
+            "starting_price": 18000,
+            "currency": "INR",
+            "description": "Large suites with period furniture and high ceilings."
+        },
+        {
+            "name": "Royal Suite",
+            "starting_price": 25000,
+            "currency": "INR",
+            "description": "Opulent suites used by visiting dignitaries."
+        },
+        {
+            "name": "Maharaja Suite",
+            "starting_price": 35000,
+            "currency": "INR",
+            "description": "The personal quarters of the Maharaja."
+        }
+    ],
+    "event_spaces": [
+        {
+            "name": "Central Courtyard",
+            "capacity": 500,
+            "notes": "Magnificent open-air venue",
+            "wedding_ready": true
+        },
+        {
+            "name": "Darbar Hall",
+            "capacity": 150,
+            "notes": "Formal hall for banquets",
+            "wedding_ready": true
+        }
+    ],
+    "entry_fees": [
+        {
+            "category": "Museum Tour",
+            "price": 500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "last_checked": "2025-12-08"
+        }
+    ],
+    "ticket_options": [],
+    "opening_hours": {
+        "days": "All Days",
+        "open_time": "00:00",
+        "close_time": "23:59",
+        "time_notes": "Open 24/7.",
+        "source_url": "https://www.laxminiwaspalace.com/",
+        "last_checked": "2025-12-08"
+    },
+    "operating_season": {
+        "best_months": [
+            "October",
+            "March"
+        ],
+        "peak_months": [
+            "December",
+            "January"
+        ],
+        "off_season": [
+            "May",
+            "June"
+        ],
+        "season_notes": null,
+        "last_checked": "2025-12-08"
+    },
+    "availability_flags": {
+        "is_bookable": true,
+        "accepts_weddings": true,
+        "requires_deposit": true
+    },
+    "room_price_from": 18000,
+    "price_currency": "INR",
+    "packages": [],
+    "booking_methods": [
+        "Online",
+        "Phone"
+    ],
+    "booking_url": "https://www.laxminiwaspalace.com/",
+    "wedding_packages": [
+        {
+            "name": "Royal Palace Wedding",
+            "capacity": 800,
+            "starting_price": 5000000,
+            "inclusions": [
+                "Full Buyout",
+                "Decor",
+                "Banquet"
+            ],
+            "contact_url": "https://www.laxminiwaspalace.com/weddings.html"
+        }
+    ],
+    "event_contacts": [
+        {
+            "role": "Reservations",
+            "name": null,
+            "email": "reservation@laxminiwaspalace.com",
+            "phone": "+91 151 2202777"
+        }
+    ],
+    "signature_experiences": [
+        "Gala Dinner in Courtyard",
+        "Sundowners at the Terrace",
+        "Tour of the Museum"
+    ],
+    "sample_itineraries": [
+        {
+            "name": "Maharaja Experience",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Welcome to Bikaner",
+                    "activities": [
+                        "Check-in",
+                        "Palace Tour",
+                        "Dinner with Folk Music"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dining_options": [
+        {
+            "name": "Swarna Mahal",
+            "cuisine": "Royal Indian",
+            "reservation_required": true
+        },
+        {
+            "name": "Hari Mahal",
+            "cuisine": "Coffee Shop",
+            "reservation_required": false
+        }
+    ],
+    "accessibility_info": {
+        "wheelchair_accessible": true,
+        "elevator_available": false,
+        "accessible_rooms": true
+    },
+    "heritage_history": "Built in 1904 by Maharaja Ganga Singh. It is the residence of the current royal family.",
+    "conservation_notes": "Maintains the intricate red sandstone carvings.",
+    "cultural_responsibility": "Showcases traditional Bikaneri arts and music.",
+    "how_to_reach": "4 km from Bikaner Railway Station.",
+    "nearest_airport": "Bikaner Civil Airport (15 km)",
+    "nearest_rail_station": "Bikaner Junction (4 km)",
+    "suggested_stay": "2 Nights",
+    "contact": {
+        "phone": "+91 151 2202777",
+        "email": "reservation@laxminiwaspalace.com",
+        "address": "Lalgarh Palace Complex, Bikaner 334001"
+    },
+    "tags": [
+        "Indo-Saracenic",
+        "Red Sandstone",
+        "Royal Residence",
+        "History",
+        "Grandeur"
+    ],
+    "highlights": [
+        "Swarna Mahal (Gold Room)",
+        "Intricate Stone Carving",
+        "Central Courtyard",
+        "Royal History",
+        "Museum Quality Interiors"
+    ],
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates vary.",
+        "data_provider": "Laxmi Niwas Palace",
+        "last_updated": "2025-12-08"
+    },
+    "seo_title": "Laxmi Niwas Palace Bikaner | Luxury Heritage Hotel",
+    "seo_description": "Stay at Laxmi Niwas Palace Bikaner. A masterpiece of Indo-Saracenic architecture built in 1904.",
+    "source_reference": [
+        {
+            "url": "https://www.laxminiwaspalace.com/",
+            "type": "official",
+            "last_checked": "2025-12-08"
+        }
+    ]
+}

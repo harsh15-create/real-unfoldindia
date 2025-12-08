@@ -1,0 +1,120 @@
+{
+    "id": "kutch-desert",
+    "slug": "kutch-desert",
+    "title": "Kutch Desert Wildlife Sanctuary",
+    "hero_image": "https://images.unsplash.com/photo-1627918494950-705c7546e16a?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1548074697-3f92de23a230?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1579492160350-c8f6e2b?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599320641219-48234857502c?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "Located in the Great Rann of Kutch, famous for the 'Flamingo City' where thousands of flamingos breed.",
+    "long_description": "Kutch Desert Wildlife Sanctuary is situated in the Great Rann of Kutch, Gujarat, India. It was declared a sanctuary in February 1986. It is one of the largest protected areas in the country with an area of about 7505.22 km2. The sanctuary supports a wide variety of water birds and mammalian wildlife. The area is famous for its 'Flamingo City', located in the mudflats of the Rann, which is the only known breeding ground for Greater Flamingos in the entire region. The sanctuary also contains the fossil park at Khadir Bet.",
+    "wildlife_significance": "Only known breeding ground of Greater Flamingos in India (Flamingo City).",
+    "species_to_see": [
+        "Greater Flamingo",
+        "Lesser Flamingo",
+        "Spiny-tailed Lizard",
+        "Indian Porcupine",
+        "Great Indian Bustard (Rare)",
+        "Wild Ass (nearby in Little Rann)"
+    ],
+    "habitat_types": [
+        "Saline Desert (Rann)",
+        "Mudflats",
+        "Scrub Forest"
+    ],
+    "safari_types": [
+        "Jeep Safari"
+    ],
+    "major_experiences": [
+        "Visit Flamingo City (requires special permission)",
+        "Drive through the White Rann",
+        "Visit Dholavira (Harappan site) inside the sanctuary",
+        "Fossil Park at Khadir Bet"
+    ],
+    "guides_and_tips": "It's a border area (Indo-Pak); BSF permissions may be needed for certain deep areas. Winters are best.",
+    "how_to_reach": "By Air: Bhuj (100 km). By Road: Drive to Khavda or Rapar.",
+    "accommodation_recommendations": [
+        "Rann Riders",
+        "Toran Rann Resort (Dholavira)",
+        "Homestays in Hodka"
+    ],
+    "permits_and_fees": "Permit for Rann of Kutch required (online).",
+    "conservation_notes": "Salt extraction activities are regulated near breeding grounds.",
+    "highlights": [
+        "White Desert",
+        "Flamingo Breeding",
+        "Dholavira UNESCO Site",
+        "Kala Dungar (Black Hill)",
+        "Fossil Park"
+    ],
+    "sample_itinerary": "Day 1: Arrive Bhuj. Drive to Dholavira crossing the Rann. Visit Excavation site. Day 2: Visit Fossil Park. Drive on the Rann road. Spot flamingos. Return to Bhuj.",
+    "safety_tips": "Do not drive off-road on the salt flats; vehicles can get stuck in mud. mirages are common.",
+    "tags": [
+        "White Desert",
+        "Flamingo",
+        "Gujarat",
+        "Archaeology"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Rann Permit",
+            "price": 100,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Per person per day.",
+            "source_url": "https://www.gujarattourism.com/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Vehicle Fee",
+            "price": 50,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Per vehicle.",
+            "source_url": "https://www.gujarattourism.com/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Guide Fee",
+            "price_from": 500,
+            "price_to": 1000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://www.gujarattourism.com/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "06:00",
+        "close_time": "18:00",
+        "time_notes": "Check post timings apply.",
+        "source_url": "https://www.gujarattourism.com/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "October to March",
+        "peak_months": "December to February (Rann Utsav)",
+        "off_season": "May to August (Very Hot)",
+        "season_notes": "Rann fills with water in monsoon; visual appeal changes.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://www.gujarattourism.com/",
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rann Utsav packages are expensive.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

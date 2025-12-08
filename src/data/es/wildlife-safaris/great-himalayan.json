@@ -1,0 +1,126 @@
+{
+    "id": "great-himalayan",
+    "slug": "great-himalayan",
+    "title": "Great Himalayan National Park",
+    "hero_image": "https://images.unsplash.com/photo-1626082498514-64b18f08535a?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1605649487552-e18ae192d46e?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1626620573983-140660461329?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1504194091000-09880f08d0e7?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "A high-altitude national park in Kullu, Himachal Pradesh, famous for its biodiversity and the elusive Snow Leopard.",
+    "long_description": "The Great Himalayan National Park (GHNP), a UNESCO World Heritage Site, is located in the Kullu region in the state of Himachal Pradesh. Spread over an area of 1,171 km², the park was established in 1984. It captures the essence of the Himalayas with its high ridges, deep gorges, alpine meadows, and glaciers. The park protects the watershed of the Tirthan and Sainj rivers. It is home to more than 375 species of fauna, including the Snow Leopard, Himalayan Brown Bear, and the Western Tragopan. Unlike other parks, GHNP is explored primarily by trekking, offering a raw and immersive wilderness experience.",
+    "wildlife_significance": "Protects the Western Himalayan ecology. Critical habitat for Snow Leopard and Musk Deer.",
+    "species_to_see": [
+        "Snow Leopard",
+        "Himalayan Brown Bear",
+        "Himalayan Tahr",
+        "Blue Sheep (Bharal)",
+        "Musk Deer",
+        "Western Tragopan (Jujurana)",
+        "Monal"
+    ],
+    "habitat_types": [
+        "Alpine Meadows & Pastures",
+        "Subalpine Forests",
+        "Glacial Peaks",
+        "River Valleys"
+    ],
+    "safari_types": [
+        "Trekking (Camping allowed)",
+        "Bird Watching Hikes"
+    ],
+    "major_experiences": [
+        "Tirthan Valley Trek",
+        "Sainj Valley Trek",
+        "Camping in the wild",
+        "Trout Fishing (in eco-zones)",
+        "Bird watching for rare pheasants"
+    ],
+    "guides_and_tips": "This is a trekking park; no vehicles inside. You must obtain permits and hire registered guides/porters from the Sai Ropa complex.",
+    "how_to_reach": "By Air: Bhuntar Airport (50 km). By Road: Aut tunnel on Delhi-Manali highway, then Tirthan Valley.",
+    "accommodation_recommendations": [
+        "Raju's Cottage (Gushaini)",
+        "Forest Rest House (Sai Ropa)",
+        "Sunshine Himalayan Cottage",
+        "Tirthan Anglers' Retreat"
+    ],
+    "permits_and_fees": "Entry permits issued at Sai Ropa or Shamshi. Trekking fees apply per day.",
+    "conservation_notes": "Strict leave-no-trace policy. The park involves local communities in eco-tourism to reduce biotic pressure.",
+    "highlights": [
+        "UNESCO World Heritage Site",
+        "Tirthan River",
+        "Roller Coaster Trek",
+        "Rare Western Tragopan",
+        "Glacial landscapes"
+    ],
+    "sample_itinerary": "Day 1: Arrive Gushaini. Permit processing. Day 2: Trek from Gushaini to Rolla (8 km). Camp by river. Day 3: Trek to Shilt (for Monal sighting). Return to Rolla. Day 4: Trek back to Gushaini. Departure.",
+    "safety_tips": "High altitude sickness is a risk. Be prepared for sudden weather changes. Do not trek alone.",
+    "tags": [
+        "Trekking",
+        "Snow Leopard",
+        "Himalayas",
+        "UNESCO",
+        "Birding"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 100,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Per day entry fee.",
+            "source_url": "https://www.greathimalayannationalpark.org/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Adult (Foreigner)",
+            "price": 400,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Per day entry fee.",
+            "source_url": "https://www.greathimalayannationalpark.org/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Camping Fee (2 pax tent)",
+            "price_from": 50,
+            "price_to": 100,
+            "currency": "INR",
+            "price_type": "exact",
+            "booking_method": "onsite",
+            "source_url": "https://www.greathimalayannationalpark.org/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "10:00",
+        "close_time": "17:00",
+        "time_notes": "Office hours for permits. Trekking anytime with permit.",
+        "source_url": "https://www.greathimalayannationalpark.org/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "April to June, October to November",
+        "peak_months": "May",
+        "off_season": "Winter (Snowbound) and Monsoon (Landslides)",
+        "season_notes": "Lower altitudes accessible in winter; higher passes closed.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://www.greathimalayannationalpark.org/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Guide and porter charges are fixed by the park administration.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

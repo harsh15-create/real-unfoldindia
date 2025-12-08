@@ -1,0 +1,144 @@
+{
+    "id": "snow-tubing",
+    "slug": "snow-tubing",
+    "title": "Snow Tubing",
+    "hero_image": "https://images.unsplash.com/photo-1582201990176-787034c4f981?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1582201990176-787034c4f981?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517173822294-8a1dc5e69dfd?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1518174757657-3a9d0d57e3f8?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "A fun, family-friendly activity sliding down snow slopes in inflatable tubes.",
+    "long_description": "Snow Tubing is tobogganing reinvented. You sit in a large, inflated rubber ring (tube) and slide down a groomed snow lane. It involves spinning, bouncing, and laughing. Because you have zero control over steering or stopping (runoff areas stop you safely), it is pure, unadulterated fun.\n\nIt is the most popular snow activity for non-skiers and families with kids in places like Kufri and Solang Valley. It requires no skill, just a willingness to scream with joy.",
+    "locations": [
+        {
+            "location": "Kufri",
+            "state": "Himachal Pradesh",
+            "best_months": "December–February",
+            "price_from": 500,
+            "summary": "Busy snow park near Shimla famous for yak rides and tubing.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Solang Valley",
+            "state": "Himachal Pradesh",
+            "best_months": "January–March",
+            "price_from": 500,
+            "summary": "Designated tubing lanes available.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Patnitop",
+            "state": "Jammu",
+            "best_months": "January–March",
+            "price_from": 500,
+            "summary": "Gentle slopes perfect for families.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Sissu",
+            "state": "Himachal (Lahaul)",
+            "best_months": "December–March",
+            "price_from": 400,
+            "summary": "Less crowded, scenic snow park near Atal Tunnel.",
+            "difficulty": "Beginner"
+        }
+    ],
+    "entry_fees": [],
+    "ticket_options": [
+        {
+            "type": "Single Slide",
+            "price_from": 200,
+            "price_to": 300,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://himachaltourism.gov.in",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Unlimited (1 Hour)",
+            "price_from": 500,
+            "price_to": 800,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://himachaltourism.gov.in",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily",
+            "open_time": "09:00",
+            "close_time": "17:00",
+            "time_notes": "Sunlight makes it more pleasant.",
+            "source_url": "https://himachaltourism.gov.in",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "operating_season": {
+        "best_months": "December to February",
+        "peak_months": "December (Christmas/New Year)",
+        "off_season": "No snow = no tubing.",
+        "season_notes": "Kufri snow is often icy/hard.",
+        "last_checked": "2024-04-12"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "medium",
+        "disclaimer": "Prices hike during New Year week.",
+        "data_provider": "Local Vendors",
+        "last_updated": "2024-04-12"
+    },
+    "difficulty_level": "Beginner",
+    "safety_guidelines": [
+        "Hold the handles.",
+        "Wait for the lane to clear before sliding.",
+        "Move out of the way quickly after stopping.",
+        "Do not link tubes unless allowed by operator."
+    ],
+    "equipment_checklist": [
+        "Warm clothes",
+        "Gloves (hands hit snow)",
+        "Waterproof pants (you will get wet/snowy)"
+    ],
+    "major_experiences": [
+        "Spinning while sliding down",
+        "Racing side-by-side with family",
+        "The 'climb back up' (often the hardest part!)"
+    ],
+    "sample_itinerary": {
+        "one_day": "Kufri: Ride horse to Mahasu Peak. Find tubing spot. Pay vendor. 3 slides. Throw snowballs. Eat Maggi."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "On-spot Vendors"
+        ],
+        "booking_url": "https://himachaltourism.gov.in",
+        "suggested_stay": "Shimla or Manali.",
+        "how_to_reach": "Kufri is 45 mins from Shimla."
+    },
+    "seo": {
+        "seo_title": "Snow Tubing in India: Kufri, Solang, Patnitop | Price 2024",
+        "seo_description": "Best snow tubing spots in Shimla (Kufri) and Manali. Prices from ₹200. Fun snow activity for non-skiers.",
+        "tags": [
+            "Kufri Snow Activities",
+            "Snow Tubing Shimla",
+            "Solang Valley Fun",
+            "Winter Family Trip"
+        ]
+    },
+    "highlights": [
+        "Cheapest snow activity.",
+        "Loved by children.",
+        "No equipment or skill needed.",
+        "Available in almost all hill stations that get snow.",
+        "Safe and controlled environment."
+    ]
+}

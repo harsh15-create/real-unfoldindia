@@ -1,0 +1,165 @@
+{
+    "id": "flying-fox",
+    "slug": "flying-fox",
+    "title": "Flying Fox",
+    "hero_image": "https://images.unsplash.com/photo-1472584069410-35e46830b642?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1472584069410-35e46830b642?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1596328399335-15a0b73c4d7d?q=80&w=2069&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1597816828456-ce74620f4133?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "A gravity-fed aerial ride on a cable, often found in adventure parks.",
+    "long_description": "While 'Ziplining' often refers to multi-line forest tours, 'Flying Fox' in the Indian context typically refers to single, high-speed, long-distance cable slides often found in adventure parks or specific scenic spots. The experience is simple: you are harnessed (either sitting or swimming position 'Superman style') and released from a high point to slide down towards a lower landing platform.\n\nRishikesh boasts one of Asia's longest Flying Foxes, where you accelerate to speeds of up to 140 km/h over the river valley. Unlike ziplining tours which involve hiking between lines, the Flying Fox is usually a 'one-and-done' extreme thrill ride, often done in tandem or triplets.",
+    "locations": [
+        {
+            "location": "Rishikesh (Jumpin Heights)",
+            "state": "Uttarakhand",
+            "best_months": "All Year",
+            "price_from": 3000,
+            "summary": "1km long ride, done in tandem/triplets. Reaches 140 km/h.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Kikar Lodge",
+            "state": "Punjab",
+            "best_months": "October–March",
+            "price_from": 1500,
+            "summary": "Longest zip-tour in South Asia (5 lines up to 400m).",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Kerwa Dam",
+            "state": "Madhya Pradesh",
+            "best_months": "All Year",
+            "price_from": 1000,
+            "summary": "Scenic long ride across the dam reservoir.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Della Adventure",
+            "state": "Maharashtra",
+            "best_months": "All Year",
+            "price_from": 1200,
+            "summary": "Adventure park setting with safe, controlled lines.",
+            "difficulty": "Beginner"
+        },
+        {
+            "location": "Jodhpur (Mehrangarh)",
+            "state": "Rajasthan",
+            "best_months": "July–March",
+            "price_from": 1800,
+            "summary": "The premier 'Flying Fox' heritage tour over the fort.",
+            "difficulty": "Beginner"
+        }
+    ],
+    "entry_fees": [
+        {
+            "category": "Entry Ticket (Jumpin Heights)",
+            "price": 300,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Mandatory entry fee.",
+            "source_url": "https://jumpinheights.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Flying Fox (Jumpin Heights)",
+            "price_from": 3000,
+            "price_to": 3000,
+            "currency": "INR",
+            "price_type": "exact",
+            "booking_method": "official",
+            "source_url": "https://jumpinheights.com",
+            "last_checked": "2024-04-12"
+        },
+        {
+            "type": "Zip Tour (Jodhpur)",
+            "price_from": 1800,
+            "price_to": 2500,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://www.flyingfox.asia",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "opening_hours": [
+        {
+            "days": "Daily (Tue Closed at JH)",
+            "open_time": "09:30",
+            "close_time": "17:00",
+            "time_notes": "Operations stop in high wind.",
+            "source_url": "https://jumpinheights.com",
+            "last_checked": "2024-04-12"
+        }
+    ],
+    "operating_season": {
+        "best_months": "October to June",
+        "peak_months": "December",
+        "off_season": "Monsoon (Heavy rain stops operations).",
+        "season_notes": "Year-round except extreme weather.",
+        "last_checked": "2024-04-12"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": false,
+        "permits_info_url": null,
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "high",
+        "disclaimer": "Combo with bungee often cheaper.",
+        "data_provider": "Operator Sites",
+        "last_updated": "2024-04-12"
+    },
+    "difficulty_level": "Beginner",
+    "safety_guidelines": [
+        "Minimum age 12 years. Minimum weight 20kg.",
+        "Secure loose items (spectacles, phones).",
+        "Wear pants/shorts (harness comfort).",
+        "Do not stick arms out if approaching a tower (keep them streamlined)."
+    ],
+    "equipment_checklist": [
+        "Closed shoes",
+        "Comfortable clothing",
+        "Hair tie"
+    ],
+    "major_experiences": [
+        "Extreme speed (faster than ziplining)",
+        "Flying in Superman position (in some locations)",
+        "Watching the ground rush by",
+        "Shared thrill (often 3 people fly together)"
+    ],
+    "sample_itinerary": {
+        "one_day": "Rishikesh: 1:00 PM Check-in. 1:30 PM Flying Fox ride (scariest part is the winch back up!). 2:30 PM Proceed to other activities."
+    },
+    "booking_details": {
+        "booking_methods": [
+            "Online Booking",
+            "Park Entrance"
+        ],
+        "booking_url": "https://jumpinheights.com",
+        "suggested_stay": "Rishikesh or Lonavala hotels.",
+        "how_to_reach": "Mohan Chatti (Rishikesh) is the main extreme location."
+    },
+    "seo": {
+        "seo_title": "Flying Fox India: Rishikesh & Jodhpur Prices | 2024 Guide",
+        "seo_description": "Experience the Flying Fox in Rishikesh (Asia's longest). Prices start ₹1800 in Jodhpur. Extreme aerial adventure guide.",
+        "tags": [
+            "Flying Fox Rishikesh",
+            "Zipline Jodhpur",
+            "Adventure Park India",
+            "Jumpin Heights",
+            "Kerala Zipline"
+        ]
+    },
+    "highlights": [
+        "Rishikesh ride is 1km long and reaches 140 km/h.",
+        "Often includes a mechanical winch return (no walking back up!).",
+        "Can be done by 3 people in tandem.",
+        "Jodhpur offers night zipping options.",
+        "Highly accessible and safe adrenaline boost."
+    ]
+}

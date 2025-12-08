@@ -1,0 +1,891 @@
+{
+    "metadata": {
+        "subtitle": "Where Courage Meets the Clouds",
+        "author": "Unfold India Content Engine",
+        "generated_on": "2025-12-07T22:45:28+05:30"
+    },
+    "treks": [
+        {
+            "id": "kedarkantha",
+            "slug": "kedarkantha",
+            "title": "Kedarkantha",
+            "subtitle": "A beginner-friendly winter summit",
+            "region": "Uttarakhand",
+            "hubs": [
+                "Sankri"
+            ],
+            "about": "Kedarkantha is a short, sharply-rewarding trek famous for its snow-clad forests, rolling meadows and a dawn summit that delivers 360° views of Uttarakhand’s high ranges. Comfortable campsites and well-defined trails make it one of India’s most popular winter climbs for beginners and small groups.",
+            "difficulty": "Easy",
+            "duration": "5 days / 4 nights",
+            "elevation_max_m": 3800,
+            "bestSeason": [
+                "Dec–Feb",
+                "Jan–Mar (snow)"
+            ],
+            "highlights": [
+                "Sunrise summit",
+                "Snow meadows",
+                "Pine forests"
+            ],
+            "tags": [
+                "snow",
+                "meadows",
+                "beginner",
+                "photography"
+            ],
+            "seo_title": "Kedarkantha Trek — Beginner Winter Trek",
+            "seo_description": "Short winter trek in Uttarakhand with sunrise summit and sweeping snow views. Ideal for first-time snow trekkers.",
+            "cover_image": "https://images.example.com/kedarkantha-1.jpg",
+            "images": [
+                "https://images.example.com/kedarkantha-1.jpg",
+                "https://images.example.com/kedarkantha-2.jpg",
+                "https://images.example.com/kedarkantha-3.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "sankri",
+                    "name": "Sankri Village",
+                    "short": "Remote gateway village and trekhead",
+                    "about": "Sankri is a lively village that acts as the starting point for Kedarkantha and neighboring treks. It provides basic accommodation, rental gear shops and local eateries. Trekkers use Sankri to acclimatize and meet guides before the trail head.",
+                    "what_to_do": [
+                        "Check permits and hire local guide",
+                        "Stock up on supplies and rent winter gear",
+                        "Walk the village lanes and photograph local life"
+                    ],
+                    "coordinates": {
+                        "lat": 31.0500,
+                        "lon": 78.5300
+                    },
+                    "images": [
+                        "https://images.example.com/kedarkantha-sankri-1.jpg"
+                    ]
+                },
+                {
+                    "id": "juda-ka-talab",
+                    "name": "Juda Ka Talab",
+                    "short": "A frozen alpine lake campsite",
+                    "about": "Juda Ka Talab is a photogenic campsite where the lake freezes in winter and pine trees frame the camp. It’s the first real snow experience for many trekkers and a calm place to stargaze.",
+                    "what_to_do": [
+                        "Walk around the frozen lake edge",
+                        "Practice snow-walking and photography",
+                        "Enjoy a calm evening campfire under clear skies"
+                    ],
+                    "coordinates": {
+                        "lat": 31.0667,
+                        "lon": 78.6000
+                    },
+                    "images": [
+                        "https://images.example.com/kedarkantha-juda-1.jpg"
+                    ]
+                },
+                {
+                    "id": "kedarkantha-base",
+                    "name": "Kedarkantha Base Camp",
+                    "short": "Open snowfield below the summit ridge",
+                    "about": "The base camp sits on a wide snow meadow with panoramic views of the ridge and the peaks beyond. It’s the last rest stop before the pre-dawn summit push, offering a dramatic foreground for sunrise photography.",
+                    "what_to_do": [
+                        "Prepare packs and hydrate for summit day",
+                        "Capture golden hour and night-sky photos",
+                        "Rest and check equipment with guides"
+                    ],
+                    "coordinates": {
+                        "lat": 31.0833,
+                        "lon": 78.6333
+                    },
+                    "images": [
+                        "https://images.example.com/kedarkantha-base-1.jpg"
+                    ]
+                },
+                {
+                    "id": "kedarkantha-summit",
+                    "name": "Kedarkantha Summit",
+                    "short": "A dramatic sunrise viewpoint above the clouds",
+                    "about": "The summit rewards trekkers with a near-360° panorama of Himalayan giants like Swargarohini and Bandarpoonch. The ascent is steep but short; the summit is the emotional peak of the trek.",
+                    "what_to_do": [
+                        "Watch and photograph sunrise over the ranges",
+                        "Relax and take in the 360° panorama",
+                        "Use the summit for short reflection/meditation"
+                    ],
+                    "coordinates": {
+                        "lat": 31.0900,
+                        "lon": 78.6400
+                    },
+                    "images": [
+                        "https://images.example.com/kedarkantha-summit-1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "valley-of-flowers",
+            "slug": "valley-of-flowers",
+            "title": "Valley of Flowers",
+            "subtitle": "Alpine bloom paradise",
+            "region": "Uttarakhand",
+            "hubs": [
+                "Gangotri",
+                "Ghangaria"
+            ],
+            "about": "A UNESCO-protected alpine meadow famed for an unrivaled seasonal bloom of wildflowers. The Valley of Flowers is soft on the legs and heavy on the senses: color-drenched meadows, small streams, and a soundtrack of buzzing insects and mountain breezes.",
+            "difficulty": "Easy",
+            "duration": "4 days / 3 nights",
+            "elevation_max_m": 3658,
+            "bestSeason": [
+                "Jul–Aug (peak bloom)",
+                "Jun–Sep"
+            ],
+            "highlights": [
+                "Endless wildflowers",
+                "UNESCO site",
+                "Accessible meadows"
+            ],
+            "tags": [
+                "flora",
+                "meadows",
+                "family",
+                "monsoon"
+            ],
+            "seo_title": "Valley of Flowers — Blooming Alpine Meadow",
+            "seo_description": "UNESCO-protected valley with spectacular seasonal wildflower displays. Perfect for nature lovers and gentle treks.",
+            "cover_image": "https://images.example.com/valley-of-flowers-1.jpg",
+            "images": [
+                "https://images.example.com/valley-of-flowers-1.jpg",
+                "https://images.example.com/valley-of-flowers-2.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "ghangaria",
+                    "name": "Ghangaria",
+                    "short": "Base camp and village near the valley",
+                    "about": "Ghangaria acts as the base for Valley of Flowers and Hemkund Sahib. Small guesthouses and tea stalls serve trekkers. It’s the jumping-off point for dawn visits into the meadows.",
+                    "what_to_do": [
+                        "Visit the Valley at dawn for softer light",
+                        "Shop local handicrafts and snacks",
+                        "Prepare for Hemkund Sahib side-trip"
+                    ],
+                    "coordinates": {
+                        "lat": 30.7310,
+                        "lon": 79.5980
+                    },
+                    "images": [
+                        "https://images.example.com/valley-ghangaria-1.jpg"
+                    ]
+                },
+                {
+                    "id": "valley-meadows",
+                    "name": "Main Valley Meadows",
+                    "short": "Carpets of seasonal wildflowers",
+                    "about": "The heart of this trek — wide, gently sloped meadows that explode into color during monsoon. The walking is easy, but the visual intensity is high.",
+                    "what_to_do": [
+                        "Slow-walk and photograph flower carpets",
+                        "Read interpretive signs about endemic species",
+                        "Picnic by small alpine streams"
+                    ],
+                    "coordinates": null,
+                    "images": [
+                        "https://images.example.com/valley-meadows-1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "brahmatal",
+            "slug": "brahmatal",
+            "title": "Brahmatal",
+            "subtitle": "Frozen lakes & sunrise ridges",
+            "region": "Uttarakhand",
+            "hubs": [
+                "Gwaldam",
+                "Munsiyari"
+            ],
+            "about": "Brahmatal is a winter-special trek that links high alpine lakes with uncluttered ridge walks and spectacular sunrise views of Trishul and Nanda Ghunti. The open ridgelines and quiet camps make it a favorite for snow landscapes.",
+            "difficulty": "Moderate",
+            "duration": "6 days / 5 nights",
+            "elevation_max_m": 3720,
+            "bestSeason": [
+                "Dec–Feb",
+                "Jan–Mar (snow)"
+            ],
+            "highlights": [
+                "Alpine lakes",
+                "Snow ridges",
+                "Peak vistas"
+            ],
+            "tags": [
+                "snow",
+                "lakes",
+                "photography",
+                "moderate"
+            ],
+            "seo_title": "Brahmatal Trek — Winter Alpine Lakes",
+            "seo_description": "A snowy trek past frozen lakes and sweeping ridges with views of Trishul and Nanda Ghunti. Ideal for winter landscape photography.",
+            "cover_image": "https://images.example.com/brahmatal-1.jpg",
+            "images": [
+                "https://images.example.com/brahmatal-1.jpg",
+                "https://images.example.com/brahmatal-2.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "gwaldam",
+                    "name": "Gwaldam",
+                    "short": "Trail gateway and small staging town",
+                    "about": "Gwaldam is a quiet town used as the route’s staging area. It offers last-minute shops and the chance to meet local guides who know winter conditions.",
+                    "what_to_do": [
+                        "Acquire local info on snow conditions",
+                        "Buy or rent cold-weather gear",
+                        "Visit nearby viewpoints at dusk"
+                    ],
+                    "coordinates": {
+                        "lat": 29.9380,
+                        "lon": 79.8370
+                    },
+                    "images": [
+                        "https://images.example.com/brahmatal-gwaldam-1.jpg"
+                    ]
+                },
+                {
+                    "id": "brahmatal-lake",
+                    "name": "Brahmatal Lake",
+                    "short": "High-altitude alpine lake",
+                    "about": "A serene glacial lake that freezes in winter and sits below a panoramic ridge. Camps near the lake provide broad views of surrounding peaks.",
+                    "what_to_do": [
+                        "Photograph sunrise reflections",
+                        "Walk the rim and explore nearby ridgelines",
+                        "Set up camp and stargaze at night"
+                    ],
+                    "coordinates": {
+                        "lat": 30.0800,
+                        "lon": 79.3500
+                    },
+                    "images": [
+                        "https://images.example.com/brahmatal-lake-1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "dayara-bugyal",
+            "slug": "dayara-bugyal",
+            "title": "Dayara Bugyal",
+            "subtitle": "Endless alpine meadows",
+            "region": "Uttarakhand",
+            "hubs": [
+                "Joshimath",
+                "Barkot"
+            ],
+            "about": "Dayara Bugyal is a vast, rolling meadow famous for its open vistas and easy walking. It’s a gentle trek that rewards with 360° mountain views and tranquil campsites on soft grassy slopes.",
+            "difficulty": "Easy",
+            "duration": "4 days / 3 nights",
+            "elevation_max_m": 3350,
+            "bestSeason": [
+                "May–Oct",
+                "Dec–Mar (snow)"
+            ],
+            "highlights": [
+                "Vast meadows",
+                "Sunrise vistas",
+                "Family-friendly"
+            ],
+            "tags": [
+                "meadows",
+                "family",
+                "photography",
+                "easy"
+            ],
+            "seo_title": "Dayara Bugyal — Rolling Alpine Meadows",
+            "seo_description": "Large grassy meadows with broad Himalayan views, ideal for calm overnight camping and family treks.",
+            "cover_image": "https://images.example.com/dayara-bugyal-1.jpg",
+            "images": [
+                "https://images.example.com/dayara-bugyal-1.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "dayara-meadow",
+                    "name": "Main Bugyal",
+                    "short": "Open grasslands stretching to the horizon",
+                    "about": "The main meadow is the scenic heart of the trek—soft ground, easy walking, and unobstructed views of the surrounding ranges. Perfect for slow walking and broad photos.",
+                    "what_to_do": [
+                        "Camp in the meadow under clear skies",
+                        "Walk the ridgelines at sunrise",
+                        "Picnic and nature observation"
+                    ],
+                    "coordinates": null,
+                    "images": [
+                        "https://images.example.com/dayara-main-1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hampta-pass",
+            "slug": "hampta-pass",
+            "title": "Hampta Pass",
+            "subtitle": "Valley-to-desert crossover",
+            "region": "Himachal",
+            "hubs": [
+                "Manali",
+                "Jobra"
+            ],
+            "about": "Hampta Pass is a dramatic crossing between the Kullu valley’s green forests and the stark high deserts of Lahaul–Spiti. The terrain changes quickly, offering river crossings, moraine sections and a striking sense of contrast.",
+            "difficulty": "Moderate",
+            "duration": "5 days / 4 nights",
+            "elevation_max_m": 4270,
+            "bestSeason": [
+                "Jun–Sep"
+            ],
+            "highlights": [
+                "Landscape contrast",
+                "Lahaul vistas",
+                "Glacial streams"
+            ],
+            "tags": [
+                "crossover",
+                "river-crossing",
+                "contrast",
+                "moderate"
+            ],
+            "seo_title": "Hampta Pass Trek — Kullu to Lahaul Crossover",
+            "seo_description": "A popular trail that shifts from lush forests to high desert plateaus—ideal for diverse alpine scenery in a short route.",
+            "cover_image": "https://images.example.com/hampta-pass-1.jpg",
+            "images": [
+                "https://images.example.com/hampta-pass-1.jpg",
+                "https://images.example.com/hampta-pass-2.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "jobra",
+                    "name": "Jobra",
+                    "short": "Entry point with generous valley views",
+                    "about": "Jobra is the common trailhead where villagers host trekkers. It’s the last green staging area before the route climbs into higher exposed sections.",
+                    "what_to_do": [
+                        "Meet guides and check river conditions",
+                        "Light acclimatisation walks",
+                        "Enjoy local Himachali food"
+                    ],
+                    "coordinates": {
+                        "lat": 32.2333,
+                        "lon": 77.2667
+                    },
+                    "images": [
+                        "https://images.example.com/hampta-jobra-1.jpg"
+                    ]
+                },
+                {
+                    "id": "hampta-pass-summit",
+                    "name": "Hampta Pass Summit",
+                    "short": "The high saddle with wide Lahaul views",
+                    "about": "The pass saddle is the dramatic turning point between two worlds—the greenery of Kullu and the arid plateaus below. It’s a high, exposed col with sweeping views and a sense of accomplishment.",
+                    "what_to_do": [
+                        "Photograph the landscape shift",
+                        "Enjoy panoramic lunch at the col",
+                        "Descend carefully into Lahaul side"
+                    ],
+                    "coordinates": {
+                        "lat": 32.2620,
+                        "lon": 77.0910
+                    },
+                    "images": [
+                        "https://images.example.com/hampta-pass-2.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "triund",
+            "slug": "triund",
+            "title": "Triund",
+            "subtitle": "Weekend ridge walk",
+            "region": "Himachal",
+            "hubs": [
+                "McLeodganj",
+                "Dharamshala"
+            ],
+            "about": "Triund is a short, iconic ridge trek above McLeodganj that offers sweeping views of the Dhauladhar range. It’s popular for weekend trips, sunset camps and easy ridge-side walks accessible to most hikers.",
+            "difficulty": "Easy",
+            "duration": "2 days / 1 night",
+            "elevation_max_m": 2828,
+            "bestSeason": [
+                "Mar–Jun",
+                "Sep–Nov"
+            ],
+            "highlights": [
+                "Sunset ridge",
+                "Easy access",
+                "Dhauladhar views"
+            ],
+            "tags": [
+                "weekend",
+                "ridge",
+                "family",
+                "views"
+            ],
+            "seo_title": "Triund Trek — McLeodganj Ridge Walk",
+            "seo_description": "Short ridge trek offering panoramic views of the Dhauladhar range. Perfect for weekend hikers and first-time trekkers.",
+            "cover_image": "https://images.example.com/triund-1.jpg",
+            "images": [
+                "https://images.example.com/triund-1.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "mcleodganj",
+                    "name": "McLeodganj",
+                    "short": "Vibrant hill town and trek gateway",
+                    "about": "McLeodganj is a bustling town with cafes, guesthouses and easy access to the Triund trail. It’s an excellent place to prepare, rent light gear and sample local food.",
+                    "what_to_do": [
+                        "Explore cafes and local markets",
+                        "Start the trail early to avoid crowds",
+                        "Visit Bhagsu waterfall before the trek"
+                    ],
+                    "coordinates": {
+                        "lat": 32.2432,
+                        "lon": 76.3215
+                    },
+                    "images": [
+                        "https://images.example.com/triund-mcleodganj-1.jpg"
+                    ]
+                },
+                {
+                    "id": "triund-ridge",
+                    "name": "Triund Ridge",
+                    "short": "Broad grassy ridge with Dhauladhar views",
+                    "about": "The ridge is an open meadow area perfect for camping, sunrise and sunset views, and relaxed ridge walks. Camping here feels immediate and rewarding.",
+                    "what_to_do": [
+                        "Watch sunset over the Dhauladhar",
+                        "Camp and stargaze",
+                        "Short ridge walks at dawn"
+                    ],
+                    "coordinates": {
+                        "lat": 32.2661,
+                        "lon": 76.2953
+                    },
+                    "images": [
+                        "https://images.example.com/triund-ridge-1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "kashmir-great-lakes",
+            "slug": "kashmir-great-lakes",
+            "title": "Kashmir Great Lakes",
+            "subtitle": "Alpine lake postcard trails",
+            "region": "Kashmir",
+            "hubs": [
+                "Aru",
+                "Pahalgam"
+            ],
+            "about": "The Kashmir Great Lakes trail stitches together multiple crystal-blue alpine lakes across the Himalayan meadows—each day brings a new postcard view. Rolling meadows, quiet camps and reflective lake basins make it one of India’s most visual treks.",
+            "difficulty": "Moderate",
+            "duration": "8 days / 7 nights",
+            "elevation_max_m": 4200,
+            "bestSeason": [
+                "Jul–Sep"
+            ],
+            "highlights": [
+                "Multiple alpine lakes",
+                "Meadows",
+                "Remote camps"
+            ],
+            "tags": [
+                "lakes",
+                "meadows",
+                "photography",
+                "moderate"
+            ],
+            "seo_title": "Kashmir Great Lakes Trek — Alpine Lakes",
+            "seo_description": "Multiple blue lakes and alpine meadows across Kashmir. A visual trek with serene camps and panoramic views.",
+            "cover_image": "https://images.example.com/kashmir-great-lakes-1.jpg",
+            "images": [
+                "https://images.example.com/kashmir-great-lakes-1.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "aru",
+                    "name": "Aru Valley",
+                    "short": "Green gateway village with alpine trails",
+                    "about": "Aru is a verdant valley with meadows and traditional guesthouses, used as the entry point for numerous Kashmir treks. It provides strong local support and scenic warm-up walks.",
+                    "what_to_do": [
+                        "Hire a local guide and check conditions",
+                        "Explore short meadow walks",
+                        "Start the main Great Lakes route early"
+                    ],
+                    "coordinates": {
+                        "lat": 34.0091,
+                        "lon": 75.2042
+                    },
+                    "images": [
+                        "https://images.example.com/aru-1.jpg"
+                    ]
+                },
+                {
+                    "id": "tarsar",
+                    "name": "Tarsar Lake",
+                    "short": "Mirror-like alpine lake in a wide basin",
+                    "about": "Tarsar is a huge, glassy lake surrounded by ridgelines—its calm surface reflects the sky and mountains, making it an iconic campsite and photo subject.",
+                    "what_to_do": [
+                        "Camp lakeside and photograph reflections",
+                        "Walk the shoreline and small ridgelines",
+                        "Observe alpine birdlife and wildflowers"
+                    ],
+                    "coordinates": {
+                        "lat": 33.6780,
+                        "lon": 75.0720
+                    },
+                    "images": [
+                        "https://images.example.com/tarsar-1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "everest-base-camp",
+            "slug": "everest-base-camp",
+            "title": "Everest Base Camp (Nepal)",
+            "subtitle": "Footsteps to the world’s roof",
+            "region": "Nepal",
+            "hubs": [
+                "Lukla",
+                "Kathmandu"
+            ],
+            "about": "Everest Base Camp is the world’s most famous high-altitude trek, threading Sherpa villages, suspension bridges and high viewpoints on the way to the Khumbu icefall. It’s a cultural and physical journey that culminates at the tipping point of Everest climbing.",
+            "difficulty": "Hard",
+            "duration": "14 days / 13 nights",
+            "elevation_max_m": 5364,
+            "bestSeason": [
+                "Mar–May",
+                "Sep–Nov"
+            ],
+            "highlights": [
+                "Sherpa culture",
+                "High-altitude views",
+                "Iconic lodges"
+            ],
+            "tags": [
+                "international",
+                "high-altitude",
+                "cultural",
+                "challenging"
+            ],
+            "seo_title": "Everest Base Camp Trek — Khumbu Expedition",
+            "seo_description": "Iconic trek through Sherpa country ending at Everest Base Camp. High altitude, deep culture and legendary views.",
+            "cover_image": "https://images.example.com/everest-base-camp-1.jpg",
+            "images": [
+                "https://images.example.com/everest-base-camp-1.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "lukla",
+                    "name": "Lukla",
+                    "short": "Tiny airstrip and gateway to Khumbu",
+                    "about": "Lukla’s short airstrip is the practical gateway to EBC. The town is a jumble of guesthouses, tea shops and trekking logistics—expect brisk energy and last-minute gear runs.",
+                    "what_to_do": [
+                        "Confirm permits and flights to Kathmandu",
+                        "Meet Sherpa crew and check kit",
+                        "Begin acclimatisation walks on the lower trails"
+                    ],
+                    "coordinates": {
+                        "lat": 27.6869,
+                        "lon": 86.7297
+                    },
+                    "images": [
+                        "https://images.example.com/lukla-1.jpg"
+                    ]
+                },
+                {
+                    "id": "namche",
+                    "name": "Namche Bazaar",
+                    "short": "High Sherpa market and acclimatisation hub",
+                    "about": "Namche is the main acclimatisation stop with bakeries, gear shops and a lively market. Trekkers linger here for two nights to adjust and relish the unique mountain culture.",
+                    "what_to_do": [
+                        "Acclimatise and hike to nearby viewpoints",
+                        "Stock up on supplies and enjoy bakeries",
+                        "Visit Sherpa museums and cultural exhibits"
+                    ],
+                    "coordinates": {
+                        "lat": 27.8060,
+                        "lon": 86.7120
+                    },
+                    "images": [
+                        "https://images.example.com/namche-1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "markha-valley",
+            "slug": "markha-valley",
+            "title": "Markha Valley",
+            "subtitle": "Ladakh’s green valley route",
+            "region": "Ladakh",
+            "hubs": [
+                "Leh"
+            ],
+            "about": "Markha Valley is a lush corridor in Ladakh that connects high desert plateaus with villages, gompas and rugged side ridges. The trail offers surprising green camps, river crossings and a chance to meet remote Himalayan communities.",
+            "difficulty": "Moderate",
+            "duration": "6 days / 5 nights",
+            "elevation_max_m": 5000,
+            "bestSeason": [
+                "Jun–Sep"
+            ],
+            "highlights": [
+                "Village culture",
+                "Desert-meadow contrast",
+                "River crossings"
+            ],
+            "tags": [
+                "desert",
+                "villages",
+                "culture",
+                "moderate"
+            ],
+            "seo_title": "Markha Valley Trek — Ladakh Village Trails",
+            "seo_description": "A scenic Ladakh trek through green valleys, remote villages and dramatic high desert landscapes.",
+            "cover_image": "https://images.example.com/markha-valley-1.jpg",
+            "images": [
+                "https://images.example.com/markha-valley-1.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "markha-village",
+                    "name": "Markha Village",
+                    "short": "Traditional village and first campsite",
+                    "about": "Markha gives an intimate look at Ladakhi mountain agriculture and hospitality. Trekkers often stay in local homestays and learn about traditional life.",
+                    "what_to_do": [
+                        "Explore village life and gompas",
+                        "Taste local Ladakhi cuisine",
+                        "Walk the nearby fields and photogenic lanes"
+                    ],
+                    "coordinates": {
+                        "lat": 34.2560,
+                        "lon": 77.4280
+                    },
+                    "images": [
+                        "https://images.example.com/markha-village-1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "har-ki-dun",
+            "slug": "har-ki-dun",
+            "title": "Har Ki Dun",
+            "subtitle": "Valley of Gods",
+            "region": "Uttarakhand",
+            "hubs": [
+                "Sankri"
+            ],
+            "about": "Har Ki Dun is a cradle-shaped valley steeped in mythology and stunning alpine scenery. Accessible through ancient wooden villages, the trail offers constant views of the Swargarohini peaks and walks through pine forests that surely feel timeless.",
+            "difficulty": "Moderate",
+            "duration": "7 days / 6 nights",
+            "elevation_max_m": 3566,
+            "bestSeason": [
+                "Apr–Jun",
+                "Sep–Dec"
+            ],
+            "highlights": [
+                "Ancient villages",
+                "Swargarohini views",
+                "River walks"
+            ],
+            "tags": [
+                "mythology",
+                "river-valley",
+                "cultural",
+                "moderate"
+            ],
+            "seo_title": "Har Ki Dun Trek — Valley of Gods",
+            "seo_description": "A cultural and scenic trek to the Valley of Gods with views of Swargarohini peaks and ancient wooden villages.",
+            "cover_image": "https://images.example.com/har-ki-dun-1.jpg",
+            "images": [
+                "https://images.example.com/har-ki-dun-1.jpg",
+                "https://images.example.com/har-ki-dun-2.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "osla-village",
+                    "name": "Osla Village",
+                    "short": "Ancient wooden village with heavy culture",
+                    "about": "Osla is a time-capsule village featuring intricate wooden architecture and a unique temple often associated with Duruyodhana. It's a living museum of mountain culture.",
+                    "what_to_do": [
+                        "Admire the wooden architecture",
+                        "Interact with locals about their legends",
+                        "Photograph the village against the valley backdrop"
+                    ],
+                    "coordinates": {
+                        "lat": 31.1167,
+                        "lon": 78.3333
+                    },
+                    "images": [
+                        "https://images.example.com/osla-1.jpg"
+                    ]
+                },
+                {
+                    "id": "har-ki-dun-campsite",
+                    "name": "Har Ki Dun Campsite",
+                    "short": "River-side camping with peak views",
+                    "about": "The main campsite sits by the Maninda river, right below the imposing Swargarohini peaks. It is a spacious, grassy area that invites long hours of just staring at the mountains.",
+                    "what_to_do": [
+                        "Walk to Jaundhar Glacier viewpoint",
+                        "Relax by the river stream",
+                        "Watch the sunset hit Swargarohini"
+                    ],
+                    "coordinates": {
+                        "lat": 31.1500,
+                        "lon": 78.4167
+                    },
+                    "images": [
+                        "https://images.example.com/har-ki-dun-camp-1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "annapurna-base-camp",
+            "slug": "annapurna-base-camp",
+            "title": "Annapurna Base Camp",
+            "subtitle": "Sanctuary of the giants",
+            "region": "Nepal",
+            "hubs": [
+                "Pokhara",
+                "Nayapul"
+            ],
+            "about": "The trek to Annapurna Base Camp traverses through diverse terrain from terraced rice fields to the high-altitude Annapurna Sanctuary. It is an amphitheater of mountains where trekkers stand surrounded by some of the highest peaks on Earth.",
+            "difficulty": "Hard",
+            "duration": "10 days / 9 nights",
+            "elevation_max_m": 4130,
+            "bestSeason": [
+                "Mar–May",
+                "Oct–Dec"
+            ],
+            "highlights": [
+                "Annapurna sanctuary",
+                "Machapuchare views",
+                "Jhinu hot springs"
+            ],
+            "tags": [
+                "international",
+                "high-altitude",
+                "amphitheater",
+                "challenging"
+            ],
+            "seo_title": "Annapurna Base Camp Trek — Himalayan Sanctuary",
+            "seo_description": "Trek into the heart of the Annapurna Sanctuary, surrounded by towering 8000m peaks. A classic Himalayan tea-house trek.",
+            "cover_image": "https://images.example.com/annapurna-base-camp-1.jpg",
+            "images": [
+                "https://images.example.com/annapurna-base-camp-1.jpg",
+                "https://images.example.com/annapurna-base-camp-2.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "machapuchare-base-camp",
+                    "name": "Machapuchare Base Camp",
+                    "short": "The gateway to the inner sanctuary",
+                    "about": "MBC offers a prelude to the main sanctuary with up-close views of the sacred 'Fishtail' peak. It’s a colder, starker landscape that builds anticipation for the final push.",
+                    "what_to_do": [
+                        "Wake up early for alpenglow on Machapuchare",
+                        "Acclimatize before the final ascent",
+                        "Enjoy hot soup in the teahouse dining hall"
+                    ],
+                    "coordinates": {
+                        "lat": 28.5167,
+                        "lon": 83.8833
+                    },
+                    "images": [
+                        "https://images.example.com/mbc-1.jpg"
+                    ]
+                },
+                {
+                    "id": "abc",
+                    "name": "Annapurna Base Camp",
+                    "short": "The 360-degree mountain amphitheater",
+                    "about": "Standing at ABC feels like being in the palm of the mountains' hands. You are surrounded by Annapurna I, South, and Hiunchuli—a humbling and majestic experience.",
+                    "what_to_do": [
+                        "Watch the sunrise light up the Annapurna massif",
+                        "Visit the memorial chortens",
+                        "Take panoramic photos of the 360-degree view"
+                    ],
+                    "coordinates": {
+                        "lat": 28.5300,
+                        "lon": 83.8780
+                    },
+                    "images": [
+                        "https://images.example.com/abc-1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "beas-kund",
+            "slug": "beas-kund",
+            "title": "Beas Kund",
+            "subtitle": "Source of the Beas River",
+            "region": "Himachal",
+            "hubs": [
+                "Manali",
+                "Solang"
+            ],
+            "about": "Beas Kund is a rewarding short trek that takes you to the glacial lake source of the Beas River. Starting from Solang Valley, it offers quick access to high-altitude scenery with Hanuman Tibba and the Seven Sisters peaks looming large.",
+            "difficulty": "Moderate",
+            "duration": "3 days / 2 nights",
+            "elevation_max_m": 3700,
+            "bestSeason": [
+                "May–Oct"
+            ],
+            "highlights": [
+                "Glacial lake",
+                "Hanuman Tibba view",
+                "Quick access"
+            ],
+            "tags": [
+                "lake",
+                "short-trek",
+                "weekend",
+                "moderate"
+            ],
+            "seo_title": "Beas Kund Trek — Manali Glacial Lake",
+            "seo_description": "A short but spectacular trek from Manali to the glacial Beas Kund lake, offering massive views of summits like Hanuman Tibba.",
+            "cover_image": "https://images.example.com/beas-kund-1.jpg",
+            "images": [
+                "https://images.example.com/beas-kund-1.jpg"
+            ],
+            "trek_places": [
+                {
+                    "id": "dhundi",
+                    "name": "Dhundi",
+                    "short": " Scenic start of the trail",
+                    "about": "Dhundi is the road-head where the trek begins, offering the first clear views of the high peaks. The walk from here follows the river through birch forests.",
+                    "what_to_do": [
+                        "Start the walk through the forest",
+                        "Spot the Seven Sisters peaks",
+                        "Enjoy the riverside trail"
+                    ],
+                    "coordinates": {
+                        "lat": 32.3167,
+                        "lon": 77.1500
+                    },
+                    "images": [
+                        "https://images.example.com/dhundi-1.jpg"
+                    ]
+                },
+                {
+                    "id": "beas-kund-lake",
+                    "name": "Beas Kund Lake",
+                    "short": "Small glacial lake at the base of peaks",
+                    "about": "The lake itself is small but the setting is grand, sitting in a bowl formed by high peaks. Legends say Sage Vyas meditated here; it’s a peaceful spot for reflection.",
+                    "what_to_do": [
+                        "Sit by the clear glacial water",
+                        "Identify the surrounding peaks",
+                        "Explore the moraine ridges nearby"
+                    ],
+                    "coordinates": {
+                        "lat": 32.3667,
+                        "lon": 77.0833
+                    },
+                    "images": [
+                        "https://images.example.com/beas-kund-lake-1.jpg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

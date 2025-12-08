@@ -1,0 +1,124 @@
+{
+    "id": "pench",
+    "slug": "pench",
+    "title": "Pench National Park",
+    "hero_image": "https://images.unsplash.com/photo-1517454266398-356396caa019?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1548074697-3f92de23a230?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1550604118-8686d6350d51?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1627918494950-705c7546e16a?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "The real 'Mowgli Land' that inspired Rudyard Kipling, offering excellent tiger sightings.",
+    "long_description": "Pench National Park, straddling the border of Madhya Pradesh and Maharashtra, inspired Rudyard Kipling's unforgettable classic 'The Jungle Book'. Named after the Pench River that flows through it, dividing it into two halves, the park covers 758 sq km. It is famed for its wolf population (the source of Mowgli's family myth), as well as tigers, leopards, and herds of deer. The landscape is an open canopy of teak forests and mixed vegetation, making wildlife viewing easier than in denser jungles.",
+    "wildlife_significance": "Inspiration for Jungle Book. Strong population of tigers and wild dogs.",
+    "species_to_see": [
+        "Royal Bengal Tiger",
+        "Indian Wolf",
+        "Wild Dog (Dhole)",
+        "Leopard",
+        "Jackal",
+        "Gaur",
+        "Sambar"
+    ],
+    "habitat_types": [
+        "Dry Teak Forest",
+        "Mixed Deciduous Forest",
+        "Riverine Banks"
+    ],
+    "safari_types": [
+        "Jeep Safari",
+        "Night Safari (in buffer zone)"
+    ],
+    "major_experiences": [
+        "Turia Gate Safari (Most popular)",
+        "Night Safari in Wolf Sanctuary",
+        "Kohka Lake sunset",
+        "Potter's Village visit nearby"
+    ],
+    "guides_and_tips": "Turia gate is considered the best for tiger sightings. Night safari offers chances to see wolves and nocturnal cats.",
+    "how_to_reach": "By Air: Nagpur (90 km) is the closest. By Road: 2-3 hours drive from Nagpur on NH44.",
+    "accommodation_recommendations": [
+        "Pench Tree Lodge",
+        "Baghvan (Taj Safaris)",
+        "Tuli Tiger Corridor",
+        "Pench Jungle Camp"
+    ],
+    "permits_and_fees": "Book online via MP Forest website for MP side (Turia) or Maharashtra Forest website for MH side (Sillari).",
+    "conservation_notes": "Corridors connecting Pench to Kanha are actively managed for tiger dispersal.",
+    "highlights": [
+        "Mowgli Pench Sanctuary",
+        "Wolf sightings",
+        "Totlah Doherty Dam",
+        "Runi Jhuni Nature Trail",
+        "Diverse birdlife"
+    ],
+    "sample_itinerary": "Day 1: Arrive from Nagpur. Check-in. Evening Night Safari in buffer. Day 2: Morning Jeep Safari (Turia). Breakfast. Visit Alikatta. Afternoon Safari. Day 3: Morning nature walk. Departure.",
+    "safety_tips": "Nights are chilly; dress warmly. Mobile network is patchy.",
+    "tags": [
+        "Jungle Book",
+        "Tiger",
+        "Wolf",
+        "Madhya Pradesh"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 0,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Included in vehicle permit.",
+            "source_url": "https://forest.mponline.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Jeep Safari (Vehicle)",
+            "price_from": 3000,
+            "price_to": 6000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://forest.mponline.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "type": "Night Safari (Seat)",
+            "price_from": 800,
+            "price_to": 1200,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "official",
+            "source_url": "https://forest.mponline.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily (Seasonal)",
+        "open_time": "06:00",
+        "close_time": "18:00",
+        "time_notes": "Closed Wednesday evenings.",
+        "source_url": "https://forest.mponline.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "October to June",
+        "peak_months": "March to May",
+        "off_season": "July to September (Closed)",
+        "season_notes": "Core zones closed in monsoon.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": true,
+        "requires_permit": true,
+        "permits_info_url": "https://forest.mponline.gov.in/",
+        "is_bookable_online": true
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Rates differ for MP and Maharashtra gates.",
+        "data_provider": "official_park_website",
+        "last_updated": "2024-05-20"
+    }
+}

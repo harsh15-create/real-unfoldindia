@@ -1,0 +1,121 @@
+{
+    "id": "keibul-lamjao",
+    "slug": "keibul-lamjao",
+    "title": "Keibul Lamjao National Park",
+    "hero_image": "https://images.unsplash.com/photo-1596328731174-8461a34658cc?q=80&w=2070&auto=format&fit=crop",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1610960844781-30d8c07e0c4a?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1596541530756-3c46e3e56c3e?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1628186177114-1e0310cebf3c?q=80&w=800&auto=format&fit=crop"
+    ],
+    "short_description": "The world's only floating national park, home to the dancing deer 'Sangai' on Loktak Lake.",
+    "long_description": "The Keibul Lamjao National Park is a national park in the Bishnupur district of the state of Manipur in India. It is 40 km2 in area, the only floating park in the world, located in North East India, and an integral part of Loktak Lake. The park is formed by phumdis, which are floating decomposed plant material. It was created in 1977 to preserve the brow-antlered deer or Sangai, which is an endangered subspecies of Eld's deer, found only in this park. The deer's hooves are adapted to walk on the spongy floating land mass.",
+    "wildlife_significance": "Only natural habitat of the endangered Sangai (Brow-antlered Deer).",
+    "species_to_see": [
+        "Sangai (Dancing Deer)",
+        "Hog Deer",
+        "Wild Boar",
+        "Large Indian Civet",
+        "Waterfowl"
+    ],
+    "habitat_types": [
+        "Floating Meadows (Phumdis)",
+        "Wetlands",
+        "Marsh"
+    ],
+    "safari_types": [
+        "Boat Safari (Dugout canoe)",
+        "Watchtower viewing"
+    ],
+    "major_experiences": [
+        "Early morning boat ride to spot Sangai",
+        "View from Sendra Viewpoint",
+        "Exploring Loktak Lake",
+        "Visit INA Museum at Moirang"
+    ],
+    "guides_and_tips": "Binoculars are essential. The deer camouflage perfectly with the brownish grass.",
+    "how_to_reach": "By Air: Imphal (53 km). By Road: Taxi from Imphal to Moirang/Sendra.",
+    "accommodation_recommendations": [
+        "Sendra Park & Resort (Cottages on hillock)",
+        "Loktak Floating Homestay",
+        "Phumdi Homestays"
+    ],
+    "permits_and_fees": "Inner Line Permit (ILP) required for Manipur. Park entry nominal.",
+    "conservation_notes": "Siltation and hydroponic power projects threaten the water levels and phumdi thickness.",
+    "highlights": [
+        "Floating Landscape",
+        "Sangai Deer",
+        "Loktak Lake",
+        "Sendra Island",
+        "Unique Ecosystem"
+    ],
+    "sample_itinerary": "Day 1: Arrive Imphal to Sendra. Check in. Sunset over Loktak. Day 2: Early morning boat ride in Keibul Lamjao. Visit Moirang market. Return to Imphal.",
+    "safety_tips": "Phumdis can be unstable; do not step on them without unmatched local guidance.",
+    "tags": [
+        "Floating Park",
+        "Manipur",
+        "Sangai",
+        "Wetland",
+        "Unique"
+    ],
+    "is_bookable": true,
+    "entry_fees": [
+        {
+            "category": "Adult (Indian)",
+            "price": 30,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Nominal fee.",
+            "source_url": "https://manipurtourism.gov.in/",
+            "last_checked": "2024-05-20"
+        },
+        {
+            "category": "Camera",
+            "price": 50,
+            "currency": "INR",
+            "price_type": "exact",
+            "notes": "Still camera.",
+            "source_url": "https://manipurtourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "ticket_options": [
+        {
+            "type": "Boat Ride (Private)",
+            "price_from": 500,
+            "price_to": 1000,
+            "currency": "INR",
+            "price_type": "estimated",
+            "booking_method": "onsite",
+            "source_url": "https://manipurtourism.gov.in/",
+            "last_checked": "2024-05-20"
+        }
+    ],
+    "opening_hours": {
+        "days": "Daily",
+        "open_time": "06:00",
+        "close_time": "17:00",
+        "time_notes": "Sangai come out to feed in early morning.",
+        "source_url": "https://manipurtourism.gov.in/",
+        "last_checked": "2024-05-20"
+    },
+    "operating_season": {
+        "best_months": "October to April",
+        "peak_months": "December to February",
+        "off_season": "June to September (Monsoon - high water, difficult visuals)",
+        "season_notes": "Winter is best for sighting.",
+        "last_checked": "2024-05-20"
+    },
+    "availability_flags": {
+        "is_seasonal": false,
+        "requires_permit": true,
+        "permits_info_url": "https://manipurtourism.gov.in/",
+        "is_bookable_online": false
+    },
+    "pricing_metadata": {
+        "price_confidence": "verified",
+        "disclaimer": "Boat rates negotiable.",
+        "data_provider": "tourism_board",
+        "last_updated": "2024-05-20"
+    }
+}
