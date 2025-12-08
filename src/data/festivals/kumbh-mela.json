@@ -1,0 +1,114 @@
+{
+    "id": "kumbh-mela",
+    "slug": "kumbh-mela",
+    "title": "Kumbh Mela",
+    "hero_image": "https://images.unsplash.com/photo-1550949987-013143c75ecb?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Sadhu at the Kumbh Mela",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1549646142-7dbb41987d60?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1524314488392-411a774f7c1d?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1520188989667-0c7f2025b42d?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "The largest gathering of humanity on Earth. A massive pilgrimage to bathe in sacred rivers to wash away sins.",
+    "long_description": "The Kumbh Mela is not just a festival; it is a phenomenon. Recognized by UNESCO as an Intangible Cultural Heritage of Humanity, it is the largest peaceful gathering of pilgrims in the world, with tens of millions attending over several weeks. Hindu mythology states that during a battle between gods and demons for the pot (Kumbh) of nectar of immortality, four drops fell on Earth at Prayagraj, Haridwar, Nashik, and Ujjain. The festival rotates between these four sites.\n\nThe most iconic image of the Kumbh is the 'Shahi Snan' (Royal Bath), where thousands of Naga Sadhus (naked ascetics), smeared in ash and wielding tridents, charge into the river at the auspicious hour. For the ordinary pilgrim, a dip in the holy river during the Kumbh is believed to liberate them from the cycle of birth and death (Moksha). The site becomes a temporary mega-city with tents, hospitals, and logistical marvels.",
+    "significance": "A quest for spiritual immortality and purification of sins.",
+    "key_rituals": [
+        "Shahi Snan: The Royal Bath of the Akharas (orders of saints).",
+        "Ritual Dip: Bathing in the river at specific auspicious times.",
+        "Pravachan: Listening to religious discourses by Gurus.",
+        "Daan: Giving charity to beggars and monks."
+    ],
+    "calendar": {
+        "typical_month": "January-March (varies by site)",
+        "lunar_reference": "Based on Jupiter, Sun, and Moon positions",
+        "festival_length": "45-55 Days",
+        "next_dates": {
+            "2025": "Jan 13 - Feb 26 (Maha Kumbh at Prayagraj)",
+            "2026": "None (Rotational cycle)",
+            "2027": "Nashik (Trimbakeshwar)"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "prayagraj",
+            "title": "Prayagraj (Allahabad)",
+            "summary": "The site of the massive 2025 Maha Kumbh.",
+            "best_to_experience": "The Shahi Snan days (Mauni Amavasya) at the Sangam (confluence of Ganga, Yamuna, Saraswati).",
+            "how_to_reach": "Fly to Prayagraj or Varanasi.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "haridwar",
+            "title": "Haridwar",
+            "summary": "Held on the banks of the Ganga.",
+            "best_to_experience": "The evening Ganga Aarti during Kumbh.",
+            "how_to_reach": "Train/Drive from Delhi.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "nashik",
+            "title": "Nashik",
+            "summary": "Held on the banks of Godavari.",
+            "best_to_experience": "Visiting during the Simhastha Kumbh.",
+            "how_to_reach": "Drive from Mumbai.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "ujjain",
+            "title": "Ujjain",
+            "summary": "Held on the banks of Shipra.",
+            "best_to_experience": "The Bhasma Aarti at Mahakaleshwar temple.",
+            "how_to_reach": "Fly to Indore.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Modest clothing. It can be very cold (Jan-Feb), so thermals are necessary.",
+        "safety_tips": "Getting lost is a real risk. Use the lost-and-found centers. Be wary of stampedes; stick to marked exits.",
+        "accessibility_notes": "Immense walking required. Not wheelchair friendly.",
+        "avg_daily_costs": "₹3000 - ₹15000 (Luxury tents available)"
+    },
+    "faqs": [
+        {
+            "q": "Can I take photos of the Sadhus?",
+            "a": "ALWAYS ask for permission. Some demand money (bakshish), others bless you freely. Be respectful."
+        },
+        {
+            "q": "Is the water clean?",
+            "a": "Authorities make massive efforts to clean the water, but quality varies. Drink only bottled water."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Spirituality",
+        "Pilgrimage",
+        "North India"
+    ],
+    "seo_title": "Maha Kumbh Mela 2025 Prayagraj: Dates, Shahi Snan & Guide",
+    "seo_description": "Prepare for the Maha Kumbh Mela 2025 in Prayagraj. A guide to the Shahi Snan dates, accommodation, and the experience of the world's largest gathering.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Maha Kumbh Mela 2025",
+        "startDate": "2025-01-13",
+        "endDate": "2025-02-26",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Prayagraj",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Prayagraj",
+                "addressRegion": "Uttar Pradesh",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1550949987-013143c75ecb?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Kumbh Mela is the world's largest religious gathering, held every 12 years."
+    }
+}

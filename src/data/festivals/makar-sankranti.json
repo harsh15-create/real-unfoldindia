@@ -1,0 +1,105 @@
+{
+    "id": "makar-sankranti",
+    "slug": "makar-sankranti",
+    "title": "Makar Sankranti (Kite Festival)",
+    "hero_image": "https://images.unsplash.com/photo-1514338562772-2f1f0a2ba89c?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Colorul kites in the sky during Uttarayan",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1578326260191-817ab5542a22?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1610815147823-380590c1f964?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1549646142-7dbb41987d60?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "A pan-Indian solar festival famous for the International Kite Festival in Gujarat.",
+    "long_description": "Makar Sankranti marks the transition of the Sun into the zodiac sign of Capricorn (Makara), signaling the end of winter and the start of longer days. Unlike most Hindu festivals which follow the lunar cycle, this follows the solar cycle and usually falls on January 14th.\n\nWhile celebrated differently across India (Pongal in Tamil Nadu, Magh Bihu in Assam), the most visually spectacular celebration is 'Uttarayan' in Gujarat. The sky becomes a battlefield of kites. Millions of colorful paper kites fill the horizon, and the air resonates with shouts of 'Kai Po Che!' (I have cut the kite!). It is a day of rooftop parties, music, sunglasses, and eating 'undhiyu' (a mixed vegetable delicacy) and jaggery-sesame sweets.",
+    "significance": "Celebrates the sun's journey northwards and the harvest.",
+    "key_rituals": [
+        "Kite Flying: The main attraction in Western India.",
+        "Holy Dip: Bathing in sacred rivers (Ganga Sagar Mela).",
+        "Sesame Sweets: Exchanging 'Til-Gud' to sweeten relationships.",
+        "Donation: Giving charity to the needy."
+    ],
+    "calendar": {
+        "typical_month": "January",
+        "lunar_reference": "Fixed Solar Date",
+        "festival_length": "1 Day (Kite festival lasts a week)",
+        "next_dates": {
+            "2025": "Jan 14",
+            "2026": "Jan 14",
+            "2027": "Jan 15"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "ahmedabad",
+            "title": "Ahmedabad",
+            "summary": "Host of the International Kite Festival.",
+            "best_to_experience": "The riverfront kite displays and the intense kite battles in the old city (Pol areas).",
+            "how_to_reach": "Fly to Ahmedabad.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "jaipur",
+            "title": "Jaipur",
+            "summary": "Pink city skies.",
+            "best_to_experience": "Kite flying from the rooftops of the old city with the forts in the background.",
+            "how_to_reach": "Fly to Jaipur.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "gangasagar",
+            "title": "Ganga Sagar (West Bengal)",
+            "summary": "Pilgrimage.",
+            "best_to_experience": "Taking a holy dip where the Ganges meets the Bay of Bengal.",
+            "how_to_reach": "Ferry from Kolkata nearby.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Sunglasses and hats are mandatory for looking up at kites all day. Sunscreen too.",
+        "safety_tips": "Kite strings (manjha) can be sharp and dangerous for birds and bikers. Be careful on rooftops.",
+        "accessibility_notes": "Rooftops are not accessible, but the Riverfront event is.",
+        "avg_daily_costs": "₹2000 - ₹5000"
+    },
+    "faqs": [
+        {
+            "q": "Can I fly a kite?",
+            "a": "Yes! Buy one from a street stall for ₹10 and ask a local to help you launch it. It's harder than it looks."
+        },
+        {
+            "q": "What is Undhiyu?",
+            "a": "A spicy, slow-cooked mixed vegetable casserole traditionally eaten on this day in Gujarat."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Fun",
+        "West India",
+        "Solar"
+    ],
+    "seo_title": "Makar Sankranti 2025: International Kite Festival Gujarat Guide",
+    "seo_description": "Celebrate Makar Sankranti and the International Kite Festival in India. Dates, best rooftops in Ahmedabad, and travel tips for 2025.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Makar Sankranti 2025",
+        "startDate": "2025-01-14",
+        "endDate": "2025-01-14",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Ahmedabad",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Gujarat",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1514338562772-2f1f0a2ba89c?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Makar Sankranti celebrates the sun's transition with massive kite flying festivals."
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "id": "onam",
+    "slug": "onam",
+    "title": "Onam",
+    "hero_image": "https://images.unsplash.com/photo-1598424324328-5b42d79d13e3?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Kathakali dancer during Onam celebrations",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1516223403273-030310245646?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1628088062854-d1870b4553da?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600000000-dummy?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "Kerala's most colorful 10-day harvest festival, featuring snake boat races, flower rangolis, and the grand feast.",
+    "long_description": "Onam is the state festival of Kerala, a grand ten-day spectacle that unites Malayalis across religious lines. It celebrates the homecoming of the mythical King Mahabali, a benevolent ruler whose spirit is believed to visit his subjects annually. The festival transforms the lush green state into a riot of colors starting with 'Pookkalam', intricate flower carpets designed in front of every home.\n\nThe highlight for travelers is the Vallam Kali (Snake Boat Race), where long, narrow boats powered by hundreds of singing oarsmen slice through the backwaters—a display of strength and rhythm. Another essential experience is the 'Onam Sadhya', a vegetarian feast of 26+ dishes served on a banana leaf. From the tiger dances (Pulikali) where joyously pot-bellied men paint themselves as tigers to the serene temple rituals, Onam captures the essence of Kerala's rich heritage.",
+    "significance": "Honors the golden rule of King Mahabali and celebrates the rice harvest.",
+    "key_rituals": [
+        "Pookkalam: Designing elaborate floral rangolis.",
+        "Vallam Kali: The adrenaline-pumping snake boat races.",
+        "Onam Sadhya: The grand multi-course vegetarian feast.",
+        "Pulikali: The 'Play of the Tigers' street performance."
+    ],
+    "calendar": {
+        "typical_month": "August/September",
+        "lunar_reference": "Chingam month",
+        "festival_length": "10 Days (Main day is Thiruvonam)",
+        "next_dates": {
+            "2025": "Sep 5",
+            "2026": "Aug 26",
+            "2027": "Sep 12"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "alappuzha",
+            "title": "Alleppey (Alappuzha)",
+            "summary": "Home of the boat races.",
+            "best_to_experience": "The Nehru Trophy Boat Race on Punnamada Lake.",
+            "how_to_reach": "Drive from Kochi airport.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "thrissur",
+            "title": "Thrissur",
+            "summary": "The cultural capital.",
+            "best_to_experience": "The wild and colorful Pulikali (Tiger Dance) procession.",
+            "how_to_reach": "Drive from Kochi airport.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "kochi",
+            "title": "Kochi",
+            "summary": "Modern yet traditional Onam.",
+            "best_to_experience": "Thrikkakara Temple celebrations (associated with legendary Mahabali).",
+            "how_to_reach": "Fly to Kochi.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "trivandrum",
+            "title": "Trivandrum",
+            "summary": "State-sponsored week-long celebrations.",
+            "best_to_experience": "Illuminations throughout the city and daily cultural programs.",
+            "how_to_reach": "Fly to Thiruvananthapuram.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Women wear the cream and gold 'Kasavu' saree. Men wear the 'Mundu'. Dressing up is part of the fun.",
+        "safety_tips": "Boat races attract massive crowds; arrive hours early for a spot.",
+        "accessibility_notes": "Crowds can be overwhelming.",
+        "avg_daily_costs": "₹2500 - ₹5000"
+    },
+    "faqs": [
+        {
+            "q": "Can tourists eat the Sadhya?",
+            "a": "Absolutely! Most hotels and restaurants serve the special Sadhya feast during Onam. Eating with your hands is the custom."
+        },
+        {
+            "q": "When is the best boat race?",
+            "a": "The Nehru Trophy Boat Race usually happens on the second Saturday of August, kicking off the season."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Harvest",
+        "Food",
+        "Kerala"
+    ],
+    "seo_title": "Onam Festival 2025: Snake Boat Races & Sadhya Feast Guide",
+    "seo_description": "Experience Onam in Kerala. A guide to the best Onam Sadhya, Snake Boat Races in Alleppey, and the Pulikali Tiger Dance in Thrissur.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Onam 2025",
+        "startDate": "2025-08-27",
+        "endDate": "2025-09-05",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Kerala",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Kerala",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1598424324328-5b42d79d13e3?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Onam is the harvest festival of Kerala, celebrating King Mahabali's homecoming."
+    }
+}

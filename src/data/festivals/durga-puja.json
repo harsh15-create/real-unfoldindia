@@ -1,0 +1,112 @@
+{
+    "id": "durga-puja",
+    "slug": "durga-puja",
+    "title": "Durga Puja & Navratri",
+    "hero_image": "https://images.unsplash.com/photo-1540304801084-08295311f4c7?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Durga idol during Puja celebrations",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1569302688005-7289ee0c0576?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1628148902564-9022637f7178?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1601309584867-f06b0d91d03f?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "A grand celebration of the Divine Feminine, featuring elaborate artistic idols in Bengal and energetic dance nights in Gujarat.",
+    "long_description": "Durga Puja is more than a festival; it is a massive socio-cultural event, particularly in Eastern India. It marks the victory of Goddess Durga over the buffalo demon Mahishasura, symbolizing the power of good over evil. For five days, the city of Kolkata preserves no sleep. It transforms into an open-air art gallery where thousands of 'pandals' (temporary marquees) display stunning craftsmanship, housing life-size clay idols of the Goddess.\n\nSimultaneously, in Western India (Gujarat), the festival is celebrated as Navratri (Nine Nights), dedicated to dance. People dressed in colorful chaniya cholis and kediyus gather in thousands to perform Garba and Dandiya Raas, dancing in concentric circles around a clay lamp. The rhythmic clapping and swirling colors make it one of the most energetic festivals in the world.\n\nWhether it’s the artistic grandeur of Bengal's pujo or the rhythmic fervor of Gujarat's garba, this period honors Shakti—the feminine cosmic energy.",
+    "significance": "Honors Goddess Durga's battle and victory. It celebrates the power of women (Shakti) and is also a harvest festival in many regions.",
+    "key_rituals": [
+        "Pandal Hopping: Visiting decorated marquees to admire idols.",
+        "Garba/Dandiya: Folk dances performed with sticks or clapping hands.",
+        "Sindoor Khela: Women smearing red vermilion on each other on the final day.",
+        "Visarjan: Immersion of the idols in rivers with processions."
+    ],
+    "calendar": {
+        "typical_month": "September/October",
+        "lunar_reference": "Ashvin month (Shukla Paksha)",
+        "festival_length": "9 Days (Navratri) / 5 Days (Durga Puja)",
+        "next_dates": {
+            "2025": "Sep 22 - Oct 2",
+            "2026": "Oct 11 - Oct 20",
+            "2027": "Oct 1 - Oct 10"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "kolkata",
+            "title": "Kolkata, West Bengal",
+            "summary": "The heart of Durga Puja culture.",
+            "best_to_experience": "Pandal hopping all night, street food, and the emotional immersion carnival on the Hooghly river.",
+            "how_to_reach": "Fly to Kolkata (CCU).",
+            "is_bookable": false
+        },
+        {
+            "place_id": "ahmedabad",
+            "title": "Ahmedabad/Vadodara, Gujarat",
+            "summary": "The epicenter of Navratri dance.",
+            "best_to_experience": "The giant United Way of Baroda Garba or heritage walks in Ahmedabad followed by night-long dancing.",
+            "how_to_reach": "Fly to Ahmedabad or Vadodara.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "mumbai",
+            "title": "Mumbai",
+            "summary": "A cosmopolitan mix of both Pujo and Garba.",
+            "best_to_experience": "The grand pandals of South Bombay and celebrity-attended Garba nights in the suburbs.",
+            "how_to_reach": "Fly to Mumbai.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "mysore",
+            "title": "Mysore (Dasara)",
+            "summary": "Royal celebrations coinciding with the festival.",
+            "best_to_experience": "The lit-up Mysore Palace and the royal elephant procession.",
+            "how_to_reach": "Train/Bus from Bangalore or fly to Mysore.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "In Kolkata: Smart cottons or traditional sarees. In Gujarat: Colorful, flared skirts or comfortable ethnic wear for dancing.",
+        "safety_tips": "Crowds in Kolkata pandals can be suffocating; avoid peak evening hours if claustrophobic.",
+        "accessibility_notes": "Pandals often have VIP passes for seniors/disabled to skip lines.",
+        "avg_daily_costs": "₹2500 - ₹5000"
+    },
+    "faqs": [
+        {
+            "q": "Do I need tickets for Garba?",
+            "a": "Yes, major commercial Garba venues in Gujarat require tickets booked in advance. Street Garbas are free."
+        },
+        {
+            "q": "Is vegetarian food mandatory?",
+            "a": "In Gujarat, yes, strict vegetarianism is observed. In Bengal, however, fish and meat are celebrated parts of the festive feast."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Dance",
+        "Art",
+        "East & West India"
+    ],
+    "seo_title": "Durga Puja & Navratri 2025: Guide to Kolkata Pujo and Gujarat Garba",
+    "seo_description": "Experience the twin celebrations of Durga Puja and Navratri. Discover the best pandals in Kolkata and the best Garba venues in Gujarat for 2025.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Durga Puja 2025",
+        "startDate": "2025-09-28",
+        "endDate": "2025-10-02",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Kolkata",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1540304801084-08295311f4c7?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Durga Puja celebrates the victory of Goddess Durga with art, culture, and festivities."
+    }
+}

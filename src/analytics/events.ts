@@ -1,45 +1,20 @@
 
-// src/analytics/events.ts
-
-type EventPayload = Record<string, any>;
-
-/**
- * Simple analytics wrapper. 
- * Replace console.log with actual GA4/Mixpanel calls in production.
- */
-export const trackEvent = (eventName: string, payload: EventPayload = {}) => {
-    // Add timestamp and common properties
-    const enrichedPayload = {
-        ...payload,
-        timestamp: new Date().toISOString(),
-        url: window.location.href,
-    };
-
-    // In a real app, you'd integrate window.gtag or mixpanel.track here
-    if (import.meta.env.DEV) {
-        console.log(`[Analytics] ${eventName}`, enrichedPayload);
-    }
+export const trackEvent = (eventName: string, properties?: Record<string, any>) => {
+    console.log(`[Analytics] ${eventName}`, properties);
+    // Send to GA/Mixpanel here
 };
 
 export const AdventureEvents = {
-    EXPERIENCE_OPEN: (experience_id: string) =>
-        trackEvent('experience_open', { experience_id }),
+    EXPERIENCE_OPEN: (section: string) => trackEvent('experience_open', { section }),
+    ACTIVITY_QUICK_VIEW: (section: string, slug: string) => trackEvent('activity_quick_view', { section, slug }),
+    ACTIVITY_VIEW_DETAIL: (section: string, slug: string) => trackEvent('activity_view_detail', { section, slug }),
+    ACTIVITY_BOOK_CTA: (props: any) => trackEvent('activity_book_cta', props),
+};
 
-    ACTIVITY_QUICK_VIEW: (experience_id: string, activity_slug: string) =>
-        trackEvent('activity_quick_view', { experience_id, activity_slug }),
-
-    ACTIVITY_VIEW_DETAIL: (experience_id: string, activity_slug: string) =>
-        trackEvent('activity_view_detail', { experience_id, activity_slug }),
-
-    ACTIVITY_LOCATION_SELECT: (experience_id: string, activity_slug: string, location: string) =>
-        trackEvent('activity_location_select', { experience_id, activity_slug, location }),
-
-    ACTIVITY_BOOK_CTA: (payload: { experience_id: string; activity_slug: string; location?: string; ticket_type?: string }) =>
-        trackEvent('activity_book_cta', payload),
-
-    SEARCH_PERFORMED: (query: string, filters: any) =>
-        trackEvent('search_performed', { query, filters }),
-
-    FILTER_APPLIED: (filter_name: string, values: any) =>
-        trackEvent('filter_applied', { filter_name, values }),
+export const CultureEvents = {
+    CULTURE_OPEN: (section: string) => trackEvent('culture_open', { section }),
+    FESTIVAL_CLICK: (slug: string) => trackEvent('festival_click', { slug }),
+    FESTIVAL_PLACE_CLICK: (festival_slug: string, place_id: string) => trackEvent('festival_place_click', { festival_slug, place_id }),
+    FESTIVAL_SHARE: (slug: string) => trackEvent('festival_share', { slug }),
+    FAQ_OPEN: (slug: string, question: string) => trackEvent('faq_open', { slug, question }),
 };

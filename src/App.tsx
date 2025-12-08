@@ -31,6 +31,9 @@ import RoyalCity from "./pages/RoyalCity";
 import RoyalProperty from "./pages/RoyalProperty";
 import AdventuresPage from "./pages/experiences/AdventuresPage";
 import AdventureDetail from "./pages/experiences/AdventureDetail";
+import FestivalsPage from "./pages/culture/FestivalsPage";
+import FestivalDetail from "./pages/culture/FestivalDetail";
+
 
 import { useLocation } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
@@ -80,6 +83,9 @@ const App = () => (
             <Route path="/experiences/royal-luxury/:cityId/:propertySlug" element={<RoyalProperty />} />
             <Route path="/experiences/adventures" element={<AdventuresPage />} />
             <Route path="/experiences/adventures/:slug" element={<AdventureDetail />} />
+            <Route path="/culture/festivals" element={<FestivalsPage />} />
+            <Route path="/culture/festivals/:slug" element={<FestivalDetail />} />
+
             <Route path="/about" element={<AboutPage />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="*" element={<NotFound />} />

@@ -1,0 +1,106 @@
+{
+    "id": "lohri",
+    "slug": "lohri",
+    "title": "Lohri",
+    "hero_image": "https://images.unsplash.com/photo-1579261899147-380bb4c57cb8?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "People dancing around a Lohri bonfire",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1610815147823-380590c1f964?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1547822997-7526955d5137?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1546736412-16a7e029f626?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "A warm, energetic winter harvest festival of Punjab, celebrated with bonfires, folk songs, and popcorn.",
+    "long_description": "Lohri is the winter folk festival of Punjab, celebrated primarily by Sikhs and Hindus. It marks the end of the winter solstice and the harvesting of the rabi crops. The central ritual involves a huge bonfire lit at sunset. People gather around the fire, tossing sesame seeds, jaggery, and popcorn into the flames as offerings to Agni (Fire God) to pray for prosperity and fertility.\n\nIt is especially auspicious for families who have had a marriage or a childbirth in the past year; they host grand celebrations. The beat of the Dhol (drum) is irresistible, leading to energetic Bhangra and Gidda dance performances. Lohri is communal, warm, and distinctly 'Punjabi'—full of heart, heavy food (Sarson da Saag and Makki di Roti), and high spirits.",
+    "significance": "Celebrates fertility and the joy of life, marking the passing of the coldest days of winter.",
+    "key_rituals": [
+        "Bonfire: The center of the celebration.",
+        "Offerings: Throwing 'til' (sesame), 'gur' (jaggery), and peanuts into the fire.",
+        "Folk Songs: Singing traditional songs praising Dulha Bhatti (a Robin Hood figure).",
+        "Bhangra: Traditional folk dance."
+    ],
+    "calendar": {
+        "typical_month": "January",
+        "lunar_reference": "Fixed date (Eve of Makar Sankranti)",
+        "festival_length": "1 Day",
+        "next_dates": {
+            "2025": "Jan 13",
+            "2026": "Jan 13",
+            "2027": "Jan 13"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "amritsar",
+            "title": "Amritsar",
+            "summary": "Authentic Punjabi Lohri.",
+            "best_to_experience": "Celebrating with a local family or at a community center near the Golden Temple.",
+            "how_to_reach": "Fly to Amritsar.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "chandigarh",
+            "title": "Chandigarh",
+            "summary": "Urban celebrations.",
+            "best_to_experience": "Sector-wise community bonfires and parties.",
+            "how_to_reach": "Fly to Chandigarh.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "ludhiana",
+            "title": "Ludhiana",
+            "summary": "Cultural heart.",
+            "best_to_experience": "Kite flying which accompanies Lohri here.",
+            "how_to_reach": "Train to Ludhiana.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "It is cold in January. Wear heavy woolens. Phulkari duppatas add a festive touch.",
+        "safety_tips": "Safe to attend. Just be careful near the fire.",
+        "accessibility_notes": "Accessible.",
+        "avg_daily_costs": "₹2000 - ₹5000"
+    },
+    "faqs": [
+        {
+            "q": "What do people eat?",
+            "a": "Traditional winter foods: popcorn, peanuts, rewri (sesame sweets), and a dinner of mustard greens (saag) and corn bread."
+        },
+        {
+            "q": "Is it a religious festival?",
+            "a": "It's more of a cultural/seasonal festival than a strictly religious one.",
+            "how_to_reach": "N/A"
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Harvest",
+        "North India",
+        "Winter"
+    ],
+    "seo_title": "Lohri Festival 2025: Date, Traditions & Celebrations in Punjab",
+    "seo_description": "Experience the warmth of Lohri in Punjab. Learn about the bonfire rituals, Bhangra dances, and traditional food of this winter festival.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Lohri 2025",
+        "startDate": "2025-01-13",
+        "endDate": "2025-01-13",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Punjab",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Punjab",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1579261899147-380bb4c57cb8?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Lohri is the winter harvest festival of Punjab, celebrated with bonfires and folk dance."
+    }
+}

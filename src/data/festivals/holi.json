@@ -1,0 +1,120 @@
+{
+    "id": "holi",
+    "slug": "holi",
+    "title": "Holi",
+    "hero_image": "https://images.unsplash.com/photo-1552554660-3162b719001b?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "People celebrating Holi with colorful powders",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1566127444979-3f7be0531503?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582103444005-4c07d34177d6?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1581405021577-dc2806282110?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "The vibrant Festival of Colors, celebrating the arrival of spring and the triumph of good over evil with playful color throwing.",
+    "long_description": "Holi is perhaps India's most recognizable festival worldwide, a chaotic, joyous explosion of color that marks the arrival of spring. Ancient hindu mythology tells the story of Prahlad and Holika, symbolizing the burning of evil, which is enacted in the bonfire ritual of Holika Dahan on the eve of Holi. The next day, known as Rangwali Holi, is a free-for-all carnival of colors where social barriers dissolve. People of all ages, castes, and backgrounds chase each other with dry powder (gulal) and colored water, dance to drumbeats, and share festive sweets.\n\nBeyond the playfulness, Holi holds deep cultural significance as a day of forgiveness and renewal. It is a time when old grudges are forgotten, and relationships are mended with an embrace and a smear of red brightness. Regionally, the celebrations vary wildly—from the stick-beating Lathmar Holi in Barsana to the royal processions of Rajasthan and the musical gatherings in Bengal. For the traveler, Holi is an immersive experience that is intensely physical, visually stunning, and emotionally uplifting.",
+    "significance": "Holi celebrates the victory of Vishnu's devotee Prahlad over the demoness Holika, signified by the lighting of bonfires (Holika Dahan). It also honors the divine love of Radha and Krishna, who famously played with colors in Vrindavan.",
+    "key_rituals": [
+        "Holika Dahan: Bonfires lit on the eve to burn evil spirits.",
+        "Rangwali Holi: Playing with gulal (colored powder) and water.",
+        "Drinking Thandai: A traditional spiced milk drink, sometimes infused with bhang (cannabis) in North India.",
+        "Singing & Dancing: Folk songs and drums (dhol) are central to the festivities."
+    ],
+    "calendar": {
+        "typical_month": "March",
+        "lunar_reference": "Full moon (Purnima) of the Phalguna month",
+        "festival_length": "2 Days",
+        "next_dates": {
+            "2025": "Mar 14",
+            "2026": "Mar 3",
+            "2027": "Mar 22"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "mathura-vrindavan",
+            "title": "Mathura & Vrindavan",
+            "summary": "The birthplace of Lord Krishna, where Holi is celebrated for over a week with immense fervor.",
+            "best_to_experience": "Traditional temple rituals and the famous Phoolon ki Holi (Flowers Holi).",
+            "how_to_reach": "Nearest airport involves Delhi/Agra. Well connected by rail.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "barsana",
+            "title": "Barsana (Lathmar Holi)",
+            "summary": "Unique tradition where women playfully beat men with sticks.",
+            "best_to_experience": "Witnessing the energetic Lathmar Holi 4-5 days before the main event.",
+            "how_to_reach": "Short drive from Mathura.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "shantiniketan",
+            "title": "Shantiniketan (Basanta Utsav)",
+            "summary": "A cultural celebration started by Rabindranath Tagore.",
+            "best_to_experience": "Graceful dances, yellow clothes, and cultural performances rather than rowdy color play.",
+            "how_to_reach": "Train from Kolkata (Bolpur station).",
+            "is_bookable": false
+        },
+        {
+            "place_id": "udaipur",
+            "title": "Udaipur",
+            "summary": "Royal Holi celebrated by the Mewar royal family.",
+            "best_to_experience": "The grand palace procession and Holika Dahan with the royal family.",
+            "how_to_reach": "Fly directly to Udaipur.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "anandpur-sahib",
+            "title": "Anandpur Sahib (Hola Mohalla)",
+            "summary": "A Sikh festival celebrating martial arts just after Holi.",
+            "best_to_experience": "Mock battles, sword fighting displays, and poetry.",
+            "how_to_reach": "Close to Chandigarh.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Wear old, white clothes that you don't mind getting stained forever. Sunglasses protect eyes.",
+        "safety_tips": "Use organic colors to avoid skin allergies. Protect hair with oil. Be cautious in large crowds.",
+        "accessibility_notes": "Crowded streets can be difficult for wheelchairs.",
+        "avg_daily_costs": "₹2000 - ₹5000 (depending on accommodation premium during festivities)"
+    },
+    "faqs": [
+        {
+            "q": "Is Holi safe for solo female travelers?",
+            "a": "It can be intense. We recommend joining organized group celebrations or staying within hotel events for a safer experience, especially in North India."
+        },
+        {
+            "q": "Do the colors wash off?",
+            "a": "High-quality organic colors wash off easily. Cheap industrial dyes can stain skin for days. Moisturize heavily before playing."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Spring",
+        "Colors",
+        "North India"
+    ],
+    "seo_title": "Holi Festival Guide 2025: Dates, Traditions & Best Places",
+    "seo_description": "Everything you need to know about Holi 2025. Discover the best places to celebrate the Festival of Colors in India, from Mathura to Shantiniketan.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Holi Festival 2025",
+        "startDate": "2025-03-14",
+        "endDate": "2025-03-15",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "India",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1552554660-3162b719001b?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Holi is the Indian Festival of Colors, celebrating the arrival of spring with joy, music, and colorful powder."
+    }
+}

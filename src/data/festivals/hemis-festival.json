@@ -1,0 +1,89 @@
+{
+    "id": "hemis-festival",
+    "slug": "hemis-festival",
+    "title": "Hemis Festival",
+    "hero_image": "https://images.unsplash.com/photo-1566804593121-6a066b579549?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Monks performing Cham dance at Hemis Monastery",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1589808620958-3dce8912d094?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1566552881560-0be862a7c445?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1518002171953-a080ee806dab?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "A colorful celebration of Tibetan Buddhism in Ladakh, featuring the sacred masked 'Cham' dances.",
+    "long_description": "Held at the Hemis Gompa, the largest and richest monastery in Ladakh, this two-day festival celebrates the birth anniversary of Guru Padmasambhava (Guru Rinpoche), the founder of Tibetan Buddhism. The courtyard of the monastery becomes a stage for the 'Cham' dance.\n\nLamas (monks) dressed in vibrant silk brocade robes and wearing terrifying masks representing deities and demons perform slow, rhythmic dances to the sound of cymbals, long horns (dung-chen), and drums. The dances enact the triumph of good over evil. Once every 12 years (Year of the Monkey), a massive two-story high 'Thangka' (religious scroll) is unfurled, making it exponentially more crowded and auspicious.",
+    "significance": "Celebrates Guru Padmasambhava's victory over evil forces.",
+    "key_rituals": [
+        "Cham Dance: Sacred masked dances.",
+        "Unfurling the Thangka: Only every 12 years (Next: 2028).",
+        "Music: Traditional Tibetan instruments.",
+        "Chang: Drinking local barley wine."
+    ],
+    "calendar": {
+        "typical_month": "June/July",
+        "lunar_reference": "10th day of the Lunar Tibetan month",
+        "festival_length": "2 Days",
+        "next_dates": {
+            "2025": "Jul 5 - Jul 6",
+            "2026": "Jun 24 - Jun 25",
+            "2027": "Jul 13 - Jul 14"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "hemis",
+            "title": "Hemis Monastery, Ladakh",
+            "summary": "The venue.",
+            "best_to_experience": "Arrive early (6 AM) to get a seat in the courtyard.",
+            "how_to_reach": "Fly to Leh (IXL) and drive 45km.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Modest clothing covering legs and arms. Sunglasses and sunscreen are vital due to high altitude UV.",
+        "safety_tips": "Acclimatize in Leh for 2 days before heading to Hemis to avoid Acute Mountain Sickness (AMS).",
+        "accessibility_notes": "Not wheelchair friendly; lots of stairs.",
+        "avg_daily_costs": "₹3000 - ₹8000 (Leh is expensive in season)"
+    },
+    "faqs": [
+        {
+            "q": "Do I need a permit?",
+            "a": "Indians need an Inner Line Permit (ILP) for some areas in Ladakh, but Hemis is generally accessible. Foreigners need a Protected Area Permit (PAP) for restricted areas."
+        },
+        {
+            "q": "Is photography allowed?",
+            "a": "Yes, widely allowed in the courtyard, but forbidden inside the prayer halls."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Buddhism",
+        "Himalayas",
+        "Ladakh"
+    ],
+    "seo_title": "Hemis Festival 2025: Dates, Cham Dance & Ladakh Travel Guide",
+    "seo_description": "Witness the masked dances of the Hemis Festival 2025 in Ladakh. A complete guide to the dates, history, and travel logistics for this Buddhist celebration.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Hemis Festival 2025",
+        "startDate": "2025-07-05",
+        "endDate": "2025-07-06",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Hemis Monastery",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Ladakh",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1566804593121-6a066b579549?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Hemis Festival celebrates Guru Padmasambhava with sacred masked dances in Ladakh."
+    }
+}

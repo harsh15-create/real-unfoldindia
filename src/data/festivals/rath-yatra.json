@@ -1,0 +1,106 @@
+{
+    "id": "rath-yatra",
+    "slug": "rath-yatra",
+    "title": "Rath Yatra",
+    "hero_image": "https://images.unsplash.com/photo-1626095698501-526b3c20db82?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Devotees pulling the chariot of Lord Jagannath",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1626095697667-bb89fa7a8d50?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1596707328608-f40498a5d3f1?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1626242661555-5c024045f94d?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "The giant Chariot Festival of Puri, where millions pull the massive wooden chariots of Lord Jagannath.",
+    "long_description": "The Rath Yatra in Puri, Odisha, is one of the oldest and most spectacular processions in the world. It involves Lord Jagannath (Lord of the Universe), his brother Balabhadra, and sister Subhadra stepping out of their temple to visit their aunt's house, the Gundicha Temple. This journey is made on three colossal wooden chariots (Raths), the main one being 45 feet tall. \n\nWhat makes this unique is that typically, non-Hindus are not allowed inside the Jagannath Temple. The Rath Yatra is the only time the deities come out to give darshan (blessings) to everyone, regardless of caste or creed. Pulling the thick ropes of the chariot is considered an act of great merit. The energy is frantic and devotional, with shouts of 'Jai Jagannath' rising above the sound of gongs and cymbals.",
+    "significance": "Symbolizes the journey of the Lord to meet his devotees.",
+    "key_rituals": [
+        "Chhera Pahanra: The King of Puri sweeps the chariot floor with a golden broom, symbolizing humility.",
+        "Pahandi: The rhythmic swaying movement of deities as they are carried to chariots.",
+        "Chariot Pulling: Millions of devotees pulling the ropes.",
+        "Bahuda Yatra: The return journey after 9 days."
+    ],
+    "calendar": {
+        "typical_month": "June/July",
+        "lunar_reference": "Dwitiya of Ashadha month",
+        "festival_length": "9 Days",
+        "next_dates": {
+            "2025": "Jun 27",
+            "2026": "Jul 16",
+            "2027": "Jul 5"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "puri",
+            "title": "Puri, Odisha",
+            "summary": "The origin of the festival.",
+            "best_to_experience": "Standing on the Grand Road (Bada Danda) to witness the sea of humanity.",
+            "how_to_reach": "Train to Puri or Fly to Bhubaneswar (1.5 hrs away).",
+            "is_bookable": false
+        },
+        {
+            "place_id": "ahmedabad",
+            "title": "Ahmedabad",
+            "summary": "The second largest Rath Yatra.",
+            "best_to_experience": "The procession winding through the old city's narrow lanes.",
+            "how_to_reach": "Fly to Ahmedabad.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "mahesh",
+            "title": "Mahesh (near Kolkata)",
+            "summary": "The second oldest Rath Yatra (since 1396).",
+            "best_to_experience": "Historical significance and huge country fair (Mela).",
+            "how_to_reach": "Drive from Kolkata.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Cotton clothing. It is extremely hot and humid in Odisha during June/July.",
+        "safety_tips": "Suffocation is a risk in the densest crowds locally. Watch from rooftops or balconies if possible.",
+        "accessibility_notes": "Impossible for wheelchairs on the street level.",
+        "avg_daily_costs": "₹2500 - ₹5000"
+    },
+    "faqs": [
+        {
+            "q": "Can I touch the chariot?",
+            "a": "In the chaos, people try, but security is tight. Pulling the rope is the main goal."
+        },
+        {
+            "q": "Is vegetarian food mandatory?",
+            "a": "Yes, in Puri. The temple food (Mahaprasad) is legendary."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Spirituality",
+        "East India",
+        "Procession"
+    ],
+    "seo_title": "Puri Rath Yatra 2025: Dates, History & Travel Guide",
+    "seo_description": "Witness the divine journey of Lord Jagannath in Puri. Complete guide to the Rath Yatra 2025, rituals, and travel tips for Odisha.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Rath Yatra 2025",
+        "startDate": "2025-06-27",
+        "endDate": "2025-07-06",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Puri",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Puri",
+                "addressRegion": "Odisha",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1626095698501-526b3c20db82?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Rath Yatra is the Chariot Festival of Lord Jagannath in Puri."
+    }
+}

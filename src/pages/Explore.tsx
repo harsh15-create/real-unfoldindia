@@ -47,12 +47,11 @@ const Explore = () => {
     ];
 
     const culture = [
-        { name: "Festivals", image: "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?q=80&w=1000&auto=format&fit=crop", desc: "Colors of India" },
+        { name: "Festivals", image: "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?q=80&w=1000&auto=format&fit=crop", desc: "Colors of India", link: "/culture/festivals" },
         { name: "Art & Craft", image: "https://images.unsplash.com/photo-1460500063983-994d4c27756c?q=80&w=1000&auto=format&fit=crop", desc: "Handicrafts & Textiles" },
         { name: "Dance Forms", image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1000&auto=format&fit=crop", desc: "Classical Traditions" },
         { name: "Cuisine", image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=1000&auto=format&fit=crop", desc: "Flavors of the Land" },
     ];
-
     const guides = [
         { name: "Visa & Entry", icon: BookOpen, desc: "Everything you need to know about Indian visas.", link: "/guide#visa" },
         { name: "Safety Tips", icon: Shield, desc: "Essential safety advice for solo and group travelers.", link: "/guide#safety" },
@@ -248,26 +247,36 @@ const Explore = () => {
                         <h2 className="text-3xl font-bold mb-8">Indian <span className="text-primary">Culture</span></h2>
                         <CarouselSection
                             items={culture}
-                            renderItem={(item, index) => (
-                                <motion.div
-                                    initial={{ opacity: 0, y: 20 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: 0.4 + index * 0.1 }}
-                                    className="group relative overflow-hidden rounded-2xl aspect-square cursor-pointer h-full"
-                                >
-                                    <img
-                                        src={item.image}
-                                        alt={item.name}
-                                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                                    />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                                    <div className="absolute bottom-0 left-0 p-6">
-                                        <h3 className="text-xl font-bold text-white mb-1">{item.name}</h3>
-                                        <p className="text-white/80 text-sm">{item.desc}</p>
-                                    </div>
-                                </motion.div>
-                            )}
+                            renderItem={(item, index) => {
+                                const CardContent = (
+                                    <motion.div
+                                        initial={{ opacity: 0, y: 20 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{ delay: 0.4 + index * 0.1 }}
+                                        className="group relative overflow-hidden rounded-2xl aspect-square cursor-pointer h-full"
+                                    >
+                                        <img
+                                            src={item.image}
+                                            alt={item.name}
+                                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                                        <div className="absolute bottom-0 left-0 p-6">
+                                            <h3 className="text-xl font-bold text-white mb-1">{item.name}</h3>
+                                            <p className="text-white/80 text-sm">{item.desc}</p>
+                                        </div>
+                                    </motion.div>
+                                );
+
+                                return (item as any).link ? (
+                                    <Link to={(item as any).link} className="block h-full">
+                                        {CardContent}
+                                    </Link>
+                                ) : (
+                                    CardContent
+                                );
+                            }}
                         />
                     </div>
                 </motion.div>

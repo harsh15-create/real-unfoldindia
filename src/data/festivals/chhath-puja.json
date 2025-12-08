@@ -1,0 +1,105 @@
+{
+    "id": "chhath-puja",
+    "slug": "chhath-puja",
+    "title": "Chhath Puja",
+    "hero_image": "https://images.unsplash.com/photo-1627885721666-663853127521?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Devotees standing in water worshipping the sun",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1628173516362-ec7f41121d55?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1542385157-5e76a6e2762a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1605807986064-07755383084a?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "An ancient, rigorous Vedic festival dedicated to the Sun God, observed with river rituals at sunset and sunrise.",
+    "long_description": "Chhath Puja is an ancient Hindu Vedic festival dedicated to the Sun God (Surya) and Chhathi Maiya. It is unique because it involves no idols and no priests; the devotee alone performs the rituals. Predominantly celebrated in Bihar, Jharkhand, and UP, it is a four-day period of extreme purity and discipline. \n\nThe main rituals involve fasting without water for 36 hours and standing in waist-deep water to offer 'Arghya' (oblations) to the setting sun (Sandhya Arghya) and the rising sun (Usha Arghya). The offerings include seasonal fruits, sugarcane, and the famous 'Thekua' (sweet wheat cookie), all arranged in bamboo winnows. It is a mesmerizing sight to see millions of women in colorful sarees standing in the river as holding their offerings, waiting for the sun's rays.",
+    "significance": "Thanksgiving to the Sun God for sustaining life on Earth.",
+    "key_rituals": [
+        "Nahay Khay: Ritual bath and a pure meal of bottle gourd and rice.",
+        "Kharna: Fasting all day and eating kheer-roti in the evening.",
+        "Sandhya Arghya: Offering prayers to the setting sun.",
+        "Usha Arghya: Offering prayers to the rising sun."
+    ],
+    "calendar": {
+        "typical_month": "October/November",
+        "lunar_reference": "6th day of Kartika month",
+        "festival_length": "4 Days",
+        "next_dates": {
+            "2025": "Oct 27 - Oct 30",
+            "2026": "Nov 15 - Nov 18",
+            "2027": "Nov 4 - Nov 7"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "patna",
+            "title": "Patna, Bihar",
+            "summary": "The epicenter.",
+            "best_to_experience": "The packed exhilaration at the Ganga Ghats.",
+            "how_to_reach": "Fly to Patna.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "varanasi",
+            "title": "Varanasi",
+            "summary": "Spiritual grandeur.",
+            "best_to_experience": "Watching the rituals at Assi Ghat alongside the Ganga Aarti.",
+            "how_to_reach": "Fly to Varanasi.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "mumbai",
+            "title": "Mumbai (Juhu Beach)",
+            "summary": "The diaspora celebration.",
+            "best_to_experience": "Seeing thousands of migrants celebrate on Juhu Beach against the city skyline.",
+            "how_to_reach": "Fly to Mumbai.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "It is respectful to dress conservatively. Remove shoes before stepping near the puja area.",
+        "safety_tips": "River banks are slippery and crowded. Do not enter the water if you can't swim.",
+        "accessibility_notes": "Ghats (steps) are very difficult for wheelchairs.",
+        "avg_daily_costs": "₹2000 - ₹4000"
+    },
+    "faqs": [
+        {
+            "q": "Can I taste the Thekua?",
+            "a": "Yes! After the final morning offering, 'Prasad' is distributed to everyone. It is considered a blessing."
+        },
+        {
+            "q": "Why is it so strict?",
+            "a": "It is believed that even a slight mistake in purity can bring bad luck, hence the extreme discipline."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Sun",
+        "Bihar",
+        "Vedic"
+    ],
+    "seo_title": "Chhath Puja 2025: Dates, Rituals & Significance",
+    "seo_description": "A guide to Chhath Puja, the Sun Festival of India. Learn about the arduous 36-hour fast and the best places in Bihar to witness it.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Chhath Puja 2025",
+        "startDate": "2025-10-27",
+        "endDate": "2025-10-30",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Patna",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Bihar",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1627885721666-663853127521?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Chhath Puja is an ancient Vedic festival dedicated to the Sun God."
+    }
+}

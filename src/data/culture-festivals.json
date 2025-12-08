@@ -1,0 +1,177 @@
+{
+    "id": "festivals",
+    "slug": "festivals",
+    "title": "Festivals",
+    "hero_image": "https://images.unsplash.com/photo-1598424324328-5b42d79d13e3?q=80&w=2070&auto=format&fit=crop",
+    "intro_title": "India’s Festivals & Living Rituals",
+    "intro_description": "India is often described as a land of a million festivals, where every day is a celebration of divinity, nature, harvest, or seasons. The country’s calendar is a kaleidoscope of vibrant colors, rhythmic beats, and ancient rituals that bring together communities from diverse backgrounds. From the exuberant splash of colors during Holi to the myriad lights of Diwali that illuminate the darkest night, festivals in India are not just events; they are the very heartbeat of its culture.\n\nThese celebrations offer travelers a unique window into the soul of India. They are living museums of tradition, where mythology comes alive through dance, music, and elaborate processions. Whether it’s the colossal chariot pulling of Rath Yatra in Puri, the mesmerizing snake boat races of Onam in Kerala, or the strictly disciplined Chhath Puja dedicated to the Sun God, each festival carries a deep spiritual significance and a distinct regional flavor.\n\nExperiencing a festival here is an assault on the senses in the best possible way—the aroma of special sweets, the sound of conch shells and drums, and the sight of thousands of devotees united in prayer and joy. For the traveler, it is an invitation to participate, not just observe. To dance in the rain during the monsoon festivals, to light an earthen lamp, or to fly a kite—these are the moments that transform a trip into a journey of discovery.",
+    "seo_title": "Famous Festivals of India | Cultural Guide & Calendar 2025",
+    "seo_description": "Explore the top 18 festivals of India including Holi, Diwali, and Durga Puja. A complete cultural guide with dates, rituals, and best places to experience them.",
+    "last_updated": "2024-05-22",
+    "cards": [
+        {
+            "id": "holi",
+            "slug": "holi",
+            "title": "Holi",
+            "card_subtitle": "The Festival of Colors",
+            "thumbnail": "https://images.unsplash.com/photo-1552554660-3162b719001b?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "A vibrant celebration of spring where streets come alive with colors, joy, and playfulness."
+        },
+        {
+            "id": "diwali",
+            "slug": "diwali",
+            "title": "Diwali",
+            "card_subtitle": "The Festival of Lights",
+            "thumbnail": "https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "India’s biggest festival symbolizing the victory of light over darkness and good over evil."
+        },
+        {
+            "id": "durga-puja",
+            "slug": "durga-puja",
+            "title": "Durga Puja & Garba",
+            "card_subtitle": "Worship of the Divine Feminine",
+            "thumbnail": "https://images.unsplash.com/photo-1540304801084-08295311f4c7?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Experience the artistic pandals of Kolkata and the energetic dandiya dances of Gujarat."
+        },
+        {
+            "id": "dussehra",
+            "slug": "dussehra",
+            "title": "Dussehra",
+            "card_subtitle": "Victory of Good over Evil",
+            "thumbnail": "https://images.unsplash.com/photo-1570535497223-386706cd8e22?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Witness the burning of Ravana effigies or the grand Mysore Dasara procession."
+        },
+        {
+            "id": "pongal",
+            "slug": "pongal",
+            "title": "Pongal",
+            "card_subtitle": "Tamil Harvest Festival",
+            "thumbnail": "https://images.unsplash.com/photo-1516223403273-030310245646?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "A four-day thanksgiving to nature, celebrating the first harvest of the year in Tamil Nadu."
+        },
+        {
+            "id": "onam",
+            "slug": "onam",
+            "title": "Onam",
+            "card_subtitle": "Kerala's Grand Harvest",
+            "thumbnail": "https://images.unsplash.com/photo-1598424324328-5b42d79d13e3?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Famous for spectacular snake boat races, flower rangolis, and the grand Sadhya feast."
+        },
+        {
+            "id": "ganesh-chaturthi",
+            "slug": "ganesh-chaturthi",
+            "title": "Ganesh Chaturthi",
+            "card_subtitle": "The Elephant God's Arrival",
+            "thumbnail": "https://images.unsplash.com/photo-1599540095796-0177755f1f0a?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Ten days of massive idols, music, and immersion precessions, particularly grand in Mumbai."
+        },
+        {
+            "id": "eid-al-fitr",
+            "slug": "eid-al-fitr",
+            "title": "Eid al-Fitr",
+            "card_subtitle": "Feast of Breaking the Fast",
+            "thumbnail": "https://images.unsplash.com/photo-1526367790999-0150786686a2?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "A joyous celebration marking the end of Ramadan with prayers, feasts, and charity."
+        },
+        {
+            "id": "christmas",
+            "slug": "christmas",
+            "title": "Christmas",
+            "card_subtitle": "Yuletide in the Tropics",
+            "thumbnail": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Celebrated with unique Indian flavors, midnight masses, and beach parties in Goa."
+        },
+        {
+            "id": "kumbh-mela",
+            "slug": "kumbh-mela",
+            "title": "Kumbh Mela",
+            "card_subtitle": "World's Largest Gathering",
+            "thumbnail": "https://images.unsplash.com/photo-1550949987-013143c75ecb?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "A massive spiritual pilgrimage where millions bathe in sacred rivers to wash away sins."
+        },
+        {
+            "id": "rath-yatra",
+            "slug": "rath-yatra",
+            "title": "Rath Yatra",
+            "card_subtitle": "Chariot Festival of Puri",
+            "thumbnail": "https://images.unsplash.com/photo-1626095698501-526b3c20db82?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Giant chariots of Lord Jagannath are pulled by devotees through the streets of Puri."
+        },
+        {
+            "id": "lohri",
+            "slug": "lohri",
+            "title": "Lohri",
+            "card_subtitle": "Bonfire Harvest Festival",
+            "thumbnail": "https://images.unsplash.com/photo-1579261899147-380bb4c57cb8?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Punjab’s winter folk festival celebrated with bonfires, dancing, and sesame sweets."
+        },
+        {
+            "id": "makar-sankranti",
+            "slug": "makar-sankranti",
+            "title": "Makar Sankranti",
+            "card_subtitle": "The Kite Festival",
+            "thumbnail": "https://images.unsplash.com/photo-1514338562772-2f1f0a2ba89c?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "The sun’s transition is marked by millions of colorful kites filling the skies of Gujarat."
+        },
+        {
+            "id": "guru-nanak-jayanti",
+            "slug": "guru-nanak-jayanti",
+            "title": "Guru Nanak Jayanti",
+            "card_subtitle": "Gurpurab",
+            "thumbnail": "https://images.unsplash.com/photo-1511910849309-0dffb87d2dbd?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "The sacred birth anniversary of the first Sikh Guru, marked by prayers and community feasts."
+        },
+        {
+            "id": "chhath-puja",
+            "slug": "chhath-puja",
+            "title": "Chhath Puja",
+            "card_subtitle": "Worship of the Sun God",
+            "thumbnail": "https://images.unsplash.com/photo-1627885721666-663853127521?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "An ancient Vedic festival dedicated to the Sun, observed with river rituals at sunrise and sunset."
+        },
+        {
+            "id": "pushkar-camel-fair",
+            "slug": "pushkar-camel-fair",
+            "title": "Pushkar Camel Fair",
+            "card_subtitle": "Rajasthan's Desert Carnival",
+            "thumbnail": "https://images.unsplash.com/photo-1573652197177-d61cc7e411b9?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "A spectacular gathering of camels, traders, and pilgrims in the holy town of Pushkar."
+        },
+        {
+            "id": "hemis-festival",
+            "slug": "hemis-festival",
+            "title": "Hemis Festival",
+            "card_subtitle": "Masked Dances of Ladakh",
+            "thumbnail": "https://images.unsplash.com/photo-1566804593121-6a066b579549?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Buddhist monks perform the sacred Cham dance in the stunning Hemis Monastery."
+        },
+        {
+            "id": "bihu",
+            "slug": "bihu",
+            "title": "Bihu",
+            "card_subtitle": "Spirit of Assam",
+            "thumbnail": "https://images.unsplash.com/photo-1619616056257-2e1180436979?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "A set of three harvest festivals celebrated with distinct Bihu dances and feasts in Assam."
+        }
+    ],
+    "order": [
+        "holi",
+        "diwali",
+        "durga-puja",
+        "dussehra",
+        "pongal",
+        "onam",
+        "ganesh-chaturthi",
+        "eid-al-fitr",
+        "christmas",
+        "kumbh-mela",
+        "rath-yatra",
+        "lohri",
+        "makar-sankranti",
+        "guru-nanak-jayanti",
+        "chhath-puja",
+        "pushkar-camel-fair",
+        "hemis-festival",
+        "bihu"
+    ]
+}

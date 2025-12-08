@@ -1,0 +1,112 @@
+{
+    "id": "christmas",
+    "slug": "christmas",
+    "title": "Christmas",
+    "hero_image": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Santhome Basilica decorated for Christmas",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1576402187878-974f252423c5?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1607519694770-36e26ebc8c97?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1575311373937-2cd4d830b8da?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "Celebrated with tropical flair, midnight masses, and festive feasts, especially vibrant in Goa and the North East.",
+    "long_description": "Christmas in India is a beautiful blend of colonial traditions and local Indian customs. While celebrated by Christians across the country, the vibe in Goa, Kerala, and Mumbai is particularly festive. In Goa, a former Portuguese colony, the weeks leading up to Christmas are filled with carol singing, baking of 'Kuswar' (Christmas sweets), and decorating homes with paper stars.\n\nThe Midnight Mass on Christmas Eve is the spiritual centerpiece, where churches are packed to capacity. In the North East states like Meghalaya and Nagaland, the celebrations are deeply community-centric with feasts and choral music. Unique Indian touches include using banana or mango leaves for decoration and serving spicy pork vindaloo or duck roast alongside the traditional plum cake.",
+    "significance": "Celebrates the birth of Jesus Christ.",
+    "key_rituals": [
+        "Midnight Mass: The most important church service on Christmas Eve.",
+        "Crib Building: Elaborate nativity scenes displayed in homes and churches.",
+        "Star Making: Hanging giant paper stars outside homes.",
+        "Kuswar Distribution: Sharing a platter of traditional sweets with neighbors."
+    ],
+    "calendar": {
+        "typical_month": "December",
+        "lunar_reference": "Fixed Gregorian Date",
+        "festival_length": "1 Day (Season lasts till New Year)",
+        "next_dates": {
+            "2025": "Dec 25",
+            "2026": "Dec 25",
+            "2027": "Dec 25"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "goa",
+            "title": "Goa",
+            "summary": "The ultimate Indian Christmas destination.",
+            "best_to_experience": "Midnight mass at the Basilica of Bom Jesus and the beach parties.",
+            "how_to_reach": "Fly to Goa (GOI/GOX).",
+            "is_bookable": false
+        },
+        {
+            "place_id": "shillong",
+            "title": "Shillong, Meghalaya",
+            "summary": "A musical Christmas.",
+            "best_to_experience": "The beautiful illuminated streets and choral performances.",
+            "how_to_reach": "Fly to Shillong or Guwahati.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "kocchi",
+            "title": "Kochi, Kerala",
+            "summary": "Cochin Carnival.",
+            "best_to_experience": " The burning of the giant 'Pappanji' effigy (Santa-like figure) on New Year's Eve in Fort Kochi.",
+            "how_to_reach": "Fly to Kochi.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "kolkata",
+            "title": "Kolkata",
+            "summary": "Colonial nostalgia.",
+            "best_to_experience": "Park Street illumination and Mass at St. Paul's Cathedral.",
+            "how_to_reach": "Fly to Kolkata.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Smart casual or formal for church services. Party wear for celebrations.",
+        "safety_tips": "Goa is extremely crowded and expensive during this week. Book months in advance.",
+        "accessibility_notes": "Old churches may have steps.",
+        "avg_daily_costs": "₹4000 - ₹10000 (Peak season pricing in Goa)"
+    },
+    "faqs": [
+        {
+            "q": "Is alcohol allowed?",
+            "a": "Yes, especially in Goa where it is part of the festive culture. Other states have varying laws."
+        },
+        {
+            "q": "Are shops open?",
+            "a": "Yes, it's a major commercial holiday as well. Malls and restaurants are fully operational."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Religion",
+        "Winter",
+        "Goa"
+    ],
+    "seo_title": "Christmas in India 2025: Best Places to Celebrate",
+    "seo_description": "Celebrate Christmas in India. From the beaches of Goa to the hills of Shillong, discover how India celebrates the birth of Jesus.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Christmas 2025",
+        "startDate": "2025-12-25",
+        "endDate": "2025-12-25",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "India",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1512389142860-9c449e58a543?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Christmas celebrates the birth of Jesus Christ."
+    }
+}

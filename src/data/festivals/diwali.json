@@ -1,0 +1,120 @@
+{
+    "id": "diwali",
+    "slug": "diwali",
+    "title": "Diwali",
+    "hero_image": "https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Oil lamps lit for Diwali celebration",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1574704383168-9de907297e55?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1605315183842-8c114f4e1f7f?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1540932296497-2b22fe4a3903?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "The Festival of Lights, India's biggest celebration symbolizing the spiritual victory of light over darkness.",
+    "long_description": "Diwali (or Deepavali) is the most eagerly awaited festival in India, a five-day celebration that illuminates the entire country. It commemorates the return of Lord Rama to Ayodhya after 14 years of exile and his victory over the demon king Ravana. To welcome him, the people lit rows of clay lamps (diyas), a tradition that continues today, turning cities and villages into twinkling wonderlands.\n\nBeyond the lights, Diwali is a time of renewal. Homes are deep-cleaned and decorated with colorful rangoli patterns. Families gather to perform Lakshmi Puja, seeking blessings for prosperity and wealth. It is also equivalent to Christmas in terms of gift-giving; boxes of dry fruits and sweets (mithai) are exchanged between friends and neighbors. While firecrackers have traditionally been a huge part of the festivities, there is a growing shift towards 'Green Diwali' with eco-friendly celebrations. The energy during Diwali is palpable—markets are buzzy, homes are warm with hospitality, and the night sky is a canvas of fireworks.",
+    "significance": "Diwali marks the triumph of good over evil. Spiritual seekers view it as the awakening of the inner light (Atman). For the business community, it marks the start of a new financial year.",
+    "key_rituals": [
+        "Lighting Diyas: Placing oil lamps in every corner of the home.",
+        "Lakshmi Puja: Praying to the Goddess of Wealth.",
+        "Rangoli: Creating intricate floor designs with colored powders or flowers.",
+        "Exchange of Gifts: Giving sweets and gifts to family and friends."
+    ],
+    "calendar": {
+        "typical_month": "October/November",
+        "lunar_reference": "Amavasya (New Moon) of Kartika month",
+        "festival_length": "5 Days",
+        "next_dates": {
+            "2025": "Oct 20",
+            "2026": "Nov 8",
+            "2027": "Oct 29"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "ayodhya",
+            "title": "Ayodhya",
+            "summary": "The birthplace of Lord Rama, hosting the Deepotsav.",
+            "best_to_experience": "Witnessing the Guinness World Record-breaking display of millions of lit earthen lamps on the river banks.",
+            "how_to_reach": "Fly to Ayodhya International Airport.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "varanasi",
+            "title": "Varanasi (Dev Deepawali)",
+            "summary": "Celebrated 15 days after Diwali, invoking the Gods.",
+            "best_to_experience": "The illuminated ghats of the Ganges are a surreal sight.",
+            "how_to_reach": "Fly to Varanasi.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "jaipur",
+            "title": "Jaipur",
+            "summary": "The Pink City adorns itself in jewelry of lights.",
+            "best_to_experience": "Walking through the illuminated markets (Johari Bazaar) which compete for the best decoration.",
+            "how_to_reach": "Fly to Jaipur.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "amritsar",
+            "title": "Amritsar (Golden Temple)",
+            "summary": "Celebrated as Bandi Chhor Divas by Sikhs.",
+            "best_to_experience": "The Golden Temple illuminated with lights and fireworks reflecting in the sacred pool.",
+            "how_to_reach": "Fly to Amritsar.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "goa",
+            "title": "Goa (Narkasur Parades)",
+            "summary": "Unique tradition of burning giant demon effigies.",
+            "best_to_experience": "The street parades of scary Narkasur effigies on the eve of Diwali.",
+            "how_to_reach": "Fly to Goa / Mopa.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Ethnic Indian wear is highly recommended. Bright colors like red, yellow, and orange are festive.",
+        "safety_tips": "Air quality can drop due to fireworks; bring N95 masks if sensitive. Be careful with loose clothing near lamps.",
+        "accessibility_notes": "Generally accessible, but crowds in markets can be dense.",
+        "avg_daily_costs": "₹3000 - ₹7000 (Peak travel season prices apply)"
+    },
+    "faqs": [
+        {
+            "q": "Is it loud during Diwali?",
+            "a": "Yes, firecrackers are common and can be loud, although bans are enforced in some cities. Earplugs are useful."
+        },
+        {
+            "q": "Are shops open?",
+            "a": "On the main day of Diwali, many shops close early as owners celebrate with family. Days leading up are prime shopping times."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Lights",
+        "Family",
+        "Nationwide"
+    ],
+    "seo_title": "Diwali Festival Guide 2025: Rituals, Dates & Celebrations",
+    "seo_description": "Experience the magic of Diwali, India's Festival of Lights. Find out dates for 2025, key rituals like Lakshmi Puja, and the best cities to witness the illumination.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Diwali 2025",
+        "startDate": "2025-10-20",
+        "endDate": "2025-10-24",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "India",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Diwali is the Hindu Festival of Lights, symbolizing the spiritual victory of light over darkness."
+    }
+}

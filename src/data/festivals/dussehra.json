@@ -1,0 +1,119 @@
+{
+    "id": "dussehra",
+    "slug": "dussehra",
+    "title": "Dussehra",
+    "hero_image": "https://images.unsplash.com/photo-1570535497223-386706cd8e22?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "The burning effigy of Ravana during Dussehra",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1601625463687-25541fb72060?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1572979245350-488f28c2ff56?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1634547475796-7647266735db?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "The dramatic victory of good over evil, celebrated with the burning of giant demon effigies and grand royal processions.",
+    "long_description": "Dussehra, also known as Vijayadashami, marks the conclusion of the nine-day Navratri festival. It celebrates two major mythological victories: Lord Rama killing the ten-headed demon king Ravana, and Goddess Durga defeating the buffalo demon Mahishasura. In North India, the festival is a dramatic affair. Giant paper-and-bamboo effigies of Ravana, his brother Kumbhakarna, and his son Meghanada—often filled with firecrackers—are set ablaze in open grounds (Ramlila Maidan) amidst cheering crowds, symbolizing the destruction of evil.\n\nIn the south, particularly in Mysore, the vibe is regal. The Mysore Dasara is legendary for its elephant procession (Jumboo Savari) carrying the idol of Goddess Chamundeshwari in a golden howdah. The Mysore Palace is illuminated with nearly 100,000 light bulbs, a breathtaking sight. In the Kullu valley of Himachal Pradesh, hundreds of local deities are brought down from mountain villages in colorful palanquins to pay homage to Lord Raghunath, creating a week-long congregation of gods and humans.",
+    "significance": "Symbolizes the triumph of righteousness (Dharma) over immorality (Adharma). It encourages people to burn the evil within themselves.",
+    "key_rituals": [
+        "Ravan Dahan: Burning effigies of Ravana at sunset.",
+        "Ramlila: Dramatic re-enactment of the life of Lord Rama over 10 days.",
+        "Shami Puja: Worshipping the Shami tree and weapons/tools (Ayudha Puja) in South India.",
+        "Visarjan: Immersion of Goddess Durga idols."
+    ],
+    "calendar": {
+        "typical_month": "September/October",
+        "lunar_reference": "10th day (Dashami) of Ashvin month",
+        "festival_length": "1 Day (culmination of 10 days)",
+        "next_dates": {
+            "2025": "Oct 2",
+            "2026": "Oct 20",
+            "2027": "Oct 10"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "mysore",
+            "title": "Mysore (Mysuru)",
+            "summary": "The Royal Dasara of Karnataka.",
+            "best_to_experience": "The Torchlight Parade and the illuminated Palace.",
+            "how_to_reach": "Fly to Mysore or drive from Bangalore.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "kullu",
+            "title": "Kullu, Himachal Pradesh",
+            "summary": "A week-long congregation of hill deities.",
+            "best_to_experience": "The Rath Yatra of Lord Raghunath and folk dances.",
+            "how_to_reach": "Fly to Bhuntar (Kullu) airport.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "delhi",
+            "title": "Delhi",
+            "summary": "Grand Ramlila performances.",
+            "best_to_experience": "The massive Ravan Dahan at Red Fort grounds attended by dignitaries.",
+            "how_to_reach": "Fly to Delhi.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "kota",
+            "title": "Kota, Rajasthan",
+            "summary": "Famous for its huge Dussehra Mela.",
+            "best_to_experience": "The 75-feet tall effigies and the rural trade fair.",
+            "how_to_reach": "Train to Kota Junction.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "varanasi",
+            "title": "Varanasi",
+            "summary": "One of the oldest Ramlila traditions.",
+            "best_to_experience": "The Ramnagar Ramlila which is staged across the city using natural sets for 31 days.",
+            "how_to_reach": "Fly to Varanasi.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Casual comfortable clothing. Evenings in October can be slightly pleasant/cool in North India.",
+        "safety_tips": "Maintain distance from the burning effigies as firecrackers can be unpredictable. Protect ears from noise.",
+        "accessibility_notes": "Ramlila grounds are dusty and uneven; difficult for wheelchairs.",
+        "avg_daily_costs": "₹2000 - ₹4000"
+    },
+    "faqs": [
+        {
+            "q": "Is it safe to watch Ravan Dahan?",
+            "a": "Yes, but stand well behind the barricades. The burning structure collapses and fireworks fly out."
+        },
+        {
+            "q": "Do I need tickets for Mysore Dasara?",
+            "a": "Yes, tickets for the seating galleries inside the Palace grounds and for the Torchlight Parade are sold online and sell out fast."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Mythology",
+        "North & South India"
+    ],
+    "seo_title": "Dussehra & Vijayadashami 2025: Mysore Dasara & Ramlila Guide",
+    "seo_description": "Celebrate Dussehra in India. Watch the burning of Ravana in Delhi or the royal elephant procession in Mysore. A complete guide to dates and rituals.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Dussehra 2025",
+        "startDate": "2025-10-02",
+        "endDate": "2025-10-02",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "India",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1570535497223-386706cd8e22?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Dussehra celebrates the victory of good over evil with the burning of Ravana effigies."
+    }
+}

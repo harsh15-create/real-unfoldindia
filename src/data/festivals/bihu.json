@@ -1,0 +1,105 @@
+{
+    "id": "bihu",
+    "slug": "bihu",
+    "title": "Bihu",
+    "hero_image": "https://images.unsplash.com/photo-1619616056257-2e1180436979?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Women performing Bihu dance in Assam",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1617300758622-4913840733d6?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1617300762118-a6211326c2e3?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "The soul of Assam, observing the harvest cycle with energetic Bihu dances, feasts, and community joy.",
+    "long_description": "Bihu is not one but a set of three festivals that mark the farming calendar in Assam. \n\n1. **Rongali Bihu (Bohag Bihu)** in April is the main one, marking the Assamese New Year and spring. It is famous for the sensuous and energetic Bihu dance where men and women dance to the rhythm of the Dhol and Pepa (horn).\n2. **Kongali Bihu (Kati Bihu)** in October is solemn, marked by lighting lamps in paddy fields to pray for crop protection.\n3. **Bhogali Bihu (Magh Bihu)** in January is the harvest festival of feasting, big bonfires (Meji), and community eating.\n\nRongali Bihu is the one for tourists—seven days of infectious energy, red and beige silk sarees (Muga Silk), and open-air concerts.",
+    "significance": "Celebrates the agricultural cycle of Paddy.",
+    "key_rituals": [
+        "Bihu Dance: Rapid hand movements and hip shaking.",
+        "Gamocha: Gifting the traditional red-white handwoven towel.",
+        "Pitha: Making rice cakes and sweets.",
+        "Cattle Worship: Bathing cows with turmeric on the first day."
+    ],
+    "calendar": {
+        "typical_month": "April (Rongali), Jan (Bhogali), Oct (Kongali)",
+        "lunar_reference": "Solar Calendar",
+        "festival_length": "7 Days (Rongali)",
+        "next_dates": {
+            "2025": "Apr 14 (Rongali)",
+            "2026": "Apr 14",
+            "2027": "Apr 15"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "guwahati",
+            "title": "Guwahati",
+            "summary": "Main celebrations.",
+            "best_to_experience": "The massive stage performances at Latasil field.",
+            "how_to_reach": "Fly to Guwahati.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "sivasagar",
+            "title": "Sivasagar",
+            "summary": "Historical Ahom capital.",
+            "best_to_experience": "Traditional celebrations in the backdrop of Ahom monuments.",
+            "how_to_reach": "Train to Simaluguri.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "kaziranga",
+            "title": "Kaziranga",
+            "summary": "Nature & Culture.",
+            "best_to_experience": "Enjoying Bihu dances at resorts after a rhino safari.",
+            "how_to_reach": "Drive from Guwahati.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Cotton is best for April heat. Women can buy a Mekhela Chador as a souvenir.",
+        "safety_tips": "Safe. Assam tea gardens are beautiful but avoid wandering alone at night.",
+        "accessibility_notes": "Accessible in city venues.",
+        "avg_daily_costs": "₹2500 - ₹5000"
+    },
+    "faqs": [
+        {
+            "q": "What is the instrument called?",
+            "a": "The key instruments are Dhol (drum), Pepa (buffalo horn), and Gogona (bamboo harp)."
+        },
+        {
+            "q": "Is the food spicy?",
+            "a": "Assamese food is mild, favoring fermentation and herbs over heavy spices."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Dance",
+        "North East India",
+        "Harvest"
+    ],
+    "seo_title": "Rongali Bihu 2025: Assam's New Year Festival Guide",
+    "seo_description": "Celebrate Bohag Bihu in Assam. A guide to the energetic Bihu dance, local food, and the best places in Guwahati to witness the New Year.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Rongali Bihu 2025",
+        "startDate": "2025-04-14",
+        "endDate": "2025-04-20",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Guwahati",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Assam",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1619616056257-2e1180436979?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Rongali Bihu is the Assamese New Year, celebrated with dance and music."
+    }
+}

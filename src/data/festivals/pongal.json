@@ -1,0 +1,105 @@
+{
+    "id": "pongal",
+    "slug": "pongal",
+    "title": "Pongal",
+    "hero_image": "https://images.unsplash.com/photo-1516223403273-030310245646?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Traditional Pongal pot cooking joyously",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1610446757134-934c26425a4c?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1547638375-eb804ee3d34b?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1559132204-748956895392?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "Tamil Nadu's four-day harvest festival, thanksgiving to the Sun, nature, and cattle.",
+    "long_description": "Pongal is one of the most important festivals in Tamil Nadu, marking the start of the sun's six-month long journey northwards (Uttarayan). It is essentially a thanksgiving festival to nature—the Sun, the Earth, and the cattle—that help in the harvest. The word 'Pongal' means 'to boil over', symbolizing prosperity and abundance. The signature ritual involves cooking fresh rice with jaggery and milk in a new clay pot until it boils over, with the family shouting 'Pongalo Pongal!'.\n\nCelebrated over four days, each day has a purpose. Bhogi Pongal is for discarding old belongings; Surya Pongal honors the Sun God; Mattu Pongal worships the cattle, where bulls are bathed, decorated, and honored (and sometimes engaged in the bull-taming sport Jallikattu); and Kaanum Pongal is for family reunions. The festival paints the state in vibrant kolams (floor designs), sugarcane stacks, and turmeric, offering a deep insight into the agrarian roots of Tamil culture.",
+    "significance": "A harvest festival thanking the Sun God and farm animals for a bountiful yield.",
+    "key_rituals": [
+        "Pongal Dish: Cooking the sweet rice dish in open courtyards.",
+        "Kolam: Drawing intricate patterns with rice powder outside homes.",
+        "Mattu Pongal: Decorating cows and bulls with bells, flowers, and paint.",
+        "Jallikattu: Traditional bull-taming sport held in villages."
+    ],
+    "calendar": {
+        "typical_month": "January",
+        "lunar_reference": "Start of the Tamil month Thai",
+        "festival_length": "4 Days",
+        "next_dates": {
+            "2025": "Jan 14 - Jan 17",
+            "2026": "Jan 14 - Jan 17",
+            "2027": "Jan 15 - Jan 18"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "madurai",
+            "title": "Madurai",
+            "summary": "The cultural heartland of Tamil Nadu.",
+            "best_to_experience": "The authentic village celebrations and Jallikattu events in nearby Alanganallur.",
+            "how_to_reach": "Fly to Madurai.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "thanjavur",
+            "title": "Thanjavur",
+            "summary": "The Rice Bowl of Tamil Nadu.",
+            "best_to_experience": "Seeing the Brihadeeswarar Temple celebrations and rural harvest rituals.",
+            "how_to_reach": "Drive from Trichy airport.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "chennai",
+            "title": "Chennai",
+            "summary": "Urban celebration with dance and music.",
+            "best_to_experience": "The Chennai Music Season finale and folk dances at DakshinaChitra.",
+            "how_to_reach": "Fly to Chennai.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Traditional silk sarees (Kanjeevaram) for women and dhoti/veshti for men are customary.",
+        "safety_tips": "Jallikattu events can be dangerous for spectators if close to the arena; sit in designated galleries.",
+        "accessibility_notes": "Temples are crowded but generally accessible.",
+        "avg_daily_costs": "₹2000 - ₹4000"
+    },
+    "faqs": [
+        {
+            "q": "What is the Pongal dish made of?",
+            "a": "It is made of newly harvested rice, jaggery (cane sugar), ghee, and cashew nuts, cooked in milk."
+        },
+        {
+            "q": "Is Jallikattu safe to watch?",
+            "a": "It is a high-adrenaline rural sport. It is strictly regulated now, but spectators should always stay behind the sturdy barricades."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Harvest",
+        "Food",
+        "South India"
+    ],
+    "seo_title": "Pongal Festival 2025: Dates, Traditions & Jallikattu Guide",
+    "seo_description": "Celebrate Pongal, the Tamil harvest festival. Learn about the 'Pongalo Pongal' ritual, the Jallikattu bull sport, and the best places in Tamil Nadu to visit.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Pongal 2025",
+        "startDate": "2025-01-14",
+        "endDate": "2025-01-17",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Tamil Nadu",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Tamil Nadu",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1516223403273-030310245646?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Pongal is a four-day harvest festival in Tamil Nadu dedicated to the Sun God."
+    }
+}

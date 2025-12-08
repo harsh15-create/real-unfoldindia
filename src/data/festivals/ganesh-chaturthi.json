@@ -1,0 +1,105 @@
+{
+    "id": "ganesh-chaturthi",
+    "slug": "ganesh-chaturthi",
+    "title": "Ganesh Chaturthi",
+    "hero_image": "https://images.unsplash.com/photo-1599540095796-0177755f1f0a?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Giant Ganesh idol during festivities",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1630143833446-f946c078024c?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1601662528567-526cd06f6582?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568202587274-067885b55011?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "A spectacular ten-day festival honoring the Elephant God, culminating in massive street processions and immersion in the sea.",
+    "long_description": "Ganesh Chaturthi celebrates the birth of the beloved elephant-headed deity, Lord Ganesha, the remover of obstacles. While celebrated across India, nowhere is the fervor as intense as in Mumbai and Pune. The festival begins with the installation of beautifully crafted clay idols in homes and public 'pandals'.\n\nFor ten days, the cities vibrate with the sound of bells and devotional songs (Aartis). The public pandals compete to create the largest idols—Lalbaugcha Raja in Mumbai being the most famous, attracting millions of devotees. The climax is Anant Chaturdashi, the immersion day (Visarjan). Millions spill onto the streets, dancing to drumbeats around trucks carrying the idols to the sea, chanting 'Ganpati Bappa Morya!', bidding the God farewell with a promise to return next year. It is a spectacle of faith, noise, color, and overwhelming energy.",
+    "significance": "Celebrates the birth of Lord Ganesha and his stay with devotees before returning to Mount Kailash.",
+    "key_rituals": [
+        "Pranapratishtha: Chanting mantras to invoke life into the idol.",
+        "Modak Offering: Offering sweet dumplings (Modak), Ganesha’s favorite food.",
+        "Aartis: Morning and evening prayers sung in unison.",
+        "Visarjan Procession: The grand send-off parade to immerse the idol."
+    ],
+    "calendar": {
+        "typical_month": "August/September",
+        "lunar_reference": "Shukla Paksha of Bhadrapada month",
+        "festival_length": "10 Days",
+        "next_dates": {
+            "2025": "Aug 27 - Sep 5",
+            "2026": "Sep 14 - Sep 24",
+            "2027": "Sep 4 - Sep 14"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "mumbai",
+            "title": "Mumbai, Maharashtra",
+            "summary": "The grandest celebration on earth.",
+            "best_to_experience": "Lalbaugcha Raja, GSB Seva Mandal (Gold Ganesha), and the immersion at Girgaum Chowpatty.",
+            "how_to_reach": "Fly to Mumbai (BOM).",
+            "is_bookable": false
+        },
+        {
+            "place_id": "pune",
+            "title": "Pune",
+            "summary": "Cultural and traditional festivities.",
+            "best_to_experience": "The 5 Manache Ganpati (Most revered) and the Dhol-Tasha drumming groups.",
+            "how_to_reach": "Drive from Mumbai or Fly to Pune.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "hyderabad",
+            "title": "Hyderabad",
+            "summary": "Massive idols.",
+            "best_to_experience": "The Khairatabad Ganesha, one of the tallest in the country.",
+            "how_to_reach": "Fly to Hyderabad.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Modest clothing. Be prepared to walk a lot in humid weather.",
+        "safety_tips": "Visarjan crowds in Mumbai are incredibly dense. Keep wallets safe and stay on the periphery if you dislike crushes.",
+        "accessibility_notes": "Very difficult for disabled travelers due to crowds.",
+        "avg_daily_costs": "₹3000 - ₹6000"
+    },
+    "faqs": [
+        {
+            "q": "How long is the waiting line for Lalbaugcha Raja?",
+            "a": "It can take anywhere from 10 to 24 hours in the general line (Mukh Darshan). It's a test of endurance."
+        },
+        {
+            "q": "Is it safe?",
+            "a": "Police presence is heavy, but petty theft is a risk. Stay with your group."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Religion",
+        "West India",
+        "Grandeur"
+    ],
+    "seo_title": "Ganesh Chaturthi 2025: Mumbai & Pune Celebrations Guide",
+    "seo_description": "Witness the spectacle of Ganesh Chaturthi in Mumbai. A guide to visiting Lalbaugcha Raja, witnessing the Visarjan, and understanding the rituals.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Ganesh Chaturthi 2025",
+        "startDate": "2025-08-27",
+        "endDate": "2025-09-06",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Mumbai",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Mumbai",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1599540095796-0177755f1f0a?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Ganesh Chaturthi celebrates the birth of Lord Ganesha with massive idols and processions."
+    }
+}

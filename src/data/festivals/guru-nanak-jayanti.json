@@ -1,0 +1,105 @@
+{
+    "id": "guru-nanak-jayanti",
+    "slug": "guru-nanak-jayanti",
+    "title": "Guru Nanak Jayanti",
+    "hero_image": "https://images.unsplash.com/photo-1511910849309-0dffb87d2dbd?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Golden Temple illuminated at night",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1583321500900-8287645f791a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1579970997184-cc09e86c1266?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1582299863897-4c759535359a?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "Gurpurab celebrates the birth anniversary of Guru Nanak Dev Ji with prayers, processions, and community kitchens.",
+    "long_description": "Guru Nanak Jayanti, also known as Gurpurab, marks the birth of the first Sikh Guru and the founder of Sikhism, Guru Nanak Dev Ji. It is one of the most sacred festivals in Sikhism. The celebrations begin two days earlier with the 'Akhand Path', a 48-hour non-stop reading of the Guru Granth Sahib (holy book). \n\nOne day before Gurpurab, a massive procession called 'Nagar Kirtan' is organized, led by the 'Panj Pyaras' (Five Beloved Ones) holding the Sikh flag. The streets resound with the singing of hymns and display of martial arts (Gatka). On the day of the festival, Gurdwaras (Sikh temples) are beautifully illuminated. The spirit of 'Seva' (service) is paramount; volunteers prepare and serve 'Langar' (community meal) to everyone, regardless of caste or religion, symbolizing equality.",
+    "significance": "Celebrates the birth and teachings of Guru Nanak Dev Ji, emphasizing oneness of God and equality.",
+    "key_rituals": [
+        "Akhand Path: 48-hour continuous reading of the holy book.",
+        "Nagar Kirtan: A grand religious procession through the city.",
+        "Langar: Preparation and serving of free community meals.",
+        "Gatka: Demonstration of traditional Sikh martial arts."
+    ],
+    "calendar": {
+        "typical_month": "November",
+        "lunar_reference": "Kartika Purnima (Full Moon)",
+        "festival_length": "3 Days",
+        "next_dates": {
+            "2025": "Nov 5",
+            "2026": "Nov 24",
+            "2027": "Nov 14"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "amritsar",
+            "title": "Amritsar (Golden Temple)",
+            "summary": "The holiest Sikh shrine.",
+            "best_to_experience": "The ethereal illumination of the temple and the massive fireworks display.",
+            "how_to_reach": "Fly to Amritsar.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "nankana-sahib",
+            "title": "Nankana Sahib (Pakistan)",
+            "summary": "Birthplace of Guru Nanak.",
+            "best_to_experience": "Pilgrimage (requires visa) to the Janam Asthan Gurdwara.",
+            "how_to_reach": "Cross via Wagah Border (Visa dependent).",
+            "is_bookable": false
+        },
+        {
+            "place_id": "delhi",
+            "title": "Delhi",
+            "summary": "Major celebrations at specialized Gurdwaras.",
+            "best_to_experience": "Gurdwara Bangla Sahib and Sis Ganj Sahib processions.",
+            "how_to_reach": "Fly to Delhi.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "It is mandatory to cover your head in Gurdwaras (headscarves are usually provided). Dress modestly.",
+        "safety_tips": "Very safe, family-oriented atmosphere. Overcrowding is the only concern.",
+        "accessibility_notes": "Most major Gurdwaras are wheelchair accessible.",
+        "avg_daily_costs": "Free (Langar is free) - ₹3000 (Accommodation)"
+    },
+    "faqs": [
+        {
+            "q": "Can anyone eat at the Langar?",
+            "a": "Yes, absolutely everyone is welcome to sit on the floor and eat the vegetarian meal."
+        },
+        {
+            "q": "Is photography allowed?",
+            "a": "Allowed in the complex, but usually not inside the inner sanctum where the book is kept."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Spirituality",
+        "Service",
+        "North India"
+    ],
+    "seo_title": "Guru Nanak Jayanti 2025: Golden Temple Gurpurab Celebration",
+    "seo_description": "Celebrate Gurpurab 2025. A guide to the rituals, Langar, and celebrations at the Golden Temple in Amritsar.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Guru Nanak Jayanti 2025",
+        "startDate": "2025-11-05",
+        "endDate": "2025-11-05",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Amritsar",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Punjab",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1511910849309-0dffb87d2dbd?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Guru Nanak Jayanti marks the birth anniversary of the founder of Sikhism."
+    }
+}

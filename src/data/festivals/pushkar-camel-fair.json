@@ -1,0 +1,90 @@
+{
+    "id": "pushkar-camel-fair",
+    "slug": "pushkar-camel-fair",
+    "title": "Pushkar Camel Fair",
+    "hero_image": "https://images.unsplash.com/photo-1573652197177-d61cc7e411b9?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Camels decorated at Pushkar Mela",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1598424324328-5b42d79d13e3?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517427677506-ade074eb1432?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1544015759-2244265cc2d8?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "A vibrant mix of a livestock fair and a holy pilgrimage, set in the desert town of Pushkar, Rajasthan.",
+    "long_description": "The Pushkar Camel Fair (Pushkar Mela) is one of the world's largest livestock fairs. For five days, the dunes around the holy town of Pushkar are taken over by 50,000 camels and livestock, brought by turbaned traders for sale. It is a photographer's paradise.\n\nBut it is not just commerce; it is a carnival. There are 'Matka Phod' competitions, 'Longest Moustache' contests, and camel races. Simultaneously, it is a devout pilgrimage. Pushkar is one of the few places with a temple dedicated to Lord Brahma. On Kartik Purnima, thousands of devotees wash away their sins in the sacred Pushkar Lake. The contrast between the dusty, noisy trade fair and the serene, chanting-filled ghats is what makes Pushkar unique.",
+    "significance": "A livestock trade fair coinciding with a holy pilgrimage to the Brahma Temple.",
+    "key_rituals": [
+        "Holy Dip: Bathing in Pushkar Lake on full moon day.",
+        "Camel Trading: Buying and selling of decorated livestock.",
+        "Competitions: Turban tying, moustache, and bridal competitions.",
+        "Deepdaan: Floating lamps on the lake."
+    ],
+    "calendar": {
+        "typical_month": "November",
+        "lunar_reference": "Kartika Purnima",
+        "festival_length": "7-9 Days",
+        "next_dates": {
+            "2025": "Oct 30 - Nov 5",
+            "2026": "Nov 18 - Nov 24",
+            "2027": "Nov 8 - Nov 14"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "pushkar",
+            "title": "Pushkar, Rajasthan",
+            "summary": "The only location.",
+            "best_to_experience": "Staying in a luxury tent city near the Mela grounds.",
+            "how_to_reach": "Train to Ajmer (30 mins away) or Fly to Jaipur (2 hrs away).",
+            "is_bookable": true
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "It gets chilly in the desert at night. Bring layers. Daytimes are sunny and dusty.",
+        "safety_tips": "Beware of touts and aggressive beggars. Agree on prices for photos with sadhus/camels beforehand.",
+        "accessibility_notes": "Sand makes it impossible for wheelchairs.",
+        "avg_daily_costs": "₹5000 - ₹15000 (Prices skyrocket during the fair)"
+    },
+    "faqs": [
+        {
+            "q": "Is it vegetarian only?",
+            "a": "Yes, Pushkar is a holy town. No meat or alcohol is served within city limits."
+        },
+        {
+            "q": "When is the best time for photography?",
+            "a": "Early morning (sunrise) and sunset when the dust kicked up by camels creates a golden haze."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Desert",
+        "Rajasthan",
+        "Photography"
+    ],
+    "seo_title": "Pushkar Camel Fair 2025: Dates, Photography & Travel Guide",
+    "seo_description": "Visit the Pushkar Mela 2025. A guide to India's largest camel fair, including photography tips, tent accommodation, and key events.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Pushkar Camel Fair 2025",
+        "startDate": "2025-10-30",
+        "endDate": "2025-11-05",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Pushkar",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Pushkar",
+                "addressRegion": "Rajasthan",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1573652197177-d61cc7e411b9?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Pushkar Mela is a world-famous livestock fair and cultural carnival in Rajasthan."
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "id": "eid-al-fitr",
+    "slug": "eid-al-fitr",
+    "title": "Eid al-Fitr",
+    "hero_image": "https://images.unsplash.com/photo-1526367790999-0150786686a2?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Devotees wishing Eid Mubarak",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1590403137687-c50ae357601f?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1627063595562-b7aacce9116c?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1618698944589-733d0e52706e?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "The joyful Festival of Breaking the Fast, marked by communal prayers, rich feasts, and the spirit of charity.",
+    "long_description": "Eid al-Fitr marks the end of Ramadan, the holy month of fasting. It is a day of immense joy, thanksgiving, and community. The day begins with the sighting of the new moon, signaling the start of the Shawwal month. In the morning, thousands of Muslim men dressed in blinding white kurtas gather at mosques (Idgahs) for a special congregational prayer—a synchronized display of faith that is moving to witness.\n\nAfter prayers, the streets come alive. People embrace three times in the traditional 'Eid Mubarak' greeting. The air fills with the aroma of 'Sewiyan' (sweet vermicelli pudding) and slow-cooked Biryani. It is a day of breaking barriers; non-Muslim friends and neighbors are invited to feasting tables. Charity (Zakat al-Fitr) is a mandatory pillar, ensuring even the poor can celebrate. In cities like Delhi and Hyderabad, the festive food walks around the mosques are legendary.",
+    "significance": "Celebrates the conclusion of the dawn-to-sunset fasting during Ramadan.",
+    "key_rituals": [
+        "Eid Namaz: The special morning community prayer.",
+        "Zakat al-Fitr: Giving charity to the poor before the prayer.",
+        "Sheer Khurma: Preparing the traditional date and vermicelli milk pudding.",
+        "Eidi: Giving money or gifts to children and younger relatives."
+    ],
+    "calendar": {
+        "typical_month": "Based on Lunar Cycle (moves back 11 days/year)",
+        "lunar_reference": "1st of Shawwal",
+        "festival_length": "1 Day (Celebrations last 3 days)",
+        "next_dates": {
+            "2025": "Mar 31 (Subject to Moon Sighting)",
+            "2026": "Mar 20",
+            "2027": "Mar 10"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "delhi",
+            "title": "Old Delhi (Jama Masjid)",
+            "summary": "The classic Eid experience.",
+            "best_to_experience": "The morning prayer scene at the massive Jama Masjid followed by a food tour in Chandni Chowk.",
+            "how_to_reach": "Fly to Delhi.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "hyderabad",
+            "title": "Hyderabad (Charminar)",
+            "summary": "A feast for the senses.",
+            "best_to_experience": "Shopping for bangles and eating Haleem in the markets around Charminar.",
+            "how_to_reach": "Fly to Hyderabad.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "srinagar",
+            "title": "Srinagar, Kashmir",
+            "summary": "Eid in the mountains.",
+            "best_to_experience": "Prayers at the Hazratbal Shrine overlooking Dal Lake.",
+            "how_to_reach": "Fly to Srinagar.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "lucknow",
+            "title": "Lucknow",
+            "summary": "Nawabi flavor.",
+            "best_to_experience": "The elaborate Awadhi cuisine spread during the festival.",
+            "how_to_reach": "Fly to Lucknow.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Modest clothing is essential. Women should cover heads when entering mosque areas (though prayer halls may be restricted).",
+        "safety_tips": "Old city areas become extremely crowded. Keep valuables safe.",
+        "accessibility_notes": " Mosques usually have steps; access may be limited.",
+        "avg_daily_costs": "₹2000 - ₹4000"
+    },
+    "faqs": [
+        {
+            "q": "Can tourists visit mosques during prayer?",
+            "a": "Usually, tourists are not allowed inside the main prayer hall during the Eid Namaz itself, but can watch from the perimeter. Visiting after the prayer is fine."
+        },
+        {
+            "q": "What is the must-try food?",
+            "a": "Haleem (meat stew) and Sheer Khurma (sweet pudding) are the festival signatures."
+        }
+    ],
+    "tags": [
+        "Culture",
+        "Religion",
+        "Food",
+        "Nationwide"
+    ],
+    "seo_title": "Eid al-Fitr 2025 in India: Dates, Food & Best Places to Visit",
+    "seo_description": "Experience Eid al-Fitr in India. A guide to the best food in Old Delhi and Hyderabad, Eid dates for 2025, and cultural etiquette.",
+    "last_updated": "2024-05-22",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Eid al-Fitr 2025",
+        "startDate": "2025-03-31",
+        "endDate": "2025-04-01",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "India",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "image": [
+            "https://images.unsplash.com/photo-1526367790999-0150786686a2?q=80&w=2070&auto=format&fit=crop"
+        ],
+        "description": "Eid al-Fitr is the Festival of Breaking the Fast, celebrated by Muslims worldwide."
+    }
+}
