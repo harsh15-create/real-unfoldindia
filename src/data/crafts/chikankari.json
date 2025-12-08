@@ -1,0 +1,99 @@
+{
+    "id": "chikankari",
+    "slug": "chikankari",
+    "title": "Chikankari",
+    "category_id": "textiles-weaving",
+    "alt_titles": [
+        "Lucknowi Chikan"
+    ],
+    "origin_state_or_region": "Lucknow, Uttar Pradesh",
+    "hero_image": "chikankari-hero.jpg",
+    "hero_image_alt": "White on white Chikankari embroidery",
+    "gallery_images": [
+        "chikankari-1.jpg"
+    ],
+    "short_description": "Delicate and shadow work type of embroidery from Lucknow, traditionally performed on white muslin.",
+    "long_description": "Chikankari is a traditional embroidery style from Lucknow. It is believed to have been introduced by Nur Jahan, the wife of Mughal emperor Jahangir. \n\nTraditionally done on white muslin cloth with white thread (White-on-White), it now uses colorful threads and various fabrics like georgette, chiffon, and cotton. The embroidery involves over 30 different stitches, including the famous shadow work (Bakhiya) where the thread work is done on the reverse side to create a shadow effect on the front.",
+    "materials_used": [
+        "Muslin/Cotton",
+        "Thread"
+    ],
+    "traditional_methods": [
+        "Block printing the design.",
+        "Embroidery (Hand stitching).",
+        "Washing (to remove print marks).",
+        "Starched and ironed."
+    ],
+    "typical_products": [
+        "Kurtas",
+        "Sarees",
+        "Dupattas"
+    ],
+    "motifs_and_meanings": [
+        "Paisley (Kairi): Mughal motif.",
+        "Jali: Trellis work."
+    ],
+    "major_centres": [
+        {
+            "place_id": "lucknow-chowk",
+            "title": "Chowk, Lucknow",
+            "summary": "The heart of the manufacturing.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Lucknow.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "SEWA Lucknow"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "2 hours",
+                "typical_price": 500,
+                "booking_info_placeholder": "NGOs"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half Day",
+    "where_to_buy": [
+        "Aminabad",
+        "Hazratganj",
+        "SEWA Chikan"
+    ],
+    "shipping_and_packaging_tips": "Easy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 500,
+        "to": 10000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Hand embroidery has knots and imperfections on the reverse. Machine work is uniform.",
+    "sustainability_notes": "Labor intensive, supports women.",
+    "local_economy_note": "Major employer.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Embroidery",
+        "UP",
+        "Cotton",
+        "Summer"
+    ],
+    "seo_title": "Chikankari Embroidery: Lucknow's White Magic",
+    "seo_description": "Explore Chikankari, the delicate embroidery of Lucknow. Learn about the shadow work, traditional stitches, and shopping tips.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Chikankari",
+        "material": "Thread, Fabric",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Lucknow"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

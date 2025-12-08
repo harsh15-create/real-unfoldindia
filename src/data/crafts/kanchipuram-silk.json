@@ -1,0 +1,88 @@
+{
+    "id": "kanchipuram-silk",
+    "slug": "kanchipuram-silk",
+    "title": "Kanchipuram Silk",
+    "category_id": "textiles-weaving",
+    "alt_titles": [
+        "Kanjivaram"
+    ],
+    "origin_state_or_region": "Kanchipuram, Tamil Nadu",
+    "hero_image": "kanchipuram-silk-hero.jpg",
+    "hero_image_alt": "Vibrant Kanchipuram silk saree with wide border",
+    "gallery_images": [
+        "kanchipuram-1.jpg"
+    ],
+    "short_description": "Woven from pure mulberry silk, these saris from Tamil Nadu are distinguished by their wide contrasting borders.",
+    "long_description": "Kanchipuram saris vary wide in cost depending upon the intricacy of work, patterns, colors, and material used (zari). The silk is known for its quality and craftsmanship, which has helped earn its name. \n\nThe distinguishing feature is the heavy silk and the contrasting border and pallu, which are woven separately and then joined to the body of the saree using a technique called 'Korvai'.",
+    "materials_used": [
+        "Mulberry Silk",
+        "Zari (Silver wire with Gold wash)"
+    ],
+    "traditional_methods": [
+        "Korvai weaving (joining border).",
+        "Petni (joining pallu)."
+    ],
+    "typical_products": [
+        "Sarees"
+    ],
+    "motifs_and_meanings": [
+        "Temple border: Spirituality.",
+        "Checks and stripes."
+    ],
+    "major_centres": [
+        {
+            "place_id": "kanchipuram-town",
+            "title": "Kanchipuram",
+            "summary": "The city of thousand temples and silk.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Near Chennai.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Weaver co-ops"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Day",
+    "where_to_buy": [
+        "Co-optex",
+        "Kanchipuram Societies"
+    ],
+    "shipping_and_packaging_tips": "Heavy silk.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 5000,
+        "to": 100000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the Silk Mark.",
+    "sustainability_notes": "GI Tagged.",
+    "local_economy_note": "Backbone of the town.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Textile",
+        "Tamil Nadu",
+        "Silk",
+        "Wedding"
+    ],
+    "seo_title": "Kanchipuram Silk Saree: The Queen of Silks",
+    "seo_description": "Explore Kanchipuram Silk, the finest silk sarees from Tamil Nadu. Known for durability, zari borders, and Korvai weaving.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Kanchipuram Silk",
+        "material": "Mulberry Silk",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Tamil Nadu"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

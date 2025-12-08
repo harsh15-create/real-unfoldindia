@@ -1,0 +1,121 @@
+{
+    "id": "kuchipudi",
+    "slug": "kuchipudi",
+    "title": "Kuchipudi",
+    "alt_title": null,
+    "origin_state": "Andhra Pradesh",
+    "hero_image": "kuchipudi-hero.jpg",
+    "hero_image_alt": "Kuchipudi dancer performing on a brass plate",
+    "gallery_images": [
+        "kuchipudi-1.jpg",
+        "kuchipudi-2.jpg"
+    ],
+    "short_description": "A blend of dance and acting, where performers often sing and dance simultaneously on brass plates.",
+    "long_description": "Kuchipudi originates from a village of the same name in the Krishna district of Andhra Pradesh. Unlike other classical forms where the dancer is distinct from the actor, Kuchipudi is a dance-drama where performers (historically men, even for female roles) sing and speak dialogue while dancing.\n\nIt is known for its fast footwork, graceful body movements, and expressive eye play. A unique feature of Kuchipudi is 'Tarangam', where the dancer balances a pot on their head while dancing on the rim of a brass plate, showcasing immense control and balance.\n\nThe dance combines 'Lasya' (grace) and 'Tandava' (vigor) and is deeply rooted in the Bhakti movement.",
+    "performance_style": "classical",
+    "music_and_instruments": [
+        "Carnatic Music",
+        "Mridangam",
+        "Violin",
+        "Flute",
+        "Cymbals"
+    ],
+    "costume_and_makeup": "Similar to Bharatanatyam, wearing a stitched saree with a fan front. A distinctive feature is the light Kulla (ornament) on the braid.",
+    "choreography_elements": [
+        "Tarangam (Plate Dance)",
+        "Vachika Abhinaya (Use of speech)",
+        "Nritta (Pure dance)"
+    ],
+    "typical_duration": "60–90 minutes",
+    "where_to_watch": [
+        "Kuchipudi Village festivals",
+        "Taramati Baradari, Hyderabad",
+        "Music Season, Chennai"
+    ],
+    "where_to_learn": [
+        "University of Silicon Andhra (Kuchipudi Village)",
+        "Kuchipudi Art Academy, Chennai"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Sutradhara (Narrator) role",
+        "Pravesha Daru (Character entry song)"
+    ],
+    "common_festivals_or_events": [
+        "Kuchipudi Natyaramam",
+        "Deccan Festival"
+    ],
+    "top_places": [
+        {
+            "place_id": "kuchipudi-village",
+            "title": "Kuchipudi Village",
+            "summary": "The birthplace of the art form. The Siddhendra Yogi dance festival is held here.",
+            "best_time_to_see": "Winter",
+            "how_to_reach": "50km from Vijayawada.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "hyderabad-city",
+            "title": "Hyderabad",
+            "summary": "A hub for Kuchipudi performances in auditoriums like Ravindra Bharathi.",
+            "best_time_to_see": "Year-round",
+            "how_to_reach": "Major metro.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "hyderabad"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "Wait for the Tarangam section – it feels like a magic trick combined with rhythm.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 200,
+            "to": 1000,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Intro session"
+        ],
+        "workshop_price_from": 1000,
+        "currency": "INR",
+        "booking_info": "Various academies in Hyderabad."
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Vempati Chinna Satyam",
+            "Yamini Krishnamurthy",
+            "Raja and Radha Reddy"
+        ],
+        "canonical_references": []
+    },
+    "tags": [
+        "Classical",
+        "Andhra Pradesh",
+        "Drama",
+        "Plate Dance"
+    ],
+    "seo_title": "Kuchipudi Dance Guide: Plate Dance & Drama",
+    "seo_description": "Explore Kuchipudi, the dramatic classical dance of Andhra Pradesh. Known for Tarangam (dancing on a brass plate) and blending acting with dance.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Kuchipudi: Dance of the Divine",
+        "image": [
+            "https://example.com/images/kuchipudi-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

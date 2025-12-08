@@ -1,0 +1,204 @@
+{
+    "id": "cuisine",
+    "slug": "cuisine",
+    "title": "Cuisine",
+    "hero_image": "cuisine-hero.jpg",
+    "intro_title": "Flavours of India",
+    "intro_description": "India's culinary landscape is as diverse as its geography, a vibrant tapestry woven from centuries of history, trade, and tradition. From the rich, aromatic curries of the North to the fiery, coconut-infused dishes of the South, and from the delicate, steamed delicacies of the East to the savory, vegetarian thalis of the West, every region offers a unique gastronomic journey.\n\nFood in India is more than just sustenance; it is a celebration of life, deeply rooted in festivals, religious offerings, and daily rituals. Street food culture thrives in every city, offering an explosion of flavors—spicy, tangy, sweet, and savory—often all in one bite. Whether it's the royal kitchens of the Mughals, the simple, soulful meals of temple traditions, or the bold, tribal flavors of the Northeast, Indian cuisine is a testament to the country's incredible cultural pluralism. Embark on a delicious voyage to discover the stories, spices, and soul behind India's legendary food culture.",
+    "categories": [
+        {
+            "id": "north-india",
+            "title": "North India"
+        },
+        {
+            "id": "south-india",
+            "title": "South India"
+        },
+        {
+            "id": "east-northeast",
+            "title": "East & North East"
+        },
+        {
+            "id": "west-india",
+            "title": "West India"
+        },
+        {
+            "id": "special-interest",
+            "title": "Special Interest"
+        }
+    ],
+    "cards": [
+        {
+            "id": "punjabi",
+            "slug": "punjabi",
+            "title": "Punjabi Cuisine",
+            "card_subtitle": "Rich, buttery curries & tandoori",
+            "thumbnail": "punjabi-food-thumb.jpg",
+            "short_description": "Famous for its rich, buttery flavors, tandoori meats, and hearty breads like naan and kulcha.",
+            "tags": [
+                "North India",
+                "Rich",
+                "Tandoori"
+            ],
+            "order": 1
+        },
+        {
+            "id": "rajasthani",
+            "slug": "rajasthani",
+            "title": "Rajasthani Cuisine",
+            "card_subtitle": "Royal desert flavors & sweets",
+            "thumbnail": "rajasthani-food-thumb.jpg",
+            "short_description": "A royal cuisine adapted to the desert, known for Dal Baati Churma, spicy meat curries, and an array of sweets.",
+            "tags": [
+                "West India",
+                "Spicy",
+                "Vegetarian-Friendly"
+            ],
+            "order": 2
+        },
+        {
+            "id": "bengali",
+            "slug": "bengali",
+            "title": "Bengali Cuisine",
+            "card_subtitle": "Fish, mustard & delicate sweets",
+            "thumbnail": "bengali-food-thumb.jpg",
+            "short_description": "Characterized by the use of mustard oil, panch phoron spices, freshwater fish, and world-famous milk-based sweets.",
+            "tags": [
+                "East India",
+                "Seafood",
+                "Sweets"
+            ],
+            "order": 3
+        },
+        {
+            "id": "hyderabadi",
+            "slug": "hyderabadi",
+            "title": "Hyderabadi Cuisine",
+            "card_subtitle": "Biryani, haleem & slow-cooking",
+            "thumbnail": "hyderabadi-food-thumb.jpg",
+            "short_description": "A blend of Mughal, Turkish, and Arabic influences with native Telugu traditions, famous for its Dum Biryani.",
+            "tags": [
+                "South India",
+                "Spicy",
+                "Meat-Lovers"
+            ],
+            "order": 4
+        },
+        {
+            "id": "kerala",
+            "slug": "kerala",
+            "title": "Kerala Cuisine",
+            "card_subtitle": "Coconut, seafood & spice",
+            "thumbnail": "kerala-food-thumb.jpg",
+            "short_description": "Known for its generous use of coconut, seafood, and spices like black pepper and cardamom. Sadhya is a highlight.",
+            "tags": [
+                "South India",
+                "Seafood",
+                "Coconut"
+            ],
+            "order": 5
+        },
+        {
+            "id": "gujarati",
+            "slug": "gujarati",
+            "title": "Gujarati Cuisine",
+            "card_subtitle": "Sweet, savory & vegetarian thalis",
+            "thumbnail": "gujarati-food-thumb.jpg",
+            "short_description": "Predominantly vegetarian, balancing sweet, salty, and spicy flavors. Famous for its elaborate Thalis and snacks (Farsan).",
+            "tags": [
+                "West India",
+                "Vegetarian",
+                "Sweet-Salty"
+            ],
+            "order": 6
+        },
+        {
+            "id": "kashmiri",
+            "slug": "kashmiri",
+            "title": "Kashmiri Cuisine",
+            "card_subtitle": "Rich, aromatic meat dishes",
+            "thumbnail": "kashmiri-food-thumb.jpg",
+            "short_description": "Famous for the elaborate Wazwan feast, rich meat dishes like Rogan Josh, and the delicate use of saffron and dry fruits.",
+            "tags": [
+                "North India",
+                "Meat-Lovers",
+                "Saffron"
+            ],
+            "order": 7
+        },
+        {
+            "id": "goan",
+            "slug": "goan",
+            "title": "Goan Cuisine",
+            "card_subtitle": "Portuguese influenced seafood",
+            "thumbnail": "goan-food-thumb.jpg",
+            "short_description": "A fusion of Konkani and Portuguese styles, featuring coconut-based tangy curries, pork vindaloo, and fresh seafood.",
+            "tags": [
+                "West India",
+                "Seafood",
+                "Fusion"
+            ],
+            "order": 8
+        },
+        {
+            "id": "maharashtrian",
+            "slug": "maharashtrian",
+            "title": "Maharashtrian",
+            "card_subtitle": "Spicy street food & coastals",
+            "thumbnail": "maharashtrian-food-thumb.jpg",
+            "short_description": "Ranges from the mild coastal Konkani seafood to the spicy Vidarbha cuisine and Mumbai's iconic Vada Pav.",
+            "tags": [
+                "West India",
+                "Spicy",
+                "Street Food"
+            ],
+            "order": 9
+        },
+        {
+            "id": "south-indian",
+            "slug": "south-indian",
+            "title": "South Indian",
+            "card_subtitle": "Dosas, Idlis & Filter Coffee",
+            "thumbnail": "south-indian-food-thumb.jpg",
+            "short_description": "A broad category covering the breakfast staples of Idli, Dosa, and Sambar, along with the distinct filter coffee tradition.",
+            "tags": [
+                "South India",
+                "Vegetarian-Friendly",
+                "Breakfast"
+            ],
+            "order": 10
+        },
+        {
+            "id": "street-food",
+            "slug": "street-food",
+            "title": "Indian Street Food",
+            "card_subtitle": "Chaat, snacks & local bites",
+            "thumbnail": "street-food-thumb.jpg",
+            "short_description": "The heart of India's food culture. From spicy Pani Puri and Chaat to savory Kebabs and Rolls.",
+            "tags": [
+                "Pan-India",
+                "Street Food",
+                "Spicy"
+            ],
+            "order": 11
+        },
+        {
+            "id": "sweets",
+            "slug": "sweets",
+            "title": "Sweets & Mithai",
+            "card_subtitle": "Desserts & festive treats",
+            "thumbnail": "sweets-thumb.jpg",
+            "short_description": "India's vast repertoire of desserts, from syrup-soaked Gulab Jamuns to milk-based Rasgullas and nutty Barfes.",
+            "tags": [
+                "Pan-India",
+                "Sweets",
+                "Festive"
+            ],
+            "order": 12
+        }
+    ],
+    "seo_title": "Indian Cuisine Guide: Regional Food, Street Food & Festivals",
+    "seo_description": "Explore the diverse world of Indian Cuisines. From Punjabi curries and Hyderabadi Biryani to Bengali sweets and Kerala seafood.",
+    "total_count": 12,
+    "last_updated": "2025-12-09"
+}

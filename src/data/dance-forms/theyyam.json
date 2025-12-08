@@ -1,0 +1,101 @@
+{
+    "id": "theyyam",
+    "slug": "theyyam",
+    "title": "Theyyam",
+    "alt_title": "Kaliyattam",
+    "origin_state": "Kerala (North Malabar)",
+    "hero_image": "theyyam-hero.jpg",
+    "hero_image_alt": "Theyyam performer in bright red paint and headdress",
+    "gallery_images": [
+        "theyyam-1.jpg",
+        "theyyam-2.jpg"
+    ],
+    "short_description": "A potent ritualistic art form from Kerala where the dancer enters a trance, embodying a deity.",
+    "long_description": "Theyyam is not just a dance; it is a ritual worship where the mortal body of the performer is believed to become the vessel of a deity. Originating in North Malabar (Kannur/Kasargod), it predates Hinduism and involves the worship of ancestors, heroes, and nature spirits.\n\nThe performance creates a surreal atmosphere with red face painting, massive headdresses (some up to 30 feet tall), and hypnotic drumming. Towards the end, the 'Theyyam' blesses the devotees. It is arguably the most spectacular and intense ritual art form in India.",
+    "performance_style": "ritual",
+    "music_and_instruments": [
+        "Chenda",
+        "Elathalam"
+    ],
+    "costume_and_makeup": "Predominaelty Red. Coconut fronds, fresh flowers, and metallic ornaments are used. The face painting is extremely intricate.",
+    "choreography_elements": [
+        "Trance-like movements",
+        "Spinning",
+        "Blessing gestures"
+    ],
+    "typical_duration": "Hours (performances happen at varied times)",
+    "where_to_watch": [
+        "Temples (Kavu) in Kannur and Kasargod"
+    ],
+    "where_to_learn": [
+        "Research centers in Kannur (Observation mostly)"
+    ],
+    "recommended_experience": "ritual",
+    "key_traditions": [
+        "Fire walking (in some forms)",
+        "Giving prophesies"
+    ],
+    "common_festivals_or_events": [
+        "Theyyam Season (Oct-May)"
+    ],
+    "top_places": [
+        {
+            "place_id": "kannur-kavu",
+            "title": "Kannur District",
+            "summary": "The land of Theyyam. Hundreds of Kavu (groves) host performances daily in season.",
+            "best_time_to_see": "Oct-May",
+            "how_to_reach": "Kannur Airport/Rail.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "kerala"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "It is a religious ceremony, respect the customs. Flash photography may be restricted at specific moments.",
+        "accessibility_notes": "Village shrines.",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 0,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Modest."
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Photo tour"
+        ],
+        "workshop_price_from": 0,
+        "currency": "INR",
+        "booking_info": "Local guides"
+    },
+    "media_references": {
+        "notable_practitioners": [],
+        "canonical_references": []
+    },
+    "tags": [
+        "Ritual",
+        "Kerala",
+        "Trance",
+        "Deity"
+    ],
+    "seo_title": "Theyyam Dance Guide: Kerala's Dance of Gods",
+    "seo_description": "Experience Theyyam, the divine ritual dance of North Kerala. Witness the trance, the red makeup, and the massive headdresses.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Theyyam: Dance of the Gods",
+        "image": [
+            "https://example.com/images/theyyam-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

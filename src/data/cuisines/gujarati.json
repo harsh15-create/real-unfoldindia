@@ -1,0 +1,197 @@
+{
+    "id": "gujarati",
+    "slug": "gujarati",
+    "title": "Gujarati Cuisine",
+    "alt_titles": [
+        "Kathiawadi Cuisine (variant)"
+    ],
+    "origin_state_or_region": "Gujarat, West India",
+    "hero_image": "gujarati-cuisine-hero.jpg",
+    "hero_image_alt": "Grand Gujarati Thali with Dhokla and Farsan",
+    "gallery_images": [
+        "gujarati-1.jpg",
+        "gujarati-2.jpg",
+        "gujarati-3.jpg"
+    ],
+    "short_description": "Predominantly vegetarian, balancing sweet, salty, and spicy flavors. Famous for its elaborate Thalis and snacks (Farsan).",
+    "long_description": "Gujarati cuisine is one of the oldest culinary treasures of India and is primarily vegetarian, though some communities (like the Bohras) eat meat. It is unique for its extensive use of sugar or jaggery in almost all dishes, creating a subtle sweet-salty-spicy balance. The cuisine changes proportionally with the region: Kathiawar (spicy), Surat (sweet/salty), and Kutch (simple).\n\nThe typical Gujarati meal is a 'Thali'—a large silver platter consisting of Rotli (bread), Dal or Kadhi (yogurt soup), Rice (Bhat), and 'Shaak/Sabzi' (vegetable curries). A distinguishing feature is 'Farsan' (steamed or fried snacks) served alongside the meal. Gujarati food is also known for being low on oil but high on flavor, often tempered with mustard seeds, cumin, and curry leaves.",
+    "signature_dishes": [
+        {
+            "name": "Dhokla",
+            "short_description": "Steamed savory cake made from fermented rice and chickpea batter, tempered with mustard seeds and curry leaves.",
+            "best_place_to_try": "Das Khaman, Ahmedabad",
+            "serving_style": "Breakfast/Snack",
+            "approx_price": {
+                "currency": "INR",
+                "from": 50,
+                "to": 150,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Undhiyu",
+            "short_description": "A mixed vegetable casserole made with winter greens, tubers, and fenugreek dumplings, traditionally cooked upside down in earthen pots.",
+            "best_place_to_try": "Surat (seasonal winter special)",
+            "serving_style": "Main Course (Winter)",
+            "approx_price": {
+                "currency": "INR",
+                "from": 200,
+                "to": 400,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Gujarati Kadhi",
+            "short_description": "A sweet and tangy yogurt-based curry thickened with gram flour and tempered with spices.",
+            "best_place_to_try": "Various Thali Restaurants",
+            "serving_style": "Main Course with Khichdi",
+            "approx_price": {
+                "currency": "INR",
+                "from": 100,
+                "to": 200,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Thepla",
+            "short_description": "Spiced flatbread made from whole wheat flour and fenugreek leaves (methi), known for its long shelf life.",
+            "best_place_to_try": "Local Homes or Snack Shops",
+            "serving_style": "Breakfast/Travel Food",
+            "approx_price": {
+                "currency": "INR",
+                "from": 20,
+                "to": 50,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Agashiye",
+            "location": "Ahmedabad",
+            "notes": "Heritage rooftop restaurant serving a premium Gujarati Thali experience.",
+            "price_range": "₹1200 - ₹2000",
+            "booking_url": null
+        },
+        {
+            "name": "Gordhan Thal",
+            "location": "Ahmedabad",
+            "notes": "Famous for its unlimited Thali with a huge variety of dishes.",
+            "price_range": "₹400 - ₹600",
+            "booking_url": null
+        },
+        {
+            "name": "Sasuma",
+            "location": "Surat",
+            "notes": "Renowned for authentic Surti food and hospitality.",
+            "price_range": "₹300 - ₹600",
+            "booking_url": null
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Manek Chowk",
+            "location": "Ahmedabad",
+            "what_to_try": "Gwalior Dosa, Kulfi, Sandwiches (Night Market)",
+            "how_to_reach": "Old City, Ahmedabad"
+        },
+        {
+            "name": "Rander Road",
+            "location": "Surat",
+            "what_to_try": "Aloo Puri, Locho",
+            "how_to_reach": "Surat City"
+        }
+    ],
+    "recommended_home_cook_experiences_or_workshops": [
+        {
+            "title": "Gujarati Snack Workshop",
+            "provider_placeholder": "Ahmedabad Culinary Studio",
+            "duration": "3 Hours",
+            "price_estimate": "₹1500 per person"
+        }
+    ],
+    "street_food_highlights": [
+        "Khandvi - Rolled, spiced gram flour bite-sized snacks.",
+        "Fafda Jalebi - A popular breakfast combo of crisp savory straws and sweet pretzels.",
+        "Dabeli - Spicy potato burger originating from Kutch."
+    ],
+    "festival_foods": [
+        "Makar Sankranti (Uttarayan): Undhiyu and Jalebi.",
+        "Dussehra: Fafda and Jalebi."
+    ],
+    "best_months_to_visit_for_food": "December to February (Winter) for Undhiyu.",
+    "vegetarian_friendly": true,
+    "common_allergens": [
+        "Gluten",
+        "Dairy",
+        "Peanuts (often in dabeli/chutneys)"
+    ],
+    "recommended_precautions_for_travellers": "Food is sweeter than typical Indian curry; be prepared for sugar in savory dishes.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 200,
+        "to": 600,
+        "price_type": "estimated",
+        "last_checked": "2025-01-01"
+    },
+    "how_to_order_guidelines": "Order an 'Unlimited Thali' for the full experience. The servers will keep refilling until you stop them.",
+    "tipping_guidelines": "5-10% is standard.",
+    "cultural_significance": "Ahimsa (non-violence) deeply influences the diet (mostly vegetarian). Jain food (no onion/garlic) is also widely available.",
+    "dining_etiquette": "Wash hands. Food is often served by the host with great insistence ('Agrah').",
+    "top_places_to_experience": [
+        {
+            "place_id": "ahmedabad",
+            "title": "Ahmedabad",
+            "summary": "India's first UNESCO Heritage City, famous for its street food and Thalis.",
+            "best_where_to_eat": "Manek Chowk, Law Garden",
+            "how_to_reach": "International Airport.",
+            "is_bookable": true,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "surat",
+            "title": "Surat",
+            "summary": "The food capital of Gujarat, known its bakery products and unique snacks like Locho.",
+            "best_where_to_eat": "Piplod, Dumbhal",
+            "how_to_reach": "Rail/Road connectivity.",
+            "is_bookable": false,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "vadodara",
+            "title": "Vadodara",
+            "summary": "Cultural capital with a mix of traditional Kathiawadi and modern fusion food.",
+            "best_where_to_eat": "Alkapuri",
+            "how_to_reach": "Airport/Rail.",
+            "is_bookable": false,
+            "related_experience_slugs": []
+        }
+    ],
+    "suggested_itineraries": [
+        "Gujarat Thali Trail: Ahmedabad (Agashiye) -> Vadodara (Kathiawadi) -> Surat (Undhiyu)."
+    ],
+    "media_and_references": {
+        "notable_chefs_and_restaurants": [],
+        "canonical_references": [],
+        "video_refs": []
+    },
+    "tags": [
+        "West Indian",
+        "Vegetarian",
+        "Sweet-Salty",
+        "Thali"
+    ],
+    "seo_title": "Gujarati Cuisine: Dhokla, Thepla & Undhiyu Guide",
+    "seo_description": "Taste the vegetarian delights of Gujarat. Guide to Undhiyu, Dhokla, and the massive Gujarati Thali.",
+    "json_ld_template": {},
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

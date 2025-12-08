@@ -1,0 +1,101 @@
+{
+    "id": "kuttu",
+    "slug": "kuttu",
+    "title": "Kuttu / Kolattam",
+    "alt_title": "Kolattam",
+    "origin_state": "Tamil Nadu / Andhra Pradesh",
+    "hero_image": "kuttu-hero.jpg",
+    "hero_image_alt": "Women performing Kolattam with sticks",
+    "gallery_images": [
+        "kuttu-1.jpg"
+    ],
+    "short_description": "An ancient folk art performed by women using small sticks to create rhythmic patterns.",
+    "long_description": "Kolattam (Stick Dance), also known as Kolo in some areas, is a folk dance performed in Tamil Nadu, Andhra Pradesh, and Karnataka. Derived from 'Kol' (stick) and 'Attam' (dance), it creates rhythmic patterns by striking small wooden sticks. \n\nIt was traditionally a temple art form performed for rain or harvest. A variation, Pinnal Kolattam, involves weaving ropes hanging from a central pole while dancing, creating intricate braids.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Sticks",
+        "Vocal"
+    ],
+    "costume_and_makeup": "Saree or Half-Saree.",
+    "choreography_elements": [
+        "Stick patterns",
+        "Braid weaving (Pinnal)",
+        "Circle"
+    ],
+    "typical_duration": "20 minutes",
+    "where_to_watch": [
+        "Temple Festivals in TN",
+        "School Cultural events"
+    ],
+    "where_to_learn": [
+        "Schools in Chennai"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Pinnal Kolattam (Rope braid)"
+    ],
+    "common_festivals_or_events": [
+        "Pongal",
+        "Navratri"
+    ],
+    "top_places": [
+        {
+            "place_id": "chennai-mylapore",
+            "title": "Kapaleeshwarar Temple, Chennai",
+            "summary": "During the Panguni festival, folk arts are often displayed.",
+            "best_time_to_see": "March-April",
+            "how_to_reach": "Chennai.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "chennai"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "Watch the rope weaving version if possible - it's puzzle solving in motion.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 0,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Workshop"
+        ],
+        "workshop_price_from": 0,
+        "currency": "INR",
+        "booking_info": "None"
+    },
+    "media_references": {
+        "notable_practitioners": [],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Tamil Nadu",
+        "Sticks",
+        "Rope Dance"
+    ],
+    "seo_title": "Kolattam Dance Guide: Stick Dance of South India",
+    "seo_description": "Discover Kolattam (Kuttu), the stick dance of South India. Famous for the Pinnal Kolattam rope weaving technique.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Kolattam: The Weave of Rhythm",
+        "image": [
+            "https://example.com/images/kuttu-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

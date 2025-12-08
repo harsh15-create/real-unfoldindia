@@ -1,0 +1,197 @@
+{
+    "id": "kerala",
+    "slug": "kerala",
+    "title": "Kerala Cuisine",
+    "alt_titles": [
+        "Malayali Cuisine"
+    ],
+    "origin_state_or_region": "Kerala, South India",
+    "hero_image": "kerala-cuisine-hero.jpg",
+    "hero_image_alt": "Served Sadhya on Banana Leaf",
+    "gallery_images": [
+        "kerala-1.jpg",
+        "kerala-2.jpg",
+        "kerala-3.jpg"
+    ],
+    "short_description": "Known for its generous use of coconut, seafood, and spices like black pepper and cardamom. Sadhya is a highlight.",
+    "long_description": "Kerala, known as the 'Land of Spices', offers a cuisine that is earthy, aromatic, and diverse. Shaped by its history as a spice trade hub and its distinct geography (coastline and backwaters), the food leans heavily on coconut (oil, milk, grated), rice, tapioca, and seafood. \n\nThe cuisine varies across communities: Hindus are known for the vegetarian 'Sadhya' feast, Christians for their stews and meat dishes (beef/pork), and Muslims (Mappilas) for their rich Biryanis and pathiris. Spices like black pepper, cardamom, cloves, and ginger are cultivated locally and used generously. Coconut oil is the primary cooking medium, giving dishes a distinct aroma.",
+    "signature_dishes": [
+        {
+            "name": "Kerala Sadhya",
+            "short_description": "A traditional vegetarian feast served on a banana leaf, consisting of 20+ dishes including rice, sambar, avial, and payasam.",
+            "best_place_to_try": "Mothers Veg Plaza, Trivandrum",
+            "serving_style": "Feast/Lunch",
+            "approx_price": {
+                "currency": "INR",
+                "from": 200,
+                "to": 400,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Appam with Stew",
+            "short_description": "Lacy fermented rice pancakes served with a mild, creamy coconut milk stew (Veg or Chicken/Mutton).",
+            "best_place_to_try": "Villa Maya, Trivandrum",
+            "serving_style": "Breakfast/Dinner",
+            "approx_price": {
+                "currency": "INR",
+                "from": 200,
+                "to": 500,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Karimeen Pollichathu",
+            "short_description": "Pearl Spot fish marinated in spicy masala, wrapped in a banana leaf, and grilled/steamed.",
+            "best_place_to_try": "Houseboats in Alleppey",
+            "serving_style": "Main Course",
+            "approx_price": {
+                "currency": "INR",
+                "from": 400,
+                "to": 800,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Malabar Parotta & Beef Fry",
+            "short_description": "Flaky, layered flatbread served with spicy dry-fried beef (buff). A cult favorite combo.",
+            "best_place_to_try": "Paragon, Kozhikode",
+            "serving_style": "Dinner",
+            "approx_price": {
+                "currency": "INR",
+                "from": 200,
+                "to": 400,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Paragon Restaurant",
+            "location": "Kozhikode (Calicut)",
+            "notes": "Ranked among the world's legendary restaurants; famous for Biryani and seafood.",
+            "price_range": "₹300 - ₹700",
+            "booking_url": null
+        },
+        {
+            "name": "Dhe Puttu",
+            "location": "Kochi",
+            "notes": "Specializes in 'Puttu' (steamed rice cakes) varieties.",
+            "price_range": "₹300 - ₹600",
+            "booking_url": null
+        },
+        {
+            "name": "Grand Hotel",
+            "location": "Kochi",
+            "notes": "Classic spot for Karimeen and meals.",
+            "price_range": "₹500 - ₹1000",
+            "booking_url": null
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Connemara Market",
+            "location": "Trivandrum",
+            "what_to_try": "Fresh Banana Chips, Spices",
+            "how_to_reach": "Palayam, Trivandrum"
+        },
+        {
+            "name": "Broadway",
+            "location": "Kochi",
+            "what_to_try": "Spices, Tea",
+            "how_to_reach": "Ernakulam"
+        }
+    ],
+    "recommended_home_cook_experiences_or_workshops": [
+        {
+            "title": "Farm to Table Cooking",
+            "provider_placeholder": "Philipkutty's Farm",
+            "duration": "1 Day",
+            "price_estimate": "₹3000+"
+        }
+    ],
+    "street_food_highlights": [
+        "Pazhampori - Ripe banana fritters.",
+        "Thattukada Dosa - Street-side dosa served with omlette.",
+        "Kulukki Sarbath - Shaken lemonade with basil seeds and chilies."
+    ],
+    "festival_foods": [
+        "Onam: The grand Onam Sadhya (26+ dishes).",
+        "Christmas: Fruit cakes and meat stews."
+    ],
+    "best_months_to_visit_for_food": "September (Onam) for Sadhya.",
+    "vegetarian_friendly": true,
+    "common_allergens": [
+        "Coconut",
+        "Seafood/Shellfish",
+        "Cashews"
+    ],
+    "recommended_precautions_for_travellers": "Coconut oil taste is strong. Spice levels can be high.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 150,
+        "to": 600,
+        "price_type": "estimated",
+        "last_checked": "2025-01-01"
+    },
+    "how_to_order_guidelines": "Eat Sadhya with your hands for the authentic experience. Mix the dal and sambar with rice yourself.",
+    "tipping_guidelines": "Optional, 5-10%.",
+    "cultural_significance": "Food is medicine in Ayurveda, which originated here. The Sadhya is designed to balance the 6 tastes.",
+    "dining_etiquette": "Wash hands before eating. In a Sadhya, the top half of the leaf is for sides, bottom for rice. Fold the leaf towards you after eating to signal satisfaction.",
+    "top_places_to_experience": [
+        {
+            "place_id": "kochi",
+            "title": "Kochi (Cochin)",
+            "summary": "A melting pot of cultures offering cafe culture, seafood, and diverse history.",
+            "best_where_to_eat": "Fort Kochi",
+            "how_to_reach": "International Airport.",
+            "is_bookable": true,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "kozhikode",
+            "title": "Kozhikode (Calicut)",
+            "summary": "The food capital of Malabar, famous for Mappila cuisine and Ghee Rice.",
+            "best_where_to_eat": "Beach Road, Paragon",
+            "how_to_reach": "Airport and Rail.",
+            "is_bookable": false,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "alleppey",
+            "title": "Alleppey",
+            "summary": "Best for fresh catch seafood cooked on houseboats.",
+            "best_where_to_eat": "Houseboats",
+            "how_to_reach": "Train/Bus from Kochi.",
+            "is_bookable": true,
+            "related_experience_slugs": []
+        }
+    ],
+    "suggested_itineraries": [
+        "Spice Coast Trail: Kochi (History) -> Alleppey (Houseboat Lunch) -> Kozhikode (Biryani)."
+    ],
+    "media_and_references": {
+        "notable_chefs_and_restaurants": [],
+        "canonical_references": [],
+        "video_refs": []
+    },
+    "tags": [
+        "South Indian",
+        "Seafood",
+        "Coconut",
+        "Spicy"
+    ],
+    "seo_title": "Kerala Cuisine: Sadhya, Appam & Seafood Guide",
+    "seo_description": "Explore the Land of Spices. Guide to Kerala Sadhya, Malabar Parotta, and best seafood spots in Kochi.",
+    "json_ld_template": {},
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

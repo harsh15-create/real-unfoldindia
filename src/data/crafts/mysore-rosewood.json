@@ -1,0 +1,90 @@
+{
+    "id": "mysore-rosewood",
+    "slug": "mysore-rosewood",
+    "title": "Mysore Rosewood Inlay",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [],
+    "origin_state_or_region": "Mysuru, Karnataka",
+    "hero_image": "mysore-rosewood-hero.jpg",
+    "hero_image_alt": "Rosewood panel with inlay work",
+    "gallery_images": [
+        "rosewood-1.jpg"
+    ],
+    "short_description": "Intricate inlay work using different colored woods (and formerly ivory) set into rosewood surfaces.",
+    "long_description": "Mysore Rosewood Inlay is a heritage craft where pieces of contrasting colored woods are set into a rosewood base to create pictorial scenes. Originally ivory was used, but it has been replaced by different woods and acrylic. \n\nThe designs often depict rural scenes, Dasara processions, or landscapes. The skill lies in assembling thousands of tiny pieces to form a complete picture.",
+    "materials_used": [
+        "Rosewood",
+        "Various colored woods (Jackfruit, etc.)"
+    ],
+    "traditional_methods": [
+        "Design tracing.",
+        "Cutting materials.",
+        "Scooping out rosewood base.",
+        "Embedding pieces.",
+        "Polishing."
+    ],
+    "typical_products": [
+        "Wall hangings",
+        "Tables",
+        "Boxes"
+    ],
+    "motifs_and_meanings": [
+        "Elephants.",
+        "Rural life."
+    ],
+    "major_centres": [
+        {
+            "place_id": "mysore-city",
+            "title": "Mysuru",
+            "summary": "Home of the craft.",
+            "best_time_to_visit": "All year",
+            "how_to_reach": "Mysuru.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Cauvery Emporium"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Hour",
+    "where_to_buy": [
+        "Cauvery Handicrafts"
+    ],
+    "shipping_and_packaging_tips": "Heavy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 2000,
+        "to": 50000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Inlay should be flush with the surface.",
+    "sustainability_notes": "Wood usage.",
+    "local_economy_note": "GI Tagged.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Wood",
+        "Karnataka",
+        "Inlay",
+        "Decor"
+    ],
+    "seo_title": "Mysore Rosewood Inlay: Painting with Wood",
+    "seo_description": "Discover Mysore Rosewood Inlay. An intricate art of creating pictures by embedding colored woods into rosewood.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Rosewood Inlay",
+        "material": "Rosewood",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Karnataka"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

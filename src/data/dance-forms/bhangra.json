@@ -1,0 +1,104 @@
+{
+    "id": "bhangra",
+    "slug": "bhangra",
+    "title": "Bhangra",
+    "alt_title": null,
+    "origin_state": "Punjab",
+    "hero_image": "bhangra-hero.jpg",
+    "hero_image_alt": "Bhangra dancers jumping with dhol",
+    "gallery_images": [
+        "bhangra-1.jpg",
+        "bhangra-2.jpg"
+    ],
+    "short_description": "A high-energy folk dance from Punjab, celebrated with dhols and vibrant attire during Vaisakhi.",
+    "long_description": "Bhangra is one of the most energetic and globally recognized folk dances of India. Originating in the Majha area of Punjab, it was traditionally associated with the Vaisakhi festival, celebrating the harvest. Men perform Bhangra to the beat of the Dhol (large drum), executing vigorous kicks, leaps, and body movements. \n\nThough initially a harvest dance, it has evolved into a staple for weddings and celebrations worldwide. The signature move is the raising of hands/shoulders to the beat and the 'Balle Balle' chant.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Dhol",
+        "Tumbi",
+        "Chimta"
+    ],
+    "costume_and_makeup": "Men wear a lungi (chaadra), a long shirt (kurta), and a turban (pagri). The clothes are extremely colorful.",
+    "choreography_elements": [
+        "Kicks",
+        "Jumps",
+        "Shoulder movements"
+    ],
+    "typical_duration": "10-20 minutes",
+    "where_to_watch": [
+        "Punjab rural festivals",
+        "Weddings"
+    ],
+    "where_to_learn": [
+        "Community centers in Punjab",
+        "Chandigarh"
+    ],
+    "recommended_experience": "workshop",
+    "key_traditions": [
+        "Performed at harvest",
+        "Energetic yelling (Boliyan)"
+    ],
+    "common_festivals_or_events": [
+        "Vaisakhi (April)"
+    ],
+    "top_places": [
+        {
+            "place_id": "amritsar",
+            "title": "Amritsar",
+            "summary": "The cultural heart of Punjab. Visit during Vaisakhi.",
+            "best_time_to_see": "April",
+            "how_to_reach": "Airport/Rail.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "amritsar"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "Join in! It's infectious.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 0,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "1-hour fun session"
+        ],
+        "workshop_price_from": 500,
+        "currency": "INR",
+        "booking_info": "Local schools"
+    },
+    "media_references": {
+        "notable_practitioners": [],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Punjab",
+        "Harvest",
+        "High Energy"
+    ],
+    "seo_title": "Bhangra Dance Guide: Punjab's Harvest Dance",
+    "seo_description": "Feel the beat of Bhangra, the energetic folk dance of Punjab. Learn about the Dhol, Vaisakhi traditions, and moves.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Bhangra: The Beat of Punjab",
+        "image": [
+            "https://example.com/images/bhangra-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

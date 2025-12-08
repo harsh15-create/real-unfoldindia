@@ -1,0 +1,110 @@
+{
+    "id": "mohiniyattam",
+    "slug": "mohiniyattam",
+    "title": "Mohiniyattam",
+    "alt_title": "Dance of the Enchantress",
+    "origin_state": "Kerala",
+    "hero_image": "mohiniyattam-hero.jpg",
+    "hero_image_alt": "Mohiniyattam dancer in white and gold saree",
+    "gallery_images": [
+        "mohiniyattam-1.jpg",
+        "mohiniyattam-2.jpg"
+    ],
+    "short_description": "A solo dance form from Kerala characterized by swaying movements and elegant white-and-gold costumes.",
+    "long_description": "Mohiniyattam, literally interpreting as the 'Dance of the Enchantress' (Mohini), is a classical solo dance form from Kerala. Legend says Lord Vishnu took the form of Mohini to enchant the demons and retrieve the nectar of immortality. \n\nThe dance is characterized by 'Andolika' (swaying) movements that resemble palm leaves swaying in the breeze or waves of the ocean. It adheres to the Lasya style (graceful, feminine). The costume is a distinct white saree with gold borders (Kasavu), and the hair is tied in a side bun. It sits somewhere between the vigor of Kathakali and the structure of Bharatanatyam.",
+    "performance_style": "classical",
+    "music_and_instruments": [
+        "Sopana Sangeetam / Carnatic",
+        "Mridangam",
+        "Edakka (Hourglass drum)",
+        "Violin",
+        "Veena"
+    ],
+    "costume_and_makeup": "White or off-white Kasavu saree with gold brocade. Hair gathered in a side bun (Kuduma) adorned with jasmine. Minimal but defining makeup.",
+    "choreography_elements": [
+        "Circular movements",
+        "Soft footwork",
+        "Abhinaya (Expression)"
+    ],
+    "typical_duration": "45–60 minutes",
+    "where_to_watch": [
+        "Kerala Kalamandalam",
+        "Thirunakkara Temple, Kottayam"
+    ],
+    "where_to_learn": [
+        "Kerala Kalamandalam"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Usually performed by women",
+        "Emphasis on Sringara (Love) rasa"
+    ],
+    "common_festivals_or_events": [
+        "Khajuraho Festival",
+        "Swathi Sangeethotsavam"
+    ],
+    "top_places": [
+        {
+            "place_id": "kalamandalam-mohini",
+            "title": "Kerala Kalamandalam",
+            "summary": "The guardian institution of Kerala's classical arts.",
+            "best_time_to_see": "Academic sessions / festivals",
+            "how_to_reach": "Cheruthuruthy, Kerala.",
+            "is_bookable": true,
+            "related_content_slugs": [
+                "kerala"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "It's a soft, soothing dance.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 200,
+            "to": 1000,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Workshop"
+        ],
+        "workshop_price_from": 1000,
+        "currency": "INR",
+        "booking_info": "Kalamandalam"
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Kalamandalam Kshemavathy",
+            "Sunanda Nair",
+            "Deepti Omchery Bhalla"
+        ],
+        "canonical_references": []
+    },
+    "tags": [
+        "Classical",
+        "Kerala",
+        "Feminine",
+        "Grace"
+    ],
+    "seo_title": "Mohiniyattam Dance Guide: The Dance of the Enchantress",
+    "seo_description": "Explore Mohiniyattam, the graceful solo dance of Kerala. Known for its white and gold costumes and swaying movements.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Mohiniyattam: The Sway of the Palms",
+        "image": [
+            "https://example.com/images/mohiniyattam-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "id": "ghoomar",
+    "slug": "ghoomar",
+    "title": "Ghoomar",
+    "alt_title": "Jhumar (Rajasthan)",
+    "origin_state": "Rajasthan",
+    "hero_image": "ghoomar-hero.jpg",
+    "hero_image_alt": "Women performing Ghoomar in swirling skirts",
+    "gallery_images": [
+        "ghoomar-1.jpg",
+        "ghoomar-2.jpg"
+    ],
+    "short_description": "Performed by women in swirling robes, this dance is a symbol of womanhood and marital bliss.",
+    "long_description": "Ghoomar is a traditional folk dance of the Bhil tribe performed to worship Goddess Sarasvati which was later embraced by other Rajasthani communities. The dance is chiefly performed by veiled women who wear flowing dresses called 'Ghagara'. The dance typically involves performers pirouetting while moving in and out of a wide circle. The word 'Ghoomna' describes the twirling movement of the dancers and is the basis of the word Ghoomar.\n\nIt is often performed on special occasions, such as weddings, festivals, and religious occasions. The dance is measured by the rhythmic clapping and singing, and the tempo increases as the dance progresses.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Dhol",
+        "Sarangi",
+        "Singing"
+    ],
+    "costume_and_makeup": "Ghagra-choli with heavy mirror work and embroidery. Translucent veils (Odhani) cover the face. Heavy silver jewelry.",
+    "choreography_elements": [
+        "Twirling",
+        "Graceful hand movements",
+        "Clapping"
+    ],
+    "typical_duration": "20-30 minutes",
+    "where_to_watch": [
+        "Desert Festival, Jaisalmer",
+        "Gangaur Festival, Jaipur"
+    ],
+    "where_to_learn": [
+        "Jaipur Kathak Kendra (folk wing)"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Bride's first dance",
+        "Veiled performance"
+    ],
+    "common_festivals_or_events": [
+        "Gangaur",
+        "Teej"
+    ],
+    "top_places": [
+        {
+            "place_id": "jaisalmer-fort",
+            "title": "Jaisalmer Fort",
+            "summary": "Major venue for the Desert Festival.",
+            "best_time_to_see": "February",
+            "how_to_reach": "Jaisalmer.",
+            "is_bookable": true,
+            "related_content_slugs": [
+                "jaisalmer"
+            ]
+        },
+        {
+            "place_id": "udaipur-bagore",
+            "title": "Bagore Ki Haveli, Udaipur",
+            "summary": "Daily evening cultural show featuring Ghoomar.",
+            "best_time_to_see": "Daily 7PM",
+            "how_to_reach": "Old City, Udaipur.",
+            "is_bookable": true,
+            "related_content_slugs": [
+                "udaipur"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "The swirling skirts create a kaleidoscope of color.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 100,
+            "to": 500,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "1-day workshop"
+        ],
+        "workshop_price_from": 800,
+        "currency": "INR",
+        "booking_info": "Local cultural centers"
+    },
+    "media_references": {
+        "notable_practitioners": [],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Rajasthan",
+        "Royal",
+        "Women"
+    ],
+    "seo_title": "Ghoomar Dance Guide: Royal Folk Dance of Rajasthan",
+    "seo_description": "Swirl with the Ghoomar dancers of Rajasthan. Learn about the Ghagra costumes and Gangaur festival traditions.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Ghoomar: The Royal Twirl",
+        "image": [
+            "https://example.com/images/ghoomar-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

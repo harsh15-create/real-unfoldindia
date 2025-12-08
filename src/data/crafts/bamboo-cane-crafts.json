@@ -1,0 +1,93 @@
+{
+    "id": "bamboo-cane-crafts",
+    "slug": "bamboo-cane-crafts",
+    "title": "Bamboo & Cane Crafts",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "North East Basketry"
+    ],
+    "origin_state_or_region": "Assam, Arunachal Pradesh, Meghalaya",
+    "hero_image": "bamboo-cane-crafts-hero.jpg",
+    "hero_image_alt": "Intricate bamboo weaving and basketry",
+    "gallery_images": [
+        "bamboo-1.jpg"
+    ],
+    "short_description": "Sustainable crafts from Northeast India, creating everything from baskets and furniture to intricate jewelry.",
+    "long_description": "The Northeast region of India is rich in bamboo resources, known as 'Green Gold'. Each tribe in states like Assam, Arunachal, and Nagaland has its own unique style of basketry. \n\nFrom utility items like rice steamers and fishing traps to decorative furniture and fine jewelry, bamboo is ubiquitous. The craft involves splitting the bamboo into fine slivers and weaving them into intricate patterns.",
+    "materials_used": [
+        "Bamboo",
+        "Cane (Rattan)"
+    ],
+    "traditional_methods": [
+        "Harvesting.",
+        "Splitting.",
+        "Weaving.",
+        "Smoking (for preservation)."
+    ],
+    "typical_products": [
+        "Baskets",
+        "Furniture",
+        "Beer mugs",
+        "Hats"
+    ],
+    "motifs_and_meanings": [
+        "Geometric.",
+        "Utility based design."
+    ],
+    "major_centres": [
+        {
+            "place_id": "guwahati-assam",
+            "title": "Guwahati",
+            "summary": "Gateway to the NE crafts.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Guwahati.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Bam Cane Indus"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Hour",
+    "where_to_buy": [
+        "NEDFi Haat",
+        "Purbashree"
+    ],
+    "shipping_and_packaging_tips": "Lightweight but voluminous.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 100,
+        "to": 10000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Check for insect holes. Treated bamboo is better.",
+    "sustainability_notes": "Highly sustainable.",
+    "local_economy_note": "Essential.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Craft",
+        "North East",
+        "Bamboo",
+        "Sustainable"
+    ],
+    "seo_title": "Bamboo and Cane Crafts: North East India's Green Gold",
+    "seo_description": "Explore the bamboo and cane crafts of Northeast India. Sustainable baskets, furniture, and jewelry from Assam and Arunachal.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Bamboo Craft",
+        "material": "Bamboo",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Assam"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

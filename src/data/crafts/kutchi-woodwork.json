@@ -1,0 +1,94 @@
+{
+    "id": "kutchi-woodwork",
+    "slug": "kutchi-woodwork",
+    "title": "Kutchi Woodwork",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Kutch Carving"
+    ],
+    "origin_state_or_region": "Kutch, Gujarat",
+    "hero_image": "kutchi-woodwork-hero.jpg",
+    "hero_image_alt": "Intricately carved wooden lintel from Kutch",
+    "gallery_images": [
+        "kutchi-wood-1.jpg"
+    ],
+    "short_description": "Intricate wood carving from the Kutch region, often featuring geometric patterns and mirror work.",
+    "long_description": "The wood carving of Kutch is renowned for its intricate designs and minute detailing. Practiced largely by the Harijan and other communities, this craft is traditionally used to decorate door frames, lintels, and furniture (cots, chests). \n\nThe style is influenced by Islamic geometry and local floral motifs. Often, small mirrors are embedded into the wood or the carving is supplemented with metal binding.",
+    "materials_used": [
+        "Teak",
+        "Acacia",
+        "Babool"
+    ],
+    "traditional_methods": [
+        "Hewing.",
+        "Chiseling.",
+        "Jali work (Lattice).",
+        "Mirror inlay (sometimes)."
+    ],
+    "typical_products": [
+        "Doors",
+        "Chest (Patara)",
+        "Chairs",
+        "Frames"
+    ],
+    "motifs_and_meanings": [
+        "Floral vines.",
+        "Geometry."
+    ],
+    "major_centres": [
+        {
+            "place_id": "ludia-kutch",
+            "title": "Ludia / Gandhi Dham",
+            "summary": "Villages known for wood carving.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Bhuj.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Artisan homes"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Hour",
+    "where_to_buy": [
+        "Bhujodi",
+        "Rann Utsav"
+    ],
+    "shipping_and_packaging_tips": "Heavy furniture.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 1000,
+        "to": 50000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Check the depth of the carving.",
+    "sustainability_notes": "Durable.",
+    "local_economy_note": "Important craft.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Wood",
+        "Gujarat",
+        "Carving",
+        "Furniture"
+    ],
+    "seo_title": "Kutchi Wood Carving: The Timber Art of Gujarat",
+    "seo_description": "Explore the intricate wood carving of Kutch. Known for geometric patterns on doors, chests, and furniture.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Kutchi Woodwork",
+        "material": "Teak Wood",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Gujarat"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

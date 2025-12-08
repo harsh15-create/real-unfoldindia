@@ -1,0 +1,99 @@
+{
+    "id": "jhumar",
+    "slug": "jhumar",
+    "title": "Jhumar",
+    "alt_title": "Jhumur",
+    "origin_state": "Punjab / Bihar / Jharkhand",
+    "hero_image": "jhumar-hero.jpg",
+    "hero_image_alt": "Men performing the slow Jhumar dance",
+    "gallery_images": [
+        "jhumar-1.jpg"
+    ],
+    "short_description": "A slow, rhythmic dance performed at weddings and harvest, distinct from the energetic Bhangra.",
+    "long_description": "Jhumar is a folk dance performed in Punjab (also variants in Bihar/Jharkhand tribals). In Punjab, it is a dance of ecstasy but performed in a slower, more rhythmic tempo than Bhangra. It is often performed by men at weddings. The name comes from 'Jhoomar' (swaying). \n\nThe movements invoke the gait of animals and birds. It creates a hypnotic atmosphere.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Dhol"
+    ],
+    "costume_and_makeup": "Kurta-Chadra (Punjab style).",
+    "choreography_elements": [
+        "Swaying arms",
+        "Circle formation"
+    ],
+    "typical_duration": "20 minutes",
+    "where_to_watch": [
+        "Punjab Weddings",
+        "Cultural Fairs"
+    ],
+    "where_to_learn": [
+        "Punjab"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Circular movement",
+        "Performed by three generations"
+    ],
+    "common_festivals_or_events": [
+        "Weddings"
+    ],
+    "top_places": [
+        {
+            "place_id": "punjab-villages",
+            "title": "Rural Punjab",
+            "summary": "Best seen in authentic village weddings.",
+            "best_time_to_see": "Wedding season (Winter)",
+            "how_to_reach": "Amritsar/Ludhiana.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "amritsar"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "It's quieter than Bhangra, enjoy the rhythm.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 0,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Observation"
+        ],
+        "workshop_price_from": 0,
+        "currency": "INR",
+        "booking_info": "None"
+    },
+    "media_references": {
+        "notable_practitioners": [],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Punjab",
+        "Slow",
+        "Wedding"
+    ],
+    "seo_title": "Jhumar Dance Guide: The Swaying Folk Dance",
+    "seo_description": "Discover Jhumar, the slower, rhythmic counterpart to Bhangra. A folk dance of ecstasy performed at weddings.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Jhumar: The Sway",
+        "image": [
+            "https://example.com/images/jhumar-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

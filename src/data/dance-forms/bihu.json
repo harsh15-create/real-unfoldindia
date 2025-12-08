@@ -1,0 +1,102 @@
+{
+    "id": "bihu",
+    "slug": "bihu",
+    "title": "Bihu",
+    "alt_title": "Rongali Bihu",
+    "origin_state": "Assam",
+    "hero_image": "bihu-hero.jpg",
+    "hero_image_alt": "Bihu dancers in red and beigemekhela chadors",
+    "gallery_images": [
+        "bihu-1.jpg",
+        "bihu-2.jpg"
+    ],
+    "short_description": "Categorized by brisk steps and rapid hand movements, celebrating the onset of the farming season.",
+    "long_description": "Bihu is the most popular folk dance of Assam, performed during the Rongali Bihu festival which marks the Assamese New Year (April). It celebrates the joy of nature and youth. The dance is characterized by brisk stepping, rapid hand movements, and a rhythmic swaying of the hips. \n\nBoth men and women perform, dressed in traditional golden silk (Muga) attire. The music is led by the Dhol, Pepa (buffalo horn pipe), and Gogona.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Dhol",
+        "Pepa",
+        "Gogona (Jew's harp)",
+        "Flute"
+    ],
+    "costume_and_makeup": "Women wear Muga Silk Mekhela Chador with red borders. Men wear dhoti and gamocha.",
+    "choreography_elements": [
+        "Hip swaying",
+        "Rapid footwork",
+        "Formation changes"
+    ],
+    "typical_duration": "15-20 minutes",
+    "where_to_watch": [
+        "Guwahati Bihu Sanmilans",
+        "Rang Ghar, Sivasagar"
+    ],
+    "where_to_learn": [
+        "Guwahati academies"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Spring festival",
+        "Gift exchange (Gamocha)"
+    ],
+    "common_festivals_or_events": [
+        "Rongali Bihu (April)"
+    ],
+    "top_places": [
+        {
+            "place_id": "guwahati-city",
+            "title": "Guwahati",
+            "summary": "Hosts massive stage performances (Bihu Sanmilans) in April.",
+            "best_time_to_see": "April 14-20",
+            "how_to_reach": "Guwahati Airport.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "It's festive and joyous.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 500,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Workshop"
+        ],
+        "workshop_price_from": 500,
+        "currency": "INR",
+        "booking_info": "Local centers"
+    },
+    "media_references": {
+        "notable_practitioners": [],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Assam",
+        "Spring",
+        "Harvest"
+    ],
+    "seo_title": "Bihu Dance Guide: Assam's Spring Festival",
+    "seo_description": "Celebrate with Bihu, the joyous folk dance of Assam. Learn about the Pepa, Dhol, and Rongali Bihu traditions.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Bihu: The Spirit of Assam",
+        "image": [
+            "https://example.com/images/bihu-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

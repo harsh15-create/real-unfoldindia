@@ -1,0 +1,93 @@
+{
+    "id": "pochampalli-ikat",
+    "slug": "pochampalli-ikat",
+    "title": "Pochampally Ikat",
+    "category_id": "textiles-weaving",
+    "alt_titles": [
+        "Pochampally Saree"
+    ],
+    "origin_state_or_region": "Bhoodan Pochampally, Telangana",
+    "hero_image": "pochampalli-ikat-hero.jpg",
+    "hero_image_alt": "Geometric Ikat patterns on Pochampally fabric",
+    "gallery_images": [
+        "pochampalli-1.jpg"
+    ],
+    "short_description": "A silk/cotton saree from Telangana known for its geometric patterns and the intricate Ikat dyeing style.",
+    "long_description": "Pochampally Ikat style of weaving features geometric patterns. In this technique (Double Ikat), the warp and weft threads are tied and dyed according to the design before weaving. The precision required to align the dyed threads during weaving makes it a highly skilled art. \n\nPochampally is synonymous with silk, but cotton ikats are also popuar. It is lighter than other silks.",
+    "materials_used": [
+        "Silk",
+        "Cotton",
+        "Dyes"
+    ],
+    "traditional_methods": [
+        "Tying threads (Resist dyeing).",
+        "Dyeing.",
+        "Setting the loom.",
+        "Weaving (Alignment is key)."
+    ],
+    "typical_products": [
+        "Sarees",
+        "Dress material",
+        "Home furnishing"
+    ],
+    "motifs_and_meanings": [
+        "Diamonds: Geometry.",
+        "Parrots/Flowers: Abstracted."
+    ],
+    "major_centres": [
+        {
+            "place_id": "pochampally-village",
+            "title": "Pochampally Village",
+            "summary": "One of the best tourism villages.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Near Hyderabad.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Tourism Centre"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half-Day",
+    "where_to_buy": [
+        "Pochampally",
+        "Hyderabad"
+    ],
+    "shipping_and_packaging_tips": "Easy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 2000,
+        "to": 20000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "In authentic Ikat, the edges of the patterns are slightly blurry (hazy) due to the weave.",
+    "sustainability_notes": "GI Tagged.",
+    "local_economy_note": "Handloom sector.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Textile",
+        "Telangana",
+        "Ikat",
+        "Geometric"
+    ],
+    "seo_title": "Pochampally Ikat: The Geometric Weave of Telangana",
+    "seo_description": "Discover Pochampally Ikat. Famous for its double ikat weaving technique, geometric patterns, and vibrant colors.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Pochampally Ikat",
+        "material": "Silk, Cotton",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Telangana"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

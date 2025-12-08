@@ -1,0 +1,94 @@
+{
+    "id": "black-pottery-nizamabad",
+    "slug": "black-pottery-nizamabad",
+    "title": "Nizamabad Black Pottery",
+    "category_id": "pottery-ceramics",
+    "alt_titles": [
+        "Nizamabad Clay Art"
+    ],
+    "origin_state_or_region": "Nizamabad, Azamgarh, Uttar Pradesh",
+    "hero_image": "black-pottery-nizamabad-hero.jpg",
+    "hero_image_alt": "Jet black vase with silver floral inlay",
+    "gallery_images": [
+        "black-pottery-1.jpg"
+    ],
+    "short_description": "Glossy black pottery from Uttar Pradesh, known for its silver floral designs engraved into the fired clay.",
+    "long_description": "Nizamabad in Azamgarh district of Uttar Pradesh is famous for its unique black pottery. The pottery gets its lustrous black color from a special firing process in a closed kiln where smoke (carbon) is trapped and impregnates the clay. \n\nAfter firing, the grooves engraved on the pottery are filled with a silvery powder made of zinc and mercury (though now often tin or lead amalgam), creating a striking contrast against the shiny black surface. The finish resembles the Bidriware metal craft but is made of clay.",
+    "materials_used": [
+        "Local clay",
+        "Mustard oil (for polish)",
+        "Zinc/Tin powder (for inlay)"
+    ],
+    "traditional_methods": [
+        "Wheel turning.",
+        "Polishing with smooth stones/oil before firing.",
+        "Etching designs.",
+        "Reduction firing (smoke firing).",
+        "Filling grooves with silver powder."
+    ],
+    "typical_products": [
+        "Vases",
+        "Tea sets",
+        "Bowls",
+        "Decorative plates"
+    ],
+    "motifs_and_meanings": [
+        "Floral vines: Mughal influence."
+    ],
+    "major_centres": [
+        {
+            "place_id": "nizamabad-up",
+            "title": "Nizamabad",
+            "summary": "Small town in Azamgarh district.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Train to Azamgarh.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Local co-operatives"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "2 Hours",
+    "where_to_buy": [
+        "Azamgarh Markets",
+        "UP Handloom Houses"
+    ],
+    "shipping_and_packaging_tips": "Fragile.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 300,
+        "to": 2000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "The silver inlay should not rub off easily. The surface should be high-gloss.",
+    "sustainability_notes": "Traditional process.",
+    "local_economy_note": "A GI tagged craft supporting the local community.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Pottery",
+        "UP",
+        "Silver Inlay",
+        "Black Pottery"
+    ],
+    "seo_title": "Nizamabad Black Pottery: The Silver on Black Clay Art",
+    "seo_description": "Discover the shiny Nizamabad Black Pottery of Uttar Pradesh. Unique reduction firing technique with silver pattern inlay.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Nizamabad Black Pottery",
+        "material": "Clay",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Uttar Pradesh"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

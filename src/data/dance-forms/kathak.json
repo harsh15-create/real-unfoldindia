@@ -1,0 +1,166 @@
+{
+    "id": "kathak",
+    "slug": "kathak",
+    "title": "Kathak",
+    "alt_title": null,
+    "origin_state": "Uttar Pradesh / North India",
+    "hero_image": "kathak-hero.jpg",
+    "hero_image_alt": "Kathak dancer performing a chakkar (spin)",
+    "gallery_images": [
+        "kathak-1.jpg",
+        "kathak-2.jpg",
+        "kathak-3.jpg"
+    ],
+    "short_description": "Characterized by intricate footwork and rapid pirouettes, this dance form narrates mythological tales through expression.",
+    "long_description": "Kathak is the major classical dance form of Northern India, deriving its name from the Sanskrit word 'Katha' which means story. The Kathakars were originally traveling bards who used dance and song to recount the great epics. Over time, it evolved in the Mughal courts, absorbing Persian influences which gave it a unique blend of Hindu and Muslim cultural elements.\n\nKey features of Kathak include intricate footwork (tatkar), rapid pirouettes (chakkars), and a straight-legged stance. Unlike other Indian classical forms that use bent knees, Kathak is performed standing straight. The dance focuses heavily on rhythm and the interplay with the Tabla and Pakhawaj. It has three main Gharanas (schools): Lucknow, Jaipur, and Banaras, each emphasizing different aspects like expression or technical brilliance.\n\nKathak is mesmerizing for its dizzying spins and the delicate nuances of facial expression (abhinaya) used to depict thumris and ghazals.",
+    "performance_style": "classical",
+    "music_and_instruments": [
+        "Hindustani Vocal",
+        "Tabla",
+        "Pakhawaj",
+        "Sarangi",
+        "Harmonium",
+        "Sitar"
+    ],
+    "costume_and_makeup": "Costumes vary by religious influence. Hindu style involves a ghagra (long skirt), choli (blouse), and veil. Mughal style features a churidar-pyjama and an angarkha (frock-coat) with a cap. Both styles involve heavy ghungroos (bells) around the ankles, which are continuously manipulated to produce rhythms.",
+    "choreography_elements": [
+        "Tatkar (Footwork patterns)",
+        "Chakkars (Rapid Spins)",
+        "Padhant (Recitation of bols)",
+        "Abhinaya (Mime/Expression)"
+    ],
+    "typical_duration": "45–90 minutes",
+    "where_to_watch": [
+        "Khajuraho Dance Festival",
+        "Lucknow Mahotsav",
+        "Kathak Kendra, Delhi",
+        "Sankat Mochan Music Festival, Varanasi"
+    ],
+    "where_to_learn": [
+        "Kathak Kendra, Delhi",
+        "Pandit Birju Maharaj's Kalashram",
+        "Kumudini Lakhia's Kadamb, Ahmedabad"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Introduction with 'Aamad'",
+        "Jugalbandi (Playful competition with Tabla player)",
+        "Vandana (Prayer)"
+    ],
+    "common_festivals_or_events": [
+        "Khajuraho Festival (February)",
+        "Taj Mahotsav (February)",
+        "Lucknow Mahotsav"
+    ],
+    "top_places": [
+        {
+            "place_id": "kathak-kendra-delhi",
+            "title": "Kathak Kendra, New Delhi",
+            "summary": "The National Institute of Kathak Dance, offering top-tier training and performances.",
+            "best_time_to_see": "Year-round",
+            "how_to_reach": "Located in Chanakyapuri, New Delhi.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "delhi"
+            ]
+        },
+        {
+            "place_id": "khajuraho-fest",
+            "title": "Khajuraho Temples",
+            "summary": "Experience Kathak against the stunning backdrop of 10th-century temples.",
+            "best_time_to_see": "February (Annual Dance Festival)",
+            "how_to_reach": "flights/trains to Khajuraho, MP.",
+            "is_bookable": true,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "sankat-mochan-varanasi",
+            "title": "Sankat Mochan Temple, Varanasi",
+            "summary": "The Sangeet Samaroh here attracts maestros who perform all night long.",
+            "best_time_to_see": "April",
+            "how_to_reach": "In the heart of Varanasi.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "varanasi"
+            ]
+        },
+        {
+            "place_id": "lucknow-city",
+            "title": "Lucknow (City of Nawabs)",
+            "summary": "The home of the Lucknow Gharana. Visit during Lucknow Mahotsav for cultural immersion.",
+            "best_time_to_see": "November/December",
+            "how_to_reach": "Well connected by air and rail.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "shriram-centre",
+            "title": "Shriram Bharatiya Kala Kendra, Delhi",
+            "summary": "Holds regular ballets and classical dance festivals.",
+            "best_time_to_see": "September-March",
+            "how_to_reach": "Mandi House, Delhi.",
+            "is_bookable": true,
+            "related_content_slugs": [
+                "delhi"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "Applaud generous 'sum' landings (where the beat cycle resolves). Listen for the intricate mathematical recitation (padhant).",
+        "accessibility_notes": "Most Delhi venues are accessible.",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 300,
+            "to": 3000,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Formal or smart casual."
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "2-hour basics",
+            "Weekend workshop"
+        ],
+        "workshop_price_from": 1200,
+        "currency": "INR",
+        "booking_info": "Inquire at Kathak Kendra or private schools in Delhi/Lucknow."
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Pt. Birju Maharaj (Legend)",
+            "Kumudini Lakhia",
+            "Saswati Sen",
+            "Shovana Narayan"
+        ],
+        "canonical_references": [
+            {
+                "title": "Kathak Kendra",
+                "source_url": "http://kathakkendra.in/"
+            }
+        ]
+    },
+    "tags": [
+        "Classical",
+        "North India",
+        "Mughal Influence",
+        "Storytelling"
+    ],
+    "seo_title": "Kathak Dance Guide: Spins, Footwork & Gharanas",
+    "seo_description": "Explore Kathak, the storytelling dance of North India. Learn about its dazzling chakkars, intricate footwork, and fusion of Hindu-Muslim culture.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Kathak: The Art of Storytelling",
+        "image": [
+            "https://example.com/images/kathak-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

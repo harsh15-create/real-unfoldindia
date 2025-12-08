@@ -1,0 +1,95 @@
+{
+    "id": "kalighat-painting",
+    "slug": "kalighat-painting",
+    "title": "Kalighat Painting",
+    "category_id": "art-paintings",
+    "alt_titles": [
+        "Kalighat Pat"
+    ],
+    "origin_state_or_region": "Kolkata, West Bengal",
+    "hero_image": "kalighat-painting-hero.jpg",
+    "hero_image_alt": "Kalighat painting of a cat with a prawn",
+    "gallery_images": [
+        "kalighat-1.jpg"
+    ],
+    "short_description": "A 19th-century school of art from Kolkata, featuring bold outlines and vibrant colors depicting mythological and social themes.",
+    "long_description": "Kalighat painting originated in the 19th century around the Kalighat Kali Temple in Kolkata. It started as a souvenir for pilgrims but evolved into a powerful medium of social commentary. \n\nThe style is characterized by bold, sweeping brushstrokes, rhythmic lines, and vibrant colors. Unlike traditional miniatures, Kalighat paintings often depicted secular themes, social satire (Babu culture), and domestic scenes along with gods and goddesses.",
+    "materials_used": [
+        "Paper",
+        "Water based colors"
+    ],
+    "traditional_methods": [
+        "Quick sketching.",
+        "Single wide brush strokes for shading (modeling).",
+        "Bold black outlines."
+    ],
+    "typical_products": [
+        "Paintings"
+    ],
+    "motifs_and_meanings": [
+        "Cat eating prawn: Hypocrisy.",
+        "Babu and Bibi: Westernized Bengali elite."
+    ],
+    "major_centres": [
+        {
+            "place_id": "kolkata-kalighat",
+            "title": "Kalighat, Kolkata",
+            "summary": "Historical origin.",
+            "best_time_to_visit": "All year",
+            "how_to_reach": "Kolkata.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Local artists (Patuyas)"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": false,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Hour",
+    "where_to_buy": [
+        "Bengal State Emporiums",
+        "Pingla (Midnapore)"
+    ],
+    "shipping_and_packaging_tips": "Flat or rolled.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 500,
+        "to": 5000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the characteristic 'shading' done with a single stroke.",
+    "sustainability_notes": "Revival phase.",
+    "local_economy_note": "Niche.",
+    "notable_artisans": [],
+    "museums_collections": [
+        {
+            "name": "Victoria Memorial",
+            "location": "Kolkata",
+            "source_url": null
+        }
+    ],
+    "canonical_references": [],
+    "tags": [
+        "Painting",
+        "Bengal",
+        "History",
+        "Urban"
+    ],
+    "seo_title": "Kalighat Painting: The Urban Folk Art of Kolkata",
+    "seo_description": "Discover Kalighat painting, the 19th-century art form from Kolkata known for its bold strokes and social satire.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Kalighat Painting",
+        "material": "Paper",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Kolkata"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

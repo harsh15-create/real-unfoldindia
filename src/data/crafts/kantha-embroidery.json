@@ -1,0 +1,98 @@
+{
+    "id": "kantha-embroidery",
+    "slug": "kantha-embroidery",
+    "title": "Kantha Embroidery",
+    "category_id": "textiles-weaving",
+    "alt_titles": [
+        "Nakshi Kantha"
+    ],
+    "origin_state_or_region": "Bolpur, Shantiniketan, West Bengal",
+    "hero_image": "kantha-embroidery-hero.jpg",
+    "hero_image_alt": "Colorful running stitch Kantha embroidery",
+    "gallery_images": [
+        "kantha-1.jpg"
+    ],
+    "short_description": "A form of embroidery from Bengal often used to stitch together old saris to make quilts (Nakshi Kantha).",
+    "long_description": "Kantha is one of the oldest forms of embroidery originating from India. Its origins trace back to the ancient pre-Vedic ages. Traditionally, old sarees and dhotis were stacked on each other and hand-stitched to make a thin piece of cushion or quilt (Kantha). \n\nThe entire cloth is covered with running stitches, employing beautiful motifs of flowers, animals, birds and geometrical shapes. Today, it is done on new fabrics like tussar silk and cotton for commercial products.",
+    "materials_used": [
+        "Old Sarees (Traditional)",
+        "Silk/Cotton (Modern)",
+        "Thread"
+    ],
+    "traditional_methods": [
+        "Layering cloth.",
+        "Running stitch (phoran).",
+        "Pattern creation."
+    ],
+    "typical_products": [
+        "Quilts",
+        "Sarees",
+        "Bags"
+    ],
+    "motifs_and_meanings": [
+        "Lotus: Center of universe.",
+        "Life Scenes."
+    ],
+    "major_centres": [
+        {
+            "place_id": "shantiniketan-bolpur",
+            "title": "Shantiniketan",
+            "summary": "The cultural hub of Bengal where Kantha thrives.",
+            "best_time_to_visit": "Winter (Poush Mela)",
+            "how_to_reach": "Train from Kolkata.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Amar Kutir"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "2 hours",
+                "typical_price": 300,
+                "booking_info_placeholder": "Amar Kutir"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Day",
+    "where_to_buy": [
+        "Amar Kutir",
+        "Sriniketan"
+    ],
+    "shipping_and_packaging_tips": "Easy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 500,
+        "to": 10000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "The reverse side should look almost identical to the front due to the running stitch.",
+    "sustainability_notes": "Upcycling origin.",
+    "local_economy_note": "Women empowerment.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Embroidery",
+        "Bengal",
+        "Quilt",
+        "Sustainable"
+    ],
+    "seo_title": "Kantha Embroidery: The Stitched Art of Bengal",
+    "seo_description": "Discover Kantha, the running stitch embroidery of Bengal. Learn about its origins in upcycling old sarees into quilts.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Kantha Embroidery",
+        "material": "Thread, Fabric",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "West Bengal"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

@@ -1,0 +1,94 @@
+{
+    "id": "terracotta-bishnupur",
+    "slug": "terracotta-bishnupur",
+    "title": "Bishnupur Terracotta",
+    "category_id": "pottery-ceramics",
+    "alt_titles": [
+        "Bankura Horse"
+    ],
+    "origin_state_or_region": "Bishnupur/Bankura, West Bengal",
+    "hero_image": "terracotta-bishnupur-hero.jpg",
+    "hero_image_alt": "Detailed terracotta panels on a temple wall",
+    "gallery_images": [
+        "terracotta-1.jpg",
+        "terracotta-2.jpg"
+    ],
+    "short_description": "Famous for the intricate terracotta temples and the 'Bankura Horse', a symbol of Bengali folk art.",
+    "long_description": "Bishnupur in West Bengal is famed for its terracotta temples built by the Malla kings in the 17th and 18th centuries. Since stone was scarce in the alluvial plains of Bengal, artisans turned to the abundant clay to create bricks and decorative panels. \n\nThe Bankura Horse, with its long erect neck and pointed ears, is the most famous product of this region and serves as the logo of Indian handicrafts. The craft involves creating hollow figures (for easier firing) and intricate relief work depicting scenes from the Ramayana, Mahabharata, and social life.",
+    "materials_used": [
+        "Alluvial Clay",
+        "Rice husk (for strength)"
+    ],
+    "traditional_methods": [
+        "Wheel throwing for limbs (of horses).",
+        "Hand molding for details.",
+        "Carving on semi-dry tiles.",
+        "Firing in kilns."
+    ],
+    "typical_products": [
+        "Bankura Horses",
+        "Wall panels",
+        "Jewelry",
+        "Lamp shades"
+    ],
+    "motifs_and_meanings": [
+        "Horse: Symbol of devotion (often offered to village deities).",
+        "Rasmancha: Life of Krishna."
+    ],
+    "major_centres": [
+        {
+            "place_id": "panchmura-village",
+            "title": "Panchmura Village",
+            "summary": " The hub of Bankura Horse makers.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "20km from Bishnupur.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Artisan homes"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Day",
+    "where_to_buy": [
+        "Bishnupur local market",
+        "Panchmura"
+    ],
+    "shipping_and_packaging_tips": "Bankura horses have fragile ears and tails. Crate shipping advised for large ones.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 150,
+        "to": 5000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Real terracotta has a distinct reddish-orange burnt earth color.",
+    "sustainability_notes": "Eco-friendly.",
+    "local_economy_note": "A primary livelihood for the Kumbhakar caste in the region.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Terracotta",
+        "Bengal",
+        "Temple",
+        "Horse"
+    ],
+    "seo_title": "Bishnupur Terracotta: Temples and Bankura Horses",
+    "seo_description": "Explore the clay art of Bishnupur. From the majestic Terracotta temples to the iconic Bankura Horse of Bengal.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Bishnupur Terracotta",
+        "material": "Clay",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "West Bengal"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

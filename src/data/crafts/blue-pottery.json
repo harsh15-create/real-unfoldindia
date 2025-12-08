@@ -1,0 +1,121 @@
+{
+    "id": "blue-pottery",
+    "slug": "blue-pottery",
+    "title": "Blue Pottery",
+    "category_id": "pottery-ceramics",
+    "alt_titles": [
+        "Jaipur Blue Pottery"
+    ],
+    "origin_state_or_region": "Jaipur, Rajasthan",
+    "hero_image": "blue-pottery-hero.jpg",
+    "hero_image_alt": "Iconic blue and white floral pottery from Jaipur",
+    "gallery_images": [
+        "blue-pottery-1.jpg",
+        "blue-pottery-2.jpg",
+        "blue-pottery-3.jpg"
+    ],
+    "short_description": "A unique pottery style from Jaipur that uses quartz powder instead of clay, famous for its vibrant blue and floral patterns.",
+    "long_description": "Blue Pottery is widely recognized as a traditional craft of Jaipur, though it is Turko-Persian in origin. The name comes from the eye-catching cobalt blue dye used to color the pottery. It is one of the few pottery techniques in the world that does not use clay. Instead, the dough for the pottery is prepared by mixing quartz stone powder, powdered glass, Multani Mitti (Fuller's Earth), borax, gum, and water.\n\nThe technique was brought to India by early Muslim rulers and later patronized by the Maharajas of Jaipur. It is a fragile but beautiful art form, primarily used for decorative items like vases, bowls, plates, and tiles. The distinctive blue color (derived from cobalt oxide) and green (from copper oxide) against a white background give it its cool, refreshing look.",
+    "materials_used": [
+        "Quartz powder",
+        "Glass powder",
+        "Multani Mitti",
+        "Borax",
+        "Gum",
+        "Cobalt Oxide"
+    ],
+    "traditional_methods": [
+        "Dough Preparation: Mixing quartz, glass, and binders.",
+        "Molding: Pressing the dough into molds (no potter's wheel used).",
+        "Finishing: Smoothing and applying a white 'engobe' base.",
+        "Painting: Freehand painting with oxide pigments.",
+        "Glazing: Applying a lead-free glass glaze.",
+        "Firing: Low-temperature firing in kilns."
+    ],
+    "typical_products": [
+        "Vases",
+        "Plates",
+        "Bowls",
+        "Tiles",
+        "Doorknobs"
+    ],
+    "motifs_and_meanings": [
+        "Floral patterns: Persian influence.",
+        "Geometric shapes: Islamic art influence.",
+        "Animals/Birds: Local Rajasthani elements."
+    ],
+    "major_centres": [
+        {
+            "place_id": "sanganer-jaipur",
+            "title": "Sanganer, Jaipur",
+            "summary": "A hub for craft workshops including blue pottery and block printing.",
+            "best_time_to_visit": "Oct-Mar",
+            "how_to_reach": "Short drive from Jaipur city center.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Kripal Kumbh"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "2 hours",
+                "typical_price": 1000,
+                "booking_info_placeholder": "Contact local studios"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half Day",
+    "where_to_buy": [
+        "Jaipur Markets",
+        "Kripal Kumbh",
+        "Rajasthali Emporium"
+    ],
+    "shipping_and_packaging_tips": "Extremely fragile. Ensure bubble wrap and double boxing. Carry-on luggage recommended for small items.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 200,
+        "to": 5000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Genuine Blue Pottery is lighter than clay pottery and will develop cracks if handled roughly but shouldn't have visible cracks when new. It is opaque.",
+    "sustainability_notes": "Uses waste glass and quartz, saving river clay. Lead-free glazes are now common.",
+    "local_economy_note": "Supports hundreds of artisan families in and around Jaipur.",
+    "notable_artisans": [
+        {
+            "name": "Kripal Singh Shekhawat",
+            "note": "Revived the art form in the 1960s."
+        }
+    ],
+    "museums_collections": [
+        {
+            "name": "Albert Hall Museum",
+            "location": "Jaipur",
+            "source_url": null
+        }
+    ],
+    "canonical_references": [],
+    "tags": [
+        "Pottery",
+        "Jaipur",
+        "Fragile",
+        "Craft"
+    ],
+    "seo_title": "Jaipur Blue Pottery Guide: History, Process & Workshops",
+    "seo_description": "Discover Jaipur's Blue Pottery, a clay-free craft using quartz and glass. Learn about its Persian origins, making process, and where to buy.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Blue Pottery",
+        "material": "Quartz, Glass",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Jaipur"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

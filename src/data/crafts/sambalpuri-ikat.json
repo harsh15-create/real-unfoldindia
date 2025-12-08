@@ -1,0 +1,91 @@
+{
+    "id": "sambalpuri-ikat",
+    "slug": "sambalpuri-ikat",
+    "title": "Sambalpuri Ikat",
+    "category_id": "textiles-weaving",
+    "alt_titles": [
+        "Sambalpuri Saree"
+    ],
+    "origin_state_or_region": "Sambalpur/Bargarh, Odisha",
+    "hero_image": "sambalpuri-ikat-hero.jpg",
+    "hero_image_alt": "Colorful Sambalpuri saree with conch shell motifs",
+    "gallery_images": [
+        "sambalpuri-1.jpg"
+    ],
+    "short_description": "Hand-woven ikats from Odisha where the warp and weft are tie-dyed before weaving. Includes Bomkai patterns.",
+    "long_description": "Sambalpuri sarees are known for their incorporation of traditional motifs like shankha (shell), chakra (wheel), and phula (flower), all of which have deep symbolism in Odia culture. The highpoint of this art is the traditional craftsmanship of the 'Bandha' (Tie-dye).\n\nVarieties include Pasapali, Bomkai, and Bapta. The fabric is cotton or silk.",
+    "materials_used": [
+        "Cotton",
+        "Silk",
+        "Dyes"
+    ],
+    "traditional_methods": [
+        "Tying threads according to design.",
+        "Dyeing.",
+        "Weaving on handloom."
+    ],
+    "typical_products": [
+        "Sarees",
+        "Fabrics"
+    ],
+    "motifs_and_meanings": [
+        "Shankha (Conch): Auspiciousness.",
+        "Fish: Prosperity."
+    ],
+    "major_centres": [
+        {
+            "place_id": "bargarh-odisha",
+            "title": "Bargarh",
+            "summary": "Largest handloom cluster.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Sambalpur.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Weaver homes"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Day",
+    "where_to_buy": [
+        "Sambalpur",
+        "Boyanika"
+    ],
+    "shipping_and_packaging_tips": "Easy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 2000,
+        "to": 20000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Check for the haziness of Ikat. Handloom label.",
+    "sustainability_notes": "Important rural livelihood.",
+    "local_economy_note": "Handloom.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Textile",
+        "Odisha",
+        "Ikat",
+        "Culture"
+    ],
+    "seo_title": "Sambalpuri Ikat: Odisha's Tie-Dye Heritage",
+    "seo_description": "Discover Sambalpuri Ikat sarees. Famous for Bandhakala art and traditional motifs like wheel and conch.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Sambalpuri Ikat",
+        "material": "Cotton, Silk",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Odisha"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

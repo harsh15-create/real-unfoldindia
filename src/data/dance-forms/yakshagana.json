@@ -1,0 +1,105 @@
+{
+    "id": "yakshagana",
+    "slug": "yakshagana",
+    "title": "Yakshagana",
+    "alt_title": "Bayalata",
+    "origin_state": "Karnataka",
+    "hero_image": "yakshagana-hero.jpg",
+    "hero_image_alt": "Yakshagana artist with large headgear",
+    "gallery_images": [
+        "yakshagana-1.jpg",
+        "yakshagana-2.jpg"
+    ],
+    "short_description": "A traditional theatre form that combines dance, music, dialogue, heavy makeup, and elaborate costumes.",
+    "long_description": "Yakshagana is a traditional theatre form that combines dance, music, dialogue, costume, make-up, and stage techniques with a unique style and form. It is found in the coastal districts of Karnataka. \n\nYakshagana literally means the song (gana) of the Yaksha (nature spirits). It is a night-long performance where actors wear massive headgears and elaborate costumes to enact stories from the Ramayana, Mahabharata, and Puranas. Unlike Kathakali, actors in Yakshagana speak dialogues (often improvised) in addition to dancing.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Chande (High pitched drum)",
+        "Maddale",
+        "Harmonium"
+    ],
+    "costume_and_makeup": "Spectacular. Huge circular headgears (Kirita), vibrant red and yellow face paints, and heavy ornaments.",
+    "choreography_elements": [
+        "Spinning on knees",
+        "High jumps",
+        "Vigorous footwork"
+    ],
+    "typical_duration": "All night (Dusk to Dawn)",
+    "where_to_watch": [
+        "Udupi Krishna Temple",
+        "Dharmasthala",
+        "Mangalore"
+    ],
+    "where_to_learn": [
+        "Yakshagana Kendra, Udupi"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Performed in open fields (Bayalata)",
+        "Invocation to Ganesha"
+    ],
+    "common_festivals_or_events": [
+        "Navratri",
+        "Winter season"
+    ],
+    "top_places": [
+        {
+            "place_id": "udupi-temple",
+            "title": "Udupi Sri Krishna Matha",
+            "summary": "Regular performances in the temple premises.",
+            "best_time_to_see": "Winter evenings",
+            "how_to_reach": "Udupi Rail.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "The drum beats (Chande) are extremely loud and piercing. Be prepared.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 500,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Observation"
+        ],
+        "workshop_price_from": 0,
+        "currency": "INR",
+        "booking_info": "Udupi Kendra"
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Chittani Ramachandra Hegde"
+        ],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Karnataka",
+        "Theatre",
+        "Mythology"
+    ],
+    "seo_title": "Yakshagana Dance Guide: Karnataka's Theatre Art",
+    "seo_description": "Witness the grandeur of Yakshagana. A night-long theatre combining dance, dialogue, and high-pitched drums in Coastal Karnataka.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Yakshagana: Celestial Music",
+        "image": [
+            "https://example.com/images/yakshagana-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

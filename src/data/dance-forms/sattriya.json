@@ -1,0 +1,107 @@
+{
+    "id": "sattriya",
+    "slug": "sattriya",
+    "title": "Sattriya",
+    "alt_title": "Sattriya Nritya",
+    "origin_state": "Assam",
+    "hero_image": "sattriya-hero.jpg",
+    "hero_image_alt": "Sattriya dancers in white silk",
+    "gallery_images": [
+        "sattriya-1.jpg",
+        "sattriya-2.jpg"
+    ],
+    "short_description": "Originally performed in monasteries, this form is a way to celebrate the spiritual beliefs of Vaishnavism.",
+    "long_description": "Sattriya is a classical dance-drama form from Assam, introduced in the 15th century by the great Vaishnava saint Srimanta Sankardev as a powerful medium for propagating the Vaishnava faith. For centuries, it was nurtured and preserved within the 'Sattras' (monasteries) by male monks (Bhokots).\n\nIn the modern era, it has moved from the monastery to the metropolitan stage and is now performed by women as well. The dance is devotional in nature, describing the deeds of Krishna and Rama.",
+    "performance_style": "classical",
+    "music_and_instruments": [
+        "Borgeet (Songs)",
+        "Khol (Drum)",
+        "Cymbals",
+        "Flute"
+    ],
+    "costume_and_makeup": "Assamese Pat Silk costumes (Muga). Men wear dhotis and turbans; women wear traditional Assamese mekhela chador.",
+    "choreography_elements": [
+        "Ora (Stance)",
+        "Footwork",
+        "Hand gestures"
+    ],
+    "typical_duration": "45–60 minutes",
+    "where_to_watch": [
+        "Majuli Island Sattras",
+        "Guwahati Rabindra Bhawan"
+    ],
+    "where_to_learn": [
+        "Sattras in Majuli",
+        "Guwahati"
+    ],
+    "recommended_experience": "ritual",
+    "key_traditions": [
+        "Gayan-Bayan (Orchestral prelude)",
+        "Performed as part of prayer services"
+    ],
+    "common_festivals_or_events": [
+        "Majuli Raas Mahotsav",
+        "Rongali Bihu (Sattriya performances)"
+    ],
+    "top_places": [
+        {
+            "place_id": "majuli-island",
+            "title": "Majuli Island",
+            "summary": "The world's largest river island and hub of Sattriya culture. Visit the Sattras (monasteries).",
+            "best_time_to_see": "November (Raas)",
+            "how_to_reach": "Ferry from Jorhat.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "Respect the sanctity of the Sattra.",
+        "accessibility_notes": "Majuli requires ferry travel.",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 0,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Conservative."
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Stay in a Sattra guest house"
+        ],
+        "workshop_price_from": 500,
+        "currency": "INR",
+        "booking_info": "Local Sattradhikars"
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Jatin Goswami",
+            "Ghanakanta Bora"
+        ],
+        "canonical_references": []
+    },
+    "tags": [
+        "Classical",
+        "Assam",
+        "Monastery",
+        "Devotional"
+    ],
+    "seo_title": "Sattriya Dance Guide: Monastic Dance of Assam",
+    "seo_description": "Explore Sattriya, the classical dance of Assam's monasteries. Learn about its 500-year history and the Sattras of Majuli.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Sattriya: Devotion in Dance",
+        "image": [
+            "https://example.com/images/sattriya-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

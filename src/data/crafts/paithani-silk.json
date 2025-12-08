@@ -1,0 +1,88 @@
+{
+    "id": "paithani-silk",
+    "slug": "paithani-silk",
+    "title": "Paithani Silk",
+    "category_id": "textiles-weaving",
+    "alt_titles": [],
+    "origin_state_or_region": "Paithan & Yeola, Maharashtra",
+    "hero_image": "paithani-silk-hero.jpg",
+    "hero_image_alt": "Paithani saree pallu with peacock design",
+    "gallery_images": [
+        "paithani-1.jpg"
+    ],
+    "short_description": "A variety of sari characterized by borders of an oblique square design, and a pallu with a peacock motif.",
+    "long_description": "Paithani is a variety of sari, named after the Paithan town in Aurangabad district, Maharashtra state, where saris are woven by hand. Made from very fine silk, it is considered one of the richest saris in India. \n\nPaithani is characterized by borders of an oblique square design, and a pallu with a Peacock motif. The art of weaving Paithani has evolved from the tapestries of old.",
+    "materials_used": [
+        "Silk",
+        "Zari (Gold/Silver threads)"
+    ],
+    "traditional_methods": [
+        "Dyeing silk.",
+        "Loading the loom.",
+        "Weaving (Tapestry technique for pallu)."
+    ],
+    "typical_products": [
+        "Sarees",
+        "Dupattas"
+    ],
+    "motifs_and_meanings": [
+        "Mor (Peacock): Beauty.",
+        "Muniya (Parrot): Love."
+    ],
+    "major_centres": [
+        {
+            "place_id": "yeola-town",
+            "title": "Yeola",
+            "summary": "Main manufacturing hub today.",
+            "best_time_to_visit": "All year",
+            "how_to_reach": "30km from Shirdi.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Weaver societies"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "2 Hours",
+    "where_to_buy": [
+        "Yeola Markets",
+        "Paithan"
+    ],
+    "shipping_and_packaging_tips": "Expensive, carry safely.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 8000,
+        "to": 200000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Real Paithani looks same on both sides (reverse is clean) due to tapestry weave.",
+    "sustainability_notes": "Preserves weaving heritage.",
+    "local_economy_note": "High value.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Textile",
+        "Maharashtra",
+        "Silk",
+        "Luxury"
+    ],
+    "seo_title": "Paithani Silk Saree: Maharashtra's Golden Weave",
+    "seo_description": "Discover the royal Paithani saree. Known for its peacock pallu and brilliant colors. A tapestry weaving art from Maharashtra.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Paithani Silk",
+        "material": "Silk",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Maharashtra"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

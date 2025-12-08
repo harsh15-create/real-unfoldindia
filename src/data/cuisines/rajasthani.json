@@ -1,0 +1,212 @@
+{
+    "id": "rajasthani",
+    "slug": "rajasthani",
+    "title": "Rajasthani Cuisine",
+    "alt_titles": [
+        "Marwari Cuisine",
+        "Rajput Cuisine"
+    ],
+    "origin_state_or_region": "Rajasthan, West India",
+    "hero_image": "rajasthani-cuisine-hero.jpg",
+    "hero_image_alt": "Platter of Dal Baati Churma with Ghee",
+    "gallery_images": [
+        "rajasthani-1.jpg",
+        "rajasthani-2.jpg",
+        "rajasthani-3.jpg"
+    ],
+    "short_description": "A royal cuisine adapted to the desert, known for Dal Baati Churma, spicy meat curries, and an array of sweets.",
+    "long_description": "Rajasthani cuisine is a splendid example of how geography influences food. Originating from the arid desert region of Western India, it developed to rely less on water and green vegetables and more on milk, buttermilk, ghee, and pulses. The cooking style is rich and spicy, designed to withstand the harsh desert climate.\n\nThe cuisine is split broadly into two traditions: the vegetarian fare of the Marwaris, who follow strict dietary rules, and the non-vegetarian specialties of the Rajputs, the warrior class who loved their game meat. Key ingredients include gram flour (besan), lentils, millet (bajra), and corn. Spices like red chili, turmeric, and coriander are used generously. The most iconic dish is 'Dal Baati Churma', a hearty combination of baked wheat balls, lentils, and sweetened cereal.",
+    "signature_dishes": [
+        {
+            "name": "Dal Baati Churma",
+            "short_description": "Hard wheat rolls (Baati) baked and soaked in ghee, served with spicy lentil curry (Dal) and sweetened crushed wheat (Churma).",
+            "best_place_to_try": "Chokhi Dhani, Jaipur",
+            "serving_style": "Main Course Thali",
+            "approx_price": {
+                "currency": "INR",
+                "from": 400,
+                "to": 800,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Laal Maas",
+            "short_description": "A fiery mutton curry prepared with Mathania red chillies and yogurt/curd.",
+            "best_place_to_try": "Handi Restaurant, Jaipur",
+            "serving_style": "Main Course with Bajra Roti",
+            "approx_price": {
+                "currency": "INR",
+                "from": 500,
+                "to": 900,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Gatte ki Sabzi",
+            "short_description": "Gram flour (besan) dumplings cooked in a spicy yogurt-based gravy.",
+            "best_place_to_try": "LMB (Laxmi Misthan Bhandar), Jaipur",
+            "serving_style": "Main Course",
+            "approx_price": {
+                "currency": "INR",
+                "from": 300,
+                "to": 500,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Ker Sangri",
+            "short_description": "A traditional dry vegetable dish made from desert beans (Sangri) and berries (Ker).",
+            "best_place_to_try": "Local eateries in Jodhpur",
+            "serving_style": "Side Dish",
+            "approx_price": {
+                "currency": "INR",
+                "from": 300,
+                "to": 600,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Ghevar",
+            "short_description": "A disc-shaped sweet cake made from flour and soaked in sugar syrup, synonymous with Rajasthani festivals.",
+            "best_place_to_try": "Rawat Mishthan Bhandar, Jaipur",
+            "serving_style": "Dessert",
+            "approx_price": {
+                "currency": "INR",
+                "from": 200,
+                "to": 400,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Chokhi Dhani",
+            "location": "Jaipur (Outskirts)",
+            "notes": "An ethnic village resort offering a quintessential Rajasthani dining experience.",
+            "price_range": "₹800 - ₹1500 (Entry + Meal)",
+            "booking_url": null
+        },
+        {
+            "name": "Spice Court",
+            "location": "Civil Lines, Jaipur",
+            "notes": "Known for its Kheema Baati and Junglee Maas.",
+            "price_range": "₹800 - ₹1200",
+            "booking_url": null
+        },
+        {
+            "name": "Gypsy",
+            "location": "Sardarpura, Jodhpur",
+            "notes": "Famous for its massive and authentic Rajasthani Thali.",
+            "price_range": "₹400 - ₹700",
+            "booking_url": null
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Johri Bazaar",
+            "location": "Jaipur",
+            "what_to_try": "Lassi at Lassiwala (MI Road nearby), Kachoris",
+            "how_to_reach": "Walled City, Jaipur"
+        },
+        {
+            "name": "Clock Tower Market",
+            "location": "Jodhpur",
+            "what_to_try": "Mawa Kachori, Mirchi Vada",
+            "how_to_reach": "Central Jodhpur"
+        }
+    ],
+    "recommended_home_cook_experiences_or_workshops": [
+        {
+            "title": "Cooking with a Rajput Family",
+            "provider_placeholder": "Jaipur Home Cooking",
+            "duration": "3 Hours",
+            "price_estimate": "₹2000 per person"
+        }
+    ],
+    "street_food_highlights": [
+        "Pyaaz Kachori - Deep-fried pastry filled with spicy onion mix.",
+        "Mirchi Vada - Large green chilies stuffed with potato spice mix and fried.",
+        "Bkaneri Bhujia - Crispy gram flour snack."
+    ],
+    "festival_foods": [
+        "Teej (Monsoon): Ghevar is the highlight.",
+        "Gangaur: Gunad (sweet dishes)."
+    ],
+    "best_months_to_visit_for_food": "October to March (Pleasant weather for rich food)",
+    "vegetarian_friendly": true,
+    "common_allergens": [
+        "Dairy",
+        "Nuts",
+        "Gluten"
+    ],
+    "recommended_precautions_for_travellers": "Food can be quite spicy (chili heat). Ghee usage is heavy.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 250,
+        "to": 800,
+        "price_type": "estimated",
+        "last_checked": "2025-01-01"
+    },
+    "how_to_order_guidelines": "Try a 'Thali' to experience a bit of everything. Bajra Roti goes best with Laal Maas or Ker Sangri.",
+    "tipping_guidelines": "10% is standard.",
+    "cultural_significance": "Food was preserved for long journeys and wars. The use of milk/ghee instead of water was a necessity of the desert.",
+    "dining_etiquette": "Traditionally served on low tables (Bajots). Hospitality involves insistent serving (Manwar).",
+    "top_places_to_experience": [
+        {
+            "place_id": "jaipur",
+            "title": "Jaipur",
+            "summary": "The culinary gateway, offering everything from street kachoris to royal thalis.",
+            "best_where_to_eat": "MI Road, Walled City",
+            "how_to_reach": "International Airport.",
+            "is_bookable": true,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "jodhpur",
+            "title": "Jodhpur",
+            "summary": "Famous for its sweets and spicy Mirchi Vadas.",
+            "best_where_to_eat": "Sardarpura, Clock Tower",
+            "how_to_reach": "Airport and Rail connectivity.",
+            "is_bookable": false,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "bikaner",
+            "title": "Bikaner",
+            "summary": "The snack capital, famous for Bhujia and Rasgullas.",
+            "best_where_to_eat": "Station Road",
+            "how_to_reach": "Train is best.",
+            "is_bookable": false,
+            "related_experience_slugs": []
+        }
+    ],
+    "suggested_itineraries": [
+        "Royal Rajasthan Food Trail: Jaipur (Dal Baati) -> Jodhpur (Mirchi Vada) -> Bikaner (Bhujia)."
+    ],
+    "media_and_references": {
+        "notable_chefs_and_restaurants": [],
+        "canonical_references": [],
+        "video_refs": []
+    },
+    "tags": [
+        "West Indian",
+        "Vegetarian-Friendly",
+        "Spicy",
+        "Royal"
+    ],
+    "seo_title": "Rajasthani Cuisine: Dal Baati, Laal Maas & Ghevar Guide",
+    "seo_description": "Experience the royal food of Rajasthan. From Dal Baati Churma to spicy Laal Maas, explore the best of Jaipur and Jodhpur.",
+    "json_ld_template": {},
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

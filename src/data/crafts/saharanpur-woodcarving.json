@@ -1,0 +1,95 @@
+{
+    "id": "saharanpur-woodcarving",
+    "slug": "saharanpur-woodcarving",
+    "title": "Saharanpur Carving",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "UP Wood Carving"
+    ],
+    "origin_state_or_region": "Saharanpur, Uttar Pradesh",
+    "hero_image": "saharanpur-woodcarving-hero.jpg",
+    "hero_image_alt": "Detailed wooden Jali screen from Saharanpur",
+    "gallery_images": [
+        "saharanpur-1.jpg"
+    ],
+    "short_description": "Detailed wood carving and lattice work (Jali) from Uttar Pradesh, typically on Sheesham wood.",
+    "long_description": "Saharanpur is known as the 'Sheesham Wood Village' and is famous for its wood carving industry. The artisans here are masters of the 'Jali' or trellis work, creating intricate geometric/floral patterns by carving through the wood. \n\nOriginally influenced by Kashmiri designs, the style has evolved. They produce everything from small boxes and toys to massive partitions and furniture. Brass inlay (Tarkashi) is also common here.",
+    "materials_used": [
+        "Sheesham (Rosewood)",
+        "Mango Wood",
+        "Brass (for inlay)"
+    ],
+    "traditional_methods": [
+        "Seasoning.",
+        "Cutting.",
+        "Carving (Chisels).",
+        "Jali cutting (Fretwork).",
+        "Buffing/Polishing."
+    ],
+    "typical_products": [
+        "Screens (Jali)",
+        "Furniture",
+        "Trays",
+        "Boxes"
+    ],
+    "motifs_and_meanings": [
+        "Angoori (Vine).",
+        "Jali (Geometry)."
+    ],
+    "major_centres": [
+        {
+            "place_id": "saharanpur-city",
+            "title": "Saharanpur",
+            "summary": "Wood carving capital.",
+            "best_time_to_visit": "All year",
+            "how_to_reach": "Train from Delhi.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Wood Market"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "High",
+    "where_to_buy": [
+        "Saharanpur Markets",
+        "Exports"
+    ],
+    "shipping_and_packaging_tips": "Heavy furniture.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 500,
+        "to": 50000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Check the fineness of the Jali work.",
+    "sustainability_notes": "Using sustainable Mango wood more now.",
+    "local_economy_note": "Massive employment.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Wood",
+        "UP",
+        "Jali",
+        "Furniture"
+    ],
+    "seo_title": "Saharanpur Wood Carving: The Jali Art of UP",
+    "seo_description": "Visit Saharanpur, the wood carving capital of India. Famous for Sheesham furniture and intricate Jali (lattice) work.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Saharanpur Woodcarving",
+        "material": "Sheesham Wood",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Uttar Pradesh"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

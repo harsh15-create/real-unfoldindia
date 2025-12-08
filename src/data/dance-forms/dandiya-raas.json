@@ -1,0 +1,98 @@
+{
+    "id": "dandiya-raas",
+    "slug": "dandiya-raas",
+    "title": "Dandiya Raas",
+    "alt_title": "Raas",
+    "origin_state": "Gujarat",
+    "hero_image": "dandiya-hero.jpg",
+    "hero_image_alt": "Dancers clashing sticks in Dandiya Raas",
+    "gallery_images": [
+        "dandiya-1.jpg"
+    ],
+    "short_description": "The playful stick dance representing the mock fight between Goddess Durga and Mahishasura.",
+    "long_description": "Dandiya Raas is the traditional folk dance of Gujarat and Rajasthan performed during Navratri. It involves men and women dancing with colorful wooden sticks (dandiyas) in their hands. The striking of sticks creates a rhythmic accompaniment to the music. \n\nSymbolically, it represents the battle between Goddess Durga and the demon Mahishasura (the sticks represent swords). It is slightly different from Garba, which is hand-clapping and singing, though both are performed at the same events.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Dhol",
+        "Dandiya sticks"
+    ],
+    "costume_and_makeup": "Chaniya Choli and Kediyu.",
+    "choreography_elements": [
+        "Stick clashing",
+        "Partner exchange",
+        "Circular movement"
+    ],
+    "typical_duration": "Hours",
+    "where_to_watch": [
+        "Gujarat Navratri"
+    ],
+    "where_to_learn": [
+        "Community halls"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Two circles (Clockwise/Anti)",
+        "Partner switching"
+    ],
+    "common_festivals_or_events": [
+        "Navratri"
+    ],
+    "top_places": [
+        {
+            "place_id": "ahmedabad-gmdc",
+            "title": "GMDC Ground, Ahmedabad",
+            "summary": "State organized mega event.",
+            "best_time_to_see": "Navratri",
+            "how_to_reach": "Ahmedabad.",
+            "is_bookable": true,
+            "related_content_slugs": []
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "Bring your own sticks or buy at venue.",
+        "accessibility_notes": "Crowded.",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 200,
+            "to": 1000,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Traditional"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Workshop"
+        ],
+        "workshop_price_from": 500,
+        "currency": "INR",
+        "booking_info": "Local"
+    },
+    "media_references": {
+        "notable_practitioners": [],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Gujarat",
+        "Sticks",
+        "Navratri"
+    ],
+    "seo_title": "Dandiya Raas Guide: The Stick Dance of Gujarat",
+    "seo_description": "Play Dandiya Raas, the energetic stick dance of Gujarat. Symbolizing the battle of Durga, performed during Navratri.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Dandiya Raas: The Rhythm of Sticks",
+        "image": [
+            "https://example.com/images/dandiya-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

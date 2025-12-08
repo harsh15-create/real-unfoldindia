@@ -1,0 +1,95 @@
+{
+    "id": "pahari-miniature",
+    "slug": "pahari-miniature",
+    "title": "Pahari Miniature",
+    "category_id": "art-paintings",
+    "alt_titles": [
+        "Kangra Painting",
+        "Basohli Painting"
+    ],
+    "origin_state_or_region": "Kangra/Basholi, Himachal Pradesh",
+    "hero_image": "pahari-miniature-hero.jpg",
+    "hero_image_alt": "Lyrical Pahari painting of Radha and Krishna",
+    "gallery_images": [
+        "pahari-1.jpg"
+    ],
+    "short_description": "A style of miniature painting from the Himalayan hill kingdoms, known for its lyrical nature and focus on love and devotion.",
+    "long_description": "Pahari painting is an umbrella term for miniature painting styles that originated in the Himalayan hill kingdoms of North India (Himachal Pradesh, Jammu). \n\nThe most famous schools are:\n- **Basohli**: The earliest style, known for bold colors and vigorous lines.\n- **Kangra**: Known for its delicacy, lyrical quality, and focus on the Bhakti cult (devotion), especially the love of Radha and Krishna. It is characterized by verdant greenery and fluid lines.",
+    "materials_used": [
+        "Handmade paper",
+        "Mineral colors",
+        "Gold"
+    ],
+    "traditional_methods": [
+        "Similar to Rajasthani miniature but with different aesthetic sensibilities."
+    ],
+    "typical_products": [
+        "Paintings"
+    ],
+    "motifs_and_meanings": [
+        "Radha Krishna: Divine Love.",
+        "Baramasa: Twelve Months (Seasons)."
+    ],
+    "major_centres": [
+        {
+            "place_id": "kangra-valley",
+            "title": "Kangra Valley",
+            "summary": "The home of the Kangra Arts Promotion Society.",
+            "best_time_to_visit": "Spring/Autumn",
+            "how_to_reach": "Dharamshala.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Kangra Arts Promotion Society"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half Day",
+    "where_to_buy": [
+        "Dharamshala",
+        "Kangra Museum"
+    ],
+    "shipping_and_packaging_tips": "Fragile paper.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 1000,
+        "to": 20000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the portrayal of greenery and the specific profile of the faces.",
+    "sustainability_notes": "Revival efforts ongoing.",
+    "local_economy_note": "Niche.",
+    "notable_artisans": [],
+    "museums_collections": [
+        {
+            "name": "Kangra Art Museum",
+            "location": "Dharamshala",
+            "source_url": null
+        }
+    ],
+    "canonical_references": [],
+    "tags": [
+        "Painting",
+        "Himachal",
+        "Miniature",
+        "Kangra"
+    ],
+    "seo_title": "Pahari Miniature Painting: Kangra and Basohli Art",
+    "seo_description": "Discover the lyrical Pahari miniature paintings of the Himalayas. Explore the romance of the Kangra and Basohli schools.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Pahari Miniature",
+        "material": "Paper",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Himachal Pradesh"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

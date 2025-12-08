@@ -1,0 +1,104 @@
+{
+    "id": "lavani",
+    "slug": "lavani",
+    "title": "Lavani",
+    "alt_title": null,
+    "origin_state": "Maharashtra",
+    "hero_image": "lavani-hero.jpg",
+    "hero_image_alt": "Lavani dancers in nauvari sarees",
+    "gallery_images": [
+        "lavani-1.jpg",
+        "lavani-2.jpg"
+    ],
+    "short_description": "Known for its powerful rhythm and erotic sentiment, performed to the beats of the Dholki.",
+    "long_description": "Lavani is a genre of music and dance popular in Maharashtra. It is a combination of traditional song and dance, which particularly performed to the beats of 'Dholki', a percussion instrument. Lavani is noted for its powerful rhythm and erotic sentiment. Lavani has contributed substantially to the development of Marathi folk theatre. \n\nLavani is performed by women wearing a nine-yard saree. The songs are sung in a quick tempo. Originating from the Peshwa rule in the 18th century, it was a morale booster for tired soldiers.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Dholki",
+        "Tuntuni",
+        "Manjira"
+    ],
+    "costume_and_makeup": "Nauvari (9-yard) saree worn in the Maharashtrian style. Heavy jewelry and a distinctive Nath (nose ring).",
+    "choreography_elements": [
+        "Fast footwork",
+        "Expressive eyes",
+        "Sassy gestures"
+    ],
+    "typical_duration": "15-30 minutes",
+    "where_to_watch": [
+        "Pune Festival",
+        "Mumbai Ganesh Utsav"
+    ],
+    "where_to_learn": [
+        "Mumbai folk academies"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Baithakichi Lavani (Sitting performance)",
+        "Phadachi Lavani (Public performance)"
+    ],
+    "common_festivals_or_events": [
+        "Ganesh Chaturthi",
+        "Gudi Padwa"
+    ],
+    "top_places": [
+        {
+            "place_id": "pune-city",
+            "title": "Pune",
+            "summary": "The cultural capital of Maharashtra where Lavani flourished.",
+            "best_time_to_see": "Aug-Sept",
+            "how_to_reach": "Pune Airport.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "It is high energy and often includes satire.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 200,
+            "to": 1000,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Workshop"
+        ],
+        "workshop_price_from": 500,
+        "currency": "INR",
+        "booking_info": "Local groups"
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Surekha Puneker"
+        ],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Maharashtra",
+        "Rhythm",
+        "Theatre"
+    ],
+    "seo_title": "Lavani Dance Guide: Maharashtra's Rhythmic Folk Art",
+    "seo_description": "Experience Lavani, the powerful folk dance of Maharashtra. Known for the Dholki beat, Nauvari sarees, and spirited performance.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Lavani: Rhythm and romance",
+        "image": [
+            "https://example.com/images/lavani-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "id": "kathakali",
+    "slug": "kathakali",
+    "title": "Kathakali",
+    "alt_title": "Story-Play",
+    "origin_state": "Kerala",
+    "hero_image": "kathakali-hero.jpg",
+    "hero_image_alt": "Kathakali artist in full green makeup",
+    "gallery_images": [
+        "kathakali-1.jpg",
+        "kathakali-2.jpg",
+        "kathakali-3.jpg"
+    ],
+    "short_description": "Renowned for its elaborate makeup, costumes, and face masks, enacting stories from Hindu epics.",
+    "long_description": "Kathakali is a vibrant dance-drama from Kerala known for its larger-than-life costumes and elaborate makeup (Vesham). 'Katha' means story and 'Kali' means play. It evolved in the 17th century and is rooted in the martial art form Kalaripayattu, which influences its physical training and flexibility.\n\nKathakali is strictly purely a male-dominated art (traditionally), where men play female roles too, though this is changing. It is a 'total theatre' blending dance, music, acting, and makeup. The makeup codes are complex: 'Pacha' (Green) for noble heroes like Rama, 'Kathi' (Knife) for anti-heroes like Ravana, and 'Thadi' (Beard) for varying evil or hunter characters.\n\nThe actor does not speak; the story is sung by vocalists (Ponnani and Singidi), and the actor interprets it through Mudras (hand gestures) and Navarasas (facial expressions), with eyes playing a crucial role.",
+    "performance_style": "classical",
+    "music_and_instruments": [
+        "Sopana Sangeetam",
+        "Chenda (Drum)",
+        "Maddalam",
+        "Chengila (Gong)",
+        "Ilathalam (Cymbals)"
+    ],
+    "costume_and_makeup": "The hallmark of Kathakali. Makeup takes 3-4 hours to apply. It uses natural pigments and rice paste extended from the face (Chutti). Enormous headdresses (Kiritam) and billowing skirts make the dancers appear superhuman.",
+    "choreography_elements": [
+        "Kalasadham (Pure dance sequences)",
+        "Ilakiyaattam (Interpolation/Improvisation)",
+        "Mudras (24 hand gestures)",
+        "Eye movements"
+    ],
+    "typical_duration": "Traditional: All night. Tourist Format: 1-2 hours.",
+    "where_to_watch": [
+        "Kerala Kalamandalam",
+        "Fort Kochi Cultural Centres",
+        "Temple festivals in Kerala"
+    ],
+    "where_to_learn": [
+        "Kerala Kalamandalam, Cheruthuruthy",
+        "Margi Theatre, Trivandrum"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Makeup application is a ritual in itself",
+        "Lighting the Keli (lamp) before performance"
+    ],
+    "common_festivals_or_events": [
+        "Onam",
+        "Thrissur Pooram (Cultural events)"
+    ],
+    "top_places": [
+        {
+            "place_id": "kalamandalam",
+            "title": "Kerala Kalamandalam",
+            "summary": "The premier university for art and culture in Kerala. A visit here is a pilgrimage for art lovers.",
+            "best_time_to_see": "June-March",
+            "how_to_reach": "Cheruthuruthy, near Shoranur.",
+            "is_bookable": true,
+            "related_content_slugs": [
+                "kerala"
+            ]
+        },
+        {
+            "place_id": "fort-kochi-theatre",
+            "title": "Fort Kochi Theatres",
+            "summary": "Several centers act short daily performances for tourists with makeup demos.",
+            "best_time_to_see": "Daily evenings",
+            "how_to_reach": "Fort Kochi.",
+            "is_bookable": true,
+            "related_content_slugs": [
+                "kerala",
+                "kochi"
+            ]
+        },
+        {
+            "place_id": "margi-trivandrum",
+            "title": "Margi Theatre, Trivandrum",
+            "summary": "Dedicated to the revival of Kathakali and Koodiyattam.",
+            "best_time_to_see": "Check schedule",
+            "how_to_reach": "Thiruvananthapuram.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "kerala"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "Arrive early to watch the makeup process (Chutti) – it's fascinating. The drumming can be very loud; earplugs might help sensitive ears.",
+        "accessibility_notes": "Kochi centers are usually accessible.",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 300,
+            "to": 800,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual."
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Observation only",
+            "1-day eye exercise demo"
+        ],
+        "workshop_price_from": 500,
+        "currency": "INR",
+        "booking_info": "Kalamandalam or Kochi centers."
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Kalamandalam Gopi",
+            "Kottakkal Sivaraman"
+        ],
+        "canonical_references": [
+            {
+                "title": "Kerala Kalamandalam",
+                "source_url": "http://www.kalamandalam.org/"
+            }
+        ]
+    },
+    "tags": [
+        "Classical",
+        "Kerala",
+        "Theatre",
+        "Makeup",
+        "Martial Arts"
+    ],
+    "seo_title": "Kathakali Dance Guide: Makeup, Stories & Masks",
+    "seo_description": "Witness Kathakali, the grand dance-drama of Kerala. Famous for elaborate green face makeup, heavy costumes, and enactment of the Epics.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Kathakali: God's Own Dance Drama",
+        "image": [
+            "https://example.com/images/kathakali-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

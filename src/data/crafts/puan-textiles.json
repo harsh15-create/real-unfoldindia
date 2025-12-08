@@ -1,0 +1,91 @@
+{
+    "id": "puan-textiles",
+    "slug": "puan-textiles",
+    "title": "Puan Textiles",
+    "category_id": "textiles-weaving",
+    "alt_titles": [
+        "Mizo Puan"
+    ],
+    "origin_state_or_region": "Aizawl, Mizoram",
+    "hero_image": "puan-textiles-hero.jpg",
+    "hero_image_alt": "Woman weaving colorful Puan on a loin loom",
+    "gallery_images": [
+        "puan-1.jpg"
+    ],
+    "short_description": "The traditional skirt worn by Mizo women, woven on a loin loom with vibrant colors and bold stripes.",
+    "long_description": "Puan is the traditional attire of the Mizo people, a colorful skirt wrapped around the waist. It is woven by women on the 'loin loom' (backstrap loom). \n\nThe Puanchei is the most colorful of the puans and is used on festive occasions. The intricate designs are woven with supplementary yarns. The patterns often reflect the tribe or village of the weaver.",
+    "materials_used": [
+        "Cotton",
+        "Synthetic wool"
+    ],
+    "traditional_methods": [
+        "Loin loom weaving.",
+        "Warping.",
+        "Weft insertion."
+    ],
+    "typical_products": [
+        "Puan (Skirts)",
+        "Shawls",
+        "Bags"
+    ],
+    "motifs_and_meanings": [
+        "Stripes: Identity.",
+        "Geometric shapes."
+    ],
+    "major_centres": [
+        {
+            "place_id": "aizawl-city",
+            "title": "Aizawl",
+            "summary": "Thenzawl near Aizawl is the handloom hub.",
+            "best_time_to_visit": "Winter (Chapchar Kut)",
+            "how_to_reach": "Aizawl Airport.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Thenzawl Handloom Centre"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half Day",
+    "where_to_buy": [
+        "Bara Bazar, Aizawl",
+        "Thenzawl"
+    ],
+    "shipping_and_packaging_tips": "Easy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 1000,
+        "to": 5000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the tightness of the weave characteristic of loin looms.",
+    "sustainability_notes": "Home-based industry.",
+    "local_economy_note": "Women driven.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Textile",
+        "Mizoram",
+        "Loom",
+        "Tribal"
+    ],
+    "seo_title": "Puan Textiles: The Vibrant Weave of Mizoram",
+    "seo_description": "Explore Puan, the traditional Mizo textile. Woven on loin looms with bold stripes and intricate geometric patterns.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Puan Textiles",
+        "material": "Cotton",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Mizoram"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

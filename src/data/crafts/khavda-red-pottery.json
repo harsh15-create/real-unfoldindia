@@ -1,0 +1,104 @@
+{
+    "id": "khavda-red-pottery",
+    "slug": "khavda-red-pottery",
+    "title": "Khavda Pottery",
+    "category_id": "pottery-ceramics",
+    "alt_titles": [
+        "Kutch Painted Pottery"
+    ],
+    "origin_state_or_region": "Khavda, Kutch, Gujarat",
+    "hero_image": "khavda-red-pottery-hero.jpg",
+    "hero_image_alt": "Red clay pots with black and white patterns",
+    "gallery_images": [
+        "khavda-1.jpg",
+        "khavda-2.jpg"
+    ],
+    "short_description": "Distinctive red clay pottery from Kutch, Gujarat, painted with black and white geometric patterns using natural colors.",
+    "long_description": "Khavda pottery is an ancient art form from holding strong in the village of Khavda, North Kutch. The men bring the mud from the lakeside and shape it using a potter's wheel into various vessels. Once dried, the women of the house perform the painting.\n\nUsing a red slip (Gairu) as a base, they paint intricate designs in black and white. The black color consists of bamboo ash, while the white is made from white clay. The pottery is then fired, resulting in the signature terra-cotta color with distinct tribal motifs. It is deeply connected to the daily life of the region, used for storing water and cooking.",
+    "materials_used": [
+        "Local lake clay",
+        "Gairu (Red ochre)",
+        "Bamboo ash",
+        "White clay"
+    ],
+    "traditional_methods": [
+        "Clay sourcing from Rann lake areas.",
+        "Wheel throwing by men.",
+        "Sun drying.",
+        "Hand painting by women using bamboo sticks.",
+        "Firing in open kilns."
+    ],
+    "typical_products": [
+        "Matka (Water pots)",
+        "Plates",
+        "Bowls",
+        "Lamps"
+    ],
+    "motifs_and_meanings": [
+        "Geometric lines: Tribal identity.",
+        "Dots and Loops: Stylized nature."
+    ],
+    "major_centres": [
+        {
+            "place_id": "khavda-village",
+            "title": "Khavda Village",
+            "summary": "The heart of this craft, located near the White Rann.",
+            "best_time_to_visit": "Nov-Feb (Rann Utsav)",
+            "how_to_reach": "70km from Bhuj.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Local artisans"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "1 hour",
+                "typical_price": 500,
+                "booking_info_placeholder": "Walk-in"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "2 Hours",
+    "where_to_buy": [
+        "Bhujodi",
+        "Rann Utsav Stalls",
+        "Khavda"
+    ],
+    "shipping_and_packaging_tips": "Terracotta is porous and breakable. Hand carry if possible.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 100,
+        "to": 1500,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the natural matte finish of the painting. It is not glazed.",
+    "sustainability_notes": "100% natural materials and biodegradable.",
+    "local_economy_note": "Vital income for manufacturing families in the arid Kutch region.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Pottery",
+        "Gujarat",
+        "Tribal",
+        "Kutch"
+    ],
+    "seo_title": "Khavda Pottery Guide: Kutch's Red and Black Art",
+    "seo_description": "Explore the rustic charm of Khavda pottery from Kutch. Hand-painted red clay vessels with tribal black and white distinctive patterns.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Khavda Pottery",
+        "material": "Clay",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Kutch"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

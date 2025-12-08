@@ -1,0 +1,211 @@
+{
+    "id": "street-food",
+    "slug": "street-food",
+    "title": "Indian Street Food",
+    "alt_titles": [
+        "Chaat",
+        "Nukkad ka Khana"
+    ],
+    "origin_state_or_region": "Pan-India",
+    "hero_image": "street-food-hero.jpg",
+    "hero_image_alt": "Collage of Pani Puri, Vada Pav, and Samosa",
+    "gallery_images": [
+        "street-food-1.jpg",
+        "street-food-2.jpg",
+        "street-food-3.jpg"
+    ],
+    "short_description": "The heart of India's food culture. From spicy Pani Puri and Chaat to savory Kebabs and Rolls.",
+    "long_description": "Street food in India is not just a cheap meal; it's a way of life, a cultural phenomenon that transcends social boundaries. Every city, town, and village has its own street food culture, often centered around bustling markets, railway stations, and religious sites.\n\nThe most ubiquitous category is 'Chaat'—a family of savory snacks that originated in North India (Uttar Pradesh/Delhi) known for their complex flavor profile: spicy, tangy, salty, sweet, and crunchy all at once. Ingredients like potatoes, chickpeas, crisp fried dough, yogurt, and tamarind chutney are staples. Beyond Chaat, street food includes substantial meals like Vada Pav in Mumbai (the Indian burger), Chowmein (Indian Chinese), Rolls in Kolkata, and Idli-Dosa in the South. It is fresh, prepared largely in front of you, and incredibly affordable.",
+    "signature_dishes": [
+        {
+            "name": "Pani Puri / Golgappa",
+            "short_description": "Hollow, crispy fried dough balls filled with potato, chickpeas, and spicy tangy mint water. The undisputed king of street food.",
+            "best_place_to_try": "Everywhere (Elco Pani Puri in Mumbai is famous)",
+            "serving_style": "Snack",
+            "approx_price": {
+                "currency": "INR",
+                "from": 20,
+                "to": 60,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Vada Pav",
+            "short_description": "Spicy potato fritter sandwiched in a bread bun with chutneys and fried green chili. The lifeline of Mumbai.",
+            "best_place_to_try": "Ashok Vada Pav, Mumbai",
+            "serving_style": "Snack/Meal",
+            "approx_price": {
+                "currency": "INR",
+                "from": 15,
+                "to": 30,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Aloo Tikki Chaat",
+            "short_description": "Fried potato patties topped with yogurt, sweet tamarind chutney, mint chutney, and spices.",
+            "best_place_to_try": "Natraj Dahi Bhalle, Delhi",
+            "serving_style": "Snack",
+            "approx_price": {
+                "currency": "INR",
+                "from": 50,
+                "to": 100,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Pav Bhaji",
+            "short_description": "A thick spicy vegetable curry (bhaji) served with soft buttered bread rolls (pav).",
+            "best_place_to_try": "Sardar Pav Bhaji, Mumbai",
+            "serving_style": "Dinner",
+            "approx_price": {
+                "currency": "INR",
+                "from": 100,
+                "to": 200,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Chole Bhature",
+            "short_description": "Spicy chickpeas (chole) with fluffy fried bread (bhature). A heavy North Indian breakfast.",
+            "best_place_to_try": "Sita Ram Diwan Chand, Delhi",
+            "serving_style": "Breakfast/Lunch",
+            "approx_price": {
+                "currency": "INR",
+                "from": 80,
+                "to": 150,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Haldiram's",
+            "location": "Pan-India Chain",
+            "notes": "Hygienic and standardized place to try almost all North Indian street foods.",
+            "price_range": "₹200 - ₹500",
+            "booking_url": null
+        },
+        {
+            "name": "Elco Arcade",
+            "location": "Bandra, Mumbai",
+            "notes": "Famous for its hygienic Pani Puri.",
+            "price_range": "₹200 - ₹500",
+            "booking_url": null
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Chandni Chowk",
+            "location": "Old Delhi",
+            "what_to_try": "Paranthe Wali Gali, Natraj Dahi Bhalle",
+            "how_to_reach": "Metro to Chandni Chowk"
+        },
+        {
+            "name": "Chowpatty Beach",
+            "location": "Mumbai",
+            "what_to_try": "Pav Bhaji, Kulfi, Sev Puri",
+            "how_to_reach": "Marine Drive"
+        },
+        {
+            "name": "Sarafa Bazaar",
+            "location": "Indore",
+            "what_to_try": "Poha Jalebi, Bhutte ka Kees (Night Market)",
+            "how_to_reach": "Central Indore"
+        }
+    ],
+    "recommended_home_cook_experiences_or_workshops": [
+        {
+            "title": "Delhi Street Food Walk",
+            "provider_placeholder": "Delhi Food Walks",
+            "duration": "3 Hours",
+            "price_estimate": "₹2000 per person"
+        }
+    ],
+    "street_food_highlights": [
+        "Momos - Steamed dumplings (Tibetan infleunce) popular in Delhi/Metros.",
+        "Jalebi - Spiral sweet fried dough soaked in syrup.",
+        "Bhel Puri - Puffed rice tossed with chutney and veggies."
+    ],
+    "festival_foods": [
+        "Holi: Gujiya (sweet dumplings) and Thandai.",
+        "Ramadan: Kebabs and non-veg fry-ups near mosques."
+    ],
+    "best_months_to_visit_for_food": "Winter (Nov-Feb) is best for enjoying hot street food.",
+    "vegetarian_friendly": true,
+    "common_allergens": [
+        "Gluten (Wheat)",
+        "Dairy",
+        "Peanuts"
+    ],
+    "recommended_precautions_for_travellers": "Drink only bottled water. Avoid raw cut fruits/salads. Eat at busy stalls where food is cooked fresh hot.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 50,
+        "to": 200,
+        "price_type": "estimated",
+        "last_checked": "2025-01-01"
+    },
+    "how_to_order_guidelines": "Specify spice level ('Teekha' for spicy, 'Meetha' for sweet).",
+    "tipping_guidelines": "Not expected at street stalls.",
+    "cultural_significance": "Street food is the great equalizer—rich and poor stand side by side to eat the same Pani Puri.",
+    "dining_etiquette": "Eat standing up. Use the provided paper plates/bowls. Throw trash in bins.",
+    "top_places_to_experience": [
+        {
+            "place_id": "delhi",
+            "title": "Delhi",
+            "summary": "The street food capital, especially for Chaat and Mughlai snacks.",
+            "best_where_to_eat": "Chandni Chowk, Lajpat Nagar",
+            "how_to_reach": "International Airport.",
+            "is_bookable": false,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "mumbai",
+            "title": "Mumbai",
+            "summary": "Famous for Vada Pav, Pav Bhaji, and Bombay Sandwiches.",
+            "best_where_to_eat": "Chowpatty, Khau Gallis",
+            "how_to_reach": "International Airport.",
+            "is_bookable": false,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "indore",
+            "title": "Indore",
+            "summary": "India's cleanest city with a legendary night food market (Sarafa).",
+            "best_where_to_eat": "Sarafa Bazaar, Chappan Dukan",
+            "how_to_reach": "Airport.",
+            "is_bookable": false,
+            "related_experience_slugs": []
+        }
+    ],
+    "suggested_itineraries": [
+        "Golden Triangle of Street Food: Delhi (Chaat) -> Agra (Petha) -> Jaipur (Kachori)."
+    ],
+    "media_and_references": {
+        "notable_chefs_and_restaurants": [],
+        "canonical_references": [],
+        "video_refs": []
+    },
+    "tags": [
+        "Street Food",
+        "Spicy",
+        "Chaat",
+        "Snacks"
+    ],
+    "seo_title": "Indian Street Food Guide: Pani Puri, Vada Pav & Chaat",
+    "seo_description": "Taste the real India. Guide to the best street food like Pani Puri, Vada Pav, and Kebabs across Delhi and Mumbai.",
+    "json_ld_template": {},
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

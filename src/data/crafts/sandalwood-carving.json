@@ -1,0 +1,90 @@
+{
+    "id": "sandalwood-carving",
+    "slug": "sandalwood-carving",
+    "title": "Sandalwood Carving",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Chandan Carving"
+    ],
+    "origin_state_or_region": "Karnataka (Mysuru, Shivamogga)",
+    "hero_image": "sandalwood-carving-hero.jpg",
+    "hero_image_alt": "Finely carved sandalwood figurine",
+    "gallery_images": [
+        "sandalwood-1.jpg"
+    ],
+    "short_description": "Exquisite carving on fragrant sandalwood, producing figurines and caskets, mainly in Karnataka.",
+    "long_description": "Sandalwood carving is an ancient tradition of Karnataka, the land of Sandalwood (Gandhada Gudi). The wood is prized for its fragrance, fine grain, and smooth texture, allowing for extremely intricate carving. \n\nArtisans carv deities, especially Lord Krishna and Ganesha, as well as elaborate boxes and fans. Due to the scarcity and regulation of Sandalwood, these items are now high-value luxury goods.",
+    "materials_used": [
+        "Sandalwood (Santalum album)"
+    ],
+    "traditional_methods": [
+        "Sillhoutte marking.",
+        "Rough carving.",
+        "Fine detailing.",
+        "Smoothing."
+    ],
+    "typical_products": [
+        "Idols",
+        "Caskets",
+        "Fans"
+    ],
+    "motifs_and_meanings": [
+        "Mythology.",
+        "Floral creeper."
+    ],
+    "major_centres": [
+        {
+            "place_id": "sagar-shivamogga",
+            "title": "Sagar / Soraba",
+            "summary": "Where the gudigars (carvers) live.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Shivamogga.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Artisan homes"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Hour",
+    "where_to_buy": [
+        "Cauvery Handicrafts"
+    ],
+    "shipping_and_packaging_tips": "Carry certificate of purchase (forest regulations).",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 5000,
+        "to": 500000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Distinctive fragrance persists for years.",
+    "sustainability_notes": "Endangered species wood (regulated).",
+    "local_economy_note": "Luxury craft.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Wood",
+        "Karnataka",
+        "Sandalwood",
+        "Aromatic"
+    ],
+    "seo_title": "Sandalwood Carving: The Fragrant Art of Karnataka",
+    "seo_description": "Explore the exquisite Sandalwood carvings of Karnataka. Intricate idols and boxes made from the fragrant wood.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Sandalwood Carving",
+        "material": "Sandalwood",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Karnataka"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

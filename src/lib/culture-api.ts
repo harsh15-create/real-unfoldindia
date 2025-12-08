@@ -64,23 +64,23 @@ export interface FestivalDetail {
     seo_description: string;
     last_updated: string;
     is_live: boolean;
-    json_ld_template: any;
+    json_ld_template: Record<string, unknown>;
 }
 
 // Map cache to simulate SWR
-const cache: Record<string, any> = {};
+const cache: Record<string, unknown> = {};
 
 export async function getFestivalsMaster(): Promise<FestivalMaster> {
-    if (cache['master']) return cache['master'];
+    if (cache['master']) return cache['master'] as FestivalMaster;
 
     // Dynamic import for Vite
     const data = await import('../data/culture-festivals.json');
     cache['master'] = data.default || data;
-    return cache['master'];
+    return cache['master'] as FestivalMaster;
 }
 
 export async function getFestival(slug: string): Promise<FestivalDetail | null> {
-    if (cache[slug]) return cache[slug];
+    if (cache[slug]) return cache[slug] as FestivalDetail;
 
     try {
         // Vite glob import to find the specific file
@@ -88,10 +88,10 @@ export async function getFestival(slug: string): Promise<FestivalDetail | null> 
         const path = `../data/festivals/${slug}.json`;
 
         if (modules[path]) {
-            const mod: any = await modules[path]();
-            const data = mod.default || mod;
+            const mod = await modules[path]();
+            const data = (mod as { default: FestivalDetail }).default || mod;
             cache[slug] = data;
-            return data;
+            return data as FestivalDetail;
         }
     } catch (error) {
         console.error(`Failed to load festival: ${slug}`, error);

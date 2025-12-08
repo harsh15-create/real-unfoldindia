@@ -1,0 +1,94 @@
+{
+    "id": "sholapith",
+    "slug": "sholapith",
+    "title": "Sholapith",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Indian Cork"
+    ],
+    "origin_state_or_region": "West Bengal",
+    "hero_image": "sholapith-hero.jpg",
+    "hero_image_alt": "Intricate white Sholapith headgear",
+    "gallery_images": [
+        "shola-1.jpg"
+    ],
+    "short_description": "A dried milky-white spongy plant matter from Bengal used to create intricate decorative art and headgears.",
+    "long_description": "Sholapith is a milky-white sponge-wood carved from the stems of the Shola plant (Aeschynomene aspera), which grows in the marshy waterlogged areas of Bengal. It is softer and lighter than cork.\n\nTraditionally used to make the ornate headgears (Topor) for Bengali weddings and the decorations for Goddess Durga, the craft is known for its pristine whiteness and delicacy.",
+    "materials_used": [
+        "Shola stem",
+        "Glue",
+        "Paper",
+        "Scissors/Knives"
+    ],
+    "traditional_methods": [
+        "Harvesting & peeling.",
+        "Creating sheets (Kap).",
+        "Carving.",
+        "Pasting."
+    ],
+    "typical_products": [
+        "Topor (Headgear)",
+        "Flowers",
+        "Idol decor"
+    ],
+    "motifs_and_meanings": [
+        "Flowers (Kadamba).",
+        "Peacocks."
+    ],
+    "major_centres": [
+        {
+            "place_id": "kolkata-bengal",
+            "title": "Kolkata & Burdwan",
+            "summary": "Widespread across Bengal.",
+            "best_time_to_visit": "Pre-Durga Puja",
+            "how_to_reach": "Kolkata.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Local markets"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Hour",
+    "where_to_buy": [
+        "Kumartuli",
+        "Biswa Bangla"
+    ],
+    "shipping_and_packaging_tips": "Extremely fragile and brittle. Box required.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 100,
+        "to": 2000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Real Shola is white inside out and very light. Thermocol is artificial.",
+    "sustainability_notes": "Biodegradable natural material.",
+    "local_economy_note": "Seasonal.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Craft",
+        "Bengal",
+        "Delicate",
+        "Wedding"
+    ],
+    "seo_title": "Sholapith Craft: The Pristine White Art of Bengal",
+    "seo_description": "Discover Sholapith, the Indian cork art. Delicate white carvings used for wedding headgears and Durga Puja decorations.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Sholapith",
+        "material": "Plant Stem",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "West Bengal"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

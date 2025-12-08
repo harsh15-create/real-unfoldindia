@@ -1,0 +1,94 @@
+{
+    "id": "kalamkari-textile",
+    "slug": "kalamkari-textile",
+    "title": "Kalamkari Fabric",
+    "category_id": "textiles-weaving",
+    "alt_titles": [
+        "Machilipatnam Style"
+    ],
+    "origin_state_or_region": "Machilipatnam, Andhra Pradesh",
+    "hero_image": "kalamkari-textile-hero.jpg",
+    "hero_image_alt": "Block printed Kalamkari fabric",
+    "gallery_images": [
+        "kalamkari-textile-1.jpg"
+    ],
+    "short_description": "Distinct from the painting style, this involves rigorous block-printing on fabric using natural dyes in Machilipatnam.",
+    "long_description": "While Srikalahasti defines the 'Kalam' (Pen) style, Machilipatnam defines the Block Print style of Kalamkari. Influenced by Persian motifs and demand from the Golconda sultanate, this style uses vegetable dyes applied via hand-carved wooden blocks. \n\nThe designs are more repetitive and include floral creepers, Iranian motifs, and geometrical patterns. It is widely used for apparel and bed linen.",
+    "materials_used": [
+        "Cotton",
+        "Wooden blocks",
+        "Vegetable dyes"
+    ],
+    "traditional_methods": [
+        "Carving blocks.",
+        "Mordanting fabric.",
+        "Printing outlines.",
+        "Washing and boiling.",
+        "Printing colors."
+    ],
+    "typical_products": [
+        "Sarees",
+        "Bed sheets",
+        "Dress material"
+    ],
+    "motifs_and_meanings": [
+        "Persian florals.",
+        "Creepers."
+    ],
+    "major_centres": [
+        {
+            "place_id": "pedana-town",
+            "title": "Pedana",
+            "summary": "Near Machilipatnam, the hub of block printing.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Vijayawada.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Local units"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "2 Hours",
+    "where_to_buy": [
+        "Pedana",
+        "Andhra Emporiums"
+    ],
+    "shipping_and_packaging_tips": "Easy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 500,
+        "to": 5000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for alignment lines. Natural colors are earthy (mustard, indigo, rust, black).",
+    "sustainability_notes": "Natural dyes.",
+    "local_economy_note": "Textile industry.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Textile",
+        "Andhra",
+        "Block Print",
+        "Sustainable"
+    ],
+    "seo_title": "Kalamkari Fabric: Machilipatnam Block Prints",
+    "seo_description": "Explore Machilipatnam Kalamkari. Hand-block printed textiles using natural vegetable dyes.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Kalamkari Textile",
+        "material": "Cotton",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Andhra Pradesh"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

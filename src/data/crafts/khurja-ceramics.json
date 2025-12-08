@@ -1,0 +1,91 @@
+{
+    "id": "khurja-ceramics",
+    "slug": "khurja-ceramics",
+    "title": "Khurja Ceramics",
+    "category_id": "pottery-ceramics",
+    "alt_titles": [
+        "Khurja Pottery"
+    ],
+    "origin_state_or_region": "Khurja, Bulandshahr, Uttar Pradesh",
+    "hero_image": "khurja-ceramics-hero.jpg",
+    "hero_image_alt": "Colorful glazed ceramic pots from Khurja",
+    "gallery_images": [
+        "khurja-1.jpg"
+    ],
+    "short_description": "Colorful, glazed dinnerware and decorative items from Khurja, a historic pottery hub in Uttar Pradesh.",
+    "long_description": "Khurja, known as the 'Ceramic City', has a pottery tradition dating back over 600 years, influenced by Afghan potters. Today, it is a bustling hub producing glazed stoneware and crockery. \n\nThe distinctive feature of Khurja pottery is its thick slip and vibrant, colorful glazes. While it started with traditional blue pottery styles, it now produces mass-market utility items like tea sets, planters, and dinnerware with floral and modern designs.",
+    "materials_used": [
+        "China Clay",
+        "Feldspar",
+        "Quartz"
+    ],
+    "traditional_methods": [
+        "Slip casting or Jigger-Jolly machine.",
+        "Glazing.",
+        "High temperature firing."
+    ],
+    "typical_products": [
+        "Planters",
+        "Crockery",
+        "Vases",
+        "Bathroom sets"
+    ],
+    "motifs_and_meanings": [
+        "Floral: Decoration."
+    ],
+    "major_centres": [
+        {
+            "place_id": "khurja-city",
+            "title": "Khurja City",
+            "summary": "Hundreds of factories and emporiums line the streets.",
+            "best_time_to_visit": "All year",
+            "how_to_reach": "85km from Delhi.",
+            "workshop_availability": false,
+            "workshop_contact_placeholder": null
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": false,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half Day",
+    "where_to_buy": [
+        "Khurja GT Road shops"
+    ],
+    "shipping_and_packaging_tips": "Heavy. Road transport recommended for bulk.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 100,
+        "to": 2000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the 'Khurja' stamp on the base.",
+    "sustainability_notes": "Industrialized craft.",
+    "local_economy_note": "Major export hub.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Ceramics",
+        "UP",
+        "Utility",
+        "Glazed"
+    ],
+    "seo_title": "Khurja Ceramics: The Pottery Hub of India",
+    "seo_description": "Visit Khurja, the ceramic city near Delhi. Famous for affordable, colorful glazed pottery and crockery.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Khurja Ceramics",
+        "material": "Ceramic",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Uttar Pradesh"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

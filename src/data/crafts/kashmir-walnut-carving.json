@@ -1,0 +1,91 @@
+{
+    "id": "kashmir-walnut-carving",
+    "slug": "kashmir-walnut-carving",
+    "title": "Walnut Wood Carving",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [],
+    "origin_state_or_region": "Srinagar, Kashmir",
+    "hero_image": "kashmir-walnut-carving-hero.jpg",
+    "hero_image_alt": "Deeply carved walnut wood jewelry box",
+    "gallery_images": [
+        "walnut-1.jpg"
+    ],
+    "short_description": "Carving done on walnut wood, which is native to Kashmir, known for its durability and rich color.",
+    "long_description": "Kashmir is the only region in India where walnut trees grow, and thus walnut wood carving is unique to this state. The wood is hard and durable, with a close grain and uniform texture that facilitates fine, detailed carving. \n\nStyles of carving include 'Undercut' (Khoul) where the design is in high relief, 'Deep Cut', and 'Shallow Cut'. The motifs are invariably flora and fauna of the valley—chinar leaves, vine leaves, flowers, and pears.",
+    "materials_used": [
+        "Walnut Wood (Juglans regia)"
+    ],
+    "traditional_methods": [
+        "Seasoning wood.",
+        "Pattern marking.",
+        "Rough cutting.",
+        "Fine carving.",
+        "Wax polishing (No varnish)."
+    ],
+    "typical_products": [
+        "Furniture",
+        "Boxes",
+        "Bowls",
+        "Trays"
+    ],
+    "motifs_and_meanings": [
+        "Chinar Leaf.",
+        "Lotus."
+    ],
+    "major_centres": [
+        {
+            "place_id": "srinagar-city",
+            "title": "Srinagar",
+            "summary": "Downtown Srinagar has many workshops.",
+            "best_time_to_visit": "Summer/Autumn",
+            "how_to_reach": "Srinagar.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Downtown"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Hour",
+    "where_to_buy": [
+        "Government Arts Emporium",
+        "Lal Chowk"
+    ],
+    "shipping_and_packaging_tips": "Heavy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 2000,
+        "to": 100000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Real walnut wood is dark brown/blackish and heavy. It is never painted, only waxed.",
+    "sustainability_notes": "Wood from old trees (fruiting stops).",
+    "local_economy_note": "Premium export.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Wood",
+        "Kashmir",
+        "Carving",
+        "Luxury"
+    ],
+    "seo_title": "Walnut Wood Carving: Kashmir's Timber Art",
+    "seo_description": "Discover Kashmir's Walnut Wood Carving. Known for intricate high-relief floral designs on the unique dark walnut timber.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Walnut Wood Carving",
+        "material": "Walnut Wood",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Kashmir"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

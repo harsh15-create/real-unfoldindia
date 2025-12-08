@@ -1,0 +1,155 @@
+{
+    "id": "odissi",
+    "slug": "odissi",
+    "title": "Odissi",
+    "alt_title": "Orissi",
+    "origin_state": "Odisha",
+    "hero_image": "odissi-hero.jpg",
+    "hero_image_alt": "Odissi dancer in tribhangi pose",
+    "gallery_images": [
+        "odissi-1.jpg",
+        "odissi-2.jpg",
+        "odissi-3.jpg"
+    ],
+    "short_description": "Famous for its fluid movements and the Tribhangi posture, creating distinct S-shaped curves with the body.",
+    "long_description": "Odissi is one of the eight classical dance forms of India, originating from the temples of Odisha. It is distinguished by the 'Tribhangi' (three-bent) posture, which divides the body into three parts—head, bust, and torso—creating a sensuous S-curve. \n\nRelated largely to the Jagannath Temple in Puri, Odissi was historically performed by Maharis (temple maids). The dance form was revived in the mid-20th century by gurus like Kelucharan Mohapatra. It is highly lyrical and sculptural, often compared to 'poetry in motion' or the frozen fluidity of the sculptures found in Konark and Puri temples.\n\nThe repertoire typically includes Mangalacharan (invocation), Batu (pure dance), Pallavi (elaboration of melody), Abhinaya (expressional dance often based on Jayadeva's Gita Govinda), and Moksha (liberation/finale).",
+    "performance_style": "classical",
+    "music_and_instruments": [
+        "Odissi Music",
+        "Mardala (Drum)",
+        "Manjira",
+        "Flute",
+        "Violin"
+    ],
+    "costume_and_makeup": "Dancers wear Sambalpuri or Bomkai silk sarees draped uniquely. Silver filigree jewelry (Tarakasi) from Cuttack is a trademark, including a waistband and headpiece. The hair is tied in a bun adorned with white flowers (tahiya).",
+    "choreography_elements": [
+        "Tribhangi (Three-bend pose)",
+        "Chauka (Square stance acting as base)",
+        "Mudras",
+        "Torso movement"
+    ],
+    "typical_duration": "60 minutes",
+    "where_to_watch": [
+        "Konark Dance Festival (December)",
+        "Mukteswar Dance Festival (January)",
+        "Jagannath Temple festivals (Puri)"
+    ],
+    "where_to_learn": [
+        "Srjan (Guru Kelucharan Mohapatra Odissi Nrityabasa), Bhubaneswar",
+        "Orissa Dance Academy, Bhubaneswar"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Gotipua (precursor performed by young boys)",
+        "Touching the earth (Bhumi Pranam)"
+    ],
+    "common_festivals_or_events": [
+        "Konark Festival",
+        "Ratha Yatra (Cultural programs)"
+    ],
+    "top_places": [
+        {
+            "place_id": "konark-sun-temple",
+            "title": "Konark Sun Temple",
+            "summary": "The backdrop for the prestigious Konark Dance Festival.",
+            "best_time_to_see": "December 1-5",
+            "how_to_reach": "1 hour drive from Puri.",
+            "is_bookable": true,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "bhubaneswar-temples",
+            "title": "Mukteswar Temple, Bhubaneswar",
+            "summary": "Hosts the Mukteswar Dance Festival, focusing on Odissi.",
+            "best_time_to_see": "January",
+            "how_to_reach": "In Bhubaneswar city.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "srjan-nrityabasa",
+            "title": "Srjan, Bhubaneswar",
+            "summary": "The famous school founded by Guru Kelucharan Mohapatra.",
+            "best_time_to_see": "Year-round for visits/classes",
+            "how_to_reach": "Bhubaneswar.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "puri-jagannath",
+            "title": "Puri",
+            "summary": "The spiritual heart of Odissi tradition.",
+            "best_time_to_see": "July (Ratha Yatra)",
+            "how_to_reach": "Rail/Road from Bhubaneswar.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "dhauli-shanti-stupa",
+            "title": "Dhauli Shanti Stupa",
+            "summary": "Hosts the Dhauli-Kalinga Mahotsav.",
+            "best_time_to_see": "February",
+            "how_to_reach": "Near Bhubaneswar.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "Look for the contrasting geometric 'Chauka' and fluid 'Tribhangi' poses.",
+        "accessibility_notes": "Konark open-air auditorium has ramp access.",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 500,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual/Traditional."
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "1-week intensive",
+            "Introduction day"
+        ],
+        "workshop_price_from": 3000,
+        "currency": "INR",
+        "booking_info": "Contact Srjan or Orissa Dance Academy."
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Kelucharan Mohapatra",
+            "Sanjukta Panigrahi",
+            "Sonal Mansingh",
+            "Sujata Mohapatra"
+        ],
+        "canonical_references": [
+            {
+                "title": "Odissi Research Centre",
+                "source_url": "http://odissiresearchcentre.org/"
+            }
+        ]
+    },
+    "tags": [
+        "Classical",
+        "Odisha",
+        "Temple Sculpture",
+        "Lyrical"
+    ],
+    "seo_title": "Odissi Dance Guide: The Sculpture Dance of India",
+    "seo_description": "Discover Odissi, the lyrical classical dance of Odisha. Famous for its Tribhangi posture and connection to the Jagannath temple culture.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Odissi: Poetry in Motion",
+        "image": [
+            "https://example.com/images/odissi-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

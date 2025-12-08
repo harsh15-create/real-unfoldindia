@@ -1,0 +1,92 @@
+{
+    "id": "silver-filigree",
+    "slug": "silver-filigree",
+    "title": "Silver Filigree",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Tarakasi"
+    ],
+    "origin_state_or_region": "Cuttack, Odisha",
+    "hero_image": "silver-filigree-hero.jpg",
+    "hero_image_alt": "Fine silver wire filigree jewelry",
+    "gallery_images": [
+        "silver-1.jpg"
+    ],
+    "short_description": "Highly skilled art form of super-fine silver wire work, used to create jewelry and decorative items.",
+    "long_description": "Tarakasi (Silver Filigree) from Cuttack is one of the most exquisite forms of silver work. The craft dates back over 500 years. \n\nArtisans draw silver into extremely thin wires and then twist and shape them into intricate designs—ranging from jewelry to large replicas of temples and chariots. No soldering is visible; the wires are fused or tied efficiently. It requires immense patience and steady hands.",
+    "materials_used": [
+        "Silver (90% purity)"
+    ],
+    "traditional_methods": [
+        "Wire drawing.",
+        "Twisting.",
+        "Frame making.",
+        "Filling.",
+        "Soldering."
+    ],
+    "typical_products": [
+        "Jewelry",
+        "Idols",
+        "Showpieces"
+    ],
+    "motifs_and_meanings": [
+        "Konark Wheel.",
+        "Peafowl."
+    ],
+    "major_centres": [
+        {
+            "place_id": "cuttack-city",
+            "title": "Cuttack",
+            "summary": "The Silver City.",
+            "best_time_to_visit": "Durga Puja (Silver backdrops)",
+            "how_to_reach": "Bhubaneswar.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Naya Sarak"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "2 Hours",
+    "where_to_buy": [
+        "Naya Sarak, Cuttack",
+        "Utkalika"
+    ],
+    "shipping_and_packaging_tips": "Secure box.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 1000,
+        "to": 50000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the fineness of the spider-web like wires.",
+    "sustainability_notes": "Precious metal.",
+    "local_economy_note": "High value.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Metal",
+        "Odisha",
+        "Jewelry",
+        "Silver"
+    ],
+    "seo_title": "Silver Filigree: Tarakasi Art of Cuttack",
+    "seo_description": "Discover Tarakasi, the intricate silver filigree work of Cuttack. Learn about the wire drawing and soldering process.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Silver Filigree",
+        "material": "Silver",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Odisha"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

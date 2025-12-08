@@ -1,0 +1,647 @@
+{
+    "id": "art-and-craft",
+    "slug": "art-and-craft",
+    "title": "Art & Craft",
+    "hero_image": "art-and-craft-hero.jpg",
+    "intro_title": "India’s Handcrafted Traditions",
+    "intro_description": "India is a land where art is not just a profession but a way of life. From the intricate weaves of the North to the vibrant metal crafts of the South, every region boasts a unique heritage passed down through generations. \n\nExplorers can dive into four distinct realms: **Pottery & Ceramics**, where earth is molded into utility and art; **Art & Paintings**, which tell epic tales on canvas and cloth; **Textiles & Weaving**, showcasing the world's finest silks and cottons; and **Handicrafts & Folk Crafts**, a diverse collection of wood, metal, and stone work. \n\nWitnessing these artisans at work is a journey into the soul of India, revealing stories of mythology, nature, and daily life etched into every creation.",
+    "categories": [
+        {
+            "id": "pottery-ceramics",
+            "title": "Pottery & Ceramics"
+        },
+        {
+            "id": "art-paintings",
+            "title": "Art & Paintings"
+        },
+        {
+            "id": "textiles-weaving",
+            "title": "Textiles & Weaving"
+        },
+        {
+            "id": "handicrafts-folk",
+            "title": "Handicrafts & Folk Crafts"
+        }
+    ],
+    "cards": [
+        {
+            "id": "blue-pottery",
+            "slug": "blue-pottery",
+            "title": "Blue Pottery",
+            "category": "pottery-ceramics",
+            "card_subtitle": "Jaipur's Turquoise Marvel",
+            "thumbnail": "blue-pottery-thumb.jpg",
+            "short_description": "A unique pottery style from Jaipur that uses quartz powder instead of clay, famous for its vibrant blue and floral patterns.",
+            "tags": [
+                "Pottery",
+                "Jaipur",
+                "Fragile"
+            ],
+            "order": 1
+        },
+        {
+            "id": "khavda-red-pottery",
+            "slug": "khavda-red-pottery",
+            "title": "Khavda Pottery",
+            "category": "pottery-ceramics",
+            "card_subtitle": "Kutch's Painted Clay",
+            "thumbnail": "khavda-red-pottery-thumb.jpg",
+            "short_description": "Distinctive red clay pottery from Kutch, Gujarat, painted with black and white geometric patterns using natural colors.",
+            "tags": [
+                "Pottery",
+                "Gujarat",
+                "Tribal"
+            ],
+            "order": 2
+        },
+        {
+            "id": "black-pottery-nizamabad",
+            "slug": "black-pottery-nizamabad",
+            "title": "Nizamabad Black Pottery",
+            "category": "pottery-ceramics",
+            "card_subtitle": "Shiny Black Ware",
+            "thumbnail": "black-pottery-nizamabad-thumb.jpg",
+            "short_description": "Glossy black pottery from Uttar Pradesh, known for its silver floral designs engraved into the fired clay.",
+            "tags": [
+                "Pottery",
+                "UP",
+                "Silver Inlay"
+            ],
+            "order": 3
+        },
+        {
+            "id": "terracotta-bishnupur",
+            "slug": "terracotta-bishnupur",
+            "title": "Bishnupur Terracotta",
+            "category": "pottery-ceramics",
+            "card_subtitle": "Temples of Clay",
+            "thumbnail": "terracotta-bishnupur-thumb.jpg",
+            "short_description": "Famous for the intricate terracotta temples and the 'Bankura Horse', a symbol of Bengali folk art.",
+            "tags": [
+                "Terracotta",
+                "Bengal",
+                "Temple"
+            ],
+            "order": 4
+        },
+        {
+            "id": "raghu-terracotta",
+            "slug": "raghu-terracotta",
+            "title": "Raghurajpur Terracotta",
+            "category": "pottery-ceramics",
+            "card_subtitle": "Odisha's Clay Art",
+            "thumbnail": "raghu-terracotta-thumb.jpg",
+            "short_description": "Delicate clay toys and masks created by the artisans of the heritage village Raghurajpur.",
+            "tags": [
+                "Terracotta",
+                "Odisha",
+                "Toys"
+            ],
+            "order": 5
+        },
+        {
+            "id": "khurja-ceramics",
+            "slug": "khurja-ceramics",
+            "title": "Khurja Ceramics",
+            "category": "pottery-ceramics",
+            "card_subtitle": "The Ceramic City",
+            "thumbnail": "khurja-ceramics-thumb.jpg",
+            "short_description": "Colorful, glazed dinnerware and decorative items from Khurja, a historic pottery hub in Uttar Pradesh.",
+            "tags": [
+                "Ceramics",
+                "UP",
+                "Utility"
+            ],
+            "order": 6
+        },
+        {
+            "id": "madhubani-painting",
+            "slug": "madhubani-painting",
+            "title": "Madhubani Painting",
+            "category": "art-paintings",
+            "card_subtitle": "Mithila's Folk Art",
+            "thumbnail": "madhubani-painting-thumb.jpg",
+            "short_description": "Intricate geometrical patterns and mythological themes painted with natural dyes/pigments, originating from Bihar.",
+            "tags": [
+                "Painting",
+                "Bihar",
+                "Mythology"
+            ],
+            "order": 7
+        },
+        {
+            "id": "warli-painting",
+            "slug": "warli-painting",
+            "title": "Warli Painting",
+            "category": "art-paintings",
+            "card_subtitle": "Tribal Life on Walls",
+            "thumbnail": "warli-painting-thumb.jpg",
+            "short_description": "A tribal art form from Maharashtra using simple white circles, triangles, and squares to depict daily life.",
+            "tags": [
+                "Painting",
+                "Maharashtra",
+                "Tribal"
+            ],
+            "order": 8
+        },
+        {
+            "id": "pattachitra",
+            "slug": "pattachitra",
+            "title": "Pattachitra",
+            "category": "art-paintings",
+            "card_subtitle": "Cloth Scroll Painting",
+            "thumbnail": "pattachitra-thumb.jpg",
+            "short_description": "Traditional scroll painting from Odisha known for its intricate details and mythological narratives of Lord Jagannath.",
+            "tags": [
+                "Painting",
+                "Odisha",
+                "Scroll"
+            ],
+            "order": 9
+        },
+        {
+            "id": "kalamkari-painting",
+            "slug": "kalamkari-painting",
+            "title": "Kalamkari Art",
+            "category": "art-paintings",
+            "card_subtitle": "The Pen Craft",
+            "thumbnail": "kalamkari-painting-thumb.jpg",
+            "short_description": "Hand-painted or block-printed cotton textile art from Andhra Pradesh, produced using natural dyes and a 'kalam' (pen).",
+            "tags": [
+                "Painting",
+                "Andhra",
+                "Natural Dyes"
+            ],
+            "order": 10
+        },
+        {
+            "id": "thangka-painting",
+            "slug": "thangka-painting",
+            "title": "Thangka Painting",
+            "category": "art-paintings",
+            "card_subtitle": "Himalayan Spirituality",
+            "thumbnail": "thangka-painting-thumb.jpg",
+            "short_description": "Tibetan Buddhist painting on cotton or silk appliqué, usually depicting a Buddhist deity, scene, or mandala.",
+            "tags": [
+                "Painting",
+                "Himalayas",
+                "Buddhist"
+            ],
+            "order": 11
+        },
+        {
+            "id": "rajput-miniature",
+            "slug": "rajput-miniature",
+            "title": "Rajput Miniature",
+            "category": "art-paintings",
+            "card_subtitle": "Royal Court Art",
+            "thumbnail": "rajput-miniature-thumb.jpg",
+            "short_description": "Exquisite, detailed paintings from the royal courts of Rajasthan, often depicting hunting scenes and royal life.",
+            "tags": [
+                "Painting",
+                "Rajasthan",
+                "Miniature"
+            ],
+            "order": 12
+        },
+        {
+            "id": "pahari-miniature",
+            "slug": "pahari-miniature",
+            "title": "Pahari Miniature",
+            "category": "art-paintings",
+            "card_subtitle": "Himalayan lyrical art",
+            "thumbnail": "pahari-miniature-thumb.jpg",
+            "short_description": "A style of miniature painting from the Himalayan hill kingdoms, known for its lyrical nature and focus on love and devotion.",
+            "tags": [
+                "Painting",
+                "Himachal",
+                "Miniature"
+            ],
+            "order": 13
+        },
+        {
+            "id": "gond-painting",
+            "slug": "gond-painting",
+            "title": "Gond Painting",
+            "category": "art-paintings",
+            "card_subtitle": "Nature in Dots & Lines",
+            "thumbnail": "gond-painting-thumb.jpg",
+            "short_description": "Tribal art from Madhya Pradesh characterized by vibrant colors and a pattern of dots and dashes filling the forms.",
+            "tags": [
+                "Painting",
+                "MP",
+                "Tribal"
+            ],
+            "order": 14
+        },
+        {
+            "id": "kalighat-painting",
+            "slug": "kalighat-painting",
+            "title": "Kalighat Painting",
+            "category": "art-paintings",
+            "card_subtitle": "Bengal's Urban Folk Art",
+            "thumbnail": "kalighat-painting-thumb.jpg",
+            "short_description": "A 19th-century school of art from Kolkata, featuring bold outlines and vibrant colors depicting mythological and social themes.",
+            "tags": [
+                "Painting",
+                "Bengal",
+                "History"
+            ],
+            "order": 15
+        },
+        {
+            "id": "banarasi-silk",
+            "slug": "banarasi-silk",
+            "title": "Banarasi Silk",
+            "category": "textiles-weaving",
+            "card_subtitle": "Varanasi's Golden Weave",
+            "thumbnail": "banarasi-silk-thumb.jpg",
+            "short_description": "Luxurious silk saris from Varanasi, famous for their gold and silver brocade or zari, fine silk, and opulent embroidery.",
+            "tags": [
+                "Textile",
+                "UP",
+                "Silk"
+            ],
+            "order": 16
+        },
+        {
+            "id": "chikankari",
+            "slug": "chikankari",
+            "title": "Chikankari",
+            "category": "textiles-weaving",
+            "card_subtitle": "Lucknow's White Embroidery",
+            "thumbnail": "chikankari-thumb.jpg",
+            "short_description": "Delicate and shadow work type of embroidery from Lucknow, traditionally performed on white muslin.",
+            "tags": [
+                "Embroidery",
+                "UP",
+                "Cotton"
+            ],
+            "order": 17
+        },
+        {
+            "id": "paithani-silk",
+            "slug": "paithani-silk",
+            "title": "Paithani Silk",
+            "category": "textiles-weaving",
+            "card_subtitle": "Maharashtra's Gold Cloth",
+            "thumbnail": "paithani-silk-thumb.jpg",
+            "short_description": "A variety of sari characterized by borders of an oblique square design, and a pallu with a peacock motif.",
+            "tags": [
+                "Textile",
+                "Maharashtra",
+                "Silk"
+            ],
+            "order": 18
+        },
+        {
+            "id": "kanchipuram-silk",
+            "slug": "kanchipuram-silk",
+            "title": "Kanchipuram Silk",
+            "category": "textiles-weaving",
+            "card_subtitle": "The Queen of Silks",
+            "thumbnail": "kanchipuram-silk-thumb.jpg",
+            "short_description": "Woven from pure mulberry silk, these saris from Tamil Nadu are distinguished by their wide contrasting borders.",
+            "tags": [
+                "Textile",
+                "Tamil Nadu",
+                "Silk"
+            ],
+            "order": 19
+        },
+        {
+            "id": "pochampalli-ikat",
+            "slug": "pochampalli-ikat",
+            "title": "Pochampally Ikat",
+            "category": "textiles-weaving",
+            "card_subtitle": "Geometric Dye Art",
+            "thumbnail": "pochampalli-ikat-thumb.jpg",
+            "short_description": "A silk/cotton saree from Telangana known for its geometric patterns and the intricate Ikat dyeing style.",
+            "tags": [
+                "Textile",
+                "Telangana",
+                "Ikat"
+            ],
+            "order": 20
+        },
+        {
+            "id": "kalamkari-textile",
+            "slug": "kalamkari-textile",
+            "title": "Kalamkari Textile",
+            "category": "textiles-weaving",
+            "card_subtitle": "Block printed narrative",
+            "thumbnail": "kalamkari-textile-thumb.jpg",
+            "short_description": "Distinct from the painting style, this involves rigorous block-printing on fabric using natural dyes in Machilipatnam.",
+            "tags": [
+                "Textile",
+                "Andhra",
+                "Block Print"
+            ],
+            "order": 21
+        },
+        {
+            "id": "sambalpuri-ikat",
+            "slug": "sambalpuri-ikat",
+            "title": "Sambalpuri Ikat",
+            "category": "textiles-weaving",
+            "card_subtitle": "Odisha's Tie-Dye",
+            "thumbnail": "sambalpuri-ikat-thumb.jpg",
+            "short_description": "Hand-woven ikats from Odisha where the warp and weft are tie-dyed before weaving. Includes Bomkai patterns.",
+            "tags": [
+                "Textile",
+                "Odisha",
+                "Ikat"
+            ],
+            "order": 22
+        },
+        {
+            "id": "jamdani-weaving",
+            "slug": "jamdani-weaving",
+            "title": "Jamdani Weaving",
+            "category": "textiles-weaving",
+            "card_subtitle": "Muslin Magic",
+            "thumbnail": "jamdani-weaving-thumb.jpg",
+            "short_description": "A fine muslin textile with decorative motifs woven on the loom, typical of Bengal.",
+            "tags": [
+                "Textile",
+                "Bengal",
+                "Muslin"
+            ],
+            "order": 23
+        },
+        {
+            "id": "kantha-embroidery",
+            "slug": "kantha-embroidery",
+            "title": "Kantha Embroidery",
+            "category": "textiles-weaving",
+            "card_subtitle": "Stitched Stories",
+            "thumbnail": "kantha-embroidery-thumb.jpg",
+            "short_description": "A form of embroidery from Bengal often used to stitch together old saris to make quilts (Nakshi Kantha).",
+            "tags": [
+                "Embroidery",
+                "Bengal",
+                "Quilt"
+            ],
+            "order": 24
+        },
+        {
+            "id": "puan-textiles",
+            "slug": "puan-textiles",
+            "title": "Puan Textiles",
+            "category": "textiles-weaving",
+            "card_subtitle": "Mizoram's Traditional Wrap",
+            "thumbnail": "puan-textiles-thumb.jpg",
+            "short_description": "The traditional skirt worn by Mizo women, woven on a loin loom with vibrant colors and bold stripes.",
+            "tags": [
+                "Textile",
+                "Mizoram",
+                "Loom"
+            ],
+            "order": 25
+        },
+        {
+            "id": "pashmina-shawls",
+            "slug": "pashmina-shawls",
+            "title": "Pashmina Shawl",
+            "category": "textiles-weaving",
+            "card_subtitle": "Kashmir's Soft Gold",
+            "thumbnail": "pashmina-shawls-thumb.jpg",
+            "short_description": "Fine cashmere wool textiles first woven in Kashmir, known for their softness and warmth.",
+            "tags": [
+                "Textile",
+                "Kashmir",
+                "Wool"
+            ],
+            "order": 26
+        },
+        {
+            "id": "bandhani",
+            "slug": "bandhani",
+            "title": "Bandhani",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Tie and Dye",
+            "thumbnail": "bandhani-thumb.jpg",
+            "short_description": "A type of tie-dye textile decorated by plucking the cloth with the fingernails into many tiny bindings.",
+            "tags": [
+                "Craft",
+                "Gujarat",
+                "Tie-Dye"
+            ],
+            "order": 27
+        },
+        {
+            "id": "kathputli-puppets",
+            "slug": "kathputli-puppets",
+            "title": "Kathputli",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Rajasthani Puppetry",
+            "thumbnail": "kathputli-puppets-thumb.jpg",
+            "short_description": "String puppets made of wood and cloth, central to Rajasthani folk theatre and storytelling.",
+            "tags": [
+                "Craft",
+                "Rajasthan",
+                "Puppets"
+            ],
+            "order": 28
+        },
+        {
+            "id": "bamboo-cane-crafts",
+            "slug": "bamboo-cane-crafts",
+            "title": "Bamboo & Cane Crafts",
+            "category": "handicrafts-folk",
+            "card_subtitle": "North East's Green Gold",
+            "thumbnail": "bamboo-cane-crafts-thumb.jpg",
+            "short_description": "Sustainable crafts from Northeast India, creating everything from baskets and furniture to intricate jewelry.",
+            "tags": [
+                "Craft",
+                "North East",
+                "Bamboo"
+            ],
+            "order": 29
+        },
+        {
+            "id": "bidri-metal",
+            "slug": "bidri-metal",
+            "title": "Bidriware",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Silver Inlay on Zinc",
+            "thumbnail": "bidri-metal-thumb.jpg",
+            "short_description": "A metal handicraft from Bidar, Karnataka, featuring inlaid silver work on a blackened zinc and copper alloy.",
+            "tags": [
+                "Metal",
+                "Karnataka",
+                "Silver"
+            ],
+            "order": 30
+        },
+        {
+            "id": "dhokra-casting",
+            "slug": "dhokra-casting",
+            "title": "Dhokra Art",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Lost Wax Casting",
+            "thumbnail": "dhokra-casting-thumb.jpg",
+            "short_description": "Non-ferrous metal casting using the lost-wax casting technique, practiced by tribes in Bengal, Odisha, and Chattisgarh.",
+            "tags": [
+                "Metal",
+                "Tribal",
+                "Bronze"
+            ],
+            "order": 31
+        },
+        {
+            "id": "silver-filigree",
+            "slug": "silver-filigree",
+            "title": "Silver Filigree",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Tarakasi of Cuttack",
+            "thumbnail": "silver-filigree-thumb.jpg",
+            "short_description": "Highly skilled art form of super-fine silver wire work, used to create jewelry and decorative items.",
+            "tags": [
+                "Metal",
+                "Odisha",
+                "Jewelry"
+            ],
+            "order": 32
+        },
+        {
+            "id": "sholapith",
+            "slug": "sholapith",
+            "title": "Sholapith",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Indian Cork Art",
+            "thumbnail": "sholapith-thumb.jpg",
+            "short_description": "A dried milky-white spongy plant matter from Bengal used to create intricate decorative art and headgears.",
+            "tags": [
+                "Craft",
+                "Bengal",
+                "Delicate"
+            ],
+            "order": 33
+        },
+        {
+            "id": "aranmula-mirror",
+            "slug": "aranmula-mirror",
+            "title": "Aranmula Kannadi",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Metal Mirror",
+            "thumbnail": "aranmula-mirror-thumb.jpg",
+            "short_description": "A unique handmade metal-alloy mirror from Kerala, where the reflection comes from the front surface.",
+            "tags": [
+                "Metal",
+                "Kerala",
+                "Mirror"
+            ],
+            "order": 34
+        },
+        {
+            "id": "channapatna-toys",
+            "slug": "channapatna-toys",
+            "title": "Channapatna Toys",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Toy Town's Woodwork",
+            "thumbnail": "channapatna-toys-thumb.jpg",
+            "short_description": "Safe, vegetable-dyed wooden toys from Karnataka, traditionally made from ivory wood.",
+            "tags": [
+                "Wood",
+                "Karnataka",
+                "Toys"
+            ],
+            "order": 35
+        },
+        {
+            "id": "mysore-rosewood",
+            "slug": "mysore-rosewood",
+            "title": "Mysore Rosewood Inlay",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Wood on Wood",
+            "thumbnail": "mysore-rosewood-thumb.jpg",
+            "short_description": "Intricate inlay work using different colored woods (and formerly ivory) set into rosewood surfaces.",
+            "tags": [
+                "Wood",
+                "Karnataka",
+                "Inlay"
+            ],
+            "order": 36
+        },
+        {
+            "id": "sandalwood-carving",
+            "slug": "sandalwood-carving",
+            "title": "Sandalwood Carving",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Aromatic Art",
+            "thumbnail": "sandalwood-carving-thumb.jpg",
+            "short_description": "Exquisite carving on fragrant sandalwood, producing figurines and caskets, mainly in Karnataka.",
+            "tags": [
+                "Wood",
+                "Karnataka",
+                "Sandalwood"
+            ],
+            "order": 37
+        },
+        {
+            "id": "kondapalli-toys",
+            "slug": "kondapalli-toys",
+            "title": "Kondapalli Toys",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Soft Wood Toys",
+            "thumbnail": "kondapalli-toys-thumb.jpg",
+            "short_description": "Brightly colored lightweight wooden toys from Andhra Pradesh, depicting scenes of rural life.",
+            "tags": [
+                "Wood",
+                "Andhra",
+                "Toys"
+            ],
+            "order": 38
+        },
+        {
+            "id": "kutchi-woodwork",
+            "slug": "kutchi-woodwork",
+            "title": "Kutchi Woodwork",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Desert Woodcraft",
+            "thumbnail": "kutchi-woodwork-thumb.jpg",
+            "short_description": "Intricate wood carving from the Kutch region, often featuring geometric patterns and mirror work.",
+            "tags": [
+                "Wood",
+                "Gujarat",
+                "Carving"
+            ],
+            "order": 39
+        },
+        {
+            "id": "kashmir-walnut-carving",
+            "slug": "kashmir-walnut-carving",
+            "title": "Walnut Wood Carving",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Kashmir's Timber Art",
+            "thumbnail": "kashmir-walnut-carving-thumb.jpg",
+            "short_description": "Carving done on walnut wood, which is native to Kashmir, known for its durability and rich color.",
+            "tags": [
+                "Wood",
+                "Kashmir",
+                "Carving"
+            ],
+            "order": 40
+        },
+        {
+            "id": "saharanpur-woodcarving",
+            "slug": "saharanpur-woodcarving",
+            "title": "Saharanpur Carving",
+            "category": "handicrafts-folk",
+            "card_subtitle": "Sheesham Woodwork",
+            "thumbnail": "saharanpur-woodcarving-thumb.jpg",
+            "short_description": "Detailed wood carving and lattice work (Jali) from Uttar Pradesh, typically on Sheesham wood.",
+            "tags": [
+                "Wood",
+                "UP",
+                "Jali"
+            ],
+            "order": 41
+        }
+    ],
+    "seo_title": "Indian Art & Craft Guide: Pottery, Paintings, Textiles & Folk Art",
+    "seo_description": "Explore the diverse world of Indian Art & Craft. From Blue Pottery and Madhubani Painting to Banarasi Silk and Dhokra metal casting.",
+    "total_count": 41,
+    "last_updated": "2025-12-09"
+}

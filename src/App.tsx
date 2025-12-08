@@ -34,6 +34,12 @@ import AdventuresPage from "./pages/experiences/AdventuresPage";
 import AdventureDetail from "./pages/experiences/AdventureDetail";
 import FestivalsPage from "./pages/culture/FestivalsPage";
 import FestivalDetail from "./pages/culture/FestivalDetail";
+import DanceFormsPage from "./pages/culture/DanceFormsPage";
+import DanceFormDetail from "./pages/culture/DanceFormDetail";
+import ArtAndCraftPage from "./pages/culture/ArtAndCraftPage";
+import ArtAndCraftDetail from "./pages/culture/ArtAndCraftDetail";
+import CuisinePage from "./pages/culture/CuisinePage";
+import CuisineDetail from "./pages/culture/CuisineDetail";
 
 
 import { useLocation } from "react-router-dom";
@@ -86,6 +92,12 @@ const App = () => (
             <Route path="/experiences/adventures/:slug" element={<AdventureDetail />} />
             <Route path="/culture/festivals" element={<FestivalsPage />} />
             <Route path="/culture/festivals/:slug" element={<FestivalDetail />} />
+            <Route path="/culture/dance-forms" element={<DanceFormsPage />} />
+            <Route path="/culture/dance-forms/:slug" element={<DanceFormDetail />} />
+            <Route path="/culture/art-and-craft" element={<ArtAndCraftPage />} />
+            <Route path="/culture/art-and-craft/:slug" element={<ArtAndCraftDetail />} />
+            <Route path="/culture/cuisine" element={<CuisinePage />} />
+            <Route path="/culture/cuisine/:slug" element={<CuisineDetail />} />
 
             <Route path="/about" element={<AboutPage />} />
             <Route path="/indian-culture" element={<IndianCulture />} />

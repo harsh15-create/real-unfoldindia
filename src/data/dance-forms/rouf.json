@@ -1,0 +1,103 @@
+{
+    "id": "rouf",
+    "slug": "rouf",
+    "title": "Rouf",
+    "alt_title": "Dumhal",
+    "origin_state": "Jammu & Kashmir",
+    "hero_image": "rouf-hero.jpg",
+    "hero_image_alt": "Kashmiri women performing Rouf",
+    "gallery_images": [
+        "rouf-1.jpg",
+        "rouf-2.jpg"
+    ],
+    "short_description": "Performed by women standing in two rows facing each other, usually during Eid and spring festivals.",
+    "long_description": "Rouf is a traditional folk dance from the Kashmir valley, performed mainly by women to welcome the spring season and during festivals like Eid. The dancers stand in two rows facing each other, putting their arms around the waist of the dancer next to them. They move forward and backward in a rhythmic manner, creating a beautiful visual chain.\n\nThe song, known as 'Rouf songs', are poetic and often mystical in nature.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Chakri (Singing)",
+        "No instruments usually (only foot tapping)"
+    ],
+    "costume_and_makeup": "Pheran (long cloak) with embroidery, and Kasaba (headgear).",
+    "choreography_elements": [
+        "Interlinked arms",
+        "Swaying",
+        "Foot tapping"
+    ],
+    "typical_duration": "15 minutes",
+    "where_to_watch": [
+        "Srinagar Tulip Festival",
+        "Eid celebrations (local)"
+    ],
+    "where_to_learn": [
+        "Srinagar Cultural Academy"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Spring welcome",
+        "Women only"
+    ],
+    "common_festivals_or_events": [
+        "Eid-ul-Fitr",
+        "Ramzan"
+    ],
+    "top_places": [
+        {
+            "place_id": "srinagar-gardens",
+            "title": "Srinagar Tulip Garden",
+            "summary": "Performances are often organized here during the Tulip festival.",
+            "best_time_to_see": "April",
+            "how_to_reach": "Srinagar.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "srinagar"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "It's a gentle, community dance.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 0,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Observation"
+        ],
+        "workshop_price_from": 0,
+        "currency": "INR",
+        "booking_info": "Local guides"
+    },
+    "media_references": {
+        "notable_practitioners": [],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Kashmir",
+        "Spring",
+        "Women"
+    ],
+    "seo_title": "Rouf Dance Guide: Folk Dance of Kashmir",
+    "seo_description": "Experience Rouf, the beautiful folk dance of Kashmiri women. Performed during spring and Eid with swaying movements.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Rouf: The Chain of Harmony",
+        "image": [
+            "https://example.com/images/rouf-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

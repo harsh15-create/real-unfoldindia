@@ -1,0 +1,106 @@
+{
+    "id": "gond-painting",
+    "slug": "gond-painting",
+    "title": "Gond Painting",
+    "category_id": "art-paintings",
+    "alt_titles": [
+        "Gond Art"
+    ],
+    "origin_state_or_region": "Madhya Pradesh (Patangarh)",
+    "hero_image": "gond-painting-hero.jpg",
+    "hero_image_alt": "Vibrant Gond painting of a deer with patterned body",
+    "gallery_images": [
+        "gond-1.jpg"
+    ],
+    "short_description": "Tribal art from Madhya Pradesh characterized by vibrant colors and a pattern of dots and dashes filling the forms.",
+    "long_description": "Gond painting is a famous folk art of the Gond tribal community of central India. It is preserved in the heart of Madhya Pradesh. The Gonds believe that viewing a good image begets good luck.\n\nThe distinctive feature of Gond art is the use of patterns (dots, dashes, fish scales, curves) to fill the images. These patterns, known as 'Signature Patterns', often identify the artist. The subjects are largely drawn from nature (animals, trees) and their mythology.",
+    "materials_used": [
+        "Canvas/Paper",
+        "Acrylic colors (Modern)",
+        "Natural colors (Traditional)"
+    ],
+    "traditional_methods": [
+        "Outlining the figure.",
+        "Filling with solid color.",
+        "Overlaying intricate patterns/textures."
+    ],
+    "typical_products": [
+        "Canvas paintings"
+    ],
+    "motifs_and_meanings": [
+        "Mahua Tree: Tree of Life.",
+        "Animals: Co-existence."
+    ],
+    "major_centres": [
+        {
+            "place_id": "bhopal-city",
+            "title": "Bhopal",
+            "summary": "Bharat Bhavan and Tribal Museum are key centers.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Bhopal.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Tribal Museum"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "2 hours",
+                "typical_price": 500,
+                "booking_info_placeholder": "Local artists"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half Day",
+    "where_to_buy": [
+        "Tribal Museum Shop, Bhopal"
+    ],
+    "shipping_and_packaging_tips": "Rolled.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 500,
+        "to": 15000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the intricacy of the fill patterns.",
+    "sustainability_notes": "Promotes tribal culture.",
+    "local_economy_note": "Vital for Gond artisans.",
+    "notable_artisans": [
+        {
+            "name": "Jangarh Singh Shyam",
+            "note": "Legendary artist."
+        }
+    ],
+    "museums_collections": [
+        {
+            "name": "MP Tribal Museum",
+            "location": "Bhopal",
+            "source_url": null
+        }
+    ],
+    "canonical_references": [],
+    "tags": [
+        "Painting",
+        "MP",
+        "Tribal",
+        "Pattern"
+    ],
+    "seo_title": "Gond Painting Guide: MP's Tribal Art",
+    "seo_description": "Explore Gond art from Madhya Pradesh. Vibrant tribal paintings characterized by intricate dots, lines, and nature themes.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Gond Painting",
+        "material": "Canvas",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Madhya Pradesh"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

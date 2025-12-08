@@ -48,9 +48,9 @@ const Explore = () => {
 
     const culture = [
         { name: "Festivals", image: "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?q=80&w=1000&auto=format&fit=crop", desc: "Colors of India", link: "/culture/festivals" },
-        { name: "Art & Craft", image: "https://images.unsplash.com/photo-1460500063983-994d4c27756c?q=80&w=1000&auto=format&fit=crop", desc: "Handicrafts & Textiles" },
-        { name: "Dance Forms", image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1000&auto=format&fit=crop", desc: "Classical Traditions" },
-        { name: "Cuisine", image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=1000&auto=format&fit=crop", desc: "Flavors of the Land" },
+        { name: "Art & Craft", image: "https://images.unsplash.com/photo-1460500063983-994d4c27756c?q=80&w=1000&auto=format&fit=crop", desc: "Handicrafts & Textiles", link: "/culture/art-and-craft" },
+        { name: "Dance Forms", image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1000&auto=format&fit=crop", desc: "Classical Traditions", link: "/culture/dance-forms" },
+        { name: "Cuisine", image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=1000&auto=format&fit=crop", desc: "Flavors of the Land", link: "/culture/cuisine" },
     ];
     const guides = [
         { name: "Visa & Entry", icon: BookOpen, desc: "Everything you need to know about Indian visas.", link: "/guide#visa" },
@@ -248,6 +248,7 @@ const Explore = () => {
                         <CarouselSection
                             items={culture}
                             renderItem={(item, index) => {
+                                const cultureItem = item as typeof culture[0];
                                 const CardContent = (
                                     <motion.div
                                         initial={{ opacity: 0, y: 20 }}
@@ -257,20 +258,20 @@ const Explore = () => {
                                         className="group relative overflow-hidden rounded-2xl aspect-square cursor-pointer h-full"
                                     >
                                         <img
-                                            src={item.image}
-                                            alt={item.name}
+                                            src={cultureItem.image}
+                                            alt={cultureItem.name}
                                             className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                         />
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                                         <div className="absolute bottom-0 left-0 p-6">
-                                            <h3 className="text-xl font-bold text-white mb-1">{item.name}</h3>
-                                            <p className="text-white/80 text-sm">{item.desc}</p>
+                                            <h3 className="text-xl font-bold text-white mb-1">{cultureItem.name}</h3>
+                                            <p className="text-white/80 text-sm">{cultureItem.desc}</p>
                                         </div>
                                     </motion.div>
                                 );
 
-                                return (item as any).link ? (
-                                    <Link to={(item as any).link} className="block h-full">
+                                return cultureItem.link ? (
+                                    <Link to={cultureItem.link} className="block h-full">
                                         {CardContent}
                                     </Link>
                                 ) : (

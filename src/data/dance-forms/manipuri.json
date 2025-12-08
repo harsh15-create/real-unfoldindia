@@ -1,0 +1,117 @@
+{
+    "id": "manipuri",
+    "slug": "manipuri",
+    "title": "Manipuri",
+    "alt_title": "Jagoi",
+    "origin_state": "Manipur",
+    "hero_image": "manipuri-hero.jpg",
+    "hero_image_alt": "Manipuri dancers in cylindrical skirts",
+    "gallery_images": [
+        "manipuri-1.jpg",
+        "manipuri-2.jpg"
+    ],
+    "short_description": "Known for its gentle, modest, and lyrical movements, often depicting the Raslila of Radha and Krishna.",
+    "long_description": "Manipuri dance, also known as Jagoi, originates from the northeastern state of Manipur. It is distinct from other Indian classical forms due to its emphasis on sinuous, curvilinear movements and the absence of sharp, stiff gestures. The feet never strike the ground hard; movements are light and floating, resembling the swaying of trees.\n\nThe most famous repertoire is the Raslila, depicting the cosmic dance of Krishna and the Gopis. The costumes are unique, particularly the stiff, cylindrical mirror-work skirt (Kumil) worn by female dancers. Another vigorous aspect is the Pung Cholom, where male dancers play the Pung (drum) while performing acrobatic jumps and spins.",
+    "performance_style": "classical",
+    "music_and_instruments": [
+        "Pung (Drum)",
+        "Pena (String instrument)",
+        "Cymbals",
+        "Flute"
+    ],
+    "costume_and_makeup": "The Kumil (stiff barrel-shaped skirt) decorated with mirrors and embroidery is iconic. A transparent veil covers the face, adding an ethereal quality. Male dancers wear dhotis and turbans.",
+    "choreography_elements": [
+        "Rounded movements (no sharp lines)",
+        "Pung Cholom (Drum dance)",
+        "Bhakti Bhava (Devotion)"
+    ],
+    "typical_duration": "60 minutes",
+    "where_to_watch": [
+        "Govindajee Temple, Imphal",
+        "Sangai Festival (November)",
+        "Raslila festivals in Manipur"
+    ],
+    "where_to_learn": [
+        "Jawaharlal Nehru Manipur Dance Academy, Imphal"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Performed in temple courtyards",
+        "Devotion to Krishna (Vaishnavism)"
+    ],
+    "common_festivals_or_events": [
+        "Holi (Yaoshang)",
+        "Janmashtami",
+        "Lai Haraoba"
+    ],
+    "top_places": [
+        {
+            "place_id": "imphal-temple",
+            "title": "Shri Govindajee Temple, Imphal",
+            "summary": "The center of Manipuri Vaishnavism where Raslila is performed.",
+            "best_time_to_see": "Basant Purnima / Kartik Purnima",
+            "how_to_reach": "Imphal Airport.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "loktak-lake",
+            "title": "Loktak Lake (Sangai Festival)",
+            "summary": "The Sangai Festival often showcases the best of Manipuri culture.",
+            "best_time_to_see": "November 21-30",
+            "how_to_reach": "Near Imphal.",
+            "is_bookable": true,
+            "related_content_slugs": []
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "The pace is slow and meditative compared to other forms. Patience yields spiritual rewards.",
+        "accessibility_notes": "Limited in remote temple venues.",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 500,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Modest attire for temples."
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "1-week course"
+        ],
+        "workshop_price_from": 2000,
+        "currency": "INR",
+        "booking_info": "JNMDA Imphal"
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Jhaveri Sisters",
+            "Guru Bipin Singh"
+        ],
+        "canonical_references": []
+    },
+    "tags": [
+        "Classical",
+        "North East India",
+        "Krishna",
+        "Lyrical"
+    ],
+    "seo_title": "Manipuri Dance Guide: Raslila & Pung Cholom",
+    "seo_description": "Discover Manipuri, the gentle classical dance of Northeast India. Famous for the cylindrical Kumil skirt and the acrobatic Pung Cholom.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Manipuri: The Dance of Spirals",
+        "image": [
+            "https://example.com/images/manipuri-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

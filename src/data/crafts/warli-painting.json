@@ -1,0 +1,101 @@
+{
+    "id": "warli-painting",
+    "slug": "warli-painting",
+    "title": "Warli Painting",
+    "category_id": "art-paintings",
+    "alt_titles": [],
+    "origin_state_or_region": "North Sahyadri, Maharashtra",
+    "hero_image": "warli-painting-hero.jpg",
+    "hero_image_alt": "White tribal figures dancing on a brown background",
+    "gallery_images": [
+        "warli-1.jpg"
+    ],
+    "short_description": "A tribal art form from Maharashtra using simple white circles, triangles, and squares to depict daily life.",
+    "long_description": "Warli painting is a style of tribal art mostly created by the tribal people from the North Sahyadri Range in Maharashtra. The paintings are rudimentary and use a very basic graphic vocabulary: a circle, a triangle, and a square. \n\nTraditionally done on mud walls using rice paste (white) on a red ochre background, Warli art depicts social life rather than mythological characters. Scenes of hunting, dancing (Tarpa dance), sowing, and harvesting are common. The philosophy is one of harmony with nature.",
+    "materials_used": [
+        "Rice paste",
+        "Mud walls (traditional)",
+        "Canvas/Paper (modern)"
+    ],
+    "traditional_methods": [
+        "Preparing background with cow dung/red mud.",
+        "Painting with bamboo stick chewed at the end.",
+        "Using white rice flour paste."
+    ],
+    "typical_products": [
+        "Wall hangings",
+        "Mugs",
+        "Stationery",
+        "Apparel"
+    ],
+    "motifs_and_meanings": [
+        "Tarpa Dance: Spiral formation representing the circle of life.",
+        "Bhumiputra: Sons of the soil."
+    ],
+    "major_centres": [
+        {
+            "place_id": "dahanu-palghar",
+            "title": "Dahanu / Palghar",
+            "summary": "Tribal villages where the art originated.",
+            "best_time_to_visit": "Monsoon/Winter",
+            "how_to_reach": "Train from Mumbai.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Local NGOs"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "2 hours",
+                "typical_price": 500,
+                "booking_info_placeholder": "NGOs"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Day",
+    "where_to_buy": [
+        "Tribal cooperative stores"
+    ],
+    "shipping_and_packaging_tips": "Easy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 200,
+        "to": 5000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Authentic Warli is monochromatic (White on Brown/Red).",
+    "sustainability_notes": "Natural materials.",
+    "local_economy_note": "Significant income for tribal communities.",
+    "notable_artisans": [
+        {
+            "name": "Jivya Soma Mashe",
+            "note": "Popularized Warli globally."
+        }
+    ],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Painting",
+        "Maharashtra",
+        "Tribal",
+        "Minimalist"
+    ],
+    "seo_title": "Warli Painting: Tribal Art of Maharashtra",
+    "seo_description": "Discover Warli art. Simple white geometric figures depicting the daily life of Maharashtra's tribes.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Warli Painting",
+        "material": "Rice Paste",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Maharashtra"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

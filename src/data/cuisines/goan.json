@@ -1,0 +1,188 @@
+{
+    "id": "goan",
+    "slug": "goan",
+    "title": "Goan Cuisine",
+    "alt_titles": [
+        "Konkani Cuisine (Goan style)"
+    ],
+    "origin_state_or_region": "Goa, West Coast",
+    "hero_image": "goan-cuisine-hero.jpg",
+    "hero_image_alt": "Goan Fish Curry Rice",
+    "gallery_images": [
+        "goan-1.jpg",
+        "goan-2.jpg",
+        "goan-3.jpg"
+    ],
+    "short_description": "A fusion of Konkani and Portuguese styles, featuring coconut-based tangy curries, pork vindaloo, and fresh seafood.",
+    "long_description": "Goan cuisine is a vibrant amalgamation of its Konkani roots and 450 years of Portuguese colonial influence. It is famous for its intense flavors, characterized by the use of coconut, rice, fish, pork, and local spices like Kokum (a sour fruit). The Portuguese introduced potatoes, tomatoes, pineapples, cashews, and chillies to Goa (and India), which are now integral to the cuisine.\n\nThe food is divided into two main styles: Hindu Goan (uses kokum and tamarind for sourness, less onion/garlic) and Catholic Goan (uses vinegar for sourness, includes pork/beef). Seafood is a staple, with Kingfish (Visvan) being the favorite. Bread (Pao) is also essential, eaten with everything from tea to curries.",
+    "signature_dishes": [
+        {
+            "name": "Goan Fish Curry",
+            "short_description": "The staple dish (Xitt Codi) made with fresh fish (pomfret/kingfish) cooked in a coconut milk and red chili gravy with raw mango or kokum.",
+            "best_place_to_try": "Ritz Classic, Panjim",
+            "serving_style": "Main Course with Rice",
+            "approx_price": {
+                "currency": "INR",
+                "from": 250,
+                "to": 500,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Pork Vindaloo",
+            "short_description": "A spicy and tangy pork dish influenced by the Portuguese dish 'Carne de Vinha d'Alhos', made with wine/vinegar and garlic.",
+            "best_place_to_try": "Mum's Kitchen, Panjim",
+            "serving_style": "Main Course with Pao",
+            "approx_price": {
+                "currency": "INR",
+                "from": 350,
+                "to": 600,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Chicken Xacuti",
+            "short_description": "A rich curry made with complex roasted spices and fresh coconut.",
+            "best_place_to_try": "Fisherman's Wharf, South Goa",
+            "serving_style": "Main Course",
+            "approx_price": {
+                "currency": "INR",
+                "from": 300,
+                "to": 550,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Bebinca",
+            "short_description": "The 'Queen of Goan Desserts', a layered pudding made from flour, sugar, ghee, and coconut milk.",
+            "best_place_to_try": "Bakeries in Mapusa",
+            "serving_style": "Dessert",
+            "approx_price": {
+                "currency": "INR",
+                "from": 50,
+                "to": 100,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Gunpowder",
+            "location": "Assagao, North Goa",
+            "notes": "Famous for its South Indian and Goan fusion curries in a bohemian setting.",
+            "price_range": "₹1000 - ₹2000",
+            "booking_url": null
+        },
+        {
+            "name": "Mum's Kitchen",
+            "location": "Panjim, Goa",
+            "notes": "Dedicated to preserving traditional Goan recipes.",
+            "price_range": "₹800 - ₹1500",
+            "booking_url": null
+        },
+        {
+            "name": "Vinayak Family Restaurant",
+            "location": "Assagao, Goa",
+            "notes": "Ideally purely for its legendary Fish Thali.",
+            "price_range": "₹250 - ₹500",
+            "booking_url": null
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Mapusa Market",
+            "location": "Mapusa, North Goa",
+            "what_to_try": "Goan Sausages (Choris), Bebinca, Spices",
+            "how_to_reach": "Friday is the big market day"
+        },
+        {
+            "name": "Fontainhas",
+            "location": "Panjim",
+            "what_to_try": "Local bakeries for Pao and Puffs",
+            "how_to_reach": "Walkable Latin Quarter"
+        }
+    ],
+    "recommended_home_cook_experiences_or_workshops": [
+        {
+            "title": "Goan Curry Masterclass",
+            "provider_placeholder": "Rita's Gourmet Goa",
+            "duration": "4 Hours",
+            "price_estimate": "₹2500 per person"
+        }
+    ],
+    "street_food_highlights": [
+        "Ros Omelette - Omelette drowned in spicy chicken gravy (Xacuti).",
+        "Choris Pao - Goan sausage bread.",
+        "Cutlet Pao - Fried meat cutlet in bread."
+    ],
+    "festival_foods": [
+        "Christmas: Kuswar (sweets tray), Roast Pork.",
+        "Ganesh Chaturthi: Modaks (sweet dumplings)."
+    ],
+    "best_months_to_visit_for_food": "December (Christmas Feasts) or Monsoon (Fresh Fish availabilty varies).",
+    "vegetarian_friendly": false,
+    "common_allergens": [
+        "Seafood",
+        "Coconut",
+        "Pork"
+    ],
+    "recommended_precautions_for_travellers": "Vindaloo can be extremely spicy and vinegary.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 300,
+        "to": 800,
+        "price_type": "estimated",
+        "last_checked": "2025-01-01"
+    },
+    "how_to_order_guidelines": "Ask for 'Recheado' frying if you like spicy red masala fish.",
+    "tipping_guidelines": "10% is standard.",
+    "cultural_significance": "The 'Susegad' (laid-back) lifestyle revolves around good food, music, and an afternoon nap.",
+    "dining_etiquette": "Casual. Bread is used to mop up gravy.",
+    "top_places_to_experience": [
+        {
+            "place_id": "panjim",
+            "title": "Panjim",
+            "summary": "The capital, offering a mix of heritage bakeries and fine dining.",
+            "best_where_to_eat": "Fontainhas, Miramar",
+            "how_to_reach": "Central hub.",
+            "is_bookable": true,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "assagao",
+            "title": "Assagao",
+            "summary": "The trendy new food hub with modern Goan restaurants.",
+            "best_where_to_eat": "Gunpowder, Jamun",
+            "how_to_reach": "North Goa.",
+            "is_bookable": true,
+            "related_experience_slugs": []
+        }
+    ],
+    "suggested_itineraries": [
+        "Goan Heritage Food: Panjim Bakery Bfast -> Spice Plantation Lunch -> Vindaloo Dinner at Mum's Kitchen."
+    ],
+    "media_and_references": {
+        "notable_chefs_and_restaurants": [],
+        "canonical_references": [],
+        "video_refs": []
+    },
+    "tags": [
+        "West Indian",
+        "Seafood",
+        "Portuguese",
+        "Spicy"
+    ],
+    "seo_title": "Goan Cuisine: Vindaloo, Fish Curry & Bebinca Guide",
+    "seo_description": "Taste the coastal flavors of Goa. Guide to Pork Vindaloo, Fish Curry Rice, and the best beach shacks.",
+    "json_ld_template": {},
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

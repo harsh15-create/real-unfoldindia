@@ -1,0 +1,98 @@
+{
+    "id": "banarasi-silk",
+    "slug": "banarasi-silk",
+    "title": "Banarasi Silk",
+    "category_id": "textiles-weaving",
+    "alt_titles": [
+        "Benarasi Saree"
+    ],
+    "origin_state_or_region": "Varanasi, Uttar Pradesh",
+    "hero_image": "banarasi-silk-hero.jpg",
+    "hero_image_alt": "Golden Zari work on red Banarasi silk",
+    "gallery_images": [
+        "banarasi-1.jpg"
+    ],
+    "short_description": "Luxurious silk saris from Varanasi, famous for their gold and silver brocade or zari, fine silk, and opulent embroidery.",
+    "long_description": "A Banarasi sari is a sari made in Varanasi, an ancient city which is also called Benares (Banaras). The saris are among the finest saris in India and are known for their gold and silver brocade or zari, fine silk, and opulent embroidery. \n\nThe saris are made of finely woven silk and are decorated with intricate design, often inspired by Mughal motifs such as intricate intertwining floral and foliate motifs, kalga and bel, a string of upright leaves called jhallar at the outer, edge of border is a characteristic of these saris.",
+    "materials_used": [
+        "Pure Silk (Katan)",
+        "Gold/Silver Zari",
+        "Organza (Kora)"
+    ],
+    "traditional_methods": [
+        "Jacquard card preparation (Naksha).",
+        "Handloom weaving.",
+        "Zari work."
+    ],
+    "typical_products": [
+        "Sarees",
+        "Lehengas",
+        "Stoles"
+    ],
+    "motifs_and_meanings": [
+        "Jhallar: Decoration.",
+        "Butis: Small motifs."
+    ],
+    "major_centres": [
+        {
+            "place_id": "varanasi-city",
+            "title": "Varanasi",
+            "summary": "Peeli Kothi and Lallapura are weaving hubs.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Varanasi.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Weaver colonies"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "1 hour",
+                "typical_price": 0,
+                "booking_info_placeholder": "Walk-in in weaving districts"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half Day",
+    "where_to_buy": [
+        "Chowk Market",
+        "Godowlia"
+    ],
+    "shipping_and_packaging_tips": "Folded.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 5000,
+        "to": 200000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the GI tag. Reverse side of handloom has floats of threads.",
+    "sustainability_notes": "Handloom is eco-friendly.",
+    "local_economy_note": "Massive industry in Varanasi.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Textile",
+        "UP",
+        "Silk",
+        "Wedding"
+    ],
+    "seo_title": "Banarasi Silk Saree Guide: Varanasi's Handloom Heritage",
+    "seo_description": "Discover the opulence of Banarasi Silk. Learn about the Zari brocades, weaving process, and shopping tips in Varanasi.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Banarasi Silk",
+        "material": "Silk, Zari",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Varanasi"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

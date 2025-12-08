@@ -1,0 +1,101 @@
+{
+    "id": "bidri-metal",
+    "slug": "bidri-metal",
+    "title": "Bidriware",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Bidri Art"
+    ],
+    "origin_state_or_region": "Bidar, Karnataka",
+    "hero_image": "bidri-metal-hero.jpg",
+    "hero_image_alt": "Black metal vase with silver inlay (Bidriware)",
+    "gallery_images": [
+        "bidri-1.jpg"
+    ],
+    "short_description": "A metal handicraft from Bidar, Karnataka, featuring inlaid silver work on a blackened zinc and copper alloy.",
+    "long_description": "Bidriware is a 500-year-old Persian-influenced art form from Bidar. The beauty of this craft lies in the striking contrast between the jet-black metal and the lustrous silver inlay. \n\nThe alloy is composed mostly of Zinc with some Copper. The darkening process uses soil from the ruins of the Bidar Fort, which is said to have special oxidizing properties.",
+    "materials_used": [
+        "Zinc",
+        "Copper",
+        "Silver",
+        "Bidar Fort Soil"
+    ],
+    "traditional_methods": [
+        "Casting (Sand casting).",
+        "Designing (Engraving with chisel).",
+        "Inlay (Hammering silver wire).",
+        "Oxidizing (Boiling in soil paste)."
+    ],
+    "typical_products": [
+        "Vases",
+        "Hookahs",
+        "Jewelry",
+        "Bowls"
+    ],
+    "motifs_and_meanings": [
+        "Asharfi: Gold coin shape.",
+        "Phool: Floral."
+    ],
+    "major_centres": [
+        {
+            "place_id": "bidar-city",
+            "title": "Bidar",
+            "summary": "The only place where the soil is available.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Near Hyderabad.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Bidri Colony"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "2 hours",
+                "typical_price": 500,
+                "booking_info_placeholder": "Local artisans"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half Day",
+    "where_to_buy": [
+        "Bidar",
+        "Cauvery Emporium"
+    ],
+    "shipping_and_packaging_tips": "Heavy metal.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 500,
+        "to": 25000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Authentic Bidri is heavy and cool to touch. The black coating should be uniform.",
+    "sustainability_notes": "Recyclable metals.",
+    "local_economy_note": "GI Tagged.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Metal",
+        "Karnataka",
+        "Silver",
+        "Luxury"
+    ],
+    "seo_title": "Bidriware: The Silver Inlay Art of Bidar",
+    "seo_description": "Discover Bidriware, the majestic black metal craft with silver inlay from Karnataka. Learn about its Persian roots and special soil process.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Bidriware",
+        "material": "Zinc, Silver",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Karnataka"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

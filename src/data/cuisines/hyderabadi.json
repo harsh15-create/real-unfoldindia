@@ -1,0 +1,174 @@
+{
+    "id": "hyderabadi",
+    "slug": "hyderabadi",
+    "title": "Hyderabadi Cuisine",
+    "alt_titles": [
+        "Deccani Cuisine",
+        "Nizami Cuisine"
+    ],
+    "origin_state_or_region": "Hyderabad, Telangana",
+    "hero_image": "hyderabadi-cuisine-hero.jpg",
+    "hero_image_alt": "Pot of Hyderabadi Dum Biryani",
+    "gallery_images": [
+        "hyderabadi-1.jpg",
+        "hyderabadi-2.jpg",
+        "hyderabadi-3.jpg"
+    ],
+    "short_description": "A blend of Mughal, Turkish, and Arabic influences with native Telugu traditions, famous for its Dum Biryani.",
+    "long_description": "Hyderabadi cuisine is a princely legacy of the Nizams of Hyderabad. It is a perfect amalgamation of North Indian (Mughlai), Turkish, and Arabic influences with the native Telugu culinary traditions of the Deccan plateau. The result is a cuisine that uses the richness of dry fruits and meat from the Mughals but marries it with the sourness (tamarind/lemon) and spiciness of the South.\n\nThe crown jewel is the 'Hyderabadi Biryani', distinct for its 'Dum' style of cooking where meat and rice are slow-cooked together in a sealed pot. Another hallmark is the use of unique ingredients like gongura leaves, tamarind, and coconut. The cuisine is also famous for 'Haleem', a slow-cooked stew of meat, lentils, and wheat, primarily consumed during Ramadan.",
+    "signature_dishes": [
+        {
+            "name": "Hyderabadi Dum Biryani",
+            "short_description": "Basmati rice and marinated meat (usually goat or chicken) slow-cooked in a sealed clay pot (dum) with saffron and spices.",
+            "best_place_to_try": "Paradise Biryani or Bawarchi, Hyderabad",
+            "serving_style": "Main Course with Mirchi ka Salan",
+            "approx_price": {
+                "currency": "INR",
+                "from": 250,
+                "to": 500,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Haleem",
+            "short_description": "A pasty stew made of wheat, barley, meat, lentils and spices, slow-cooked for hours.",
+            "best_place_to_try": "Pista House, Hyderabad",
+            "serving_style": "Standalone Dish (Ramadan Special)",
+            "approx_price": {
+                "currency": "INR",
+                "from": 200,
+                "to": 400,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Mirchi ka Salan",
+            "short_description": "A nutty, tangy, and spicy curry made with large green chilies, peanuts, sesame seeds, and tamarind.",
+            "best_place_to_try": "With Biryani anywhere in Hyderabad",
+            "serving_style": "Side Dish",
+            "approx_price": {
+                "currency": "INR",
+                "from": 100,
+                "to": 200,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Double ka Meetha",
+            "short_description": "Bread pudding dessert made of fried bread slices soaked in hot milk with spices and nuts.",
+            "best_place_to_try": "Local Irani Cafes",
+            "serving_style": "Dessert",
+            "approx_price": {
+                "currency": "INR",
+                "from": 80,
+                "to": 150,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Paradise Biryani",
+            "location": "Secunderabad (Original)",
+            "notes": "World-famous chain, a must-visit for first-timers.",
+            "price_range": "₹300 - ₹600",
+            "booking_url": null
+        },
+        {
+            "name": "Bawarchi",
+            "location": "RTC X Roads, Hyderabad",
+            "notes": "Favorite among locals for authentic spicy biryani.",
+            "price_range": "₹250 - ₹500",
+            "booking_url": null
+        },
+        {
+            "name": "Adaa at Taj Falaknuma",
+            "location": "Falaknuma Palace",
+            "notes": "Royal dining experience in a palace.",
+            "price_range": "₹4000 - ₹6000",
+            "booking_url": null
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Old City (Charminar area)",
+            "location": "Near Charminar",
+            "what_to_try": "Irani Chai, Osmania Biscuits, Lukhmi",
+            "how_to_reach": "Auto or Cab to Charminar"
+        }
+    ],
+    "recommended_home_cook_experiences_or_workshops": [
+        {
+            "title": "Biryani Cooking Class",
+            "provider_placeholder": "Hyderabad Culinary Academy",
+            "duration": "4 Hours",
+            "price_estimate": "₹2500 per person"
+        }
+    ],
+    "street_food_highlights": [
+        "Irani Chai & Osmania Biscuit - A cultural staple, savory biscuits with milky tea.",
+        "Lukhmi - A flaky savory pastry filled with minced meat.",
+        "Chicken 65 - Spicy, deep-fried chicken appetizer."
+    ],
+    "festival_foods": [
+        "Ramadan: Haleem fever takes over the city.",
+        "Eid: Sheer Khurma (vermicelli pudding)."
+    ],
+    "best_months_to_visit_for_food": "Ramadan month (dates vary) for Haleem; otherwise Winter.",
+    "vegetarian_friendly": false,
+    "common_allergens": [
+        "Nuts (Peanuts/Cashews)",
+        "Dairy",
+        "Gluten"
+    ],
+    "recommended_precautions_for_travellers": "Biryani can be very spicy ("Masaledaar"). Ask for medium spice.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 200,
+        "to": 600,
+        "price_type": "estimated",
+        "last_checked": "2025-01-01"
+    },
+    "how_to_order_guidelines": "One 'Single' Biryani is usually enough for 1 person; 'Family Pack' is for 3-4.",
+    "tipping_guidelines": "10% is standard.",
+    "cultural_significance": "Food is a symbol of Nizami hospitality (Mehmaan-nawaazi). Sharing a plate of Biryani is a bonding ritual.",
+    "dining_etiquette": "Eating with hands is standard.",
+    "top_places_to_experience": [
+        {
+            "place_id": "hyderabad",
+            "title": "Hyderabad",
+            "summary": "The only place to get authentic Hyderabadi Dum Biryani.",
+            "best_where_to_eat": "Secunderabad, RTC X Roads, Old City",
+            "how_to_reach": "International Airport.",
+            "is_bookable": true,
+            "related_experience_slugs": []
+        }
+    ],
+    "suggested_itineraries": [
+        "Biryani & Heritage Walk: Charminar sightseeing -> Irani Chai at Nimrah -> Lunch at Shadab."
+    ],
+    "media_and_references": {
+        "notable_chefs_and_restaurants": [],
+        "canonical_references": [],
+        "video_refs": []
+    },
+    "tags": [
+        "South Indian",
+        "Biryani",
+        "Spicy",
+        "Meat-Lovers"
+    ],
+    "seo_title": "Hyderabadi Cuisine: Best Biryani, Haleem & Irani Chai",
+    "seo_description": "Taste the royal heritage of Hyderabad. Guide to Dum Biryani, Haleem, and the best places in Old City.",
+    "json_ld_template": {},
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

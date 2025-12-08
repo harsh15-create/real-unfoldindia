@@ -1,0 +1,204 @@
+{
+    "id": "dance-forms",
+    "slug": "dance-forms",
+    "title": "Dance Forms",
+    "hero_image": "dance-forms-hero.jpg",
+    "intro_title": "India’s Classical & Folk Dance Traditions",
+    "intro_description": "India is a land of rhythm and expression, where every state resonates with its own unique beat. From the disciplined precision of classical forms like Bharatanatyam and Kathak, which trace their roots to ancient Natya Shastra, to the vibrant and spontaneous energy of folk traditions like Bhangra and Garba, dance in India is more than just performance—it is a way of life. \n\nThese art forms are deeply intertwined with mythology, spirituality, and the changing seasons, often serving as a medium for storytelling and devotion. The costumes are a spectacle in themselves, featuring hand-woven textiles, intricate jewelry, and symbolic makeup that vary wildly across regions. \n\nFor travellers, witnessing a live performance is magical, but participating in a workshop offers a transformative connection to the culture. Whether it’s attempting the complex footwork of Kathak or swaying to the dhol in a Punjabi village, experiencing Indian dance is intrinsic to understanding the soul of the subcontinent.",
+    "cards": [
+        {
+            "id": "bharatanatyam",
+            "slug": "bharatanatyam",
+            "title": "Bharatanatyam",
+            "card_subtitle": "Temple Dance of Tamil Nadu",
+            "thumbnail": "bharatanatyam-thumb.jpg",
+            "short_description": "One of the oldest classical dance forms, known for its fixed upper torso, bent legs, and spectacular footwork."
+        },
+        {
+            "id": "kathak",
+            "slug": "kathak",
+            "title": "Kathak",
+            "card_subtitle": "Storytelling Art of North India",
+            "thumbnail": "kathak-thumb.jpg",
+            "short_description": "Characterized by intricate footwork and rapid pirouettes, this dance form narrates mythological tales through expression."
+        },
+        {
+            "id": "odissi",
+            "slug": "odissi",
+            "title": "Odissi",
+            "card_subtitle": "Lyrical Dance of Odisha",
+            "thumbnail": "odissi-thumb.jpg",
+            "short_description": "Famous for its fluid movements and the Tribhangi posture, creating distinct S-shaped curves with the body."
+        },
+        {
+            "id": "kathakali",
+            "slug": "kathakali",
+            "title": "Kathakali",
+            "card_subtitle": "Grand Dance-Drama of Kerala",
+            "thumbnail": "kathakali-thumb.jpg",
+            "short_description": "Renowned for its elaborate makeup, costumes, and face masks, enacting stories from Hindu epics."
+        },
+        {
+            "id": "kuchipudi",
+            "slug": "kuchipudi",
+            "title": "Kuchipudi",
+            "card_subtitle": "Dramatic Dance of Andhra Pradesh",
+            "thumbnail": "kuchipudi-thumb.jpg",
+            "short_description": "A blend of dance and acting, where performers often sing and dance simultaneously on brass plates."
+        },
+        {
+            "id": "manipuri",
+            "slug": "manipuri",
+            "title": "Manipuri",
+            "card_subtitle": "Graceful Dance of the Northeast",
+            "thumbnail": "manipuri-thumb.jpg",
+            "short_description": "Known for its gentle, modest, and lyrical movements, often depicting the Raslila of Radha and Krishna."
+        },
+        {
+            "id": "mohiniyattam",
+            "slug": "mohiniyattam",
+            "title": "Mohiniyattam",
+            "card_subtitle": "Dance of the Enchantress",
+            "thumbnail": "mohiniyattam-thumb.jpg",
+            "short_description": "A solo dance form from Kerala characterized by swaying movements and elegant white-and-gold costumes."
+        },
+        {
+            "id": "sattriya",
+            "slug": "sattriya",
+            "title": "Sattriya",
+            "card_subtitle": "Monastic Dance of Assam",
+            "thumbnail": "sattriya-thumb.jpg",
+            "short_description": "Originally performed in monasteries, this form is a way to celebrate the spiritual beliefs of Vaishnavism."
+        },
+        {
+            "id": "bhangra",
+            "slug": "bhangra",
+            "title": "Bhangra",
+            "card_subtitle": "Energetic Harvest Dance",
+            "thumbnail": "bhangra-thumb.jpg",
+            "short_description": "A high-energy folk dance from Punjab, celebrated with dhols and vibrant attire during Vaisakhi."
+        },
+        {
+            "id": "garba",
+            "slug": "garba",
+            "title": "Garba",
+            "card_subtitle": "Devotional Circle Dance",
+            "thumbnail": "garba-thumb.jpg",
+            "short_description": "Performed during Navratri in Gujarat, this circular dance honors the goddess Durga with rhythmic clapping."
+        },
+        {
+            "id": "ghoomar",
+            "slug": "ghoomar",
+            "title": "Ghoomar",
+            "card_subtitle": "Royal Folk Dance of Rajasthan",
+            "thumbnail": "ghoomar-thumb.jpg",
+            "short_description": "Performed by women in swirling robes, this dance is a symbol of womanhood and marital bliss."
+        },
+        {
+            "id": "lavani",
+            "slug": "lavani",
+            "title": "Lavani",
+            "card_subtitle": "Rhythmic Dance of Maharashtra",
+            "thumbnail": "lavani-thumb.jpg",
+            "short_description": "Known for its powerful rhythm and erotic sentiment, performed to the beats of the Dholki."
+        },
+        {
+            "id": "yakshagana",
+            "slug": "yakshagana",
+            "title": "Yakshagana",
+            "card_subtitle": "Theatrical Art of Karnataka",
+            "thumbnail": "yakshagana-thumb.jpg",
+            "short_description": "A traditional theatre form that combines dance, music, dialogue, heavy makeup, and elaborate costumes."
+        },
+        {
+            "id": "chhau",
+            "slug": "chhau",
+            "title": "Chhau",
+            "card_subtitle": "Masked Martial Dance",
+            "thumbnail": "chhau-thumb.jpg",
+            "short_description": "A semi-classical form spanning Odisha, Bengal, and Jharkhand, combining martial arts and storytelling."
+        },
+        {
+            "id": "theyyam",
+            "slug": "theyyam",
+            "title": "Theyyam",
+            "card_subtitle": "Ritual Art of God",
+            "thumbnail": "theyyam-thumb.jpg",
+            "short_description": "A potent ritualistic art form from Kerala where the dancer enters a trance, embodying a deity."
+        },
+        {
+            "id": "bihu",
+            "slug": "bihu",
+            "title": "Bihu",
+            "card_subtitle": "Joyous Festival of Assam",
+            "thumbnail": "bihu-thumb.jpg",
+            "short_description": "Categorized by brisk steps and rapid hand movements, celebrating the onset of the farming season."
+        },
+        {
+            "id": "rouf",
+            "slug": "rouf",
+            "title": "Rouf",
+            "card_subtitle": "Spring Dance of Kashmir",
+            "thumbnail": "rouf-thumb.jpg",
+            "short_description": "Performed by women standing in two rows facing each other, usually during Eid and spring festivals."
+        },
+        {
+            "id": "jhumar",
+            "slug": "jhumar",
+            "title": "Jhumar",
+            "card_subtitle": "Community Dance of Punjab/Bihar",
+            "thumbnail": "jhumar-thumb.jpg",
+            "short_description": "A slow, rhythmic dance performed at weddings and harvest, distinct from the energetic Bhangra."
+        },
+        {
+            "id": "gidda",
+            "slug": "gidda",
+            "title": "Gidda",
+            "card_subtitle": "Women's Folk Dance of Punjab",
+            "thumbnail": "gidda-thumb.jpg",
+            "short_description": "A counterpart to Bhangra, displaying feminity and energy through clapping and bolo singing."
+        },
+        {
+            "id": "dandiya-raas",
+            "slug": "dandiya-raas",
+            "title": "Dandiya Raas",
+            "card_subtitle": "Stick Dance of Gujarat",
+            "thumbnail": "dandiya-thumb.jpg",
+            "short_description": "The playful stick dance representing the mock fight between Goddess Durga and Mahishasura."
+        },
+        {
+            "id": "kuttu",
+            "slug": "kuttu",
+            "title": "Kuttu / Kolattam",
+            "card_subtitle": "Stick Dance of Tamil Nadu",
+            "thumbnail": "kuttu-thumb.jpg",
+            "short_description": "An ancient folk art performed by women using small sticks to create rhythmic patterns."
+        }
+    ],
+    "seo_title": "Indian Dance Forms: Detailed Guide to Classical and Folk Traditions",
+    "seo_description": "Explore the diverse world of Indian dance, from the classical grace of Bharatanatyam to the vibrant energy of Bhangra. Plan your cultural voyage.",
+    "order": [
+        "bharatanatyam",
+        "kathak",
+        "odissi",
+        "kathakali",
+        "kuchipudi",
+        "manipuri",
+        "mohiniyattam",
+        "sattriya",
+        "bhangra",
+        "garba",
+        "ghoomar",
+        "lavani",
+        "yakshagana",
+        "chhau",
+        "theyyam",
+        "bihu",
+        "rouf",
+        "jhumar",
+        "gidda",
+        "dandiya-raas",
+        "kuttu"
+    ],
+    "last_updated": "2025-12-08"
+}

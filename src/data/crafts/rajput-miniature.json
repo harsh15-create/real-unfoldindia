@@ -1,0 +1,118 @@
+{
+    "id": "rajput-miniature",
+    "slug": "rajput-miniature",
+    "title": "Rajput Miniature",
+    "category_id": "art-paintings",
+    "alt_titles": [
+        "Rajasthani Miniature"
+    ],
+    "origin_state_or_region": "Rajasthan (Mewar, Marwar, Kishangarh, Bundi)",
+    "hero_image": "rajput-miniature-hero.jpg",
+    "hero_image_alt": "Fine miniature painting of a royal procession",
+    "gallery_images": [
+        "rajput-1.jpg"
+    ],
+    "short_description": "Exquisite, detailed paintings from the royal courts of Rajasthan, often depicting hunting scenes and royal life.",
+    "long_description": "Rajput Miniature painting evolved in the royal courts of Rajasthan during the 16th to 19th centuries. It is known for its intricate detailing, vibrant colors (often derived from semi-precious stones), and themes revolving around the life of royalty, mythology (Krishna-Radha), and nature.\n\nDifferent schools emerged in different kingdoms: \n- **Mewar**: Bold colors.\n- **Bundi/Kota**: Hunting scenes and lush vegetation.\n- **Kishangarh**: Highly stylized features (Bani Thani).\n- **Jaipur**: Mughal influence.",
+    "materials_used": [
+        "Paper (Wasli)",
+        "Silk",
+        "Semi-precious stone colors",
+        "Gold leaf",
+        "Squirrel hair brushes"
+    ],
+    "traditional_methods": [
+        "Wasli paper making (gluing layers).",
+        "Burnishing.",
+        "Sketching.",
+        "Color filling.",
+        "Stippling (Prdaaz) for shading.",
+        "Burnishing again."
+    ],
+    "typical_products": [
+        "Framed paintings",
+        "Diaries",
+        "Old paper art"
+    ],
+    "motifs_and_meanings": [
+        "Krishna: Divine love.",
+        "Elephant: Royal power."
+    ],
+    "major_centres": [
+        {
+            "place_id": "udaipur-city",
+            "title": "Uduipur",
+            "summary": "Center for Mewar style miniatures.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Udaipur.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Local studios near City Palace"
+        },
+        {
+            "place_id": "jaipur-city",
+            "title": "Jaipur",
+            "summary": "Thriving market for miniature art.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Jaipur.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Artist studios"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "2 hours",
+                "typical_price": 500,
+                "booking_info_placeholder": "Studios"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "High",
+    "where_to_buy": [
+        "Udaipur Lake Palace Road",
+        "Jaipur Markets"
+    ],
+    "shipping_and_packaging_tips": "In folders or frames.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 500,
+        "to": 50000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Check for single-hair brush strokes. Real stone colors have a subtle sparkle.",
+    "sustainability_notes": "Preserves heritage skills.",
+    "local_economy_note": "Tourism dependent.",
+    "notable_artisans": [],
+    "museums_collections": [
+        {
+            "name": "City Palace Museum",
+            "location": "Udaipur",
+            "source_url": null
+        }
+    ],
+    "canonical_references": [],
+    "tags": [
+        "Painting",
+        "Rajasthan",
+        "Miniature",
+        "Royal"
+    ],
+    "seo_title": "Rajput Miniature Painting: Royal Art of Rajasthan",
+    "seo_description": "Explore the exquisite Rajput Miniature paintings of Rajasthan. Learn about the Mewar, Bundi, and Kishangarh schools.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Rajput Miniature Painting",
+        "material": "Paper, Stone Colors",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Rajasthan"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

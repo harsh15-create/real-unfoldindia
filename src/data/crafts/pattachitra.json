@@ -1,0 +1,101 @@
+{
+    "id": "pattachitra",
+    "slug": "pattachitra",
+    "title": "Pattachitra",
+    "category_id": "art-paintings",
+    "alt_titles": [
+        "Patta Chitra"
+    ],
+    "origin_state_or_region": "Odisha",
+    "hero_image": "pattachitra-hero.jpg",
+    "hero_image_alt": "Intricate Pattachitra painting of Lord Jagannath",
+    "gallery_images": [
+        "pattachitra-1.jpg"
+    ],
+    "short_description": "Traditional scroll painting from Odisha known for its intricate details and mythological narratives of Lord Jagannath.",
+    "long_description": "Pattachitra is a traditional cloth-based scroll painting from Odisha. The name comes from 'Patta' (cloth) and 'Chitra' (picture). This art form is closely related to the cult of Shri Jagannath and the temple traditions in Puri. \n\nThe canvas is prepared by coating cotton cloth with a mixture of chalk and gum made from tamarind seeds. It is then rubbed with two different stones to make it smooth and shiny. The paintings are known for their intricate details, bold lines, and lack of landscapes or perspective. The themes are chiefly mythological, revolving around Lord Jagannath and the Vaishnava sect.",
+    "materials_used": [
+        "Cotton cloth",
+        "Chalk powder",
+        "Tamarind seed gum",
+        "Natural mineral colors"
+    ],
+    "traditional_methods": [
+        "Canvas preparation (coating cloth).",
+        "Stone rubbing for polish.",
+        "Outline sketching.",
+        "Color filling.",
+        "Lacquer coating for protection."
+    ],
+    "typical_products": [
+        "Scroll paintings",
+        "Painted coconuts",
+        "Ganjifa cards"
+    ],
+    "motifs_and_meanings": [
+        "Jagannath: The central deity.",
+        "Dasavatara: Ten incarnations of Vishnu."
+    ],
+    "major_centres": [
+        {
+            "place_id": "raghurajpur-village",
+            "title": "Raghurajpur",
+            "summary": "Heritage craft village where Pattachitra flourishes.",
+            "best_time_to_visit": "Winter/Rath Yatra",
+            "how_to_reach": "15km from Puri.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Artisan families"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "1 day",
+                "typical_price": 800,
+                "booking_info_placeholder": "On site"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Day",
+    "where_to_buy": [
+        "Raghurajpur",
+        "Puri Markets"
+    ],
+    "shipping_and_packaging_tips": "Can be rolled.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 1000,
+        "to": 50000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Traditional Pattachitra has a leathery finish due to the lacquer coating.",
+    "sustainability_notes": "All natural materials.",
+    "local_economy_note": "Main livelihood for Chitrakar caste.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Painting",
+        "Odisha",
+        "Scroll",
+        "Jagannath"
+    ],
+    "seo_title": "Pattachitra Painting: The Cloth Scroll Art of Odisha",
+    "seo_description": "Learn about Pattachitra, the intricate scroll painting of Odisha dedicated to Lord Jagannath. Discover the unique canvas preparation process.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Pattachitra",
+        "material": "Treated Cloth",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Odisha"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

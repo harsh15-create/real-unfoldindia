@@ -1,0 +1,99 @@
+{
+    "id": "kalamkari-painting",
+    "slug": "kalamkari-painting",
+    "title": "Kalamkari Art",
+    "category_id": "art-paintings",
+    "alt_titles": [
+        "Srikalahasti Style"
+    ],
+    "origin_state_or_region": "Srikalahasti, Andhra Pradesh",
+    "hero_image": "kalamkari-painting-hero.jpg",
+    "hero_image_alt": "Detailed Kalamkari painting depicting mythological scene",
+    "gallery_images": [
+        "kalamkari-1.jpg"
+    ],
+    "short_description": "Hand-painted cotton textile art from Andhra Pradesh, produced using natural dyes and a 'kalam' (pen).",
+    "long_description": "Kalamkari literally means 'Pen Craft' (Kalam + Kari). While there are two styles, the Srikalahasti style is the one that is strictly 'drawn' using a bamboo pen (Kalam), and is thus considered a painting form. \n\nOriginating in the temples of Srikalahasti, these paintings depict epic narratives from the Ramayana, Mahabharata, and Puranas. The artist uses a bamboo stick with a bundle of fine hair attached to one end as a brush/pen. The entire process uses natural vegetable dyes and involves multiple stages of washing and boiling the fabric.",
+    "materials_used": [
+        "Cotton fabric",
+        "Bamboo kalam",
+        "Vegetable dyes",
+        "Milk",
+        "Myrobalan"
+    ],
+    "traditional_methods": [
+        "Fabric treatment with milk and myrobalan.",
+        "Outlining with black (fermented iron & jaggery).",
+        "Filling colors (red, yellow, blue, green).",
+        "Washing in river water."
+    ],
+    "typical_products": [
+        "Wall hangings",
+        "Temple banners"
+    ],
+    "motifs_and_meanings": [
+        "Gods and Goddesses.",
+        "Tree of Life."
+    ],
+    "major_centres": [
+        {
+            "place_id": "srikalahasti-town",
+            "title": "Srikalahasti",
+            "summary": "The originators of the freehand drawing style.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Near Tirupati.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Local units"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "2 days",
+                "typical_price": 2000,
+                "booking_info_placeholder": "Workshops"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Day",
+    "where_to_buy": [
+        "Srikalahasti"
+    ],
+    "shipping_and_packaging_tips": "Foldable.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 1000,
+        "to": 20000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Srikalahasti style is freehand, so lines will not be perfectly uniform unlike block prints. Smell of milk/dyes often persists.",
+    "sustainability_notes": "Eco-friendly dyes.",
+    "local_economy_note": "Supports hundreds of families.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Painting",
+        "Andhra",
+        "Natural Dyes",
+        "Temple Art"
+    ],
+    "seo_title": "Kalamkari Painting: The Pen Craft of Srikalahasti",
+    "seo_description": "Explore Srikalahasti Kalamkari, the freehand painted textile art of Andhra Pradesh using natural dyes and epic themes.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Kalamkari Painting",
+        "material": "Cotton, Natural Dye",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Andhra Pradesh"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

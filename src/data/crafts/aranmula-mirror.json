@@ -1,0 +1,87 @@
+{
+    "id": "aranmula-mirror",
+    "slug": "aranmula-mirror",
+    "title": "Aranmula Kannadi",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Metal Mirror"
+    ],
+    "origin_state_or_region": "Aranmula, Kerala",
+    "hero_image": "aranmula-mirror-hero.jpg",
+    "hero_image_alt": "Polished Aranmula metal mirror",
+    "gallery_images": [
+        "aranmula-1.jpg"
+    ],
+    "short_description": "A unique handmade metal-alloy mirror from Kerala, where the reflection comes from the front surface.",
+    "long_description": "Aranmula Kannadi is a handmade metal-alloy mirror, made in Aranmula, a small village in Kerala. Unlike normal glass mirrors where the reflection comes from the back coating, here the metal itself is polished to create a reflective surface (front surface reflection). \n\nThe exact composition of the alloy (copper and tin) is a closely guarded family secret. It is considered one of the eight auspicious items (Ashtamangalyam) in Kerala tradition and brings good luck.",
+    "materials_used": [
+        "Copper-Tin Alloy",
+        "Clay (mold)"
+    ],
+    "traditional_methods": [
+        "Casting the alloy plate.",
+        "Polishing for days with hessian cloth and oil.",
+        "Mounting in brass frame."
+    ],
+    "typical_products": [
+        "Mirrors (Handheld/Stand)"
+    ],
+    "motifs_and_meanings": [
+        "Auspiciousness."
+    ],
+    "major_centres": [
+        {
+            "place_id": "aranmula-village",
+            "title": "Aranmula",
+            "summary": "The only place of production.",
+            "best_time_to_visit": "Onam",
+            "how_to_reach": "Chengannur.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Parthasarathy Temple vicinity"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "2 Hours",
+    "where_to_buy": [
+        "Aranmula"
+    ],
+    "shipping_and_packaging_tips": "Fragile surface. Do not touch with fingers (oils spoil polish).",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 3000,
+        "to": 50000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Place a fingertip on the surface; if there is no gap between the finger and reflection, it is real. Hologram required.",
+    "sustainability_notes": "Heritage.",
+    "local_economy_note": "GI Tagged.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Metal",
+        "Kerala",
+        "Mirror",
+        "Unique"
+    ],
+    "seo_title": "Aranmula Kannadi: The Mysterious Metal Mirror",
+    "seo_description": "Discover Aranmula Kannadi, the secret metal mirror of Kerala. A front-reflection mirror bringing prosperity and luck.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Aranmula Mirror",
+        "material": "Metal Alloy",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Kerala"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

@@ -1,0 +1,221 @@
+{
+    "id": "punjabi",
+    "slug": "punjabi",
+    "title": "Punjabi Cuisine",
+    "alt_titles": [
+        "Cuisine of Punjab"
+    ],
+    "origin_state_or_region": "Punjab, North India",
+    "hero_image": "punjabi-cuisine-hero.jpg",
+    "hero_image_alt": "Spread of Tandoori Chicken, Naan, and Dal Makhani",
+    "gallery_images": [
+        "punjabi-1.jpg",
+        "punjabi-2.jpg",
+        "punjabi-3.jpg",
+        "punjabi-4.jpg"
+    ],
+    "short_description": "Famous for its rich, buttery flavors, tandoori meats, and hearty breads like naan and kulcha.",
+    "long_description": "Punjabi cuisine is one of the most distinct and popular Indian cuisines, coming from the region of Punjab situated in Northern India and Pakistan. It offers a vast variety of delectable and exotic vegetarian and non-vegetarian dishes that are prepared with varied traditional culinary styles, particularly the tandoori style. The cuisine is characterized by its rich, buttery flavors, extensive use of dairy products like milk, cream, butter, and ghee (clarified butter), and whole spices.\n\nThe Tandoor (a traditional clay oven) is central to Punjabi cooking, imparting a unique smoky flavor to breads like Naan, Roti, and Kulcha, as well as meat dishes like Tandoori Chicken. Punjabi cuisine is also famous for its hearty 'Dhabas' (roadside eateries) which serve wholesome, rustic food. The staples include wheat, maize (corn), and mustard greens, with 'Sarson da Saag' and 'Makki di Roti' being the most iconic seasonal dish, consumed during winters.",
+    "signature_dishes": [
+        {
+            "name": "Butter Chicken (Murgh Makhani)",
+            "short_description": "Chicken marinated in spices and yogurt, cooked in a tandoor, and served in a mild curry sauce rich in butter and cream.",
+            "best_place_to_try": "Moti Mahal, Delhi (Originator)",
+            "serving_style": "Main Course with Naan",
+            "approx_price": {
+                "currency": "INR",
+                "from": 400,
+                "to": 800,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Dal Makhani",
+            "short_description": "Whole black lentils and kidney beans cooked with butter and cream, slow-cooked for hours to achieve a creamy texture.",
+            "best_place_to_try": "Kesar Da Dhaba, Amritsar",
+            "serving_style": "Main Course with Roti/Naan",
+            "approx_price": {
+                "currency": "INR",
+                "from": 200,
+                "to": 500,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Amritsari Kulcha",
+            "short_description": "Crisp, flaky leavened bread stuffed with spiced potatoes or onions, baked in a tandoor.",
+            "best_place_to_try": "Kulcha Land, Amritsar",
+            "serving_style": "Breakfast/Lunch with Chole",
+            "approx_price": {
+                "currency": "INR",
+                "from": 80,
+                "to": 150,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Tandoori Chicken",
+            "short_description": "Chicken marinated in yogurt and spices, roasted in a tandoor.",
+            "best_place_to_try": "Local Dhabas in Punjab",
+            "serving_style": "Appetizer/Main",
+            "approx_price": {
+                "currency": "INR",
+                "from": 300,
+                "to": 600,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Sarson da Saag & Makki di Roti",
+            "short_description": "A winter delicacy made from mustard greens and spices, served with cornmeal flatbread and white butter.",
+            "best_place_to_try": "Haveli, Jalandhar",
+            "serving_style": "Winter Lunch",
+            "approx_price": {
+                "currency": "INR",
+                "from": 300,
+                "to": 500,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Kesar Da Dhaba",
+            "location": "Amritsar, Punjab",
+            "notes": "Legendary for its Dal Makhani and Parathas, operating since 1916.",
+            "price_range": "₹200 - ₹500",
+            "booking_url": null
+        },
+        {
+            "name": "Bharawan Da Dhaba",
+            "location": "Amritsar, Punjab",
+            "notes": "Famous for simple, authentic vegetarian Punjabi thalis.",
+            "price_range": "₹300 - ₹600",
+            "booking_url": null
+        },
+        {
+            "name": "Rangla Punjab Haveli",
+            "location": "Jalandhar, Punjab",
+            "notes": "A themed village restaurant offering a complete cultural and culinary experience.",
+            "price_range": "₹800 - ₹1500",
+            "booking_url": null
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Lawrence Road",
+            "location": "Amritsar",
+            "what_to_try": "Amritsari Fish, Chicken Tikka",
+            "how_to_reach": "Central Amritsar, auto-rickshaw accessible."
+        },
+        {
+            "name": "Sector 17 Market",
+            "location": "Chandigarh",
+            "what_to_try": "Chaat, Chole Bhature",
+            "how_to_reach": "Chandigarh city center."
+        }
+    ],
+    "recommended_home_cook_experiences_or_workshops": [
+        {
+            "title": "Village Farm Lunch",
+            "provider_placeholder": "Punjab Village Stays",
+            "duration": "4 Hours",
+            "price_estimate": "₹1500 per person"
+        }
+    ],
+    "street_food_highlights": [
+        "Amritsari Fish Fry - Batter-fried freshwater fish.",
+        "Chole Bhature - Spicy chickpeas with fried bread.",
+        "Lassi - Thick, creamy yogurt drink, often served in large clay glasses."
+    ],
+    "festival_foods": [
+        "Lohri (January): Sarson da Saag, Makki di Roti, Til (Sesame) sweets.",
+        "Baisakhi (April): Sweet yellow rice, Karah Prasad."
+    ],
+    "best_months_to_visit_for_food": "October to March (Winter offers the best rich cuisine)",
+    "vegetarian_friendly": false,
+    "common_allergens": [
+        "Dairy",
+        "Gluten",
+        "Nuts"
+    ],
+    "recommended_precautions_for_travellers": "Dishes can be heavy on butter and cream (rich). Spiciness is generally moderate but can be high in some preparations.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 300,
+        "to": 1000,
+        "price_type": "estimated",
+        "last_checked": "2025-01-01"
+    },
+    "how_to_order_guidelines": "Order breads (Naan/Roti) fresh as you eat. A 'Thali' is a good way to try multiple dishes.",
+    "tipping_guidelines": "10% of the bill is standard in restaurants. Small tips for dhaba service.",
+    "cultural_significance": "Punjabi food reflects the agrarian culture of the region—hardworking people who enjoy hearty, nutritious, and rich food. Hospitality is paramount; serving large portions and extra ghee is a sign of love.",
+    "dining_etiquette": "Eating with hands (using bread to scoop curry) is common and encouraged. Sharing dishes is the norm.",
+    "top_places_to_experience": [
+        {
+            "place_id": "amritsar",
+            "title": "Amritsar",
+            "summary": "The culinary capital of Punjab, famous for the Golden Temple's Langar and iconic street food.",
+            "best_where_to_eat": "Old City, near Golden Temple",
+            "how_to_reach": "International Airport and major railway hub.",
+            "is_bookable": true,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "ludhiana",
+            "title": "Ludhiana",
+            "summary": "Known for its rich butter chicken variants and modern Punjabi fusion.",
+            "best_where_to_eat": "Sarabha Nagar Market",
+            "how_to_reach": "Major railway station.",
+            "is_bookable": false,
+            "related_experience_slugs": []
+        },
+        {
+            "place_id": "chandigarh",
+            "title": "Chandigarh",
+            "summary": "Offers a mix of traditional dhabas and upscale Punjabi fine dining.",
+            "best_where_to_eat": "Sector 17 and Sector 35",
+            "how_to_reach": "Well connected by air, rail, and road.",
+            "is_bookable": false,
+            "related_experience_slugs": []
+        }
+    ],
+    "suggested_itineraries": [
+        "One Day in Amritsar: Breakfast Kulcha -> Golden Temple Langar Lunch -> Dinner at Kesar Da Dhaba."
+    ],
+    "media_and_references": {
+        "notable_chefs_and_restaurants": [
+            {
+                "name": "Vikas Khanna",
+                "notes": "Michelin Star Chef from Amritsar"
+            },
+            {
+                "name": "Ranveer Brar",
+                "notes": "Celebrity Chef known for authentic storytelling"
+            }
+        ],
+        "canonical_references": [],
+        "video_refs": []
+    },
+    "tags": [
+        "North Indian",
+        "Tandoori",
+        "Rich",
+        "Street Food"
+    ],
+    "seo_title": "Punjabi Cuisine Guide: Butter Chicken, Dal Makhani & Amritsari Kulcha",
+    "seo_description": "Discover the rich flavors of Punjab. Best places to eat Amritsari Kulcha, Butter Chicken, and Dhabas in North India.",
+    "json_ld_template": {},
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

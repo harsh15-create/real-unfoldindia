@@ -1,0 +1,100 @@
+{
+    "id": "gidda",
+    "slug": "gidda",
+    "title": "Gidda",
+    "alt_title": "Giddha",
+    "origin_state": "Punjab",
+    "hero_image": "gidda-hero.jpg",
+    "hero_image_alt": "Women performing Gidda with clapping",
+    "gallery_images": [
+        "gidda-1.jpg"
+    ],
+    "short_description": "A counterpart to Bhangra, displaying feminity and energy through clapping and bolo singing.",
+    "long_description": "Gidda is the female counterpart to Bhangra. It is an energetic folk dance from Punjab performed by women. It focuses on movement of legs and clapping of hands. It is traditionally performed during the Teej festival and weddings. \n\nInstead of drums, the rhythm is often set by the clapping of hands and the singing of 'Boliyan' (rhyming couplets) which cover diverse themes from domestic life to politics.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Clapping",
+        "Dhol (optional)",
+        "Boliyan (Singing)"
+    ],
+    "costume_and_makeup": "Brightly colored Salwar Kameez and heavy jewelry.",
+    "choreography_elements": [
+        "Clapping",
+        "Pirouettes",
+        "Call and response"
+    ],
+    "typical_duration": "20 minutes",
+    "where_to_watch": [
+        "Teej Festival",
+        "Punjabi Weddings"
+    ],
+    "where_to_learn": [
+        "Punjab"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Ring formation",
+        "Solo breakouts"
+    ],
+    "common_festivals_or_events": [
+        "Teej (Monsoon)"
+    ],
+    "top_places": [
+        {
+            "place_id": "chandigarh-rose",
+            "title": "Chandigarh Rose Festival",
+            "summary": "Cultural programs often feature Gidda.",
+            "best_time_to_see": "February",
+            "how_to_reach": "Chandigarh.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "Listen to the lyrics (Boliyan) - they tell stories.",
+        "accessibility_notes": "Standard",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 0,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "Workshop"
+        ],
+        "workshop_price_from": 500,
+        "currency": "INR",
+        "booking_info": "Local schools"
+    },
+    "media_references": {
+        "notable_practitioners": [],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Punjab",
+        "Women",
+        "High Energy"
+    ],
+    "seo_title": "Gidda Dance Guide: Punjab's Women's Folk Dance",
+    "seo_description": "Experience Gidda, the spirited folk dance of Punjabi women. Known for clapping rhythms and Boliyan songs.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Gidda: The Clap of Joy",
+        "image": [
+            "https://example.com/images/gidda-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "id": "madhubani-painting",
+    "slug": "madhubani-painting",
+    "title": "Madhubani Painting",
+    "category_id": "art-paintings",
+    "alt_titles": [
+        "Mithila Art"
+    ],
+    "origin_state_or_region": "Mithila Region, Bihar",
+    "hero_image": "madhubani-painting-hero.jpg",
+    "hero_image_alt": "Detailed colorful Madhubani painting",
+    "gallery_images": [
+        "madhubani-1.jpg",
+        "madhubani-2.jpg"
+    ],
+    "short_description": "Intricate geometrical patterns and mythological themes painted with natural dyes/pigments, originating from Bihar.",
+    "long_description": "Madhubani art (or Mithila painting) is practiced in the Mithila region of Bihar and Nepal. Traditionally done by women on freshly plastered mud walls of their homes, it has now moved to canvas and paper. \n\nThe paintings are characterized by eye-catching geometrical patterns. There are no gaps left in the painting; the empty spaces are filled with flowers, animals, birds, and geometric designs. The themes mostly revolve around Hindu deities like Krishna, Ram, Shiva, and Durga, and natural objects like the sun and moon.",
+    "materials_used": [
+        "Natural dyes",
+        "Twigs/Nibs",
+        "Handmade paper",
+        "Cow dung wash"
+    ],
+    "traditional_methods": [
+        "Outline drawing using nibs.",
+        "Filling colors using twigs or fingers.",
+        "Double line borders."
+    ],
+    "typical_products": [
+        "Paintings",
+        "Sarees",
+        "Home decor"
+    ],
+    "motifs_and_meanings": [
+        "Fish: Fertility.",
+        "Peacock: Love.",
+        "Lotus: Purity."
+    ],
+    "major_centres": [
+        {
+            "place_id": "madhubani-town",
+            "title": "Madhubani / Jitwarpur",
+            "summary": "The villages of Jitwarpur and Ranti are famous for their master artists.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Train to Madhubani.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Mithila Art Institute"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "1 day",
+                "typical_price": 1000,
+                "booking_info_placeholder": "Local artists"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Day",
+    "where_to_buy": [
+        "Madhubani local artists",
+        "State Emporiums"
+    ],
+    "shipping_and_packaging_tips": "Paintings can be rolled. Easy to carry.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 500,
+        "to": 20000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the tiny double lines and hatching (Kachni) work.",
+    "sustainability_notes": "Uses natural pigments.",
+    "local_economy_note": "A major source of women's empowerment in the region.",
+    "notable_artisans": [
+        {
+            "name": "Sita Devi",
+            "note": "Padma Shri awardee."
+        },
+        {
+            "name": "Ganga Devi",
+            "note": "Renowned artist."
+        }
+    ],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Painting",
+        "Bihar",
+        "Mythology",
+        "Folk Art"
+    ],
+    "seo_title": "Madhubani Painting Guide: Mithila Folk Art",
+    "seo_description": "Explore Madhubani art from Bihar. Intricate folk paintings of mythology and nature using natural dyes.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Madhubani Painting",
+        "material": "Paper, Canvas",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Bihar"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

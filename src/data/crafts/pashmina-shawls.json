@@ -1,0 +1,91 @@
+{
+    "id": "pashmina-shawls",
+    "slug": "pashmina-shawls",
+    "title": "Pashmina Shawl",
+    "category_id": "textiles-weaving",
+    "alt_titles": [
+        "Cashmere"
+    ],
+    "origin_state_or_region": "Srinagar, Kashmir",
+    "hero_image": "pashmina-shawls-hero.jpg",
+    "hero_image_alt": "Soft embroidered Pashmina shawl",
+    "gallery_images": [
+        "pashmina-1.jpg"
+    ],
+    "short_description": "Fine cashmere wool textiles first woven in Kashmir, known for their softness and warmth.",
+    "long_description": "Pashmina refers to a fine variant of spun cashmere, the animal-hair fibre forming the downy undercoat of the Changthangi goat. The wool is collected in Ladakh and processed in Kashmir. \n\nA pure Pashmina shawl is incredibly light, soft, and warm. It can be plain or embroidered (Sozni or Kani). The Kani shawl, woven with small sticks (kanis) instead of a shuttle, is the most intricate and expensive.",
+    "materials_used": [
+        "Pashm wool",
+        "Silk (sometimes mixed)"
+    ],
+    "traditional_methods": [
+        "Spinning (by hand).",
+        "Weaving (Handloom).",
+        "Embroidery (Sozni) or Kani weaving."
+    ],
+    "typical_products": [
+        "Shawls",
+        "Stoles",
+        "Scarves"
+    ],
+    "motifs_and_meanings": [
+        "Chinar leaf.",
+        "Paisley (Buta)."
+    ],
+    "major_centres": [
+        {
+            "place_id": "srinagar-city",
+            "title": "Srinagar",
+            "summary": "The main processing and weaving center.",
+            "best_time_to_visit": "Summer/Autumn",
+            "how_to_reach": "Srinagar Airport.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Heritage Workshops"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "1 Day",
+    "where_to_buy": [
+        "Govt Arts Emporium",
+        "Lal Chowk"
+    ],
+    "shipping_and_packaging_tips": "Insure high value items.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 5000,
+        "to": 200000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Passes through a ring (sometimes). GI Tag. Does not generate static electricity.",
+    "sustainability_notes": "Animal friendly (combing not shearing).",
+    "local_economy_note": "Critical to Kashmir.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Textile",
+        "Kashmir",
+        "Wool",
+        "Luxury"
+    ],
+    "seo_title": "Pashmina Shawls: The Soft Gold of Kashmir",
+    "seo_description": "Discover the luxury of Kashmir's Pashmina shawls. Learn about the Changthangi goat, hand-spinning, and Kani weaving.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Pashmina",
+        "material": "Cashmere Wool",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Kashmir"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

@@ -1,0 +1,99 @@
+{
+    "id": "channapatna-toys",
+    "slug": "channapatna-toys",
+    "title": "Channapatna Toys",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Gombegala Ooru"
+    ],
+    "origin_state_or_region": "Channapatna, Karnataka",
+    "hero_image": "channapatna-toys-hero.jpg",
+    "hero_image_alt": "Brightly colored wooden toys from Channapatna",
+    "gallery_images": [
+        "channapatna-1.jpg"
+    ],
+    "short_description": "Safe, vegetable-dyed wooden toys from Karnataka, traditionally made from ivory wood.",
+    "long_description": "Channapatna, located on the Bangalore-Mysore highway, is known as the 'Town of Toys'. The craft was invited by Tipu Sultan who invited artisans from Persia to train locals. \n\nThe toys are made of soft Ivory Wood (Aale mara), turned on a lathe, and polished with natural vegetable dyes mixed with lacquer (Lac). The process ensures the toys are non-toxic and child-safe. They are smooth, rounded, and brightly colored.",
+    "materials_used": [
+        "Ivory Wood",
+        "Vegetable Dyes",
+        "Lac"
+    ],
+    "traditional_methods": [
+        "Wood turning (Lathe).",
+        "Sanding.",
+        "Lac application (stick pressed on rotating wood).",
+        "Buffing with screwpine leaf."
+    ],
+    "typical_products": [
+        "Toys",
+        "Stacking rings",
+        "Jewelry",
+        "Napkin rings"
+    ],
+    "motifs_and_meanings": [
+        "Simple shapes.",
+        "Bobbins."
+    ],
+    "major_centres": [
+        {
+            "place_id": "channapatna-town",
+            "title": "Channapatna",
+            "summary": "Toy factories line the highway.",
+            "best_time_to_visit": "All year",
+            "how_to_reach": "On Mysore Highway.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Craft Cluster"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "1 hour",
+                "typical_price": 200,
+                "booking_info_placeholder": "Factories"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "2 Hours",
+    "where_to_buy": [
+        "Channapatna Highway Shops"
+    ],
+    "shipping_and_packaging_tips": "Durable.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 100,
+        "to": 2000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Check for natural glossy finish and lack of sharp edges.",
+    "sustainability_notes": "Non-toxic, safe.",
+    "local_economy_note": "Major industry.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Wood",
+        "Karnataka",
+        "Toys",
+        "Eco-friendly"
+    ],
+    "seo_title": "Channapatna Toys: Safe Wooden Toys of India",
+    "seo_description": "Visit Channapatna, the toy town of Karnataka. Famous for its eco-friendly, vegetable-dyed wooden lacware toys.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Channapatna Toys",
+        "material": "Wood, Lac",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Karnataka"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

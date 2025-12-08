@@ -1,0 +1,193 @@
+{
+    "id": "bengali",
+    "slug": "bengali",
+    "title": "Bengali Cuisine",
+    "alt_titles": [
+        "Bangla Cuisine"
+    ],
+    "origin_state_or_region": "West Bengal, East India",
+    "hero_image": "bengali-cuisine-hero.jpg",
+    "hero_image_alt": "Tangy Fish Curry with Rice and Rosogolla",
+    "gallery_images": [
+        "bengali-1.jpg",
+        "bengali-2.jpg",
+        "bengali-3.jpg"
+    ],
+    "short_description": "Characterized by the use of mustard oil, panch phoron spices, freshwater fish, and world-famous milk-based sweets.",
+    "long_description": "Bengali cuisine, originating from West Bengal and Bangladesh, is the only multi-course tradition in the Indian subcontinent that follows a specific serving order similar to French cuisine (à la russe). It emphasizes the balance of sweet and spicy flavors and is renowned for its diverse use of freshwater fish and vast repertoire of milk-based desserts.\n\nThe staple food is rice and fish. The unique flavor profile comes from 'Panch Phoron'—a five-spice mix of fenugreek, nigella, cumin, black mustard and fennel seeds—and the pungent kick of mustard oil. A typical meal starts with a bitter preparation (Shukto), followed by lentils (Dal) and vegetables, then fish (Machh), meat, chutney, and finally, dessert (Mishti). The region is often called the 'Land of Sweets' (Mishti) for introducing Rasgulla and Sandesh to the world.",
+    "signature_dishes": [
+        {
+            "name": "Machher Jhol",
+            "short_description": "A light, flavorful stew of fish (typically Rohu or Katla) with vegetables, seasoned with turmeric and cumin.",
+            "best_place_to_try": "6 Ballygunge Place, Kolkata",
+            "serving_style": "Main Course with Rice",
+            "approx_price": {
+                "currency": "INR",
+                "from": 300,
+                "to": 600,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Kosha Mangsho",
+            "short_description": "Slow-cooked mutton curry with a thick, velvety dark brown gravy, rich in spices.",
+            "best_place_to_try": "Golbari, Kolkata",
+            "serving_style": "Main Course with Luchi or Paratha",
+            "approx_price": {
+                "currency": "INR",
+                "from": 400,
+                "to": 800,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Shorshe Ilish",
+            "short_description": "Hilsa fish cooked in a pungent mustard paste gravy. A monsoon delicacy.",
+            "best_place_to_try": "Kasturi, Kolkata",
+            "serving_style": "Main Course with Rice",
+            "approx_price": {
+                "currency": "INR",
+                "from": 800,
+                "to": 1500,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Rosogolla",
+            "short_description": "Spongy cottage cheese balls soaked in light sugar syrup.",
+            "best_place_to_try": "K.C. Das, Kolkata",
+            "serving_style": "Dessert",
+            "approx_price": {
+                "currency": "INR",
+                "from": 20,
+                "to": 50,
+                "price_type": "exact",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        },
+        {
+            "name": "Luchi-Alur Dom",
+            "short_description": "Deep-fried puffed bread made of refined flour served with spicy potato curry.",
+            "best_place_to_try": "Breakfast spots in Kolkata",
+            "serving_style": "Breakfast",
+            "approx_price": {
+                "currency": "INR",
+                "from": 50,
+                "to": 100,
+                "price_type": "estimated",
+                "source_url": null,
+                "last_checked": "2024-01-01"
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "6 Ballygunge Place",
+            "location": "Ballygunge, Kolkata",
+            "notes": "Fine dining restaurant serving authentic traditional Bengali buffet and thalis.",
+            "price_range": "₹1000 - ₹1500",
+            "booking_url": null
+        },
+        {
+            "name": "Peter Cat",
+            "location": "Park Street, Kolkata",
+            "notes": "Famous for its Chelo Kebabs, a unique Indo-Iranian dish beloved by Bengalis.",
+            "price_range": "₹600 - ₹1000",
+            "booking_url": null
+        },
+        {
+            "name": "Oh! Calcutta",
+            "location": "Multiple Locations",
+            "notes": "Reliable upscale chain for Bengali cuisine lovers.",
+            "price_range": "₹1200 - ₹1800",
+            "booking_url": null
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Park Street",
+            "location": "Kolkata",
+            "what_to_try": "Kathi Rolls, Continental classics",
+            "how_to_reach": "Metro to Park Street station"
+        },
+        {
+            "name": "Dacres Lane",
+            "location": "Esplanade, Kolkata",
+            "what_to_try": "Street Food, Stew, Toast",
+            "how_to_reach": "Central Business District"
+        }
+    ],
+    "recommended_home_cook_experiences_or_workshops": [
+        {
+            "title": "Bengali Sweet Making Workshop",
+            "provider_placeholder": "Kolkata Food Walks",
+            "duration": "2.5 Hours",
+            "price_estimate": "₹1200 per person"
+        }
+    ],
+    "street_food_highlights": [
+        "Kathi Roll - Skewer-roasted kebab wrapped in paratha.",
+        "Phuchka - Bengali version of Panipuri, known for tangy tamarind water.",
+        "Jhal Muri - Spicy puffed rice snack."
+    ],
+    "festival_foods": [
+        "Durga Puja: Bhog (Khichdi & Labra) served at Pandals.",
+        "Poila Baisakh (New Year): Elaborate fish platters."
+    ],
+    "best_months_to_visit_for_food": "October (Durga Puja) for the festive feast vibe.",
+    "vegetarian_friendly": false,
+    "common_allergens": [
+        "Seafood/Fish",
+        "Mustard",
+        "Dairy"
+    ],
+    "recommended_precautions_for_travellers": "Be careful with fish bones. Mustard oil has a sharp taste that might be new to some.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 300,
+        "to": 800,
+        "price_type": "estimated",
+        "last_checked": "2025-01-01"
+    },
+    "how_to_order_guidelines": "Courses are eaten in sequence: bitters -> vegetables -> fish -> meat -> chutney -> sweet.",
+    "tipping_guidelines": "5-10% is appreciated.",
+    "cultural_significance": "Food is an obsession in Bengal. Debates over the best Hilsa or Rosogolla are a cultural pastime. 'Adda' (informal gatherings) is incomplete without tea and snacks.",
+    "dining_etiquette": "Fish is eaten with hands to carefully separate bones. Finishing the meal with sweets is mandatory.",
+    "top_places_to_experience": [
+        {
+            "place_id": "kolkata",
+            "title": "Kolkata",
+            "summary": "The culinary powerhouse of East India, inventing the Rosogolla and Kathi Roll.",
+            "best_where_to_eat": "Park Street, Ballygunge",
+            "how_to_reach": "International Airport.",
+            "is_bookable": true,
+            "related_experience_slugs": []
+        }
+    ],
+    "suggested_itineraries": [
+        "Kolkata Sweets Trail: North Kolkata (Sandesh) -> Central (Rosogolla) -> South (Mishti Doi)."
+    ],
+    "media_and_references": {
+        "notable_chefs_and_restaurants": [],
+        "canonical_references": [],
+        "video_refs": []
+    },
+    "tags": [
+        "East Indian",
+        "Seafood",
+        "Sweets",
+        "Mustard"
+    ],
+    "seo_title": "Bengali Cuisine: Machher Jhol, Rosogolla & Kolkata Street Food",
+    "seo_description": "Taste the sweetness of Bengal. Guide to Fish Curry (Machher Jhol), Rosogolla, and the best restaurants in Kolkata.",
+    "json_ld_template": {},
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

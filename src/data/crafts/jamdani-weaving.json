@@ -1,0 +1,90 @@
+{
+    "id": "jamdani-weaving",
+    "slug": "jamdani-weaving",
+    "title": "Jamdani Weaving",
+    "category_id": "textiles-weaving",
+    "alt_titles": [
+        "Dhakai Jamdani"
+    ],
+    "origin_state_or_region": "West Bengal",
+    "hero_image": "jamdani-weaving-hero.jpg",
+    "hero_image_alt": "Fine Jamdani muslin saree with floral motifs",
+    "gallery_images": [
+        "jamdani-1.jpg"
+    ],
+    "short_description": "A fine muslin textile with decorative motifs woven on the loom, typical of Bengal.",
+    "long_description": "Jamdani is a hand-loom woven fabric made of cotton, which was historically referred to as muslin. The Jamdani weaving tradition differs from other weaving techniques because the embroidery thread is not continuous; it is a supplementary weft technique. \n\nThe weaver uses a non-structural weft in addition to the standard weft that holds the warp threads together. The sheer quality of the fabric coupled with the intricate, artistic designs makes it highly prized.",
+    "materials_used": [
+        "Muslin",
+        "Cotton",
+        "Silk blend"
+    ],
+    "traditional_methods": [
+        "Supplementary weft weaving.",
+        "Pattern creation directly on the loom."
+    ],
+    "typical_products": [
+        "Sarees",
+        "Scarves"
+    ],
+    "motifs_and_meanings": [
+        "Jasmine (Chameli).",
+        "Panna Hajar (Thousand emeralds)."
+    ],
+    "major_centres": [
+        {
+            "place_id": "shantipur-bengal",
+            "title": "Shantipur / Phulia",
+            "summary": "Major centers for Tangail and Jamdani weaving.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Train from Kolkata.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Weaver co-ops"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "High",
+    "where_to_buy": [
+        "Kolkata Markets",
+        "Dakshinapan"
+    ],
+    "shipping_and_packaging_tips": "Delicate.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 2000,
+        "to": 50000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "In authentic Jamdani, the designs are woven into the fabric, not embroidered or printed. You can feel the pattern.",
+    "sustainability_notes": "Very labor intensive.",
+    "local_economy_note": "Significant.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Textile",
+        "Bengal",
+        "Muslin",
+        "Weave"
+    ],
+    "seo_title": "Jamdani Weaving: The Fine Muslin Art of Bengal",
+    "seo_description": "Explore Jamdani, the exquisite woven muslin of Bengal. Known for its sheer texture and supplementary weft motifs.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Jamdani Weaving",
+        "material": "Muslin",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "West Bengal"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

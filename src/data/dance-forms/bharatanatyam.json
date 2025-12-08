@@ -1,0 +1,172 @@
+{
+    "id": "bharatanatyam",
+    "slug": "bharatanatyam",
+    "title": "Bharatanatyam",
+    "alt_title": "Dasi Attam",
+    "origin_state": "Tamil Nadu",
+    "hero_image": "bharatanatyam-hero.jpg",
+    "hero_image_alt": "Bharatanatyam dancer in aramandi posture",
+    "gallery_images": [
+        "bharatanatyam-1.jpg",
+        "bharatanatyam-2.jpg",
+        "bharatanatyam-3.jpg",
+        "bharatanatyam-4.jpg"
+    ],
+    "short_description": "One of the oldest classical dance forms, known for its fixed upper torso, bent legs, and spectacular footwork.",
+    "long_description": "Bharatanatyam is widely regarded as the oldest surviving classical dance tradition in India. Originating in the temples of Tamil Nadu, it was originally performed by female temple dancers called Devadasis and was known as Dasi Attam. The name Bharatanatyam is often interpreted as a combination of three concepts: Bha-va (Expression), Ra-ga (Main Melody), and Ta-la (Rhythm), with Natyam meaning dance.\n\nThis art form is renowned for its sculptural poses, the grounded stance known as 'Aramandi' (half-sit), and intricate footwork that creates a complex rhythmic interplay with the accompanying music. The dance is traditionally a solo performance that narrates stories from Hindu mythology, particularly those of Lord Shiva, Krishna, and the Goddess. \n\nThe repertoire is divided into Nritta (pure dance with rhythm and movement), Nritya (combination of rhythm and expression), and Natya (dramatic element). A traditional recital, or Margam, follows a specific order starting with Alarippu (an offering of flowers) and concluding with Tillana (a fast-paced rhythmic piece).\n\nOver the centuries, Bharatanatyam has evolved from temple precincts to royal courts and finally to public stages, becoming a symbol of India's cultural identity globally.",
+    "performance_style": "classical",
+    "music_and_instruments": [
+        "Carnatic Vocal",
+        "Mridangam",
+        "Nattuvangam (Cymbals)",
+        "Violin",
+        "Flute",
+        "Veena"
+    ],
+    "costume_and_makeup": "Dancers wear a specially stitched Kanchipuram silk saree that fans out during movements. Jewelry includes the 'talai-saman' (headset representing sun and moon), temple jewelry necklaces, grand bangles, and ghungroos (bells) on the ankles. Makeup highlights the eyes to enhance expression, and fingertips are painted red to draw attention to mudras.",
+    "choreography_elements": [
+        "Aramandi (Basic half-sit stance)",
+        "Mudras (Hand gestures)",
+        "Abhinaya (Facial expression)",
+        "Adavus (Basic dance units)"
+    ],
+    "typical_duration": "60–90 minutes",
+    "where_to_watch": [
+        "Chennai Music Season (Dec-Jan)",
+        "Chidambaram Natyanjali Festival",
+        "Kalakshetra Foundation, Chennai",
+        "Music Academy, Chennai"
+    ],
+    "where_to_learn": [
+        "Kalakshetra Foundation, Chennai",
+        "Bharata Kalanjali, Chennai",
+        "Nalanada Dance Research Centre, Mumbai"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Arangetram (Debut stage performance)",
+        "Guru-Shishya parampara",
+        "Prayer to Lord Nataraja before starting"
+    ],
+    "common_festivals_or_events": [
+        "Margazhi Festival (December)",
+        "Natyanjali (February/March)",
+        "Navratri"
+    ],
+    "top_places": [
+        {
+            "place_id": "chennai-music-academy",
+            "title": "The Music Academy, Chennai",
+            "summary": "The premier institution for Carnatic music and Bharatanatyam performs.",
+            "best_time_to_see": "December (Margazhi Season)",
+            "how_to_reach": "Located in Mylapore, Chennai; accessible by taxi or bus.",
+            "is_bookable": true,
+            "related_content_slugs": [
+                "chennai"
+            ]
+        },
+        {
+            "place_id": "chidambaram-temple",
+            "title": "Thillai Nataraja Temple, Chidambaram",
+            "summary": "The spiritual home of the Lord of Dance, Nataraja. The Natyanjali festival is held in the temple precincts.",
+            "best_time_to_see": "February/March during Mahashivratri",
+            "how_to_reach": "4-5 hours by train/bus from Chennai.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "kalakshetra",
+            "title": "Kalakshetra Foundation",
+            "summary": "A center for artistic endeavor founded by Rukmini Devi Arundale. Offers beautiful morning assemblies and performances.",
+            "best_time_to_see": "Year-round (Performances vary)",
+            "how_to_reach": "Located in Thiruvanmiyur, Chennai.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "chennai"
+            ]
+        },
+        {
+            "place_id": "tanjore-palace",
+            "title": "Thanjavur Royal Palace",
+            "summary": "Visit the Brihadeeswarar Temple nearby, which has 108 karanas (dance poses) carved in stone.",
+            "best_time_to_see": "October to March",
+            "how_to_reach": "Thanjavur is well-connected by rail from Chennai and Trichy.",
+            "is_bookable": true,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "mamallapuram-dance",
+            "title": "Mamallapuram Dance Festival",
+            "summary": "Open-air festival held against the backdrop of ancient rock sculptures.",
+            "best_time_to_see": "December-January",
+            "how_to_reach": "60km south of Chennai along the ECR.",
+            "is_bookable": false,
+            "related_content_slugs": [
+                "chennai"
+            ]
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "Applause is reserved for the end of a piece (varnam, tillana). Do not take flash photography during performances as it distracts dancers.",
+        "accessibility_notes": "Major auditoriums in Chennai are wheelchair accessible, but temple venues may have steps.",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 200,
+            "to": 2000,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Smart casual or traditional Indian wear is appreciated at sabhas (cultural organizations)."
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "2-hour intro",
+            "3-day intensive"
+        ],
+        "workshop_price_from": 1500,
+        "currency": "INR",
+        "booking_info": "Contact Kalakshetra or private gurus in Mylapore for short-term workshops."
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Rukmini Devi Arundale (Revivalist)",
+            "Padma Subrahmanyam",
+            "Alarmel Valli",
+            "Malavika Sarukkai"
+        ],
+        "canonical_references": [
+            {
+                "title": "Natya Shastra by Bharata Muni",
+                "source_url": "https://en.wikipedia.org/wiki/Natya_Shastra"
+            },
+            {
+                "title": "Kalakshetra Foundation",
+                "source_url": "https://www.kalakshetra.in/"
+            }
+        ]
+    },
+    "tags": [
+        "Classical",
+        "Tamil Nadu",
+        "Temple Dance",
+        "Spiritual",
+        "Performing Arts"
+    ],
+    "seo_title": "Bharatanatyam Dance Guide: History, Costumes & Typography",
+    "seo_description": "Discover Bharatanatyam, the ancient classical dance of Tamil Nadu. Learn about its mudras, history, music seasonal festivals like Margazhi.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Bharatanatyam: The Divine Dance of Tamil Nadu",
+        "image": [
+            "https://example.com/images/bharatanatyam-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

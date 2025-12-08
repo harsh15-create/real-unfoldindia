@@ -1,0 +1,104 @@
+{
+    "id": "kathputli-puppets",
+    "slug": "kathputli-puppets",
+    "title": "Kathputli",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Rajasthani Puppets"
+    ],
+    "origin_state_or_region": "Rajasthan",
+    "hero_image": "kathputli-puppets-hero.jpg",
+    "hero_image_alt": "Colorful Rajasthani string puppets",
+    "gallery_images": [
+        "kathputli-1.jpg"
+    ],
+    "short_description": "String puppets made of wood and cloth, central to Rajasthani folk theatre and storytelling.",
+    "long_description": "Kathputli means 'wooden doll'. It is the most popular form of Indian puppetry. The puppets are carved from a single piece of wood (head and torso), painted with large expressive eyes, and dressed in bright Rajasthani clothes. \n\nThey are controlled by a single puppeteer using strings attached to his fingers. The shows dwell on historical tales of bravery (like Amar Singh Rathore) and social issues.",
+    "materials_used": [
+        "Mango wood",
+        "Cotton cloth",
+        "Strings"
+    ],
+    "traditional_methods": [
+        "Carving the face.",
+        "Painting features.",
+        "Stitching costumes.",
+        "Attaching strings."
+    ],
+    "typical_products": [
+        "Puppets (Toys)",
+        "Showpieces"
+    ],
+    "motifs_and_meanings": [
+        "Snake charmer.",
+        "Court Dancer."
+    ],
+    "major_centres": [
+        {
+            "place_id": "jaipur-city",
+            "title": "Jaipur",
+            "summary": "Kathputli Nagar is a settlement of puppeteers.",
+            "best_time_to_visit": "Winter/Evenings",
+            "how_to_reach": "Jaipur.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Kathputli Nagar"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "1 hour",
+                "typical_price": 500,
+                "booking_info_placeholder": "Shows arranged"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Evening Show",
+    "where_to_buy": [
+        "Jaipur Markets",
+        "Chokhi Dhani"
+    ],
+    "shipping_and_packaging_tips": "Strings can tangle.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 100,
+        "to": 1000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Check the movement of the joints.",
+    "sustainability_notes": "Upcycled cloth often used.",
+    "local_economy_note": "Entertainment and craft.",
+    "notable_artisans": [],
+    "museums_collections": [
+        {
+            "name": "Bhartiya Lok Kala Mandal",
+            "location": "Udaipur",
+            "source_url": null
+        }
+    ],
+    "canonical_references": [],
+    "tags": [
+        "Craft",
+        "Rajasthan",
+        "Puppets",
+        "Theatre"
+    ],
+    "seo_title": "Kathputli: The String Puppets of Rajasthan",
+    "seo_description": "Discover Kathputli, the vibrant string puppetry of Rajasthan. Learn about the Bhat community and its storytelling tradition.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Kathputli",
+        "material": "Wood, Cloth",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Rajasthan"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

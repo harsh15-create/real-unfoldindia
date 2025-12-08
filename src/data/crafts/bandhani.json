@@ -1,0 +1,93 @@
+{
+    "id": "bandhani",
+    "slug": "bandhani",
+    "title": "Bandhani",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Bandhej"
+    ],
+    "origin_state_or_region": "Kutch (Gujarat) / Rajasthan",
+    "hero_image": "bandhani-hero.jpg",
+    "hero_image_alt": "Vibrant tie-dye Bandhani textile",
+    "gallery_images": [
+        "bandhani-1.jpg"
+    ],
+    "short_description": "A type of tie-dye textile decorated by plucking the cloth with the fingernails into many tiny bindings.",
+    "long_description": "Bandhani is derived from the Sanskrit word 'Bandh', meaning to bind or tie. It is a type of tie-dye textile common in Gujarat and Rajasthan. The art involves tying thousands of tiny knots on the fabric with thread before dyeing it. \n\nWhen the knots are opened after dyeing, they reveal small white or colored dots in the dyed background. The patterns can range from simple dots to intricate figures.",
+    "materials_used": [
+        "Cotton",
+        "Silk",
+        "Thread"
+    ],
+    "traditional_methods": [
+        "Design tracing (stenciling).",
+        "Tying knots (undoubtedly the most labor-intensive part).",
+        "Dyeing (lighter to darker colors).",
+        "Washing and opening knots."
+    ],
+    "typical_products": [
+        "Sarees",
+        "Turbans",
+        "Dupattas"
+    ],
+    "motifs_and_meanings": [
+        "Gharchola: Grid pattern for weddings.",
+        "Chandrakala: Moon."
+    ],
+    "major_centres": [
+        {
+            "place_id": "bhuj-kutch",
+            "title": "Bhuj / Mandvi",
+            "summary": "Key center for fine Bandhani.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Bhuj.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Khatri community"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half Day",
+    "where_to_buy": [
+        "Bhujodi",
+        "Jamnagar"
+    ],
+    "shipping_and_packaging_tips": "Easy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 500,
+        "to": 15000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "New Bandhani will have a crinkled texture from the ties. If it's flat, it might be a screen print.",
+    "sustainability_notes": "Natural dyeing revival.",
+    "local_economy_note": "Maintains artisans in arid regions.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Craft",
+        "Gujarat",
+        "Tie-Dye",
+        "Colorful"
+    ],
+    "seo_title": "Bandhani Tie-Dye: The Dotted Art of Gujarat",
+    "seo_description": "Discover Bandhani, the intricate tie-dye art of Kutch and Rajasthan. Learn about the arduous knotting process.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Bandhani",
+        "material": "Cotton, Silk",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Gujarat"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

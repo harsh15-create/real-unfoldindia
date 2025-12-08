@@ -1,0 +1,99 @@
+{
+    "id": "kondapalli-toys",
+    "slug": "kondapalli-toys",
+    "title": "Kondapalli Toys",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Kondapalli Bomma"
+    ],
+    "origin_state_or_region": "Kondapalli, Andhra Pradesh",
+    "hero_image": "kondapalli-toys-hero.jpg",
+    "hero_image_alt": "Colorful Kondapalli wooden toys depicting village life",
+    "gallery_images": [
+        "kondapalli-1.jpg"
+    ],
+    "short_description": "Brightly colored lightweight wooden toys from Andhra Pradesh, depicting scenes of rural life.",
+    "long_description": "Kondapalli toys are world-famous for their light weight, vibrant colors, and life-like depiction of rural Indian life. Made in the Kondapalli village near Vijayawada, these toys are carved from 'Tella Poniki' (White Sander) wood which is extremely soft and easy to carve. \n\nThe themes include the Dasavataras, elephants with ambari, palm tree climbers, and village scenes. The most famous is the 'Dancing Doll' which has loose joints.",
+    "materials_used": [
+        "Tella Poniki Wood",
+        "Tamarind seed paste (Sawdust + Acacia gum)",
+        "Vegetable dyes"
+    ],
+    "traditional_methods": [
+        "Carving roughly.",
+        "Bhatnam (filling cracks with sawdust paste).",
+        "Smoothing.",
+        "Painting (oil/water/vegetable)."
+    ],
+    "typical_products": [
+        "Toys",
+        "Dancing dolls",
+        "Village sets"
+    ],
+    "motifs_and_meanings": [
+        "Dashavatar.",
+        "Village professions."
+    ],
+    "major_centres": [
+        {
+            "place_id": "kondapalli-village",
+            "title": "Kondapalli",
+            "summary": "Toy colony.",
+            "best_time_to_visit": "Winter (Sankranti)",
+            "how_to_reach": "Vijayawada (25km).",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Artisan colony"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "1 hour",
+                "typical_price": 200,
+                "booking_info_placeholder": "Walk-in"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "2 Hours",
+    "where_to_buy": [
+        "Lepakshi Emporium",
+        "Kondapalli"
+    ],
+    "shipping_and_packaging_tips": "Fragile joints.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 200,
+        "to": 5000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Extremely light weight. Hand painted features.",
+    "sustainability_notes": "Sustainable wood.",
+    "local_economy_note": "GI Tagged.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Wood",
+        "Andhra",
+        "Toys",
+        "Folk"
+    ],
+    "seo_title": "Kondapalli Toys: Andhra's Lightweight Wood Craft",
+    "seo_description": "Visit Kondapalli to see the famous lightweight wooden toys. Discover the unique Tella Poniki wood and vibrant village themes.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Kondapalli Toys",
+        "material": "Poniki Wood",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Andhra Pradesh"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

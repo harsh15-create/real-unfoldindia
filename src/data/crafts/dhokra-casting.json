@@ -1,0 +1,103 @@
+{
+    "id": "dhokra-casting",
+    "slug": "dhokra-casting",
+    "title": "Dhokra Art",
+    "category_id": "handicrafts-folk",
+    "alt_titles": [
+        "Dokra"
+    ],
+    "origin_state_or_region": "Bastar (Chhattisgarh), Bengal, Odisha",
+    "hero_image": "dhokra-casting-hero.jpg",
+    "hero_image_alt": "Brass Dhokra figurine made by lost wax casting",
+    "gallery_images": [
+        "dhokra-1.jpg"
+    ],
+    "short_description": "Non-ferrous metal casting using the lost-wax casting technique, practiced by tribes in Bengal, Odisha, and Chattisgarh.",
+    "long_description": "Dhokra is an ancient folk art tradition of non-ferrous metal casting. It uses the 'Lost Wax' casting (cire perdue) technique, one of the oldest known methods of metal casting (dating back to Mohenjo-Daro). \n\nThe artisans create a clay core, wrap it in beeswax threads to form the design, cover it with clay again, and then pour molten brass/bronze which melts and replaces the wax. The result is a rustic, primitive-looking metal figure, often measuring inches to a few feet.",
+    "materials_used": [
+        "Brass/Bronze scrap",
+        "Beeswax",
+        "Clay"
+    ],
+    "traditional_methods": [
+        "Core making.",
+        "Wax thread winding.",
+        "Mold making.",
+        "Firing.",
+        "Demolding."
+    ],
+    "typical_products": [
+        "Figures",
+        "Jewelry",
+        "Bowls"
+    ],
+    "motifs_and_meanings": [
+        "Tribal figures.",
+        "Animals (Tortoise, Elephant)."
+    ],
+    "major_centres": [
+        {
+            "place_id": "bastar-chhattisgarh",
+            "title": "Bastar",
+            "summary": "Kondagaon is a major hub.",
+            "best_time_to_visit": "Winter (Dussehra)",
+            "how_to_reach": "Jagdalpur.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Saathi Samaj"
+        },
+        {
+            "place_id": "dariyapur-bengal",
+            "title": "Dariyapur",
+            "summary": "Dhokra village in Bardhaman.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "Near Kolkata.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Local artisans"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "High",
+    "where_to_buy": [
+        "Biswa Bangla",
+        "Shabari (Chhattisgarh)"
+    ],
+    "shipping_and_packaging_tips": "Heavy.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 200,
+        "to": 10000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Authentic Dhokra has a distinct wire-wound look due to the wax threads.",
+    "sustainability_notes": "Uses scrap metal.",
+    "local_economy_note": "Tribal livelihood.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Metal",
+        "Tribal",
+        "Bronze",
+        "Ancient"
+    ],
+    "seo_title": "Dhokra Art: Ancient Lost-Wax Casting",
+    "seo_description": "Discover Dhokra, the tribal metal art of Bastar and Bengal. Learn about the 4000-year-old lost-wax casting technique.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Dhokra Casting",
+        "material": "Brass",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Chhattisgarh"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

@@ -1,0 +1,109 @@
+{
+    "id": "thangka-painting",
+    "slug": "thangka-painting",
+    "title": "Thangka Painting",
+    "category_id": "art-paintings",
+    "alt_titles": [
+        "Thangka"
+    ],
+    "origin_state_or_region": "Sikkim, Ladakh, Dharamshala",
+    "hero_image": "thangka-painting-hero.jpg",
+    "hero_image_alt": "Intricate Thangka painting of Buddha",
+    "gallery_images": [
+        "thangka-1.jpg"
+    ],
+    "short_description": "Tibetan Buddhist painting on cotton or silk appliqué, usually depicting a Buddhist deity, scene, or mandala.",
+    "long_description": "A Thangka is a Tibetan Buddhist painting on cotton, silk appliqué, usually depicting a Buddhist deity, scene, or mandala. Thangkas are traditionally kept unframed and rolled up when not on display, mounted on a textile backing somewhat in the style of Chinese scroll paintings, with a further silk cover on the front.\n\nThey serve as important teaching tools depicting the life of the Buddha, various influential lamas, and other deities and bodhisattvas. The art is strictly governed by iconographic rules.",
+    "materials_used": [
+        "Cotton canvas",
+        "Mineral pigments",
+        "Gold dust",
+        "Silk brocade"
+    ],
+    "traditional_methods": [
+        "Canvas preparation with glue and chalk.",
+        "Burnishing.",
+        "Grid drawing (iconometric lines).",
+        "Painting.",
+        "Gold application.",
+        "Eyes opening ceremony."
+    ],
+    "typical_products": [
+        "Religious scrolls"
+    ],
+    "motifs_and_meanings": [
+        "Wheel of Life: Samsara.",
+        "Mandala: Universe."
+    ],
+    "major_centres": [
+        {
+            "place_id": "gangtok-sikkim",
+            "title": "Gangtok, Sikkim",
+            "summary": "Directorate of Handicrafts & Handloom.",
+            "best_time_to_visit": "Mar-May",
+            "how_to_reach": "Gangtok.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "DHH"
+        },
+        {
+            "place_id": "dharamshala-hp",
+            "title": "Dharamshala",
+            "summary": "Norbulingka Institute.",
+            "best_time_to_visit": "Feb-Jun",
+            "how_to_reach": "Gaggal Airport.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Norbulingka"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "1 week",
+                "typical_price": 5000,
+                "booking_info_placeholder": "Institutes"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "2 Hours",
+    "where_to_buy": [
+        "Norbulingka Institute",
+        "Gangtok Markets"
+    ],
+    "shipping_and_packaging_tips": "Rolled in tubes.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 2000,
+        "to": 100000,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Look for the fineness of the gold lines and the expression of the deity.",
+    "sustainability_notes": "Spiritual art.",
+    "local_economy_note": "Supports Tibetan refugee communities.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Painting",
+        "Himalayas",
+        "Buddhist",
+        "Gold"
+    ],
+    "seo_title": "Thangka Painting Guide: Himalayan Buddhist Art",
+    "seo_description": "Discover Thangka painting, the sacred Buddhist art of the Himalayas. Learn about Mandalas, mineral pigments, and the spiritual process.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Thangka Painting",
+        "material": "Canvas, Gold",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Sikkim"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

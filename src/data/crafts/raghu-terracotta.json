@@ -1,0 +1,94 @@
+{
+    "id": "raghu-terracotta",
+    "slug": "raghu-terracotta",
+    "title": "Raghurajpur Terracotta",
+    "category_id": "pottery-ceramics",
+    "alt_titles": [],
+    "origin_state_or_region": "Raghurajpur, Odisha",
+    "hero_image": "raghu-terracotta-hero.jpg",
+    "hero_image_alt": "Clay toys and figures drying in Raghurajpur",
+    "gallery_images": [
+        "raghu-1.jpg"
+    ],
+    "short_description": "Delicate clay toys and masks created by the artisans of the heritage village Raghurajpur.",
+    "long_description": "Raghurajpur, famous for Pattachitra, also has a thriving terracotta tradition. The artisans here create small clay toys, animal figures (horses, elephants), and masks. Unlike the large structural terracotta of Bengal, the work here is often smaller, sometimes painted brightly, or left in a natural fired finish.\n\nThe 'Cow dung toys' are a variant where cow dung is mixed with clay and paper mache to create lightweight but sturdy figures.",
+    "materials_used": [
+        "Clay",
+        "Cow dung"
+    ],
+    "traditional_methods": [
+        "Hand molding.",
+        "Sun drying.",
+        "Baking in traditional kilns.",
+        "Polishing or Painting."
+    ],
+    "typical_products": [
+        "Toys",
+        "Masks",
+        "Decor items"
+    ],
+    "motifs_and_meanings": [
+        "Vahanas: Animals as vehicles of gods."
+    ],
+    "major_centres": [
+        {
+            "place_id": "raghurajpur-village",
+            "title": "Raghurajpur Heritage Village",
+            "summary": "A village where every house is an artist's studio.",
+            "best_time_to_visit": "Winter",
+            "how_to_reach": "15km from Puri.",
+            "workshop_availability": true,
+            "workshop_contact_placeholder": "Walk-in"
+        }
+    ],
+    "visitor_experiences": {
+        "workshop_options": [
+            {
+                "duration": "2 hours",
+                "typical_price": 500,
+                "booking_info_placeholder": "On site"
+            }
+        ],
+        "demonstrations": true,
+        "studio_visits": true
+    },
+    "recommended_visit_length": "Half Day",
+    "where_to_buy": [
+        "Artisan homes in Raghurajpur"
+    ],
+    "shipping_and_packaging_tips": "Easy to carry small items.",
+    "typical_price_range": {
+        "currency": "INR",
+        "from": 50,
+        "to": 500,
+        "price_type": "estimated",
+        "source_url": null,
+        "last_checked": "2024-01-01"
+    },
+    "authenticity_tips": "Buy directly from the makers in the village.",
+    "sustainability_notes": "Sustainable rural craft.",
+    "local_economy_note": "Tourism driven.",
+    "notable_artisans": [],
+    "museums_collections": [],
+    "canonical_references": [],
+    "tags": [
+        "Terracotta",
+        "Odisha",
+        "Toys",
+        "Village"
+    ],
+    "seo_title": "Raghurajpur Terracotta: Clay Art of Odisha",
+    "seo_description": "Discover the terracotta toys and masks of Raghurajpur heritage village in Odisha.",
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Raghurajpur Terracotta",
+        "material": "Clay",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Odisha"
+        }
+    },
+    "last_updated": "2025-12-09",
+    "is_live": true
+}

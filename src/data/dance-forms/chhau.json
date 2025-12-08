@@ -1,0 +1,112 @@
+{
+    "id": "chhau",
+    "slug": "chhau",
+    "title": "Chhau",
+    "alt_title": "Chhou",
+    "origin_state": "Odisha / Jharkhand / West Bengal",
+    "hero_image": "chhau-hero.jpg",
+    "hero_image_alt": "Chhau dancers in masks performing martial moves",
+    "gallery_images": [
+        "chhau-1.jpg",
+        "chhau-2.jpg"
+    ],
+    "short_description": "A semi-classical form spanning Odisha, Bengal, and Jharkhand, combining martial arts and storytelling.",
+    "long_description": "Chhau is a major tradition of eastern India. It is a unique form of masked dance (in the Purulia and Seraikella styles) that uses vigorous martial movements to enact stories from epics. The Mayurbhanj style of Odisha uses no masks. \n\nThe dance is performed during the Chaitra Parva festival and depicts themes from the Ramayana and Mahabharata. The movements are inspired by combat techniques (Parikhanda) and animal gaits (Chalis). It involves high leaps, somersaults, and rapid footwork.",
+    "performance_style": "semi-classical",
+    "music_and_instruments": [
+        "Dhol",
+        "Dhumsa (Huge kettle drum)",
+        "Mohuri (Shehnai-like)"
+    ],
+    "costume_and_makeup": "Purulia and Seraikella styles use elaborate clay/paper-mache masks. Mayurbhanj uses none. Costumes are colorful pyjamas.",
+    "choreography_elements": [
+        "Uflis (Leaps)",
+        "Martial stances",
+        "Animal gaits"
+    ],
+    "typical_duration": "30-60 minutes",
+    "where_to_watch": [
+        "Baripada Chhau Festival (Odisha)",
+        "Purulia Chhau Festival (Bengal)"
+    ],
+    "where_to_learn": [
+        "Government Chhau Centre, Seraikella"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Performed at night in open fields",
+        "Spring festival (Chaitra)"
+    ],
+    "common_festivals_or_events": [
+        "Chaitra Parva (April)"
+    ],
+    "top_places": [
+        {
+            "place_id": "baripada",
+            "title": "Baripada, Odisha",
+            "summary": "Home of Mayurbhanj Chhau. Visit the annual Chaitra Parva festival.",
+            "best_time_to_see": "April",
+            "how_to_reach": "Train from Bhubaneswar.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        },
+        {
+            "place_id": "purulia",
+            "title": "Purulia, West Bengal",
+            "summary": "Famous for the masked Chhau dance. UNESCO heritage art.",
+            "best_time_to_see": "April (Charak Puja)",
+            "how_to_reach": "Train from Kolkata.",
+            "is_bookable": false,
+            "related_content_slugs": []
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "It is physically intense. The masks in Purulia Chhau are works of art.",
+        "accessibility_notes": "Rural venues.",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 0,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Casual"
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "1-week camp"
+        ],
+        "workshop_price_from": 2000,
+        "currency": "INR",
+        "booking_info": "Local centres"
+    },
+    "media_references": {
+        "notable_practitioners": [
+            "Gurus of Mayurbhanj"
+        ],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Martial Arts",
+        "Masks",
+        "East India"
+    ],
+    "seo_title": "Chhau Dance Guide: Masked Martial Dance",
+    "seo_description": "Discover Chhau, the vigorous masked dance of East India. Learn about the Purulia, Seraikella, and Mayurbhanj styles.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Chhau: The Dance of War and Peace",
+        "image": [
+            "https://example.com/images/chhau-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}

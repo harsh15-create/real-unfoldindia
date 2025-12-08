@@ -1,0 +1,101 @@
+{
+    "id": "garba",
+    "slug": "garba",
+    "title": "Garba",
+    "alt_title": "Garba Deep",
+    "origin_state": "Gujarat",
+    "hero_image": "garba-hero.jpg",
+    "hero_image_alt": "Women performing Garba in a circle",
+    "gallery_images": [
+        "garba-1.jpg",
+        "garba-2.jpg"
+    ],
+    "short_description": "Performed during Navratri in Gujarat, this circular dance honors the goddess Durga with rhythmic clapping.",
+    "long_description": "Garba is a form of dance which originates from the state of Gujarat in India. The name is derived from the Sanskrit term 'Garbha' (womb) and 'Deep' (lamp). Many traditional Garbas are performed around a centrally lit lamp or a picture/statue of the Goddess Shakti. \n\nTraditionally, it is performed during the nine-day Hindu festival Navratria. Both men and women dance in concentric circles, clapping their hands to the rhythm of the music. It symbolizes the cycle of time (from birth to death to rebirth) revolving around the one true constant - the Goddess.",
+    "performance_style": "folk",
+    "music_and_instruments": [
+        "Dhol",
+        "Harmonium",
+        "Singing"
+    ],
+    "costume_and_makeup": "Colors are vibrant. Women wear Chaniya Choli (skirt-blouse) with mirror work and heavy jewelry. Men wear Kediyu.",
+    "choreography_elements": [
+        "Clapping",
+        "Circular formation",
+        "Bending"
+    ],
+    "typical_duration": "Hours (All night)",
+    "where_to_watch": [
+        "Vadodara Navratri Festival",
+        "Ahmedabad GMDC Ground"
+    ],
+    "where_to_learn": [
+        "Workshops in Gujarat before Navratri"
+    ],
+    "recommended_experience": "performance",
+    "key_traditions": [
+        "Aarti to the Goddess",
+        "Barefoot mostly"
+    ],
+    "common_festivals_or_events": [
+        "Navratri (Sept/Oct)"
+    ],
+    "top_places": [
+        {
+            "place_id": "vadodara-navratri",
+            "title": "Vadodara (Baroda)",
+            "summary": "Known as the cultural capital for Garba. The United Way Garba is world-famous.",
+            "best_time_to_see": "Navratri",
+            "how_to_reach": "Vadodara Airport.",
+            "is_bookable": true,
+            "related_content_slugs": []
+        }
+    ],
+    "practical_info": {
+        "audience_tips": "It gets very crowded. Wear comfortable shoes if you plan to join.",
+        "accessibility_notes": "Crowds make accessibility hard.",
+        "typical_ticket_range": {
+            "currency": "INR",
+            "from": 0,
+            "to": 5000,
+            "price_type": "estimated",
+            "source_url": null,
+            "last_checked": "2024-01-01"
+        },
+        "suggested_attire_for_viewers": "Traditional Indian wear."
+    },
+    "teaching_workshop_details": {
+        "beginner_workshop_duration_options": [
+            "1-week crash course"
+        ],
+        "workshop_price_from": 1000,
+        "currency": "INR",
+        "booking_info": "Local academies"
+    },
+    "media_references": {
+        "notable_practitioners": [],
+        "canonical_references": []
+    },
+    "tags": [
+        "Folk",
+        "Gujarat",
+        "Navratri",
+        "Devotional"
+    ],
+    "seo_title": "Garba Dance Guide: Navratri & Gujarat Traditions",
+    "seo_description": "Discover Garba, the circular folk dance of Gujarat. Performed during Navratri to honor the Goddess Shakti.",
+    "last_updated": "2025-12-08",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Garba: Circle of Life",
+        "image": [
+            "https://example.com/images/garba-hero.jpg"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "Unfold India Voyage"
+        }
+    }
+}
