@@ -81,51 +81,131 @@ const RegionHighlights: React.FC<RegionHighlightsProps> = ({ highlights, regionS
     const remainingCount = highlights.length - 6;
 
     return (
-        <section ref={observerRef} className="py-16 bg-[#0B0B15] relative overflow-hidden">
+        <section ref={observerRef} className="py-10 bg-[#0B0B15] relative overflow-hidden">
             <div className="container mx-auto px-4 z-10 relative">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Visual Highlights</h2>
                     <p className="text-gray-400 max-w-2xl mx-auto">A glimpse into the soul of the region.</p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-6">
-                    {displayedHighlights.map((highlight, index) => (
-                        <motion.div
-                            key={highlight.id}
-                            initial={{ opacity: 0, scale: 0.95 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.4, delay: index * 0.1 }}
-                            onClick={() => handleThumbnailClick(index)}
-                            className="group relative aspect-[4/3] cursor-pointer overflow-hidden rounded-xl bg-gray-800 border border-white/5 hover:border-white/20 transition-all shadow-lg"
-                            role="button"
-                            tabIndex={0}
-                            onKeyDown={(e) => { if (e.key === 'Enter') handleThumbnailClick(index); }}
-                            aria-label={`View highlight: ${highlight.caption || highlight.image_alt}`}
-                        >
-                            <img
-                                src={highlight.image}
-                                alt={highlight.image_alt}
-                                loading="lazy"
-                                style={{
-                                    objectPosition: highlight.focal_point ? `${highlight.focal_point.x * 100}% ${highlight.focal_point.y * 100}%` : 'center'
+                {/* 3D Infinity Loop Carousel with Swipe Support */}
+                <motion.div
+                    className="relative h-[400px] w-full flex items-center justify-center perspective-[1000px] mb-8 touch-pan-y"
+                    drag="x"
+                    dragConstraints={{ left: 0, right: 0 }} // Elastic drag
+                    dragElastic={0.1} // Reduced elastic resistance slightly
+                    onDragEnd={(e, { offset, velocity }) => {
+                        const swipeConference = 8000; // Lower threshold to make swipe easier
+                        const swipePower = Math.abs(offset.x) * velocity.x;
+
+                        if (swipePower < -swipeConference) {
+                            handleNext();
+                        } else if (swipePower > swipeConference) {
+                            handlePrev();
+                        }
+                    }}
+                >
+                    {highlights.map((highlight, index) => {
+                        // Calculate relative position for infinity loop effect
+                        // We want 5 visible items usually, but let's handle n items.
+                        const len = highlights.length;
+                        // Distance from current index
+                        let position = (index - currentIndex);
+
+                        // Handle wrap-around for infinity feel in logic (though Framer Motion layoutId is tricky here, 
+                        // we'll stick to a computed position based approach for the 'wheel')
+                        // actually, simple modulo difference is better for a fixed array.
+
+                        // For a simplified "Coverflow" feel without complex webgl:
+                        // Ensure position is within -len/2 to +len/2 range for shortest path
+                        if (position > len / 2) position -= len;
+                        if (position < -len / 2) position += len;
+
+                        // Calculate visibility properties
+                        const isActive = position === 0;
+                        const xOffset = position * 260; // Increased spacing for better visibility
+                        const scale = isActive ? 1.2 : 0.8;
+                        const zIndex = isActive ? 100 : 50 - Math.abs(position); // Higher z-index for active
+                        const rotateY = position * -25; // Stronger rotation for depth
+
+                        // Smooth opacity fade for distant items
+                        // Visible: -2, -1, 0, 1, 2
+                        // Fade out others to prevent "flyover" visual glitches
+                        const isVisible = Math.abs(position) <= 2;
+                        const opacity = isVisible ? 1 : 0;
+                        const pointerEvents = isActive ? 'auto' : 'none'; // Only active item is interactive? Or maybe side items too for clicking?
+                        // Let side items be clickable for navigation
+
+                        return (
+                            <motion.div
+                                key={highlight.id}
+                                className="absolute top-1/2 left-1/2 w-[280px] md:w-[420px] aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl cursor-pointer bg-black/50 backdrop-blur-sm border border-white/10"
+                                initial={false}
+                                animate={{
+                                    x: `calc(-50% + ${xOffset}px)`,
+                                    y: "-50%",
+                                    scale: scale,
+                                    zIndex: zIndex,
+                                    rotateY: rotateY,
+                                    opacity: opacity,
+                                    filter: isActive ? 'brightness(1) contrast(1.1)' : 'brightness(0.5) blur(1px)',
                                 }}
-                                className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
+                                transition={{ type: "spring", stiffness: 150, damping: 25, mass: 1 }}
+                                style={{
+                                    pointerEvents: isVisible ? 'auto' : 'none'
+                                }}
+                                onClick={() => {
+                                    if (isActive) handleThumbnailClick(index);
+                                    else if (position === 1) handleNext();
+                                    else if (position === -1) handlePrev();
+                                }}
+                            >
+                                <img
+                                    src={highlight.image}
+                                    alt={highlight.image_alt}
+                                    className="w-full h-full object-cover pointer-events-none"
+                                />
+                                {isActive && (
+                                    <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/90 via-black/40 to-transparent text-center">
+                                        <p className="text-white font-serif italic text-lg leading-snug drop-shadow-md">"{highlight.caption}"</p>
+                                    </div>
+                                )}
+                            </motion.div>
+                        );
+                    })}
+                </motion.div>
 
-                            <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-2 group-hover:translate-y-0 transition-transform">
-                                <p className="text-white font-medium truncate">{highlight.caption}</p>
-                                {highlight.credit && <p className="text-xs text-gray-400">© {highlight.credit}</p>}
-                            </div>
+                {/* Navigation Controls for Carousel - Floating & Glassmorphic */}
+                <div className="flex justify-center items-center gap-8 mb-12 relative z-20">
+                    <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={handlePrev}
+                        className="rounded-full bg-white/5 hover:bg-white/20 text-white w-14 h-14 border border-white/10 backdrop-blur-md transition-all hover:scale-110 active:scale-95 shadow-lg group"
+                        aria-label="Previous image"
+                    >
+                        <ArrowLeft className="w-6 h-6 group-hover:-translate-x-1 transition-transform" />
+                    </Button>
 
-                            {/* Overlay Icon */}
-                            <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity bg-black/50 p-2 rounded-full backdrop-blur-sm">
-                                <Expand className="w-4 h-4 text-white" />
-                            </div>
-                        </motion.div>
-                    ))}
+                    <div className="text-white/50 text-xs font-medium tracking-widest uppercase">
+                        Swipe or Drag
+                    </div>
+
+                    <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={handleNext}
+                        className="rounded-full bg-white/5 hover:bg-white/20 text-white w-14 h-14 border border-white/10 backdrop-blur-md transition-all hover:scale-110 active:scale-95 shadow-lg group"
+                        aria-label="Next image"
+                    >
+                        <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+                    </Button>
                 </div>
+
+                {/* Side Gradient Overlays to fade out edges */}
+                <div className="absolute top-0 left-0 bottom-0 w-32 bg-gradient-to-r from-[#0B0B15] to-transparent z-10 pointer-events-none" />
+                <div className="absolute top-0 right-0 bottom-0 w-32 bg-gradient-to-l from-[#0B0B15] to-transparent z-10 pointer-events-none" />
+
 
                 {/* Lightbox Dialog */}
                 <Dialog open={isOpen} onOpenChange={setIsOpen}>
@@ -179,13 +259,7 @@ const RegionHighlights: React.FC<RegionHighlightsProps> = ({ highlights, regionS
                     </DialogContent>
                 </Dialog>
 
-                {remainingCount > 0 && (
-                    <div className="text-center mt-8">
-                        <Button variant="outline" className="border-white/20 text-white hover:bg-white/10">
-                            View all {highlights.length} photos
-                        </Button>
-                    </div>
-                )}
+                {/* View all button removed as requested */}
             </div>
         </section>
     );

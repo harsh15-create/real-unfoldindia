@@ -188,7 +188,7 @@
             "id": "pangong-sunrise",
             "image": "https://images.unsplash.com/photo-1549520018-q7b2f2d93707?q=80&w=2070",
             "image_alt": "Sunrise over Pangong Lake with mountains reflected",
-            "caption": "Sunrise over Pangong Lake",
+            "caption": "Witness the ethereal dance of light and shadow as dawn caresses the shimmering waters of Pangong.",
             "credit": "Anil Sharma",
             "date_taken": "2023-09-12",
             "focal_point": {
@@ -205,7 +205,7 @@
             "id": "taj-dawn",
             "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=2070",
             "image_alt": "Taj Mahal at dawn with reflecting pool",
-            "caption": "Dawn at the Taj Mahal",
+            "caption": "Behold the marble poetry of the Taj Mahal, bathed in the golden hues of eternal love.",
             "credit": "Tourism Board",
             "date_taken": "2022-01-05",
             "focal_point": {
@@ -221,7 +221,7 @@
             "id": "varanasi-ganga-aarti",
             "image": "https://images.unsplash.com/photo-1561359313-0639aad49ca6?q=80&w=2070",
             "image_alt": "Ganga Aarti at Dasaswamedh Ghat, Varanasi",
-            "caption": "Evening Ganga Aarti, Varanasi",
+            "caption": "Immerse yourself in the divine symphony of fire and chants at the sacred Ganga Aarti.",
             "credit": "Local Photographer",
             "date_taken": "2024-11-03",
             "focal_point": {
@@ -237,7 +237,7 @@
             "id": "ladakh-roads",
             "image": "https://images.unsplash.com/photo-1517904031661-0a67e1a3297a?q=80&w=2070",
             "image_alt": "Winding road through Ladakh mountains",
-            "caption": "Highway to Leh",
+            "caption": "Traverse the winding ribbons of asphalt that cut through the silent, majestic Himalayas.",
             "credit": null,
             "date_taken": null,
             "focal_point": {
@@ -253,7 +253,7 @@
             "id": "jaipur-palace",
             "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=2070",
             "image_alt": "Amber Fort at golden hour, Jaipur",
-            "caption": "Amber Fort, Jaipur",
+            "caption": "Step into the grandeur of Amber Fort, where every stone whispers tales of royal valor.",
             "credit": "Heritage Trust",
             "date_taken": "2021-11-10",
             "focal_point": {
@@ -269,7 +269,7 @@
             "id": "rishikesh-rafting",
             "image": "https://images.unsplash.com/photo-1588737229567-27b209d18e95?q=80&w=2070",
             "image_alt": "White water rafting on the Ganges at Rishikesh",
-            "caption": "White water rafting at Rishikesh",
+            "caption": "Feel the adrenaline surge as you conquer the roaring rapids of the holy Ganges.",
             "credit": "Adventure Co",
             "date_taken": "2023-08-02",
             "focal_point": {
@@ -285,7 +285,7 @@
             "id": "kashmir-orchards",
             "image": "https://images.unsplash.com/photo-1492290458692-a1b7a7812f2c?q=80&w=2070",
             "image_alt": "Apple orchards near Srinagar",
-            "caption": "Apple orchards near Srinagar",
+            "caption": "Wander through the verdant orchards of Kashmir, truly paradise on Earth.",
             "credit": "Local Farmer",
             "date_taken": "2022-10-20",
             "focal_point": {
@@ -301,7 +301,7 @@
             "id": "desert-overnight",
             "image": "https://images.unsplash.com/photo-1579203672076-26732387114b?q=80&w=2072",
             "image_alt": "Desert campsite near Jaisalmer under stars",
-            "caption": "Desert campsite, Jaisalmer",
+            "caption": "Sleep beneath a blanket of infinite stars in the golden silence of the Thar Desert.",
             "credit": "Camp Operator",
             "date_taken": "2023-02-11",
             "focal_point": {
