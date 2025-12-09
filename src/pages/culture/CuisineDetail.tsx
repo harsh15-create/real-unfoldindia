@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import { useParams, Link, useNavigate } from "react-router-dom";
+import { ArrowLeft, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CuisineHero from "@/components/culture/CuisineHero";
 import { CuisineDetailSections } from "@/components/culture/CuisineDetailSections";
@@ -10,6 +10,7 @@ import { CultureEvents } from "@/analytics/events";
 
 const CuisineDetail = () => {
     const { slug } = useParams<{ slug: string }>();
+    const navigate = useNavigate();
     const [data, setData] = useState<ICuisineDetail | null>(null);
     const [loading, setLoading] = useState(true);
 
@@ -66,7 +67,16 @@ const CuisineDetail = () => {
                 subtitle={data.short_description}
                 image={data.hero_image}
                 tags={data.tags}
-            />
+            >
+                <Button
+                    size="lg"
+                    className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/20 rounded-full px-8 shadow-xl transition-all duration-300 group mt-6"
+                    onClick={() => navigate('/chat', { state: { message: `Create a food itinerary for ${data.title} cuisine, including best places to eat.` } })}
+                >
+                    <Sparkles className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                    Get Itinerary for {data.title}
+                </Button>
+            </CuisineHero>
 
             <CuisineDetailSections cuisine={data} />
         </div>

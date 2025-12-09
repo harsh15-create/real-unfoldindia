@@ -1,17 +1,18 @@
 
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { DanceMaster, getDanceMaster } from '@/lib/dance-api';
 import { DanceHero } from '@/components/culture/DanceHero';
 import { DanceCard } from '@/components/culture/DanceCard';
 // import { CultureEvents } from '@/analytics/events'; // Assuming similar analytics exist or will be added
-import { ArrowLeft, Search } from 'lucide-react';
+import { ArrowLeft, Search, Bot, Sparkles } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 export default function DanceFormsPage() {
+    const navigate = useNavigate();
     const [data, setData] = useState<DanceMaster | null>(null);
     const [searchQuery, setSearchQuery] = useState('');
     const [loading, setLoading] = useState(true);
@@ -59,40 +60,50 @@ export default function DanceFormsPage() {
                 subtitle="Indian Culture"
                 desktopImg={data.hero_image}
                 altText={data.title}
-            />
+            >
+                <Button
+                    size="lg"
+                    className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/20 rounded-full px-8 shadow-xl transition-all duration-300 group"
+                    onClick={() => navigate('/chat', { state: { message: "Tell me about Indian classic dance forms and where to watch them." } })}
+                >
+                    <Bot className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                    Talk to Kira about Dance Forms
+                </Button>
+            </DanceHero>
 
             <div className="container mx-auto px-4 py-12">
                 {/* Intro Text */}
                 <div className="max-w-4xl mx-auto text-center mb-16">
-                    <h2 className="text-2xl font-bold text-white mb-4">{data.intro_title}</h2>
-                    <p className="text-gray-300 leading-relaxed text-xl whitespace-pre-line">
+                    <Sparkles className="w-12 h-12 mx-auto text-orange-500 mb-6" />
+                    <h2 className="text-4xl md:text-5xl font-serif mb-8 text-white">{data.intro_title}</h2>
+                    <p className="text-lg md:text-xl leading-relaxed text-gray-300 whitespace-pre-line font-light">
                         {data.intro_description}
                     </p>
                 </div>
 
-                {/* Filters */}
-                <div className="flex flex-col md:flex-row gap-6 items-center justify-between mb-12 sticky top-4 z-40 bg-[#0B0B15]/80 backdrop-blur-xl p-4 rounded-2xl border border-white/5 shadow-2xl">
-                    <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto scrollbar-hide">
-                        <Button
-                            variant={activeCategory === "all" ? "default" : "outline"}
-                            onClick={() => setActiveCategory("all")}
-                            className={`rounded-full ${activeCategory === "all" ? "bg-orange-500 hover:bg-orange-600 text-white" : "border-white/10 text-gray-400 hover:text-white hover:bg-white/5"}`}
-                        >
-                            All
-                        </Button>
-                        {/* If we had categories in data, map them here. For now, just 'All' or hardcoded types if known */}
-                    </div>
+                {/* Filters & Search */}
+                <div className="flex flex-col md:flex-row justify-between items-center mb-12 gap-6">
+                    <h2 className="text-3xl font-bold flex items-center gap-3">
+                        <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-red-400">
+                            Discover Rhythm & Grace
+                        </span>
+                    </h2>
 
-                    <div className="relative w-full md:w-64 shrink-0">
-                        <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
+                    <div className="relative w-full md:w-96">
+                        <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/40" />
                         <Input
                             placeholder="Search dance forms..."
-                            className="bg-white/5 border-white/10 pl-9 text-white placeholder:text-gray-500 focus:border-orange-500/50 rounded-full"
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
+                            className="pl-12 h-12 bg-white/5 border-white/10 focus:border-orange-500/50 rounded-xl text-white placeholder:text-white/30 transition-all hover:bg-white/10"
                         />
                     </div>
                 </div>
+
+                {/* Categories (Hidden for now as per data structure, or keep if needed but unstyled in previous code) */}
+                {/* <div className="flex gap-2 mb-8 ..."> 
+                      ... categories ...
+                </div> */}
 
                 {/* Grid */}
                 {filteredCards.length > 0 ? (

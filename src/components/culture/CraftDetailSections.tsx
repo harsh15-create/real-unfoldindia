@@ -4,8 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Info, MapPin, Palette, Sparkles, ShoppingBag, Leaf, Award } from "lucide-react";
 import { CraftPlaceCard } from "./CraftPlaceCard";
-import WorkshopCard from "./WorkshopCard";
-import GalleryCarousel from "./GalleryCarousel";
+
 import { CultureEvents } from "@/analytics/events";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -87,14 +86,6 @@ const CraftDetailSections = ({ craft }: CraftDetailSectionsProps) => {
                         </CardContent>
                     </Card>
 
-                    {/* Workshop */}
-                    {craft.visitor_experiences.workshop_options.length > 0 && (
-                        <WorkshopCard
-                            workshop={craft.visitor_experiences.workshop_options[0]}
-                            title={craft.title}
-                            onInquire={() => CultureEvents.CRAFT_WORKSHOP_CLICK(craft.slug)}
-                        />
-                    )}
                 </div>
             </div>
 
@@ -121,13 +112,7 @@ const CraftDetailSections = ({ craft }: CraftDetailSectionsProps) => {
                 </div>
             </div>
 
-            {/* Gallery */}
-            <div>
-                <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-2">
-                    <Palette className="text-secondary h-6 w-6" /> Gallery
-                </h2>
-                <GalleryCarousel images={craft.gallery_images} title={craft.title} />
-            </div>
+
 
             {/* Practical Info (Buying, Authenticity) */}
             <div className="grid md:grid-cols-2 gap-8">

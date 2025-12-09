@@ -1,16 +1,16 @@
-
 import { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import { getCraft, CraftDetail } from "@/lib/art-api";
 import { CultureEvents } from "@/analytics/events";
 // import { Helmet } from "react-helmet";
 import ArtHero from "@/components/culture/ArtHero";
 import CraftDetailSections from "@/components/culture/CraftDetailSections";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Sparkles } from "lucide-react";
 
 const ArtAndCraftDetail = () => {
     const { slug } = useParams<{ slug: string }>();
+    const navigate = useNavigate();
     const [craft, setCraft] = useState<CraftDetail | null>(null);
     const [loading, setLoading] = useState(true);
 
@@ -47,7 +47,16 @@ const ArtAndCraftDetail = () => {
                 title={craft.title}
                 subtitle={craft.short_description}
                 image={craft.hero_image.startsWith('http') ? craft.hero_image : `https://source.unsplash.com/random/1920x1080/?${craft.slug},craft,india`}
-            />
+            >
+                <Button
+                    size="lg"
+                    className="mt-6 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/20 rounded-full px-8 shadow-xl transition-all duration-300"
+                    onClick={() => navigate('/chat', { state: { message: `Generate a detailed itinerary for experiencing ${craft.title} and buying authentic pieces.` } })}
+                >
+                    <Sparkles className="w-5 h-5 mr-2" />
+                    Get Itinerary for {craft.title}
+                </Button>
+            </ArtHero >
 
             <div className="container mx-auto px-4 py-8">
                 <Button variant="ghost" asChild className="mb-4 text-gray-400 hover:text-white">
@@ -58,7 +67,7 @@ const ArtAndCraftDetail = () => {
             </div>
 
             <CraftDetailSections craft={craft} />
-        </div>
+        </div >
     );
 };
 
