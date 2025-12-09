@@ -3,6 +3,10 @@
  * Currently logs to console. replace with actual analytics implementation implementation (e.g. GA4, Segment) later.
  */
 
+const trackEvent = (eventName: string, payload: Record<string, any>) => {
+    console.log(`[Analytics] ${eventName}`, payload);
+};
+
 export const AdventureEvents = {
     EXPERIENCE_OPEN: (category: string) => {
         console.log(`[Analytics] Experience Open: ${category}`);
