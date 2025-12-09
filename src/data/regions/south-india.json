@@ -1,0 +1,337 @@
+{
+    "id": "south-india",
+    "slug": "south-india",
+    "title": "South India",
+    "hero_image": "south-india-hero.jpg",
+    "hero_image_alt": "Coconut-lined backwaters and temple gopurams at sunset",
+    "subtitle": "Temples, Backwaters & Tropical Coasts",
+    "intro": "South India is a tapestry of ancient temple architecture, lush backwaters, spice-scented coasts and hill stations wrapped in tea and coffee plantations. From classical dance and temple festivals to serene houseboat stays and coastal seafood, the region offers relaxed travel rhythms and deep cultural experiences. This page covers best times to visit, top experiences, cities and a curated photo gallery to give you a quick visual sense of the region.",
+    "last_updated": "2025-12-10",
+    "is_live": true,
+    "best_time": {
+        "peak_season": "Nov–Feb",
+        "shoulder_season": "Sep & Mar–Apr",
+        "off_season": "May–Aug (hot and humid; monsoon in many areas)",
+        "notes": "Winter months are ideal for coastal travel and temple visits; monsoon is perfect for backwaters if you prefer lush green landscapes."
+    },
+    "top_experiences": [
+        {
+            "id": "backwaters",
+            "title": "Kerala Backwaters & Houseboats",
+            "summary": "Serene houseboat cruises through canals and rice paddies.",
+            "related_slug": "backwaters"
+        },
+        {
+            "id": "temple-architecture",
+            "title": "Temple Architecture & Rituals",
+            "summary": "Dravidian temples, elaborate gopurams and living ritual traditions.",
+            "related_slug": "temple-architecture"
+        },
+        {
+            "id": "classical-arts",
+            "title": "Classical Arts & Dance",
+            "summary": "Bharatanatyam, Carnatic music and temple festivals.",
+            "related_slug": "dance-forms"
+        },
+        {
+            "id": "hill-stations",
+            "title": "Hill Stations & Plantations",
+            "summary": "Munnar, Coorg and Nilgiri tea/coffee landscapes.",
+            "related_slug": "hill-stations"
+        },
+        {
+            "id": "coastal-food-trails",
+            "title": "Coastal Food Trails",
+            "summary": "Seafood, coconut-based curries and coastal snacks.",
+            "related_slug": "cuisine"
+        },
+        {
+            "id": "heritage-stays",
+            "title": "Heritage Stays & Palaces",
+            "summary": "Colonial bungalows, heritage homes and boutique resorts.",
+            "related_slug": "royal-luxury"
+        }
+    ],
+    "top_cities": [
+        {
+            "city_id": "kochi",
+            "title": "Kochi",
+            "summary": "Historic port city with colonial forts, spice markets and vibrant arts scene.",
+            "thumbnail": "kochi-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Kochi (COK) / Rail: Ernakulam Junction",
+            "related_experiences": [
+                "backwaters",
+                "art-and-craft"
+            ]
+        },
+        {
+            "city_id": "chennai",
+            "title": "Chennai",
+            "summary": "Gateway to Tamil temple culture, classical music and Marina Beach.",
+            "thumbnail": "chennai-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Chennai (MAA) / Rail: Chennai Central",
+            "related_experiences": [
+                "temple-architecture",
+                "dance-forms"
+            ]
+        },
+        {
+            "city_id": "bengaluru",
+            "title": "Bengaluru",
+            "summary": "Tech hub with gardened neighborhoods, craft breweries and nearby hill escapes.",
+            "thumbnail": "bengaluru-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Bengaluru (BLR) / Rail: Bengaluru City",
+            "related_experiences": [
+                "heritage-stays",
+                "adventures"
+            ]
+        },
+        {
+            "city_id": "madurai",
+            "title": "Madurai",
+            "summary": "Ancient temple city known for the Meenakshi Amman Temple and ritual life.",
+            "thumbnail": "madurai-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Madurai (IXM) / Rail: Madurai Junction",
+            "related_experiences": [
+                "temple-architecture",
+                "festivals"
+            ]
+        },
+        {
+            "city_id": "munnar",
+            "title": "Munnar",
+            "summary": "Tea hill station with rolling estates and cool climate.",
+            "thumbnail": "munnar-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Cochin (COK) + road to Munnar",
+            "related_experiences": [
+                "hill-stations",
+                "nature"
+            ]
+        },
+        {
+            "city_id": "thiruvananthapuram",
+            "title": "Thiruvananthapuram",
+            "summary": "Kerala’s capital with access to Kovalam beaches and Ayurvedic treatments.",
+            "thumbnail": "trivandrum-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Thiruvananthapuram (TRV) / Rail: Trivandrum Central",
+            "related_experiences": [
+                "cuisine",
+                "wellness"
+            ]
+        }
+    ],
+    "cuisine_highlights": [
+        {
+            "name": "Kerala Sadhya",
+            "note": "traditional banana-leaf feast",
+            "related_cuisine_slug": "kerala"
+        },
+        {
+            "name": "Chettinad Cuisine",
+            "note": "spice-rich, aromatic meat & vegetarian dishes",
+            "related_cuisine_slug": "chettinad"
+        },
+        {
+            "name": "Coastal Seafood & Malabar",
+            "note": "coconut and spice-driven coastal flavors",
+            "related_cuisine_slug": "goan-konkani-or-kerala"
+        }
+    ],
+    "cultural_snapshot": {
+        "languages": [
+            "Tamil",
+            "Malayalam",
+            "Kannada",
+            "Telugu"
+        ],
+        "major_festivals": [
+            "Pongal",
+            "Onam",
+            "Navratri (regional forms)"
+        ],
+        "notable_dance_forms": [
+            "Bharatanatyam",
+            "Kathakali",
+            "Mohiniyattam"
+        ],
+        "popular_crafts": [
+            "Kanchipuram silk",
+            "Mysore rosewood",
+            "Channapatna toys"
+        ]
+    },
+    "travel_tips": [
+        "Carry light, breathable clothing for coastal days and a light layer for hill stations.",
+        "Respect temple customs: remove shoes and follow dress codes.",
+        "Book houseboats and hill-station stays in advance during peak season.",
+        "Try regional Ayurvedic treatments in Kerala with certified providers."
+    ],
+    "sample_itineraries": {
+        "1-day": "Kochi highlights: Fort Kochi walking tour, Jewish Synagogue, spice market and evening Kathakali performance.",
+        "3-day": "Backwaters start in Alleppey: houseboat overnight, village walk, local seafood market visit."
+    },
+    "logistics": {
+        "major_airports": [
+            "COK",
+            "MAA",
+            "BLR",
+            "TRV"
+        ],
+        "rail_hubs": [
+            "Kochi/Ernakulam",
+            "Chennai Central",
+            "Bengaluru City"
+        ],
+        "typical_internal_transport": "mix of trains and short domestic flights; private cars for hill stations",
+        "notes": "Monsoon can affect travel times in coastal and hill routes; plan buffer days."
+    },
+    "related_experiences": [
+        "backwaters",
+        "dance-forms",
+        "temple-architecture",
+        "hill-stations",
+        "cuisine"
+    ],
+    "related_culture_slugs": [
+        "/culture/cuisine",
+        "/culture/dance-forms",
+        "/culture/art-and-craft"
+    ],
+    "seo_title": "South India Travel Guide — Backwaters, Temples & Hill Stations",
+    "seo_description": "Practical guide to South India: best time to visit, top experiences, cities and a curated photo gallery to give you a quick visual glimpse.",
+    "json_ld_template": {},
+    "cache_hint": {
+        "cache_control": "public, max-age=3600, stale-while-revalidate=86400"
+    },
+    "data_confidence": "high",
+    "highlights": [
+        {
+            "id": "kerala-backwaters",
+            "image": "kerala-backwaters.jpg",
+            "image_alt": "Houseboat cruising through Kerala backwaters lined with palms",
+            "caption": "Houseboat on the Kerala backwaters",
+            "credit": "Tourism Board",
+            "date_taken": "2024-08-15",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.45
+            },
+            "tags": [
+                "backwaters",
+                "houseboat"
+            ]
+        },
+        {
+            "id": "mahabalipuram-shore",
+            "image": "mahabalipuram-shore.jpg",
+            "image_alt": "Shore temple at Mahabalipuram at sunset",
+            "caption": "Shore Temple, Mahabalipuram",
+            "credit": "Heritage Trust",
+            "date_taken": "2022-12-01",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "temple",
+                "shore"
+            ]
+        },
+        {
+            "id": "munnar-tea-rows",
+            "image": "munnar-tea-rows.jpg",
+            "image_alt": "Tea plantations stretching across Munnar hills",
+            "caption": "Tea estates in Munnar",
+            "credit": "Estate Photographer",
+            "date_taken": "2023-03-22",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.4
+            },
+            "tags": [
+                "tea",
+                "hills"
+            ]
+        },
+        {
+            "id": "kathakali-performance",
+            "image": "kathakali-performance.jpg",
+            "image_alt": "Kathakali artist in full costume and makeup",
+            "caption": "Kathakali performance",
+            "credit": "Cultural Trust",
+            "date_taken": "2023-11-05",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "dance",
+                "performance"
+            ]
+        },
+        {
+            "id": "mysore-palace",
+            "image": "mysore-palace.jpg",
+            "image_alt": "Illuminated Mysore Palace at night",
+            "caption": "Mysore Palace lights",
+            "credit": "City Archives",
+            "date_taken": "2021-10-10",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "palace",
+                "heritage"
+            ]
+        },
+        {
+            "id": "kovalam-beach",
+            "image": "kovalam-beach.jpg",
+            "image_alt": "Palm-fringed Kovalam beach at golden hour",
+            "caption": "Kovalam Beach",
+            "credit": "Local Photographer",
+            "date_taken": "2024-02-14",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.55
+            },
+            "tags": [
+                "beach",
+                "coast"
+            ]
+        },
+        {
+            "id": "chennaitemples",
+            "image": "chennai-temples.jpg",
+            "image_alt": "Intricate gopuram at a Chennai temple",
+            "caption": "Temple gopuram detail, Chennai",
+            "credit": "Temple Trust",
+            "date_taken": "2023-07-09",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.45
+            },
+            "tags": [
+                "temple",
+                "architecture"
+            ]
+        },
+        {
+            "id": "bengaluru-gardens",
+            "image": "bengaluru-gardens.jpg",
+            "image_alt": "Lush public gardens in Bengaluru city",
+            "caption": "Bengaluru gardens",
+            "credit": "City Photo",
+            "date_taken": "2022-05-20",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.4
+            },
+            "tags": [
+                "city",
+                "gardens"
+            ]
+        }
+    ]
+}

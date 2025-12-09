@@ -1,0 +1,328 @@
+{
+    "id": "west-india",
+    "slug": "west-india",
+    "title": "West India",
+    "hero_image": "west-india-hero.jpg",
+    "hero_image_alt": "Desert dunes and coastal scenes from western India",
+    "subtitle": "Deserts, Coasts & Colorful Festivals",
+    "intro": "West India mixes desert landscapes, colourful festivals, vibrant coastal life and heritage cities. From the forts and palaces of Rajasthan to the white sands and Portuguese legacy of Goa, the region offers dramatic contrasts in scenery, food, and cultural experiences. This page covers best times to visit, top experiences, cities to explore and a curated gallery that gives a quick visual feel for the region.",
+    "last_updated": "2025-12-10",
+    "is_live": true,
+    "best_time": {
+        "peak_season": "Oct–Feb",
+        "shoulder_season": "Sep & Mar–Apr",
+        "off_season": "May–Aug (hot in desert regions; monsoon on Konkan coast)",
+        "notes": "Visit the desert and Rajasthan in winter for comfortable days and cool nights; coastal Goa and Konkan are best in winter and early spring."
+    },
+    "top_experiences": [
+        {
+            "id": "desert-expeditions",
+            "title": "Desert Expeditions",
+            "summary": "Camel safaris, dune camping and stargazing.",
+            "related_slug": "desert-expeditions"
+        },
+        {
+            "id": "royal-luxury",
+            "title": "Royal Luxury",
+            "summary": "Palace hotels, heritage trains and palace circuits.",
+            "related_slug": "royal-luxury"
+        },
+        {
+            "id": "beach-life",
+            "title": "Beach Life & Water Sports",
+            "summary": "Goa beaches, Konkan coast and coastal activities.",
+            "related_slug": "adventures"
+        },
+        {
+            "id": "craft-trails",
+            "title": "Craft & Handicraft Trails",
+            "summary": "Kutch embroidery, blue pottery and Bidri metalwork.",
+            "related_slug": "art-and-craft"
+        },
+        {
+            "id": "festival-culture",
+            "title": "Festival Culture",
+            "summary": "Navratri, Ganesh Chaturthi and vibrant local festivals.",
+            "related_slug": "festivals"
+        }
+    ],
+    "top_cities": [
+        {
+            "city_id": "jaipur",
+            "title": "Jaipur",
+            "summary": "Pink City with forts, palaces and bustling bazaars.",
+            "thumbnail": "jaipur-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Jaipur (JAI) / Rail: Jaipur Junction",
+            "related_experiences": [
+                "royal-luxury",
+                "handicrafts-folk"
+            ]
+        },
+        {
+            "city_id": "jaisalmer",
+            "title": "Jaisalmer",
+            "summary": "Desert fort city known for sand dunes and camel safaris.",
+            "thumbnail": "jaisalmer-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Jodhpur (JDH) + road / Rail: Jaisalmer station",
+            "related_experiences": [
+                "desert-expeditions"
+            ]
+        },
+        {
+            "city_id": "goa",
+            "title": "Goa",
+            "summary": "Beaches, Portuguese heritage and seafood culture.",
+            "thumbnail": "goa-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Dabolim (GOI) / Rail: Madgaon",
+            "related_experiences": [
+                "beach-life",
+                "cuisine"
+            ]
+        },
+        {
+            "city_id": "surat",
+            "title": "Surat",
+            "summary": "Textile and diamond hub with nearby heritage towns.",
+            "thumbnail": "surat-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Surat (STV) / Rail: Surat Junction",
+            "related_experiences": [
+                "textiles-weaving"
+            ]
+        },
+        {
+            "city_id": "bhuj",
+            "title": "Bhuj",
+            "summary": "Gateway to Kutch region, craft clusters and salt flats.",
+            "thumbnail": "bhuj-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Bhuj (BHJ) / Rail: Bhuj station",
+            "related_experiences": [
+                "art-and-craft",
+                "festivals"
+            ]
+        },
+        {
+            "city_id": "mumbai",
+            "title": "Mumbai",
+            "summary": "India’s commercial capital — coast, cuisine and nightlife.",
+            "thumbnail": "mumbai-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Mumbai (BOM) / Rail: Mumbai CST / VT",
+            "related_experiences": [
+                "urban-experiences",
+                "cuisine"
+            ]
+        }
+    ],
+    "cuisine_highlights": [
+        {
+            "name": "Goan Seafood & Vindaloo",
+            "note": "Portuguese-influenced coastal flavours",
+            "related_cuisine_slug": "goan"
+        },
+        {
+            "name": "Gujarati Thali & Snacks",
+            "note": "Sweet-savoury vegetarian traditions",
+            "related_cuisine_slug": "gujarati"
+        },
+        {
+            "name": "Rajasthani Thali & Bajre ki Roti",
+            "note": "desert staples and rich gravies",
+            "related_cuisine_slug": "rajasthani"
+        }
+    ],
+    "cultural_snapshot": {
+        "languages": [
+            "Gujarati",
+            "Marathi",
+            "Hindi",
+            "Konkani"
+        ],
+        "major_festivals": [
+            "Navratri",
+            "Gangaur",
+            "Ganesh Chaturthi"
+        ],
+        "notable_dance_forms": [
+            "Garba / Dandiya"
+        ],
+        "popular_crafts": [
+            "Bandhani",
+            "Bidri",
+            "Blue Pottery"
+        ]
+    },
+    "travel_tips": [
+        "Carry sun protection and plan for hot daytime temperatures in desert areas.",
+        "Book coastal stays in Goa early for peak season (Dec–Jan).",
+        "Respect local dress codes in temple and conservative rural areas.",
+        "Be mindful of water availability in remote desert circuits."
+    ],
+    "sample_itineraries": {
+        "1-day": "Jaipur highlights: City Palace, Amber Fort sunrise and bazaar stroll with local snacks.",
+        "3-day": "Kutch loop: Bhuj, village craft visits, white desert salt flats and traditional performances."
+    },
+    "logistics": {
+        "major_airports": [
+            "JAI",
+            "GOI",
+            "BOM",
+            "BHJ"
+        ],
+        "rail_hubs": [
+            "Mumbai CST",
+            "Jaipur",
+            "Bhuj",
+            "Surat"
+        ],
+        "typical_internal_transport": "mix of domestic flights for long hops; trains and private cars for regional circuits",
+        "notes": "Desert areas may require local guides; check road accessibility during monsoon."
+    },
+    "related_experiences": [
+        "desert-expeditions",
+        "royal-luxury",
+        "adventures",
+        "art-and-craft",
+        "festivals"
+    ],
+    "related_culture_slugs": [
+        "/culture/art-and-craft",
+        "/culture/cuisine",
+        "/culture/festivals"
+    ],
+    "seo_title": "West India Travel Guide — Deserts, Coasts & Festivals",
+    "seo_description": "Practical guide to West India: best times, top experiences, cities to explore and a curated photo gallery for a quick visual feel.",
+    "json_ld_template": {},
+    "cache_hint": {
+        "cache_control": "public, max-age=3600, stale-while-revalidate=86400"
+    },
+    "data_confidence": "high",
+    "highlights": [
+        {
+            "id": "jaisalmer-dunes",
+            "image": "jaisalmer-dunes.jpg",
+            "image_alt": "Sand dunes near Jaisalmer at sunset",
+            "caption": "Dunes near Jaisalmer",
+            "credit": "Local Operator",
+            "date_taken": "2023-11-20",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.6
+            },
+            "tags": [
+                "desert",
+                "dunes"
+            ]
+        },
+        {
+            "id": "goa-beach",
+            "image": "goa-beach.jpg",
+            "image_alt": "Beach shacks lining a Goan shore at sunset",
+            "caption": "Goa beach shacks",
+            "credit": "Tourism Board",
+            "date_taken": "2024-02-10",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.55
+            },
+            "tags": [
+                "beach",
+                "coast"
+            ]
+        },
+        {
+            "id": "kutch-rann",
+            "image": "kutch-rann.jpg",
+            "image_alt": "White salt flats of the Rann of Kutch",
+            "caption": "Rann of Kutch salt flats",
+            "credit": "Heritage Trust",
+            "date_taken": "2022-01-15",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.45
+            },
+            "tags": [
+                "rann",
+                "salt"
+            ]
+        },
+        {
+            "id": "navratri-garba",
+            "image": "navratri-garba.jpg",
+            "image_alt": "Crowds dancing Garba during Navratri nights",
+            "caption": "Navratri Garba in full swing",
+            "credit": "Local Photographer",
+            "date_taken": "2023-10-05",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "festival",
+                "garba"
+            ]
+        },
+        {
+            "id": "mumbai-marine",
+            "image": "mumbai-marine.jpg",
+            "image_alt": "Marine Drive skyline at dusk",
+            "caption": "Marine Drive, Mumbai",
+            "credit": "City Archive",
+            "date_taken": "2021-08-12",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "city",
+                "coast"
+            ]
+        },
+        {
+            "id": "bhuj-crafts",
+            "image": "bhuj-crafts.jpg",
+            "image_alt": "Artisans working on Kutch embroidery",
+            "caption": "Kutch craft workshop, Bhuj",
+            "credit": "Craft Cluster",
+            "date_taken": "2023-03-18",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.45
+            },
+            "tags": [
+                "craft",
+                "kutch"
+            ]
+        },
+        {
+            "id": "bandhani-textile",
+            "image": "bandhani-textile.jpg",
+            "image_alt": "Bandhani tie-dye fabric being stretched to dry",
+            "caption": "Bandhani textile drying",
+            "credit": "Local Weaver",
+            "date_taken": "2022-06-02",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "textile",
+                "bandhani"
+            ]
+        },
+        {
+            "id": "bidri-metal",
+            "image": "bidri-metal.jpg",
+            "image_alt": "Close-up of Bidri metal inlay work",
+            "caption": "Bidri metalwork detail",
+            "credit": "Artisan",
+            "date_taken": "2023-09-10",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "metalwork",
+                "bidri"
+            ]
+        }
+    ]
+}

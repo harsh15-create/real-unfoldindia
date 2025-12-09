@@ -1,0 +1,332 @@
+{
+    "id": "east-india",
+    "slug": "east-india",
+    "title": "East & Northeast India",
+    "hero_image": "east-india-hero.jpg",
+    "hero_image_alt": "Tea gardens of Darjeeling and monasteries of Sikkim",
+    "subtitle": "Himalayas, Tribal Hills & Living Traditions",
+    "intro": "East and Northeast India offer a stunning contrast between the cultural depth of Bengal and Odisha and the untouched beauty of the Seven Sisters. From the colonial heritage of Kolkata and the sun temples of Konark to the mist-covered peaks of Sikkim and the vibrant tribal hills of Mizoram, this region rewards the traveler with diverse landscapes, unique cuisines, and warm hospitality.",
+    "last_updated": "2025-12-10",
+    "is_live": true,
+    "best_time": {
+        "peak_season": "Oct–Apr",
+        "shoulder_season": "May (for Sikkim/Northeast hills)",
+        "off_season": "Jun–Sep (Heavy monsoon, especially in Northeast)",
+        "notes": "Winter is perfect for Kolkata and Odisha; Summer (Mar-May) is ideal for Sikkim and Northeast hill stations."
+    },
+    "top_experiences": [
+        {
+            "id": "himalayan-monasteries",
+            "title": "Himalayan Monasteries",
+            "summary": "Explore ancient Buddhist monasteries in Sikkim and Darjeeling (Rumtek, Pemayangtse).",
+            "related_slug": "spiritual-journeys"
+        },
+        {
+            "id": "tribal-heritage",
+            "title": "Tribal Heritage of Northeast",
+            "summary": "Experience the unique Mizo culture, festivals like Chapchar Kut, and village life.",
+            "related_slug": "art-and-craft"
+        },
+        {
+            "id": "temple-circuits",
+            "title": "Temple Circuits & Rituals",
+            "summary": "Jagannath Puri Rath Yatra and Konark Sun Temple architectural marvels.",
+            "related_slug": "spiritual-journeys"
+        },
+        {
+            "id": "tea-tourism",
+            "title": "Tea Gardens & Toy Trains",
+            "summary": "Stay in colonial tea estates in Darjeeling and Assam.",
+            "related_slug": "adventures"
+        },
+        {
+            "id": "sunderbans",
+            "title": "Mangroves & Tigers",
+            "summary": "Boat safaris in the world's largest mangrove delta.",
+            "related_slug": "wildlife-safaris"
+        }
+    ],
+    "top_cities": [
+        {
+            "city_id": "kolkata",
+            "title": "Kolkata",
+            "summary": "Cultural capital with colonial architecture, literary life and festivals.",
+            "thumbnail": "kolkata-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Kolkata (CCU) / Rail: Howrah Junction",
+            "related_experiences": [
+                "festivals",
+                "art-and-craft"
+            ]
+        },
+        {
+            "city_id": "sikkim",
+            "title": "Sikkim (Gangtok)",
+            "summary": "Himalayan state with views of Kanchenjunga, orchids, and serene monasteries.",
+            "thumbnail": "sikkim-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Pakyong (PYG) or Bagdogra (IXB)",
+            "related_experiences": [
+                "tea-country",
+                "adventures",
+                "spiritual-journeys"
+            ]
+        },
+        {
+            "city_id": "darjeeling",
+            "title": "Darjeeling",
+            "summary": "Queen of Hills known for world-famous tea and the UNESCO Heritage Toy Train.",
+            "thumbnail": "darjeeling-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Bagdogra (IXB) / Rail: New Jalpaiguri (NJP)",
+            "related_experiences": [
+                "tea-country",
+                "adventures"
+            ]
+        },
+        {
+            "city_id": "mizoram",
+            "title": "Mizoram (Aizawl)",
+            "summary": "Land of the Blue Mountains, vibrant bamboo dances, and high-altitude ridges.",
+            "thumbnail": "mizoram-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Lengpui (AJL) / scenic roads from Silchar",
+            "related_experiences": [
+                "tribal-cultural-experiences",
+                "adventures"
+            ]
+        },
+        {
+            "city_id": "puri",
+            "title": "Puri",
+            "summary": "Coastal spiritual hub, home to the Jagannath Temple and golden beaches.",
+            "thumbnail": "puri-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Bhubaneswar (BBI) / Rail: Puri Station",
+            "related_experiences": [
+                "festivals",
+                "spiritual-journeys"
+            ]
+        },
+        {
+            "city_id": "imphal",
+            "title": "Imphal",
+            "summary": "Historic valley city, gateway to Loktak Lake and Keibul Lamjao National Park.",
+            "thumbnail": "imphal-thumb.jpg",
+            "how_to_reach_snippet": "Nearest airport: Imphal (IMF)",
+            "related_experiences": [
+                "tribal-cultural-experiences",
+                "nature"
+            ]
+        }
+    ],
+    "cuisine_highlights": [
+        {
+            "name": "Sikkimese Momos & Thukpa",
+            "note": "Warm Himalayan comfort food",
+            "related_cuisine_slug": "tibetan-northeast"
+        },
+        {
+            "name": "Mizo Bai & Vawksa Rep",
+            "note": "Herbal stews and smoked pork delicacies",
+            "related_cuisine_slug": "tribal-northeast"
+        },
+        {
+            "name": "Bengali Sweets (Mishti)",
+            "note": "Rosogolla, Sandesh and Mishti Doi",
+            "related_cuisine_slug": "bengali"
+        }
+    ],
+    "cultural_snapshot": {
+        "languages": [
+            "Bengali",
+            "Nepali",
+            "Mizo",
+            "Odia"
+        ],
+        "major_festivals": [
+            "Durga Puja",
+            "Losar (Sikkim)",
+            "Chapchar Kut (Mizoram)",
+            "Rath Yatra"
+        ],
+        "notable_dance_forms": [
+            "Cheraw (Bamboo Dance)",
+            "Odissi",
+            "Chhau"
+        ],
+        "popular_crafts": [
+            "Bamboo & Cane work",
+            "Thangka Painting",
+            "Pattachitra"
+        ]
+    },
+    "travel_tips": [
+        "Inner Line Permits (ILP) are required for Mizoram and parts of Sikkim for domestic/international tourists.",
+        "Pack heavy woolens for Sikkim in winter; light cottons for Kolkata year-round.",
+        "Roads in the Northeast can be unpredictable during monsoon; plan buffers.",
+        "Carry cash when traveling to remote hill districts in Mizoram and Sikkim."
+    ],
+    "sample_itineraries": {
+        "1-day": "Gangtok essence: Rumtek Monastery morning, MG Marg stroll, and cable car ride for Kanchenjunga views.",
+        "5-day": "Northeast Hills: Aizawl cultural tour, Reiek Peak trek, transfer to Silchar/Imphal for Loktak Lake."
+    },
+    "logistics": {
+        "major_airports": [
+            "CCU (Kolkata)",
+            "IXB (Bagdogra)",
+            "AJL (Aizawl)",
+            "PYG (Pakyong)"
+        ],
+        "rail_hubs": [
+            "Howrah",
+            "New Jalpaiguri",
+            "Guwahati"
+        ],
+        "typical_internal_transport": "Shared sumos/jeeps are the lifeline in Sikkim and Mizoram; Trains for Bengal/Odisha plains.",
+        "notes": "Check current permit regulations online before booking flights to Northeast states."
+    },
+    "related_experiences": [
+        "tea-country",
+        "tribal-cultural-experiences",
+        "spiritual-journeys",
+        "adventures"
+    ],
+    "related_culture_slugs": [
+        "/culture/art-and-craft",
+        "/culture/festivals",
+        "/culture/cuisine"
+    ],
+    "seo_title": "East & Northeast India Guide — Himalayas, Hills & Heritage",
+    "seo_description": "Explore East India: from Sikkim's monasteries and Mizoram's blue mountains to Kolkata's heritage. A complete travel guide with itineraries and tips.",
+    "json_ld_template": {},
+    "cache_hint": {
+        "cache_control": "public, max-age=3600, stale-while-revalidate=86400"
+    },
+    "data_confidence": "high",
+    "highlights": [
+        {
+            "id": "rumtek-monastery",
+            "image": "rumtek-monastery.jpg",
+            "image_alt": "Colorful Rumtek Monastery in Sikkim",
+            "caption": "Rumtek Monastery, Sikkim",
+            "credit": "Tourism Board",
+            "date_taken": "2023-11-15",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "sikkim",
+                "monastery"
+            ]
+        },
+        {
+            "id": "mizoram-hills",
+            "image": "mizoram-hills.jpg",
+            "image_alt": "Rolling blue hills of Mizoram at mist",
+            "caption": "Blue Mountains of Mizoram",
+            "credit": "Local Photographer",
+            "date_taken": "2024-01-20",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.4
+            },
+            "tags": [
+                "mizoram",
+                "nature"
+            ]
+        },
+        {
+            "id": "cheraw-dance",
+            "image": "cheraw-dance.jpg",
+            "image_alt": "Traditional Mizo Bamboo Dance",
+            "caption": "Cheraw (Bamboo Dance)",
+            "credit": "Cultural Dept",
+            "date_taken": "2023-03-05",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "dance",
+                "tribal"
+            ]
+        },
+        {
+            "id": "darjeeling-toy-train",
+            "image": "darjeeling-toy-train.jpg",
+            "image_alt": "Toy Train winding through Batasia Loop",
+            "caption": "Darjeeling Himalayan Railway",
+            "credit": "Rail Heritage",
+            "date_taken": "2022-10-10",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "heritage",
+                "train"
+            ]
+        },
+        {
+            "id": "konark-wheel",
+            "image": "konark-sunrise.jpg",
+            "image_alt": "Stone wheel of Konark Sun Temple",
+            "caption": "Konark Sun Temple",
+            "credit": "ASI",
+            "date_taken": "2023-02-14",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "odisha",
+                "temple"
+            ]
+        },
+        {
+            "id": "durga-puja-kolkata",
+            "image": "durga-puja.jpg",
+            "image_alt": "Grand Durga Puja Pandal in Kolkata",
+            "caption": "Durga Puja, Kolkata",
+            "credit": "City Festival",
+            "date_taken": "2023-10-20",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.6
+            },
+            "tags": [
+                "festival",
+                "kolkata"
+            ]
+        },
+        {
+            "id": "tsomgo-lake",
+            "image": "tsomgo-lake.jpg",
+            "image_alt": "Frozen Tsomgo Lake with Yak",
+            "caption": "Tsomgo Lake, Sikkim",
+            "credit": "Adventure Tours",
+            "date_taken": "2024-01-05",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "sikkim",
+                "lake"
+            ]
+        },
+        {
+            "id": "living-root-bridge",
+            "image": "root-bridge.jpg",
+            "image_alt": "Living Root Bridge in Northeast greenery",
+            "caption": "Living Root Bridge",
+            "credit": "Nature Trust",
+            "date_taken": "2023-05-12",
+            "focal_point": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "tags": [
+                "northeast",
+                "nature"
+            ]
+        }
+    ]
+}
