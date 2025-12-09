@@ -54,6 +54,7 @@ export const Header = () => {
     <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-[#0B0B15]/80 backdrop-blur-md supports-[backdrop-filter]:bg-[#0B0B15]/60">
       <div className="container flex h-16 items-center justify-between px-4 md:px-8">
         <Link to="/" className="flex items-center space-x-2">
+          <img src="/logo.png" alt="Unfold India Logo" className="h-8 w-8" />
           <span className="text-2xl font-bold">
             Unfold <span className="text-primary">India</span>
           </span>
