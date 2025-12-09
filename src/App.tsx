@@ -40,6 +40,7 @@ import ArtAndCraftPage from "./pages/culture/ArtAndCraftPage";
 import ArtAndCraftDetail from "./pages/culture/ArtAndCraftDetail";
 import CuisinePage from "./pages/culture/CuisinePage";
 import CuisineDetail from "./pages/culture/CuisineDetail";
+import RegionDetail from "./pages/regions/RegionDetail";
 
 
 import { useLocation } from "react-router-dom";
@@ -99,6 +100,9 @@ const App = () => (
             <Route path="/culture/art-and-craft/:slug" element={<ArtAndCraftDetail />} />
             <Route path="/culture/cuisine" element={<CuisinePage />} />
             <Route path="/culture/cuisine/:slug" element={<CuisineDetail />} />
+
+            {/* Regions */}
+            <Route path="/regions/:slug" element={<RegionDetail />} />
 
             <Route path="/about" element={<AboutPage />} />
             <Route path="/indian-culture" element={<IndianCulture />} />

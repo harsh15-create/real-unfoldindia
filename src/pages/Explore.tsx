@@ -33,10 +33,10 @@ const Explore = () => {
     ];
 
     const regions = [
-        { name: "North India", image: "https://images.unsplash.com/photo-1598324789736-4861f89564a0?q=80&w=1000&auto=format&fit=crop", desc: "Mountains & Heritage" },
-        { name: "South India", image: "https://images.unsplash.com/photo-1621836166580-0a775369668d?q=80&w=1000&auto=format&fit=crop", desc: "Temples & Backwaters" },
-        { name: "East India", image: "https://images.unsplash.com/photo-1571545763666-3d604b719468?q=80&w=1000&auto=format&fit=crop", desc: "Culture & Nature" },
-        { name: "West India", image: "https://images.unsplash.com/photo-1570104247406-5bcc52266a3a?q=80&w=1000&auto=format&fit=crop", desc: "Deserts & Beaches" },
+        { name: "North India", image: "https://images.unsplash.com/photo-1598324789736-4861f89564a0?q=80&w=1000&auto=format&fit=crop", desc: "Mountains & Heritage", link: "/regions/north-india" },
+        { name: "South India", image: "https://images.unsplash.com/photo-1621836166580-0a775369668d?q=80&w=1000&auto=format&fit=crop", desc: "Temples & Backwaters", link: "/regions/south-india" },
+        { name: "East India", image: "https://images.unsplash.com/photo-1571545763666-3d604b719468?q=80&w=1000&auto=format&fit=crop", desc: "Culture & Nature", link: "/regions/east-india" },
+        { name: "West India", image: "https://images.unsplash.com/photo-1570104247406-5bcc52266a3a?q=80&w=1000&auto=format&fit=crop", desc: "Deserts & Beaches", link: "/regions/west-india" },
     ];
 
     const experiences = [
@@ -159,26 +159,36 @@ const Explore = () => {
                         <h2 className="text-3xl font-bold mb-8">Explore <span className="text-primary">Regions</span></h2>
                         <CarouselSection
                             items={regions}
-                            renderItem={(region, index) => (
-                                <motion.div
-                                    initial={{ opacity: 0, y: 20 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: 0.2 + index * 0.1 }}
-                                    className="group relative overflow-hidden rounded-2xl aspect-[3/4] cursor-pointer h-full"
-                                >
-                                    <img
-                                        src={region.image}
-                                        alt={region.name}
-                                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                                    />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                                    <div className="absolute bottom-0 left-0 p-6">
-                                        <h3 className="text-2xl font-bold text-white mb-1">{region.name}</h3>
-                                        <p className="text-white/80 text-sm">{region.desc}</p>
-                                    </div>
-                                </motion.div>
-                            )}
+                            renderItem={(region, index) => {
+                                const CardContent = (
+                                    <motion.div
+                                        initial={{ opacity: 0, y: 20 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{ delay: 0.2 + index * 0.1 }}
+                                        className="group relative overflow-hidden rounded-2xl aspect-[3/4] cursor-pointer h-full"
+                                    >
+                                        <img
+                                            src={region.image}
+                                            alt={region.name}
+                                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                                        <div className="absolute bottom-0 left-0 p-6">
+                                            <h3 className="text-2xl font-bold text-white mb-1">{region.name}</h3>
+                                            <p className="text-white/80 text-sm">{region.desc}</p>
+                                        </div>
+                                    </motion.div>
+                                );
+
+                                return region.link ? (
+                                    <Link to={region.link} className="block h-full">
+                                        {CardContent}
+                                    </Link>
+                                ) : (
+                                    CardContent
+                                );
+                            }}
                         />
                     </div>
 
