@@ -1,0 +1,165 @@
+{
+    "id": "maharashtrian",
+    "slug": "maharashtrian",
+    "title": "Maharashtrian Cuisine",
+    "alt_title": "Marathi Jevan",
+    "origin_state_or_region": "Maharashtra",
+    "hero_image": "https://images.unsplash.com/photo-1605333321590-b6a226715456?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Maharashtrian Thali",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1589301760557-01db3069888e?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517244683847-7456b63c5d69?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "Ranges from the mild coastal Konkani seafood to the spicy Vidarbha cuisine and Mumbai's iconic Vada Pav.",
+    "long_description": "Maharashtrian cuisine is incredibly diverse, ranging from the mild, coconut-based flavors of the Konkan coast to the fiery, spice-laden dishes of the Vidarbha and Kolhapur regions. It famously balances sweet, sour, and spicy tastes. \n\nStaples include jowar and bajra bhakris (millet flatbreads), rice, and lentils. Mumbai, the capital, contributes its own legendary street food culture, while cities like Pune and Nagpur offer distinct regional specialties. The cuisine is also known for its 'upvas' (fasting) foods like Sabudana Khichdi.",
+    "signature_dishes": [
+        {
+            "name": "Vada Pav",
+            "short_description": "The Indian Burger. A deep-fried potato dumpling placed inside a bread bun (pav) with chutneys.",
+            "serving_style": "Street Food",
+            "ingredients": [
+                "Potato",
+                "Bread Bun",
+                "Garlic Chutney",
+                "Green Chili"
+            ],
+            "best_place_to_try": "Ashok Vada Pav, Mumbai",
+            "approx_price": {
+                "currency": "INR",
+                "from": 15,
+                "to": 50
+            }
+        },
+        {
+            "name": "Puran Poli",
+            "short_description": "A sweet flatbread stuffed with a mixture of lentils (chana dal) and jaggery.",
+            "serving_style": "Dessert / Main",
+            "ingredients": [
+                "Chana Dal",
+                "Jaggery",
+                "Flour",
+                "Cardamom"
+            ],
+            "best_place_to_try": "Prakash Shakahari Upahar Kendra, Mumbai",
+            "approx_price": {
+                "currency": "INR",
+                "from": 40,
+                "to": 100
+            }
+        },
+        {
+            "name": "Misal Pav",
+            "short_description": "A spicy sprout curry topped with farsan (crispy mix), onions, and lemon, eaten with bread.",
+            "serving_style": "Breakfast / Snack",
+            "ingredients": [
+                "Sprouts",
+                "Spices",
+                "Farsan",
+                "Bread"
+            ],
+            "best_place_to_try": "Bedekar Misal, Pune",
+            "approx_price": {
+                "currency": "INR",
+                "from": 60,
+                "to": 150
+            }
+        },
+        {
+            "name": "Modak",
+            "short_description": "Steamed rice flour dumplings stuffed with fresh coconut and jaggery, famously Lord Ganesha's favorite.",
+            "serving_style": "Dessert",
+            "ingredients": [
+                "Rice Flour",
+                "Coconut",
+                "Jaggery"
+            ],
+            "best_place_to_try": "During Ganesh Chaturthi",
+            "approx_price": {
+                "currency": "INR",
+                "from": 50,
+                "to": 150
+            }
+        },
+        {
+            "name": "Thalipeeth",
+            "short_description": "A nutritious multigrain savory pancake served with butter and yogurt.",
+            "serving_style": "Breakfast",
+            "ingredients": [
+                "Multigrain Flour",
+                "Spices",
+                "Onion"
+            ],
+            "best_place_to_try": "Any traditional Maharashtrian home or eatery",
+            "approx_price": {
+                "currency": "INR",
+                "from": 50,
+                "to": 120
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Aaswad",
+            "location": "Dadar, Mumbai",
+            "price_range": "₹300 - ₹600 for two",
+            "notes": "Renowned for its authentic Misal and Thalipeeth."
+        },
+        {
+            "name": "Gajalee",
+            "location": "Vile Parle, Mumbai",
+            "price_range": "₹1500 - ₹2500 for two",
+            "notes": "Famous for Konkani seafood, especially the Tandoori Crab."
+        },
+        {
+            "name": "Shabree",
+            "location": "FC Road, Pune",
+            "price_range": "₹800 - ₹1200 for two",
+            "notes": "Best place to experience a traditional Maharashtrian Thali in Pune."
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Khau Galli",
+            "location": "Various locations in Mumbai (e.g., Ghatkopar, Carter Road)",
+            "what_to_try": "Dosa, Sandwiches, Chaat",
+            "how_to_reach": "Local trains or cabs."
+        },
+        {
+            "name": "Sarafa Bazaar (Influence)",
+            "location": "Though in Indore, strong influence nearby.",
+            "what_to_try": "Snacks",
+            "how_to_reach": "-"
+        }
+    ],
+    "food_festivals": [
+        {
+            "name": "Ganesh Chaturthi",
+            "month": "August/September",
+            "description": "Ten days of feasting, especially Modaks."
+        },
+        {
+            "name": "Chikoo Festival",
+            "month": "January/February",
+            "description": "Celebration of the Chikoo fruit in Dahanu/Bordi."
+        }
+    ],
+    "dining_etiquette": "Meals are traditionally served on a banana leaf or silver thali. Sweet dishes are often served first or alongside savory dishes.",
+    "seasonal_specialties": "Aamras Puri in summer (Mango season).",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 150,
+        "to": 600
+    },
+    "best_months_to_visit_for_food": "Year-round (Monsoons for spicy snacks)",
+    "recommended_precautions_for_travellers": "Vidarbha/Kolhapuri food can be extremely spicy. Ask for mild versions if needed.",
+    "tags": [
+        "West India",
+        "Spicy",
+        "Street Food",
+        "Vegetarian-Friendly"
+    ],
+    "seo_title": "Maharashtrian Cuisine: Vada Pav, Misal & Seafood",
+    "seo_description": "From Mumbai's Vada Pav to Pune's Misal and Konkan's seafood. Explore Maharashtrian food.",
+    "last_updated": "2025-12-09"
+}

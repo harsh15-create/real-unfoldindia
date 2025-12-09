@@ -1,0 +1,151 @@
+{
+    "id": "sweets",
+    "slug": "sweets",
+    "title": "Indian Sweets & Mithai",
+    "alt_title": "Mithai",
+    "origin_state_or_region": "Pan-India",
+    "hero_image": "https://images.unsplash.com/photo-1596557613620-8041548b8ca3?q=80&w=2069&auto=format&fit=crop",
+    "hero_image_alt": "Assorted Indian Sweets",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1605195204480-1a1aadc991c4?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1589948037307-88cb077d704d?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1615486829774-8849b062970a?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "India's vast repertoire of desserts, from syrup-soaked Gulab Jamuns to milk-based Rasgullas and nutty Barfes.",
+    "long_description": "In India, sweets (Mithai) are not just dessert; they are an auspicious offering to gods, a gesture of hospitality, and a symbol of celebration. The variety is staggering, ranging from the milk-based sweets of Bengal (Chenna) to the ghee and flour-based indulgences of the North and the jaggery-coconut treats of the South.\n\nKey ingredients include milk (khoa), ghee, sugar, jaggery, nuts, and aromatic spices like cardamom, saffron, and rose water. Every festival puts a spotlight on specific sweets.",
+    "signature_dishes": [
+        {
+            "name": "Gulab Jamun",
+            "short_description": "Deep-fried milk solid balls soaked in a rose-scented sugar syrup.",
+            "serving_style": "Dessert",
+            "ingredients": [
+                "Khoa (Milk solids)",
+                "Sugar",
+                "Rose Water",
+                "Cardamom"
+            ],
+            "best_place_to_try": "Nationwide",
+            "approx_price": {
+                "currency": "INR",
+                "from": 20,
+                "to": 50
+            }
+        },
+        {
+            "name": "Rasgulla",
+            "short_description": "Spongy cottage cheese balls cooked in a light sugar syrup. Originating from East India.",
+            "serving_style": "Dessert",
+            "ingredients": [
+                "Chhena (Cottage Cheese)",
+                "Sugar"
+            ],
+            "best_place_to_try": "K.C. Das, Kolkata",
+            "approx_price": {
+                "currency": "INR",
+                "from": 15,
+                "to": 40
+            }
+        },
+        {
+            "name": "Jalebi",
+            "short_description": "Crispy, spiral-shaped fried batter soaked in syrup. Often eaten for breakfast with milk or curd.",
+            "serving_style": "Snack / Dessert",
+            "ingredients": [
+                "Flour",
+                "Sugar",
+                "Saffron"
+            ],
+            "best_place_to_try": "Old Delhi",
+            "approx_price": {
+                "currency": "INR",
+                "from": 20,
+                "to": 50
+            }
+        },
+        {
+            "name": "Kaju Katli",
+            "short_description": "Diamond-shaped cashew fudge, a favorite for gifting during Diwali.",
+            "serving_style": "Sweet",
+            "ingredients": [
+                "Cashew",
+                "Sugar",
+                "Silver Leaf"
+            ],
+            "best_place_to_try": "Haldiram's or Bikanervala (Chains)",
+            "approx_price": {
+                "currency": "INR",
+                "from": 800,
+                "to": 1200
+            }
+        },
+        {
+            "name": "Mysore Pak",
+            "short_description": "A rich, melting sweet made of gram flour, generous amounts of ghee, and sugar.",
+            "serving_style": "Sweet",
+            "ingredients": [
+                "Gram Flour",
+                "Ghee",
+                "Sugar"
+            ],
+            "best_place_to_try": "Sri Krishna Sweets, South India",
+            "approx_price": {
+                "currency": "INR",
+                "from": 500,
+                "to": 900
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Haldiram's",
+            "location": "Pan-India",
+            "price_range": "Variable",
+            "notes": "Reliable hygiene and standard taste for most North Indian sweets."
+        },
+        {
+            "name": "K.C. Das",
+            "location": "Kolkata / Bengaluru",
+            "price_range": "Variable",
+            "notes": "Inventors of the canned Rasgulla tradition."
+        },
+        {
+            "name": "Balaram Mullick & Radharaman Mullick",
+            "location": "Kolkata",
+            "price_range": "Premium",
+            "notes": "Famous for innovative baked sweets and traditional Bengali mithai."
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Chandni Chowk",
+            "location": "Delhi",
+            "what_to_try": "Jalebi at Old Famous Jalebi Wala.",
+            "how_to_reach": "Metro to Chandni Chowk."
+        }
+    ],
+    "food_festivals": [
+        {
+            "name": "Diwali",
+            "month": "October/November",
+            "description": "The festival of lights is synonymous with exchanging boxes of sweets (Mithai)."
+        }
+    ],
+    "dining_etiquette": "Sweets are often eaten with hands. It is polite to accept a sweet when offered as a sign of celebration.",
+    "seasonal_specialties": "Gajar Ka Halwa (Carrot Pudding) in winter.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 100,
+        "to": 500
+    },
+    "best_months_to_visit_for_food": "Festival seasons (Oct-Nov)",
+    "recommended_precautions_for_travellers": "Milk-based sweets have a short shelf life. Consume fresh.",
+    "tags": [
+        "Pan-India",
+        "Sweets",
+        "Festive",
+        "Vegetarian"
+    ],
+    "seo_title": "Indian Sweets Guide: Gulab Jamun, Rasgulla & More",
+    "seo_description": "Indulge in the world of Indian Mithai. From Jalebis to Kaju Katli, explore the best sweets of India.",
+    "last_updated": "2025-12-09"
+}

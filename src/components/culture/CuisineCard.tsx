@@ -1,8 +1,7 @@
 
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowRight, UtensilsCrossed, Leaf } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
+import { Leaf } from "lucide-react";
 
 interface CuisineCardProps {
     cuisine: {
@@ -21,61 +20,48 @@ export function CuisineCard({ cuisine, index, onClick }: CuisineCardProps) {
     const isVegetarian = cuisine.tags.includes("Vegetarian") || cuisine.tags.includes("Vegetarian-Friendly");
 
     return (
-        <Link
-            to={`/culture/cuisine/${cuisine.slug}`}
-            onClick={onClick}
-            className="block h-full"
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            viewport={{ once: true }}
+            className="h-full"
         >
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden hover:border-orange-500/30 transition-all duration-300 h-full flex flex-col"
+            <Link
+                to={`/culture/cuisine/${cuisine.slug}`}
+                onClick={onClick}
+                className="block h-[280px] group relative overflow-hidden rounded-2xl bg-white/5 border border-white/10 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-orange-500/20 hover:border-orange-500/30"
             >
-                <div className="aspect-[4/3] overflow-hidden relative shrink-0">
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10" />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0B0B15]/20 to-[#0B0B15] z-10" />
+                <div className="absolute inset-0 bg-gray-900 group-hover:scale-110 transition-transform duration-700">
                     <img
                         src={cuisine.thumbnail}
                         alt={cuisine.title}
-                        className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        className="w-full h-full object-cover opacity-80 transition-opacity duration-300 group-hover:opacity-100"
                     />
-                    <div className="absolute top-4 right-4 z-20">
-                        {isVegetarian && (
-                            <div className="bg-green-900/80 backdrop-blur-md p-1.5 rounded-full border border-green-500/30" title="Vegetarian Friendly">
-                                <Leaf className="w-4 h-4 text-green-400" />
-                            </div>
-                        )}
-                    </div>
                 </div>
 
-                <div className="p-6 relative z-20 flex flex-col flex-grow">
-                    <div className="mb-4 flex-grow">
-                        <div className="flex flex-wrap gap-2 mb-3">
-                            {cuisine.tags.slice(0, 2).map((tag) => (
-                                <Badge key={tag} variant="secondary" className="bg-orange-500/10 text-orange-300 border-orange-500/20 text-[10px]">
-                                    {tag}
-                                </Badge>
-                            ))}
+                {/* Optional Veg Badge - Keeping minimal if user wants clean look, but helpful for Cuisine context. 
+                    Positioning top-right like before, but absolute. */}
+                <div className="absolute top-4 right-4 z-20">
+                    {isVegetarian && (
+                        <div className="bg-green-900/80 backdrop-blur-md p-1.5 rounded-full border border-green-500/30" title="Vegetarian Friendly">
+                            <Leaf className="w-4 h-4 text-green-400" />
                         </div>
-                        <h3 className="text-2xl font-bold text-white mb-1 group-hover:text-orange-400 transition-colors">
+                    )}
+                </div>
+
+                <div className="absolute inset-0 z-20 p-6 flex flex-col justify-end">
+                    <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                        <h3 className="text-xl font-bold mb-1 text-white group-hover:text-orange-400 transition-colors text-center">
                             {cuisine.title}
                         </h3>
-                        <p className="text-sm font-medium text-gray-400 italic mb-3">
+                        <p className="text-xs text-white/60 text-center line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             {cuisine.card_subtitle}
                         </p>
-                        <p className="text-gray-300 text-sm line-clamp-2 mb-4">
-                            {cuisine.short_description}
-                        </p>
-                    </div>
-
-                    <div
-                        className="inline-flex items-center gap-2 text-sm font-medium text-orange-400 hover:text-orange-300 transition-colors mt-auto"
-                    >
-                        Explore Dishes <ArrowRight className="w-4 h-4" />
                     </div>
                 </div>
-            </motion.div>
-        </Link>
+            </Link>
+        </motion.div>
     );
 }

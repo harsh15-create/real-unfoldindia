@@ -108,7 +108,7 @@ const ArtAndCraftPage = () => {
                     onSelectCategory={handleCategorySelect}
                 />
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
                     {filteredCards.map((craft) => (
                         <CraftCardComponent
                             key={craft.id}

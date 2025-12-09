@@ -1,0 +1,165 @@
+{
+    "id": "south-indian",
+    "slug": "south-indian",
+    "title": "South Indian Cuisine",
+    "alt_title": "Dakshin Bharat",
+    "origin_state_or_region": "Tamil Nadu, Karnataka, Andhra Pradesh, Telangana",
+    "hero_image": "https://images.unsplash.com/photo-1513264428072-4d058bd5cc7f?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "South Indian Dosa Breakfast",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1630383249896-424e482df921?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1589301760557-01db3069888e?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "A broad category covering the breakfast staples of Idli, Dosa, and Sambar, along with the distinct filter coffee tradition.",
+    "long_description": "While 'South Indian' is a broad term covering distinct cuisines from four major states, this category focuses on the universally loved comforts found across the region: fermented rice and lentil dishes, tangy tamarind-based stews (Sambar, Rasam), and the ubiquitous coconut chutney. \n\nIt differentiates itself with the use of curry leaves, mustard seeds, and asafoetida. From the crispy Dosas of Tamil Nadu to the fluffy Idlis and the energizing Filter Coffee of Karnataka, these foods have become global ambassadors of Indian cuisine.",
+    "signature_dishes": [
+        {
+            "name": "Masala Dosa",
+            "short_description": "A crispy fermented crepe stuffed with spiced potato mash, served with sambar and chutneys.",
+            "serving_style": "Breakfast / Dinner",
+            "ingredients": [
+                "Rice Batter",
+                "Potato",
+                "Urad Dal"
+            ],
+            "best_place_to_try": "MTR or CTR, Bengaluru",
+            "approx_price": {
+                "currency": "INR",
+                "from": 60,
+                "to": 150
+            }
+        },
+        {
+            "name": "Idli Sambar",
+            "short_description": "Soft, fluffy steamed rice cakes served with a spicy lentil soup (Sambar).",
+            "serving_style": "Breakfast",
+            "ingredients": [
+                "Rice",
+                "Urad Dal",
+                "Lentils",
+                "Vegetables"
+            ],
+            "best_place_to_try": "Murugan Idli Shop, Chennai",
+            "approx_price": {
+                "currency": "INR",
+                "from": 40,
+                "to": 100
+            }
+        },
+        {
+            "name": "Vada",
+            "short_description": "Savory fried donuts made from lentil batter, crispy on the outside and soft inside.",
+            "serving_style": "Breakfast / Snack",
+            "ingredients": [
+                "Urad Dal",
+                "Spices",
+                "Oil"
+            ],
+            "best_place_to_try": "Local Darshinis",
+            "approx_price": {
+                "currency": "INR",
+                "from": 30,
+                "to": 80
+            }
+        },
+        {
+            "name": "Filter Coffee",
+            "short_description": "Strong, frothy coffee made with a stainless steel filter and mixed with hot milk and sugar.",
+            "serving_style": "Beverage",
+            "ingredients": [
+                "Coffee Powder",
+                "Chicory",
+                "Milk",
+                "Sugar"
+            ],
+            "best_place_to_try": "Traditional Brahmin Messes",
+            "approx_price": {
+                "currency": "INR",
+                "from": 20,
+                "to": 50
+            }
+        },
+        {
+            "name": "Rasam",
+            "short_description": "A thin, spicy, and tangy soup made with tamarind, tomatoes, and spices. Often drunk as a digestif.",
+            "serving_style": "Side Dish / Soup",
+            "ingredients": [
+                "Tamarind",
+                "Tomato",
+                "Pepper",
+                "Cumin"
+            ],
+            "best_place_to_try": "Home cooked meals",
+            "approx_price": {
+                "currency": "INR",
+                "from": 0,
+                "to": 50
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Mavalli Tiffin Room (MTR)",
+            "location": "Bengaluru",
+            "price_range": "₹300 - ₹500 for two",
+            "notes": "Legendary institution invented the Rava Idli."
+        },
+        {
+            "name": "Saravana Bhavan",
+            "location": "Chennai (Global Chain)",
+            "price_range": "₹400 - ₹800 for two",
+            "notes": "The standard for vegetarian South Indian food globally."
+        },
+        {
+            "name": "Chutneys",
+            "location": "Hyderabad",
+            "price_range": "₹500 - ₹1000 for two",
+            "notes": "Famous for their wide variety of chutneys and Steam Dosa."
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Mylapore",
+            "location": "Chennai",
+            "what_to_try": "Filter Coffee and snacks around the Kapaleeshwarar Temple.",
+            "how_to_reach": "Central Chennai."
+        },
+        {
+            "name": "VV Puram Food Street",
+            "location": "Bengaluru",
+            "what_to_try": "South Indian varied snacks and Holige.",
+            "how_to_reach": "Near Lalbagh."
+        }
+    ],
+    "food_festivals": [
+        {
+            "name": "Pongal",
+            "month": "January",
+            "description": "Harvest festival featuring a sweet rice dish of the same name."
+        },
+        {
+            "name": "Onam",
+            "month": "August/September",
+            "description": "While specific to Kerala, Sadhya style feasts are popular across the south during this time."
+        }
+    ],
+    "dining_etiquette": "Often eaten on a banana leaf. Use your right hand to mix rice and sambar/rasam. Do not use the left hand for eating.",
+    "seasonal_specialties": "Mango Pachadi in summer.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 100,
+        "to": 400
+    },
+    "best_months_to_visit_for_food": "Year-round (Winters are pleasant)",
+    "recommended_precautions_for_travellers": "Coconut based food spoils quickly in heat; eat fresh.",
+    "tags": [
+        "South India",
+        "Vegetarian-Friendly",
+        "Breakfast",
+        "Coffee"
+    ],
+    "seo_title": "South Indian Cuisine: Dosa, Idli & Filter Coffee Guide",
+    "seo_description": "Explore the iconic flavors of South India. Crispy Dosas, fluffy Idlis, and aromatic Filter Coffee.",
+    "last_updated": "2025-12-09"
+}

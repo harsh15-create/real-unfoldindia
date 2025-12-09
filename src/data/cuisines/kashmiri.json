@@ -1,0 +1,161 @@
+{
+    "id": "kashmiri",
+    "slug": "kashmiri",
+    "title": "Kashmiri Cuisine",
+    "alt_title": "Wazwan",
+    "origin_state_or_region": "Jammu & Kashmir",
+    "hero_image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Kashmiri Wazwan Feast",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1643208579124-78332152a51c?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1596797038530-2c107a2963d6?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1606491956689-2ea28c674675?q=80&w=2070&auto=format&fit=crop"
+    ],
+    "short_description": "Famous for the elaborate Wazwan feast, rich meat dishes like Rogan Josh, and the delicate use of saffron and dry fruits.",
+    "long_description": "Kashmiri cuisine, often referred to as Wazwan, is a regal culinary tradition from the beautiful Kashmir Valley. Known for its rich, aromatic flavors, it heavily utilizes yogurt, saffron, Kashmiri red chilies (for color rather than heat), and dry fruits.\n\nThe cuisine is heavily influenced by Central Asian and Persian traditions. Meat, particularly lamb/mutton, plays a central role, cooked in various styles ranging from the milk-based Yakhni to the fiery Rogan Josh. The painstaking preparation of a Wazwan, a multi-course meal often consisting of up to 36 dishes, is considered an art form.",
+    "signature_dishes": [
+        {
+            "name": "Rogan Josh",
+            "short_description": "A slow-cooked lamb curry with a rich red gravy flavored with Kashmiri red chilies and fennel.",
+            "serving_style": "Main Course",
+            "ingredients": [
+                "Lamb",
+                "Kashmiri Red Chili",
+                "Yogurt",
+                "Fennel Powder"
+            ],
+            "best_place_to_try": "Ahdoos, Srinagar",
+            "approx_price": {
+                "currency": "INR",
+                "from": 400,
+                "to": 800
+            }
+        },
+        {
+            "name": "Yakhni",
+            "short_description": "A mild, yogurt-based mutton curry seasoned with fennel and cardamom.",
+            "serving_style": "Main Course",
+            "ingredients": [
+                "Mutton",
+                "Yogurt",
+                "Fennel",
+                "Cardamom"
+            ],
+            "best_place_to_try": "Mughal Darbar, Srinagar",
+            "approx_price": {
+                "currency": "INR",
+                "from": 350,
+                "to": 700
+            }
+        },
+        {
+            "name": "Dum Aloo",
+            "short_description": "Potatoes deep-fried and slow-cooked in a spicy red gravy.",
+            "serving_style": "Main Course",
+            "ingredients": [
+                "Potatoes",
+                "Kashmiri Red Chili",
+                "Fennel",
+                "Yogurt"
+            ],
+            "best_place_to_try": "Krishna Dhaba, Srinagar",
+            "approx_price": {
+                "currency": "INR",
+                "from": 150,
+                "to": 300
+            }
+        },
+        {
+            "name": "Kahwa",
+            "short_description": "A traditional green tea brewed with saffron, cinnamon, cardamom, and almond slivers.",
+            "serving_style": "Beverage",
+            "ingredients": [
+                "Green Tea",
+                "Saffron",
+                "Cardamom",
+                "Almonds"
+            ],
+            "best_place_to_try": "Any local chai stall or house boat",
+            "approx_price": {
+                "currency": "INR",
+                "from": 50,
+                "to": 150
+            }
+        },
+        {
+            "name": "Goshtaba",
+            "short_description": "Soft meatballs cooked in a yogurt gravy, traditionally served as the last savory dish of a Wazwan.",
+            "serving_style": "Main Course",
+            "ingredients": [
+                "Minced Mutton",
+                "Yogurt",
+                "Spices"
+            ],
+            "best_place_to_try": "Wazwan Festivals",
+            "approx_price": {
+                "currency": "INR",
+                "from": 500,
+                "to": 900
+            }
+        }
+    ],
+    "top_restaurants": [
+        {
+            "name": "Ahdoos",
+            "location": "Srinagar, Kashmir",
+            "price_range": "₹800 - ₹1500 for two",
+            "notes": "One of the oldest and most legendary spots for authentic Kashmiri Wazwan."
+        },
+        {
+            "name": "Mughal Darbar",
+            "location": "Residency Road, Srinagar",
+            "price_range": "₹600 - ₹1200 for two",
+            "notes": "Famous for its generous portions and traditional ambiance."
+        },
+        {
+            "name": "Shamyana Restaurant",
+            "location": "Dal Lake, Srinagar",
+            "price_range": "₹500 - ₹1000 for two",
+            "notes": "Offers a great view of Dal Lake along with delicious local food."
+        }
+    ],
+    "best_markets_and_streets": [
+        {
+            "name": "Khayam Chowk",
+            "location": "Srinagar",
+            "what_to_try": "Seekh Kababs and Tandoori Chicken",
+            "how_to_reach": "Easily accessible by auto or taxi in Srinagar."
+        },
+        {
+            "name": "Lal Chowk Street Food",
+            "location": "Srinagar",
+            "what_to_try": "Nader Monje (Lotus stem fritters) and Halwa Paratha",
+            "how_to_reach": "Central Srinagar market."
+        }
+    ],
+    "food_festivals": [
+        {
+            "name": "Wazwan Festival",
+            "month": "Various (often summer/autumn)",
+            "description": "Celebrations of the traditional multi-course meal often held in hotels and by tourism boards."
+        }
+    ],
+    "dining_etiquette": "Wazwan is traditionally eaten seated on the floor in groups of four from a large copper platter (Traami). Eating with hands is customary and considered respectful.",
+    "seasonal_specialties": "Harissa (a slow-cooked lamb porridge) is a winter breakfast staple.",
+    "avg_meal_cost_range": {
+        "currency": "INR",
+        "from": 300,
+        "to": 800
+    },
+    "best_months_to_visit_for_food": "April to October",
+    "recommended_precautions_for_travellers": "Drink bottled water. Be cautious with street food hygiene if you have a sensitive stomach.",
+    "tags": [
+        "North India",
+        "Meat-Lovers",
+        "Saffron",
+        "Spicy"
+    ],
+    "seo_title": "Kashmiri Cuisine: Wazwan, Rogan Josh & Kahwa Guide",
+    "seo_description": "Discover the royal flavors of Kashmiri cuisine. From the legendary Wazwan feast to aromatic Kahwa tea.",
+    "last_updated": "2025-12-09"
+}

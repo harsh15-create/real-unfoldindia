@@ -1,9 +1,6 @@
 
 import { ArtCard } from "@/lib/art-api";
 import { Link } from "react-router-dom";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 interface CraftCardProps {
@@ -19,41 +16,35 @@ const CraftCardComponent = ({ craft, onClick }: CraftCardProps) => {
             viewport={{ once: true }}
             whileHover={{ y: -5 }}
             transition={{ duration: 0.3 }}
+            className="h-full"
         >
-            <Link to={`/culture/art-and-craft/${craft.slug}`} onClick={onClick} className="block h-full">
-                <Card className="h-full bg-[#1A1A2E]/50 border-white/10 overflow-hidden hover:border-primary/50 transition-colors group">
-                    <div className="relative aspect-[4/3] overflow-hidden">
-                        <img
-                            src={craft.thumbnail.startsWith('http') ? craft.thumbnail : `https://source.unsplash.com/random/800x600/?${craft.slug},craft,india`}
-                            alt={craft.title}
-                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-[#1A1A2E] to-transparent opacity-80" />
-                        <div className="absolute bottom-4 left-4 right-4">
-                            <Badge variant="secondary" className="mb-2 bg-primary/20 text-primary hover:bg-primary/30 border-none backdrop-blur-sm">
-                                {craft.card_subtitle}
-                            </Badge>
-                            <h3 className="text-xl font-bold text-white group-hover:text-primary transition-colors">
-                                {craft.title}
-                            </h3>
-                        </div>
-                    </div>
-                    <CardContent className="p-4">
-                        <p className="text-gray-400 text-sm line-clamp-2 mb-4">
-                            {craft.short_description}
+            <Link
+                to={`/culture/art-and-craft/${craft.slug}`}
+                onClick={onClick}
+                className="block h-[280px] group relative overflow-hidden rounded-2xl bg-white/5 border border-white/10 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-pink-500/20 hover:border-pink-500/30"
+            >
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0B0B15]/20 to-[#0B0B15] z-10" />
+                <div className="absolute inset-0 bg-gray-900 group-hover:scale-110 transition-transform duration-700">
+                    <img
+                        src={craft.thumbnail.startsWith('http') ? craft.thumbnail : `https://source.unsplash.com/random/800x600/?${craft.slug},craft,india`}
+                        alt={craft.title}
+                        className="w-full h-full object-cover opacity-80 transition-opacity duration-300 group-hover:opacity-100"
+                    />
+                </div>
+
+                <div className="absolute inset-0 z-20 p-6 flex flex-col justify-end">
+                    <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                        <h3 className="text-xl font-bold mb-1 text-white group-hover:text-pink-400 transition-colors text-center">
+                            {craft.title}
+                        </h3>
+                        {/* Subtitle logic: Shows on hover, similar to Festival card. 
+                            If user strictly wanted NO subtitle ever, we'd remove the 'p' tag. 
+                            But 'similar to festivals' implies this interaction. */}
+                        <p className="text-xs text-white/60 text-center line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            {craft.card_subtitle}
                         </p>
-                        <div className="flex flex-wrap gap-2 mb-4">
-                            {craft.tags.slice(0, 3).map((tag) => (
-                                <span key={tag} className="text-xs text-gray-500 bg-white/5 px-2 py-1 rounded-md border border-white/5">
-                                    #{tag}
-                                </span>
-                            ))}
-                        </div>
-                        <div className="flex items-center text-primary text-sm font-medium group-hover:underline">
-                            Discover Craft <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                        </div>
-                    </CardContent>
-                </Card>
+                    </div>
+                </div>
             </Link>
         </motion.div>
     );
