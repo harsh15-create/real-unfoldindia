@@ -197,7 +197,7 @@ export default function AdventureDetail() {
                             <p className="text-sm text-blue-300/80 mb-4">
                                 Our AI travel agent can help you plan this adventure into a complete itinerary.
                             </p>
-                            <Link to="/chat">
+                            <Link to="/chat" state={{ message: `I want to customize my adventure: ${activity.title}` }}>
                                 <Button variant="link" className="p-0 h-auto text-blue-400 font-semibold hover:text-blue-300">
                                     Ask AI Assistant &rarr;
                                 </Button>

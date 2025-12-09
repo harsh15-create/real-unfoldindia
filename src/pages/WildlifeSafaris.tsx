@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft, Search, Leaf, PawPrint, Mountain, Flower2, Feather, Anchor } from "lucide-react";
+import { ArrowLeft, Search, Leaf, PawPrint, Mountain, Flower2, Feather, Anchor, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import RoyalHero from "@/components/royal-luxury/RoyalHero";
@@ -116,25 +116,19 @@ const WildlifeSafaris = () => {
                                     />
                                 </div>
 
-                                <div className="absolute inset-0 z-20 p-4 flex flex-col justify-between">
-                                    <div className="flex justify-end">
-                                        <span className="bg-black/40 backdrop-blur-md text-white/90 text-[10px] px-2 py-0.5 rounded-md border border-white/10">
-                                            {dest.category}
-                                        </span>
+                                <div className="absolute inset-0 z-20 p-4 flex flex-col justify-end">
+                                    <div className="absolute top-4 right-4 z-20 bg-black/40 backdrop-blur-md p-2 rounded-full text-white/90 border border-white/10 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                                        <MapPin className="h-4 w-4" />
                                     </div>
 
                                     <div className="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
                                         <div className="mb-1">
-                                            <h3 className="text-lg font-bold text-white group-hover:text-emerald-400 transition-colors leading-tight">
+                                            <h3 className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors leading-tight">
                                                 {dest.title}
                                             </h3>
                                         </div>
 
-                                        <p className="text-xs text-white/70 line-clamp-2 mb-2 group-hover:text-white/90 transition-colors">
-                                            {dest.short_description}
-                                        </p>
-
-                                        <div className="flex items-center gap-2 text-xs font-medium text-emerald-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                        <div className="flex items-center gap-2 text-xs font-medium text-emerald-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0 mt-2">
                                             Explore Wild <ArrowLeft className="w-3 h-3 rotate-180" />
                                         </div>
                                     </div>

@@ -40,7 +40,22 @@ const RoyalCity = () => {
                 image={city.hero_image}
                 title={city.title}
                 subtitle={city.card_subtitle}
-            />
+            >
+                <Button
+                    size="lg"
+                    className="bg-primary hover:bg-primary/90 text-white font-bold rounded-full px-8 shadow-lg transition-all duration-300 mt-6"
+                    onClick={() => {
+                        /* In a real scenario, this might open a specific plan modal or chat. 
+                           For now, we link to chat with specific context. */
+                    }}
+                    asChild
+                >
+                    <Link to="/chat" state={{ message: `Create a detailed itinerary for ${city.title}, focusing on its royal heritage and palaces.` }}>
+                        <Star className="w-5 h-5 mr-2" />
+                        Get Itinerary for {city.title}
+                    </Link>
+                </Button>
+            </RoyalHero>
 
             <section className="py-16 px-6 max-w-7xl mx-auto">
                 <div className="max-w-4xl mx-auto text-center mb-20">
@@ -56,7 +71,7 @@ const RoyalCity = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-12">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {city.properties.map((property, index) => (
                         <motion.div
                             key={property.id}
@@ -64,47 +79,35 @@ const RoyalCity = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
-                            className="flex flex-col md:flex-row bg-card rounded-xl overflow-hidden shadow-lg border border-border hover:shadow-2xl transition-all duration-300"
+                            className="group relative h-[320px] overflow-hidden rounded-xl shadow-lg border border-border hover:shadow-2xl transition-all duration-300"
                         >
-                            <div className="md:w-2/5 h-[300px] md:h-auto overflow-hidden">
+                            <Link to={`/experiences/royal-luxury/${city.slug}/${property.slug}`} className="block w-full h-full">
+                                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors z-10" />
                                 <img
                                     src={property.thumbnail_image}
                                     alt={property.title}
-                                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                 />
-                            </div>
-                            <div className="md:w-3/5 p-8 flex flex-col justify-between">
-                                <div>
-                                    <div className="flex items-center justify-between mb-2">
-                                        <p className="text-primary text-sm font-semibold tracking-wider uppercase">
-                                            {property.card_subtitle}
-                                        </p>
-                                        <div className="flex items-center text-muted-foreground">
-                                            <Star className="h-4 w-4 fill-primary text-primary mr-1" />
-                                            <span className="text-xs font-medium">Verified Property</span>
-                                        </div>
-                                    </div>
-                                    <h3 className="text-3xl font-serif mb-4 text-foreground">{property.title}</h3>
-                                    <p className="text-muted-foreground leading-relaxed mb-6 font-light">
-                                        {property.short_description}
-                                    </p>
+
+                                {/* Location Icon Overlay */}
+                                <div className="absolute top-4 right-4 z-20 bg-black/40 backdrop-blur-md p-2 rounded-full text-white/90 border border-white/10 group-hover:bg-primary group-hover:text-white transition-colors">
+                                    <MapPin className="h-5 w-5" />
                                 </div>
 
-                                <div className="flex items-center justify-between pt-6 border-t border-border">
-                                    <div className="flex items-center text-muted-foreground text-sm">
-                                        <MapPin className="h-4 w-4 mr-2" />
-                                        {city.title}
+                                <div className="absolute inset-0 z-20 flex flex-col justify-end p-6 text-white bg-gradient-to-t from-black/90 via-black/50 to-transparent">
+                                    <div className="flex items-center gap-2 mb-2">
+                                        <p className="text-primary text-xs font-semibold tracking-wider uppercase">
+                                            {property.card_subtitle}
+                                        </p>
+                                        <div className="flex items-center text-white/80">
+                                            <Star className="h-3 w-3 fill-primary text-primary mr-1" />
+                                            <span className="text-[10px] font-medium uppercase">Verified</span>
+                                        </div>
                                     </div>
-                                    <Button
-                                        className="bg-primary text-black hover:bg-primary/90 rounded-none px-8 py-6 transition-colors duration-300"
-                                        asChild
-                                    >
-                                        <Link to={`/experiences/royal-luxury/${city.slug}/${property.slug}`}>
-                                            View Residence
-                                        </Link>
-                                    </Button>
+                                    <h3 className="text-2xl font-serif mb-1 group-hover:text-primary transition-colors">{property.title}</h3>
+                                    {/* Description Removed as requested */}
                                 </div>
-                            </div>
+                            </Link>
                         </motion.div>
                     ))}
                 </div>

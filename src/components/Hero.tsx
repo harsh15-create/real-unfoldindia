@@ -14,7 +14,7 @@ const Hero = () => {
 
     // Wait for animation to complete before navigating
     setTimeout(() => {
-      navigate("/chat");
+      navigate("/chat", { state: { message: "I want to plan a trip to India." } });
     }, 1200);
   };
 

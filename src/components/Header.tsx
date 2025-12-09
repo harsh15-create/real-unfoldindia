@@ -103,7 +103,7 @@ export const Header = () => {
 
         <div className="flex items-center space-x-4">
           <Button variant="ghost" className="hidden md:flex text-white hover:text-primary hover:bg-white/5 gap-2" asChild>
-            <Link to="/chat">
+            <Link to="/chat" state={{ message: "I want to plan my trip." }}>
               <Bot className="h-4 w-4" /> Chat with Kira
             </Link>
           </Button>
@@ -177,6 +177,7 @@ export const Header = () => {
             ))}
             <Link
               to="/chat"
+              state={{ message: "I want to plan my trip." }}
               className="text-sm font-medium text-gray-300 hover:text-primary transition-colors flex items-center gap-2"
               onClick={() => setIsMenuOpen(false)}
             >

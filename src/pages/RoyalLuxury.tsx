@@ -6,6 +6,7 @@ import RoyalHero from '@/components/royal-luxury/RoyalHero';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Crown } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const RoyalLuxury = () => {
     const { i18n } = useTranslation();
@@ -23,7 +24,18 @@ const RoyalLuxury = () => {
                 image={data.hero_image}
                 title={data.intro_title}
                 subtitle="Experience the grandeur of India's royal past"
-            />
+            >
+                <Button
+                    size="lg"
+                    className="bg-primary hover:bg-primary/90 text-white font-bold rounded-full px-8 shadow-lg transition-all duration-300 mt-6"
+                    asChild
+                >
+                    <Link to="/chat" state={{ message: "I want to plan a Royal Luxury trip in India." }}>
+                        <Crown className="w-5 h-5 mr-2" />
+                        Plan Royal Itinerary
+                    </Link>
+                </Button>
+            </RoyalHero>
 
             <section className="py-20 px-6 max-w-7xl mx-auto">
                 <div className="text-center mb-16 max-w-4xl mx-auto">
@@ -42,7 +54,7 @@ const RoyalLuxury = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: index * 0.1 }}
-                                className="group relative h-[300px] overflow-hidden rounded-lg cursor-pointer shadow-md hover:shadow-2xl transition-all duration-500 border border-border"
+                                className="group relative h-[250px] overflow-hidden rounded-lg cursor-pointer shadow-md hover:shadow-2xl transition-all duration-500 border border-border"
                             >
                                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors z-10" />
                                 <img

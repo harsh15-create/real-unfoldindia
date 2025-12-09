@@ -10,11 +10,12 @@ const Explore = () => {
     const navigate = useNavigate();
     const [isSearchFocused, setIsSearchFocused] = useState(false);
     const [isNavigating, setIsNavigating] = useState(false);
+    const [searchQuery, setSearchQuery] = useState("");
 
-    const handleSearch = () => {
+    const handleSearch = (query?: string) => {
         setIsNavigating(true);
         setTimeout(() => {
-            navigate("/chat");
+            navigate("/chat", { state: { message: query || searchQuery || "Help me plan a trip to India" } });
         }, 800);
     };
 
@@ -106,12 +107,14 @@ const Explore = () => {
                                 onFocus={() => setIsSearchFocused(true)}
                                 onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
                                 onKeyDown={handleKeyDown}
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
                             />
                             <div className="absolute right-2 top-1/2 -translate-y-1/2">
                                 <Button
                                     size="sm"
                                     className="rounded-xl bg-primary/10 text-primary hover:bg-primary/20"
-                                    onClick={handleSearch}
+                                    onClick={() => handleSearch()}
                                 >
                                     <Sparkles className="h-4 w-4 mr-2" />
                                     Generate
@@ -133,7 +136,7 @@ const Explore = () => {
                                             <button
                                                 key={index}
                                                 className="w-full text-left px-3 py-3 text-sm hover:bg-muted rounded-xl transition-colors flex items-center gap-3"
-                                                onClick={() => handleSearch()}
+                                                onClick={() => handleSearch(prompt)}
                                             >
                                                 <Sparkles className="h-3 w-3 text-primary" />
                                                 {prompt}

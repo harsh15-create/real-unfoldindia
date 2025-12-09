@@ -278,7 +278,7 @@ const CityPage = () => {
                             </p>
                             <div className="flex flex-wrap justify-center gap-4">
                                 <Button size="sm" className="rounded-full px-6 h-10 bg-primary hover:bg-primary/90 shadow-md shadow-primary/20 text-sm" asChild>
-                                    <Link to="/chat">
+                                    <Link to="/chat" state={{ message: `I want to know more about ${city.name} and what to explore there.` }}>
                                         Chat with Kira <Bot className="ml-2 h-4 w-4" />
                                     </Link>
                                 </Button>

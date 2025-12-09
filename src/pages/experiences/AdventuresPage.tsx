@@ -8,6 +8,7 @@ import { ActivityModal } from '@/components/adventures/ActivityModal';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Search, Compass, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { AdventureEvents } from '@/analytics/events';
 
 export default function AdventuresPage() {
@@ -83,7 +84,18 @@ export default function AdventuresPage() {
                 title={masterData.title} // "Adventures"
                 subtitle={masterData.sections?.[0]?.subtitle || masterData.intro_title} // "Defy Gravity..."
                 image={masterData.hero_image}
-            />
+            >
+                <Button
+                    size="lg"
+                    className="bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-full px-8 shadow-lg transition-all duration-300 mt-6"
+                    asChild
+                >
+                    <Link to="/chat" state={{ message: "I want to find an adventure experience in India." }}>
+                        <Compass className="w-5 h-5 mr-2" />
+                        Find Your Adventure
+                    </Link>
+                </Button>
+            </RoyalHero>
 
             <div className="container mx-auto px-4 py-12 relative z-30">
 

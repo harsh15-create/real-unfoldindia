@@ -53,7 +53,7 @@ const Footer = () => {
               <div>
                 <h4 className="font-bold text-white mb-4 uppercase tracking-wider text-xs opacity-70">Features</h4>
                 <nav className="space-y-3 flex flex-col">
-                  <Link to="/chat" className="text-sm font-medium text-gray-300 hover:text-primary transition-colors">AI Assistant</Link>
+                  <Link to="/chat" state={{ message: "I want to use the AI Assistant." }} className="text-sm font-medium text-gray-300 hover:text-primary transition-colors">AI Assistant</Link>
                   <Link to="/trip" className="text-sm font-medium text-gray-300 hover:text-primary transition-colors">Generate Itinerary</Link>
                   <Link to="/route" className="text-sm font-medium text-gray-300 hover:text-primary transition-colors">Transport Bookings</Link>
                 </nav>
