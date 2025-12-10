@@ -59,9 +59,7 @@ export function ActivityCard({ activity, onQuickView }: ActivityCardProps) {
                         {activity.card_subtitle || 'Adventure'}
                     </p>
 
-                    <p className="text-sm text-white/80 line-clamp-2 mb-4 group-hover:text-white transition-colors">
-                        {activity.short_description}
-                    </p>
+
 
                     <div className="flex items-center justify-between opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
                         <div className="flex items-center gap-2 text-sm font-medium text-primary">

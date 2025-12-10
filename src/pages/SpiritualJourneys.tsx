@@ -100,9 +100,7 @@ const SpiritualJourneys = () => {
                                     <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-primary transition-colors">
                                         {city.title}
                                     </h3>
-                                    <p className="text-sm text-white/70 line-clamp-3 mb-6 group-hover:text-white/90 transition-colors">
-                                        {city.short_description}
-                                    </p>
+
 
                                     <div className="flex items-center gap-2 text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
                                         Explore Journey <ArrowLeft className="w-4 h-4 rotate-180" />

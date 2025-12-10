@@ -67,9 +67,7 @@ const RoyalLuxury = () => {
                                         {city.card_subtitle}
                                     </p>
                                     <h3 className="text-2xl font-serif mb-1">{city.title}</h3>
-                                    <p className="text-white/80 line-clamp-2 text-xs font-light leading-relaxed opacity-80 group-hover:opacity-100">
-                                        {city.short_description}
-                                    </p>
+
                                 </div>
                             </motion.div>
                         </Link>
