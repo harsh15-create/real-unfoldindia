@@ -13,7 +13,7 @@ import RoutePlanner from "./pages/RoutePlanner";
 import TripDashboard from "./pages/TripDashboard";
 import ChatbotPage from "./pages/ChatbotPage";
 import Guide from "./pages/Guide";
-import AIAssistant from "./components/AIAssistant";
+
 
 import CityPage from "./pages/CityPage";
 import EntryGuide from "./pages/EntryGuide";
@@ -56,7 +56,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <>
       {children}
       {!isChatPage && <Footer />}
-      {!isChatPage && <AIAssistant />}
     </>
   );
 };
