@@ -1,0 +1,101 @@
+{
+    "id": "baisakhi",
+    "slug": "baisakhi",
+    "title": "Baisakhi (Vaisakhi)",
+    "hero_image": "https://images.unsplash.com/photo-1514533248810-67df99696956?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Golden Temple Amritsar during Baisakhi",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1582103444005-4c07d34177d6?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1552554660-3162b719001b?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1598424324328-5b42d79d13e3?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "Punjab’s Spring Harvest & Khalsa Day - a high-energy celebration of new beginnings.",
+    "long_description": "Baisakhi marks the wheat harvest in North India and is also the day when Guru Gobind Singh founded the Khalsa in 1699, making it central to Sikh identity. It works as both a new year festival for many Punjabis and a day of religious renewal in gurdwaras. Villages and towns host fairs with food stalls, bhangra and gidda folk dances, and dhol drumming that turn Baisakhi into a high‑energy cultural carnival. For travellers, it is one of the best times to see Punjabi culture in full color, from brightly embroidered outfits to powerful bhangra performances.",
+    "significance": "Celebrates the spring harvest and the formation of the Khalsa Panth by Guru Gobind Singh in 1699, symbolizing purity and courage.",
+    "key_rituals": [
+        "Nagar Kirtan: Large processions moving through streets with hymns and martial arts displays.",
+        "Visiting Gurdwaras: Devotees offer prayers and share community meals (Langar).",
+        "Nishan Sahib Sewa: Ritual cleaning and replacing of sacred flags at gurdwaras.",
+        "Fairs & Folk Dance: Bhangra and Gidda performances at village melas."
+    ],
+    "calendar": {
+        "typical_month": "April",
+        "lunar_reference": "Start of Vaisakh month",
+        "festival_length": "1 Day",
+        "next_dates": {
+            "2025": "Apr 14",
+            "2026": "Apr 14",
+            "2027": "Apr 14"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "amritsar",
+            "title": "Amritsar",
+            "summary": "The Golden Temple celebrates with immense fervor, lighting, and nonstop prayers.",
+            "best_to_experience": "The evening prayers and the massive community kitchen (Langar).",
+            "how_to_reach": "Fly to Amritsar (ATQ) or take a train.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "anandpur-sahib",
+            "title": "Anandpur Sahib",
+            "summary": "The birthplace of the Khalsa, hosting the grand Hola Mohalla around this season.",
+            "best_to_experience": "Martial arts displays and religious processions.",
+            "how_to_reach": "Road or train from Chandigarh.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "pinjore",
+            "title": "Pinjore Gardens",
+            "summary": "Hosts a massive Baisakhi Mela with folk performances and craft bazaars.",
+            "best_to_experience": "Cultural programs and food stalls.",
+            "how_to_reach": "Near Chandigarh.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Modest clothing covering heads is mandatory in Gurdwaras. Vibrant colors are encouraged for fairs.",
+        "safety_tips": "Crowds at Golden Temple can be massive; be patient. Keep valuables safe.",
+        "accessibility_notes": "Golden Temple is accessible, but crowds may hinder movement.",
+        "avg_daily_costs": "₹1500 - ₹4000"
+    },
+    "faqs": [
+        {
+            "q": "Can tourists participate in the Langar?",
+            "a": "Yes, everyone is welcome to sit and eat in the community kitchen, regardless of religion."
+        },
+        {
+            "q": "Is it only for Sikhs?",
+            "a": "While it's a major Sikh festival, the harvest aspect is celebrated by people of all faiths in Punjab."
+        }
+    ],
+    "tags": [
+        "Punjab",
+        "Harvest",
+        "Sikhism",
+        "Culture"
+    ],
+    "seo_title": "Baisakhi Festival Guide 2025: Date, History & Celebration in Punjab",
+    "seo_description": "Explore Baisakhi (Vaisakhi) 2025, the Sikh New Year and harvest festival. Discover traditions, best places to visit like Amritsar, and travel tips.",
+    "last_updated": "2025-12-10",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Baisakhi 2025",
+        "startDate": "2025-04-14",
+        "endDate": "2025-04-14",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Punjab, India",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "description": "Baisakhi marks the Sikh New Year and the spring harvest in Punjab."
+    }
+}

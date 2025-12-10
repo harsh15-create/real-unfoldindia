@@ -1,0 +1,85 @@
+{
+    "id": "chapchar-kut",
+    "slug": "chapchar-kut",
+    "title": "Chapchar Kut",
+    "hero_image": "https://images.unsplash.com/photo-1605364843075-81640232463e?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Mizo dancers performing traditional bamboo dance",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1598424324328-5b42d79d13e3?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1532375810709-75b1da00537c?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1518002171953-a080ee802e12?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "Bamboo Harvest Festival of Mizoram - a vibrant celebration of dance and community.",
+    "long_description": "Chapchar Kut is a spring festival held once the demanding work of clearing bamboo forests for shifting cultivation (jhum) is complete, giving farmers time to relax and celebrate. It is one of Mizoram’s biggest cultural events, symbolising gratitude for nature and community unity. Chapchar Kut is a perfect entry point into Mizo culture, with almost everything—dance, music, food, and clothing—on display in one festival. For travellers, Aizawl during Chapchar Kut feels like a living cultural showcase, yet remains friendly and small‑scale compared with more commercialised festivals elsewhere.",
+    "significance": "Celebrates the completion of the arduous task of 'jhum' (slash and burn) operation, marking a season of relief and joy.",
+    "key_rituals": [
+        "Cheraw Dance: The iconic bamboo dance where performers step in and out of moving bamboo poles.",
+        "Khuallam: 'Dance of the Guests', traditionally performed by distinctively dressed groups.",
+        "Chheih Lam: A community dance where singing and dancing go hand in hand.",
+        "Public Feasting: Traditional dishes and community gatherings in Aizawl's main grounds."
+    ],
+    "calendar": {
+        "typical_month": "March",
+        "lunar_reference": "Early March",
+        "festival_length": "1-2 Days",
+        "next_dates": {
+            "2025": "Mar 7",
+            "2026": "Mar 6",
+            "2027": "Mar 5"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "aizawl",
+            "title": "Aizawl",
+            "summary": "The AR Ground in Aizawl hosts the main state-level celebration with thousands of participants.",
+            "best_to_experience": " The mass Cheraw dance performance.",
+            "how_to_reach": "Fly to Lengpui Airport (AJL), near Aizawl.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Casual comfortable wear. Locals wear colorful traditional 'Puan' wraps.",
+        "safety_tips": "Aizawl is very hilly; wear comfortable walking shoes. It is one of the safest cities in India.",
+        "accessibility_notes": "Hilly terrain can be difficult for those with mobility issues.",
+        "avg_daily_costs": "₹2000 - ₹4000"
+    },
+    "faqs": [
+        {
+            "q": "Do I need a permit for Mizoram?",
+            "a": "Yes, an Inner Line Permit (ILP) is required for Indian tourists, and registration for foreigners."
+        },
+        {
+            "q": "Is vegetarian food available?",
+            "a": "Mizo cuisine is meat-heavy, but Aizawl has restaurants serving vegetarian options."
+        }
+    ],
+    "tags": [
+        "Mizoram",
+        "Harvest",
+        "Dance",
+        "North East India"
+    ],
+    "seo_title": "Chapchar Kut Festival 2025: Mizoram's Bamboo Dance Festival Guide",
+    "seo_description": "Experience Chapchar Kut 2025 in Mizoram. Witness the famous Cheraw bamboo dance, traditional music, and Mizo culture in Aizawl.",
+    "last_updated": "2025-12-10",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Chapchar Kut 2025",
+        "startDate": "2025-03-07",
+        "endDate": "2025-03-07",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Aizawl, Mizoram",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "description": "Chapchar Kut is the harvesting festival of Mizoram characterized by the Cheraw bamboo dance."
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "id": "losar",
+    "slug": "losar",
+    "title": "Losar",
+    "hero_image": "https://images.unsplash.com/photo-1566804593121-6a066b579549?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Tibetan Buddhist monks performing ritual dance",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1518386618585-8f64bd73c683?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1464013778555-8888fa8dd3fd?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "Tibetan Buddhist New Year in the Himalayas - a spiritual welcome to spring.",
+    "long_description": "Losar is the Tibetan New Year and welcomes both spring and the new lunar year, with each year linked to an animal and an element in the Tibetan calendar. It blends Buddhist religious observances with folk customs meant to drive away negativity and invite prosperity. Losar gives travellers a close look at Himalayan Buddhist life, with monasteries alive with chanting, incense, and ceremonial dances. High‑altitude towns such as Tawang or Leh feel transformed, with prayer flags, traditional dress, and community gatherings that make the cold season feel festive rather than harsh.",
+    "significance": "Marks the beginning of the Tibetan lunar year, blending Buddhist rituals with pre-Buddhist Bön customs to ward off evil spirits.",
+    "key_rituals": [
+        "Home Cleaning: Thorough cleaning and decoration with auspicious symbols before the new year.",
+        "Monastery Visits: Offerings and prayers at monasteries like Tawang or Hemis.",
+        "Masked Dances: Sacred Cham dances performed by monks to dramatize the triumph of good over evil.",
+        "Torchlit Processions: Held at night to drive away negative spirits."
+    ],
+    "calendar": {
+        "typical_month": "February/March",
+        "lunar_reference": "First day of the Tibetan Lunar Calendar",
+        "festival_length": "3 Days (main)",
+        "next_dates": {
+            "2025": "Feb 28",
+            "2026": "Feb 17",
+            "2027": "Feb 6"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "tawang",
+            "title": "Tawang, Arunachal Pradesh",
+            "summary": "Tawang Monastery hosts grand celebrations with masked dances and prayers.",
+            "best_to_experience": "The main prayer ceremonies and community feasting.",
+            "how_to_reach": "Drive from Tezpur/Guwahati.",
+            "is_bookable": false
+        },
+        {
+            "place_id": "ladakh",
+            "title": "Leh & Ladakh",
+            "summary": "The entire region celebrates with street processions and lighting of butter lamps.",
+            "best_to_experience": "The festive atmosphere in Leh market and monasteries like Thiksey.",
+            "how_to_reach": "Fly to Leh (IXL).",
+            "is_bookable": false
+        },
+        {
+            "place_id": "sikkim",
+            "title": "Sikkim",
+            "summary": "Gangtok and Rumtek Monastery come alive with colorful rituals.",
+            "best_to_experience": "Rumtek Monastery's special puja (\"Gutor\") prior to Losar.",
+            "how_to_reach": "Fly to Pakyong or Bagdogra.",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Heavy woolens are essential as temperatures are freezing. Dress respectfully for monasteries.",
+        "safety_tips": "Acclimatize well if visiting high-altitude areas like Leh or Tawang. Carry medications.",
+        "accessibility_notes": "Mountainous terrain can be challenging; monasteries often have stairs.",
+        "avg_daily_costs": "₹2500 - ₹5000"
+    },
+    "faqs": [
+        {
+            "q": "Is everything closed during Losar?",
+            "a": "Some local shops may close for family celebrations, but tourist services usually remain open."
+        },
+        {
+            "q": "Do I need a permit?",
+            "a": "Yes, Inner Line Permits (ILP) are required for Tawang and parts of Ladakh."
+        }
+    ],
+    "tags": [
+        "Buddhism",
+        "Himalayas",
+        "New Year",
+        "Culture"
+    ],
+    "seo_title": "Losar Festival Guide 2025: Tibetan New Year in Ladakh & Sikkim",
+    "seo_description": "Experience Losar 2025, the Tibetan New Year. Guide to celebrations in Tawang, Ladakh, and Sikkim including masked dances and rituals.",
+    "last_updated": "2025-12-10",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Losar 2025",
+        "startDate": "2025-02-28",
+        "endDate": "2025-03-02",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Ladakh & Arunachal Pradesh",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "description": "Losar is the Tibetan New Year celebrated with ancient rituals and masked dances in the Himalayas."
+    }
+}

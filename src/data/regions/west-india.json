@@ -42,7 +42,7 @@
         {
             "id": "festival-culture",
             "title": "Festival Culture",
-            "summary": "Navratri, Ganesh Chaturthi and vibrant local festivals.",
+            "summary": "Durga Puja, Ganesh Chaturthi and vibrant local festivals.",
             "related_slug": "festivals"
         }
     ],
@@ -137,9 +137,12 @@
             "Konkani"
         ],
         "major_festivals": [
-            "Navratri",
+            "Durga Puja",
             "Gangaur",
-            "Ganesh Chaturthi"
+            "Ganesh Chaturthi",
+            "Holi",
+            "Makar Sankranti",
+            "Pushkar Camel Fair"
         ],
         "notable_dance_forms": [
             "Garba / Dandiya"

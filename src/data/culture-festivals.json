@@ -152,6 +152,38 @@
             "card_subtitle": "Spirit of Assam",
             "thumbnail": "https://images.unsplash.com/photo-1619616056257-2e1180436979?q=80&w=1000&auto=format&fit=crop",
             "short_description": "A set of three harvest festivals celebrated with distinct Bihu dances and feasts in Assam."
+        },
+        {
+            "id": "baisakhi",
+            "slug": "baisakhi",
+            "title": "Baisakhi",
+            "card_subtitle": "Punjab's Spring Harvest",
+            "thumbnail": "https://images.unsplash.com/photo-1514533248810-67df99696956?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Punjab’s Spring Harvest & Khalsa Day - a high-energy celebration of new beginnings."
+        },
+        {
+            "id": "losar",
+            "slug": "losar",
+            "title": "Losar",
+            "card_subtitle": "Tibetan New Year",
+            "thumbnail": "https://images.unsplash.com/photo-1566804593121-6a066b579549?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Tibetan Buddhist New Year in the Himalayas - a spiritual welcome to spring."
+        },
+        {
+            "id": "chapchar-kut",
+            "slug": "chapchar-kut",
+            "title": "Chapchar Kut",
+            "card_subtitle": "Bamboo Harvest Festival",
+            "thumbnail": "https://images.unsplash.com/photo-1605364843075-81640232463e?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Bamboo Harvest Festival of Mizoram - a vibrant celebration of dance and community."
+        },
+        {
+            "id": "gangaur",
+            "slug": "gangaur",
+            "title": "Gangaur",
+            "card_subtitle": "Rajasthan's Festival of Gauri",
+            "thumbnail": "https://images.unsplash.com/photo-1596377771746-24ba0946284a?q=80&w=1000&auto=format&fit=crop",
+            "short_description": "Rajasthan’s Festival of Gauri and Marriage Blessings."
         }
     ],
     "order": [
@@ -172,6 +204,10 @@
         "chhath-puja",
         "pushkar-camel-fair",
         "hemis-festival",
-        "bihu"
+        "bihu",
+        "baisakhi",
+        "losar",
+        "chapchar-kut",
+        "gangaur"
     ]
 }

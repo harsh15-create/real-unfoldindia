@@ -1,0 +1,93 @@
+{
+    "id": "gangaur",
+    "slug": "gangaur",
+    "title": "Gangaur",
+    "hero_image": "https://images.unsplash.com/photo-1596377771746-24ba0946284a?q=80&w=2070&auto=format&fit=crop",
+    "hero_image_alt": "Rajasthani women carrying idols during Gangaur",
+    "gallery_images": [
+        "https://images.unsplash.com/photo-1620766165457-a8025baa82e0?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1593457173874-98c47b03768b?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1579963661141-860e6e7373c0?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "short_description": "Rajasthan’s Festival of Gauri and Marriage Blessings.",
+    "long_description": "Gangaur honors Goddess Gauri (Parvati), celebrating spring, harvest, marital harmony, and fertility. Married women pray for the well‑being and long life of their husbands, while unmarried women seek blessings for an ideal partner. In cities like Jaipur and Udaipur, Gangaur processions bring out royal chariots, folk musicians, and exquisitely dressed women, making the streets feel like a moving museum of Rajasthan’s arts. For photographers and culture lovers, it is one of the most visually rich times to visit, with mehendi, jewellery, and traditional textiles all prominently on show.",
+    "significance": "Devoted to Goddess Gauri (Parvati), it is a celebration of marital bliss, spring harvest, and fertility.",
+    "key_rituals": [
+        "Gauri Puja: Women worship clay idols of Shiva (Isar) and Gauri.",
+        "Processions: Grand parades in royal cities with women carrying idols on their heads.",
+        "Fasting: Women observe fasts for the longevity of their husbands.",
+        "Immersion: The final day involves immersing the idols in a lake or stepwell."
+    ],
+    "calendar": {
+        "typical_month": "March/April",
+        "lunar_reference": "Chaitra Month (Shukla Paksha)",
+        "festival_length": "18 Days (Procession on last day)",
+        "next_dates": {
+            "2025": "Mar 31",
+            "2026": "Mar 21",
+            "2027": "Apr 9"
+        }
+    },
+    "top_places": [
+        {
+            "place_id": "jaipur",
+            "title": "Jaipur",
+            "summary": "A royal procession starts from the City Palace, passing through the Old City.",
+            "best_to_experience": "The heritage procession with elephants, chariots, and folk bands.",
+            "how_to_reach": "Fly to Jaipur (JAI).",
+            "is_bookable": false
+        },
+        {
+            "place_id": "udaipur",
+            "title": "Udaipur",
+            "summary": "Procession of boats on Lake Pichola known as the Mewar Festival.",
+            "best_to_experience": "The cultural performances at Gangaur Ghat at sunset.",
+            "how_to_reach": "Fly to Udaipur (UDR).",
+            "is_bookable": false
+        }
+    ],
+    "practical_info": {
+        "dress_tips": "Traditional Rajasthani wear is common. Modest dress for observing rituals.",
+        "safety_tips": "Processions can get very crowded in the Old City areas. Keep water handy.",
+        "accessibility_notes": "Crowds and narrow lanes in Jaipur/Udaipur can be challenging.",
+        "avg_daily_costs": "₹2000 - ₹5000"
+    },
+    "faqs": [
+        {
+            "q": "Is it only for women?",
+            "a": "The rituals are primarily performed by women, but the processions and fairs are enjoyed by everyone."
+        },
+        {
+            "q": "When is the best time to see the procession?",
+            "a": "On the final day of the festival, usually in the late afternoon."
+        }
+    ],
+    "tags": [
+        "Rajasthan",
+        "Culture",
+        "Women",
+        "Procession"
+    ],
+    "seo_title": "Gangaur Festival 2025: Rajasthan's Vibrant Spring Celebration",
+    "seo_description": "Discover Gangaur 2025, Rajasthan's colorful festival of marriage and spring. Guide to celebrations in Jaipur and Udaipur.",
+    "last_updated": "2025-12-10",
+    "is_live": true,
+    "json_ld_template": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Gangaur 2025",
+        "startDate": "2025-03-31",
+        "endDate": "2025-03-31",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Jaipur, Rajasthan",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "description": "Gangaur is a Rajasthani festival celebrating Goddess Gauri, marriage, and spring."
+    }
+}
