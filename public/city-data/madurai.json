@@ -1,0 +1,139 @@
+{
+    "name": "Madurai",
+    "title": "The Temple City of India",
+    "image": "https://source.unsplash.com/featured/?Madurai,Temple",
+    "about": "Madurai, one of India’s oldest continuously inhabited cities, is known for its temples, culture, food, and heritage. The city centers around the iconic Meenakshi Amman Temple and is filled with vibrant markets, ancient streets, and South Indian traditions.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Best time to visit."
+        },
+        {
+            "season": "April–June",
+            "desc": "Hot weather."
+        },
+        {
+            "season": "July–September",
+            "desc": "Monsoon season."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Meenakshi Amman Temple",
+            "image": "https://source.unsplash.com/featured/?Meenakshi,Temple",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "2–3 hrs",
+            "desc": "The iconic Dravidian style temple complex."
+        },
+        {
+            "name": "Thirumalai Nayakkar Palace",
+            "image": "https://source.unsplash.com/featured/?Thirumalai,Nayakkar,Palace",
+            "timings": "9 AM - 5 PM",
+            "entry": "₹50",
+            "duration": "1–2 hrs",
+            "desc": "A 17th-century palace known for its grand pillars."
+        },
+        {
+            "name": "Gandhi Memorial Museum",
+            "image": "https://source.unsplash.com/featured/?Gandhi,Museum,Madurai",
+            "timings": "10 AM - 5 PM",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Historical museum dedicated to Mahatma Gandhi."
+        },
+        {
+            "name": "Alagar Kovil",
+            "image": "https://source.unsplash.com/featured/?Alagar,Kovil",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "2 hrs",
+            "desc": "Ancient Vishnu temple set in the hills."
+        },
+        {
+            "name": "Pazhamudircholai Temple",
+            "image": "https://source.unsplash.com/featured/?Pazhamudircholai",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Temple dedicated to Lord Murugan."
+        },
+        {
+            "name": "Mariamman Teppakulam",
+            "image": "https://source.unsplash.com/featured/?Teppakulam,Madurai",
+            "timings": "Open all day",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Huge temple tank."
+        },
+        {
+            "name": "Vaigai River Front",
+            "image": "https://source.unsplash.com/featured/?Vaigai,River",
+            "timings": "Open all day",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Scenic riverfront area."
+        }
+    ],
+    "hiddenGems": [
+        "Puthu Mandapam Market",
+        "Banana Market",
+        "Vilachery Doll Makers Village"
+    ],
+    "food": [
+        {
+            "area": "Murugan Idli Shop",
+            "spots": "Idli, Dosa"
+        },
+        {
+            "area": "Amma Mess",
+            "spots": "Non-veg specialties"
+        },
+        {
+            "area": "Kumar Mess",
+            "spots": "Local non-veg"
+        },
+        {
+            "area": "Local Specialties",
+            "spots": "Jigarthanda, Kari Dosa, Idiyappam, Paruthi Paal"
+        }
+    ],
+    "markets": [
+        "Puthu Mandapam",
+        "Banana Market",
+        "Avani Moola Street"
+    ],
+    "nightlife": [],
+    "transport": {
+        "metro": "None",
+        "cabs": [
+            {
+                "type": "Auto/Cab",
+                "cost": "₹300–₹600 (Airport to City)"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹600–₹1200/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹3500+/day"
+        }
+    ],
+    "stay": [
+        "Near Meenakshi Temple",
+        "Goripalayam",
+        "KK Nagar"
+    ],
+    "safety": [
+        "Stay hydrated (hot city)",
+        "Avoid peak-afternoon walking"
+    ]
+}

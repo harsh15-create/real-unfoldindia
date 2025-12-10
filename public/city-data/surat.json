@@ -1,0 +1,96 @@
+{
+    "name": "Surat",
+    "title": "Diamond City of India",
+    "image": "https://source.unsplash.com/featured/?Surat,City",
+    "about": "Surat is a major textile and diamond hub in Gujarat. A fast-growing city with food, culture, and seaside attractions.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Pleasant weather."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Dumas Beach",
+            "image": "https://source.unsplash.com/featured/?Dumas,Beach,Surat",
+            "timings": "All day",
+            "entry": "Free",
+            "duration": "1–2 hrs",
+            "desc": "Black sand beach famous for local snacks."
+        },
+        {
+            "name": "Sarthana Nature Park",
+            "image": "https://source.unsplash.com/featured/?Nature,Park,Surat",
+            "timings": "10 AM - 5 PM",
+            "entry": "₹20",
+            "duration": "2 hrs",
+            "desc": "Zoo and botanical garden."
+        },
+        {
+            "name": "Jagdish Chandra Bose Aquarium",
+            "image": "https://source.unsplash.com/featured/?Aquarium,Fish",
+            "timings": "10 AM - 6 PM",
+            "entry": "₹50",
+            "duration": "1 hr",
+            "desc": "First multi-disciplinary underwater aquarium in India."
+        },
+        {
+            "name": "Gopi Talav",
+            "image": "https://source.unsplash.com/featured/?Lake,Surat",
+            "timings": "10 AM - 10 PM",
+            "entry": "₹10",
+            "duration": "1 hr",
+            "desc": "Recreational lake with rides and food stalls."
+        },
+        {
+            "name": "Surat Castle",
+            "image": "https://source.unsplash.com/featured/?Surat,Castle",
+            "timings": "10 AM - 6 PM",
+            "entry": "₹20",
+            "duration": "1 hr",
+            "desc": "Historical fortress built in the 16th century."
+        }
+    ],
+    "hiddenGems": [
+        "Dutch Garden",
+        "Suvali Beach"
+    ],
+    "food": [
+        {
+            "area": "Local Cuisine",
+            "spots": "Locho, Undhiyu, Surati Sev Khamani, Ghari"
+        }
+    ],
+    "markets": [
+        "Bombay Market (Textiles)"
+    ],
+    "nightlife": [
+        "Piplod Night Market"
+    ],
+    "transport": {
+        "metro": "Under Construction",
+        "cabs": [
+            {
+                "type": "BRTS/Auto",
+                "cost": "Affordable"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹700/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹2500/day"
+        }
+    ],
+    "stay": [
+        "Piplod",
+        "Station Area"
+    ],
+    "safety": [
+        "Very safe city"
+    ]
+}

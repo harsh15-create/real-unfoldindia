@@ -1,0 +1,99 @@
+{
+    "name": "Puri",
+    "title": "Temple Town of Odisha",
+    "image": "https://source.unsplash.com/featured/?Puri,Jagannath",
+    "about": "Spiritual, coastal, and culturally vibrant. Puri is a major pilgrimage site and beach destination.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Best time to visit."
+        },
+        {
+            "season": "June/July",
+            "desc": "Rath Yatra Festival."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Jagannath Temple",
+            "image": "https://source.unsplash.com/featured/?Jagannath,Temple,Puri",
+            "timings": "Morning to Night",
+            "entry": "Free (Hindus Only)",
+            "duration": "1–2 hrs",
+            "desc": "Sacred abode of Lord Jagannath and Char Dham pilgrimage site."
+        },
+        {
+            "name": "Puri Beach",
+            "image": "https://source.unsplash.com/featured/?Puri,Beach",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "Relaxed",
+            "desc": "Golden sands popular for sunrise and sand art."
+        },
+        {
+            "name": "Konark Sun Temple",
+            "image": "https://source.unsplash.com/featured/?Konark,Sun,Temple",
+            "timings": "Sunrise to Sunset",
+            "entry": "₹40",
+            "duration": "2 hrs",
+            "desc": "UNESCO World Heritage Site nearby."
+        },
+        {
+            "name": "Chilika Lake",
+            "image": "https://source.unsplash.com/featured/?Chilika,Lake",
+            "timings": "Day trip",
+            "entry": "Boat fee varies",
+            "duration": "Half day",
+            "desc": "Asia's largest brackish water lagoon."
+        },
+        {
+            "name": "Raghurajpur Art Village",
+            "image": "https://source.unsplash.com/featured/?Pattachitra,Art",
+            "timings": "Daylight hours",
+            "entry": "Free",
+            "duration": "2 hrs",
+            "desc": "Heritage crafts village known for Pattachitra paintings."
+        }
+    ],
+    "hiddenGems": [
+        "Ramchandi Beach",
+        "Pipili Applique Village"
+    ],
+    "food": [
+        {
+            "area": "Local Cuisine",
+            "spots": "Odia thali, Chenna Poda, Dalma, Khaja"
+        }
+    ],
+    "markets": [
+        "Swargadwar Market",
+        "Grand Road"
+    ],
+    "nightlife": [],
+    "transport": {
+        "metro": "None",
+        "cabs": [
+            {
+                "type": "Auto/Rickshaw",
+                "cost": "₹50–₹200"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹2500/day"
+        }
+    ],
+    "stay": [
+        "Marine Drive",
+        "Chakra Tirtha Road"
+    ],
+    "safety": [
+        "Swim in safe zones only at beach"
+    ]
+}

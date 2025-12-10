@@ -1,0 +1,102 @@
+{
+    "name": "Jaisalmer",
+    "title": "The Golden City",
+    "image": "https://source.unsplash.com/featured/?Jaisalmer,Fort",
+    "about": "Jaisalmer is known as the Golden City due to its yellow sandstone architecture. A desert paradise with dunes, camels, forts, and golden landscapes.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Pleasant weather, desert festival time."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Jaisalmer Fort",
+            "image": "https://source.unsplash.com/featured/?Jaisalmer,Fort,Golden",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free (Museum charged)",
+            "duration": "2–3 hrs",
+            "desc": "A UNESCO World Heritage Site and one of the few living forts in the world."
+        },
+        {
+            "name": "Sam Sand Dunes",
+            "image": "https://source.unsplash.com/featured/?Sam,Sand,Dunes",
+            "timings": "Evening best",
+            "entry": "Free",
+            "duration": "3 hrs",
+            "desc": "Popular for camel safaris, jeep bashing, and cultural nights."
+        },
+        {
+            "name": "Patwon Ki Haveli",
+            "image": "https://source.unsplash.com/featured/?Patwon,Haveli",
+            "timings": "9 AM - 6 PM",
+            "entry": "₹50",
+            "duration": "1 hr",
+            "desc": "Cluster of five havelis with intricate carving."
+        },
+        {
+            "name": "Gadisar Lake",
+            "image": "https://source.unsplash.com/featured/?Gadisar,Lake",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Historic rainwater lake surrounded by temples."
+        },
+        {
+            "name": "Kuldhara Village",
+            "image": "https://source.unsplash.com/featured/?Kuldhara,Village",
+            "timings": "8 AM - 6 PM",
+            "entry": "₹20",
+            "duration": "1 hr",
+            "desc": "Abandoned 'ghost village' with a mysterious past."
+        }
+    ],
+    "hiddenGems": [
+        "Bada Bagh",
+        "Tanot Mata Temple"
+    ],
+    "food": [
+        {
+            "area": "Local Cuisine",
+            "spots": "Dal Baati Churma, Ker Sangri, Ghotua Ladoo"
+        }
+    ],
+    "markets": [
+        "Sadar Bazzar",
+        "Manak Chowk"
+    ],
+    "nightlife": [
+        "Desert Camping"
+    ],
+    "transport": {
+        "metro": "None",
+        "cabs": [
+            {
+                "type": "Auto/Rickshaw",
+                "cost": "Negotiable"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4000+/day"
+        }
+    ],
+    "stay": [
+        "Inside Fort",
+        "Sam Dunes Camps"
+    ],
+    "safety": [
+        "Stay hydrated",
+        "Book authorized desert camps"
+    ]
+}

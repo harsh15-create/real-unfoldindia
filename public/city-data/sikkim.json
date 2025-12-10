@@ -1,0 +1,131 @@
+{
+    "name": "Sikkim",
+    "title": "Himalayan Beauty & Monasteries",
+    "image": "https://source.unsplash.com/featured/?Sikkim,Himalaya",
+    "about": "Sikkim is known for snow-capped mountains, Buddhist culture, lakes, valleys, and adventure. Home to Kanchenjunga, ancient monasteries, and stunning landscapes, it is a clean, peaceful, eco-friendly state.",
+    "bestTime": [
+        {
+            "season": "March–June",
+            "desc": "Best for orchids and pleasant weather."
+        },
+        {
+            "season": "September–December",
+            "desc": "Clear mountain views."
+        },
+        {
+            "season": "Winter",
+            "desc": "Snow in North Sikkim."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Gangtok",
+            "image": "https://source.unsplash.com/featured/?Gangtok",
+            "timings": "All day",
+            "entry": "N/A",
+            "duration": "1–2 days",
+            "desc": "The capital city, vibrant with MG Marg and monasteries."
+        },
+        {
+            "name": "Tsomgo Lake",
+            "image": "https://source.unsplash.com/featured/?Tsomgo,Lake",
+            "timings": "Morning visit recommended",
+            "entry": "Permit required",
+            "duration": "2 hrs",
+            "desc": "A glacial lake at 12,310 ft."
+        },
+        {
+            "name": "Nathula Pass",
+            "image": "https://source.unsplash.com/featured/?Nathula,Pass",
+            "timings": "Wed-Sun only",
+            "entry": "Permit required",
+            "duration": "1 hr",
+            "desc": "Indo-China border pass."
+        },
+        {
+            "name": "Baba Mandir",
+            "image": "https://source.unsplash.com/featured/?Baba,Mandir,Sikkim",
+            "timings": "Daylight hours",
+            "entry": "Permit required",
+            "duration": "30 mins",
+            "desc": "Shrine dedicated to an Indian army soldier."
+        },
+        {
+            "name": "Yumthang Valley",
+            "image": "https://source.unsplash.com/featured/?Yumthang,Valley",
+            "timings": "Daylight hours",
+            "entry": "Permit required",
+            "duration": "2 hrs",
+            "desc": "Valley of Flowers (in spring)."
+        },
+        {
+            "name": "Lachung & Lachen",
+            "image": "https://source.unsplash.com/featured/?Lachung,Village",
+            "timings": "Overnight stay",
+            "entry": "Permit required",
+            "duration": "1-2 days",
+            "desc": "Gateway villages to North Sikkim attractions."
+        },
+        {
+            "name": "Gurudongmar Lake",
+            "image": "https://source.unsplash.com/featured/?Gurudongmar,Lake",
+            "timings": "Early morning only",
+            "entry": "Permit required",
+            "duration": "1 hr",
+            "desc": "One of the highest lakes in the world."
+        }
+    ],
+    "hiddenGems": [
+        "Zuluk",
+        "Ravangla Buddha Park",
+        "Namchi",
+        "Temi Tea Garden"
+    ],
+    "food": [
+        {
+            "area": "Local Cuisine",
+            "spots": "Momos, Thukpa, Phagshapa, Sikkim tea"
+        }
+    ],
+    "markets": [
+        "MG Marg Gangtok",
+        "Lal Bazaar"
+    ],
+    "nightlife": [
+        "MG Marg Cafes",
+        "Casino (in Gangtok)"
+    ],
+    "transport": {
+        "metro": "None",
+        "cabs": [
+            {
+                "type": "Taxi",
+                "cost": "Fixed Rates/Shared Sumo"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹900/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3500/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4500+/day"
+        }
+    ],
+    "stay": [
+        "Gangtok",
+        "Lachung",
+        "Pelling"
+    ],
+    "safety": [
+        "High altitude caution",
+        "Avoid winter road trips without proper vehicles",
+        "Carry Permits"
+    ]
+}

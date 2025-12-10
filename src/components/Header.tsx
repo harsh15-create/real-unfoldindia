@@ -122,22 +122,6 @@ export const Header = () => {
                 </div>
               </div>
               <DropdownMenuSeparator className="bg-white/10" />
-              <div className="p-2">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-xs text-white/70">Credits Left</span>
-                  <span className="text-xs font-bold text-primary">1,250</span>
-                </div>
-                <Button size="sm" className="w-full bg-primary hover:bg-primary/90 text-white h-7 text-xs">
-                  Upgrade Plan
-                </Button>
-                <div className="mt-2 flex items-center justify-between gap-2">
-                  <span className="text-xs text-white/50">Need more?</span>
-                  <Button size="sm" variant="outline" className="flex-1 border-primary/20 hover:bg-primary/10 text-primary h-7 text-[10px] whitespace-nowrap">
-                    20 Credits - $5
-                  </Button>
-                </div>
-              </div>
-              <DropdownMenuSeparator className="bg-white/10" />
               <DropdownMenuItem asChild className="focus:bg-white/10 focus:text-white cursor-pointer">
                 <Link to="/settings" className="flex items-center">
                   <SettingsIcon className="mr-2 h-4 w-4" />

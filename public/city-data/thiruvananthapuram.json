@@ -1,0 +1,126 @@
+{
+    "name": "Thiruvananthapuram",
+    "title": "Kerala’s Capital of Culture & Beaches",
+    "image": "https://source.unsplash.com/featured/?Thiruvananthapuram,Temple",
+    "about": "Thiruvananthapuram blends beaches, museums, temples, palaces, and Kerala’s cultural heritage. Known for Padmanabhaswamy Temple, Kovalam Beach, museums, and colonial architecture.",
+    "bestTime": [
+        {
+            "season": "October–March",
+            "desc": "Best time to visit."
+        },
+        {
+            "season": "April–June",
+            "desc": "Hot weather."
+        },
+        {
+            "season": "June–September",
+            "desc": "Monsoon season."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Padmanabhaswamy Temple",
+            "image": "https://source.unsplash.com/featured/?Padmanabhaswamy,Temple",
+            "timings": "Strict timings",
+            "entry": "Free (Dress code applies)",
+            "duration": "1–2 hrs",
+            "desc": "The richest temple in the world, dedicated to Lord Vishnu."
+        },
+        {
+            "name": "Kovalam Beach",
+            "image": "https://source.unsplash.com/featured/?Kovalam,Beach",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "2–3 hrs",
+            "desc": "Internationally renowned beach with a lighthouse."
+        },
+        {
+            "name": "Shanghumukham Beach",
+            "image": "https://source.unsplash.com/featured/?Shanghumukham,Beach",
+            "timings": "Evening best",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Famous for sunset views and the mermaid sculpture."
+        },
+        {
+            "name": "Napier Museum",
+            "image": "https://source.unsplash.com/featured/?Napier,Museum,Trivandrum",
+            "timings": "10 AM - 5 PM (Mon closed)",
+            "entry": "₹20",
+            "duration": "1 hr",
+            "desc": "Indo-Saracenic architectural masterpiece housing historical artifacts."
+        },
+        {
+            "name": "Kuthiramalika Palace",
+            "image": "https://source.unsplash.com/featured/?Kuthiramalika,Palace",
+            "timings": "8:30 AM - 1 PM, 3 PM - 5:30 PM",
+            "entry": "₹50",
+            "duration": "1 hr",
+            "desc": "Palace known for its 122 horses carved into the wooden wall brackets."
+        },
+        {
+            "name": "Veli Tourist Village",
+            "image": "https://source.unsplash.com/featured/?Veli,Lake",
+            "timings": "9 AM - 6 PM",
+            "entry": "₹20",
+            "duration": "1.5 hrs",
+            "desc": "Picnic spot where the Veli Lake meets the Arabian Sea."
+        },
+        {
+            "name": "Vizhinjam Lighthouse",
+            "image": "https://source.unsplash.com/featured/?Vizhinjam,Lighthouse",
+            "timings": "3 PM - 5 PM",
+            "entry": "₹20",
+            "duration": "30 mins",
+            "desc": "Offers panoramic views of the coastline."
+        }
+    ],
+    "hiddenGems": [
+        "Poovar Island",
+        "Vellayani Lake",
+        "Magic Planet"
+    ],
+    "food": [
+        {
+            "area": "Local Cuisine",
+            "spots": "Kerala fish curry, Parotta & beef, Banana chips"
+        }
+    ],
+    "markets": [
+        "Chalai Market",
+        "Connemara Market"
+    ],
+    "nightlife": [],
+    "transport": {
+        "metro": "None",
+        "cabs": [
+            {
+                "type": "Auto/Taxi",
+                "cost": "Metered/App-based"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4000+/day"
+        }
+    ],
+    "stay": [
+        "Kovalam",
+        "Shanghumukham",
+        "City center"
+    ],
+    "safety": [
+        "Respect temple dress codes",
+        "Strong waves at beaches"
+    ]
+}

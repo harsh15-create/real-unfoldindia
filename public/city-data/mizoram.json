@@ -1,0 +1,100 @@
+{
+    "name": "Mizoram",
+    "title": "Land of Blue Mountains",
+    "image": "https://source.unsplash.com/featured/?Mizoram,Hills",
+    "about": "Mizoram is known for its green hills, peaceful towns, vibrant tribal culture, and beautiful landscapes. A calm, cultural, scenic destination.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Pleasant weather."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Aizawl City",
+            "image": "https://source.unsplash.com/featured/?Aizawl",
+            "timings": "All day",
+            "entry": "Free",
+            "duration": "1 day",
+            "desc": "The scenic capital city perched on a ridge."
+        },
+        {
+            "name": "Durtlang Hills",
+            "image": "https://source.unsplash.com/featured/?Durtlang,Hills",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "2 hrs",
+            "desc": "Offers panoramic views of Aizawl."
+        },
+        {
+            "name": "KV Paradise",
+            "image": "https://source.unsplash.com/featured/?Mizoram,Monument",
+            "timings": "10 AM - 4 PM",
+            "entry": "₹20",
+            "duration": "1 hr",
+            "desc": "Known as the Taj Mahal of Mizoram."
+        },
+        {
+            "name": "Reiek Peak",
+            "image": "https://source.unsplash.com/featured/?Reiek,Peak",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "3 hrs",
+            "desc": "Popular trekking spot with stunning views."
+        },
+        {
+            "name": "Vantawng Falls",
+            "image": "https://source.unsplash.com/featured/?Vantawng,Falls",
+            "timings": "Daylight hours",
+            "entry": "Viewpoint access",
+            "duration": "1 hr",
+            "desc": "Highest waterfall in Mizoram."
+        },
+        {
+            "name": "Champhai Valley",
+            "image": "https://source.unsplash.com/featured/?Champhai",
+            "timings": "All day",
+            "entry": "Free",
+            "duration": "1 day",
+            "desc": "Rice bowl of Mizoram with scenic paddy fields."
+        }
+    ],
+    "hiddenGems": [
+        "Hmuifang",
+        "Tam Dil Lake"
+    ],
+    "food": [
+        {
+            "area": "Local Cuisine",
+            "spots": "Bai, Vawksa Rep, Mizo tea"
+        }
+    ],
+    "markets": [
+        "Bara Bazar",
+        "Solomon's Cave"
+    ],
+    "nightlife": [],
+    "transport": {
+        "metro": "None",
+        "cabs": [
+            {
+                "type": "Taxi",
+                "cost": "Negotiable"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Mid",
+            "cost": "₹2000–₹4000/day"
+        }
+    ],
+    "stay": [
+        "Aizawl",
+        "Reiek Resort"
+    ],
+    "safety": [
+        "Hilly roads",
+        "Permit required (ILP)"
+    ]
+}

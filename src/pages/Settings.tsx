@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
-import { User, Mail, Shield, CreditCard, Bell } from "lucide-react";
+import { User, Mail, Shield, Bell } from "lucide-react";
 
 const Settings = () => {
     const [searchParams] = useSearchParams();
@@ -43,14 +43,7 @@ const Settings = () => {
                             <Shield className="mr-2 h-4 w-4" />
                             Security
                         </Button>
-                        <Button
-                            variant="ghost"
-                            onClick={() => handleTabChange("billing")}
-                            className={cn("w-full justify-start", activeTab === "billing" ? "bg-white/10 text-white" : "hover:bg-white/5 text-white/60 hover:text-white")}
-                        >
-                            <CreditCard className="mr-2 h-4 w-4" />
-                            Billing & Plans
-                        </Button>
+
                         <Button
                             variant="ghost"
                             onClick={() => handleTabChange("notifications")}
@@ -100,19 +93,7 @@ const Settings = () => {
                             </div>
                         )}
 
-                        {activeTab === "billing" && (
-                            <div className="space-y-6">
-                                <div>
-                                    <h2 className="text-xl font-semibold mb-1">Billing & Plans</h2>
-                                    <p className="text-sm text-white/60">Manage your subscription and billing details.</p>
-                                </div>
-                                <Separator className="bg-white/10" />
-                                <div className="p-6 bg-white/5 rounded-xl border border-white/10 text-center">
-                                    <p className="text-white/40">You are currently on the Free Plan.</p>
-                                    <Button className="mt-4 bg-primary text-white">Upgrade to Pro</Button>
-                                </div>
-                            </div>
-                        )}
+
 
                         {/* Placeholders for other tabs */}
                         {(activeTab === "security" || activeTab === "notifications") && (

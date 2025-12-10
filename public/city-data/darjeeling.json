@@ -1,0 +1,123 @@
+{
+    "name": "Darjeeling",
+    "title": "Queen of the Hills",
+    "image": "https://source.unsplash.com/featured/?Darjeeling,Tea",
+    "about": "Darjeeling is known for tea gardens, toy train, monasteries, views of Kanchenjunga, and cool climate. A charming British-era hill station with scenic views and cultural mix.",
+    "bestTime": [
+        {
+            "season": "March–June",
+            "desc": "Pleasant summer."
+        },
+        {
+            "season": "October–December",
+            "desc": "Winter chill."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Tiger Hill",
+            "image": "https://source.unsplash.com/featured/?Tiger,Hill,Darjeeling",
+            "timings": "Early Morning (Before Sunrise)",
+            "entry": "Free",
+            "duration": "2 hrs",
+            "desc": "Famous for spectacular sunrise views over Kanchenjunga."
+        },
+        {
+            "name": "Batasia Loop",
+            "image": "https://source.unsplash.com/featured/?Batasia,Loop",
+            "timings": "Sunrise to Sunset",
+            "entry": "₹20",
+            "duration": "1 hr",
+            "desc": "Spiral railway loop with a war memorial."
+        },
+        {
+            "name": "Darjeeling Himalayan Railway",
+            "image": "https://source.unsplash.com/featured/?Toy,Train,Darjeeling",
+            "timings": "Check Schedule",
+            "entry": "Ticketed",
+            "duration": "2 hrs (Joyride)",
+            "desc": "UNESCO World Heritage Toy Train."
+        },
+        {
+            "name": "Japanese Peace Pagoda",
+            "image": "https://source.unsplash.com/featured/?Peace,Pagoda,Darjeeling",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Buddhist stupa offering peace and views."
+        },
+        {
+            "name": "Rock Garden",
+            "image": "https://source.unsplash.com/featured/?Rock,Garden,Darjeeling",
+            "timings": "10 AM - 4 PM",
+            "entry": "₹20",
+            "duration": "2 hrs",
+            "desc": "Terraced garden with waterfalls."
+        },
+        {
+            "name": "Happy Valley Tea Estate",
+            "image": "https://source.unsplash.com/featured/?Tea,Estate,Darjeeling",
+            "timings": "8 AM - 4 PM",
+            "entry": "₹100 (Guide)",
+            "duration": "1 hr",
+            "desc": "One of the oldest tea estates in the region."
+        },
+        {
+            "name": "Chowrasta",
+            "image": "https://source.unsplash.com/featured/?Chowrasta,Darjeeling",
+            "timings": "All day",
+            "entry": "Free",
+            "duration": "Relaxed",
+            "desc": "The Mall Road, heart of the town."
+        }
+    ],
+    "hiddenGems": [
+        "Lamahatta",
+        "Tinchuley",
+        "Lepcha Jagat"
+    ],
+    "food": [
+        {
+            "area": "Local Cuisine",
+            "spots": "Momos, Thukpa, Darjeeling tea"
+        }
+    ],
+    "markets": [
+        "Chowrasta",
+        "Nehru Road"
+    ],
+    "nightlife": [
+        "Glenary's"
+    ],
+    "transport": {
+        "metro": "None",
+        "cabs": [
+            {
+                "type": "Taxi",
+                "cost": "₹1500–₹2500/day"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4000+/day"
+        }
+    ],
+    "stay": [
+        "Chowrasta",
+        "Gandhi Road"
+    ],
+    "safety": [
+        "Foggy evenings",
+        "Steep slopes"
+    ]
+}

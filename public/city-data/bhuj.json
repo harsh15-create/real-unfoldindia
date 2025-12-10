@@ -1,0 +1,96 @@
+{
+    "name": "Bhuj",
+    "title": "Gateway to Kutch",
+    "image": "https://source.unsplash.com/featured/?Bhuj,Kutch",
+    "about": "Bhuj is a historic city famous for its palaces, handicrafts, and proximity to the White Desert (Rann of Kutch). A cultural and desert destination.",
+    "bestTime": [
+        {
+            "season": "October to February",
+            "desc": "Rann Utsav festive season."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Prag Mahal",
+            "image": "https://source.unsplash.com/featured/?Prag,Mahal,Bhuj",
+            "timings": "9 AM - 12 PM, 3 PM - 6 PM",
+            "entry": "₹20",
+            "duration": "1 hr",
+            "desc": "19th-century palace with Italian Gothic style."
+        },
+        {
+            "name": "Aina Mahal",
+            "image": "https://source.unsplash.com/featured/?Aina,Mahal",
+            "timings": "9 AM - 12 PM, 3 PM - 6 PM",
+            "entry": "₹20",
+            "duration": "45 mins",
+            "desc": "Palace of Mirrors built in the 18th century."
+        },
+        {
+            "name": "Bhujodi Craft Village",
+            "image": "https://source.unsplash.com/featured/?Kutch,Embroidery",
+            "timings": "9 AM - 6 PM",
+            "entry": "Free",
+            "duration": "2 hrs",
+            "desc": "Famous for traditional weaving and handicrafts."
+        },
+        {
+            "name": "Mandvi Beach",
+            "image": "https://source.unsplash.com/featured/?Mandvi,Beach",
+            "timings": "All day",
+            "entry": "Free",
+            "duration": "Half day",
+            "desc": "Pristine beach with wind farms and Vijay Vilas Palace nearby."
+        },
+        {
+            "name": "White Rann of Kutch",
+            "image": "https://source.unsplash.com/featured/?Rann,Kutch",
+            "timings": "Sunrise to Sunset",
+            "entry": "Permit required",
+            "duration": "Evening/Full Moon",
+            "desc": "Vast salt desert famous for Rann Utsav."
+        }
+    ],
+    "hiddenGems": [
+        "Kalo Dungar",
+        "Vande Mataram Memorial"
+    ],
+    "food": [
+        {
+            "area": "Local Cuisine",
+            "spots": "Kutchi Dabeli, Bajra Rotla, Odho"
+        }
+    ],
+    "markets": [
+        "Shroff Bazaar",
+        "Bhujodi"
+    ],
+    "nightlife": [],
+    "transport": {
+        "metro": "None",
+        "cabs": [
+            {
+                "type": "Rickshaw/Taxi",
+                "cost": "Negotiable"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹2000–₹3500/day"
+        }
+    ],
+    "stay": [
+        "Station Road",
+        "Rann Tent City (Seasonal)"
+    ],
+    "safety": [
+        "Earthquake prone zone awareness",
+        "Carry permits for border areas"
+    ]
+}

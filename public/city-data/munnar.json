@@ -1,0 +1,121 @@
+{
+    "name": "Munnar",
+    "title": "Tea Garden Heaven",
+    "image": "https://source.unsplash.com/featured/?Munnar,Tea",
+    "about": "Munnar is Kerala’s beautiful hill station known for lush tea plantations, cool climate, wildlife, and misty hills. Located in the Western Ghats, it is famous for tea museums, waterfalls, viewpoints, trekking, wildlife, and peaceful resorts.",
+    "bestTime": [
+        {
+            "season": "October to May",
+            "desc": "Best time to visit."
+        },
+        {
+            "season": "June–September",
+            "desc": "Monsoon greens."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Tea Gardens",
+            "image": "https://source.unsplash.com/featured/?Munnar,Tea,Garden",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "2–3 hrs",
+            "desc": "Endless rolling hills of green tea plantations."
+        },
+        {
+            "name": "Eravikulam National Park",
+            "image": "https://source.unsplash.com/featured/?Eravikulam,Nilgiri,Tahr",
+            "timings": "7:00 AM - 4:00 PM",
+            "entry": "₹125",
+            "duration": "3 hrs",
+            "desc": "Home to the endangered Nilgiri Tahr."
+        },
+        {
+            "name": "Tea Museum",
+            "image": "https://source.unsplash.com/featured/?Tea,Museum,Munnar",
+            "timings": "9 AM - 5 PM",
+            "entry": "₹75",
+            "duration": "1 hr",
+            "desc": "Learn about the history of tea making in Munnar."
+        },
+        {
+            "name": "Top Station",
+            "image": "https://source.unsplash.com/featured/?Top,Station,Munnar",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "2 hrs",
+            "desc": "Highest point in Munnar offering panoramic views."
+        },
+        {
+            "name": "Echo Point",
+            "image": "https://source.unsplash.com/featured/?Echo,Point,Munnar",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "30 mins",
+            "desc": "Scenic lake bank known for its natural echo phenomenon."
+        },
+        {
+            "name": "Mattupetty Dam",
+            "image": "https://source.unsplash.com/featured/?Mattupetty,Dam",
+            "timings": "9 AM - 5 PM",
+            "entry": "₹10",
+            "duration": "1 hr",
+            "desc": "Famous for boating and horse riding."
+        },
+        {
+            "name": "Kundala Lake",
+            "image": "https://source.unsplash.com/featured/?Kundala,Lake",
+            "timings": "9 AM - 5 PM",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Scenic lake famous for Shikara rides."
+        }
+    ],
+    "hiddenGems": [
+        "Attukad Waterfalls",
+        "Pothamedu Viewpoint",
+        "Kolukkumalai Tea Estate"
+    ],
+    "food": [
+        {
+            "area": "Local Cuisine",
+            "spots": "Kerala meals, Puttu & kadala, Appam & stew"
+        }
+    ],
+    "markets": [
+        "Munnar Market (Spices & Tea)"
+    ],
+    "nightlife": [],
+    "transport": {
+        "metro": "None",
+        "cabs": [
+            {
+                "type": "Taxi/Scooter",
+                "cost": "₹1500–₹2500/day (Taxi)"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Low",
+            "cost": "₹800–₹1500/day"
+        },
+        {
+            "type": "Mid",
+            "cost": "₹1800–₹3500/day"
+        },
+        {
+            "type": "High",
+            "cost": "₹4000+/day"
+        }
+    ],
+    "stay": [
+        "Pallivasal",
+        "Chithirapuram",
+        "Old Munnar"
+    ],
+    "safety": [
+        "Roads foggy at night",
+        "Leeches in monsoon"
+    ]
+}

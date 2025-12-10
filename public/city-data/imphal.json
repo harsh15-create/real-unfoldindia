@@ -1,0 +1,97 @@
+{
+    "name": "Imphal",
+    "title": "Gateway to Manipur",
+    "image": "https://source.unsplash.com/featured/?Imphal,Manipur",
+    "about": "Imphal is a culturally rich destination with lakes, markets, and heritage. A historic valley city and gateway to Loktak Lake.",
+    "bestTime": [
+        {
+            "season": "October to March",
+            "desc": "Pleasant weather."
+        }
+    ],
+    "attractions": [
+        {
+            "name": "Loktak Lake",
+            "image": "https://source.unsplash.com/featured/?Loktak,Lake",
+            "timings": "Sunrise to Sunset",
+            "entry": "Free",
+            "duration": "Half day",
+            "desc": "Famous for its floating phumdis and Sendra Island."
+        },
+        {
+            "name": "Kangla Fort",
+            "image": "https://source.unsplash.com/featured/?Kangla,Fort",
+            "timings": "9 AM - 5 PM",
+            "entry": "₹20",
+            "duration": "1–2 hrs",
+            "desc": "Ancient seat of Manipuri grandeur."
+        },
+        {
+            "name": "INA Museum",
+            "image": "https://source.unsplash.com/featured/?INA,Museum,Moirang",
+            "timings": "10 AM - 4 PM",
+            "entry": "₹10",
+            "duration": "1 hr",
+            "desc": "Indian National Army Memorial Complex."
+        },
+        {
+            "name": "Ima Keithel",
+            "image": "https://source.unsplash.com/featured/?Ima,Market,Imphal",
+            "timings": "Morning to Evening",
+            "entry": "Free",
+            "duration": "1 hr",
+            "desc": "Asia's largest all-women's market."
+        },
+        {
+            "name": "Sendra Island",
+            "image": "https://source.unsplash.com/featured/?Sendra,Island",
+            "timings": "All day",
+            "entry": "Entry fee applies",
+            "duration": "2 hrs",
+            "desc": "Scenic spot on Loktak Lake."
+        },
+        {
+            "name": "Manipur State Museum",
+            "image": "https://source.unsplash.com/featured/?Manipur,Museum",
+            "timings": "10 AM - 4:30 PM",
+            "entry": "₹10",
+            "duration": "1 hr",
+            "desc": "Showcases Manipuri art and culture."
+        }
+    ],
+    "hiddenGems": [
+        "Keibul Lamjao National Park"
+    ],
+    "food": [
+        {
+            "area": "Local Cuisine",
+            "spots": "Eromba, Chamthong, Manipuri black rice dessert"
+        }
+    ],
+    "markets": [
+        "Ima Keithel",
+        "Paona Bazar"
+    ],
+    "nightlife": [],
+    "transport": {
+        "metro": "None",
+        "cabs": [
+            {
+                "type": "Auto/Taxi",
+                "cost": "Metered/Negotiable"
+            }
+        ]
+    },
+    "budget": [
+        {
+            "type": "Mid",
+            "cost": "₹1500–₹3000/day"
+        }
+    ],
+    "stay": [
+        "Imphal City Centre"
+    ],
+    "safety": [
+        "Check local advisories"
+    ]
+}
