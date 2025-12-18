@@ -89,7 +89,7 @@ const Explore = () => {
                             transition={{ delay: 0.1 }}
                             className="text-xl text-muted-foreground mb-12"
                         >
-                            Ask our AI to plan your perfect Indian voyage.
+                            Ask our AI to plan your perfect Indian journey.
                         </motion.p>
                     </motion.div>
 

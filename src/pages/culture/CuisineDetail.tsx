@@ -54,7 +54,7 @@ const CuisineDetail = () => {
 
     return (
         <div className="min-h-screen bg-[#0B0B15]">
-            <div className="fixed top-6 left-6 z-50">
+            <div className="absolute top-24 left-6 z-50">
                 <Link to="/culture/cuisine">
                     <Button variant="outline" size="icon" className="rounded-full bg-black/40 backdrop-blur-md border-white/10 hover:bg-white/10 hover:text-white transition-all duration-300 group">
                         <ArrowLeft className="h-5 w-5 group-hover:-translate-x-1 transition-transform" />

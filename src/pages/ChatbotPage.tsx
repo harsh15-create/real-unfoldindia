@@ -5,6 +5,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Bot, Send, User, Sparkles, X, MapPin, Calendar, DollarSign, Loader2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import { getApiUrl } from "@/config";
 
 interface Message {
     id: string;
@@ -12,6 +15,7 @@ interface Message {
     sender: 'user' | 'ai';
     timestamp: Date;
     action?: 'itinerary';
+    excludeFromContext?: boolean; // New flag for ephemeral messages
 }
 
 const ChatbotPage = () => {
@@ -85,47 +89,115 @@ const ChatbotPage = () => {
             timestamp: new Date()
         };
 
-        setMessages(prev => [...prev, newUserMessage]);
+        const updatedMessages = [...messages, newUserMessage];
+        setMessages(updatedMessages);
+
         if (!overrideText) setInputValue("");
         setIsTyping(true);
 
-        // Simulate AI response
-        setTimeout(() => {
+        // Prepare History for API (EXCLUDING filtered messages)
+        const apiMessages = updatedMessages
+            .filter(msg => !msg.excludeFromContext) // The Filter Logic
+            .map(msg => ({
+                role: msg.sender === 'ai' ? 'assistant' : 'user',
+                content: msg.text
+            }));
+
+        try {
+            const response = await fetch(getApiUrl("/api/chat"), {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ messages: apiMessages })
+            });
+
+            if (!response.ok) throw new Error("API Request Failed");
+
+            const data = await response.json();
+
             const aiResponse: Message = {
                 id: (Date.now() + 1).toString(),
-                text: "That sounds like a great plan! I can help you find the best spots, food, and stays there. Would you like a day-by-day itinerary?",
+                text: data.reply,
                 sender: 'ai',
                 timestamp: new Date()
             };
             setMessages(prev => [...prev, aiResponse]);
+        } catch (error) {
+            console.error("Chat Error:", error);
+            const errorResponse: Message = {
+                id: (Date.now() + 1).toString(),
+                text: "Sorry, I'm having trouble connecting to the server. Please ensure the backend is running.",
+                sender: 'ai',
+                timestamp: new Date()
+            };
+            setMessages(prev => [...prev, errorResponse]);
+        } finally {
             setIsTyping(false);
-        }, 1500);
+        }
     };
 
     const handleGenerateItinerary = () => {
         setShowItineraryPopup(false);
 
         // Add a system message about the generated itinerary
+        const prompt = `Create the BEST, most DETAILED ${itineraryForm.days}-day itinerary for ${itineraryForm.city} with a ${itineraryForm.budget} budget. 
+        For EACH day, strictly provide: 
+        1. Morning: Best spot + specific breakfast place.
+        2. Afternoon: Hidden gem + activity.
+        3. Evening: Sunset spot + dinner recommendation (dish name).
+        Ignore brevity for this response.`;
+
+
         const userRequest: Message = {
             id: Date.now().toString(),
-            text: `Generate a ${itineraryForm.days}-day itinerary for a trip to ${itineraryForm.city} with a ${itineraryForm.budget} budget.`,
+            text: prompt,
             sender: 'user',
-            timestamp: new Date()
+            timestamp: new Date(),
+            excludeFromContext: true // MARKED AS EXCLUDED
         };
 
-        setMessages(prev => [...prev, userRequest]);
+        const updatedMessages = [...messages, userRequest];
+        setMessages(updatedMessages);
         setIsTyping(true);
 
-        setTimeout(() => {
-            const aiResponse: Message = {
-                id: (Date.now() + 1).toString(),
-                text: `Here is a curated ${itineraryForm.days}-day itinerary for ${itineraryForm.city}!\n\n**Day 1: Arrival & Exploration**\n- Morning: Visit the main city attractions.\n- Afternoon: Local lunch and market tour.\n- Evening: Sunset view and dinner.\n\n(This is a demo response. Full AI generation coming soon!)`,
-                sender: 'ai',
-                timestamp: new Date()
-            };
-            setMessages(prev => [...prev, aiResponse]);
-            setIsTyping(false);
-        }, 2000);
+        // Prepare History correctly (Current Prompt MUST be sent, but not stored in future history)
+        // We filter the history, THEN add the current prompt for *this* request only.
+        const historyForApi = updatedMessages
+            .filter(msg => !msg.excludeFromContext && msg.id !== userRequest.id) // Filter old excluded + current (added manually below)
+            .map(msg => ({
+                role: msg.sender === 'ai' ? 'assistant' : 'user',
+                content: msg.text
+            }));
+
+        // Final API payload includes the filtered history + the current prompt
+        const apiMessages = [...historyForApi, { role: 'user', content: prompt }];
+
+        // Use the same handler logic (could slightly refactor, but calling the API directly here is cleaner for now)
+        fetch(getApiUrl("/api/chat"), {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ messages: apiMessages })
+        })
+            .then(res => res.json())
+            .then(data => {
+                const aiResponse: Message = {
+                    id: (Date.now() + 1).toString(),
+                    text: data.reply,
+                    sender: 'ai',
+                    timestamp: new Date(),
+                    excludeFromContext: true // RESPONSE ALSO EXCLUDED
+                };
+                setMessages(prev => [...prev, aiResponse]);
+            })
+            .catch(err => {
+                const errorResponse: Message = {
+                    id: (Date.now() + 1).toString(),
+                    text: "Sorry, I couldn't generate the itinerary. Please try again.",
+                    sender: 'ai',
+                    timestamp: new Date()
+                };
+                setMessages(prev => [...prev, errorResponse]);
+            })
+            .finally(() => setIsTyping(false));
     };
 
     const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -159,7 +231,11 @@ const ChatbotPage = () => {
                                     ? 'bg-card border border-border/50 rounded-tl-none'
                                     : 'bg-primary text-primary-foreground rounded-tr-none'
                                     }`}>
-                                    <p className="whitespace-pre-wrap leading-relaxed">{msg.text}</p>
+                                    <div className="prose prose-sm dark:prose-invert max-w-none text-sm break-words">
+                                        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                            {msg.text}
+                                        </ReactMarkdown>
+                                    </div>
 
                                     {msg.action === 'itinerary' && (
                                         <Button
