@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, User, Settings as SettingsIcon, LogOut, Bot, ChevronDown } from "lucide-react";
 import { useState } from "react";
+import { useAuth } from "@/auth/AuthContext";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { motion } from "framer-motion";
 import {
@@ -13,6 +14,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 export const Header = () => {
+  const { user, profile, signOut } = useAuth();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
@@ -107,33 +109,45 @@ export const Header = () => {
               <Bot className="h-4 w-4" /> Chat with Kira
             </Link>
           </Button>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Avatar className="h-9 w-9 cursor-pointer border border-white/10 hover:border-primary transition-colors">
-                <AvatarImage src="https://github.com/shadcn.png" />
-                <AvatarFallback><User className="h-4 w-4" /></AvatarFallback>
-              </Avatar>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="w-64 bg-gradient-to-br from-[#1e293b] to-[#0f172a] border-white/10 text-white backdrop-blur-xl">
-              <div className="flex items-center justify-start gap-2 p-2">
-                <div className="flex flex-col space-y-1 leading-none">
-                  <p className="font-medium">Vedant</p>
-                  <p className="w-[200px] truncate text-xs text-white/70">vedant@example.com</p>
+
+          {user ? (
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Avatar className="h-9 w-9 cursor-pointer border border-white/10 hover:border-primary transition-colors">
+                  <AvatarImage src={profile?.avatar_url || "https://github.com/shadcn.png"} />
+                  <AvatarFallback className="text-black bg-white">
+                    {profile?.full_name?.charAt(0) || user.email?.charAt(0).toUpperCase() || <User className="h-4 w-4" />}
+                  </AvatarFallback>
+                </Avatar>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-64 bg-gradient-to-br from-[#1e293b] to-[#0f172a] border-white/10 text-white backdrop-blur-xl">
+                <div className="flex items-center justify-start gap-2 p-2">
+                  <div className="flex flex-col space-y-1 leading-none">
+                    <p className="font-medium">{profile?.full_name || 'User'}</p>
+                    <p className="w-[200px] truncate text-xs text-white/70">{user.email}</p>
+                  </div>
                 </div>
-              </div>
-              <DropdownMenuSeparator className="bg-white/10" />
-              <DropdownMenuItem asChild className="focus:bg-white/10 focus:text-white cursor-pointer">
-                <Link to="/settings" className="flex items-center">
-                  <SettingsIcon className="mr-2 h-4 w-4" />
-                  <span>Account Settings</span>
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem className="focus:bg-white/10 focus:text-white cursor-pointer text-red-400 focus:text-red-400">
-                <LogOut className="mr-2 h-4 w-4" />
-                <span>Sign out</span>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+                <DropdownMenuSeparator className="bg-white/10" />
+                <DropdownMenuItem asChild className="focus:bg-white/10 focus:text-white cursor-pointer">
+                  <Link to="/profile" className="flex items-center">
+                    <User className="mr-2 h-4 w-4" />
+                    <span>Profile</span>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  className="focus:bg-white/10 focus:text-white cursor-pointer text-red-400 focus:text-red-400"
+                  onClick={() => signOut()}
+                >
+                  <LogOut className="mr-2 h-4 w-4" />
+                  <span>Sign out</span>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          ) : (
+            <Button asChild variant="default" size="sm" className="bg-primary hover:bg-primary/90 text-white">
+              <Link to="/login">Login</Link>
+            </Button>
+          )}
 
           <Button
             variant="ghost"

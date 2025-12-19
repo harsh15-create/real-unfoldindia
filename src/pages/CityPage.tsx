@@ -9,6 +9,7 @@ import { CarouselSection } from "@/components/CarouselSection";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState, useEffect } from "react";
 import { ValidImage } from "@/components/ui/valid-image";
+import { useExploration } from "@/context/ExplorationContext";
 
 interface CityData {
     name: string;
@@ -41,6 +42,7 @@ interface CityData {
 
 const CityPage = () => {
     const { cityId } = useParams<{ cityId: string }>();
+    const { trackEvent } = useExploration();
     const [city, setCity] = useState<CityData | null>(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
@@ -62,6 +64,13 @@ const CityPage = () => {
                 }
                 const data = await response.json();
                 setCity(data);
+
+                // Track view event
+                if (cityId) {
+                    setTimeout(() => {
+                        trackEvent('city', cityId, 'view');
+                    }, 5000);
+                }
             } catch (err) {
                 setError("Failed to load city data. Please try again later.");
                 console.error(err);
@@ -71,7 +80,7 @@ const CityPage = () => {
         };
 
         fetchCityData();
-    }, [cityId]);
+    }, [cityId, trackEvent]);
 
     if (loading) {
         return (

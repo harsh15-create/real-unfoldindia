@@ -20,7 +20,7 @@ import EntryGuide from "./pages/EntryGuide";
 import SafetyGuide from "./pages/SafetyGuide";
 import AboutPage from "./pages/AboutPage";
 import IndianCulture from "./pages/IndianCulture";
-import Settings from "./pages/Settings";
+
 import SpiritualJourneys from "./pages/SpiritualJourneys";
 import SpiritualCity from "./pages/SpiritualCity";
 import WildlifeSafaris from "./pages/WildlifeSafaris";
@@ -45,6 +45,13 @@ import RegionDetail from "./pages/regions/RegionDetail";
 
 import { useLocation } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
+import { AuthProvider } from "./auth/AuthContext";
+import { ExplorationProvider } from "./context/ExplorationContext";
+import { ProtectedRoute } from "./components/ProtectedRoute";
+import Login from "./pages/Login";
+import Profile from "./pages/Profile";
+import CompleteProfile from "./pages/CompleteProfile";
+import ResetPassword from "./pages/ResetPassword";
 
 const queryClient = new QueryClient();
 
@@ -62,55 +69,84 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <ScrollToTop />
-        <Layout>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/explore" element={<Explore />} />
-            <Route path="/map" element={<MapPage />} />
-            <Route path="/route" element={<RoutePlanner />} />
-            <Route path="/trip" element={<TripDashboard />} />
-            <Route path="/chat" element={<ChatbotPage />} />
-            <Route path="/guide" element={<Guide />} />
-            <Route path="/guide/city/:cityId" element={<CityPage />} />
-            <Route path="/guide/entry/:sectionId" element={<EntryGuide />} />
-            <Route path="/guide/safety/:sectionId" element={<SafetyGuide />} />
-            <Route path="/spiritual-journeys" element={<SpiritualJourneys />} />
-            <Route path="/spiritual-journeys/:slug" element={<SpiritualCity />} />
-            <Route path="/wildlife-safaris" element={<WildlifeSafaris />} />
-            <Route path="/wildlife-safaris/:slug" element={<WildlifePark />} />
-            <Route path="/himalayan-treks" element={<HimalayanTreks />} />
-            <Route path="/himalayan-treks/:slug" element={<TrekDetail />} />
-            <Route path="/experiences/royal-luxury" element={<RoyalLuxury />} />
-            <Route path="/experiences/royal-luxury/:cityId" element={<RoyalCity />} />
-            <Route path="/experiences/royal-luxury/:cityId/:propertySlug" element={<RoyalProperty />} />
-            <Route path="/experiences/adventures" element={<AdventuresPage />} />
-            <Route path="/experiences/adventures/:slug" element={<AdventureDetail />} />
-            <Route path="/culture/festivals" element={<FestivalsPage />} />
-            <Route path="/culture/festivals/:slug" element={<FestivalDetail />} />
-            <Route path="/culture/dance-forms" element={<DanceFormsPage />} />
-            <Route path="/culture/dance-forms/:slug" element={<DanceFormDetail />} />
-            <Route path="/culture/art-and-craft" element={<ArtAndCraftPage />} />
-            <Route path="/culture/art-and-craft/:slug" element={<ArtAndCraftDetail />} />
-            <Route path="/culture/cuisine" element={<CuisinePage />} />
-            <Route path="/culture/cuisine/:slug" element={<CuisineDetail />} />
+    <AuthProvider>
+      <ExplorationProvider>
+        <TooltipProvider>
+          <Toaster />
+          <Sonner />
+          <BrowserRouter>
+            <ScrollToTop />
+            <Layout>
+              <Header />
+              <Routes>
+                <Route path="/" element={<Index />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/reset-password" element={<ResetPassword />} />
+                <Route path="/complete-profile" element={
+                  <ProtectedRoute>
+                    <CompleteProfile />
+                  </ProtectedRoute>
+                } />
+                <Route path="/profile" element={
+                  <ProtectedRoute>
+                    <Profile />
+                  </ProtectedRoute>
+                } />
 
-            {/* Regions */}
-            <Route path="/regions/:slug" element={<RegionDetail />} />
+                {/* Protected Routes */}
+                <Route path="/explore" element={<ProtectedRoute><Explore /></ProtectedRoute>} />
+                <Route path="/map" element={<ProtectedRoute><MapPage /></ProtectedRoute>} />
+                <Route path="/route" element={<ProtectedRoute><RoutePlanner /></ProtectedRoute>} />
+                <Route path="/trip" element={<ProtectedRoute><TripDashboard /></ProtectedRoute>} />
+                <Route path="/chat" element={<ProtectedRoute><ChatbotPage /></ProtectedRoute>} />
 
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/indian-culture" element={<IndianCulture />} />
-            <Route path="/settings" element={<Settings />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Layout>
-      </BrowserRouter>
-    </TooltipProvider>
+                {/* Guide Routes */}
+                <Route path="/guide" element={<ProtectedRoute><Guide /></ProtectedRoute>} />
+                <Route path="/guide/city/:cityId" element={<ProtectedRoute><CityPage /></ProtectedRoute>} />
+                <Route path="/guide/entry/:sectionId" element={<ProtectedRoute><EntryGuide /></ProtectedRoute>} />
+                <Route path="/guide/safety/:sectionId" element={<ProtectedRoute><SafetyGuide /></ProtectedRoute>} />
+
+                {/* Spiritual Journeys */}
+                <Route path="/spiritual-journeys" element={<ProtectedRoute><SpiritualJourneys /></ProtectedRoute>} />
+                <Route path="/spiritual-journeys/:slug" element={<ProtectedRoute><SpiritualCity /></ProtectedRoute>} />
+
+                {/* Wildlife */}
+                <Route path="/wildlife-safaris" element={<ProtectedRoute><WildlifeSafaris /></ProtectedRoute>} />
+                <Route path="/wildlife-safaris/:slug" element={<ProtectedRoute><WildlifePark /></ProtectedRoute>} />
+
+                {/* Treks */}
+                <Route path="/himalayan-treks" element={<ProtectedRoute><HimalayanTreks /></ProtectedRoute>} />
+                <Route path="/himalayan-treks/:slug" element={<ProtectedRoute><TrekDetail /></ProtectedRoute>} />
+
+                {/* Experiences */}
+                <Route path="/experiences/royal-luxury" element={<ProtectedRoute><RoyalLuxury /></ProtectedRoute>} />
+                <Route path="/experiences/royal-luxury/:cityId" element={<ProtectedRoute><RoyalCity /></ProtectedRoute>} />
+                <Route path="/experiences/royal-luxury/:cityId/:propertySlug" element={<ProtectedRoute><RoyalProperty /></ProtectedRoute>} />
+                <Route path="/experiences/adventures" element={<ProtectedRoute><AdventuresPage /></ProtectedRoute>} />
+                <Route path="/experiences/adventures/:slug" element={<ProtectedRoute><AdventureDetail /></ProtectedRoute>} />
+
+                {/* Culture */}
+                <Route path="/culture/festivals" element={<ProtectedRoute><FestivalsPage /></ProtectedRoute>} />
+                <Route path="/culture/festivals/:slug" element={<ProtectedRoute><FestivalDetail /></ProtectedRoute>} />
+                <Route path="/culture/dance-forms" element={<ProtectedRoute><DanceFormsPage /></ProtectedRoute>} />
+                <Route path="/culture/dance-forms/:slug" element={<ProtectedRoute><DanceFormDetail /></ProtectedRoute>} />
+                <Route path="/culture/art-and-craft" element={<ProtectedRoute><ArtAndCraftPage /></ProtectedRoute>} />
+                <Route path="/culture/art-and-craft/:slug" element={<ProtectedRoute><ArtAndCraftDetail /></ProtectedRoute>} />
+                <Route path="/culture/cuisine" element={<ProtectedRoute><CuisinePage /></ProtectedRoute>} />
+                <Route path="/culture/cuisine/:slug" element={<ProtectedRoute><CuisineDetail /></ProtectedRoute>} />
+
+                {/* Regions */}
+                <Route path="/regions/:slug" element={<ProtectedRoute><RegionDetail /></ProtectedRoute>} />
+
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/indian-culture" element={<IndianCulture />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </Layout>
+          </BrowserRouter>
+        </TooltipProvider>
+      </ExplorationProvider>
+    </AuthProvider>
   </QueryClientProvider>
 );
 
