@@ -18,8 +18,9 @@ export const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
         return <Navigate to="/login" state={{ from: location }} replace />;
     }
 
-    // If user is logged in but profile is incomplete (e.g. missing required fields)
-    // And we are NOT already on the complete-profile page
+    // Forced redirection to complete profile is removed based on user request.
+    // Users can complete their profile at their own pace via the Profile page.
+    /*
     if (
         user &&
         (!profile || !profile.full_name || !profile.country) &&
@@ -27,6 +28,7 @@ export const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
     ) {
         return <Navigate to="/complete-profile" replace />;
     }
+    */
 
     return <>{children}</>;
 };

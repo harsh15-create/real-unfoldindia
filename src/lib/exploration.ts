@@ -45,6 +45,8 @@ export const trackExplorationEvent = async (
     }
 };
 
+import { CITY_REGION_MAP, REGION_TOTALS, TOTAL_APP_CITIES } from './regionMapping';
+
 export const getExplorationProgress = async (userId: string) => {
     try {
         const { data: events, error } = await supabase
@@ -58,6 +60,14 @@ export const getExplorationProgress = async (userId: string) => {
         const cityScores: Record<string, number> = {};
         const exploredCities: Set<string> = new Set();
 
+        // Region stats
+        const regionCounts: Record<string, number> = {
+            'North India': 0,
+            'South India': 0,
+            'East India': 0,
+            'West India': 0
+        };
+
         events?.forEach(event => {
             if (event.entity_type === 'city') {
                 const currentScore = cityScores[event.entity_id] || 0;
@@ -65,22 +75,28 @@ export const getExplorationProgress = async (userId: string) => {
                 cityScores[event.entity_id] = newScore;
 
                 if (newScore >= EXPLORED_THRESHOLD) {
-                    exploredCities.add(event.entity_id);
+                    if (!exploredCities.has(event.entity_id)) {
+                        exploredCities.add(event.entity_id);
+
+                        // Update region count
+                        const region = CITY_REGION_MAP[event.entity_id];
+                        if (region && regionCounts[region] !== undefined) {
+                            regionCounts[region]++;
+                        }
+                    }
                 }
             }
         });
 
-        // Calculate stats
-        // Note: Total cities count should ideally come from a database or config
-        // For now, we'll assume a fixed number or just return the count
         const totalCitiesExplored = exploredCities.size;
 
-        // We can map cities to regions here if we have that data available
-        // For now returning raw counts
         return {
             totalCitiesExplored,
             exploredCityIds: Array.from(exploredCities),
-            rawScores: cityScores
+            rawScores: cityScores,
+            regionProgress: regionCounts,
+            totalAppCities: TOTAL_APP_CITIES,
+            regionTotals: REGION_TOTALS
         };
 
     } catch (error) {

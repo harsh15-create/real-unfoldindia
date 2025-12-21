@@ -55,7 +55,7 @@ export default function CompleteProfile() {
 
             await refreshProfile();
             toast.success('Profile updated successfully!');
-            navigate('/profile');
+            navigate('/');
         } catch (error: any) {
             toast.error(error.message);
         } finally {

@@ -8,6 +8,9 @@ interface ExplorationContextType {
         totalCitiesExplored: number;
         exploredCityIds: string[];
         rawScores: Record<string, number>;
+        regionProgress: Record<string, number>;
+        totalAppCities: number;
+        regionTotals: Record<string, number>;
     } | null;
     badges: string[];
     loading: boolean;

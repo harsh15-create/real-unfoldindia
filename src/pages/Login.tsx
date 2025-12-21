@@ -12,7 +12,7 @@ import { toast } from 'sonner';
 export default function Login() {
     const navigate = useNavigate();
     const location = useLocation();
-    const from = location.state?.from?.pathname || '/profile';
+    const from = location.state?.from?.pathname || '/';
 
     const [loading, setLoading] = useState(false);
     const [email, setEmail] = useState('');
@@ -30,6 +30,9 @@ export default function Login() {
                 const { error } = await supabase.auth.signUp({
                     email,
                     password,
+                    options: {
+                        emailRedirectTo: `${window.location.origin}/complete-profile`,
+                    },
                 });
                 if (error) throw error;
                 toast.success('Check your email for the confirmation link!');
