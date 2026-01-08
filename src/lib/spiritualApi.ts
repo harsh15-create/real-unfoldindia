@@ -47,21 +47,15 @@ export interface SpiritualCityDetail {
 }
 
 // Glob imports for localized data
-const masterModules = import.meta.glob('../data/*/spiritual-journeys/experience-spiritual-journeys.json');
-const cityModules = import.meta.glob('../data/*/spiritual-journeys/*.json');
+const masterModules = import.meta.glob('../data/en/spiritual-journeys/experience-spiritual-journeys.json');
+const cityModules = import.meta.glob('../data/en/spiritual-journeys/*.json');
 
-export const getSpiritualMaster = async (lang: string = 'en'): Promise<SpiritualMaster | null> => {
-    let path = `../data/${lang}/spiritual-journeys/experience-spiritual-journeys.json`;
-    let loader = masterModules[path];
-
-    if (!loader && lang !== 'en') {
-        // Fallback to English
-        path = `../data/en/spiritual-journeys/experience-spiritual-journeys.json`;
-        loader = masterModules[path];
-    }
+export const getSpiritualMaster = async (): Promise<SpiritualMaster | null> => {
+    const path = `../data/en/spiritual-journeys/experience-spiritual-journeys.json`;
+    const loader = masterModules[path];
 
     if (!loader) {
-        console.error(`Spiritual master data not found for language: ${lang} (and no English fallback)`);
+        console.error(`Spiritual master data not found`);
         return null;
     }
 
@@ -86,14 +80,9 @@ export const getSpiritualMaster = async (lang: string = 'en'): Promise<Spiritual
     }
 };
 
-export const getSpiritualDetail = async (slug: string, lang: string = 'en'): Promise<SpiritualCityDetail | null> => {
-    let path = `../data/${lang}/spiritual-journeys/${slug}.json`;
-    let loader = cityModules[path];
-
-    if (!loader && lang !== 'en') {
-        path = `../data/en/spiritual-journeys/${slug}.json`;
-        loader = cityModules[path];
-    }
+export const getSpiritualDetail = async (slug: string): Promise<SpiritualCityDetail | null> => {
+    const path = `../data/en/spiritual-journeys/${slug}.json`;
+    const loader = cityModules[path];
 
     if (!loader) return null;
 

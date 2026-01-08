@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+
 import { getMasterData, MasterData } from '@/lib/royalLuxuryApi';
 import RoyalHero from '@/components/royal-luxury/RoyalHero';
 import { motion } from 'framer-motion';
@@ -9,12 +9,11 @@ import { Crown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const RoyalLuxury = () => {
-    const { i18n } = useTranslation();
     const [data, setData] = useState<MasterData | null>(null);
 
     useEffect(() => {
-        getMasterData(i18n.language).then(setData);
-    }, [i18n.language]);
+        getMasterData().then(setData);
+    }, []);
 
     if (!data) return <div className="h-screen flex items-center justify-center bg-background text-primary">Loading Royal Experience...</div>;
 

@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+
 import { useParams, Link } from 'react-router-dom';
 import { getPropertyData, PropertyData } from '@/lib/royalLuxuryApi';
 import RoyalHero from '@/components/royal-luxury/RoyalHero';
@@ -9,19 +9,18 @@ import { ArrowLeft, Check, Star, Users, Utensils, Calendar, MapPin, ExternalLink
 import { motion } from 'framer-motion';
 
 const RoyalProperty = () => {
-    const { i18n } = useTranslation();
     const { propertySlug, cityId } = useParams<{ propertySlug: string, cityId: string }>();
     const [property, setProperty] = useState<PropertyData | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         if (propertySlug) {
-            getPropertyData(propertySlug, i18n.language).then(data => {
+            getPropertyData(propertySlug).then(data => {
                 setProperty(data);
                 setLoading(false);
             });
         }
-    }, [propertySlug, i18n.language]);
+    }, [propertySlug]);
 
     if (loading) return <div className="h-screen flex items-center justify-center bg-background text-primary">Loading Residence...</div>;
     if (!property) return <div className="h-screen flex items-center justify-center bg-background text-foreground">Property Not Found for {propertySlug}</div>;

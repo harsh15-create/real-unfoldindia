@@ -71,21 +71,16 @@ export interface PropertyData {
     source_reference: any[];
 }
 
-const masterDataModules = import.meta.glob('../data/*/royal-luxury/experience-royal-luxury.json');
-const cityModules = import.meta.glob('../data/*/royal-luxury/cities/*.json');
-const propertyModules = import.meta.glob('../data/*/royal-luxury/properties/*.json');
+const masterDataModules = import.meta.glob('../data/en/royal-luxury/experience-royal-luxury.json');
+const cityModules = import.meta.glob('../data/en/royal-luxury/cities/*.json');
+const propertyModules = import.meta.glob('../data/en/royal-luxury/properties/*.json');
 
-export const getMasterData = async (lang: string = 'en'): Promise<MasterData | null> => {
-    let path = `../data/${lang}/royal-luxury/experience-royal-luxury.json`;
-    let loader = masterDataModules[path];
-
-    if (!loader && lang !== 'en') {
-        path = `../data/en/royal-luxury/experience-royal-luxury.json`;
-        loader = masterDataModules[path];
-    }
+export const getMasterData = async (): Promise<MasterData | null> => {
+    const path = `../data/en/royal-luxury/experience-royal-luxury.json`;
+    const loader = masterDataModules[path];
 
     if (!loader) {
-        console.error(`Royal Luxury Master Data not found for lang: ${lang}`);
+        console.error(`Royal Luxury Master Data not found`);
         return null;
     }
 
@@ -98,17 +93,12 @@ export const getMasterData = async (lang: string = 'en'): Promise<MasterData | n
     }
 };
 
-export const getCityData = async (slug: string, lang: string = 'en'): Promise<CityData | null> => {
-    let path = `../data/${lang}/royal-luxury/cities/royal-city-${slug}.json`;
-    let loader = cityModules[path];
-
-    if (!loader && lang !== 'en') {
-        path = `../data/en/royal-luxury/cities/royal-city-${slug}.json`;
-        loader = cityModules[path];
-    }
+export const getCityData = async (slug: string): Promise<CityData | null> => {
+    const path = `../data/en/royal-luxury/cities/royal-city-${slug}.json`;
+    const loader = cityModules[path];
 
     if (!loader) {
-        console.error(`City data not found: ${slug} (${lang})`);
+        console.error(`City data not found: ${slug}`);
         return null;
     }
 
@@ -121,17 +111,12 @@ export const getCityData = async (slug: string, lang: string = 'en'): Promise<Ci
     }
 };
 
-export const getPropertyData = async (slug: string, lang: string = 'en'): Promise<PropertyData | null> => {
-    let path = `../data/${lang}/royal-luxury/properties/royal-property-${slug}.json`;
-    let loader = propertyModules[path];
-
-    if (!loader && lang !== 'en') {
-        path = `../data/en/royal-luxury/properties/royal-property-${slug}.json`;
-        loader = propertyModules[path];
-    }
+export const getPropertyData = async (slug: string): Promise<PropertyData | null> => {
+    const path = `../data/en/royal-luxury/properties/royal-property-${slug}.json`;
+    const loader = propertyModules[path];
 
     if (!loader) {
-        console.error(`Property data not found: ${slug} (${lang})`);
+        console.error(`Property data not found: ${slug}`);
         return null;
     }
 

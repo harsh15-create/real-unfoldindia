@@ -6,12 +6,10 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "sonner";
 import { getTrekDetail, TrekDetail as TrekDetailType } from "@/lib/treksApi"; // Typo fix: removed 'as' alias for now, or use it
-import { useTranslation } from "react-i18next";
 
 const TrekDetail = () => {
     const { slug } = useParams();
     const navigate = useNavigate();
-    const { i18n } = useTranslation();
     const [data, setData] = useState<TrekDetailType | null>(null);
     const [loading, setLoading] = useState(true);
 
@@ -20,7 +18,7 @@ const TrekDetail = () => {
             if (!slug) return;
             try {
                 setLoading(true);
-                const trekData = await getTrekDetail(slug, i18n.language);
+                const trekData = await getTrekDetail(slug);
                 if (trekData) {
                     setData(trekData);
                 } else {
@@ -36,7 +34,7 @@ const TrekDetail = () => {
         };
 
         fetchData();
-    }, [slug, navigate, i18n.language]);
+    }, [slug, navigate]);
 
     if (loading) {
         return (

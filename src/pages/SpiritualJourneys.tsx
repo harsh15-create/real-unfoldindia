@@ -5,22 +5,20 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import RoyalHero from "@/components/royal-luxury/RoyalHero";
 import { getSpiritualMaster, SpiritualMaster } from "@/lib/spiritualApi";
-import { useTranslation } from "react-i18next";
 
 const SpiritualJourneys = () => {
     const navigate = useNavigate();
-    const { i18n } = useTranslation();
     const [searchQuery, setSearchQuery] = useState("");
     const [spiritualData, setSpiritualData] = useState<SpiritualMaster | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         setLoading(true);
-        getSpiritualMaster(i18n.language).then((data) => {
+        getSpiritualMaster().then((data) => {
             setSpiritualData(data);
             setLoading(false);
         }).catch(() => setLoading(false));
-    }, [i18n.language]);
+    }, []);
 
     const filteredCities = spiritualData?.cities.filter((city) =>
         city.title.toLowerCase().includes(searchQuery.toLowerCase()) ||

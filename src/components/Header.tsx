@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, User, Settings as SettingsIcon, LogOut, Bot, ChevronDown } from "lucide-react";
+import { Menu, User, Settings, LogOut, Bot, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { useAuth } from "@/auth/AuthContext";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -129,9 +129,15 @@ export const Header = () => {
                 </div>
                 <DropdownMenuSeparator className="bg-white/10" />
                 <DropdownMenuItem asChild className="focus:bg-white/10 focus:text-white cursor-pointer">
-                  <Link to="/profile" className="flex items-center">
+                  <Link to="/settings?tab=profile" className="flex items-center">
                     <User className="mr-2 h-4 w-4" />
                     <span>Profile</span>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="focus:bg-white/10 focus:text-white cursor-pointer">
+                  <Link to="/settings" className="flex items-center">
+                    <Settings className="mr-2 h-4 w-4" />
+                    <span>Settings</span>
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem

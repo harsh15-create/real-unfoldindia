@@ -5,21 +5,19 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import RoyalHero from "@/components/royal-luxury/RoyalHero";
 import { getWildlifeMaster, WildlifeMaster } from "@/lib/wildlifeApi";
-import { useTranslation } from "react-i18next";
 
 const WildlifeSafaris = () => {
-    const { i18n } = useTranslation();
     const [searchQuery, setSearchQuery] = useState("");
     const [experienceData, setExperienceData] = useState<WildlifeMaster | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         setLoading(true);
-        getWildlifeMaster(i18n.language).then((data) => {
+        getWildlifeMaster().then((data) => {
             setExperienceData(data);
             setLoading(false);
         }).catch(() => setLoading(false));
-    }, [i18n.language]);
+    }, []);
 
     const filteredDestinations = experienceData?.parks.filter((dest) =>
         dest.title.toLowerCase().includes(searchQuery.toLowerCase()) ||

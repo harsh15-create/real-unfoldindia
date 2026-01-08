@@ -19,7 +19,7 @@ export default function CompleteProfile() {
     const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
 
-    const [fullName, setFullName] = useState('');
+    const [fullName, setFullName] = useState(user?.user_metadata?.full_name || '');
     const [country, setCountry] = useState('');
     const [travelStyles, setTravelStyles] = useState<string[]>([]);
     const [regions, setRegions] = useState<string[]>([]);

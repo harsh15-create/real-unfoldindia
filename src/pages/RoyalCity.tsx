@@ -1,6 +1,5 @@
 
 import React, { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { useParams, Link } from 'react-router-dom';
 import { getCityData, CityData } from '@/lib/royalLuxuryApi';
 import RoyalHero from '@/components/royal-luxury/RoyalHero';
@@ -9,19 +8,18 @@ import { ArrowLeft, Star, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const RoyalCity = () => {
-    const { i18n } = useTranslation();
     const { cityId } = useParams<{ cityId: string }>();
     const [city, setCity] = useState<CityData | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         if (cityId) {
-            getCityData(cityId, i18n.language).then(data => {
+            getCityData(cityId).then(data => {
                 setCity(data);
                 setLoading(false);
             });
         }
-    }, [cityId, i18n.language]);
+    }, [cityId]);
 
     if (loading) return <div className="h-screen flex items-center justify-center bg-background text-primary">Loading City...</div>;
     if (!city) return <div className="h-screen flex items-center justify-center bg-background text-foreground">City Not Found</div>;

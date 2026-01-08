@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from 'react';
+import { createContext, useContext, useEffect, useState, useCallback } from 'react';
 import { useAuth } from '@/auth/AuthContext';
 import { getExplorationProgress, checkAndUnlockBadges, trackExplorationEvent } from '@/lib/exploration';
 import { supabase } from '@/lib/supabaseClient';
@@ -26,7 +26,19 @@ export function ExplorationProvider({ children }: { children: React.ReactNode })
     const [badges, setBadges] = useState<string[]>([]);
     const [loading, setLoading] = useState(true);
 
-    const fetchProgress = async () => {
+    const fetchBadges = useCallback(async () => {
+        if (!user) return;
+        const { data } = await supabase
+            .from('user_badges')
+            .select('badge_id')
+            .eq('user_id', user.id);
+
+        if (data) {
+            setBadges(data.map(b => b.badge_id));
+        }
+    }, [user]);
+
+    const fetchProgress = useCallback(async () => {
         if (!user) return;
 
         const stats = await getExplorationProgress(user.id);
@@ -37,19 +49,7 @@ export function ExplorationProvider({ children }: { children: React.ReactNode })
             fetchBadges();
         }
         setLoading(false);
-    };
-
-    const fetchBadges = async () => {
-        if (!user) return;
-        const { data } = await supabase
-            .from('user_badges')
-            .select('badge_id')
-            .eq('user_id', user.id);
-
-        if (data) {
-            setBadges(data.map(b => b.badge_id));
-        }
-    };
+    }, [user, fetchBadges]);
 
     useEffect(() => {
         if (user) {
@@ -59,9 +59,9 @@ export function ExplorationProvider({ children }: { children: React.ReactNode })
             setBadges([]);
             setLoading(false);
         }
-    }, [user]);
+    }, [user, fetchProgress]);
 
-    const trackEvent = async (
+    const trackEvent = useCallback(async (
         entityType: 'city' | 'state' | 'region',
         entityId: string,
         signalType: 'view' | 'save' | 'trip' | 'route' | 'ai'
@@ -72,7 +72,7 @@ export function ExplorationProvider({ children }: { children: React.ReactNode })
         // Optimistically update or just refresh
         // For now, let's refresh to be accurate
         await fetchProgress();
-    };
+    }, [user, fetchProgress]);
 
     return (
         <ExplorationContext.Provider value={{ progress, badges, loading, refreshProgress: fetchProgress, trackEvent }}>

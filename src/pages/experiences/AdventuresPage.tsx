@@ -1,6 +1,5 @@
 
 import React, { useEffect, useState, useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 import { getAdventuresMaster, getAdventureActivity, AdventureMaster, AdventureActivity } from '@/lib/adventures-api';
 import RoyalHero from "@/components/royal-luxury/RoyalHero";
 import { ActivityCard } from '@/components/adventures/ActivityCard';
@@ -12,7 +11,6 @@ import { Link } from 'react-router-dom';
 import { AdventureEvents } from '@/analytics/events';
 
 export default function AdventuresPage() {
-    const { i18n } = useTranslation();
     const [masterData, setMasterData] = useState<AdventureMaster | null>(null);
     const [loading, setLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
@@ -24,7 +22,7 @@ export default function AdventuresPage() {
     useEffect(() => {
         async function init() {
             try {
-                const data = await getAdventuresMaster(i18n.language);
+                const data = await getAdventuresMaster();
                 setMasterData(data);
                 AdventureEvents.EXPERIENCE_OPEN('adventures');
             } catch (e) {
@@ -34,13 +32,13 @@ export default function AdventuresPage() {
             }
         }
         init();
-    }, [i18n.language]);
+    }, []);
 
     // Fetch modal data when slug changes
     useEffect(() => {
         if (modalSlug) {
             setLoadingModal(true);
-            getAdventureActivity(modalSlug, i18n.language).then(data => {
+            getAdventureActivity(modalSlug).then(data => {
                 setModalActivity(data);
                 setLoadingModal(false);
                 if (data) AdventureEvents.ACTIVITY_QUICK_VIEW('adventures', modalSlug);
@@ -48,7 +46,7 @@ export default function AdventuresPage() {
         } else {
             setModalActivity(null);
         }
-    }, [modalSlug, i18n.language]);
+    }, [modalSlug]);
 
     const filteredActivities = useMemo(() => {
         if (!masterData) return [];

@@ -7,10 +7,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "sonner";
 import { getSpiritualDetail, SpiritualCityDetail } from "@/lib/spiritualApi";
-import { useTranslation } from "react-i18next";
 
 const SpiritualCity = () => {
-    const { i18n } = useTranslation();
     const { slug } = useParams();
     const navigate = useNavigate();
     const [data, setData] = useState<SpiritualCityDetail | null>(null);
@@ -21,7 +19,7 @@ const SpiritualCity = () => {
             if (!slug) return;
             try {
                 setLoading(true);
-                const cityData = await getSpiritualDetail(slug, i18n.language);
+                const cityData = await getSpiritualDetail(slug);
                 if (cityData) {
                     setData(cityData);
                 } else {
@@ -37,7 +35,7 @@ const SpiritualCity = () => {
         };
 
         fetchData();
-    }, [slug, navigate, i18n.language]);
+    }, [slug, navigate]);
 
     if (loading) {
         return (

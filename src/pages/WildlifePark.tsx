@@ -6,10 +6,8 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "sonner";
 import { getWildlifeDetail, WildlifeParkDetail } from "@/lib/wildlifeApi";
-import { useTranslation } from "react-i18next";
 
 const WildlifePark = () => {
-    const { i18n } = useTranslation();
     const { slug } = useParams();
     const navigate = useNavigate();
     const [data, setData] = useState<WildlifeParkDetail | null>(null);
@@ -20,7 +18,7 @@ const WildlifePark = () => {
             if (!slug) return;
             try {
                 setLoading(true);
-                const parkData = await getWildlifeDetail(slug, i18n.language);
+                const parkData = await getWildlifeDetail(slug);
                 if (parkData) {
                     setData(parkData);
                 } else {
@@ -36,7 +34,7 @@ const WildlifePark = () => {
         };
 
         fetchData();
-    }, [slug, navigate, i18n.language]);
+    }, [slug, navigate]);
 
     if (loading) {
         return (

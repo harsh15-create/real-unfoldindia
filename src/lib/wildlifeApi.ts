@@ -81,21 +81,15 @@ export interface WildlifeParkDetail {
 }
 
 // Glob imports for localized data
-const masterModules = import.meta.glob('../data/*/wildlife-safaris/experience-wildlife-safaris.json');
-const parkModules = import.meta.glob('../data/*/wildlife-safaris/*.json');
+const masterModules = import.meta.glob('../data/en/wildlife-safaris/experience-wildlife-safaris.json');
+const parkModules = import.meta.glob('../data/en/wildlife-safaris/*.json');
 
-export const getWildlifeMaster = async (lang: string = 'en'): Promise<WildlifeMaster | null> => {
-    let path = `../data/${lang}/wildlife-safaris/experience-wildlife-safaris.json`;
-    let loader = masterModules[path];
-
-    if (!loader && lang !== 'en') {
-        // Fallback to English
-        path = `../data/en/wildlife-safaris/experience-wildlife-safaris.json`;
-        loader = masterModules[path];
-    }
+export const getWildlifeMaster = async (): Promise<WildlifeMaster | null> => {
+    const path = `../data/en/wildlife-safaris/experience-wildlife-safaris.json`;
+    const loader = masterModules[path];
 
     if (!loader) {
-        console.error(`Wildlife master data not found for language: ${lang} (and no English fallback)`);
+        console.error(`Wildlife master data not found`);
         return null;
     }
 
@@ -122,14 +116,9 @@ export const getWildlifeMaster = async (lang: string = 'en'): Promise<WildlifeMa
     }
 };
 
-export const getWildlifeDetail = async (slug: string, lang: string = 'en'): Promise<WildlifeParkDetail | null> => {
-    let path = `../data/${lang}/wildlife-safaris/${slug}.json`;
-    let loader = parkModules[path];
-
-    if (!loader && lang !== 'en') {
-        path = `../data/en/wildlife-safaris/${slug}.json`;
-        loader = parkModules[path];
-    }
+export const getWildlifeDetail = async (slug: string): Promise<WildlifeParkDetail | null> => {
+    const path = `../data/en/wildlife-safaris/${slug}.json`;
+    const loader = parkModules[path];
 
     if (!loader) return null;
 

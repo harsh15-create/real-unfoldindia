@@ -103,23 +103,18 @@ export interface AdventureMaster {
 }
 
 // Map of all activity JSONs using Vite's glob import
-const activityModules = import.meta.glob('../data/*/adventures/*.json');
-const masterModules = import.meta.glob('../data/*/adventures/experience-adventures.json');
+const activityModules = import.meta.glob('../data/en/adventures/*.json');
+const masterModules = import.meta.glob('../data/en/adventures/experience-adventures.json');
 
 /**
  * Fetches the master adventures experience data.
  */
-export async function getAdventuresMaster(lang: string = 'en'): Promise<AdventureMaster> {
-    let path = `../data/${lang}/adventures/experience-adventures.json`;
-    let loader = masterModules[path];
-
-    if (!loader && lang !== 'en') {
-        path = `../data/en/adventures/experience-adventures.json`;
-        loader = masterModules[path];
-    }
+export async function getAdventuresMaster(): Promise<AdventureMaster> {
+    const path = `../data/en/adventures/experience-adventures.json`;
+    const loader = masterModules[path];
 
     if (!loader) {
-        throw new Error(`Master adventure data not found for lang: ${lang}`);
+        throw new Error(`Master adventure data not found`);
     }
 
     const mod: any = await loader();
@@ -130,17 +125,12 @@ export async function getAdventuresMaster(lang: string = 'en'): Promise<Adventur
  * Fetches a specific adventure activity by slug.
  * Uses lazy loading via Vite's dynamic import.
  */
-export async function getAdventureActivity(slug: string, lang: string = 'en'): Promise<AdventureActivity | null> {
-    let path = `../data/${lang}/adventures/${slug}.json`;
-    let loader = activityModules[path];
-
-    if (!loader && lang !== 'en') {
-        path = `../data/en/adventures/${slug}.json`;
-        loader = activityModules[path];
-    }
+export async function getAdventureActivity(slug: string): Promise<AdventureActivity | null> {
+    const path = `../data/en/adventures/${slug}.json`;
+    const loader = activityModules[path];
 
     if (!loader) {
-        console.error(`Activity not found: ${slug} (${lang})`);
+        console.error(`Activity not found: ${slug}`);
         return null;
     }
 
@@ -156,12 +146,11 @@ export async function getAdventureActivity(slug: string, lang: string = 'en'): P
 /**
  * Helper to get all activities with full details (use sparingly!)
  */
-export async function getAllActivities(lang: string = 'en'): Promise<AdventureActivity[]> {
+export async function getAllActivities(): Promise<AdventureActivity[]> {
     const activities: AdventureActivity[] = [];
     // This is inefficient with the new structure, usually better to iterate known slugs.
     // However, if we must:
     for (const path in activityModules) {
-        if (!path.includes(`/${lang}/`)) continue;
         if (path.includes('experience-adventures.json')) continue;
 
         try {

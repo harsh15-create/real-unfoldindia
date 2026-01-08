@@ -5,21 +5,19 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import RoyalHero from "@/components/royal-luxury/RoyalHero";
 import { getTreksMaster, TrekMaster } from "@/lib/treksApi";
-import { useTranslation } from "react-i18next";
 
 const HimalayanTreks = () => {
-    const { i18n } = useTranslation();
     const [searchQuery, setSearchQuery] = useState("");
     const [treksData, setTreksData] = useState<TrekMaster | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         setLoading(true);
-        getTreksMaster(i18n.language).then((data: TrekMaster) => {
+        getTreksMaster().then((data: TrekMaster) => {
             setTreksData(data);
             setLoading(false);
         }).catch(() => setLoading(false));
-    }, [i18n.language]);
+    }, []);
 
     const filteredTreks = treksData?.treks.filter((trek) =>
         trek.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
