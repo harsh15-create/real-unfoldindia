@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { useExploration } from "@/context/ExplorationContext";
+// import { useExploration } from "@/context/ExplorationContext";
 import { BadgeGrid } from "./BadgeGrid";
 import { Loader2, Sparkles, RefreshCw, Compass, Trophy } from "lucide-react";
 import { useState, useEffect } from "react";
@@ -10,7 +10,12 @@ import { useAuth } from "@/auth/AuthContext";
 import { useNavigate } from "react-router-dom";
 
 export function ProgressTab() {
-    const { progress, badges, loading } = useExploration();
+    // const { progress, badges, loading } = useExploration();
+    // Stubbed data since ExplorationContext is deprecated
+    const progress = { totalAppCities: 22, totalCitiesExplored: 0, regionProgress: {} as any, regionTotals: {} as any };
+    const badges: string[] = [];
+    const loading = false;
+
     const { profile } = useAuth();
     const navigate = useNavigate();
     const [insightData, setInsightData] = useState<{
