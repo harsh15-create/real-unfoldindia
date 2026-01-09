@@ -135,10 +135,8 @@ const FILTER_OPTIONS = {
 };
 
 
-import { useExploration } from "@/context/ExplorationContext";
-
 const RoutePlanner = () => {
-    const { trackEvent } = useExploration();
+    // const { trackEvent } = useExploration(); // Removed deprecated hook
     const [showRoutes, setShowRoutes] = useState(false);
     const [loading, setLoading] = useState(false);
     const [origin, setOrigin] = useState("");
@@ -247,7 +245,7 @@ const RoutePlanner = () => {
         setTimeout(() => {
             setLoading(false);
             setShowRoutes(true);
-            trackEvent('city', destination, 'route');
+            // trackEvent('city', destination, 'route'); // Removed deprecated call
         }, 2000);
     };
 

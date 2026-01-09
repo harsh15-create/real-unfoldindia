@@ -24,23 +24,22 @@ import {
     AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import {
-    MessageSquare,
-    Smartphone,
     Brain,
     Download,
     Trash2,
     Clock,
     History,
-    RefreshCcw,
     ShieldAlert,
     ChevronRight,
-    Laptop,
     FileText
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { toast } from 'sonner';
+import { useAuth } from "@/auth/AuthContext";
+import { deleteAllUserChats } from "@/lib/chatApi";
 
 export function ChatHistorySection() {
+    const { user } = useAuth();
     // --- State Management ---
     const [historyEnabled, setHistoryEnabled] = useState(() => {
         const saved = localStorage.getItem('chat_history_enabled');
@@ -51,31 +50,32 @@ export function ChatHistorySection() {
         localStorage.setItem('chat_history_enabled', JSON.stringify(historyEnabled));
     }, [historyEnabled]);
 
-    const [syncEnabled, setSyncEnabled] = useState(true);
+
     const [personalizationEnabled, setPersonalizationEnabled] = useState(true);
     const [retentionPeriod, setRetentionPeriod] = useState("forever");
     const [isDeleting, setIsDeleting] = useState(false);
 
     // Mock Data for Devices
-    const [devices, setDevices] = useState([
-        { id: 1, name: "MacBook Pro", type: "Laptop", lastActive: "Active now", current: true },
-        { id: 2, name: "iPhone 15 Pro", type: "Mobile", lastActive: "2 hours ago", current: false },
-    ]);
+
 
     // --- Actions ---
-    const handleClearHistory = () => {
+    // --- Actions ---
+    const handleClearHistory = async () => {
+        if (!user) return;
+
         setIsDeleting(true);
-        // Simulate API call
-        setTimeout(() => {
-            setIsDeleting(false);
+        try {
+            await deleteAllUserChats(user.id);
             toast.success("Chat history cleared successfully.");
-        }, 1500);
+        } catch (error) {
+            toast.error("Failed to clear history.");
+            console.error(error);
+        } finally {
+            setIsDeleting(false);
+        }
     };
 
-    const handleRemoveDevice = (id: number) => {
-        setDevices(devices.filter(d => d.id !== id));
-        toast.success("Device removed from sync.");
-    };
+
 
     const handleExport = (format: string) => {
         toast.promise(
@@ -185,52 +185,7 @@ export function ChatHistorySection() {
                 </Card>
             </motion.div>
 
-            {/* 2. Sync & Devices */}
-            <motion.div variants={itemVariants}>
-                <Card className="glass-card border-none">
-                    <CardHeader className="pb-4">
-                        <div className="flex items-start justify-between">
-                            <div className="space-y-1">
-                                <CardTitle className="text-xl flex items-center gap-2">
-                                    <RefreshCcw className="h-5 w-5 text-primary" />
-                                    Sync & Devices
-                                </CardTitle>
-                                <CardDescription>Keep your conversations updated across all your devices.</CardDescription>
-                            </div>
-                            <Switch
-                                checked={syncEnabled}
-                                onCheckedChange={setSyncEnabled}
-                                className="data-[state=checked]:bg-primary"
-                            />
-                        </div>
-                    </CardHeader>
-                    {syncEnabled && (
-                        <CardContent className="grid gap-4">
-                            {devices.map((device) => (
-                                <div key={device.id} className="flex items-center justify-between p-3 rounded-lg bg-white/5 border border-white/10 hover:border-primary/30 transition-all">
-                                    <div className="flex items-center gap-3">
-                                        <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
-                                            {device.type === 'Laptop' ? <Laptop className="h-5 w-5 text-primary" /> : <Smartphone className="h-5 w-5 text-primary" />}
-                                        </div>
-                                        <div className="flex flex-col">
-                                            <div className="flex items-center gap-2">
-                                                <span className="font-medium">{device.name}</span>
-                                                {device.current && <Badge variant="secondary" className="px-1.5 py-0 text-[10px] bg-primary/20 text-primary border-none">This Device</Badge>}
-                                            </div>
-                                            <span className="text-xs text-muted-foreground">{device.lastActive}</span>
-                                        </div>
-                                    </div>
-                                    {!device.current && (
-                                        <Button variant="ghost" size="sm" onClick={() => handleRemoveDevice(device.id)} className="text-muted-foreground hover:text-destructive">
-                                            Remove
-                                        </Button>
-                                    )}
-                                </div>
-                            ))}
-                        </CardContent>
-                    )}
-                </Card>
-            </motion.div>
+
 
             {/* 3. Memory & Personalization */}
             <motion.div variants={itemVariants}>
