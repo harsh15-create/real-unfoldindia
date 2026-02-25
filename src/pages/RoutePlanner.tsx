@@ -1,26 +1,33 @@
-import { useState } from "react";
-import { ArrowRight, Car, Train, Bus, Plane, MapPin, Navigation, Loader2, ArrowUpDown, Clock, IndianRupee, Filter, Armchair, Calendar } from "lucide-react";
+import { useState, useRef, useEffect, useCallback, useMemo } from "react";
+import { ArrowRight, Car, MapPin, Navigation, Loader2, ArrowUpDown, ShieldCheck, ChevronDown, Check, Gauge, AlertCircle, Crosshair, X, Locate, AlertTriangle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { motion, AnimatePresence } from "framer-motion";
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Calendar as CalendarComponent } from "@/components/ui/calendar";
-import { format } from "date-fns";
 import { cn } from "@/lib/utils";
+import { fetchRoutes, type RouteInfo, type RouteResponse, type Coordinate } from "@/lib/route-api";
+import { MapContainer, TileLayer, Polyline, useMap, LayersControl, CircleMarker, Marker } from "react-leaflet";
+import L from "leaflet";
+import type { LatLngTuple, Map as LeafletMap } from "leaflet";
+import "leaflet/dist/leaflet.css";
+import { useNavigation } from "@/hooks/useNavigation";
 
+// ─── Derived UI data from API response ───
 interface RouteData {
     id: string;
     name: string;
-    tag: string;
+    badges: { emoji: string; label: string }[];
     time: string;
     distance: string;
     safety: string;
+    safetyScore: number;
     traffic: string;
+    trafficLevel: "Low" | "Moderate" | "High";
     roadQuality: string;
+    highwayLabel: string;
     tagColor: string;
+    geometry: [number, number][];  // [lat, lng][] for Leaflet
     stats: {
         safetyColor: string;
         trafficColor: string;
@@ -28,126 +35,150 @@ interface RouteData {
     };
 }
 
-interface CabOption {
-    provider: "Uber" | "Ola" | "Rapido";
-    price: string;
-    eta: string;
-    type: string;
-    icon: string;
+// ─── Helpers ───
+
+function formatDuration(minutes: number): string {
+    const h = Math.floor(minutes / 60);
+    const m = Math.round(minutes % 60);
+    if (h === 0) return `${m}m`;
+    if (m === 0) return `${h}h`;
+    return `${h}h ${m}m`;
 }
 
-interface BusService {
-    id: string;
-    operator: string;
-    type: string;
-    departure: string;
-    arrival: string;
-    duration: string;
-    price: string;
-    rating: string;
+function getStatColors(trafficLevel: string, safetyScore: number) {
+    const safetyColor = safetyScore >= 7 ? "text-emerald-400" : safetyScore >= 5 ? "text-yellow-400" : "text-red-400";
+    const trafficColor = trafficLevel === "Low" ? "text-emerald-400" : trafficLevel === "Moderate" ? "text-amber-400" : "text-red-400";
+    const roadColor = "text-blue-400";
+    return { safetyColor, trafficColor, roadColor };
 }
 
-interface TrainService {
-    id: string;
-    name: string;
-    number: string;
-    departure: string;
-    arrival: string;
-    duration: string;
-    classes: {
-        name: string;
-        price: string;
-        available: string;
-    }[];
-}
-
-interface FlightService {
-    id: string;
-    airline: string;
-    number: string;
-    departure: string;
-    arrival: string;
-    duration: string;
-    price: string;
-    stops: string;
-}
-
-const mockCabs: CabOption[] = [
-    { provider: "Uber", price: "₹450-520", eta: "4 min", type: "Uber Go", icon: "Car" },
-    { provider: "Ola", price: "₹430-500", eta: "2 min", type: "Mini", icon: "Car" },
-    { provider: "Rapido", price: "₹180-220", eta: "1 min", type: "Bike", icon: "Bike" },
-];
-
-const mockBuses: BusService[] = [
-    { id: "1", operator: "Zingbus", type: "Volvo A/C Semi Sleeper (2+2)", departure: "22:00", arrival: "06:00", duration: "8h 00m", price: "₹899", rating: "4.5" },
-    { id: "2", operator: "IntrCity SmartBus", type: "A/C Sleeper (2+1)", departure: "23:30", arrival: "07:15", duration: "7h 45m", price: "₹1,250", rating: "4.7" },
-    { id: "3", operator: "RSRTC Express", type: "Non A/C Seater", departure: "21:00", arrival: "05:30", duration: "8h 30m", price: "₹450", rating: "3.8" },
-];
-
-const mockTrains: TrainService[] = [
-    {
-        id: "1", name: "Vande Bharat Exp", number: "20977", departure: "06:00", arrival: "11:30", duration: "5h 30m",
-        classes: [
-            { name: "CC", price: "₹1,450", available: "AVL 45" },
-            { name: "EC", price: "₹2,800", available: "AVL 12" }
-        ]
-    },
-    {
-        id: "2", name: "Shatabdi Express", number: "12002", departure: "06:10", arrival: "12:15", duration: "6h 05m",
-        classes: [
-            { name: "CC", price: "₹1,200", available: "WL 10" },
-            { name: "EC", price: "₹2,300", available: "AVL 5" }
-        ]
-    },
-    {
-        id: "3", name: "Ashram Express", number: "12916", departure: "15:20", arrival: "21:00", duration: "5h 40m",
-        classes: [
-            { name: "SL", price: "₹340", available: "AVL 120" },
-            { name: "3A", price: "₹890", available: "RAC 5" },
-            { name: "2A", price: "₹1,250", available: "AVL 2" },
-            { name: "1A", price: "₹2,100", available: "WL 2" }
-        ]
+function assignBadges(routes: RouteInfo[]): Map<string, { emoji: string; label: string }[]> {
+    const badges = new Map<string, { emoji: string; label: string }[]>();
+    if (!routes.length) return badges;
+    const safest = routes.reduce((a, b) => a.safety_score >= b.safety_score ? a : b);
+    const fastest = routes.reduce((a, b) => a.duration_minutes <= b.duration_minutes ? a : b);
+    for (const r of routes) {
+        const b: { emoji: string; label: string }[] = [];
+        if (r.id === safest.id) b.push({ emoji: "🟢", label: "Safest Route" });
+        if (r.id === fastest.id) b.push({ emoji: "⚡", label: "Fastest Route" });
+        if (b.length === 0) b.push({ emoji: "🌄", label: "Most Scenic" });
+        badges.set(r.id, b);
     }
-];
+    return badges;
+}
 
-const mockFlights: FlightService[] = [
-    { id: "1", airline: "IndiGo", number: "6E-2045", departure: "08:00", arrival: "09:15", duration: "1h 15m", price: "₹3,450", stops: "Non-stop" },
-    { id: "2", airline: "Air India", number: "AI-445", departure: "10:30", arrival: "11:50", duration: "1h 20m", price: "₹4,100", stops: "Non-stop" },
-    { id: "3", airline: "Vistara", number: "UK-998", departure: "14:00", arrival: "15:15", duration: "1h 15m", price: "₹4,800", stops: "Non-stop" },
-];
+function apiToRouteData(route: RouteInfo, badges: { emoji: string; label: string }[]): RouteData {
+    const statColors = getStatColors(route.traffic_level, route.safety_score);
+    const geometry: [number, number][] = route.geometry.coordinates.map(
+        ([lng, lat]) => [lat, lng] as [number, number]
+    );
+    return {
+        id: route.id,
+        name: route.name,
+        badges,
+        time: formatDuration(route.duration_minutes),
+        distance: `${route.distance_km} km`,
+        safety: `${Math.round(route.safety_score * 10)}%`,
+        safetyScore: route.safety_score,
+        traffic: route.traffic_level,
+        trafficLevel: route.traffic_level,
+        roadQuality: route.road_quality,
+        highwayLabel: route.road_summary,
+        tagColor: route.safety_score >= 7 ? "text-primary/90" : route.safety_score >= 5 ? "text-yellow-400" : "text-red-400",
+        geometry,
+        stats: statColors,
+    };
+}
 
-const FILTER_OPTIONS = {
-    transit: [
-        { id: "quota", label: "Quota", options: ["General", "Tatkal", "Ladies"] },
-        { id: "class", label: "Class", options: ["1A", "2A", "3A", "SL", "CC"] },
-        { id: "time", label: "Departure", options: ["Morning", "Afternoon", "Evening"] },
-    ],
-    bus: [
-        { id: "type", label: "Bus Type", options: ["AC", "Non-AC", "Sleeper", "Seater"] },
-        { id: "time", label: "Departure", options: ["Before 6AM", "6AM-12PM", "12PM-6PM", "After 6PM"] },
-        { id: "operator", label: "Operator", options: ["Zingbus", "IntrCity", "RSRTC"] },
-    ],
-    flight: [
-        { id: "stops", label: "Stops", options: ["Non-stop", "1 Stop"] },
-        { id: "airline", label: "Airline", options: ["IndiGo", "Air India", "Vistara"] },
-        { id: "time", label: "Departure", options: ["Morning", "Afternoon", "Evening"] },
-    ]
-};
+// ─── Map controller: invalidateSize + smooth animated fitBounds ───
+function MapController({ positions }: { positions: LatLngTuple[] }) {
+    const map = useMap();
 
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            map.invalidateSize();
+        }, 100);
+        return () => clearTimeout(timer);
+    });
+
+    useEffect(() => {
+        if (positions.length > 1) {
+            const bounds = L.latLngBounds(positions);
+            map.fitBounds(bounds, {
+                padding: [60, 60],
+                maxZoom: 13,
+                animate: true,
+                duration: 0.5,
+            });
+        }
+    }, [positions, map]);
+
+    return null;
+}
+
+// ─── Navigation auto-center: smooth pan to user position ───
+function NavigationAutoCenter({ position, enabled }: { position: [number, number] | null; enabled: boolean }) {
+    const map = useMap();
+
+    useEffect(() => {
+        if (enabled && position) {
+            map.panTo(position, { animate: true, duration: 0.4 });
+        }
+    }, [position, enabled, map]);
+
+    // Disable auto-center when user drags the map
+    useEffect(() => {
+        const onDragStart = () => {
+            // We don't set state here — the parent reads the toggle
+        };
+        map.on("dragstart", onDragStart);
+        return () => { map.off("dragstart", onDragStart); };
+    }, [map]);
+
+    return null;
+}
+
+// ─── Custom arrow icon for user position marker ───
+function createUserIcon(heading: number | null) {
+    const rotation = heading ?? 0;
+    return L.divIcon({
+        className: "user-nav-marker",
+        html: `<div style="transform: rotate(${rotation}deg); width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" fill="rgba(59,130,246,0.3)" />
+                <circle cx="12" cy="12" r="6" fill="#3b82f6" stroke="#fff" stroke-width="2" />
+                <polygon points="12,2 15,10 12,8 9,10" fill="#3b82f6" stroke="#fff" stroke-width="1" />
+            </svg>
+        </div>`,
+        iconSize: [24, 24],
+        iconAnchor: [12, 12],
+    });
+}
 
 const RoutePlanner = () => {
-    // const { trackEvent } = useExploration(); // Removed deprecated hook
     const [showRoutes, setShowRoutes] = useState(false);
     const [loading, setLoading] = useState(false);
     const [origin, setOrigin] = useState("");
     const [destination, setDestination] = useState("");
-    const [selectedMode, setSelectedMode] = useState("flight");
     const [date, setDate] = useState<Date | undefined>(new Date());
-    const [returnDate, setReturnDate] = useState<Date | undefined>();
-    const [tripType, setTripType] = useState("oneway");
-    const [travellers, setTravellers] = useState(1);
-    const [travelClass, setTravelClass] = useState("Economy");
-    const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({});
+    const [showWhyRecommended, setShowWhyRecommended] = useState(false);
+    const [compareMode, setCompareMode] = useState(false);
+    const [hoveredRouteId, setHoveredRouteId] = useState<string | null>(null);
+    const [error, setError] = useState<string | null>(null);
+
+    // Route data from API
+    const [mainRoute, setMainRoute] = useState<RouteData | null>(null);
+    const [otherRoutes, setOtherRoutes] = useState<RouteData[]>([]);
+    const [originCoords, setOriginCoords] = useState<Coordinate | null>(null);
+    const [destCoords, setDestCoords] = useState<Coordinate | null>(null);
+
+    // Raw OSRM steps for navigation (from the main/recommended route)
+    const [rawSteps, setRawSteps] = useState<any[] | null>(null);
+
+    // Track if map has been shown at least once (prevents remount)
+    const [mapReady, setMapReady] = useState(false);
+
+    const mapRef = useRef<LeafletMap | null>(null);
 
     const days = Array.from({ length: 31 }, (_, i) => (i + 1).toString());
     const months = [
@@ -156,135 +187,144 @@ const RoutePlanner = () => {
     ];
     const years = [new Date().getFullYear().toString(), (new Date().getFullYear() + 1).toString()];
 
-    const updateDate = (type: 'date' | 'returnDate', part: 'day' | 'month' | 'year', value: string) => {
-        const targetDate = type === 'date' ? (date || new Date()) : (returnDate || new Date());
-        const newDate = new Date(targetDate);
-
+    const updateDate = (part: 'day' | 'month' | 'year', value: string) => {
+        const newDate = new Date(date || new Date());
         if (part === 'day') newDate.setDate(parseInt(value));
         if (part === 'month') newDate.setMonth(months.indexOf(value));
         if (part === 'year') newDate.setFullYear(parseInt(value));
-
-        if (type === 'date') setDate(newDate);
-        else setReturnDate(newDate);
+        setDate(newDate);
     };
-
-    const toggleFilter = (category: string, value: string) => {
-        setActiveFilters(prev => {
-            const current = prev[category] || [];
-            const updated = current.includes(value)
-                ? current.filter(item => item !== value)
-                : [...current, value];
-            return { ...prev, [category]: updated };
-        });
-    };
-
-    const [mainRoute, setMainRoute] = useState<RouteData>({
-        id: "recommended",
-        name: "Recommended Route",
-        tag: "Fastest & Safest Option",
-        time: "5h 30m",
-        distance: "268 km • NH48",
-        safety: "98%",
-        traffic: "Moderate",
-        roadQuality: "Excellent",
-        tagColor: "text-primary/90",
-        stats: {
-            safetyColor: "text-emerald-400",
-            trafficColor: "text-amber-400",
-            roadColor: "text-blue-400"
-        }
-    });
-
-    const [otherRoutes, setOtherRoutes] = useState<RouteData[]>([
-        {
-            id: "scenic",
-            name: "Scenic Route",
-            tag: "Most Scenic",
-            time: "6h 15m",
-            distance: "285 km",
-            safety: "95%",
-            traffic: "Low",
-            roadQuality: "Good",
-            tagColor: "text-purple-400",
-            stats: {
-                safetyColor: "text-emerald-400",
-                trafficColor: "text-emerald-400",
-                roadColor: "text-blue-400"
-            }
-        },
-        {
-            id: "shortest",
-            name: "Shortest Route",
-            tag: "Heavy Traffic",
-            time: "5h 45m",
-            distance: "260 km",
-            safety: "88%",
-            traffic: "High",
-            roadQuality: "Average",
-            tagColor: "text-red-400",
-            stats: {
-                safetyColor: "text-yellow-400",
-                trafficColor: "text-red-400",
-                roadColor: "text-yellow-400"
-            }
-        }
-    ]);
 
     const handleRouteSelect = (selected: RouteData) => {
+        if (!mainRoute) return;
         const oldMain = mainRoute;
         setMainRoute(selected);
         setOtherRoutes(prev => prev.map(r => r.id === selected.id ? oldMain : r));
+        setShowWhyRecommended(false);
     };
 
-    const handlePlan = (e: React.FormEvent) => {
+    const handlePlan = async (e: React.FormEvent) => {
         e.preventDefault();
         if (!origin || !destination) return;
-
         setLoading(true);
-        // Simulate API call
-        setTimeout(() => {
+        setError(null);
+
+        try {
+            const response: RouteResponse = await fetchRoutes(origin, destination);
+            const badgeMap = assignBadges(response.routes);
+            const allRoutes = response.routes.map(r =>
+                apiToRouteData(r, badgeMap.get(r.id) || [])
+            );
+
+            if (allRoutes.length > 0) {
+                setMainRoute(allRoutes[0]);
+                setOtherRoutes(allRoutes.slice(1));
+                setOriginCoords(response.origin_coords);
+                setDestCoords(response.destination_coords);
+                setShowRoutes(true);
+                setMapReady(true);
+
+                // Store raw steps from the first (recommended) route for navigation
+                const firstRoute = response.routes[0];
+                if (firstRoute?.steps) {
+                    setRawSteps(firstRoute.steps);
+                }
+            }
+        } catch (err: any) {
+            setError(err.message || "Failed to fetch routes. Please try again.");
+            setShowRoutes(false);
+        } finally {
             setLoading(false);
-            setShowRoutes(true);
-            // trackEvent('city', destination, 'route'); // Removed deprecated call
-        }, 2000);
+        }
     };
 
-    // Apple-style easing: smooth, refined, non-bouncy
+    // Invalidate map size after route data or loading state changes
+    useEffect(() => {
+        if (mapRef.current) {
+            const timer = setTimeout(() => {
+                mapRef.current?.invalidateSize();
+            }, 200);
+            return () => clearTimeout(timer);
+        }
+    }, [showRoutes, mainRoute, loading]);
+
+    // Map center
+    const mapCenter = useMemo<LatLngTuple>(() => {
+        if (originCoords && destCoords) {
+            return [
+                (originCoords.lat + destCoords.lat) / 2,
+                (originCoords.lng + destCoords.lng) / 2,
+            ];
+        }
+        return [22.5, 78.9];
+    }, [originCoords, destCoords]);
+
+    // Main route positions for fit bounds
+    const mainPositions = useMemo<LatLngTuple[]>(() => {
+        if (!mainRoute) return [];
+        return mainRoute.geometry as LatLngTuple[];
+    }, [mainRoute]);
+
+    // ── Navigation hook ──
+    const nav = useNavigation({
+        routeSteps: rawSteps,
+        routePolyline: mainPositions.length > 0 ? mainPositions as [number, number][] : null,
+    });
+
+    // Memoized user marker icon (updates on heading change)
+    const userIcon = useMemo(
+        () => createUserIcon(nav.position?.heading ?? null),
+        [nav.position?.heading],
+    );
+
     const appleEase: [number, number, number, number] = [0.25, 0.1, 0.25, 1];
 
     const containerVariants = {
         hidden: { opacity: 0 },
         visible: {
             opacity: 1,
-            transition: {
-                staggerChildren: 0.15,
-                delayChildren: 0.2,
-                ease: appleEase,
-                duration: 0.8
-            },
+            transition: { staggerChildren: 0.15, delayChildren: 0.2, ease: appleEase, duration: 0.8 },
         },
     };
 
     const itemVariants = {
         hidden: { opacity: 0, y: 15, scale: 0.98 },
-        visible: {
-            opacity: 1,
-            y: 0,
-            scale: 1,
-            transition: { duration: 0.6, ease: appleEase }
-        },
+        visible: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.6, ease: appleEase } },
     };
 
-    const getPlaceholders = () => {
-        switch (selectedMode) {
-            case "flight": return { from: "From Airport", to: "To Airport" };
-            case "transit": return { from: "From Station", to: "To Station" };
-            case "bus": return { from: "From City", to: "To City" };
-            default: return { from: "Pickup Location", to: "Drop Location" };
+    const trafficLevelColor = (level: string) => {
+        switch (level) {
+            case "Low": return "text-emerald-400 bg-emerald-400/10 border-emerald-400/20";
+            case "Moderate": return "text-amber-400 bg-amber-400/10 border-amber-400/20";
+            case "High": return "text-red-400 bg-red-400/10 border-red-400/20";
+            default: return "text-white/40 bg-white/5 border-white/10";
         }
     };
 
-    const placeholders = getPlaceholders();
+    const SafetyBar = ({ score, size = "md" }: { score: number; size?: "sm" | "md" }) => (
+        <div className={cn("flex items-center", size === "sm" ? "gap-2" : "gap-3")}>
+            <ShieldCheck className={cn("text-emerald-400 flex-shrink-0", size === "sm" ? "h-3.5 w-3.5" : "h-4.5 w-4.5")} />
+            <div className="flex-1 flex items-center gap-3">
+                <div className={cn("flex-1 rounded-full bg-white/[0.06] overflow-hidden", size === "sm" ? "h-1.5" : "h-2.5")}>
+                    <motion.div
+                        initial={{ width: 0 }}
+                        animate={{ width: `${(score / 10) * 100}%` }}
+                        transition={{ duration: 1.2, ease: appleEase, delay: 0.3 }}
+                        className="h-full rounded-full bg-gradient-to-r from-emerald-500 to-emerald-400"
+                        style={{ boxShadow: "0 0 12px rgba(52, 211, 153, 0.3)" }}
+                    />
+                </div>
+                <span className={cn("font-bold text-emerald-400 tabular-nums whitespace-nowrap", size === "sm" ? "text-xs" : "text-base")}>
+                    {score.toFixed(1)}
+                    <span className="text-white/30 font-normal text-xs">/10</span>
+                </span>
+            </div>
+        </div>
+    );
+
+    // ─── Determine right panel content state ───
+    const panelState: "placeholder" | "loading" | "error" | "results" =
+        loading ? "loading" : error ? "error" : showRoutes && mainRoute ? "results" : "placeholder";
 
     return (
         <div className="min-h-screen bg-gradient-to-b from-[#050505] to-[#0f172a] text-foreground selection:bg-primary/30 selection:text-white relative font-sans antialiased flex flex-col">
@@ -295,21 +335,91 @@ const RoutePlanner = () => {
             <div className="fixed top-[-20%] left-[20%] w-[1000px] h-[1000px] rounded-full bg-blue-900/10 blur-[150px] pointer-events-none" />
             <div className="fixed bottom-[-10%] right-[-10%] w-[800px] h-[800px] rounded-full bg-primary/5 blur-[150px] pointer-events-none" />
 
+            {/* Keyframes */}
+            <style>{`
+                @keyframes shimmer {
+                    0% { background-position: -200% 0; }
+                    100% { background-position: 200% 0; }
+                }
+                .shimmer-loading {
+                    background: linear-gradient(90deg, rgba(255,255,255,0.02) 25%, rgba(255,255,255,0.06) 50%, rgba(255,255,255,0.02) 75%);
+                    background-size: 200% 100%;
+                    animation: shimmer 1.8s ease-in-out infinite;
+                }
+                /* Dark Leaflet Overrides */
+                .dark-map .leaflet-control-zoom a { background: rgba(15,23,42,0.9); color: #fff; border-color: rgba(255,255,255,0.1); }
+                .dark-map .leaflet-control-zoom a:hover { background: rgba(30,41,59,0.95); }
+                .dark-map .leaflet-control-attribution { background: rgba(15,23,42,0.7) !important; color: rgba(255,255,255,0.3) !important; font-size: 9px; }
+                .dark-map .leaflet-control-attribution a { color: rgba(255,145,77,0.6) !important; }
+                /* Layer control dark styling */
+                .dark-map .leaflet-control-layers {
+                    background: rgba(15,23,42,0.92) !important;
+                    border: 1px solid rgba(255,255,255,0.08) !important;
+                    border-radius: 12px !important;
+                    backdrop-filter: blur(12px);
+                    box-shadow: 0 8px 32px rgba(0,0,0,0.5) !important;
+                    color: rgba(255,255,255,0.7) !important;
+                    padding: 8px 12px !important;
+                }
+                .dark-map .leaflet-control-layers-toggle {
+                    background-color: rgba(15,23,42,0.9) !important;
+                    border: 1px solid rgba(255,255,255,0.1) !important;
+                    border-radius: 8px !important;
+                    width: 32px !important; height: 32px !important;
+                    background-size: 18px 18px !important;
+                }
+                .dark-map .leaflet-control-layers-separator {
+                    border-top-color: rgba(255,255,255,0.08) !important;
+                }
+                .dark-map .leaflet-control-layers label {
+                    color: rgba(255,255,255,0.65) !important;
+                    font-size: 11px !important;
+                }
+                .dark-map .leaflet-control-layers label:hover {
+                    color: rgba(255,255,255,0.9) !important;
+                }
+                /* Ensure Leaflet containers fill width */
+                .leaflet-container { width: 100% !important; }
+                /* Route glow animation */
+                @keyframes routePulse {
+                    0%, 100% { opacity: 0.3; }
+                    50% { opacity: 0.5; }
+                }
+                /* User navigation marker */
+                .user-nav-marker { background: none !important; border: none !important; }
+                /* Navigation panel glass */
+                .nav-instruction-panel {
+                    background: rgba(15,23,42,0.88);
+                    backdrop-filter: blur(16px);
+                    border: 1px solid rgba(255,255,255,0.08);
+                    border-radius: 16px;
+                    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+                }
+                .nav-off-route {
+                    background: rgba(239,68,68,0.12);
+                    border: 1px solid rgba(239,68,68,0.25);
+                    border-radius: 12px;
+                    backdrop-filter: blur(8px);
+                }
+            `}</style>
+
             <div className="container mx-auto max-w-7xl px-6 md:px-12 pt-20 pb-12 relative z-10 flex-1 flex flex-col">
                 <motion.div
                     variants={containerVariants}
                     initial="hidden"
                     animate="visible"
-                    className="grid lg:grid-cols-12 gap-8"
+                    className="grid lg:grid-cols-12 gap-14"
                 >
-                    {/* Left Input Panel */}
-                    <motion.div variants={itemVariants} className="lg:col-span-4 flex flex-col justify-start">
-                        <div className="mb-6 pl-2">
+                    {/* ═══════════════════════════════════════════════════════ */}
+                    {/* LEFT INPUT PANEL                                       */}
+                    {/* ═══════════════════════════════════════════════════════ */}
+                    <motion.div variants={itemVariants} className="lg:col-span-4 flex flex-col justify-start min-w-0">
+                        <div className="mb-8 pl-2">
                             <h1 className="text-4xl font-semibold tracking-tight text-white mb-2">
                                 Plan your <span className="text-primary/90">journey</span>.
                             </h1>
                             <p className="text-white/60 text-base font-light leading-relaxed tracking-wide">
-                                Precision routing tailored to your preferences.
+                                Safety-first routing for every journey.
                             </p>
                         </div>
 
@@ -317,50 +427,13 @@ const RoutePlanner = () => {
                         <div className="backdrop-blur-2xl bg-white/[0.03] border border-white/[0.06] p-6 rounded-[2rem] shadow-[0_20px_40px_-10px_rgba(0,0,0,0.5)] relative overflow-hidden transition-all duration-500 hover:bg-white/[0.04]">
                             <form onSubmit={handlePlan} className="space-y-6 relative z-10">
 
-                                {/* Top Tabs: Travel Mode */}
-                                <div className="grid grid-cols-4 bg-white/[0.03] p-1 rounded-2xl border border-white/[0.05]">
-                                    {[
-                                        { id: "flight", icon: Plane, label: "Flights" },
-                                        { id: "transit", icon: Train, label: "Trains" },
-                                        { id: "bus", icon: Bus, label: "Buses" },
-                                        { id: "drive", icon: Car, label: "Cabs" },
-                                    ].map((mode) => (
-                                        <button
-                                            key={mode.id}
-                                            type="button"
-                                            onClick={() => setSelectedMode(mode.id)}
-                                            className={cn(
-                                                "flex flex-col items-center justify-center py-2.5 rounded-xl transition-all duration-300 gap-1.5",
-                                                selectedMode === mode.id
-                                                    ? "bg-white/10 text-white shadow-lg shadow-black/20"
-                                                    : "text-white/40 hover:text-white/70 hover:bg-white/5"
-                                            )}
-                                        >
-                                            <mode.icon className="w-4 h-4" />
-                                            <span className="text-[10px] font-medium tracking-wide">{mode.label}</span>
-                                        </button>
-                                    ))}
-                                </div>
-
-                                {selectedMode === "flight" && (
-                                    <div className="flex gap-4 px-1">
-                                        <button
-                                            type="button"
-                                            onClick={() => setTripType("oneway")}
-                                            className={cn("text-xs font-medium transition-colors", tripType === "oneway" ? "text-primary" : "text-white/40 hover:text-white/70")}
-                                        >
-                                            One Way
-                                        </button>
-                                        <button
-                                            type="button"
-                                            onClick={() => setTripType("round")}
-                                            className={cn("text-xs font-medium transition-colors", tripType === "round" ? "text-primary" : "text-white/40 hover:text-white/70")}
-                                        >
-                                            Round Trip
-                                        </button>
+                                {/* Single Tab: Road Routes */}
+                                <div className="bg-white/[0.03] p-1 rounded-2xl border border-white/[0.05]">
+                                    <div className="flex items-center justify-center py-2.5 rounded-xl bg-white/10 text-white shadow-lg shadow-black/20 gap-2">
+                                        <Car className="w-4 h-4" />
+                                        <span className="text-xs font-medium tracking-wide">Road Routes</span>
                                     </div>
-                                )}
-
+                                </div>
 
                                 <div className="flex flex-col gap-1 relative">
                                     <div className="space-y-1.5 group/input">
@@ -370,7 +443,7 @@ const RoutePlanner = () => {
                                             <Input
                                                 value={origin}
                                                 onChange={(e) => setOrigin(e.target.value)}
-                                                placeholder={placeholders.from}
+                                                placeholder="e.g. Delhi"
                                                 className="pl-11 h-12 bg-white/[0.02] border-white/[0.08] focus:border-primary/30 focus:bg-white/[0.05] focus:ring-0 rounded-t-2xl rounded-b-md text-[14px] text-white placeholder:text-white/20 shadow-none transition-all duration-500 ease-out"
                                             />
                                         </div>
@@ -399,191 +472,369 @@ const RoutePlanner = () => {
                                             <Input
                                                 value={destination}
                                                 onChange={(e) => setDestination(e.target.value)}
-                                                placeholder={placeholders.to}
+                                                placeholder="e.g. Jaipur"
                                                 className="pl-11 h-12 bg-white/[0.02] border-white/[0.08] focus:border-primary/30 focus:bg-white/[0.05] focus:ring-0 rounded-b-2xl rounded-t-md text-[14px] text-white placeholder:text-white/20 shadow-none transition-all duration-500 ease-out"
                                             />
                                         </div>
                                     </div>
-
                                 </div>
 
-                                <div className={cn("grid gap-2", selectedMode === "flight" && tripType === "round" ? "grid-cols-2" : "grid-cols-1")}>
-                                    <div className="space-y-1.5 group/input">
-                                        <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Departure</Label>
-                                        <div className="flex gap-2">
-                                            <Select value={date?.getDate().toString()} onValueChange={(v) => updateDate('date', 'day', v)}>
-                                                <SelectTrigger className="w-[70px] bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
-                                                    <SelectValue placeholder="DD" />
-                                                </SelectTrigger>
-                                                <SelectContent className="bg-[#0f172a] border-white/10 text-white max-h-[300px]">
-                                                    {days.map(d => <SelectItem key={d} value={d} className="focus:bg-white/10 focus:text-white cursor-pointer">{d}</SelectItem>)}
-                                                </SelectContent>
-                                            </Select>
-                                            <Select value={date ? months[date.getMonth()] : undefined} onValueChange={(v) => updateDate('date', 'month', v)}>
-                                                <SelectTrigger className="flex-1 bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
-                                                    <SelectValue placeholder="Month" />
-                                                </SelectTrigger>
-                                                <SelectContent className="bg-[#0f172a] border-white/10 text-white">
-                                                    {months.map(m => <SelectItem key={m} value={m} className="focus:bg-white/10 focus:text-white cursor-pointer">{m}</SelectItem>)}
-                                                </SelectContent>
-                                            </Select>
-                                            <Select value={date?.getFullYear().toString()} onValueChange={(v) => updateDate('date', 'year', v)}>
-                                                <SelectTrigger className="w-[84px] bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
-                                                    <SelectValue placeholder="Year" />
-                                                </SelectTrigger>
-                                                <SelectContent className="bg-[#0f172a] border-white/10 text-white">
-                                                    {years.map(y => <SelectItem key={y} value={y} className="focus:bg-white/10 focus:text-white cursor-pointer">{y}</SelectItem>)}
-                                                </SelectContent>
-                                            </Select>
-                                        </div>
+                                {/* Departure Date */}
+                                <div className="space-y-1.5 group/input">
+                                    <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Departure</Label>
+                                    <div className="flex gap-2">
+                                        <Select value={date?.getDate().toString()} onValueChange={(v) => updateDate('day', v)}>
+                                            <SelectTrigger className="w-[70px] bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
+                                                <SelectValue placeholder="DD" />
+                                            </SelectTrigger>
+                                            <SelectContent className="bg-[#0f172a] border-white/10 text-white max-h-[300px]">
+                                                {days.map(d => <SelectItem key={d} value={d} className="focus:bg-white/10 focus:text-white cursor-pointer">{d}</SelectItem>)}
+                                            </SelectContent>
+                                        </Select>
+                                        <Select value={date ? months[date.getMonth()] : undefined} onValueChange={(v) => updateDate('month', v)}>
+                                            <SelectTrigger className="flex-1 bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
+                                                <SelectValue placeholder="Month" />
+                                            </SelectTrigger>
+                                            <SelectContent className="bg-[#0f172a] border-white/10 text-white">
+                                                {months.map(m => <SelectItem key={m} value={m} className="focus:bg-white/10 focus:text-white cursor-pointer">{m}</SelectItem>)}
+                                            </SelectContent>
+                                        </Select>
+                                        <Select value={date?.getFullYear().toString()} onValueChange={(v) => updateDate('year', v)}>
+                                            <SelectTrigger className="w-[84px] bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
+                                                <SelectValue placeholder="Year" />
+                                            </SelectTrigger>
+                                            <SelectContent className="bg-[#0f172a] border-white/10 text-white">
+                                                {years.map(y => <SelectItem key={y} value={y} className="focus:bg-white/10 focus:text-white cursor-pointer">{y}</SelectItem>)}
+                                            </SelectContent>
+                                        </Select>
                                     </div>
-
-                                    {selectedMode === "flight" && tripType === "round" && (
-                                        <div className="space-y-1.5 group/input">
-                                            <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Return</Label>
-                                            <div className="flex gap-2">
-                                                <Select value={returnDate?.getDate().toString()} onValueChange={(v) => updateDate('returnDate', 'day', v)}>
-                                                    <SelectTrigger className="w-[70px] bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
-                                                        <SelectValue placeholder="DD" />
-                                                    </SelectTrigger>
-                                                    <SelectContent className="bg-[#0f172a] border-white/10 text-white max-h-[300px]">
-                                                        {days.map(d => <SelectItem key={d} value={d} className="focus:bg-white/10 focus:text-white cursor-pointer">{d}</SelectItem>)}
-                                                    </SelectContent>
-                                                </Select>
-                                                <Select value={returnDate ? months[returnDate.getMonth()] : undefined} onValueChange={(v) => updateDate('returnDate', 'month', v)}>
-                                                    <SelectTrigger className="flex-1 bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
-                                                        <SelectValue placeholder="Month" />
-                                                    </SelectTrigger>
-                                                    <SelectContent className="bg-[#0f172a] border-white/10 text-white">
-                                                        {months.map(m => <SelectItem key={m} value={m} className="focus:bg-white/10 focus:text-white cursor-pointer">{m}</SelectItem>)}
-                                                    </SelectContent>
-                                                </Select>
-                                                <Select value={returnDate?.getFullYear().toString()} onValueChange={(v) => updateDate('returnDate', 'year', v)}>
-                                                    <SelectTrigger className="w-[84px] bg-white/[0.02] border-white/[0.08] text-white rounded-2xl h-12 focus:ring-primary/20">
-                                                        <SelectValue placeholder="Year" />
-                                                    </SelectTrigger>
-                                                    <SelectContent className="bg-[#0f172a] border-white/10 text-white">
-                                                        {years.map(y => <SelectItem key={y} value={y} className="focus:bg-white/10 focus:text-white cursor-pointer">{y}</SelectItem>)}
-                                                    </SelectContent>
-                                                </Select>
-                                            </div>
-                                        </div>
-                                    )}
                                 </div>
 
-                                {selectedMode === "flight" && (
-                                    <div className="space-y-1.5 group/input">
-                                        <Label className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] ml-1">Travellers & Class</Label>
-                                        <Popover>
-                                            <PopoverTrigger asChild>
-                                                <motion.button
-                                                    whileHover={{ scale: 1.02, backgroundColor: "rgba(255, 255, 255, 0.05)" }}
-                                                    whileTap={{ scale: 0.98 }}
-                                                    type="button"
-                                                    className="w-full h-12 flex items-center justify-start text-left font-normal bg-white/[0.02] border border-white/[0.08] text-white rounded-2xl transition-all duration-300 pl-4 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20"
-                                                >
-                                                    <div className="p-1.5 rounded-full bg-white/5 mr-3 group-hover:bg-white/10 transition-colors">
-                                                        <Armchair className="h-4 w-4 text-white/60" />
-                                                    </div>
-                                                    <span className="text-sm font-medium tracking-wide">
-                                                        {travellers} Traveller{travellers > 1 ? 's' : ''}, {travelClass}
-                                                    </span>
-                                                </motion.button>
-                                            </PopoverTrigger>
-                                            <PopoverContent className="w-72 sm:w-80 bg-[#0f172a]/95 backdrop-blur-xl border-white/10 p-5 text-white shadow-2xl rounded-2xl">
-                                                <div className="space-y-4">
-                                                    <div className="space-y-2">
-                                                        <label className="text-xs font-semibold text-white/60">Travellers</label>
-                                                        <div className="flex items-center justify-between bg-white/5 rounded-lg p-1 border border-white/10">
-                                                            <button
-                                                                type="button" // Prevent form submit
-                                                                onClick={() => setTravellers(Math.max(1, travellers - 1))}
-                                                                className="h-8 w-8 flex items-center justify-center rounded-md hover:bg-white/10 transition-colors"
-                                                            >
-                                                                -
-                                                            </button>
-                                                            <span className="font-medium">{travellers}</span>
-                                                            <button
-                                                                type="button" // Prevent form submit
-                                                                onClick={() => setTravellers(Math.min(9, travellers + 1))}
-                                                                className="h-8 w-8 flex items-center justify-center rounded-md hover:bg-white/10 transition-colors"
-                                                            >
-                                                                +
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <div className="space-y-2">
-                                                        <label className="text-xs font-semibold text-white/60">Class</label>
-                                                        <div className="grid grid-cols-2 gap-2">
-                                                            {["Economy", "Premium", "Business", "First"].map((cls) => (
-                                                                <button
-                                                                    key={cls}
-                                                                    type="button" // Prevent form submit
-                                                                    onClick={() => setTravelClass(cls)}
-                                                                    className={cn(
-                                                                        "px-3 py-2 rounded-lg text-xs font-medium border transition-all",
-                                                                        travelClass === cls
-                                                                            ? "bg-primary text-white border-primary"
-                                                                            : "bg-white/5 text-white/60 border-white/10 hover:bg-white/10"
-                                                                    )}
-                                                                >
-                                                                    {cls}
-                                                                </button>
-                                                            ))}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </PopoverContent>
-                                        </Popover>
-                                    </div>
-                                )}
+                                {/* Submit */}
+                                <div className="space-y-2">
+                                    <Button
+                                        type="submit"
+                                        disabled={loading}
+                                        className="w-full h-12 text-[14px] font-medium bg-primary text-white hover:bg-primary/90 hover:-translate-y-0.5 active:scale-[0.98] active:translate-y-0 rounded-2xl shadow-[0_0_25px_-5px_rgba(255,145,77,0.3)] hover:shadow-[0_0_35px_-5px_rgba(255,145,77,0.5)] transition-all duration-500 ease-out group/btn overflow-hidden relative border-none"
+                                    >
+                                        <span className="relative z-10 flex items-center gap-2">
+                                            {loading ? (
+                                                <>
+                                                    <Loader2 className="h-4 w-4 animate-spin opacity-80" />
+                                                    <span className="opacity-80">Analyzing...</span>
+                                                </>
+                                            ) : (
+                                                <>
+                                                    Analyze Routes
+                                                    <ArrowRight className="h-4 w-4 opacity-80 group-hover/btn:translate-x-1 transition-transform duration-500 ease-out" />
+                                                </>
+                                            )}
+                                        </span>
+                                    </Button>
+                                    <p className="text-center text-[10px] text-white/30 tracking-wide font-light">
+                                        AI-powered safety & efficiency analysis
+                                    </p>
+                                </div>
 
-                                <Button
-                                    type="submit"
-                                    disabled={loading}
-                                    className="w-full h-12 text-[14px] font-medium bg-primary text-white hover:bg-primary/90 hover:-translate-y-0.5 active:scale-[0.98] active:translate-y-0 rounded-2xl shadow-[0_0_25px_-5px_rgba(255,145,77,0.3)] hover:shadow-[0_0_35px_-5px_rgba(255,145,77,0.5)] transition-all duration-500 ease-out group/btn overflow-hidden relative border-none"
-                                >
-                                    <span className="relative z-10 flex items-center gap-2">
-                                        {loading ? (
-                                            <>
-                                                <Loader2 className="h-4 w-4 animate-spin opacity-80" />
-                                                <span className="opacity-80">Calculating...</span>
-                                            </>
-                                        ) : (
-                                            <>
-                                                Find Best Routes
-                                                <ArrowRight className="h-4 w-4 opacity-80 group-hover/btn:translate-x-1 transition-transform duration-500 ease-out" />
-                                            </>
-                                        )}
-                                    </span>
-                                </Button>
                             </form>
                         </div>
                     </motion.div>
 
-                    {/* Right Preview Panel */}
-                    <motion.div variants={itemVariants} className="lg:col-span-8 relative flex flex-col">
-                        <div className="flex-1 backdrop-blur-3xl bg-white/[0.02] rounded-[2.5rem] border border-white/[0.05] relative overflow-hidden shadow-2xl flex items-center justify-center group/map">
-                            {/* Subtle Inner Glow */}
-                            <div className="absolute inset-0 rounded-[2.5rem] shadow-[inset_0_0_80px_rgba(0,0,0,0.6)] pointer-events-none z-10" />
+                    {/* ═══════════════════════════════════════════════════════ */}
+                    {/* RIGHT PANEL — Stable layout structure                  */}
+                    {/* Map is ALWAYS mounted once shown, never remounted.     */}
+                    {/* Route info + alternate cards are separate sections.    */}
+                    {/* ═══════════════════════════════════════════════════════ */}
+                    <motion.div variants={itemVariants} className="lg:col-span-8 flex flex-col gap-6 min-w-0">
 
-                            <AnimatePresence mode="wait">
-                                {!showRoutes ? (
+                        {/* ── SECTION 1: MAP (always mounted after first load, never re-rendered) ── */}
+                        <div
+                            className={cn(
+                                "w-full rounded-2xl border border-white/[0.05] overflow-hidden relative transition-opacity duration-500",
+                                mapReady ? "opacity-100" : "opacity-0 pointer-events-none"
+                            )}
+                            style={{ minHeight: mapReady ? 400 : 0, height: mapReady ? 400 : 0 }}
+                        >
+                            {mapReady && (
+                                <MapContainer
+                                    center={mapCenter}
+                                    zoom={7}
+                                    className="dark-map"
+                                    style={{ height: "100%", width: "100%", background: "#0a0f1a" }}
+                                    zoomControl={true}
+                                    attributionControl={true}
+                                    scrollWheelZoom={false}
+                                    ref={mapRef}
+                                >
+                                    <LayersControl position="topright">
+                                        <LayersControl.BaseLayer checked name="Dark">
+                                            <TileLayer
+                                                url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+                                                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'
+                                            />
+                                        </LayersControl.BaseLayer>
+                                        <LayersControl.BaseLayer name="Standard">
+                                            <TileLayer
+                                                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                                                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                                            />
+                                        </LayersControl.BaseLayer>
+                                        <LayersControl.BaseLayer name="Satellite">
+                                            <TileLayer
+                                                url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                                                attribution='&copy; Esri, Maxar, Earthstar Geographics'
+                                            />
+                                        </LayersControl.BaseLayer>
+                                        <LayersControl.BaseLayer name="Terrain">
+                                            <TileLayer
+                                                url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
+                                                attribution='&copy; <a href="https://opentopomap.org">OpenTopoMap</a> contributors'
+                                            />
+                                        </LayersControl.BaseLayer>
+                                    </LayersControl>
+
+                                    {/* ── Alternate routes: shadow + line (behind) ── */}
+                                    {otherRoutes.map((route) => {
+                                        const isHovered = hoveredRouteId === route.id;
+                                        return [
+                                            /* Shadow layer */
+                                            <Polyline
+                                                key={`${route.id}-shadow`}
+                                                positions={route.geometry as LatLngTuple[]}
+                                                pathOptions={{
+                                                    color: "#000000",
+                                                    weight: isHovered ? 8 : 6,
+                                                    opacity: 0.3,
+                                                    dashArray: "6 4",
+                                                }}
+                                            />,
+                                            /* Main line */
+                                            <Polyline
+                                                key={route.id}
+                                                positions={route.geometry as LatLngTuple[]}
+                                                pathOptions={{
+                                                    color: isHovered ? "#60a5fa" : "#6b7280",
+                                                    weight: isHovered ? 5 : 4,
+                                                    opacity: isHovered ? 0.95 : 0.45,
+                                                    dashArray: "6 4",
+                                                }}
+                                            />,
+                                        ];
+                                    })}
+
+                                    {/* ── Safest route: triple-layer glow ── */}
+                                    {mainRoute && (
+                                        <>
+                                            {/* Layer 1: shadow */}
+                                            <Polyline
+                                                positions={mainRoute.geometry as LatLngTuple[]}
+                                                pathOptions={{
+                                                    color: "#065f46",
+                                                    weight: 14,
+                                                    opacity: 0.2,
+                                                    lineCap: "round",
+                                                    lineJoin: "round",
+                                                }}
+                                            />
+                                            {/* Layer 2: glow */}
+                                            <Polyline
+                                                positions={mainRoute.geometry as LatLngTuple[]}
+                                                pathOptions={{
+                                                    color: "#34d399",
+                                                    weight: 10,
+                                                    opacity: 0.25,
+                                                    lineCap: "round",
+                                                    lineJoin: "round",
+                                                }}
+                                            />
+                                            {/* Layer 3: main line */}
+                                            <Polyline
+                                                positions={mainRoute.geometry as LatLngTuple[]}
+                                                pathOptions={{
+                                                    color: "#10b981",
+                                                    weight: 7,
+                                                    opacity: 0.9,
+                                                    lineCap: "round",
+                                                    lineJoin: "round",
+                                                }}
+                                            />
+                                        </>
+                                    )}
+
+                                    {/* ── Origin / Destination markers ── */}
+                                    {originCoords && (
+                                        <CircleMarker
+                                            center={[originCoords.lat, originCoords.lng] as LatLngTuple}
+                                            pathOptions={{ color: "#ff916d", fillColor: "#ff916d", fillOpacity: 1, weight: 3 }}
+                                            radius={7}
+                                        />
+                                    )}
+                                    {destCoords && (
+                                        <CircleMarker
+                                            center={[destCoords.lat, destCoords.lng] as LatLngTuple}
+                                            pathOptions={{ color: "#10b981", fillColor: "#10b981", fillOpacity: 1, weight: 3 }}
+                                            radius={7}
+                                        />
+                                    )}
+
+                                    {/* ── User live position marker ── */}
+                                    {nav.active && nav.position && (
+                                        <Marker
+                                            position={[nav.position.lat, nav.position.lng] as LatLngTuple}
+                                            icon={userIcon}
+                                        />
+                                    )}
+
+                                    <MapController positions={nav.active ? [] : mainPositions} />
+                                    {nav.active && (
+                                        <NavigationAutoCenter
+                                            position={nav.position ? [nav.position.lat, nav.position.lng] : null}
+                                            enabled={nav.autoCenterEnabled}
+                                        />
+                                    )}
+                                </MapContainer>
+                            )}
+                        </div>
+
+                        {/* ── NAVIGATION CONTROLS (between map and content area) ── */}
+                        {showRoutes && mainRoute && (
+                            <div className="flex flex-col gap-3">
+                                {/* Start / Stop button row */}
+                                <div className="flex items-center gap-3">
+                                    {!nav.active ? (
+                                        <Button
+                                            onClick={nav.startNavigation}
+                                            className="flex-1 h-11 bg-blue-600 hover:bg-blue-500 text-white rounded-xl shadow-[0_0_20px_-5px_rgba(59,130,246,0.4)] hover:shadow-[0_0_30px_-5px_rgba(59,130,246,0.6)] transition-all duration-300 text-sm font-medium"
+                                        >
+                                            <Navigation className="h-4 w-4 mr-2" />
+                                            Start Navigation
+                                        </Button>
+                                    ) : (
+                                        <>
+                                            <Button
+                                                onClick={nav.stopNavigation}
+                                                variant="ghost"
+                                                className="flex-1 h-11 bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/20 rounded-xl transition-all duration-300 text-sm font-medium"
+                                            >
+                                                <X className="h-4 w-4 mr-2" />
+                                                Stop Navigation
+                                            </Button>
+                                            <Button
+                                                onClick={nav.toggleAutoCenter}
+                                                variant="ghost"
+                                                size="icon"
+                                                className={cn(
+                                                    "h-11 w-11 rounded-xl border transition-all duration-300",
+                                                    nav.autoCenterEnabled
+                                                        ? "bg-blue-500/15 border-blue-500/30 text-blue-400"
+                                                        : "bg-white/[0.03] border-white/[0.08] text-white/40"
+                                                )}
+                                                title={nav.autoCenterEnabled ? "Auto-center ON" : "Auto-center OFF"}
+                                            >
+                                                <Locate className="h-4 w-4" />
+                                            </Button>
+                                        </>
+                                    )}
+                                </div>
+
+                                {/* GPS Error */}
+                                {nav.gpsError && (
+                                    <div className="flex items-center gap-2.5 px-4 py-3 bg-amber-500/10 border border-amber-500/20 rounded-xl text-amber-300 text-xs">
+                                        <AlertCircle className="h-4 w-4 flex-shrink-0" />
+                                        <span>{nav.gpsError}</span>
+                                    </div>
+                                )}
+
+                                {/* Off-route warning */}
+                                <AnimatePresence>
+                                    {nav.active && nav.isOffRoute && (
+                                        <motion.div
+                                            initial={{ opacity: 0, y: -8 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            exit={{ opacity: 0, y: -8 }}
+                                            className="nav-off-route flex items-center gap-2.5 px-4 py-3 text-red-300 text-xs"
+                                        >
+                                            <AlertTriangle className="h-4 w-4 flex-shrink-0 text-red-400" />
+                                            <span className="font-medium">You are off the planned route</span>
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
+
+                                {/* Current instruction panel */}
+                                <AnimatePresence>
+                                    {nav.active && nav.currentInstruction && (
+                                        <motion.div
+                                            initial={{ opacity: 0, y: -10 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            exit={{ opacity: 0, y: -10 }}
+                                            className="nav-instruction-panel px-5 py-4"
+                                        >
+                                            <div className="flex items-start gap-3">
+                                                <div className="h-8 w-8 rounded-lg bg-blue-500/15 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                                    <Navigation className="h-4 w-4 text-blue-400" />
+                                                </div>
+                                                <div className="flex-1 min-w-0">
+                                                    <p className="text-white/90 text-sm font-medium leading-snug">
+                                                        {nav.currentInstruction}
+                                                    </p>
+                                                    {nav.distanceToNextManeuver !== null && (
+                                                        <p className="text-white/40 text-xs mt-1 tabular-nums">
+                                                            {nav.distanceToNextManeuver >= 1000
+                                                                ? `${(nav.distanceToNextManeuver / 1000).toFixed(1)} km to next maneuver`
+                                                                : `${nav.distanceToNextManeuver} m to next maneuver`
+                                                            }
+                                                        </p>
+                                                    )}
+                                                </div>
+                                                {nav.position?.speed != null && nav.position.speed > 0 && (
+                                                    <div className="text-right flex-shrink-0">
+                                                        <div className="text-lg font-bold text-white/80 tabular-nums">
+                                                            {Math.round(nav.position.speed * 3.6)}
+                                                        </div>
+                                                        <div className="text-[9px] text-white/30 uppercase tracking-wider">km/h</div>
+                                                    </div>
+                                                )}
+                                            </div>
+                                            {/* Step progress */}
+                                            <div className="mt-3 flex items-center gap-2">
+                                                <div className="flex-1 h-1 rounded-full bg-white/[0.06] overflow-hidden">
+                                                    <div
+                                                        className="h-full rounded-full bg-blue-500/60 transition-all duration-500"
+                                                        style={{ width: `${Math.min(100, ((nav.currentStepIndex + 1) / Math.max(1, nav.maneuvers.length)) * 100)}%` }}
+                                                    />
+                                                </div>
+                                                <span className="text-[10px] text-white/30 tabular-nums">
+                                                    {nav.currentStepIndex + 1}/{nav.maneuvers.length}
+                                                </span>
+                                            </div>
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
+                            </div>
+                        )}
+
+                        {/* ── SECTION 2: Content area (placeholder / loading / error / route info) ── */}
+                        <div
+                            className="w-full backdrop-blur-3xl bg-white/[0.02] rounded-[2rem] border border-white/[0.05] relative overflow-hidden shadow-2xl"
+                            style={{ minHeight: panelState === "placeholder" ? 420 : "auto" }}
+                        >
+                            {/* Subtle Inner Glow */}
+                            <div className="absolute inset-0 rounded-[2rem] shadow-[inset_0_0_60px_rgba(0,0,0,0.5)] pointer-events-none z-10" />
+
+                            {/* ── PLACEHOLDER (before first search) ── */}
+                            {panelState === "placeholder" && (
+                                <div className="flex items-center justify-center w-full" style={{ minHeight: 420 }}>
                                     <motion.div
-                                        key="placeholder"
                                         initial={{ opacity: 0, scale: 0.95, filter: "blur(10px)" }}
                                         animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
-                                        exit={{ opacity: 0, scale: 0.95, filter: "blur(10px)" }}
                                         transition={{ duration: 0.8, ease: appleEase }}
                                         className="text-center relative z-20"
                                     >
                                         <div className="relative w-32 h-32 mx-auto mb-8">
-                                            {/* Apple Watch-style Activity Rings */}
                                             <div className="absolute inset-0 border border-white/5 rounded-full" />
                                             <div className="absolute inset-0 border border-primary/20 rounded-full animate-[spin_8s_linear_infinite]" style={{ borderTopColor: 'transparent', borderLeftColor: 'transparent' }} />
                                             <div className="absolute inset-6 border border-white/5 rounded-full" />
                                             <div className="absolute inset-6 border border-blue-500/20 rounded-full animate-[spin_6s_linear_infinite_reverse]" style={{ borderTopColor: 'transparent', borderRightColor: 'transparent' }} />
-
                                             <div className="absolute inset-0 flex items-center justify-center">
                                                 <div className="relative">
                                                     <div className="absolute inset-0 bg-primary/30 blur-xl rounded-full animate-pulse" />
@@ -596,466 +847,321 @@ const RoutePlanner = () => {
                                             Enter your details to visualize the safest and fastest routes.
                                         </p>
                                     </motion.div>
-                                ) : (
-                                    <motion.div
-                                        key="results"
-                                        initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
-                                        animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                                        transition={{ duration: 0.8, ease: appleEase }}
-                                        className="w-full p-8 relative z-20 flex flex-col"
-                                    >
-                                        <AnimatePresence mode="wait">
-                                            {selectedMode === "drive" && (
-                                                <motion.div
-                                                    key="drive"
-                                                    initial={{ opacity: 0, scale: 0.95, y: 20 }}
-                                                    animate={{ opacity: 1, scale: 1, y: 0 }}
-                                                    exit={{ opacity: 0, scale: 0.95, y: -20 }}
-                                                    transition={{ duration: 0.5, ease: appleEase }}
-                                                    className="flex-1 flex flex-col min-h-0"
-                                                >
-                                                    <div className="flex justify-between items-end mb-6 shrink-0">
-                                                        <div>
-                                                            <motion.h2 layoutId={`name-${mainRoute.id}`} className="text-2xl font-semibold text-white mb-1 tracking-tight">
-                                                                {mainRoute.name}
-                                                            </motion.h2>
-                                                            <div className="flex items-center gap-2">
-                                                                <span className="flex h-1.5 w-1.5 relative">
-                                                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                                                                    <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-primary"></span>
-                                                                </span>
-                                                                <motion.p layoutId={`tag-${mainRoute.id}`} className={cn("font-medium text-xs tracking-wide uppercase", mainRoute.tagColor)}>{mainRoute.tag}</motion.p>
-                                                            </div>
-                                                        </div>
-                                                        <div className="text-right">
-                                                            <motion.p layoutId={`time-${mainRoute.id}`} className="text-4xl font-semibold text-white tracking-tighter">
-                                                                {mainRoute.time}
-                                                            </motion.p>
-                                                            <p className="text-white/40 font-light mt-0.5 text-base">{mainRoute.distance}</p>
-                                                        </div>
-                                                    </div>
+                                </div>
+                            )}
 
+                            {/* ── LOADING (reserves space to prevent layout jump) ── */}
+                            {panelState === "loading" && (
+                                <motion.div
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ duration: 0.3, ease: appleEase }}
+                                    className="w-full p-8 relative z-20 space-y-6"
+                                    style={{ minHeight: 380 }}
+                                >
+                                    <div className="flex items-center gap-3 mb-8">
+                                        <div className="relative">
+                                            <div className="absolute inset-0 bg-primary/30 blur-xl rounded-full animate-pulse" />
+                                            <Loader2 className="relative h-6 w-6 text-primary animate-spin" />
+                                        </div>
+                                        <div>
+                                            <p className="text-white font-medium text-sm">Analyzing routes...</p>
+                                            <p className="text-white/30 text-xs">Evaluating safety, traffic & road conditions</p>
+                                        </div>
+                                    </div>
+                                    <div className="shimmer-loading h-36 rounded-2xl" />
+                                    <div className="grid grid-cols-2 gap-4">
+                                        <div className="shimmer-loading h-28 rounded-xl" />
+                                        <div className="shimmer-loading h-28 rounded-xl" />
+                                    </div>
+                                    <div className="shimmer-loading h-48 rounded-2xl" />
+                                </motion.div>
+                            )}
+
+                            {/* ── ERROR ── */}
+                            {panelState === "error" && (
+                                <div className="flex items-center justify-center w-full" style={{ minHeight: 380 }}>
+                                    <motion.div
+                                        initial={{ opacity: 0, scale: 0.95 }}
+                                        animate={{ opacity: 1, scale: 1 }}
+                                        transition={{ duration: 0.5, ease: appleEase }}
+                                        className="text-center relative z-20 p-8"
+                                    >
+                                        <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-red-400/10 flex items-center justify-center">
+                                            <AlertCircle className="h-7 w-7 text-red-400" />
+                                        </div>
+                                        <h3 className="text-xl font-medium text-white mb-2">Couldn't find routes</h3>
+                                        <p className="text-white/40 max-w-xs mx-auto font-light text-sm leading-relaxed mb-6">
+                                            {error}
+                                        </p>
+                                        <Button
+                                            onClick={() => { setError(null); }}
+                                            variant="ghost"
+                                            className="text-primary hover:text-primary/80 text-sm"
+                                        >
+                                            Try Again
+                                        </Button>
+                                    </motion.div>
+                                </div>
+                            )}
+
+                            {/* ═══════════════════════════════════════════════════════ */}
+                            {/* RESULTS — Route details + alternate routes             */}
+                            {/* ═══════════════════════════════════════════════════════ */}
+                            {panelState === "results" && mainRoute && (
+                                <motion.div
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.5, ease: appleEase }}
+                                    className="w-full p-6 lg:p-8 relative z-20 flex flex-col gap-8"
+                                >
+                                    {/* ── RECOMMENDED ROUTE CARD ── */}
+                                    <div
+                                        className="bg-white/[0.035] rounded-2xl p-8 border border-primary/[0.12] relative overflow-hidden transition-all duration-500 hover:bg-white/[0.045]"
+                                        style={{
+                                            boxShadow: "0 0 50px -12px rgba(255,145,77,0.15), 0 25px 50px -12px rgba(0,0,0,0.5)",
+                                        }}
+                                    >
+                                        {/* Soft primary glow top edge */}
+                                        <div className="absolute top-0 left-[10%] right-[10%] h-[1px] bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
+
+                                        {/* Header Row */}
+                                        <div className="flex justify-between items-start mb-4">
+                                            <div className="space-y-3">
+                                                <div className="flex items-center gap-2">
+                                                    <span className="flex h-1.5 w-1.5 relative">
+                                                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                                                        <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-400"></span>
+                                                    </span>
+                                                    <h2 className="text-xl font-semibold text-white tracking-tight">{mainRoute.name}</h2>
+                                                </div>
+                                                {/* Badges */}
+                                                <div className="flex flex-wrap gap-2">
+                                                    {mainRoute.badges.map((badge, i) => (
+                                                        <span
+                                                            key={i}
+                                                            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/[0.05] border border-white/[0.08] text-xs font-medium text-white/80"
+                                                        >
+                                                            <span>{badge.emoji}</span>
+                                                            {badge.label}
+                                                        </span>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                            <div className="text-right">
+                                                <p className="text-4xl font-bold text-white tracking-tighter">{mainRoute.time}</p>
+                                                <p className="text-white/30 font-light mt-1 text-sm">{mainRoute.distance}</p>
+                                                <span className="inline-block mt-1 text-[10px] font-medium text-primary/80 bg-primary/10 px-2 py-0.5 rounded-md border border-primary/20">
+                                                    {mainRoute.highwayLabel}
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        {/* Safety Score Bar */}
+                                        <div className="mb-6 p-4 rounded-xl bg-white/[0.025] border border-white/[0.05]">
+                                            <p className="text-[10px] font-semibold text-white/40 uppercase tracking-[0.15em] mb-3">Safety Score</p>
+                                            <SafetyBar score={mainRoute.safetyScore} />
+                                        </div>
+
+                                        {/* Quick Stats Row */}
+                                        <div className="grid grid-cols-3 gap-3 mb-6">
+                                            <div className="bg-white/[0.025] rounded-xl p-3.5 border border-white/[0.05] text-center">
+                                                <p className="text-[10px] font-medium text-white/30 uppercase tracking-wider mb-1.5">Traffic</p>
+                                                <span className={cn("text-[11px] font-semibold px-2.5 py-1 rounded-md border inline-block min-w-[56px]", trafficLevelColor(mainRoute.trafficLevel))}>
+                                                    {mainRoute.trafficLevel}
+                                                </span>
+                                            </div>
+                                            <div className="bg-white/[0.025] rounded-xl p-3.5 border border-white/[0.05] text-center">
+                                                <p className="text-[10px] font-medium text-white/30 uppercase tracking-wider mb-1.5">Road Quality</p>
+                                                <span className="text-[11px] font-semibold text-blue-400">{mainRoute.roadQuality}</span>
+                                            </div>
+                                            <div className="bg-white/[0.025] rounded-xl p-3.5 border border-white/[0.05] text-center">
+                                                <p className="text-[10px] font-medium text-white/30 uppercase tracking-wider mb-1.5">Safety</p>
+                                                <span className="text-[11px] font-semibold text-emerald-400">{mainRoute.safety}</span>
+                                            </div>
+                                        </div>
+
+                                        {/* Collapsible: Why This Route Is Recommended */}
+                                        <div className="border border-white/[0.06] rounded-xl overflow-hidden">
+                                            <button
+                                                type="button"
+                                                onClick={() => setShowWhyRecommended(!showWhyRecommended)}
+                                                className="w-full flex items-center justify-between px-4 py-3 hover:bg-white/[0.02] transition-colors group/why"
+                                            >
+                                                <span className="text-xs font-semibold text-white/60 tracking-wide group-hover/why:text-white/80 transition-colors">
+                                                    Why This Route Is Recommended
+                                                </span>
+                                                <motion.div
+                                                    animate={{ rotate: showWhyRecommended ? 180 : 0 }}
+                                                    transition={{ duration: 0.3, ease: appleEase }}
+                                                >
+                                                    <ChevronDown className="h-4 w-4 text-white/30" />
+                                                </motion.div>
+                                            </button>
+                                            <AnimatePresence>
+                                                {showWhyRecommended && (
                                                     <motion.div
                                                         initial={{ height: 0, opacity: 0 }}
                                                         animate={{ height: "auto", opacity: 1 }}
-                                                        transition={{ duration: 0.6, delay: 0.1, ease: appleEase }}
-                                                        className="flex-1 bg-white/[0.02] rounded-[1.5rem] border border-white/[0.05] relative overflow-hidden mb-6 shadow-inner min-h-[200px]"
+                                                        exit={{ height: 0, opacity: 0 }}
+                                                        transition={{ duration: 0.4, ease: appleEase }}
+                                                        className="overflow-hidden"
                                                     >
-                                                        <div className="absolute inset-0 flex items-center justify-center opacity-20">
-                                                            <p className="text-[10px] text-white/40 uppercase tracking-[0.2em] font-medium">Interactive Map Preview</p>
-                                                        </div>
-                                                        <svg className="absolute inset-0 w-full h-full pointer-events-none">
-                                                            <path
-                                                                d="M100,350 C250,350 250,150 450,150 S650,250 850,250"
-                                                                fill="none"
-                                                                stroke="url(#gradient)"
-                                                                strokeWidth="3"
-                                                                strokeLinecap="round"
-                                                                className="drop-shadow-[0_0_15px_rgba(255,145,77,0.4)]"
-                                                            />
-                                                            <defs>
-                                                                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                                                    <stop offset="0%" stopColor="#FF914D" stopOpacity="0" />
-                                                                    <stop offset="15%" stopColor="#FF914D" />
-                                                                    <stop offset="85%" stopColor="#FF914D" />
-                                                                    <stop offset="100%" stopColor="#FF914D" stopOpacity="0" />
-                                                                </linearGradient>
-                                                            </defs>
-                                                        </svg>
-                                                    </motion.div>
-
-                                                    <div className="mt-auto">
-                                                        <h3 className="text-base font-semibold text-white mb-3 tracking-tight">Ride Options</h3>
-                                                        <div className="grid grid-cols-3 gap-3">
-                                                            {mockCabs.map((cab, i) => (
-                                                                <div key={i} className="bg-white/[0.03] rounded-xl p-3 border border-white/[0.05] hover:bg-white/[0.05] transition-colors cursor-pointer group">
-                                                                    <div className="flex justify-between items-start mb-2">
-                                                                        <span className="text-xs font-medium text-white/60 group-hover:text-white transition-colors">{cab.provider}</span>
-                                                                        <span className="text-xs font-bold text-primary">{cab.price}</span>
+                                                        <div className="px-4 pb-4 pt-1 space-y-2.5 border-t border-white/[0.04]">
+                                                            {[
+                                                                "Higher safety score based on road data",
+                                                                "Primarily highway segments",
+                                                                "Fewer intersections and turns",
+                                                                "Balanced duration and distance"
+                                                            ].map((reason, i) => (
+                                                                <motion.div
+                                                                    key={i}
+                                                                    initial={{ opacity: 0, x: -10 }}
+                                                                    animate={{ opacity: 1, x: 0 }}
+                                                                    transition={{ delay: i * 0.08, duration: 0.3, ease: appleEase }}
+                                                                    className="flex items-center gap-2.5"
+                                                                >
+                                                                    <div className="flex-shrink-0 h-5 w-5 rounded-full bg-emerald-400/10 flex items-center justify-center">
+                                                                        <Check className="h-3 w-3 text-emerald-400" />
                                                                     </div>
-                                                                    <div className="flex items-center gap-2 mb-1">
-                                                                        <Car className="h-3 w-3 text-white/40" />
-                                                                        <span className="text-xs text-white">{cab.type}</span>
-                                                                    </div>
-                                                                    <p className="text-[10px] text-emerald-400">{cab.eta} away</p>
-                                                                </div>
+                                                                    <span className="text-xs text-white/60">{reason}</span>
+                                                                </motion.div>
                                                             ))}
                                                         </div>
-                                                    </div>
-                                                </motion.div>
-                                            )}
+                                                    </motion.div>
+                                                )}
+                                            </AnimatePresence>
+                                        </div>
+                                    </div>
 
-                                            {selectedMode === "bus" && (
-                                                <motion.div
-                                                    key="bus"
-                                                    initial={{ opacity: 0, x: 20 }}
-                                                    animate={{ opacity: 1, x: 0 }}
-                                                    exit={{ opacity: 0, x: -20 }}
-                                                    transition={{ duration: 0.5, ease: appleEase }}
-                                                    className="flex-1 flex flex-col gap-4 pr-2"
+                                    {/* ── ALTERNATE ROUTES (visually separated) ── */}
+                                    {otherRoutes.length > 0 && (
+                                        <div className="w-full">
+                                            <div className="flex items-center justify-between mb-5">
+                                                <h3 className="text-sm font-semibold text-white/80 uppercase tracking-wider">Other Routes</h3>
+                                                <button
+                                                    type="button"
+                                                    onClick={() => setCompareMode(!compareMode)}
+                                                    className="flex items-center gap-1.5 text-[11px] text-white/35 hover:text-white/55 transition-colors duration-300"
                                                 >
-                                                    <div className="flex justify-between items-center mb-2">
-                                                        <h2 className="text-2xl font-semibold text-white tracking-tight">Available Buses</h2>
-                                                        <Popover>
-                                                            <PopoverTrigger asChild>
-                                                                <Button variant="outline" size="sm" className="h-8 border-white/10 bg-white/5 text-white hover:bg-white/10 text-xs gap-2">
-                                                                    <Filter className="w-3 h-3" /> Filters
-                                                                    {Object.values(activeFilters).flat().length > 0 && (
-                                                                        <span className="bg-primary text-white text-[10px] px-1.5 py-0.5 rounded-full">
-                                                                            {Object.values(activeFilters).flat().length}
-                                                                        </span>
+                                                    <Gauge className="h-3 w-3" />
+                                                    {compareMode ? "Exit Comparison" : "Compare All Routes"}
+                                                </button>
+                                            </div>
+
+                                            <AnimatePresence mode="wait">
+                                                {compareMode ? (
+                                                    /* ── COMPARISON MODE ── */
+                                                    <motion.div
+                                                        key="compare"
+                                                        initial={{ opacity: 0, y: 10 }}
+                                                        animate={{ opacity: 1, y: 0 }}
+                                                        exit={{ opacity: 0, y: -10 }}
+                                                        transition={{ duration: 0.4, ease: appleEase }}
+                                                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 items-start"
+                                                    >
+                                                        {[mainRoute, ...otherRoutes].map((route) => {
+                                                            const isPrimary = route.id === mainRoute.id;
+                                                            return (
+                                                                <motion.div
+                                                                    layout
+                                                                    key={route.id}
+                                                                    className={cn(
+                                                                        "rounded-xl border transition-all duration-300 cursor-pointer",
+                                                                        isPrimary
+                                                                            ? "bg-white/[0.04] border-primary/20 p-6 shadow-[0_0_30px_-8px_rgba(255,145,77,0.12)] hover:scale-[1.015]"
+                                                                            : "bg-white/[0.02] border-white/[0.05] p-5 shadow-[0_4px_16px_-6px_rgba(0,0,0,0.2)] hover:border-white/[0.08] hover:scale-[1.01]"
                                                                     )}
-                                                                </Button>
-                                                            </PopoverTrigger>
-                                                            <PopoverContent className="w-72 sm:w-80 bg-[#0f172a] border-white/10 p-0 text-white">
-                                                                <div className="p-4 border-b border-white/10">
-                                                                    <h4 className="font-semibold">Filters</h4>
-                                                                </div>
-                                                                <div className="p-4 space-y-6 max-h-[60vh] overflow-y-auto">
-                                                                    {FILTER_OPTIONS.bus.map((category) => (
-                                                                        <div key={category.id} className="space-y-3">
-                                                                            <h5 className="text-xs font-medium text-white/40 uppercase tracking-wider">{category.label}</h5>
-                                                                            <div className="flex flex-wrap gap-2">
-                                                                                {category.options.map((opt) => (
-                                                                                    <button
-                                                                                        key={opt}
-                                                                                        onClick={() => toggleFilter(category.id, opt)}
-                                                                                        className={cn(
-                                                                                            "px-3 py-1.5 rounded-lg text-xs font-medium border transition-all",
-                                                                                            activeFilters[category.id]?.includes(opt)
-                                                                                                ? "bg-primary text-white border-primary"
-                                                                                                : "bg-white/5 text-white/80 border-white/10 hover:bg-white/10"
-                                                                                        )}
-                                                                                    >
-                                                                                        {opt}
-                                                                                    </button>
-                                                                                ))}
-                                                                            </div>
+                                                                    onClick={() => { if (!isPrimary) handleRouteSelect(route); }}
+                                                                    onMouseEnter={() => setHoveredRouteId(route.id)}
+                                                                    onMouseLeave={() => setHoveredRouteId(null)}
+                                                                >
+                                                                    <div className="mb-3">
+                                                                        <h4 className={cn("font-semibold text-white mb-1", isPrimary ? "text-sm" : "text-[13px]")}>{route.name}</h4>
+                                                                        <div className="flex flex-wrap gap-1">
+                                                                            {route.badges.map((b, i) => (
+                                                                                <span key={i} className="inline-flex items-center gap-1 text-[10px] bg-white/5 px-1.5 py-0.5 rounded text-white/60">
+                                                                                    <span className="leading-none">{b.emoji}</span>
+                                                                                    <span>{b.label}</span>
+                                                                                </span>
+                                                                            ))}
                                                                         </div>
-                                                                    ))}
-                                                                </div>
-                                                                <div className="p-4 border-t border-white/10 bg-white/5 flex justify-between items-center">
-                                                                    <button
-                                                                        onClick={() => setActiveFilters({})}
-                                                                        className="text-xs text-white/60 hover:text-white transition-colors"
-                                                                    >
-                                                                        Clear all
-                                                                    </button>
-                                                                    <Button size="sm" className="h-8 bg-primary hover:bg-primary/90 text-white text-xs">
-                                                                        Apply
-                                                                    </Button>
-                                                                </div>
-                                                            </PopoverContent>
-                                                        </Popover>
-                                                    </div>
-                                                    {mockBuses.filter(bus => {
-                                                        if (activeFilters.type?.length && !activeFilters.type.some(t => bus.type.includes(t))) return false;
-                                                        if (activeFilters.operator?.length && !activeFilters.operator.includes(bus.operator)) return false;
-                                                        return true;
-                                                    }).map((bus) => (
-                                                        <motion.div
-                                                            layout
-                                                            initial={{ opacity: 0, scale: 0.95 }}
-                                                            animate={{ opacity: 1, scale: 1 }}
-                                                            key={bus.id}
-                                                            className="bg-white/[0.03] rounded-2xl p-5 border border-white/[0.05] hover:bg-white/[0.05] transition-all group"
-                                                        >
-                                                            <div className="flex justify-between items-start mb-4">
-                                                                <div>
-                                                                    <h3 className="text-lg font-medium text-white group-hover:text-primary transition-colors">{bus.operator}</h3>
-                                                                    <p className="text-sm text-white/40">{bus.type}</p>
-                                                                </div>
-                                                                <div className="text-right">
-                                                                    <p className="text-xl font-bold text-white">{bus.price}</p>
-                                                                    <div className="flex items-center justify-end gap-1 text-emerald-400">
-                                                                        <span className="text-xs font-medium">{bus.rating}</span>
-                                                                        <span className="text-[10px]">★</span>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="flex items-center justify-between text-sm text-white/60 bg-white/[0.02] p-3 rounded-xl">
-                                                                <div className="text-center">
-                                                                    <p className="text-white font-medium">{bus.departure}</p>
-                                                                    <p className="text-[10px] uppercase tracking-wider opacity-60">Departs</p>
-                                                                </div>
-                                                                <div className="flex flex-col items-center px-4">
-                                                                    <p className="text-[10px] text-white/30 mb-1">{bus.duration}</p>
-                                                                    <div className="w-16 h-[1px] bg-white/10 relative">
-                                                                        <div className="absolute -top-1 right-0 w-2 h-2 border-t border-r border-white/20 rotate-45" />
-                                                                    </div>
-                                                                </div>
-                                                                <div className="text-center">
-                                                                    <p className="text-white font-medium">{bus.arrival}</p>
-                                                                    <p className="text-[10px] uppercase tracking-wider opacity-60">Arrives</p>
-                                                                </div>
-                                                            </div>
-                                                        </motion.div>
-                                                    ))}
-                                                </motion.div>
-                                            )}
-
-                                            {selectedMode === "transit" && (
-                                                <motion.div
-                                                    key="train"
-                                                    initial={{ opacity: 0, x: 20 }}
-                                                    animate={{ opacity: 1, x: 0 }}
-                                                    exit={{ opacity: 0, x: -20 }}
-                                                    transition={{ duration: 0.5, ease: appleEase }}
-                                                    className="flex-1 flex flex-col gap-4 pr-2"
-                                                >
-                                                    <div className="flex flex-col gap-4">
-                                                        <div className="flex justify-between items-center">
-                                                            <h2 className="text-2xl font-semibold text-white tracking-tight">Trains</h2>
-                                                            <Popover>
-                                                                <PopoverTrigger asChild>
-                                                                    <Button variant="outline" size="sm" className="h-8 border-white/10 bg-white/5 text-white hover:bg-white/10 text-xs gap-2">
-                                                                        <Filter className="w-3 h-3" /> Filters
-                                                                        {Object.values(activeFilters).flat().length > 0 && (
-                                                                            <span className="bg-primary text-white text-[10px] px-1.5 py-0.5 rounded-full">
-                                                                                {Object.values(activeFilters).flat().length}
-                                                                            </span>
-                                                                        )}
-                                                                    </Button>
-                                                                </PopoverTrigger>
-                                                                <PopoverContent className="w-72 sm:w-80 bg-[#0f172a] border-white/10 p-0 text-white">
-                                                                    <div className="p-4 border-b border-white/10">
-                                                                        <h4 className="font-semibold">Filters</h4>
-                                                                    </div>
-                                                                    <div className="p-4 space-y-6 max-h-[60vh] overflow-y-auto">
-                                                                        {FILTER_OPTIONS.transit.map((category) => (
-                                                                            <div key={category.id} className="space-y-3">
-                                                                                <h5 className="text-xs font-medium text-white/40 uppercase tracking-wider">{category.label}</h5>
-                                                                                <div className="flex flex-wrap gap-2">
-                                                                                    {category.options.map((opt) => (
-                                                                                        <button
-                                                                                            key={opt}
-                                                                                            onClick={() => toggleFilter(category.id, opt)}
-                                                                                            className={cn(
-                                                                                                "px-3 py-1.5 rounded-lg text-xs font-medium border transition-all",
-                                                                                                activeFilters[category.id]?.includes(opt)
-                                                                                                    ? "bg-primary text-white border-primary"
-                                                                                                    : "bg-white/5 text-white/80 border-white/10 hover:bg-white/10"
-                                                                                            )}
-                                                                                        >
-                                                                                            {opt}
-                                                                                        </button>
-                                                                                    ))}
-                                                                                </div>
-                                                                            </div>
-                                                                        ))}
-                                                                    </div>
-                                                                    <div className="p-4 border-t border-white/10 bg-white/5 flex justify-between items-center">
-                                                                        <button
-                                                                            onClick={() => setActiveFilters({})}
-                                                                            className="text-xs text-white/60 hover:text-white transition-colors"
-                                                                        >
-                                                                            Clear all
-                                                                        </button>
-                                                                        <Button size="sm" className="h-8 bg-primary hover:bg-primary/90 text-white text-xs">
-                                                                            Apply
-                                                                        </Button>
-                                                                    </div>
-                                                                </PopoverContent>
-                                                            </Popover>
-                                                        </div>
-                                                    </div>
-                                                    {mockTrains.filter(train => {
-                                                        if (activeFilters.class?.length && !activeFilters.class.some(c => train.classes.some(cls => cls.name === c))) return false;
-                                                        return true;
-                                                    }).map((train) => (
-                                                        <motion.div
-                                                            layout
-                                                            initial={{ opacity: 0, scale: 0.95 }}
-                                                            animate={{ opacity: 1, scale: 1 }}
-                                                            key={train.id}
-                                                            className="bg-white/[0.03] rounded-2xl p-5 border border-white/[0.05] hover:bg-white/[0.05] transition-all"
-                                                        >
-                                                            <div className="flex justify-between items-start mb-4">
-                                                                <div>
-                                                                    <div className="flex items-center gap-2 mb-1">
-                                                                        <h3 className="text-lg font-medium text-white">{train.name}</h3>
-                                                                        <span className="text-xs bg-white/10 px-1.5 py-0.5 rounded text-white/60">{train.number}</span>
-                                                                    </div>
-                                                                    <div className="flex items-center gap-2 text-sm text-white/40">
-                                                                        <span>{train.departure}</span>
-                                                                        <span className="text-white/20">•</span>
-                                                                        <span>{train.duration}</span>
-                                                                        <span className="text-white/20">•</span>
-                                                                        <span>{train.arrival}</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="grid grid-cols-4 gap-2">
-                                                                {train.classes.map((cls, idx) => (
-                                                                    <div key={idx} className={cn(
-                                                                        "bg-white/[0.02] p-2 rounded-lg border border-white/[0.05] hover:border-primary/30 hover:bg-primary/5 transition-colors cursor-pointer text-center group/cls",
-                                                                        activeFilters.class?.includes(cls.name) && "border-primary/50 bg-primary/10"
-                                                                    )}>
-                                                                        <div className="flex justify-between items-center mb-1">
-                                                                            <span className="text-xs font-bold text-white group-hover/cls:text-primary">{cls.name}</span>
-                                                                            <span className={cn("text-[10px]", cls.available.includes("AVL") ? "text-emerald-400" : "text-amber-400")}>
-                                                                                {cls.available}
+                                                                    <p className={cn("font-bold text-white tracking-tight", isPrimary ? "text-2xl" : "text-xl")}>{route.time}</p>
+                                                                    <p className="text-xs text-white/25 mb-3">{route.distance}</p>
+                                                                    <div className="space-y-3">
+                                                                        <SafetyBar score={route.safetyScore} size="sm" />
+                                                                        <div className="flex items-center justify-between">
+                                                                            <span className="text-[10px] text-white/30 uppercase tracking-wider">Traffic</span>
+                                                                            <span className={cn("text-[10px] font-semibold px-2 py-0.5 rounded border min-w-[48px] text-center", trafficLevelColor(route.trafficLevel))}>
+                                                                                {route.trafficLevel}
                                                                             </span>
                                                                         </div>
-                                                                        <p className="text-sm font-medium text-white/80">{cls.price}</p>
                                                                     </div>
-                                                                ))}
-                                                            </div>
-                                                        </motion.div>
-                                                    ))}
-                                                </motion.div>
-                                            )}
-
-                                            {selectedMode === "flight" && (
-                                                <motion.div
-                                                    key="flight"
-                                                    initial={{ opacity: 0, x: 20 }}
-                                                    animate={{ opacity: 1, x: 0 }}
-                                                    exit={{ opacity: 0, x: -20 }}
-                                                    transition={{ duration: 0.5, ease: appleEase }}
-                                                    className="flex-1 flex flex-col gap-4 pr-2"
-                                                >
-                                                    <div className="flex justify-between items-center mb-2">
-                                                        <h2 className="text-2xl font-semibold text-white tracking-tight">Flights</h2>
-                                                        <Popover>
-                                                            <PopoverTrigger asChild>
-                                                                <Button variant="outline" size="sm" className="h-8 border-white/10 bg-white/5 text-white hover:bg-white/10 text-xs gap-2">
-                                                                    <Filter className="w-3 h-3" /> Filters
-                                                                    {Object.values(activeFilters).flat().length > 0 && (
-                                                                        <span className="bg-primary text-white text-[10px] px-1.5 py-0.5 rounded-full">
-                                                                            {Object.values(activeFilters).flat().length}
-                                                                        </span>
-                                                                    )}
-                                                                </Button>
-                                                            </PopoverTrigger>
-                                                            <PopoverContent className="w-72 sm:w-80 bg-[#0f172a] border-white/10 p-0 text-white">
-                                                                <div className="p-4 border-b border-white/10">
-                                                                    <h4 className="font-semibold">Filters</h4>
-                                                                </div>
-                                                                <div className="p-4 space-y-6 max-h-[60vh] overflow-y-auto">
-                                                                    {FILTER_OPTIONS.flight.map((category) => (
-                                                                        <div key={category.id} className="space-y-3">
-                                                                            <h5 className="text-xs font-medium text-white/40 uppercase tracking-wider">{category.label}</h5>
-                                                                            <div className="flex flex-wrap gap-2">
-                                                                                {category.options.map((opt) => (
-                                                                                    <button
-                                                                                        key={opt}
-                                                                                        onClick={() => toggleFilter(category.id, opt)}
-                                                                                        className={cn(
-                                                                                            "px-3 py-1.5 rounded-lg text-xs font-medium border transition-all",
-                                                                                            activeFilters[category.id]?.includes(opt)
-                                                                                                ? "bg-primary text-white border-primary"
-                                                                                                : "bg-white/5 text-white/80 border-white/10 hover:bg-white/10"
-                                                                                        )}
-                                                                                    >
-                                                                                        {opt}
-                                                                                    </button>
-                                                                                ))}
-                                                                            </div>
-                                                                        </div>
-                                                                    ))}
-                                                                </div>
-                                                                <div className="p-4 border-t border-white/10 bg-white/5 flex justify-between items-center">
-                                                                    <button
-                                                                        onClick={() => setActiveFilters({})}
-                                                                        className="text-xs text-white/60 hover:text-white transition-colors"
-                                                                    >
-                                                                        Clear all
-                                                                    </button>
-                                                                    <Button size="sm" className="h-8 bg-primary hover:bg-primary/90 text-white text-xs">
-                                                                        Apply
-                                                                    </Button>
-                                                                </div>
-                                                            </PopoverContent>
-                                                        </Popover>
-                                                    </div>
-                                                    {mockFlights.filter(flight => {
-                                                        if (activeFilters.airline?.length && !activeFilters.airline.includes(flight.airline)) return false;
-                                                        if (activeFilters.stops?.length && !activeFilters.stops.includes(flight.stops)) return false;
-                                                        return true;
-                                                    }).map((flight) => (
-                                                        <motion.div
-                                                            layout
-                                                            initial={{ opacity: 0, scale: 0.95 }}
-                                                            animate={{ opacity: 1, scale: 1 }}
-                                                            key={flight.id}
-                                                            className="bg-white/[0.03] rounded-2xl p-5 border border-white/[0.05] hover:bg-white/[0.05] transition-all group"
-                                                        >
-                                                            <div className="flex justify-between items-start mb-4">
-                                                                <div className="flex items-center gap-3">
-                                                                    <div className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center">
-                                                                        <Plane className="h-5 w-5 text-white/60" />
-                                                                    </div>
-                                                                    <div>
-                                                                        <h3 className="text-lg font-medium text-white">{flight.airline}</h3>
-                                                                        <p className="text-xs text-white/40">{flight.number}</p>
-                                                                    </div>
-                                                                </div>
-                                                                <p className="text-xl font-bold text-white group-hover:text-primary transition-colors">{flight.price}</p>
-                                                            </div>
-                                                            <div className="flex items-center justify-between bg-white/[0.02] p-4 rounded-xl border border-white/[0.02]">
-                                                                <div className="text-center">
-                                                                    <p className="text-xl font-medium text-white">{flight.departure}</p>
-                                                                    <p className="text-xs text-white/40">DEL</p>
-                                                                </div>
-                                                                <div className="flex flex-col items-center px-6 flex-1">
-                                                                    <p className="text-[10px] text-white/40 mb-1">{flight.duration}</p>
-                                                                    <div className="w-full h-[1px] bg-white/10 relative flex items-center justify-center">
-                                                                        <Plane className="h-3 w-3 text-white/20 rotate-90 absolute" />
-                                                                    </div>
-                                                                    <p className="text-[10px] text-emerald-400 mt-1">{flight.stops}</p>
-                                                                </div>
-                                                                <div className="text-center">
-                                                                    <p className="text-xl font-medium text-white">{flight.arrival}</p>
-                                                                    <p className="text-xs text-white/40">BOM</p>
-                                                                </div>
-                                                            </div>
-                                                        </motion.div>
-                                                    ))}
-                                                </motion.div>
-                                            )}
-                                        </AnimatePresence>
-
-                                        {selectedMode === "drive" && (
-                                            <div className="mt-6 pt-4 border-t border-white/5 shrink-0">
-                                                <h3 className="text-base font-semibold text-white mb-3 tracking-tight">Other Routes</h3>
-                                                <div className="grid grid-cols-2 gap-3">
-                                                    <AnimatePresence mode="popLayout">
+                                                                    <p className="text-[9px] text-white/15 mt-2.5">{route.highwayLabel}</p>
+                                                                </motion.div>
+                                                            );
+                                                        })}
+                                                    </motion.div>
+                                                ) : (
+                                                    /* ── STACKED LIST MODE ── */
+                                                    <motion.div
+                                                        key="list"
+                                                        initial={{ opacity: 0, y: 10 }}
+                                                        animate={{ opacity: 1, y: 0 }}
+                                                        exit={{ opacity: 0, y: -10 }}
+                                                        transition={{ duration: 0.4, ease: appleEase }}
+                                                        className="grid grid-cols-1 sm:grid-cols-2 gap-4"
+                                                    >
                                                         {otherRoutes.map((route) => (
                                                             <motion.div
                                                                 layout
-                                                                initial={{ opacity: 0, scale: 0.9 }}
+                                                                initial={{ opacity: 0, scale: 0.95 }}
                                                                 animate={{ opacity: 1, scale: 1 }}
-                                                                exit={{ opacity: 0, scale: 0.9 }}
                                                                 transition={{ duration: 0.4, ease: appleEase }}
                                                                 key={route.id}
                                                                 onClick={() => handleRouteSelect(route)}
-                                                                className="bg-white/[0.02] rounded-xl p-4 border border-white/[0.05] hover:bg-white/[0.04] transition-colors duration-300 cursor-pointer group/route relative overflow-hidden"
+                                                                onMouseEnter={() => setHoveredRouteId(route.id)}
+                                                                onMouseLeave={() => setHoveredRouteId(null)}
+                                                                className="bg-white/[0.02] rounded-xl p-5 border border-white/[0.05] hover:bg-white/[0.035] hover:border-white/[0.08] hover:scale-[1.01] transition-all duration-300 cursor-pointer group/route relative overflow-hidden shadow-[0_4px_20px_-8px_rgba(0,0,0,0.25)]"
                                                             >
-                                                                <div className="flex justify-between items-start mb-2 relative z-10">
-                                                                    <motion.h4 layoutId={`name-${route.id}`} className="font-medium text-white text-sm">{route.name}</motion.h4>
-                                                                    <motion.span layoutId={`tag-${route.id}`} className={cn("text-[10px] font-medium px-1.5 py-0.5 rounded-md bg-white/5 uppercase tracking-wider", route.tagColor)}>
-                                                                        {route.tag}
-                                                                    </motion.span>
-                                                                </div>
-                                                                <div className="flex items-end justify-between relative z-10">
+                                                                <div className="flex justify-between items-start mb-3 relative z-10">
                                                                     <div>
-                                                                        <motion.p layoutId={`time-${route.id}`} className="text-xl font-semibold text-white tracking-tight">{route.time}</motion.p>
-                                                                        <p className="text-xs text-white/40 font-light">{route.distance}</p>
+                                                                        <h4 className="font-semibold text-white text-sm mb-1">{route.name}</h4>
+                                                                        <div className="flex gap-1">
+                                                                            {route.badges.map((b, i) => (
+                                                                                <span key={i} className="inline-flex items-center gap-1 text-[10px] bg-white/5 px-1.5 py-0.5 rounded text-white/50">
+                                                                                    <span className="leading-none">{b.emoji}</span>
+                                                                                    <span>{b.label}</span>
+                                                                                </span>
+                                                                            ))}
+                                                                        </div>
                                                                     </div>
                                                                     <div className="p-1.5 rounded-full bg-white/5 group-hover/route:bg-white/10 transition-colors">
-                                                                        <ArrowRight className="h-3 w-3 text-white/60" />
+                                                                        <ArrowRight className="h-3 w-3 text-white/60 group-hover/route:text-white transition-colors" />
                                                                     </div>
+                                                                </div>
+                                                                <div className="relative z-10">
+                                                                    <p className="text-2xl font-bold text-white tracking-tight">{route.time}</p>
+                                                                    <p className="text-xs text-white/30 mb-3">{route.distance}</p>
+                                                                    <SafetyBar score={route.safetyScore} size="sm" />
+                                                                    <div className="flex items-center justify-between mt-3">
+                                                                        <span className="text-[10px] text-white/30 uppercase tracking-wider">Traffic</span>
+                                                                        <span className={cn("text-[10px] font-semibold px-2 py-0.5 rounded border min-w-[48px] text-center", trafficLevelColor(route.trafficLevel))}>
+                                                                            {route.trafficLevel}
+                                                                        </span>
+                                                                    </div>
+                                                                    <p className="text-[9px] text-white/15 mt-3">{route.highwayLabel}</p>
                                                                 </div>
                                                             </motion.div>
                                                         ))}
-                                                    </AnimatePresence>
-                                                </div>
-                                            </div>
-                                        )}
-                                    </motion.div>
-                                )}
-                            </AnimatePresence>
+                                                    </motion.div>
+                                                )}
+                                            </AnimatePresence>
+                                        </div>
+                                    )}
+                                </motion.div>
+                            )}
                         </div>
                     </motion.div>
                 </motion.div>

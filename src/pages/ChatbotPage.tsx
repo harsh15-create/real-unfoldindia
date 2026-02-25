@@ -284,7 +284,7 @@ const ChatbotPage = () => {
                                         <div className="prose prose-sm dark:prose-invert max-w-none text-sm break-words">
                                             <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.text}</ReactMarkdown>
                                         </div>
-                                        {msg.action === 'itinerary' && (
+                                        {msg.sender === 'ai' && messages.filter(m => m.sender === 'ai').indexOf(msg) === 0 && (
                                             <Button variant="outline" size="sm" className="mt-3 w-full border-primary/20 hover:bg-primary/5 text-primary" onClick={() => setShowItineraryPopup(true)}>
                                                 <Sparkles className="mr-2 h-4 w-4" /> Instant Itinerary
                                             </Button>
